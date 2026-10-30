@@ -3,6 +3,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { AFFIXES } from "../data/affixes.js";
 import { blobToDataUrl } from "../lib/store.js";
+import SYSTEM_PROMPT from "../../aivault/prompts/tooltip-reader.system.md?raw";
 
 const SCHEMA = {
   type: "object",
@@ -35,11 +36,8 @@ const SCHEMA = {
   },
 };
 
-const SYSTEM = `You read Diablo IV item tooltip screenshots and return the item as JSON.
-Copy numbers exactly. Map each affix line to the closest key; use "other" when none fits.
-"Primary Core Stat" and Willpower both map to willpower. Ranks lines like "+2 to Hellfire Skills" map to the ranks keys.
-Weapon base lines (damage per hit, attacks per second) and the armour total are kind "implicit".
-If the image has no Diablo IV item tooltip, return an empty name and no affixes.`;
+// The prompt lives in the docs vault, which is the source of truth for every prompt (see aivault/prompts/).
+const SYSTEM = SYSTEM_PROMPT.trim();
 
 export async function claudeItem(blob, { apiKey, model }, progress) {
   const client = new Anthropic({ apiKey, dangerouslyAllowBrowser: true, maxRetries: 1 });

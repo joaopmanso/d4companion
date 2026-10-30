@@ -45,6 +45,8 @@ The key stays in your browser's local storage, is sent only to `api.anthropic.co
 
 ## Development
 
+Contributor and AI-session docs (architecture, data model, roadmap, decisions, prompts) live in [`aivault/`](aivault/README.md). Keep them current in the same PR as the code; `npm test` checks coverage.
+
 ```bash
 npm install
 npm run dev      # http://localhost:5173

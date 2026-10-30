@@ -1,0 +1,51 @@
+# Data model
+
+## Browser storage
+| Where | Key | Holds |
+|---|---|---|
+| `localStorage` | `d4c.v1` | `{ activeId, characters: Character[], settings }` |
+| `localStorage` | theme key (see `src/lib/theme.js`) | `dark` / `light` / `system` |
+| IndexedDB | database `d4c-shots`, store `shots` | Screenshot blobs, keyed by the id saved in `item.shot` |
+
+Backups (Export/Import) are one JSON file with the state plus screenshots as data URLs. Never commit them: `.gitignore` blocks `*.backup.json` and `d4companion-*.json`.
+
+## Settings
+`{ engine: "auto" | "ocr" | "claude", model: "claude-opus-5-5" | "claude-sonnet-5-5" | "claude-haiku-5-5", apiKey?: string }`. The API key is never exported or shared.
+
+## Character
+```js
+{ id, name, className, buildId,            // buildId = synced guide id (public/data/guides/<id>.json)
+  gear: { [slotId]: Item },                 // slotId: helm chest gloves pants boots amulet ring1 ring2 weapon offhand, or a guide weapon slot
+  talisman: { seal, charms: [6] },
+  stats: {}, skillTree?, paragon? }
+```
+
+## Item
+Produced by the readers or the form, and stored in `gear`.
+```js
+{ name, rarity: "mythic"|"unique"|"legendary"|"rare"|"magic", ancestral, itemPower, type, slot,
+  affixes: [{ text: "+12.5% Critical Strike Chance", key: "critChance" | "ranks:<slug>" | null,
+              kind: "affix"|"temper"|"implicit", ga: bool, enchanted?: bool }],
+  power,      // unique or mythic power text
+  aspect,     // legendary aspect text. Free OCR prefixes the aspect's name when it recognises it: "Aspect of Ignition: …"
+  sockets: [string], shot?, updated?,
+  engine?, rawText?, warning?, usage? }   // reader metadata, stripped before saving
+```
+Affix keys come from `src/data/affixes.js` (`matchAffix`). The evaluator matches guide items by name, and aspects by name or text, against `` `${name} ${aspect} ${power}` ``.
+
+## Build (in memory, from `toBuild` in `src/data/guides.js`)
+```js
+{ id, name, variant, className, season,
+  guide: { site, url, variant, checked, updated },
+  slots: { [slotId]: { item: { name, match: RegExp, type: "aspect"|"unique"|"mythic"|…, rarity, source, art, tip },
+                       affixes: [key], tempers: [[key, recipe]], sockets, socketArt, note } },
+  runes, talisman, skills, paragon, stats, links,
+  catalog }   // added in main.js from class-<class>.json
+```
+
+## Synced files (`public/data/`, written by `npm run sync`)
+- `guides.json`: `{ updated, classes: [{ name, emblem }], tiers: [{ tier, builds: [{ name, className, icon, url }] }], guides: [{ id, className, short, tier, icon, … }] }`
+- `guides/<id>.json`: `{ id, site, className, build, variant, url, updated, checked, tier, short, slots: { [slotId]: { name, item: { name, kind, rarity, art, tip }, affixes, affixNames, tempers, aspects, sockets, socketArt } }, runes, talisman, skills, paragon }`
+- `class-<class>.json`: `{ className, captured, tree: { nodes: [{ key, x, y, kind: category|skill|mod|upgrade, name, icon, … }] }, boards, glyphs, tips, catalog: { items: { [name]: { art, rarity, kind: unique|mythic|legendary|aspect|runeword, slot, tip } }, charms, seals, runes, gems } }`
+
+A catalog `tip` has a fixed layout: name, then the type line ("Unique Helm", "Codex • Warlock"), then affix names and power text. `src/recognize/vocab.js` relies on that layout.
