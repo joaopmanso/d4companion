@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env*
+
+# Personal exports and backups: never committed
+private/
+*.backup.json
+d4companion-*.json
