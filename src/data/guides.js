@@ -17,6 +17,8 @@ const LEGACY = { "blazing-scream-warlock": DEFAULT_GUIDE };
 
 export const loadIndex = () => getJson("data/guides.json");
 export const loadClass = (className) => getJson(`data/class-${className.toLowerCase()}.json`);
+// Every known item across classes, for the screenshot reader (written by scripts/build-items.mjs).
+export const loadItems = () => getJson("data/items.json");
 
 const slug = (s) => String(s).toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");

@@ -13,3 +13,4 @@ ADRs 0001–0003 and 0005–0006 were recorded after the fact, from the code and
 | [0005](0005-share-links-worker.md) | Share links via a Cloudflare Worker, with a packed-URL fallback | Accepted |
 | [0006](0006-static-github-pages.md) | Static Vite build on GitHub Pages, no framework | Accepted |
 | [0007](0007-aivault-source-of-truth.md) | `aivault/` is the source of truth for AI sessions and prompts | Accepted |
+| [0008](0008-identify-items-from-catalog.md) | Identify items by name from one all-class catalog (`items.json`) | Accepted |

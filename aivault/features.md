@@ -12,7 +12,7 @@ Status: ✅ shipped · 🧪 shipped, needs real-world tuning · 🗺️ planned 
 | Gear stat totals and guide fit | ✅ | `lib/gearstats.js` | Multipliers are summed roughly. |
 | Item check: paste (`Ctrl+V`) or drop a screenshot, then a verdict and actions, then Equip | ✅ | `views/check.js`, `evaluate.js` | |
 | Item check for charms and seals: talisman verdict, set count, "Put in talisman" | ✅ | `views/check.js`, `lib/talisman.js` | Fills the first empty socket, else replaces the first charm the guide doesn't use. |
-| Free OCR reader (Tesseract) | 🧪 | `recognize/ocr.js`, `parse.js`, `vocab.js`, `fuzzy.js` | Lines are snapped to the game's vocabulary. Rendered test tooltips score 100%; one real screenshot so far (a set charm on a green plate) reads fully. Can't see Greater Affix stars or temper icons, so the 5th and later affixes are guessed as tempers. |
+| Free OCR reader (Tesseract) | 🧪 | `recognize/ocr.js`, `parse.js`, `vocab.js`, `fuzzy.js` | Uniques, mythics, charms and seals are identified by name from `items.json` (162 uniques and mythics, 207 charms), then lines are snapped to the game's vocabulary. Rendered test tooltips score 100%. Two real screenshots (a set charm, and Moloch's Beating Flame with a wrapped type line) read fully. Can't see Greater Affix stars or temper icons, so the 5th and later affixes are guessed as tempers. |
 | Claude reader (player's own API key) | ✅ | `recognize/claude.js`, prompt in `aivault/prompts/` | Opus, Sonnet or Haiku 5.5. Falls back to OCR on error. |
 | Skill tree: compact and full, Mine and Guide | ✅ | `views/skills.js` | |
 | Paragon boards: tile art, rotation, Mine and Guide | ✅ | `views/paragon.js` | |

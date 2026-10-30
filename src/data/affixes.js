@@ -24,7 +24,7 @@ export const AFFIXES = [
   { key: "maxWrath", label: "Maximum Wrath", re: /maximum wrath|maximum primary resource/i },
   { key: "movementSpeed", label: "Movement Speed", re: /movement speed/i },
   { key: "damageReduction", label: "Damage Reduction", re: /damage reduction/i },
-  { key: "resAll", label: "Resistance to All Elements", re: /resistance to all elements|all resistances?/i },
+  { key: "resAll", label: "Resistance to All Elements", re: /resistance to all elements|all resist(ances?)?\b/i },
   { key: "fireRes", label: "Fire Resistance", re: /fire resistance/i },
   { key: "lightningRes", label: "Lightning Resistance", re: /lightning resistance/i },
   { key: "coldRes", label: "Cold Resistance", re: /cold resistance/i },

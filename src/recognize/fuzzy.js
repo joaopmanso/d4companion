@@ -55,7 +55,7 @@ export function nameIn(text, names) {
     let j = 0, total = 0;
     for (const w of want) {
       let k = j;
-      while (k < raw.length && similarity(raw[k], w) < (w.length <= 3 ? 1 : 0.7)) k++;
+      while (k < raw.length && similarity(raw[k], w) < (w.length <= 2 ? 1 : w.length === 3 ? 0.66 : 0.7)) k++;
       if (k === raw.length) { total = -1; break; }
       total += similarity(raw[k], w);
       j = k + 1;

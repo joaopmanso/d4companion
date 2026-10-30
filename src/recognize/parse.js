@@ -8,7 +8,7 @@ import { slotFromType } from "../data/slots.js";
 import { closest, nameIn, norm, similarity, wordOverlap } from "./fuzzy.js";
 import { BASE_VOCAB, RARITIES, NOISE_PHRASES } from "./vocab.js";
 
-const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|unique|legendary|rare|magic|common|set)\s+([a-z0-9][a-z0-9\s-]{1,30})$/i;
+const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|mythic|unique|legendary|rare|magic|common|set)\s+([a-z0-9][a-z0-9\s-]{1,30})$/i;
 // "800 Item Power", and the misreads "8OO ltem Power", "800 Item P0wer".
 const POWER_RE = /([\dOoIl|]{3,4})\s*\+?\s*[il1|]tem\s*p[o0]wer/i;
 // Roll ranges after a value: "[8.0 - 12.5]%", "(8.0-12.5)", or one OCR cut off before its bracket closed.
@@ -53,15 +53,16 @@ export function splitStat(line) {
 
 // Snaps stat words onto a known affix ("Critcal Strike Chanee" → "Critical Strike Chance"), or onto a skill
 // for rank lines ("to Blazinq Scream" → "to Blazing Scream").
-function snapStat(stat, vocab) {
+function snapStat(stat, vocab, trim = true) {
   const rank = stat.match(/^(ranks?\s+)?(t[o0]|of)\s+(.+)$/i);
   if (rank) {
     const skill = closest(rank[3], vocab.skills, 0.75) || closest(rank[3], vocab.affixes.filter((a) => /skills$/i.test(a)), 0.75);
     if (skill) return { phrase: `${rank[1] ? "Ranks " : ""}to ${skill.value}`, score: skill.score };
   }
   // Stray marks after the stat ("Strength i:", "Attack Speed 11 111i") are dropped a word at a time.
+  // Only for lines with a value: a power line like "Hellfire Skills deal 39%" must not shrink to "Hellfire Skills".
   const words = stat.split(" ");
-  for (let n = words.length; n >= Math.max(1, words.length - 3); n--) {
+  for (let n = words.length; n >= (trim ? Math.max(1, words.length - 3) : words.length); n--) {
     const hit = closest(words.slice(0, n).join(" "), vocab.affixes, 0.78);
     if (hit) return { phrase: hit.value, score: hit.score };
   }
@@ -77,34 +78,76 @@ const isNoise = (l) => {
 };
 
 // The "Ancestral Legendary Boots" line: exact, or the closest rarity + type pair.
+// The "Ancestral Legendary Boots" line: exact, or the closest rarity + type pair. It can wrap onto two lines
+// ("Ancestral Mythic Unique" / "Amulet"), so each line is also tried joined with the next. `end` is its last line.
 function findRarityLine(lines, vocab) {
-  for (let i = 0; i < lines.length; i++) {
-    const m = lines[i].match(RARITY_RE);
-    if (m && (closest(m[3], vocab.types, 0.75) || slotFromType(m[3]))) {
-      const before = norm(lines[i].slice(0, m.index)).split(" ").pop();
-      const words = norm(lines[i].slice(0, m.index)).split(" ");
-      const mythic = /^unique$/i.test(m[2]) && similarity(words.pop(), "mythic") >= 0.6;
-      return { i, ancestral: !!m[1] || words.concat(before).some((w) => similarity(w, "ancestral") >= 0.7), rarity: mythic ? "mythic unique" : m[2], type: closest(m[3], vocab.types, 0.75)?.value || m[3].trim() };
+  // Single lines first; a joined pair only where the second line holds just the type.
+  const single = lines.map((l, i) => [l, i, i]);
+  const joined = lines.slice(0, -1).map((l, i) => [`${l} ${lines[i + 1]}`, i, i + 1, l.length]);
+  for (const [text, i, end, split] of [...single, ...joined]) {
+    const m = text.match(RARITY_RE);
+    if (m && (split === undefined || m.index < split) && (closest(m[3], vocab.types, 0.75) || slotFromType(m[3]))) {
+      const words = norm(text.slice(0, m.index)).split(" ");
+      const mythic = /^unique$/i.test(m[2]) && similarity(words[words.length - 1], "mythic") >= 0.6;
+      return { i, end, ancestral: !!m[1] || words.some((w) => similarity(w, "ancestral") >= 0.7), rarity: mythic ? "mythic unique" : m[2], type: closest(m[3], vocab.types, 0.75)?.value || m[3].trim() };
     }
   }
-  let best = null;
-  for (let i = 0; i < Math.min(lines.length, 12); i++) {
-    const words = norm(lines[i]).split(" ");
-    const ancestral = similarity(words[0], "ancestral") >= 0.7;
-    const rest = (ancestral ? words.slice(1) : words).join(" ");
-    for (const rarity of RARITIES) {
-      const rn = norm(rarity);
-      const rWords = rn.split(" ").length;
-      const head = rest.split(" ").slice(0, rWords).join(" ");
-      const rs = similarity(head, rn);
-      if (rs < 0.7) continue;
-      const type = closest(rest.split(" ").slice(rWords).join(" "), vocab.types, 0.7);
-      if (!type) continue;
-      const score = (rs + type.score) / 2;
-      if (!best || score > best.score) best = { i, ancestral, rarity, type: type.value, score };
+  for (const views of [single.slice(0, 12), joined.slice(0, 12)]) {
+    let best = null;
+    for (const [text, i, end] of views) {
+      const words = norm(text).split(" ");
+      const ancestral = similarity(words[0], "ancestral") >= 0.7;
+      const rest = (ancestral ? words.slice(1) : words).join(" ");
+      for (const rarity of RARITIES) {
+        const rn = norm(rarity);
+        const rWords = rn.split(" ").length;
+        const rs = similarity(rest.split(" ").slice(0, rWords).join(" "), rn);
+        if (rs < 0.7) continue;
+        const type = closest(rest.split(" ").slice(rWords).join(" "), vocab.types, 0.7);
+        if (!type) continue;
+        const score = (rs + type.score) / 2;
+        if (!best || score > best.score) best = { i, end, ancestral, rarity, type: type.value, score };
+      }
+    }
+    if (best) return best;
+  }
+  return null;
+}
+
+// Uniques, mythics, charms and seals have fixed names, so the item is found by name in the catalog first;
+// its rarity, type and slot then come from the catalog rather than from OCR. Name lines carry junk from the
+// item art beside them, so a name is tried as a whole and word by word (nameIn).
+function identify(nameLines, vocab, typed) {
+  // What the type line allows: a charm or seal, or gear for that slot. Some unique charms share a unique's name.
+  const slot = typed && !typed.talisman ? typed.slot : null;
+  const pool = [
+    ...(typed?.talisman ? [] : vocab.items.filter((it) => !slot || !it.slot || it.slot === slot).map((it) => ({ ...it, what: "item" }))),
+    ...(typed && typed.talisman !== "charm" ? [] : vocab.charms.map((c) => ({ ...c, what: "charm" }))),
+    ...(typed && typed.talisman !== "seal" ? [] : vocab.seals.map((c) => ({ ...c, what: "seal" }))),
+  ];
+  const names = pool.map((p) => p.name);
+  // Every run of name lines, each also without short junk words at its end ("BEATING FLAME mw").
+  const texts = [];
+  for (let a = 0; a < nameLines.length; a++) {
+    for (let b = a + 1; b <= nameLines.length; b++) {
+      const words = nameLines.slice(a, b).join(" ").split(" ").filter(Boolean);
+      texts.push(words.join(" "));
+      for (let n = words.length - 1; n >= Math.max(1, words.length - 2) && words[n].replace(/[^A-Za-z]/g, "").length <= 3; n--) texts.push(words.slice(0, n).join(" "));
     }
   }
-  return best;
+  // With the type line read, the pool is one slot's worth of names, so a looser match is safe.
+  const min = slot || typed?.talisman ? 0.72 : 0.78;
+  let hit = null;
+  for (const t of texts) {
+    const h = closest(t, names, min);
+    if (h && (!hit || h.score > hit.score)) hit = h;
+  }
+  if (!hit) {
+    // Word by word, skipping junk between them. A one-word name must match closely ("Infinite" isn't "Infinity").
+    const loose = nameIn(nameLines.join(" "), names);
+    if (loose && loose.score >= 0.85 && (norm(loose.value).includes(" ") || loose.score >= 0.95)) hit = loose;
+  }
+  return hit ? pool.find((p) => p.name === hit.value) : null;
 }
 
 const SMALL = new Set(["of", "the", "and", "to", "a", "in"]);
@@ -117,58 +160,61 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
   const item = { name: "", rarity: "legendary", ancestral: false, itemPower: null, type: "", slot: null, affixes: [], power: "", aspect: "" };
 
   const r = findRarityLine(lines, vocab);
-  const ri = r ? r.i : -1;
-  let known = null, charm = null;
+  const powerAt = lines.findIndex((l) => POWER_RE.test(l));
+  // The name is the run of lines above the type line (or above Item Power when the type line wasn't read).
+  const top = r ? r.i : powerAt >= 0 ? powerAt : Math.min(lines.length, 3);
+  const nameLines = [];
+  for (let i = top - 1; i >= 0 && nameLines.length < 3; i--) {
+    const l = lines[i];
+    // A number line ends the name block, but "0F THE" or "1INTA" are letters misread as digits.
+    if (POWER_RE.test(l) || /^\W*[\d,.]+%?(\s|$)/.test(l) || isNoise(l)) break;
+    nameLines.unshift(l.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""));
+  }
   if (r) {
     item.ancestral = r.ancestral;
     item.rarity = /mythic/i.test(r.rarity) ? "mythic" : /^set$/i.test(r.rarity) ? "legendary" : r.rarity.toLowerCase();
     item.type = /^set$/i.test(r.rarity) ? `Set ${r.type}` : r.type;
-    // Charms and seals go in the talisman, not a gear slot.
     item.talisman = /^charm$/i.test(r.type) ? "charm" : /^seal$/i.test(r.type) ? "seal" : null;
     item.slot = item.talisman ? null : slotFromType(item.type);
-    // The name is the run of lines just above the rarity line (long names wrap onto two or three).
-    const nameParts = [];
-    for (let i = ri - 1; i >= 0 && nameParts.length < 3; i--) {
-      const l = lines[i];
-      if (POWER_RE.test(l) || /^\W*\d/.test(l) || isNoise(l)) break;
-      nameParts.unshift(l.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""));
-    }
-    const raw = nameParts.join(" ");
-    if (item.talisman) {
-      // Charm and seal names are fixed: snap to the class's charm or seal list.
-      const pool = item.talisman === "charm" ? vocab.charms : vocab.seals;
-      const names = pool.map((c) => c.name);
-      const hit = closest(raw, names, 0.75) || nameIn(raw, names);
-      charm = hit && pool.find((c) => c.name === hit.value);
-      item.name = charm ? charm.name : titleCase(raw);
-      if (charm?.mythic) item.rarity = "mythic";
-      if (charm?.set) item.set = charm.set;
-    } else {
-      // Uniques and mythics have fixed names, so snap to the class's catalog; legendary and rare names are random.
-      const pool = vocab.items.filter((it) => item.rarity === "unique" || item.rarity === "mythic" || !item.type || !it.type || norm(it.type) === norm(item.type));
-      const names = pool.map((it) => it.name);
-      const tail = nameParts.length > 1 ? nameParts[nameParts.length - 1] : "";
-      const hit = closest(raw, names, 0.72) || (tail && closest(tail, names, 0.8)) || nameIn(raw, names);
-      if (hit && (item.rarity === "unique" || item.rarity === "mythic")) {
-        known = vocab.items.find((it) => it.name === hit.value);
-        item.name = known.name;
-        if (known.rarity === "mythic") item.rarity = "mythic";
-      } else {
-        item.name = titleCase(raw);
-      }
-    }
   } else {
-    item.name = titleCase(lines[0] || "");
+    item.ancestral = lines.slice(0, top + 3).some((l) => norm(l).split(" ").some((w) => similarity(w, "ancestral") >= 0.8));
   }
+  // Legendary, rare and magic names are random, so only uniques, mythics, charms and seals are looked up.
+  const fixedName = !r || !/^(legendary|rare|magic|common)$/i.test(r.rarity) || item.talisman;
+  const id = fixedName ? identify(nameLines, vocab, r && item) : null;
+  let known = null, charm = null;
+  if (id?.what === "item") {
+    known = id;
+    item.name = id.name;
+    item.rarity = id.rarity;
+    item.type = id.type || item.type;
+    item.slot = id.slot || slotFromType(item.type) || item.slot;
+    item.talisman = null;
+  } else if (id) {
+    charm = id;
+    item.talisman = id.what;
+    item.name = id.name;
+    item.slot = null;
+    if (id.mythic) item.rarity = "mythic";
+    else if (id.unique) item.rarity = "unique";
+    if (id.set) item.set = id.set;
+    item.type ||= id.what === "seal" ? "Seal" : id.set ? "Set Charm" : `${id.mythic ? "Mythic" : "Unique"} Charm`;
+  } else {
+    item.name = titleCase(nameLines.join(" ") || lines[0] || "");
+  }
+  const bodyStart = r ? r.end + 1 : powerAt >= 0 ? powerAt + 1 : top;
 
   const ip = lines.find((l) => POWER_RE.test(l));
   if (ip) item.itemPower = Number(ip.match(POWER_RE)[1].replace(/[OoIl|]/g, (c) => DIGIT_FIX[c]));
 
   // A unique's tip lists its affixes, so they are tried first.
-  const statVocab = known?.affixes?.length ? { ...vocab, affixes: [...new Set([...known.affixes, ...vocab.affixes])] } : vocab;
+  // A known unique rolls from its own affix pool, so that is tried first and loosely; then everything.
+  const pool = known?.affixes?.length ? { ...vocab, affixes: known.affixes } : null;
+  const statVocab = vocab;
+  const snapTo = (stat, trim) => (pool && snapStat(stat, pool, trim)) || snapStat(stat, statVocab, trim);
   const prose = [];
   let last = null;
-  const body = lines.slice(ri + 1);
+  const body = lines.slice(bodyStart);
   for (let li = 0; li < body.length; li++) {
     const l = body[li];
     if (POWER_RE.test(l) || isNoise(l) || /^\(?\d\)?\s*set\b/i.test(l)) { last = null; continue; }
@@ -185,19 +231,21 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
     }
     if (/^[\s[\]()\d.,%\-–xX×+]+$/.test(l)) continue; // a lone roll range or stray number
     const { value, stat } = splitStat(l);
-    const snap = stat ? snapStat(stat, statVocab) : null;
+    if (/\bquality\s*$/i.test(l)) continue; // "25 (+25) Quality"
+    const snap = stat ? snapTo(stat, !!value) : null;
     // Stat lines start with a value ("+210 Willpower", "×22% Vulnerable Damage"). Without one, only a very close
     // match counts, since aspect text is full of stat words.
     if (snap && (value || (snap.score >= 0.9 && stat.length < 40))) {
       const text = `${value} ${snap.phrase}`.trim();
       if (/^[\d,.]+ (total )?armor$/i.test(text)) { last = null; continue; } // the armour base line
-      last = { text, key: matchAffix(text, className), kind: "affix", ga: false };
+      // A value with no sign is a base stat ("288 All Resist"), not a rolled affix ("+270 Willpower").
+      last = { text, key: matchAffix(text, className), kind: /^[\d,.]+\s/.test(text) ? "implicit" : "affix", ga: false };
       item.affixes.push(last);
       continue;
     }
     // A long affix that wrapped onto a second line: "+9.5% Damage Reduction from" / "Close Enemies".
     if (last && !value) {
-      const joined = snapStat(`${last.text.replace(/^\S+\s/, "")} ${stat}`, statVocab);
+      const joined = snapTo(`${last.text.replace(/^\S+\s/, "")} ${stat}`, true);
       if (joined && joined.phrase.length > last.text.length - 6) {
         last.text = `${last.text.split(" ")[0]} ${joined.phrase}`;
         last.key = matchAffix(last.text, className);
@@ -205,7 +253,8 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
       }
     }
     last = null;
-    if (value && matchAffix(l, className)) {
+    // A stat the vocabulary doesn't know yet: kept only if the words right after the value name it.
+    if (value && stat.length < 40 && matchAffix(`${value} ${stat}`, className)) {
       const text = `${value} ${stat}`;
       item.affixes.push({ text, key: matchAffix(text, className), kind: "affix", ga: false });
     } else if (l.length > 20 && !value) {

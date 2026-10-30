@@ -36,6 +36,7 @@ async function read(engineOverride) {
     S.status = item.engine === "claude"
       ? `Read by Claude. Check the lines below before you equip it.`
       : `Read by free OCR${item.warning ? ` (Claude failed: ${item.warning})` : ""}. OCR can't see Greater Affix stars or temper icons, so tick those yourself.`;
+    if (!item.slot && !item.talisman) S.status += ` Couldn't tell what kind of item this is, so pick the slot below.`;
     S.error = false;
   } catch (err) {
     if (run !== S.run) return;

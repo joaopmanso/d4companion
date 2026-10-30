@@ -37,7 +37,7 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 ### Data (`src/data/`)
 | File | Role |
 |---|---|
-| `src/data/guides.js` | `loadIndex`, `loadGuide(id)` and `loadClass(className)`, all cached fetches of `public/data`. `toBuild` turns a synced guide into the **build** shape. `DEFAULT_GUIDE`. |
+| `src/data/guides.js` | `loadIndex`, `loadGuide(id)`, `loadClass(className)` and `loadItems()` (`items.json`), all cached fetches of `public/data`. `toBuild` turns a synced guide into the **build** shape. `DEFAULT_GUIDE`. |
 | `src/data/affixes.js` | Canonical affix keys (`AFFIXES`, ordered regexes). `matchAffix(line, className)`, `affixFromName`, `affixValue`, `affixLabel`, `CORE_STAT`. Rank lines become `ranks:<skill-slug>` keys. |
 | `src/data/slots.js` | Slot ids, the paperdoll layout, weapon slots per build, and `slotFromType(typeLine)`. |
 | `src/data/classes.js` | Per-class character-sheet stat targets (`CLASS_STATS`), emblems and art. |
@@ -51,9 +51,9 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 | `src/recognize/index.js` | `recognize(blob, settings, progress, className)`. Uses Claude when an API key is set and the engine isn't `ocr`, falling back to OCR on error. Fills `slot`, `key`, and `talisman` (`charm`/`seal` from the type line, in which case `slot` is null). |
 | `src/recognize/claude.js` | Claude reader: player's key, browser-direct, JSON-schema output. The system prompt is imported from `aivault/prompts/tooltip-reader.system.md`. `claudeError` gives player-facing errors. |
 | `src/recognize/models.js` | The model list shown in Settings. |
-| `src/recognize/ocr.js` | Tesseract worker (PSM 4). Preprocessing: upscale to about 2000 px wide, take the brightest channel, then an Otsu threshold clamped to 80–140. Loads the class vocabulary, then `parseTooltip`. |
-| `src/recognize/parse.js` | `parseTooltip(text, className, vocab)`. Snaps OCR lines onto the vocabulary: rarity and type line (including `Set Charm`, `Unique Charm`, `Seal`), unique, charm and seal names (`nameIn` skips the art's junk beside the name), multi-line `Lucky Hit:` affixes, affixes (fixing misread digits and dropping icon junk and roll ranges), skill ranks, rejoined wrapped lines, and the aspect name from its power text. Also exports `splitStat` and `normaliseLines`. |
-| `src/recognize/vocab.js` | `buildVocab(classJson)`: base affix, type and noise lists, plus the class catalog's uniques, aspects, skills, charms and seals. `BASE_VOCAB` has no class. |
+| `src/recognize/ocr.js` | Tesseract worker (PSM 4). Preprocessing: upscale to about 2000 px wide, take the brightest channel, then an Otsu threshold clamped to 80–140. Builds the vocabulary from `items.json` plus the class file's skills, then `parseTooltip`. |
+| `src/recognize/parse.js` | `parseTooltip(text, className, vocab)`. **Identifies the item by name first** (`identify`): every run of name lines, with trailing art junk trimmed, is matched against all uniques, mythics, charms and seals, limited to what the type line allows. Rarity, type and slot then come from the catalog. Then it snaps the rest onto the vocabulary: rarity and type line (also when wrapped onto two lines; including `Set Charm`, `Mythic Charm`, `Seal`), unique, charm and seal names (`nameIn` skips the art's junk beside the name), multi-line `Lucky Hit:` affixes, affixes (fixing misread digits and dropping icon junk and roll ranges), skill ranks, rejoined wrapped lines, and the aspect name from its power text. Also exports `splitStat` and `normaliseLines`. |
+| `src/recognize/vocab.js` | `buildVocab(classJson, items)`: base affix, type and noise lists, every unique, mythic (with its affix pool), aspect, charm and seal from `items.json`, and the class's skills. Without `items`, it falls back to the class file's catalog. `BASE_VOCAB` has neither. |
 | `src/recognize/fuzzy.js` | `norm` (OCR's `®©ø` read as `o`), Levenshtein `distance`/`similarity`, `closest(text, candidates, min)` (stricter for short words), `nameIn(text, names)` (every word of a name, in order, among junk words), and `wordOverlap` for prose. |
 
 ### Shared helpers (`src/lib/`)
@@ -80,6 +80,7 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 | `scripts/lib/d4builds.mjs` | d4builds.gg scraper: variants, gear, gems, talisman, skills, Paragon, and the class tree and boards (weekly). |
 | `scripts/lib/normalise.mjs` | Scraped variant to the app's guide JSON. `catalogAdd` builds the class item catalog. |
 | `scripts/lib/browser.mjs` | Shared Playwright browser with polite pacing and ads blocked. |
+| `scripts/build-items.mjs` | `buildItems(dataDir)` merges every class file's catalog and every guide into `public/data/items.json`. For each item it takes the first real tooltip (rejecting Soul Splinter tooltips the scraper grabbed by mistake), and fills slot and type from the guide slot when no tooltip is clean. Run at the end of `npm run sync`, or alone with `npm run items`. |
 
 ### Tests (`tests/`, `node --test`)
 | File | Role |

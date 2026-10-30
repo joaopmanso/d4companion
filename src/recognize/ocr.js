@@ -4,7 +4,7 @@
 import { createWorker } from "tesseract.js";
 import { parseTooltip } from "./parse.js";
 import { buildVocab, BASE_VOCAB } from "./vocab.js";
-import { loadClass } from "../data/guides.js";
+import { loadClass, loadItems } from "../data/guides.js";
 
 let workerP = null;
 let onProgress = () => {};
@@ -21,10 +21,14 @@ function worker() {
   return workerP;
 }
 
+// Items come from the all-class catalog; skills from the class's own file.
 function vocabFor(className) {
-  if (!className) return Promise.resolve(BASE_VOCAB);
-  if (!vocabs.has(className)) vocabs.set(className, loadClass(className).then(buildVocab, () => BASE_VOCAB));
-  return vocabs.get(className);
+  const key = className || "";
+  if (!vocabs.has(key)) {
+    vocabs.set(key, Promise.all([className ? loadClass(className).catch(() => null) : null, loadItems().catch(() => undefined)])
+      .then(([cls, items]) => buildVocab(cls, items), () => BASE_VOCAB));
+  }
+  return vocabs.get(key);
 }
 
 // Otsu's threshold on a 256-bin histogram: the cut that best separates text from plate.

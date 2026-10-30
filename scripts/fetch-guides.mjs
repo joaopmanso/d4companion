@@ -4,6 +4,7 @@
 //   public/data/guides.json            index: classes, tier list, guides
 //   public/data/guides/<id>.json       one file per guide variant
 //   public/data/class-<class>.json     skill-tree layout, Paragon boards, tooltips and an item catalog
+//   public/data/items.json             every known item across classes (scripts/build-items.mjs)
 // Art is never copied: the data links to the images on the guide site.
 // Only sites whose robots.txt allows it and that serve plain requests are synced. Maxroll forbids
 // scraping; Mobalytics and Icy Veins sit behind a bot challenge, so they're listed as links only.
@@ -14,6 +15,7 @@ import { dirname, join } from "node:path";
 import { openBrowser, pause } from "./lib/browser.mjs";
 import * as d4b from "./lib/d4builds.mjs";
 import { normalise, catalogAdd } from "./lib/normalise.mjs";
+import { buildItems } from "./build-items.mjs";
 
 const ROOT = new URL("..", import.meta.url).pathname.replace(/^\/([A-Z]:)/, "$1");
 const DATA = join(ROOT, "public", "data");
@@ -122,6 +124,8 @@ const TIER_ORDER = { S: 0, A: 1, B: 2, C: 3, D: 4 };
 index.guides.sort((a, b) => a.className.localeCompare(b.className) || (TIER_ORDER[a.tier] ?? 9) - (TIER_ORDER[b.tier] ?? 9) || a.build.localeCompare(b.build) || a.variant.localeCompare(b.variant));
 if (!changed && JSON.stringify(prev.guides) === JSON.stringify(index.guides) && JSON.stringify(prev.tiers) === JSON.stringify(index.tiers)) index.updated = prev.updated;
 writeIfChanged(join(DATA, "guides.json"), index, []);
+// One catalog of every known item, across classes, for the screenshot reader.
+writeIfChanged(join(DATA, "items.json"), buildItems(DATA), []);
 
 console.log(`guides ${index.guides.length}, failures ${failures}`);
 if (index.guides.length === 0) process.exit(1);

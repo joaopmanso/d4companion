@@ -7,7 +7,8 @@
 | `npm test` | `node --test "tests/*.test.js"`: evaluator, OCR parser, vault coverage. |
 | `npm run build` | Static site in `dist/` (`base: "./"`, so it works under any Pages path). |
 | `npm run preview` | Serves `dist/`. |
-| `npm run sync` | `scripts/fetch-guides.mjs`: scrapes d4builds into `public/data/`. Needs `npx playwright install chromium`. |
+| `npm run sync` | `scripts/fetch-guides.mjs`: scrapes d4builds into `public/data/`, then rebuilds `items.json`. Needs `npx playwright install chromium`. |
+| `npm run items` | `scripts/build-items.mjs`: rebuilds `public/data/items.json` from the synced files. No network needed. Prints which uniques have no clean tooltip. |
 
 ## CI (`.github/workflows/`)
 - **`sync-guides.yml`** runs daily at 06:17 UTC, and can be started by hand. Steps: `npm ci`, install Playwright Chromium, `npm run sync`, `npm test`. It then commits `public/data` as `Sync guides YYYY-MM-DD`, only if something changed, and pushes to `main`.

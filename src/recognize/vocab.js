@@ -1,10 +1,10 @@
 // The closed vocabulary of a Diablo IV tooltip: item types, affix names, skill names, item and aspect names.
-// The base lists cover every class; buildVocab adds the class's own uniques, aspects and skills from
-// public/data/class-*.json so OCR lines can be snapped onto real names.
+// The base lists cover every class. buildVocab adds every known unique, mythic, aspect, charm and seal from
+// public/data/items.json (all classes), and the class's skills from public/data/class-*.json.
 import { AFFIXES } from "../data/affixes.js";
 import { closest } from "./fuzzy.js";
 
-export const RARITIES = ["Mythic Unique", "Unique", "Legendary", "Rare", "Magic", "Common", "Set"];
+export const RARITIES = ["Mythic Unique", "Mythic", "Unique", "Legendary", "Rare", "Magic", "Common", "Set"];
 
 export const ITEM_TYPES = [
   "Helm", "Chest Armor", "Gloves", "Pants", "Boots", "Amulet", "Ring",
@@ -19,7 +19,7 @@ const ELEMENTS = ["Fire", "Cold", "Lightning", "Poison", "Shadow", "Physical", "
 
 const BASE_AFFIXES = [
   "Strength", "Intelligence", "Willpower", "Dexterity", "All Stats", "Primary Core Stat",
-  "Maximum Life", "Armor", "Total Armor", "Resistance to All Elements", "Maximum Resistance to All Elements",
+  "Maximum Life", "Armor", "Total Armor", "All Resist", "Resistance to All Elements", "Maximum Resistance to All Elements",
   "Critical Strike Chance", "Critical Strike Damage", "Critical Strike Damage Multiplier",
   "Vulnerable Damage", "Vulnerable Damage Multiplier", "Overpower Damage", "Overpower Damage Multiplier",
   "All Damage Multiplier", "Damage", "Weapon Damage", "Main Hand Weapon Damage", "Damage over Time", "Damage over Time Multiplier",
@@ -57,34 +57,47 @@ function tipParts(tip) {
   return { name, typeLine, affixes, power };
 }
 
-export function buildVocab(cls) {
+// `items` is public/data/items.json. Without it (older callers), the class file's own catalog is used.
+export function buildVocab(cls, all = catalogOf(cls)) {
   const affixes = new Set([...BASE_AFFIXES, ...AFFIXES.map((a) => a.label)]);
   const types = new Set(ITEM_TYPES);
-  const items = [];   // uniques and mythics: { name, rarity, type, affixes }
-  const aspects = []; // legendary powers: { name, power }
   const skills = new Set();
+  // Guide sites have typos ("Critcal Strike Chance"); a near-copy of a base phrase is left out.
+  const addAffixes = (list) => { for (const a of list) if (!affixes.has(a) && !closest(a, BASE_AFFIXES, 0.9)) affixes.add(a); };
+  // Uniques and mythics: { name, rarity, type, slot, affixes (its pool), power }.
+  const items = (all?.uniques || []).map((u) => {
+    const p = tipParts(u.tip);
+    addAffixes(p.affixes);
+    if (u.type && u.type.length < 24) types.add(u.type);
+    return { name: u.name, rarity: u.rarity, type: u.type, slot: u.slot, affixes: p.affixes, power: p.power };
+  });
+  // Legendary powers: { name, power }.
+  const aspects = (all?.aspects || []).map((a) => { const p = tipParts(a.tip); addAffixes(p.affixes); return { name: a.name, power: p.power }; }).filter((a) => a.power);
   // Talisman pieces: { name, set, unique, mythic, tip }.
-  const charms = Object.entries(cls?.catalog?.charms || {}).map(([name, c]) => ({ name, set: c.set || "", unique: !!c.unique, mythic: !!c.mythic, tip: c.tip || "" }));
-  const seals = Object.entries(cls?.catalog?.seals || {}).map(([name, s]) => ({ name, tip: s.tip || "" }));
+  const charms = Object.entries(all?.charms || {}).map(([name, c]) => ({ name, set: c.set || "", unique: !!c.unique, mythic: !!c.mythic, tip: c.tip || "" }));
+  const seals = Object.entries(all?.seals || {}).map(([name, s]) => ({ name, tip: s.tip || "" }));
 
-  for (const [name, it] of Object.entries(cls?.catalog?.items || {})) {
-    const p = tipParts(it.tip);
-    // Guide sites have typos ("Critcal Strike Chance"); a near-copy of a base phrase is left out.
-    for (const a of p.affixes) if (!affixes.has(a) && !closest(a, BASE_AFFIXES, 0.9)) affixes.add(a);
-    if (it.kind === "aspect" || it.kind === "legendary") {
-      if (p.power) aspects.push({ name, power: p.power });
-    } else {
-      const type = p.typeLine?.replace(/^(mythic\s+)?unique\s+/i, "").trim();
-      if (type && type.length < 24) types.add(type);
-      items.push({ name, rarity: it.rarity === "mythic" || /mythic/i.test(p.typeLine) ? "mythic" : "unique", type, affixes: p.affixes, power: p.power });
-    }
-  }
   for (const n of cls?.tree?.nodes || []) if (n.kind === "skill" && n.name) skills.add(n.name);
   for (const a of affixes) {
     const m = a.match(/^ranks to (.+)$/i);
     if (m) skills.add(m[1]);
   }
   return { affixes: [...affixes], types: [...types], items, aspects, skills: [...skills], charms, seals };
+}
+
+// A class file's catalog in the items.json shape, for callers that don't load items.json.
+function catalogOf(cls) {
+  const entries = Object.entries(cls?.catalog?.items || {});
+  const typeOf = (tip) => (String(tip || "").split("\n")[1] || "");
+  return {
+    uniques: entries.filter(([, it]) => !["aspect", "legendary"].includes(it.kind)).map(([name, it]) => ({
+      name, rarity: it.rarity === "mythic" || /mythic/i.test(typeOf(it.tip)) ? "mythic" : "unique",
+      type: /^(mythic\s+)?unique\b/i.test(typeOf(it.tip)) ? typeOf(it.tip).replace(/^(mythic\s+)?unique\s+/i, "") : "",
+      slot: null, tip: /^(mythic\s+)?unique\b/i.test(typeOf(it.tip)) ? it.tip : "",
+    })),
+    aspects: entries.filter(([, it]) => ["aspect", "legendary"].includes(it.kind)).map(([name, it]) => ({ name, tip: it.tip })),
+    charms: cls?.catalog?.charms, seals: cls?.catalog?.seals,
+  };
 }
 
 export const BASE_VOCAB = buildVocab(null);

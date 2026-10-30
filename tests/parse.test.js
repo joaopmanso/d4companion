@@ -6,8 +6,11 @@ import { readFileSync } from "node:fs";
 import { parseTooltip, splitStat } from "../src/recognize/parse.js";
 import { buildVocab } from "../src/recognize/vocab.js";
 
-const warlock = buildVocab(JSON.parse(readFileSync(new URL("../public/data/class-warlock.json", import.meta.url))));
-const barbarian = buildVocab(JSON.parse(readFileSync(new URL("../public/data/class-barbarian.json", import.meta.url))));
+// The same data the site loads: the class file (skills) and items.json (every known item, all classes).
+const json = (f) => JSON.parse(readFileSync(new URL(`../public/data/${f}`, import.meta.url)));
+const items = json("items.json");
+const warlock = buildVocab(json("class-warlock.json"), items);
+const barbarian = buildVocab(json("class-barbarian.json"), items);
 
 test("splitStat drops icon junk and roll ranges, and fixes misread digits", () => {
   assert.deepEqual(splitStat("© +185 Willpower [165 - 190]"), { value: "+185", stat: "Willpower" });
@@ -160,4 +163,77 @@ the damage you take by 0.5%. Killing
   assert.equal(item.itemPower, 850);
   assert.deepEqual(item.affixes.map((a) => a.text), ["+1,870 Cold Resistance", "Lucky Hit: Up to a 40% Chance to Deal +800 Shadow Damage"]);
   assert.match(item.power, /^\(2\) Set: While in Demonform/);
+});
+
+test("a real mythic screenshot: wrapped type line, stylised name, power text not read as affixes", () => {
+  // Tesseract's output for a player's Moloch's Beating Flame (purple plate; the type line wraps onto two lines).
+  const text = `'MONOCH'S
+
+BEA TING FLARE *
+
+Ancestral Mythic Unique
+Amulet
+
+900 Item Power
+25 > (% +25) Quality
+
+| 288 All Resist                                             |
+* +270 Willpower
+o +10.6% Critical Strike Chance [6.5 -
+8.5]%
+o x42% Fire Damage Multiplier [14 -
+241%
+o +3 to Hellfire Skills [1 - 3]
+¥ +1,875 Maximum Life [1,000 - 1,500]
++ Hellfire Skills deal 39%(x] [25 - 39]%
+increased damage for every Skill you
+have Empowered by Volatility.
+Casting a Volatility Empowered Skill
+increases you Core Stats by 5%][+] for
+10 seconds, up to 50% +].
+#2 You gain 10%(+] Attack Speed and
+|          Critical Strike Chance, but your
+
+Primary Resource Costs are increased
+hv3n BB Scroll Down
+
+#8 Unequip
+ + 8 Link
+ Unmark Item`;
+  const item = parseTooltip(text, "Warlock", warlock);
+  assert.equal(item.name, "Moloch's Beating Flame");
+  assert.equal(item.rarity, "mythic");
+  assert.equal(item.ancestral, true);
+  assert.equal(item.slot, "amulet");
+  assert.equal(item.talisman, null);
+  assert.equal(item.itemPower, 900);
+  assert.deepEqual(item.affixes.map((a) => [a.text, a.key, a.kind]), [
+    ["288 All Resist", "resAll", "implicit"],
+    ["+270 Willpower", "willpower", "affix"],
+    ["+10.6% Critical Strike Chance", "critChance", "affix"],
+    ["×42% Fire Damage Multiplier", "fireDamageMult", "affix"],
+    ["+3 to Hellfire Skills", "ranksHellfire", "affix"],
+    ["+1,875 Maximum Life", "life", "temper"], // fifth line, its own icon and above its roll range
+  ]);
+  assert.match(item.power, /^Hellfire Skills deal 39%/);
+});
+
+test("a unique is identified by name even when its type line is unreadable", () => {
+  const item = parseTooltip("HARLEQUIN CREST\n~~ garbled ~~\n800 Item Power\n+12% Cooldown Reduction", "Sorcerer", buildVocab(json("class-sorcerer.json"), items));
+  assert.equal(item.name, "Harlequin Crest");
+  assert.equal(item.rarity, "mythic");
+  assert.equal(item.slot, "helm");
+});
+
+test("every unique, mythic and charm in items.json is identified from its name, with junk from the art", () => {
+  const misses = [];
+  for (const u of items.uniques) {
+    const it = parseTooltip(`${u.name.toUpperCase()}   mw\nAncestral ${u.rarity === "mythic" ? "Mythic Unique" : "Unique"} ${u.type}\n800 Item Power`, "Warlock", warlock);
+    if (it.name !== u.name || it.slot !== u.slot || it.rarity !== u.rarity) misses.push(`${u.name} → ${it.name} (${it.slot}, ${it.rarity})`);
+  }
+  for (const [name, c] of Object.entries(items.charms)) {
+    const it = parseTooltip(`${name.toUpperCase()} *\n${c.set ? "Set" : c.mythic ? "Mythic" : "Unique"} Charm\n850 Item Power`, "Warlock", warlock);
+    if (it.name !== name || it.talisman !== "charm") misses.push(`${name} → ${it.name} (${it.talisman})`);
+  }
+  assert.deepEqual(misses, []);
 });
