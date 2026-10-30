@@ -1,0 +1,813 @@
+{
+ "id": "blessed-shield-paladin-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Paladin",
+ "build": "Blessed Shield - Paladin",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/blessed-shield-paladin-endgame/?var=0",
+ "updated": "October 27, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Thorns",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Life\nCooldown Reduction\nThorns\nMaximum Resolve Stacks\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "cdr",
+    "thorns"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Cooldown Reduction",
+    "Thorns"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Anguish",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Mantle of the Grey",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/mantle_of_the_grey.png",
+    "tip": "Mantle of the Grey\nUnique Chest Armor\nStrength\nRanks to Juggernaut Skills\nMaximum Life\nThorns\nMaximum Resolve Stacks\nJuggernaut Oath makes your Juggernaut Skills 25% larger but Consumes up to 16 Resolve, granting x [4 - 6%] increased Juggernaut Skill damage for each point Consumed.\nPaladin\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "strength",
+    "ranks:juggernaut-skills",
+    "life",
+    "thorns"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Juggernaut Skills",
+    "Maximum Life",
+    "Thorns"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Yom"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Yom": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nDefiance Aura Potency\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "All Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nThorns\nMaximum Resolve Stacks\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor",
+    "thorns"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Thorns"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Lac"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lac": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Exploiter's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Exploiter's Aspect\nEvery Class\nYou have +50% increased Crowd Control Duration. While enemies are Unstoppable, you deal x [30 - 50%] increased damage to them.\nStrength\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nDefiance Aura Potency\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Movement Speed",
+    "Attacks Reduce Evade's Cooldown"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Griswold's Opus",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/griswold's_opus.png",
+    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "weaponDamage",
+    "luckyHit",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Lucky Hit Chance",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Blood-Mad Idol",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/blood-mad_idol.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "strength",
+    "attackSpeed",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Attack Speed",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Embattled Aspect"
+   ],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Redirected Force",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Lapa's Scripture",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Ward of the White Dove",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ward_of_the_white_dove.png",
+    "tip": "Ward of the White Dove\nMythic Unique Shield\n20% Block Chance\n100% Main Hand Weapon Damage\nStrength\nRanks to Blessed Hammer\nDamage Reduction\nCooldown Reduction\nMaximum Resolve Stacks\nBlessed Shield deals x [128.7%] increased damage. Casting another Skill makes your next 3 Blessed Shields double this bonus and cost 7 less Faith to Cast.\nPaladin\nDropped By:\nDuriel"
+   },
+   "affixes": [
+    "strength",
+    "ranks:blessed-hammer",
+    "damageReduction",
+    "cdr"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Blessed Hammer",
+    "Damage Reduction",
+    "Cooldown Reduction"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Lac",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Lac\nRare Rune of Invocation\nRequires: 400 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
+  },
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Yom",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Yom\nLegendary Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Stun Duration)\nCooldown: 5 seconds\nInvoke the Druid's Petrify Skill, Stunning enemies and increasing your Critical Strike Damage against them."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Linta of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Linta of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cathan's Righteous Will"
+   },
+   {
+    "name": "Fer of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Fer of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "Razorplate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Razorplate\nThorns has a 30% chance to deal x [200 - 250%] increased damage."
+   },
+   {
+    "name": "Mlor of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Mlor of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "The Furnace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "The Furnace\nYou deal x [75 - 100%] more damage to Elites."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Fortress",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fortress.png",
+    "tip": "Fortress\nRank 15\nUltimate\nDefensive\nJuggernaut\nCooldown: 60 seconds\nMake your stand, becoming Immune for 3 seconds and create a defensive area around you for [9] seconds\nStanding in your Fortress grants you and your allies 2 Resolve stacks every 0.5 seconds.\nModifiers\nWhile inside of your Fortress you are Unstoppable.\nWhile inside of your Fortress you gain x4% damage per stack of Resolve.\nEnemies inside Fortress are Slowed by 50% and take 500% of your Thorns damage per second."
+   },
+   {
+    "name": "Fanaticism Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fanaticism_aura.png",
+    "tip": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive."
+   },
+   {
+    "name": "Defiance Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/defiance_aura.png",
+    "tip": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage."
+   },
+   {
+    "name": "Condemn",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/condemn.png",
+    "tip": "Condemn\nRank 4\nJustice\nDisciple\nCooldown: 15 seconds\nLucky Hit: 26%\nHarness the Light and Pull enemies in after 1.5 seconds, briefly Stunning them and dealing [312%] damage.\nWhile Casting Condemn, you become Unhindered for 1.5 seconds.\nModifiers\nCondemn applies Weaken to enemies for 4 seconds.\nCondemn's size is increased by 50%.\nCondemn now has 1 additional Charge and applies Vulnerable for 4 seconds."
+   },
+   {
+    "name": "Blessed Shield",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blessed_shield_shield_of_retribution.png",
+    "tip": "Blessed Shield\nRank 15\nCore\nJudicator\nLucky Hit: 30%\nBless and hurl your shield with Holy energy, dealing [551%] damage that ricochets up to 3 times.\nModifiers\nBlessed Shield deals 75% of your shield's Block Chance as additional damage.\nBlessed Shield gains +20% increased Cast Speed.\nBlessed Shield becomes a Juggernaut Skill.\nBlessed Shield travels straight without returning, pulsing [179%] your Thorns damage for 3 seconds before bursting for [964%] damage.\nHoly Damage"
+   },
+   {
+    "name": "Clash",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/clash.png",
+    "tip": "Clash\nRank 1\nBasic\nJuggernaut\nLucky Hit: 50%\nStrike an enemy with your weapon and shield, dealing [115%] damage.\nStriking enemies with Clash grants you Crusader's March, increasing your Block Chance by +30% for 6 seconds.\nModifiers\nStriking an enemy with Clash grants 2 stacks of Resolve.\nIncrease the effect of Crusader's March by x25%.\nYou are emboldened during Crusader's March, granting:\n- +30% Retribution Chance\n- X Thorns\n- x20% Thorns damage\nPhysical Damage"
+   },
+   {
+    "name": "Juggernaut",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/juggernaut.png",
+    "tip": "Juggernaut\nCasting a Juggernaut Skill Consumes 8 stacks of Resolve, giving your Juggernaut Skills x100% increased damage and 20% increased size for 5 seconds.\nYour Minimum Resolve is increased by 1 and is no longer consumed when getting hit."
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "983,361": 1,
+   "929,253": 1,
+   "966,161": 1,
+   "1113,272": 1,
+   "457,902": 15,
+   "318,900": 1,
+   "252,864": 1,
+   "400,715": 1,
+   "1215,1213": 15,
+   "1319,1085": 1,
+   "1420,1124": 1,
+   "1355,1272": 1,
+   "1346,1436": 15,
+   "1457,1325": 1,
+   "1551,1495": 1,
+   "1440,1550": 1,
+   "735,2419": 4,
+   "679,2308": 1,
+   "530,2364": 1,
+   "642,2530": 1,
+   "736,3236": 15,
+   "865,3372": 1,
+   "792,3440": 1,
+   "604,3347": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Spirit",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Relentless",
+   "glyph": "Outmatch",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "4,16",
+    "5,6",
+    "5,16",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,16",
+    "6,17",
+    "6,18",
+    "7,4",
+    "7,10",
+    "7,11",
+    "7,18",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "10,4",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,4",
+    "12,5",
+    "12,14",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,14",
+    "13,15",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15"
+   ]
+  },
+  {
+   "name": "Shield Bearer",
+   "glyph": "Revenge",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "10,14",
+    "11,13",
+    "11,20",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,14",
+    "12,15",
+    "12,20",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,20",
+    "14,17",
+    "14,18",
+    "14,19",
+    "14,20",
+    "15,18",
+    "16,17",
+    "16,18",
+    "17,17",
+    "17,18",
+    "18,16",
+    "18,17",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Beacon",
+   "glyph": "Honed",
+   "x": 1,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "6,8",
+    "6,14",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,7",
+    "8,14",
+    "8,15",
+    "9,6",
+    "9,7",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "9,19",
+    "10,6",
+    "10,16",
+    "10,19",
+    "11,5",
+    "11,6",
+    "11,16",
+    "11,17",
+    "11,19",
+    "11,20",
+    "12,6",
+    "12,7",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,8",
+    "15,11",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,8",
+    "17,14",
+    "17,15"
+   ]
+  },
+  {
+   "name": "Castle",
+   "glyph": "Sentinel",
+   "x": -1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,13",
+    "7,14",
+    "7,20",
+    "8,13",
+    "8,20",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,4",
+    "18,5",
+    "19,3"
+   ]
+  }
+ ]
+}

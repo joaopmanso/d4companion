@@ -1,0 +1,737 @@
+{
+ "id": "cataclysm-druid-endgame-s13",
+ "site": "d4builds",
+ "className": "Druid",
+ "build": "Cataclysm - Druid",
+ "variant": "S13",
+ "url": "https://d4builds.gg/builds/cataclysm-druid-endgame/?var=1",
+ "updated": "June 30, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Cataclysm - Druid",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Resolve Stacks\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "182 Primary Core Stat",
+    "25% Movement Speed"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Que"
+   ],
+   "socketArt": {
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nDruid\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nWillpower\nMaximum Life\nArmor\nSpirit Regeneration\nMaximum Resolve Stacks\nCritical Strike Chance\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Maximum Resource"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Gar"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Neurotoxic Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Neurotoxic Aspect\nCodex • Druid\nYou deal x [40 - 60%] increased Non-Physical damage to enemies that are Hindered or Weakened.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nWillpower\nMaximum Life\nArmor\nSpirit Regeneration\nMaximum Resolve Stacks\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Anger Management",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Anger Management\nCodex • Druid\nWhile above 50 Primary Resource, deal x [15 - 20%] increased damage and gain Berserking, but lose 3 Primary Resource Regeneration.\nWillpower\nArmor\nMaximum Life\nRanks to Defensive Skills\nMaximum Resolve Stacks\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "resAll",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Resistance To All Elements",
+    "Movement Speed"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "2h-weapon": {
+   "name": "2H Weapon",
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Druid\nWhile Fortified, you deal x [45 - 65%] increased damage.\nWeapon Damage\nCritical Strike Damage Multiplier\nMaximum Life\nWillpower\nCritical Strike Chance\nLightning Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Conceited Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Conceited Aspect\nEvery Class\nDeal x [40 - 60%] increased damage while you have a Barrier active.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Overcharged Aspect"
+   ],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Might of the Ursine",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/might_of_the_ursine.png",
+    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of the Orange Herald",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  },
+  {
+   "name": "Nagu",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nDamage to Crowd Controlled Enemies\nEnemies are Petrified for longer\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Berú of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Berú of the Old Mountain\nStorm Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Fer of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Fer of the Old Mountain\nStorm Skills\nPoison Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Fractured Runestone",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   {
+    "name": "Linta of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Linta of the Old Mountain\nStorm Skills\nPhysical Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Phoba of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Phoba of the Old Mountain\nNature Magic Skills\nLucky Hit: Chance to Freeze\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Mlor of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Mlor of the Old Mountain\nStorm Skills\nCold Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Lightning Storm",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/lightning_storm.png",
+    "tip": "Lightning Storm\nRank 15\nCore\nNature Magic\nHuman\nStorm\nChanneled\nSpirit Cost: 15 per period\nLucky Hit: 15%\nConjure a growing lightning storm that deals [166%] damage per strike. The number of strikes increase the longer the storm is channeled up to a maximum of 10 strikes at once. Lighting Storm may grow up to 5 times.\nThe size of your Lightning Storm is preserved for 4 seconds after channeling.\nModifiers\nLightning Storm's gains x10% bonus damage. This bonus is increased to x25% if the target is Vulnerable.\nLightning Storm always grows from a baseline of 2 strikes.\nLightning Storm can be toggled passively and travels with you. Lightning Storm deals [232%] damage and will be maintained as long as you have enough Spirit. Cast Lightning Storm again to cancel this effect.\nLightning Damage"
+   },
+   {
+    "name": "Ravens",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ravens.png",
+    "tip": "Ravens\nRank 1\nCompanion\nSummon\nVersatile\nCooldown: 12.75 seconds\nLucky Hit: 45%\nPassive: Summon 1 Raven to fly above you, attacking enemies for [90%] damage every 5 seconds.\nActive: The target area is swarmed with ravens, dealing [300%] damage over 6 seconds.\nModifiers\nPassive: Raven attacks make enemies Vulnerable.\nPassive: Gain 2 additional Ravens.\nPassive: Increases Raven's passive attack speed by 100% and gain 2 additional Ravens.\nPhysical Damage"
+   },
+   {
+    "name": "Hurricane",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hurricane.png",
+    "tip": "Hurricane\nRank 3\nWrath\nStorm\nNature Magic\nVersatile\nCooldown: 17 seconds\nLucky Hit: 17%\nForm a hurricane around you that deals [432%] damage to surrounding enemies over 6 seconds.\nModifiers\nMovement Speed is increased by x10% while Hurricane is active.\nEnemies affected by Hurricane are Weakened.\nHurricane has no cooldown and deals x100% bonus damage. Hurricane costs 15 Spirit per second while active. Cast Hurricane again to toggle the effect off.\nHurricane becomes a Core Skill.\nPhysical Damage"
+   },
+   {
+    "name": "Cyclone Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cyclone_armor.png",
+    "tip": "Cyclone Armor\nRank 15\nDefensive\nStorm\nNature Magic\nCooldown: 10.2 seconds\nLucky Hit: 25%\nPassive: Powerful winds surround you, granting a [23.6%] bonus to All Resistances.\nActive: The winds rapidly expand, Knocking Back enemies and dealing [146%] damage.\nModifiers\nActive: Cyclone Armor's radius is increased by 50%.\nPassive: Gain an additional +20% bonus to All Resistances.\nThe active winds are reversed pulling enemies towards you instead. In addition, the area of effect is increased by x30%.\nPhysical Damage"
+   },
+   {
+    "name": "Cataclysm",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cataclysm.png",
+    "tip": "Cataclysm\nRank 15\nUltimate\nStorm\nNature Magic\nCooldown: 42.5 seconds\nLucky Hit: 62%\nA massive storm follows you for 8 seconds. Twisters Knock Back enemies dealing [117%] damage, and lightning strikes wildly dealing [293%] damage.\nModifiers\nCataclysm's duration is increased by 4 seconds.\nEnemies hit by Cataclysm are Vulnerable.\nCataclysm is also an Earth Skill.\nCataclysm additionally summons Tectonic Spikes around you for the duration dealing [421%] Physical damage.\nLightning Damage"
+   },
+   {
+    "name": "Earth Spike",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/earth_spike.png",
+    "tip": "Earth Spike\nRank 15\nBasic\nNature Magic\nHuman\nEarth\nGenerate Spirit: 16\nLucky Hit: 35%\nSunder the earth, impaling all enemies hit for [230%] damage.\nModifiers\nIncrease Earth Spike's Spirit generation by 8.\nEarth Spike grants 1 stack of Overpower.\nEarth Spike launches spikes in a line in front of you dealing 70% of normal damage. Additionally, Earth Spike Slows enemies hit by 70% for 3 seconds.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Deer",
+    "options": [
+     2
+    ]
+   },
+   {
+    "shard": "Eagle",
+    "options": [
+     4
+    ]
+   },
+   {
+    "shard": "Wolf",
+    "options": [
+     4
+    ]
+   },
+   {
+    "shard": "Snake",
+    "options": [
+     1,
+     4
+    ]
+   }
+  ],
+  "tree": {
+   "699,615": 1,
+   "560,672": 1,
+   "388,583": 1,
+   "641,492": 1,
+   "463,908": 15,
+   "326,911": 1,
+   "190,875": 1,
+   "407,728": 1,
+   "1428,1307": 15,
+   "1481,1181": 1,
+   "1626,1219": 1,
+   "1517,1364": 1,
+   "1427,1491": 15,
+   "1627,1474": 1,
+   "1562,1619": 1,
+   "790,1962": 1,
+   "989,1909": 1,
+   "926,2074": 1,
+   "1083,2362": 2,
+   "1182,2254": 1,
+   "1282,2419": 1,
+   "1219,2472": 1,
+   "718,3000": 15,
+   "664,2874": 1,
+   "446,3059": 1,
+   "627,3129": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Earth and Sky",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Lust for Carnage",
+   "glyph": "Fang and Claw",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "8,8",
+    "8,14",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,7",
+    "10,8",
+    "10,10",
+    "10,14",
+    "10,15",
+    "10,16",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,4",
+    "12,10",
+    "12,18",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,17",
+    "13,18",
+    "14,5",
+    "14,10",
+    "14,11",
+    "14,17",
+    "14,18",
+    "15,4",
+    "15,5",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,17",
+    "15,18",
+    "15,19",
+    "16,7",
+    "16,9",
+    "16,11",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,9",
+    "19,9",
+    "20,9",
+    "20,10",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Thunderstruck",
+   "glyph": "Spirit",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,13",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,9",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,4",
+    "19,3",
+    "19,4",
+    "20,3"
+   ]
+  },
+  {
+   "name": "Ancestral Guidance",
+   "glyph": "Headhunter",
+   "x": -1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,8",
+    "4,11",
+    "4,12",
+    "5,8",
+    "5,12",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,10",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,12",
+    "8,13",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,15",
+    "10,16",
+    "10,17",
+    "11,17",
+    "11,20",
+    "12,16",
+    "12,17",
+    "12,20",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "13,20",
+    "14,16",
+    "15,13",
+    "15,15",
+    "15,16",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,12",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Survival Instincts",
+   "glyph": "Dominate",
+   "x": -1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "5,11",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,6",
+    "8,8",
+    "8,11",
+    "9,8",
+    "9,11",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,11",
+    "12,13",
+    "12,14",
+    "12,15",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,12",
+    "15,12",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,15",
+    "17,15",
+    "17,16",
+    "18,16",
+    "19,16"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,734 @@
+{
+ "id": "payback-spiritborn-endgame-s13",
+ "site": "d4builds",
+ "className": "Spiritborn",
+ "build": "Payback - Spiritborn",
+ "variant": "S13",
+ "url": "https://d4builds.gg/builds/payback-spiritborn-endgame/?var=1",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Payback - Spiritborn",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Harmony of Ebewaka",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/harmony_of_ebewaka.png",
+    "tip": "Harmony of Ebewaka\nMythic Unique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nAccording to your secondary Spirit Hall choice, your Skills are all additionally Jaguar, Eagle, Gorilla, or Centipede Skills.\n\nYour Skills deal x [39%] increased damage per Spirit type they have.\nSpiritborn\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "dexterity",
+    "resourceGen",
+    "life"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Resource",
+    "Resource Generation",
+    "Maximum Life"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Que"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nSpiritborn\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Resource",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Kry"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Plains Power",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Plains Power\nSpiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circle for 10 seconds.\n\nCasting a Jaguar Skill in Mystic Circles empowers them to refresh Ferocity's duration and increase your damage by x [8 - 12%] per stack while you remain within.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Forest Power",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Forest Power\nCodex • Spiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circle for 10 seconds.\n\nCasting a Gorilla Skill in Mystic Circles empowers them to periodically grant you a Barrier for 30% of your Maximum Life which increases your Armor by + [40 - 60%] while active.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Sky Power",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of Sky Power\nSpiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circles for 10 seconds.\n\nCasting an Eagle Skill in Mystic Circles empowers them to move with you and explode for [X - X] Lightning damage when you Evade.\nDexterity\nMaximum Life\nMovement Speed\nResistance to All Elements\nMovement Speed\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "movementSpeed",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Movement Speed",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Aspect of Supremacy",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Supremacy\nCodex • Spiritborn\nEnemies you kill while an Ultimate Skill is active grants a stack of Supremacy, each increasing your damage by x [6 - 9%] , up to x [60 - 90%]. When an Ultimate Skill ends, you gain 5 stacks of Supremacy up to 15, but you begin to lose one stack every second.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "dexterity",
+    "weaponDamage"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity",
+    "Weapon Damage"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Ferocious Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Ferocious Aspect\nCodex • Spiritborn\nYour Maximum Ferocity stacks are increased by [4 - 6].\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nMaximum Resource\nMaximum Resolve Stacks\nAspect of Interdiction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Maximum Resource",
+    "Aspect Of Interdiction"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of the Midnight Sun",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_the_midnight_sun.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "resourceGen"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Resource Generation"
+   ],
+   "tempers": [
+    [
+     "resourceGen",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of the Moonrise",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [40 - 60%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nResource Generation\nResource Generation\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "resourceGen"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Resource Generation"
+   ],
+   "tempers": [
+    [
+     "resourceGen",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Poc",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Berú of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Rod of Kepeleke",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Rod of Kepeleke\nMythic Unique Quarterstaff\nWeapon Damage\nRanks to Core Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nYour Core Skills are now additionally Basic Skills and free to cast.\n\nWhen cast at Maximum Vigor, your Core Skills Consume all Vigor to cast at their largest Size, and become guaranteed Critical Strikes, with x [1.56%] increased Critical Strike Damage for each point of Vigor spent this way.\nSpiritborn\nDropped By:\nAstaroth"
+   },
+   {
+    "name": "Fer of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Fer of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Phoba of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Phoba of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Linta of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Linta of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Mlor of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Mlor of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Ravager",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ravager.png",
+    "tip": "Ravager\nRank 15\nFocus\nJaguar\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Minimum Ferocity increased by [2].\nActive: Unleash a savage roar, causing each of your attacks to trigger an additional [102%] damage strike per enemy over 6 seconds.\nModifiers\nRavager's duration is increased by 2 seconds.\nRavager's Passive also increases your Maximum Ferocity by 2.\nRavager's Passive gains: Whenever a Skill comes off Cooldown, deal [204%] damage to Close enemies.\nWhile Ravager is active, gain 25% Cooldown Rate.\nFire Damage"
+   },
+   {
+    "name": "Counterattack",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/counterattack.png",
+    "tip": "Counterattack\nRank 15\nDefensive\nJaguar\nIncarnate\nCharges: 2\nCharge Cooldown: 20 seconds\nLucky Hit: 30%\nPassive: Gain [14%] Dodge Chance and automatically retaliate against Close enemies for [204%] damage when you Dodge their attacks.\nActive: Dodge all direct attacks for 3 seconds per cast, up to 6 seconds.\nModifiers\nCounterattack's Cooldown is reduced by 0.5 seconds per stack of Ferocity you have.\nCounterattack deals x30% increased damage.\nCounterattack becomes a Centipede Skill that deals Poison damage.\nPassive: Your Pestilent Swarms Weaken enemies.\nActive: Send out 3 Pestilent Swarms that deal [191%] damage each second for 3 seconds.\nFire Damage"
+   },
+   {
+    "name": "Scourge",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/scourge.png",
+    "tip": "Scourge\nRank 15\nDefensive\nCentipede\nCooldown: 12 seconds\nLucky Hit: 10%\nCall forth a wave of insects that bite enemies, Fearing and Slowing them by 70% for 3 seconds while applying [255%] Poisoning damage over 6 seconds.\nModifiers\nScourge also Weakens enemies for 6 seconds.\nEnemies affected by Scourge are Vulnerable.\nScourge grants you 15% Damage Reduction and continuously affects enemies around you for 4.5 seconds.\nPoison Damage"
+   },
+   {
+    "name": "Rushing Claw",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rushing_claw_evasive_swipe.png",
+    "tip": "Rushing Claw\nRank 2\nPotency\nJaguar\nMobility\nCharges: 4\nCharge Cooldown: 4 per 20 seconds\nLucky Hit: 25%\nSlash a short distance through an enemy, striking all enemies along the way twice for a total of [176%] damage.\nModifiers\nRushing Claw gains 1 Charge.\nRushing Claw extends the duration of your active Incarnate Skills by 0.5 seconds up to 4 seconds.\nRushing Claw deals 30% increased damage and is empowered based on how many Charges it has when you Cast it:\n1: Heals [17%] of your Maximum Life.\n2: Guaranteed to Critically Strike.\n3: Gain 100% Dodge Chance for 1.5 seconds.\n4+: Strikes an additional time.\nUsing Rushing Claw's last Charge will refill 4 Charges by consuming 4 stacks of Ferocity.\nFire Damage"
+   },
+   {
+    "name": "Payback",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/payback.png",
+    "tip": "Payback\nRank 15\nPotency\nGorilla\nCooldown: 15 seconds\nLucky Hit: 30%\nSmash enemies in front of you, dealing [446%] damage.\nWhen attacked, you have a 5% chance to reset Payback's Cooldown.\nModifiers\nPayback echoes forward damaging a larger area.\nPayback is also a Core Skill that costs 70 Vigor, has no Cooldown, and deals [829%] damage.\nWhen attacked, you have a 5% chance to gain 70 Vigor instead.\nPhysical Damage"
+   },
+   {
+    "name": "The Hunter",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/the_hunter.png",
+    "tip": "The Hunter\nRank 15\nUltimate\nJaguar\nCooldown: 45 seconds\nLucky Hit: 15%\nBound across the battlefield with the Jaguar Spirit, dealing [128%] damage upon landing and the rapidily slashing enemies in the area for [510%] total damage over 7 strikes.\nModifiers\nThe Hunter's landing damage will Execute enemies.\nThe Hunter strikes a 50% larger area.\nThe Hunter overfills your Ferocity by 2 stacks. Killing enemies while with it active has a 40% chance to instantly reset its Cooldown. This chance is halved after each consecutive reset.\nFire Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "1183,1241": 1,
+   "1423,1151": 1,
+   "1322,1241": 1,
+   "1407,1528": 15,
+   "1517,1473": 1,
+   "1645,1567": 1,
+   "1497,1659": 1,
+   "611,2083": 15,
+   "545,2029": 1,
+   "408,2065": 1,
+   "517,2214": 1,
+   "870,1879": 1,
+   "925,1770": 1,
+   "1072,1827": 1,
+   "1009,1990": 1,
+   "814,2582": 1,
+   "702,2583": 1,
+   "612,2732": 1,
+   "722,2767": 1,
+   "1072,2416": 15,
+   "1175,2304": 1,
+   "1313,2417": 1,
+   "1211,2527": 1,
+   "1073,3231": 15,
+   "944,3368": 1,
+   "1127,3435": 1,
+   "1202,3296": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Outmatch",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,14",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Prodigy's Tempo",
+   "glyph": "Ritual",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,7",
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,4",
+    "5,8",
+    "6,3",
+    "6,4",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,6",
+    "7,9",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,12",
+    "8,13",
+    "9,5",
+    "9,7",
+    "9,12",
+    "9,13",
+    "10,7",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,10",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "12,17",
+    "12,19",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,13",
+    "18,18",
+    "19,11",
+    "19,12",
+    "19,13",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Viscous Shield",
+   "glyph": "Headhunter",
+   "x": -1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,6",
+    "8,8",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,8",
+    "9,11",
+    "9,13",
+    "10,8",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,13",
+    "13,11",
+    "13,12",
+    "13,13"
+   ]
+  },
+  {
+   "name": "Convergence",
+   "glyph": "Colossal",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "5,13",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "9,16",
+    "9,17",
+    "10,11",
+    "10,14",
+    "10,15",
+    "10,16",
+    "10,17",
+    "10,18",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,9",
+    "12,10",
+    "12,14",
+    "12,15",
+    "13,9",
+    "13,15",
+    "14,15",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,14",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,13",
+    "17,14",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "In-Fighter",
+   "glyph": "Spirit",
+   "x": 1,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,16",
+    "7,20",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,16",
+    "8,20",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,4",
+    "19,3"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,778 @@
+{
+ "id": "spear-of-the-heavens-paladin-endgame-speed-uber-p240",
+ "site": "d4builds",
+ "className": "Paladin",
+ "build": "Spear of the Heavens Paladin",
+ "variant": "Speed Uber (P240)",
+ "url": "https://d4builds.gg/builds/spear-of-the-heavens-paladin-endgame/?var=0",
+ "updated": "April 25, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Spear of the Heavens Paladin",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Godslayer Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/godslayer_crown.png",
+    "tip": "Godslayer Crown\nUnique Helm\nPrimary Core Stat\nFaith Regeneration\nCooldown Reduction\nMaximum Life\nMaximum Life\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them.\nDropped By:\nAll Bosses, \nAndariel"
+   },
+   "affixes": [],
+   "affixNames": [
+    "Stat 1",
+    "Stat 2",
+    "Stat 3",
+    "Stat 4",
+    "Tempering Stat 1"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cem",
+    "Wat"
+   ],
+   "socketArt": {
+    "Cem": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Wat": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Soulbrand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/soulbrand.png",
+    "tip": "Soulbrand\nUnique Chest Armor\nPrimary Core Stat\nArmor\nFaith per Second\nRanks to Fanaticism Aura\nYour Healing Potions grant a Barrier for 100% of your Maximum Life for 1 second.\n\nYou gain [25 - 30%] Damage Reduction while you have a Barrier and you may drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "ranks:fanaticism-aura"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Faith Per Second",
+    "Ranks To Fanaticism Aura",
+    "Tempering Stat 1"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Bac",
+    "Que"
+   ],
+   "socketArt": {
+    "Bac": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Holy Punishment",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Holy Punishment\nPaladin\nHoly and Fire damage are increased by x [40 - 60%].\nStrength\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nMaximum Life\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "strength",
+    "cdr",
+    "ranks:core-skills"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Strength",
+    "Cooldown Reduction",
+    "Ranks To Core Skills"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of the Indomitable",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of the Indomitable\nPaladin\nGain up to [30 - 45%] Damage Reduction and Impairment Resistance, based on your Block chance.\nStrength\nMaximum Life\nArmor\nFaith per Second\nArbiter Duration\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "ranks:en-garde",
+     "Paladin Guard (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst",
+    "Amethyst"
+   ],
+   "socketArt": {
+    "Amethyst": "https://sunderarmor.com/DIABLO4/Gems/grand-amethyst.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of the Arbiter's Zephyr",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of the Arbiter's Zephyr\nPaladin\nArbiter's evade cooldown is reduced by [1 - 3] Seconds.\nStrength\nMaximum Life\nMaximum Evade Charge\nFaith Regeneration\nEvade Cooldown Reduction\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "ranks:spears-of-the-heavens",
+    "armor"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Ranks To Spears Of The Heavens",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Griswold's Opus",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/griswold's_opus.png",
+    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "Damage",
+    "Maximum Life",
+    "Vulnerable Damage"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Celestial Strife",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Celestial Strife\nPaladin\nWhile in Arbiter, kills grant x [1 - 1.5%] increased Vulnerable damage, up to a maximum of [50 - 75%].\nCritical Strike Chance\nStrength\nArmor\nCooldown Reduction\nArbiter Duration\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "ranksAll",
+    "strength"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Ranks To All Skills",
+    "Strength",
+    "All Damage Multipler"
+   ],
+   "tempers": [
+    [
+     "ranks:en-garde",
+     "Paladin Guard (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Ascension",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Ascension\nPaladin\nCasting a Skill that grants Arbiter form increases your damage by x [5 - 7%] , stacking up to 10 times. All stacks are lost when leaving Arbiter form. \nStrength\nCooldown Reduction\nDamage Reduction\nCritical Strike Chance\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "strength",
+    "cdr",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Strength",
+    "Cooldown Reduction",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Juggernaut Efficiency (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Argent Veil",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/argent_veil.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "critChance",
+    "strength",
+    "cdr",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Strength",
+    "Cooldown Reduction",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Cathedral's Song",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/cathedral's_song.png",
+    "tip": "Cathedral's Song\nUnique Shield\n20% Block Chance\n100% Main Hand Weapon Damage\nStrength\nRanks to Spear of the Heavens\nCooldown Reduction\nDamage Reduction\nConsuming Judgement 100 times calls down Spear of the Heavens onto a random enemy. Judgement on Bosses counts as 10.`\nYour Spear of the Heavens damage is increased by [80 - 100%].\nPaladin\nDropped By:\nUrivar"
+   },
+   "affixes": [
+    "strength",
+    "critChance",
+    "cdr",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "Strength",
+    "Critical Strike Chance",
+    "Cooldown Reduction",
+    "Damage Reduction",
+    "Tempering Stat 1"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Bac",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Bac\nLegendary Rune of Ritual\nGain: 50 Offering\nTravel 5 meters."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Cem",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cem\nMagic Rune of Ritual\nGain: 75 Offering\nCast Evade."
+  },
+  {
+   "name": "Wat",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Wat\nRare Rune of Invocation\nRequires: 100 Offering (Overflow: Increase Duration)\nCooldown: 1 seconds\nInvoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Fer of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Fer of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "Mlor of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Mlor of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nDefiance Aura Potency\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   {
+    "name": "Linta of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Linta of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   },
+   {
+    "name": "Phoba of Righteous Will",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
+    "set": "Cathan'S Righteous Will",
+    "mythic": false,
+    "tip": "Phoba of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Falling Star",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/falling_star.png",
+    "tip": "Falling Star\nRank 1\nValor\nDisciple\nMobility\nCooldown: 12 seconds\nLucky Hit: 24%\nSoar into the air with angel wings and dive down onto the battlefield, dealing [80%] on takeoff and [240%] damage on landing.\nModifiers\nFalling Star applies Vulnerable to enemies for 4 seconds on landing.\nKilling a Vulnerable enemy reduces the Cooldown of Falling Star by 0.5 seconds.\nFalling Star cuts through the battlefield, Knocking Down enemies for 2 seconds when landing and creating a fissure along your path that deals [180%] damage before erupting for [60%] damage.\nHoly Damage"
+   },
+   {
+    "name": "Fanaticism Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fanaticism_aura.png",
+    "tip": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive."
+   },
+   {
+    "name": "Condemn",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/condemn.png",
+    "tip": "Condemn\nRank 4\nJustice\nDisciple\nCooldown: 15 seconds\nLucky Hit: 26%\nHarness the Light and Pull enemies in after 1.5 seconds, briefly Stunning them and dealing [312%] damage.\nWhile Casting Condemn, you become Unhindered for 1.5 seconds.\nModifiers\nCondemn applies Weaken to enemies for 4 seconds.\nCondemn's size is increased by 50%.\nCondemn now has 1 additional Charge and applies Vulnerable for 4 seconds."
+   },
+   {
+    "name": "Defiance Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/defiance_aura.png",
+    "tip": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage."
+   },
+   {
+    "name": "Rally",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rally.png",
+    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nCasting Rally's increases your Movement Speed by an additional +5% and grants Unhindered while active.\nRally now costs 35% of Maximum Life and can stack up to 3 times."
+   },
+   {
+    "name": "Spear of the Heavens",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/spear_of_the_heavens.png",
+    "tip": "Spear of the Heavens\nRank 15\nJustice\nJudicator\nCooldown: 14 seconds\nLucky Hit: 33%\nRain down 4 heavenly spears from the sky, dealing [408%] damage and Knocking Down enemies for 1.5 seconds. After 1.5 seconds, the spears burst, dealing [306%] damage.\nModifiers\nConsuming Judgement reduces Spear of the Heavens active cooldown by 0.5 seconds.\nSpear of the Heavens applies Vulnerable to enemies for 4 seconds.\nSpear of the Heavens now drops 8 spears along the path toward your target."
+   },
+   {
+    "name": "Disciple",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/disciple.png",
+    "tip": "Disciple\nCasting a Disciple Skill with a cooldown grants Arbiter for 4.5 seconds.\nWing Strikes gain Disciple Skill benefits.\nWhile in Arbiter form, your Disciple Skills deal x100% increased damage."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "845,900": 3,
+   "899,717": 3,
+   "1050,754": 1,
+   "1089,811": 1,
+   "939,902": 1,
+   "985,902": 1,
+   "843,1029": 1,
+   "342,976": 1,
+   "251,1014": 1,
+   "363,1158": 1,
+   "364,901": 3,
+   "318,900": 3,
+   "1215,1213": 3,
+   "1457,1181": 1,
+   "1419,1236": 1,
+   "1346,1436": 3,
+   "1457,1325": 3,
+   "1550,1384": 1,
+   "1440,1550": 1,
+   "1485,1551": 3,
+   "1217,1658": 3,
+   "864,1883": 3,
+   "918,1770": 3,
+   "957,1992": 1,
+   "539,2032": 3
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Spirit",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,12",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Castle",
+   "glyph": "Canny",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,12",
+    "3,13",
+    "3,14",
+    "3,15",
+    "3,16",
+    "4,14",
+    "4,15",
+    "4,16",
+    "4,19",
+    "5,16",
+    "5,19",
+    "6,16",
+    "6,19",
+    "6,20",
+    "7,16",
+    "7,20",
+    "8,15",
+    "8,16",
+    "8,17",
+    "8,18",
+    "8,19",
+    "8,20",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,17",
+    "9,20",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6"
+   ]
+  },
+  {
+   "name": "Shield Bearer",
+   "glyph": "Apostle",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "3,15",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "10,14",
+    "10,15",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,13",
+    "12,16",
+    "12,17",
+    "13,10",
+    "13,11",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,14",
+    "16,15",
+    "16,16",
+    "16,17",
+    "16,18",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Relentless",
+   "glyph": "Resplendence",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "4,15",
+    "4,16",
+    "5,5",
+    "5,6",
+    "5,7",
+    "5,8",
+    "5,15",
+    "5,16",
+    "6,4",
+    "6,5",
+    "6,8",
+    "6,16",
+    "6,17",
+    "6,18",
+    "7,4",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,18",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,3",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,16",
+    "10,3",
+    "10,8",
+    "10,14",
+    "10,15",
+    "10,16",
+    "11,2",
+    "11,3",
+    "11,8",
+    "11,14",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,14",
+    "13,7",
+    "13,8",
+    "13,10",
+    "13,11",
+    "13,14",
+    "13,15",
+    "14,7",
+    "14,8",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15"
+   ]
+  },
+  {
+   "name": "Divinity",
+   "glyph": "Exploit",
+   "x": 0,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "4,18",
+    "5,15",
+    "5,16",
+    "5,17",
+    "5,18",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "7,14",
+    "7,17",
+    "8,13",
+    "8,14",
+    "9,13",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,5",
+    "11,11",
+    "11,12",
+    "11,13",
+    "12,5",
+    "12,9",
+    "12,10",
+    "12,11",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "14,3",
+    "14,4",
+    "14,7",
+    "15,2",
+    "15,3",
+    "16,2",
+    "16,3",
+    "16,6",
+    "17,3",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,5",
+    "18,7",
+    "19,5",
+    "19,6",
+    "19,7",
+    "20,6"
+   ]
+  }
+ ]
+}

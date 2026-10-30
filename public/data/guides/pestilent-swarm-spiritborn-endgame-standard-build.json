@@ -1,0 +1,767 @@
+{
+ "id": "pestilent-swarm-spiritborn-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Spiritborn",
+ "build": "Pestilent Swarm - Spiritborn",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/pestilent-swarm-spiritborn-endgame/?var=0",
+ "updated": "October 27, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Pestilent Swarm",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Harmony of Ebewaka",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/harmony_of_ebewaka.png",
+    "tip": "Harmony of Ebewaka\nMythic Unique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nAccording to your secondary Spirit Hall choice, your Skills are all additionally Jaguar, Eagle, Gorilla, or Centipede Skills.\n\nYour Skills deal x [39%] increased damage per Spirit type they have.\nSpiritborn\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Moni",
+    "Kry"
+   ],
+   "socketArt": {
+    "Moni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Resolve Stacks\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "movementSpeed",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Movement Speed",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Yul",
+    "Lo"
+   ],
+   "socketArt": {
+    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lo": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Supremacy",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Supremacy\nCodex • Spiritborn\nEnemies you kill while an Ultimate Skill is active grants a stack of Supremacy, each increasing your damage by x [6 - 9%] , up to x [60 - 90%]. When an Ultimate Skill ends, you gain 5 stacks of Supremacy up to 15, but you begin to lose one stack every second.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nSpiritborn\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Apprehension",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Apprehension\nCodex • Spiritborn\nOnce an enemy is Slowed by at least 80%, they also become Feared for 3 seconds. You deal x [30 - 40%] increased damage to Feared enemies.\nMaximum Life\nDexterity\nResistance to All Elements\nArmor\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "life",
+    "dexterity",
+    "resAll",
+    "armor"
+   ],
+   "affixNames": [
+    "Maximum Life",
+    "Dexterity",
+    "Resistance To All Elements",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Infinity",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_2h_sword.png",
+    "tip": "Infinity\nUnique Weapon\nMovement Speed\nMaximum Life\nDexterity\nDamage Over Time Multiplier\nBerMalBerIst\nDamage Over Time\n50% Chance to unleash a Rank 20 Sorcerer Chain Lightning when you kill an enemy. You gain the Rank [22] passive of Druid's Cyclone Armor. Close enemies are Vulnerable and take x [125%] more damage from you."
+   },
+   "affixes": [
+    "movementSpeed",
+    "life",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Movement Speed",
+    "Maximum Life",
+    "Dexterity",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Infestation",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Hellfire\nSoul Splinter\nJewelry:625 Resistance to All Elements\nYou deal x50% increased damage but lose 100% Critical Strike Chance."
+   },
+   "affixes": [
+    "vulnDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity",
+    "Aspect Of Kinetic Suppression"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of Writhing Moon",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_writhing_moon.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "dexterity",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Poison Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Pestilence",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   "affixes": [
+    "vulnDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Moni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  },
+  {
+   "name": "Yul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+  },
+  {
+   "name": "Lo",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png",
+   "tip": "Lo\nCommon Rune of Ritual\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nGain 25% Deadly Strike Chance for 10 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\n+1 Charm Slot"
+  },
+  "charms": [
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nGorilla Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   },
+   {
+    "name": "Fer of Balazan's Bite",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
+    "set": "Balazan'S Bite",
+    "mythic": false,
+    "tip": "Fer of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
+   },
+   {
+    "name": "Arioc's Needle",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Arioc's Needle\nGain x [17.5 - 25%] Deadly Strike Chance. Your Deadly Strikes deal x [35 - 50%] increased damage."
+   },
+   {
+    "name": "Linta of Balazan's Bite",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
+    "set": "Balazan'S Bite",
+    "mythic": false,
+    "tip": "Linta of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Balazan's Bite"
+   },
+   {
+    "name": "Mlor of Balazan's Bite",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
+    "set": "Balazan'S Bite",
+    "mythic": false,
+    "tip": "Mlor of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Toxic Skin",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/toxic_skin.png",
+    "tip": "Toxic Skin\nRank 15\nFocus\nCentipede\nIncarnate\nCooldown: 15 seconds\nLucky Hit: 20%\nPassive: Enemies that attack you are Poisoned for [184%] damage over 6 seconds.\nActive: Your toxins overflow, applying the Poisoning in a trail and making you Unhindered for 5 seconds.\nModifiers\nWhile Toxic Skin is active, Heal for 3% of your Maximum Life per second.\nToxic Skin's Cooldown is reduced by 3 seconds and its damage Weakens enemies. While its active, you gain [128%] Armor.\nPoison Damage"
+   },
+   {
+    "name": "Counterattack",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/counterattack_counterattack_of_the_swarm.png",
+    "tip": "Counterattack\nRank 15\nDefensive\nJaguar\nIncarnate\nCharges: 2\nCharge Cooldown: 20 seconds\nLucky Hit: 30%\nPassive: Gain [14%] Dodge Chance and automatically retaliate against Close enemies for [204%] damage when you Dodge their attacks.\nActive: Dodge all direct attacks for 3 seconds per cast, up to 6 seconds.\nModifiers\nCounterattack's Cooldown is reduced by 0.5 seconds per stack of Ferocity you have.\nCounterattack deals x30% increased damage.\nCounterattack becomes a Centipede Skill that deals Poison damage.\nPassive: Your Pestilent Swarms Weaken enemies.\nActive: Send out 3 Pestilent Swarms that deal [191%] damage each second for 3 seconds.\nFire Damage"
+   },
+   {
+    "name": "Ravager",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ravager.png",
+    "tip": "Ravager\nRank 15\nFocus\nJaguar\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Minimum Ferocity increased by [2].\nActive: Unleash a savage roar, causing each of your attacks to trigger an additional [102%] damage strike per enemy over 6 seconds.\nModifiers\nRavager's duration is increased by 2 seconds.\nRavager's Passive also increases your Maximum Ferocity by 2.\nRavager's Passive gains: Whenever a Skill comes off Cooldown, deal [204%] damage to Close enemies.\nWhile Ravager is active, gain 25% Cooldown Rate.\nFire Damage"
+   },
+   {
+    "name": "Scourge",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/scourge.png",
+    "tip": "Scourge\nRank 15\nDefensive\nCentipede\nCooldown: 12 seconds\nLucky Hit: 10%\nCall forth a wave of insects that bite enemies, Fearing and Slowing them by 70% for 3 seconds while applying [255%] Poisoning damage over 6 seconds.\nModifiers\nScourge also Weakens enemies for 6 seconds.\nEnemies affected by Scourge are Vulnerable.\nScourge grants you 15% Damage Reduction and continuously affects enemies around you for 4.5 seconds.\nPoison Damage"
+   },
+   {
+    "name": "Rushing Claw",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rushing_claw.png",
+    "tip": "Rushing Claw\nRank 2\nPotency\nJaguar\nMobility\nCharges: 4\nCharge Cooldown: 4 per 20 seconds\nLucky Hit: 25%\nSlash a short distance through an enemy, striking all enemies along the way twice for a total of [176%] damage.\nModifiers\nRushing Claw gains 1 Charge.\nRushing Claw extends the duration of your active Incarnate Skills by 0.5 seconds up to 4 seconds.\nRushing Claw deals 30% increased damage and is empowered based on how many Charges it has when you Cast it:\n1: Heals [17%] of your Maximum Life.\n2: Guaranteed to Critically Strike.\n3: Gain 100% Dodge Chance for 1.5 seconds.\n4+: Strikes an additional time.\nUsing Rushing Claw's last Charge will refill 4 Charges by consuming 4 stacks of Ferocity.\nFire Damage"
+   },
+   {
+    "name": "The Devourer",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/the_devourer.png",
+    "tip": "The Devourer\nRank 1\nUltimate\nCentipede\nCooldown: 45 seconds\nLucky Hit: 10%\nThe Centipede Spirit emerges, blasting enemies in a line for [200%] damage and spitting at others for [95%] damage. Lasts for 15 seconds.\nModifiers\nWhile The Devourer is active, your Poisoning effects have 20% increased duration.\nThe Devourer Heals you for 5% of your Maximum Life per second.\nAs it emerges, The Devourer launches 10 toxic globs that apply [35%] Poisoning damage over 6 seconds wherever they land. Enemies affected by toxic globs also take x50% increased Poison Damage.\nPoison Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "1183,1241": 1,
+   "1423,1151": 1,
+   "1322,1241": 1,
+   "1407,1528": 15,
+   "1470,1473": 1,
+   "1645,1567": 1,
+   "1497,1659": 1,
+   "1182,1631": 15,
+   "1424,1725": 1,
+   "1277,1816": 1,
+   "611,2083": 15,
+   "545,2029": 1,
+   "409,2178": 1,
+   "473,2211": 1,
+   "870,1879": 15,
+   "925,1770": 1,
+   "1072,1827": 1,
+   "1009,1990": 1,
+   "814,2582": 2,
+   "702,2583": 1,
+   "611,2619": 1,
+   "722,2767": 1,
+   "1111,3062": 1,
+   "1212,2936": 1,
+   "1312,3007": 1,
+   "1200,3192": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Menagerist",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Revealing",
+   "glyph": "Canny",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,18",
+    "5,11",
+    "5,15",
+    "5,17",
+    "5,18",
+    "6,11",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,13",
+    "7,14",
+    "7,17",
+    "8,8",
+    "8,11",
+    "8,13",
+    "9,7",
+    "9,8",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,7",
+    "10,11",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,5",
+    "11,6",
+    "11,7",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,4",
+    "12,11",
+    "12,15",
+    "13,4",
+    "13,15",
+    "14,3",
+    "14,4",
+    "14,15",
+    "15,2",
+    "15,3",
+    "16,3",
+    "16,5",
+    "16,6",
+    "17,3",
+    "17,4",
+    "17,5",
+    "18,5",
+    "19,5",
+    "19,6"
+   ]
+  },
+  {
+   "name": "Drive",
+   "glyph": "Bane",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "3,8",
+    "3,16",
+    "4,6",
+    "4,7",
+    "4,16",
+    "5,7",
+    "5,8",
+    "5,16",
+    "6,8",
+    "6,12",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,18",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,15",
+    "9,16",
+    "9,18",
+    "10,13",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,13",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,14",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11"
+   ]
+  },
+  {
+   "name": "Convergence",
+   "glyph": "Colossal",
+   "x": -1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "9,16",
+    "10,11",
+    "10,14",
+    "10,15",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,9",
+    "12,10",
+    "12,14",
+    "13,9",
+    "13,14",
+    "13,15",
+    "14,15",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,14",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,13",
+    "17,14",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Prodigy's Tempo",
+   "glyph": "Consumption",
+   "x": 1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,7",
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,7",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "7,9",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,12",
+    "8,13",
+    "9,10",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,15",
+    "10,16",
+    "10,17",
+    "11,10",
+    "11,17",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,16",
+    "12,17",
+    "13,8",
+    "13,15",
+    "13,16",
+    "14,16",
+    "15,16",
+    "15,17",
+    "16,17",
+    "16,18",
+    "17,18",
+    "18,18"
+   ]
+  }
+ ]
+}

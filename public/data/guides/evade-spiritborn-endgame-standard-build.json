@@ -1,0 +1,707 @@
+{
+ "id": "evade-spiritborn-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Spiritborn",
+ "build": "Evade Rushing Claw - Lord of Hatred",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/evade-spiritborn-endgame/?var=0",
+ "updated": "June 14, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Evade Rushing Claw - Lord of Hatred",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Loyalty's Mantle",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/loyalty's_mantle.png",
+    "tip": "Loyalty's Mantle\nUnique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nWhile your Spirit Hall choices match: \n- Their bonuses are 100% more potent.\n- Skills of their Base Spirit gain [50 - 60%] Vigor Cost Reduction.\n- Skills of their Base Spirit gain [50 - 60%] Cooldown Reduction.\nSpiritborn\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Yul",
+    "Que"
+   ],
+   "socketArt": {
+    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nSpiritborn\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Bac",
+    "Kry"
+   ],
+   "socketArt": {
+    "Bac": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Fleet Wings",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Fleet Wings\nSpiritborn\nYour Eagle Skill damage is increased by x [25 - 35%] of your Movement Speed.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Temerity",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
+    "tip": "Temerity\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nEffects that Heal you beyond 100% Life grant you a Barrier up to [80 - 100%] of your Maximum Life that lasts for 8 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Interdiction",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Interdiction\nSpiritborn\nGain [2 - 3%] Block Chance per Resolve stack.\nRavager\nDexterity\nMovement Speed\nMaximum Life\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Ravager",
+    "Dexterity",
+    "Movement Speed",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Aspect of Supremacy",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Supremacy\nCodex • Spiritborn\nEnemies you kill while an Ultimate Skill is active grants a stack of Supremacy, each increasing your damage by x [6 - 9%] , up to x [60 - 90%]. When an Ultimate Skill ends, you gain 5 stacks of Supremacy up to 15, but you begin to lose one stack every second.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "weaponDamage",
+    "life"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Critical Strike Damage Multiplier",
+    "Weapon Damage",
+    "All Damage Multiplier",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Rebounding Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Rebounding Aspect\nSpiritborn\nGain +60% increased Dodge Chance during Evade.\n\nWhenever you Evade or use a Non-Basic Mobility Skill, you gain x [40 - 60%] Critical Strike Chance and x10% [10 - 15%] Movement Speed for 4 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nAttack Speed\nMaximum Resolve Stacks\nAspect of Apprehension\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Attack Speed",
+    "Aspect Of Apprehension"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Conceited Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Conceited Aspect\nEvery Class\nDeal x [40 - 60%] increased damage while you have a Barrier active.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Redirected Force",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Bac",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Bac\nLegendary Rune of Ritual\nGain: 50 Offering\nTravel 5 meters."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  },
+  {
+   "name": "Yul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of Kwatli's Grace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
+    "set": "Kwatli'S Grace",
+    "mythic": false,
+    "tip": "Berú of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   },
+   {
+    "name": "Fer of Kwatli's Grace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
+    "set": "Kwatli'S Grace",
+    "mythic": false,
+    "tip": "Fer of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   },
+   {
+    "name": "Wushe Nak Pa",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Wushe Nak Pa\nCasting an Ultimate Skill grants or amplifies its matching Primary Spirit Hall Bonus with + [125 - 150%] potency for 15 seconds.\n\nYour Ultimate Skills each gain an additional Skill Type:\n- The Seeker is a Focus Skill.\n- The Hunter is a Mobility Skill.\n- The Devourer is a Potency Skill.\n- The Protector is a Defensive Skill."
+   },
+   {
+    "name": "Linta of Kwatli's Grace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
+    "set": "Kwatli'S Grace",
+    "mythic": false,
+    "tip": "Linta of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   },
+   {
+    "name": "Phoba of Kwatli's Grace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
+    "set": "Kwatli'S Grace",
+    "mythic": false,
+    "tip": "Phoba of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   },
+   {
+    "name": "Mlor of Kwatli's Grace",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
+    "set": "Kwatli'S Grace",
+    "mythic": false,
+    "tip": "Mlor of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Concussive Stomp",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/concussive_stomp.png",
+    "tip": "Concussive Stomp\nRank 1\nDefensive\nGorilla\nCooldown: 10 seconds\nLucky Hit: 20%\nStomp in front of you, releasing a shockwave that deals [65%] damage and Knocks Down enemies for 3 seconds.\nModifiers\nConcussive Stomp grants a Barrier equal to 10% of your Maximum Life per enemy hit for 3 seconds, up to 30%.\nConcussive Stomp grants 3 Resolve.\nConcussive Stomp grants you 15% Damage Reduction for 4 seconds. When enemies recover from a Concussive Stomp, they have 30% reduced Attack Speed for 4 seconds.\nPhysical Damage"
+   },
+   {
+    "name": "Toxic Skin",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/toxic_skin.png",
+    "tip": "Toxic Skin\nRank 15\nFocus\nCentipede\nIncarnate\nCooldown: 15 seconds\nLucky Hit: 20%\nPassive: Enemies that attack you are Poisoned for [184%] damage over 6 seconds.\nActive: Your toxins overflow, applying the Poisoning in a trail and making you Unhindered for 5 seconds.\nModifiers\nWhile Toxic Skin is active, Heal for 3% of your Maximum Life per second.\nToxic Skin's Cooldown is reduced by 3 seconds and its damage Weakens enemies. While its active, you gain [128%] Armor.\nPoison Damage"
+   },
+   {
+    "name": "Armored Hide",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/armored_hide.png",
+    "tip": "Armored Hide\nRank 9\nDefensive\nGorilla\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Gain 1 Resolve every [3.6] seconds.\nActive: Encase yourself, gaining + [51%] Block Chance for 3 seconds.\nModifiers\nWhile Armored Hide is active, gain +15% Blocked Damage Reduction.\nArmored Hide active duration is increased by 1 second.\nArmored Hide restores 50 Vigor and makes you Unstoppable for the duration.\nPhysical Damage"
+   },
+   {
+    "name": "Ravager",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ravager.png",
+    "tip": "Ravager\nRank 15\nFocus\nJaguar\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Minimum Ferocity increased by [2].\nActive: Unleash a savage roar, causing each of your attacks to trigger an additional [102%] damage strike per enemy over 6 seconds.\nModifiers\nRavager's duration is increased by 2 seconds.\nRavager's Passive also increases your Maximum Ferocity by 2.\nRavager's Passive gains: Whenever a Skill comes off Cooldown, deal [204%] damage to Close enemies.\nWhile Ravager is active, gain 25% Cooldown Rate.\nFire Damage"
+   },
+   {
+    "name": "Rushing Claw",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rushing_claw_evasive_swipe.png",
+    "tip": "Rushing Claw\nRank 2\nPotency\nJaguar\nMobility\nCharges: 4\nCharge Cooldown: 4 per 20 seconds\nLucky Hit: 25%\nSlash a short distance through an enemy, striking all enemies along the way twice for a total of [176%] damage.\nModifiers\nRushing Claw gains 1 Charge.\nRushing Claw extends the duration of your active Incarnate Skills by 0.5 seconds up to 4 seconds.\nRushing Claw deals 30% increased damage and is empowered based on how many Charges it has when you Cast it:\n1: Heals [17%] of your Maximum Life.\n2: Guaranteed to Critically Strike.\n3: Gain 100% Dodge Chance for 1.5 seconds.\n4+: Strikes an additional time.\nUsing Rushing Claw's last Charge will refill 4 Charges by consuming 4 stacks of Ferocity.\nFire Damage"
+   },
+   {
+    "name": "The Seeker",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/the_seeker_tag_team.png",
+    "tip": "The Seeker\nRank 15\nUltimate\nEagle\nCharges: 3\nCharge Cooldown: 45 seconds\nLucky Hit: 35%\nThe Eagle Spirit swoops down and deals [133%] damage. After a short delay it blasts off dealing [1148%] damage.\nModifiers\nThe Seeker constantly makes all enemies in its area Vulnerable.\nThe Seeker is also a Jaguar Skill.\nThe Jaguar Spirit aids The Seeker, granting you 4 Ferocity and slashing 3 times dealing [191%] Fire Damage. The Seeker gains 2 additional Charges.\nLightning Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "1183,1241": 1,
+   "1423,1151": 1,
+   "1322,1241": 1,
+   "1407,1528": 15,
+   "1470,1473": 1,
+   "1645,1567": 1,
+   "1543,1658": 1,
+   "1182,1631": 3,
+   "1424,1725": 1,
+   "1277,1816": 1,
+   "611,1676": 15,
+   "556,1546": 1,
+   "407,1585": 1,
+   "519,1732": 1,
+   "464,1879": 1,
+   "407,1770": 1,
+   "263,1826": 1,
+   "324,1990": 1,
+   "814,2582": 15,
+   "702,2583": 1,
+   "612,2732": 1,
+   "722,2767": 1,
+   "740,3230": 15,
+   "610,3296": 1,
+   "796,3437": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Colossal",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,14",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Drive",
+   "glyph": "Fulminate",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "3,8",
+    "4,6",
+    "4,7",
+    "5,7",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,15",
+    "9,16",
+    "9,18",
+    "10,4",
+    "10,8",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,14"
+   ]
+  },
+  {
+   "name": "In-Fighter",
+   "glyph": "Canny",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "3,16",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,16",
+    "6,16",
+    "6,19",
+    "7,16",
+    "7,19",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,15",
+    "8,16",
+    "8,17",
+    "8,18",
+    "8,19",
+    "8,20",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  },
+  {
+   "name": "Convergence",
+   "glyph": "Spirit",
+   "x": -1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "9,16",
+    "10,11",
+    "10,14",
+    "10,15",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,9",
+    "12,10",
+    "12,14",
+    "12,15",
+    "13,9",
+    "13,15",
+    "14,15",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,14",
+    "16,15",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,13",
+    "17,14",
+    "18,6",
+    "18,8",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Viscous Shield",
+   "glyph": "Talon",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,5",
+    "8,6",
+    "8,8",
+    "8,11",
+    "8,13",
+    "9,5",
+    "9,8",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5",
+    "10,8",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,13",
+    "13,11",
+    "13,12",
+    "13,13"
+   ]
+  }
+ ]
+}

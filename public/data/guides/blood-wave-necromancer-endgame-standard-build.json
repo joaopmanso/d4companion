@@ -1,0 +1,799 @@
+{
+ "id": "blood-wave-necromancer-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Necromancer",
+ "build": "Blood Wave - Necromancer",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/blood-wave-necromancer-endgame/?var=0",
+ "updated": "October 27, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Blood Wave",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [130%]."
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Pain",
+    "Splinter of Anguish"
+   ],
+   "socketArt": {
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png",
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMaximum Resource\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Maximum Resource",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Que"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nDamage Per Overpower Stack\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "All Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "overpower",
+     "Sharpened Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Kessime's Legacy",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/kessime's_legacy.png",
+    "tip": "Kessime's Legacy\nUnique Pants\nIntelligence\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nBlood Wave now forms a wave on each side of you. Both waves converge at your feet, Pulling In surrounding enemies and exploding for [X] damage.\nNecromancer\nDropped By:\nAndariel"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Tam",
+    "Teb"
+   ],
+   "socketArt": {
+    "Tam": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Teb": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Embattled Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Embattled Aspect\nCodex • Necromancer\nFortify's Drain Rate is increased by + [150 - 200%].\nIntelligence\nMaximum Life\nMaximum Evade Charge\nEssence Regeneration\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "evadeCharges"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Maximum Evade Charge",
+    "Essence Regeneration"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "2h-weapon": {
+   "name": "2H Weapon",
+   "item": {
+    "name": "Infinity",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_2h_sword.png",
+    "tip": "Infinity\nUnique Weapon\nMovement Speed\nMaximum Life\nIntelligence\nCritical Strike Damage Multiplier\nBerMalBerIst\nCritical Strike Chance\n50% Chance to unleash a Rank 20 Sorcerer Chain Lightning when you kill an enemy. You gain the Rank [22] passive of Druid's Cyclone Armor. Close enemies are Vulnerable and take x [125%] more damage from you."
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Banished Lord's Talisman",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/banished_lord's_talisman.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "intelligence",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [
+    "Exploiter's Aspect"
+   ],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "intelligence",
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "18.75% Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Thickened Blood",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "intelligence"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Intelligence"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "empty": {
+   "name": "Empty",
+   "item": {
+    "name": "Offhand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/offhand.png",
+    "tip": ""
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  }
+ },
+ "runes": [
+  {
+   "name": "Poc",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Tam",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill."
+  },
+  {
+   "name": "Teb",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Teb\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Increase damage by 1% per Offering)\nCooldown: 1 seconds\nInvoke the Necromancer's Abhorrent Iron Maiden, counterattacking damage from enemies and Healing you when they die."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Fer of the Blood Binder",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
+    "set": "Word of the Blood Binder",
+    "mythic": false,
+    "tip": "Fer of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+   },
+   {
+    "name": "Linta of the Blood Binder",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
+    "set": "Word of the Blood Binder",
+    "mythic": false,
+    "tip": "Linta of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+   },
+   {
+    "name": "Blood-Mad Idol",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Blood-Mad Idol\nBlood Skills\nLucky Hit: Chance to Freeze\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+   },
+   {
+    "name": "Phoba of the Blood Binder",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
+    "set": "Word of the Blood Binder",
+    "mythic": false,
+    "tip": "Phoba of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "tip": "Hellfire Torch\nLucky Hit: Chance to Freeze\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Word of the Blood Binder"
+   },
+   {
+    "name": "Red Blessing",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Sever",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sever.png",
+    "tip": "Sever\nCore\nDarkness\nEssence Cost: 20\nLucky Hit: 40%\nA specter of you charges forward, dealing [60%] damage, then attacks with its scythe, dealing [100%] damage.\nShadow Damage"
+   },
+   {
+    "name": "Blood Lance",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blood_lance.png",
+    "tip": "Blood Lance\nCore\nBlood\nEssence Cost: 15\nLucky Hit: 50%\nThrow a blood lance, dealing [160%] damage to an enemy that ricochets to another enemy. Enemies hit are lanced for 3 seconds.\nWhen Blood Lance hits an enemy, it deals damage to all other lanced enemies.\nPhysical Damage"
+   },
+   {
+    "name": "Bone Prison",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bone_prison_life_imprisonment.png",
+    "tip": "Bone Prison\nRank 15\nMacabre\nBone\nCooldown: 15 seconds\nUnearth a prison of bone with X Life that surrounds the target area for [8.4] seconds.\nModifiers\nCasting Bone Prison generates 50 Essence. Trapping a Boss generates an additional 25 Essence.\nBone Prison grants 1 stack of Resolve for each enemy trapped.\nBone Prison becomes a Blood Skill, casting the prison around you.\nWhile standing within it your Essence Generation and Cast Speed are increased by [51%] , but it drains 5% of your Maximum Life every second."
+   },
+   {
+    "name": "Corpse Tendrils",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/corpse_tendrils.png",
+    "tip": "Corpse Tendrils\nRank 1\nCorpse\nProfane\nCooldown: 11 seconds\nLucky Hit: 30%\nBurst veins out of a Corpse, Slowing enemies by 50% for 1.5 seconds before Pulling them in and dealing [20%] damage.\nModifiers\nYou gain an additional +5% increased Critical Strike Chance for 6 seconds against enemies damaged by Corpse Tendrils.\nCorpse Tendrils gains an additional +40% Lucky Hit Chance.\nCorpse Tendrils is no longer cast on a Corpse and is cast on you instead.\nCorpse Tendrils Fortifies you for 5% of your Maximum Life for each enemy it damages.\nPhysical Damage"
+   },
+   {
+    "name": "Decrepify",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/decrepify_life_tap.png",
+    "tip": "Decrepify\nRank 14\nCurse\nProfane\nEssence Cost: 10\nCurse the target area. Enemies afflicted by Decrepify are Weakened and Slowed by [55.2%] for 30 seconds.\nModifiers\nLucky Hit: Enemies hit while afflicted with Decrepify have up to a 15% chance to reduce a random active Cooldown by 1 second.\nLucky Hit: Enemies hit while afflicted with Decrepify have up to a 25% chance to grant 1 stack of Resolve.\nDecrepify is also a Blood Skill, healing for [24%] of your Maximum Life whenever you hit an enemy afflicted with it, up to once a second.\nEnemies that die while afflicted with Decrepify have a 20% chance to form a Blood Orb."
+   },
+   {
+    "name": "Blood Wave",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blood_wave.png",
+    "tip": "Blood Wave\nRank 15\nUltimate\nBlood\nCooldown: 50 seconds\nLucky Hit: 50%\nConjure a tidal wave of blood that deals [1275%] damage and Knocks Back\nenemies.\nModifiers\nBlood Wave deals x30% increased damage while you are Fortified.\nBlood Wave forms up to 2 Blood Orbs as it travels.\nBlood Wave becomes a Core Skill, has no Cooldown, but costs 70 Essence.\nBlood Wave conjures a shorter wave that deals [765%] damage and no longer Knocks Back enemies.\nPhysical Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "478,1152": 1,
+   "533,1245": 1,
+   "439,1399": 1,
+   "346,1257": 1,
+   "1219,1666": 1,
+   "1285,1609": 1,
+   "1461,1702": 1,
+   "1312,1795": 1,
+   "608,2092": 1,
+   "542,2033": 1,
+   "401,2182": 1,
+   "512,2221": 1,
+   "606,1680": 15,
+   "513,1736": 1,
+   "402,1702": 1,
+   "552,1552": 1,
+   "1072,2423": 14,
+   "1173,2313": 1,
+   "1311,2425": 1,
+   "1210,2538": 1,
+   "738,2422": 1,
+   "635,2311": 1,
+   "530,2479": 1,
+   "642,2533": 1,
+   "700,3073": 15,
+   "644,2939": 1,
+   "496,3128": 1,
+   "560,3202": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Essence",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "8,11",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,9",
+    "10,12",
+    "11,9",
+    "11,12",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Bloodbath",
+   "glyph": "Gravekeeper",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "10,11",
+    "10,14",
+    "10,15",
+    "10,16",
+    "10,17",
+    "10,18",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,9",
+    "12,10",
+    "12,14",
+    "12,15",
+    "13,9",
+    "13,15",
+    "14,15",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,14",
+    "16,15",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,13",
+    "17,14",
+    "18,5",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,7",
+    "19,11",
+    "20,6",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Scent of Death",
+   "glyph": "Eliminator",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "10,10",
+    "11,10",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,10",
+    "12,18",
+    "13,10",
+    "13,17",
+    "13,18",
+    "14,10",
+    "14,11",
+    "14,13",
+    "14,14",
+    "14,15",
+    "14,16",
+    "14,17",
+    "15,11",
+    "15,12",
+    "15,13",
+    "15,17",
+    "15,18",
+    "16,11",
+    "16,13",
+    "17,7",
+    "17,8",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,8",
+    "18,13",
+    "19,8",
+    "19,13",
+    "20,8",
+    "20,9",
+    "20,10",
+    "20,11",
+    "20,12",
+    "20,13"
+   ]
+  },
+  {
+   "name": "Frailty",
+   "glyph": "Imbiber",
+   "x": -1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,7",
+    "7,11",
+    "8,7",
+    "9,6",
+    "9,7",
+    "10,5",
+    "10,6",
+    "11,2",
+    "11,3",
+    "11,5",
+    "11,6",
+    "12,3",
+    "12,5",
+    "12,6",
+    "12,7",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "13,3",
+    "13,4",
+    "13,5",
+    "13,11",
+    "14,11",
+    "15,11",
+    "15,15",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,15"
+   ]
+  },
+  {
+   "name": "Flesh-eater",
+   "glyph": "Blood-drinker",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "4,15",
+    "4,16",
+    "5,15",
+    "6,15",
+    "7,13",
+    "7,14",
+    "7,15",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,8",
+    "12,10",
+    "12,11",
+    "12,13",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,5",
+    "14,8",
+    "14,11",
+    "14,12",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "16,11",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,16",
+    "19,11",
+    "19,16",
+    "20,11"
+   ]
+  }
+ ]
+}

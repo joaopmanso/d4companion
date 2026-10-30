@@ -1,0 +1,789 @@
+{
+ "id": "blessed-hammer-paladin-endgame-starter-p200",
+ "site": "d4builds",
+ "className": "Paladin",
+ "build": "Blessed Hammer - Paladin",
+ "variant": "Starter (P200)",
+ "url": "https://d4builds.gg/builds/blessed-hammer-paladin-endgame/?var=1",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Blessed Hammer - Paladin",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Godslayer Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/godslayer_crown.png",
+    "tip": "Godslayer Crown\nUnique Helm\nPrimary Core Stat\nFaith Regeneration\nCooldown Reduction\nMaximum Life\nMaximum Life\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them.\nDropped By:\nAll Bosses, \nAndariel"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "cdr"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Faith Per Second",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Que"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Angelic Masterwork",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Angelic Masterwork\nPaladin\nYour All Resistance is increased by [100 - 140%] while in Arbiter form.\nStrength\nMaximum Life\nFaith per Second\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Faith Per Second",
+    "Maximum Life",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cem",
+    "Wat"
+   ],
+   "socketArt": {
+    "Cem": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Wat": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Holy Punishment",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Holy Punishment\nPaladin\nHoly and Fire damage are increased by x [40 - 60%].\nStrength\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nMaximum Life\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Blessed Hammer",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Layered Wards",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Layered Wards\nPaladin\nYour Blocked Damage Reduction is increased by + [30 - 40%].\nStrength\nMaximum Life\nArmor\nFaith per Second\nArbiter Duration\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Armor",
+    "Faith Per Second"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby",
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of the Arbiter's Zephyr",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of the Arbiter's Zephyr\nPaladin\nArbiter's evade cooldown is reduced by [1 - 3] Seconds.\nStrength\nMaximum Life\nMaximum Evade Charge\nFaith Regeneration\nEvade Cooldown Reduction\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Attacks Reduce Evade's Cooldown",
+    "Faith Regeneration"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Herald's Morningstar",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/herald's_morningstar.png",
+    "tip": "Herald's Morningstar\nUnique 1h Mace\nWeapon Damage\nRanks to Blessed Hammer\nCritical Strike Damage Multiplier\nAll Damage Multipler\nCritical Strike Chance\nBlessed Hammer deals x [80 - 100%] increased damage.\n\nLucky Hit: Up to a 20% chance to spawn a base Blessed Hammer on the target hit.\nPaladin\nDropped By:\nUrivar"
+   },
+   "affixes": [
+    "weaponDamage",
+    "ranks:blessed-hammer",
+    "strength",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Blessed Hammer",
+    "Strength",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Celestial Strife",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Celestial Strife\nPaladin\nWhile in Arbiter, kills grant x [1 - 1.5%] increased Vulnerable damage, up to a maximum of [50 - 75%].\nCritical Strike Chance\nStrength\nArmor\nCooldown Reduction\nArbiter Duration\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "ranksAll",
+    "strength",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "Ranks To All Skills",
+    "Strength",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Lagera's Sovereignty",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Lagera's Sovereignty\nPaladin\nYour Disciple Skills deal x [40 - 60%] increased damage.\nCritical Strike Chance\nVulnerable Damage Multiplier\nCooldown Reduction\nCritical Strike Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "strength",
+    "critDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Strength",
+    "Critical Strike Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Argent Veil",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/argent_veil.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "strength",
+    "ranks:core-skills",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Core Skills",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Aspect of Ascension",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Ascension\nPaladin\nCasting a Skill that grants Arbiter form increases your damage by x [5 - 7%] , stacking up to 10 times. All stacks are lost when leaving Arbiter form. \nStrength\nCooldown Reduction\nDamage Reduction\nCritical Strike Chance\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "critChance",
+    "cdr",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Strength",
+    "Critical Strike Chance",
+    "Cooldown Reduction",
+    "Damage Reduction"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cem",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cem\nMagic Rune of Ritual\nGain: 75 Offering\nCast Evade."
+  },
+  {
+   "name": "Wat",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Wat\nRare Rune of Invocation\nRequires: 100 Offering (Overflow: Increase Duration)\nCooldown: 1 seconds\nInvoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+  },
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot\n+1 Charm Slot"
+  },
+  "charms": [
+   {
+    "name": "Fer of Light's Epiphany",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
+    "set": "Light'S Epiphany",
+    "mythic": false,
+    "tip": "Fer of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+   },
+   {
+    "name": "Mlor of Light's Epiphany",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
+    "set": "Light'S Epiphany",
+    "mythic": false,
+    "tip": "Mlor of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+   },
+   {
+    "name": "Berú of Light's Epiphany",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
+    "set": "Light'S Epiphany",
+    "mythic": false,
+    "tip": "Berú of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+   },
+   {
+    "name": "Griswold's Opus",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth"
+   },
+   {
+    "name": "Linta of Light's Epiphany",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
+    "set": "Light'S Epiphany",
+    "mythic": false,
+    "tip": "Linta of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+   },
+   {
+    "name": "Phoba of Light's Epiphany",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
+    "set": "Light'S Epiphany",
+    "mythic": false,
+    "tip": "Phoba of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Blessed Hammer",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blessed_hammer_disciple's_halo.png",
+    "tip": "Blessed Hammer\nRank 15\nCore\nJudicator\nLucky Hit: 24%\nThrow a Blessed Hammer that spirals out, dealing [293%] damage.\nModifiers\nHitting enemies with Blessed Hammer increases its damage by x5% up to 5 times, for 3 seconds.\nBlessed Hammer gains +15% increased Cast Speed and its hammers travel +25% faster.\nBlessed Hammer becomes a Disciple Skill.\nBlessed Hammer follows you and orbits around you, dealing [293%] damage and attacking 20% faster.\nHoly Damage"
+   },
+   {
+    "name": "Fanaticism Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fanaticism_aura.png",
+    "tip": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive."
+   },
+   {
+    "name": "Defiance Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/defiance_aura.png",
+    "tip": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage."
+   },
+   {
+    "name": "Consecration",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/consecration.png",
+    "tip": "Consecration\nRank 1\nJustice\nDefensive\nJudicator\nCooldown: 18 seconds\nLucky Hit: 12%\nBathe in the Light for 6 seconds, Healing you and your allies for [4%] Maximum Life per second and damaging enemies for [75%] damage per second.\nModifiers\nConsecration Weakens enemies within.\nConsecration increases Primary Resource Generation for you and your allies by +10%.\nConsecration's size is increased by 56%.\nWhile inside Consecration, you and your allies deal x7% additional damage and consume x15% less resource."
+   },
+   {
+    "name": "Condemn",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/condemn.png",
+    "tip": "Condemn\nRank 4\nJustice\nDisciple\nCooldown: 15 seconds\nLucky Hit: 26%\nHarness the Light and Pull enemies in after 1.5 seconds, briefly Stunning them and dealing [312%] damage.\nWhile Casting Condemn, you become Unhindered for 1.5 seconds.\nModifiers\nCondemn applies Weaken to enemies for 4 seconds.\nCondemn's size is increased by 50%.\nCondemn now has 1 additional Charge and applies Vulnerable for 4 seconds."
+   },
+   {
+    "name": "Arbiter of Justice",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/arbiter_of_justice.png",
+    "tip": "Arbiter of Justice\nRank 15\nUltimate\nDisciple\nMobility\nCooldown: 120 seconds\nLucky Hit: 16%\nAscend to the heavens and crash upon the battlefield as an Arbiter for [28] seconds, dealing [1530%] damage upon landing.\nModifiers\nReduce Arbiter of Justice's Cooldown by 20 seconds.\nArbiter's duration is increased by 10 seconds.\nArbiter form gains the following benefits:\n- Wing Strikes deal x200% increased damage\n- Wing Strikes apply Vulnerable"
+   },
+   {
+    "name": "Disciple",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/disciple.png",
+    "tip": "Disciple\nCasting a Disciple Skill with a cooldown grants Arbiter for 4.5 seconds.\nWing Strikes gain Disciple Skill benefits.\nWhile in Arbiter form, your Disciple Skills deal x100% increased damage."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "459,1030": 15,
+   "392,974": 1,
+   "216,1070": 1,
+   "363,1158": 1,
+   "1215,1213": 15,
+   "1270,1086": 1,
+   "1420,1124": 1,
+   "1355,1272": 1,
+   "1346,1436": 14,
+   "1410,1328": 1,
+   "1550,1384": 1,
+   "1440,1550": 1,
+   "992,2587": 5,
+   "1059,2587": 1,
+   "1197,2623": 1,
+   "1087,2772": 1,
+   "735,2419": 1,
+   "679,2308": 1,
+   "530,2364": 1,
+   "642,2530": 1,
+   "1106,3068": 15,
+   "1162,2939": 1,
+   "1309,3014": 1,
+   "1197,3199": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Spirit",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,12",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,9",
+    "10,12",
+    "11,9",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Castle",
+   "glyph": "Arbiter",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,16",
+    "4,11",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,16",
+    "5,19",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,13",
+    "7,19",
+    "7,20",
+    "8,13",
+    "8,20",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6"
+   ]
+  },
+  {
+   "name": "Shield Bearer",
+   "glyph": "Apostle",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "3,15",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,13",
+    "11,14",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,13",
+    "12,16",
+    "12,17",
+    "13,10",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,14",
+    "16,15",
+    "16,16",
+    "16,17",
+    "16,18",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Relentless",
+   "glyph": "Resplendence",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "5,5",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,4",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,4",
+    "10,8",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "12,8",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,14",
+    "13,15",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15"
+   ]
+  },
+  {
+   "name": "Beacon",
+   "glyph": "Judicator",
+   "x": 0,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "4,14",
+    "5,9",
+    "5,12",
+    "5,14",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,7",
+    "7,9",
+    "7,11",
+    "7,14",
+    "7,15",
+    "7,16",
+    "8,7",
+    "8,13",
+    "8,14",
+    "8,15",
+    "9,6",
+    "9,7",
+    "9,13",
+    "9,15",
+    "9,16",
+    "10,6",
+    "10,11",
+    "10,13",
+    "10,16",
+    "10,17",
+    "11,5",
+    "11,6",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,11",
+    "12,16",
+    "12,17",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,8",
+    "15,11",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "17,7",
+    "17,8"
+   ]
+  }
+ ]
+}

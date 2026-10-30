@@ -1,0 +1,844 @@
+{
+ "id": "companion-druid-endgame-signet-of-pelghain",
+ "site": "d4builds",
+ "className": "Druid",
+ "build": "Companion - Druid",
+ "variant": "Signet of Pelghain",
+ "url": "https://d4builds.gg/builds/companion-druid-endgame/?var=2",
+ "updated": "September 15, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Companion",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Resolve Stacks\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed",
+    "critChance"
+   ],
+   "affixNames": [
+    "182 Primary Core Stat",
+    "25% Movement Speed",
+    "Critical Strike Chance"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Ceh"
+   ],
+   "socketArt": {
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ceh": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nDruid\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nWillpower\nMaximum Life\nArmor\nSpirit Regeneration\nMaximum Resolve Stacks\nCritical Strike Chance\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "armor",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Armor",
+    "Maximum Life",
+    "Resistance To All Elements",
+    "Lightning Damage"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Que"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of the Stampede",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Stampede\nDruid\nGain 1 additional Companion. In addition, your Companion Skills deal x [15 - 35%] bonus damage.\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "vulnDamage",
+    "allStats"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Stats"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Storm's Companion",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/storm's_companion.png",
+    "tip": "Storm's Companion\nUnique Pants\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYour Wolf Companions are infused with the power of the storm, dealing x [80 - 100%] increased Lightning Damage and gaining the Storm Howl ability.\nDruid\nDropped By:\nAndariel"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements",
+    "Lightning Damage"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Flickerstep",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/flickerstep.png",
+    "tip": "Flickerstep\nUnique Boots\nWillpower\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nMovement Speed\nEach enemy you Evade through reduces your active Ultimate Cooldown by [3 - 4] seconds, up to 10 seconds.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Movement Speed",
+    "Attacks Reduce Evade's Cooldown",
+    "Lightning Damage"
+   ],
+   "tempers": [
+    [
+     "evadeCdr",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "2h-weapon": {
+   "name": "2H Weapon",
+   "item": {
+    "name": "Shepherd's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Shepherd's Aspect\nCodex • Druid\nCompanion Skills deal an additional [2 - 3%] damage per Companion you have.\nWeapon Damage\nWillpower\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Reanimation",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Reanimation\nCodex • Druid\nYour Summons gain increased damage while alive, up to x [60 - 90%] after 10 seconds.\nLightning Damage Multiplier\nCritical Strike Damage Multiplier\nNature Magic Skills\nRanks to All Skills\nMaximum Resolve Stacks\nOvercharged Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage",
+    "ranksAll"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Lightning Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Skills"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Overcharged Aspect"
+   ],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Accord of the Wilds",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/accord_of_the_wilds.png",
+    "tip": "Accord of the Wilds\nUnique Ring\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nMaximum Life\nCooldown Reduction\nYour Companion Skills each gain 1 additional companion and deal x [40 - 50%] bonus damage.\n\nGain the Passive Effect of Ravens, Wolves, and Poison Creeper for free.\nDruid\nDropped By:\nBeast in Ice"
+   },
+   "affixes": [
+    "willpower",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Lightning Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Lightning Damage"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Signet of Pelghain",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/signet_of_pelghain.png",
+    "tip": "Signet of Pelghain\nUnique Ring\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCooldown Reduction\nLightning Damage\nYour Freeze effects cause enemies to permanently take x [10 - 15%] increased Cold Damage from you for each second they are Frozen.\nDropped By:\nAll Bosses, \nBeast in Ice"
+   },
+   "affixes": [
+    "vulnDamage",
+    "willpower",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "Willpower",
+    "Critical Strike Damage Multiplier",
+    "Lightning Damage Multiplier",
+    "Lightning Damage"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Nagu",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Ceh",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nDamage to Crowd Controlled Enemies\nEnemies are Petrified for longer\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Linta of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Linta of the Old Mountain\nStorm Skills\nPhysical Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Might of the Ursine",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+   },
+   {
+    "name": "Berú of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Berú of the Old Mountain\nStorm Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Phoba of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Phoba of the Old Mountain\nNature Magic Skills\nLucky Hit: Chance to Freeze\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Fer of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Fer of the Old Mountain\nStorm Skills\nPoison Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Mlor of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "tip": "Mlor of the Old Mountain\nStorm Skills\nCold Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Earth Spike",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/earth_spike.png",
+    "tip": "Earth Spike\nRank 15\nBasic\nNature Magic\nHuman\nEarth\nGenerate Spirit: 16\nLucky Hit: 35%\nSunder the earth, impaling all enemies hit for [230%] damage.\nModifiers\nIncrease Earth Spike's Spirit generation by 8.\nEarth Spike grants 1 stack of Overpower.\nEarth Spike launches spikes in a line in front of you dealing 70% of normal damage. Additionally, Earth Spike Slows enemies hit by 70% for 3 seconds.\nPhysical Damage"
+   },
+   {
+    "name": "Debilitating Roar",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/debilitating_roar.png",
+    "tip": "Debilitating Roar\nRank 2\nDefensive\nWerebear\nShapeshifting\nShout\nCooldown: 18.7 seconds\nShapeshift into a Werebear and bellow a mighty roar reducing Nearby enemies' damage dealt by 25% for [3.8] seconds.\nModifiers\nIncrease the duration of Debilitating Roar by 1 second or 3 seconds if you are Fortified.\nReduce the Cooldown of Debilitating Roar by 8 seconds.\nDebilitating Roar immediately grants 1 stack of Resolve and an additional 1 stack every second for the duration."
+   },
+   {
+    "name": "Cyclone Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cyclone_armor.png",
+    "tip": "Cyclone Armor\nRank 15\nDefensive\nStorm\nNature Magic\nCooldown: 10.2 seconds\nLucky Hit: 25%\nPassive: Powerful winds surround you, granting a [23.6%] bonus to All Resistances.\nActive: The winds rapidly expand, Knocking Back enemies and dealing [146%] damage.\nModifiers\nActive: Cyclone Armor's radius is increased by 50%.\nPassive: Gain an additional +20% bonus to All Resistances.\nThe active winds are reversed pulling enemies towards you instead. In addition, the area of effect is increased by x30%.\nPhysical Damage"
+   },
+   {
+    "name": "Grizzly Rage",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/grizzly_rage.png",
+    "tip": "Grizzly Rage\nRank 1\nUltimate\nWerebear\nShapeshifting\nCooldown: 102.01 seconds\nShapeshift into a Dire Werebear for [20] seconds becoming Berserk and gaining +20% bonus Armor.\nModifiers\nReduces the cooldown of Grizzly Rage by 20 seconds.\nGrizzly Rage grants 100% Fortify when cast.\nYour damage is increased by x5% (max. x200%) each time you take or deal damage with a skill while Grizzly Rage is active."
+   },
+   {
+    "name": "Stone Burst",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/stone_burst.png",
+    "tip": "Stone Burst\nRank 1\nCore\nNature Magic\nEarth\nChanneled\nHuman\nSpirit Cost: 30\nLucky Hit: 25%\nGather stones beneath your enemies then detonate them dealing [130%] damage.\nChanneling deals 20% damage and increases the size of the affected area, up to a 200% radius increase over 1 seconds.\nModifiers\nGain 30% Armor while Stone Burst is channeling.\nStone Burst is cast at the targeted location and grows by itself, detonating after 3 seconds.\nOnly 1 Stone Burst may be active at a time.\nPhysical Damage"
+   },
+   {
+    "name": "Wolves",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wolves_werewolf_pack.png",
+    "tip": "Wolves\nRank 1\nCompanion\nVersatile\nSummon\nCooldown: 9.35 seconds\nLucky Hit: 50%\nPassive: Summon 2 wolf companions that bite enemies for [14%] damage.\nActive: Command your wolves to use their Feral Dash ability, instantly lunging at the target dealing [200%] damage and becoming Unstoppable.\nModifiers\nWhen your Wolves Critically Strike, you gain 20% Attack Speed for 5 seconds.\nAll Wolves' upgraded are increased by 100%.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Deer",
+    "options": [
+     2
+    ]
+   },
+   {
+    "shard": "Eagle",
+    "options": [
+     1,
+     4
+    ]
+   },
+   {
+    "shard": "Wolf",
+    "options": [
+     1
+    ]
+   },
+   {
+    "shard": "Snake",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "699,615": 1,
+   "560,672": 1,
+   "388,583": 1,
+   "595,490": 1,
+   "843,1107": 1,
+   "910,1052": 1,
+   "1117,1200": 1,
+   "936,1237": 1,
+   "1428,1307": 7,
+   "1527,1182": 1,
+   "1629,1329": 1,
+   "1564,1364": 1,
+   "1427,1491": 12,
+   "1534,1438": 1,
+   "1627,1582": 1,
+   "1562,1619": 1,
+   "1226,1691": 5,
+   "1335,1747": 1,
+   "1172,1892": 1,
+   "1117,1827": 1,
+   "790,1962": 1,
+   "852,1854": 1,
+   "989,1909": 1,
+   "926,2074": 1,
+   "480,1851": 15,
+   "380,1727": 1,
+   "244,1817": 1,
+   "343,1908": 1,
+   "481,2034": 1,
+   "370,1982": 1,
+   "389,2164": 1,
+   "1082,3165": 15,
+   "1082,3403": 1,
+   "1210,3232": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Dominate",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,8",
+    "9,10",
+    "9,12",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Thunderstruck",
+   "glyph": "Spirit",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "2,17",
+    "3,15",
+    "3,16",
+    "3,17",
+    "4,16",
+    "4,17",
+    "5,16",
+    "5,19",
+    "5,20",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "6,21",
+    "7,7",
+    "7,13",
+    "7,17",
+    "7,19",
+    "7,20",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,13",
+    "8,17",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,17",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,17",
+    "11,9",
+    "11,12",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,16",
+    "13,7",
+    "13,8",
+    "13,16",
+    "14,6",
+    "14,7",
+    "14,15",
+    "14,16",
+    "15,6",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,6",
+    "16,14",
+    "17,3",
+    "17,4",
+    "17,5",
+    "17,6",
+    "17,14",
+    "18,3",
+    "18,4",
+    "19,2",
+    "19,3",
+    "19,4",
+    "20,3"
+   ]
+  },
+  {
+   "name": "Untamed",
+   "glyph": "Wilds",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,8",
+    "4,8",
+    "4,14",
+    "5,8",
+    "5,9",
+    "5,12",
+    "5,13",
+    "5,14",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,11",
+    "7,14",
+    "7,15",
+    "7,16",
+    "8,7",
+    "8,8",
+    "8,9",
+    "8,13",
+    "8,14",
+    "8,15",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,13",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "9,19",
+    "9,20",
+    "10,5",
+    "10,6",
+    "10,11",
+    "10,13",
+    "10,16",
+    "10,17",
+    "10,20",
+    "11,5",
+    "11,6",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "11,20",
+    "12,5",
+    "12,6",
+    "12,11",
+    "12,12",
+    "12,16",
+    "12,17",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,8",
+    "15,11",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,8",
+    "17,13",
+    "17,14",
+    "17,15"
+   ]
+  },
+  {
+   "name": "Survival Instincts",
+   "glyph": "Keeper",
+   "x": 1,
+   "y": 0,
+   "rotate": 180,
+   "on": [
+    "3,15",
+    "3,16",
+    "4,15",
+    "4,16",
+    "5,15",
+    "5,16",
+    "6,15",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,15",
+    "8,5",
+    "8,6",
+    "8,8",
+    "8,12",
+    "8,13",
+    "8,14",
+    "8,15",
+    "9,8",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,8",
+    "10,11",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,8",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "12,15",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,15",
+    "14,5",
+    "14,8",
+    "14,12",
+    "14,13",
+    "14,15",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,12",
+    "15,15",
+    "16,11",
+    "16,15",
+    "17,11",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,15",
+    "18,16",
+    "19,11",
+    "19,15",
+    "19,16",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Lust for Carnage",
+   "glyph": "Earth and Sky",
+   "x": 2,
+   "y": 0,
+   "rotate": 90,
+   "on": [
+    "7,11",
+    "8,8",
+    "8,11",
+    "8,14",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,7",
+    "10,8",
+    "10,10",
+    "10,12",
+    "10,14",
+    "10,15",
+    "11,10",
+    "11,11",
+    "12,10",
+    "13,5",
+    "13,10",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,10",
+    "15,4",
+    "15,5",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "16,7",
+    "16,9",
+    "16,11",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,7",
+    "18,8",
+    "18,9",
+    "19,9",
+    "20,9",
+    "20,10",
+    "20,11"
+   ]
+  }
+ ]
+}

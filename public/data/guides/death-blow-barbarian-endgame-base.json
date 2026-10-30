@@ -1,0 +1,941 @@
+{
+ "id": "death-blow-barbarian-endgame-base",
+ "site": "d4builds",
+ "className": "Barbarian",
+ "build": "Death Blow Weapon Mastery",
+ "variant": "Base",
+ "url": "https://d4builds.gg/builds/death-blow-barbarian-endgame/?var=0",
+ "updated": "June 26, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Death Blow",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Tuskhelm of Joritz the Mighty",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tuskhelm_of_joritz_the_mighty.png",
+    "tip": "Tuskhelm of Joritz the Mighty\nUnique Helm\nStrength\nCooldown Reduction\nMaximum Resource\nMaximum Life\nMaximum Life\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction.\nBarbarian\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "strength",
+    "cdr",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Cooldown Reduction",
+    "Maximum Resource",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Gar"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Juggernaut's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nStrength\nMaximum Resource\nMaximum Life\nFury per Second\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Resource",
+    "Maximum Life",
+    "Fury Per Second"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Ohm"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ohm": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Edgemaster's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "strength",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Strength",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "overpower",
+     "Sharpened Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Heavenly Strength",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Fury Per Second",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby",
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Anger Management",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Anger Management\nCodex • Barbarian\nWhile above 50 Primary Resource, deal x [15 - 20%] increased damage and gain Berserking, but lose 3 Primary Resource Regeneration.\nStrength\nMovement Speed\nFury Regeneration\nMaximum Life\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Movement Speed",
+    "Fury Per Second",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Barbarian Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "bludgeoning-weapon": {
+   "name": "Bludgeoning Weapon",
+   "item": {
+    "name": "Aspect of Walloping",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Walloping\nCodex • Barbarian\nYour Skills using Bludgeoning weapons deal x [40 - 60%] increased damage if the enemy is Incapacitated or Vulnerable.\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "weaponDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Strength",
+    "Maximum Life",
+    "Weapon Damage",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "The Third Blade",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_third_blade.png",
+    "tip": "The Third Blade\nUnique 1h Sword\nStrength\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nYour Weapon Mastery Skills are now also Core Skills that have 100% Cooldown Reduction but cost Fury, dealing [140 - 160%] of normal damage.\nBarbarian\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Battle Trance",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/battle_trance.png",
+    "tip": "Battle Trance\nUnique Amulet\n% Strength\nVulnerable Damage Multiplier\nCore Skills\nCritical Strike Damage Multiplier\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\nExploiter's Aspect\nFrenzy's gains the Barrage Variant for free and can stack 2 additional times. While at maximum stacks, you deal x [75 - 100%] increased damage and your other Skills gain + [35 - 45%] increased Attack Speed.\nBarbarian\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "strength",
+    "vulnDamage",
+    "ranks:core-skills",
+    "critDamage"
+   ],
+   "affixNames": [
+    "% Strength",
+    "Vulnerable Damage Multiplier",
+    "Core Skills",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [
+    "Exploiter's Aspect"
+   ],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   "affixes": [
+    "strength",
+    "vulnDamage",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "242 Primary Core Stat",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Conceited Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Conceited Aspect\nEvery Class\nDeal x [40 - 60%] increased damage while you have a Barrier active.\nCooldown Reduction\nCritical Strike Chance\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "cdr",
+    "critChance",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Cooldown Reduction",
+    "Critical Strike Chance",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "slashing-weapon": {
+   "name": "Slashing Weapon",
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Barbarian\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nAll Damage Multiplier\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Strength",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "Ramaladni's Magnum Opus",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ramaladni's_magnum_opus.png",
+    "tip": "Ramaladni's Magnum Opus\nMythic Unique 1h Sword\nAll Damage Multiplier\nMaximum Resource\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nSkills deal x [0.65%] increased damage per point of Fury you have, but 10% Maximum Fury Drains per second.\nBarbarian\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "strength",
+    "critDamage",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Resource",
+    "Critical Strike Damage Multiplier",
+    "Maximum Life",
+    "Physical Damage"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  },
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Ohm",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage\nAttack Speed while Berserking\n+1 Unique Charm Slot"
+  },
+  "charms": [
+   {
+    "name": "Fer of Arreat",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
+    "set": "Arms of Arreat",
+    "mythic": false,
+    "tip": "Fer of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
+   },
+   {
+    "name": "Linta of Arreat",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
+    "set": "Arms of Arreat",
+    "mythic": false,
+    "tip": "Linta of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
+   },
+   {
+    "name": "Berú of Arreat",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
+    "set": "Arms of Arreat",
+    "mythic": false,
+    "tip": "Berú of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
+   },
+   {
+    "name": "Mlor of Arreat",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
+    "set": "Arms of Arreat",
+    "mythic": false,
+    "tip": "Mlor of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
+   },
+   {
+    "name": "Dark Stalker's Medallion",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Dark Stalker's Medallion\nCasting a Skill with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual-Wielded weapon grants x [15 - 20%] increased damage for 15 seconds.\n\nWhile all three bonuses are active, you gain +25% Crowd Control Duration and Attack Speed."
+   },
+   {
+    "name": "Phoba of Arreat",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
+    "set": "Arms of Arreat",
+    "mythic": false,
+    "tip": "Phoba of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Frenzy",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/frenzy_throwing.png",
+    "tip": "Frenzy\nRank 1\nBasic\nDual Wield\nMartial\nFury Generate: 7\nLucky Hit: 30%\nUnleash a rapid flurry of blows, dealing [70%] damage with each pair of hits.\nIf Frenzy hits an enemy, its Cast Speed is increased by +10% for 3 seconds, up to +50%.\nModifiers\nEach stack of Frenzy gained also grants a stack of Ferocity.\nFrenzy stacks an additional 2 times.\nFrenzy becomes a ranged attack that pierces enemies, dealing [123%] damage.\nFrenzy has a 30% chance while at maximum Frenzy stacks to ricochet Iron Shrapnel, dealing [60%] damage and inflicting [35%] Bleeding damage over 5 seconds.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Death Blow",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/death_blow.png",
+    "tip": "Death Blow\nWeapon Mastery\nMartial\nCooldown: 15 seconds\nLucky Hit: 50%\nAttempt a killing strike, dealing [300%] damage to enemies in front of you.\nIf this kills an enemy, its Cooldown is reset.\nPhysical Damage\nRequires any complete Arsenal weapon"
+   },
+   {
+    "name": "Challenging Shout",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/challenging_shout.png",
+    "tip": "Challenging Shout\nRank 4\nDefensive\nShout\nCombat\nCooldown: 25 seconds\nTaunt Nearby enemies and gain [22.4%] Damage Reduction for 8 seconds.\nModifiers\nChallenging Shout Weakens enemies.\nThe first 5 enemies Taunted by Challenging Shout take x20% increased damage from you.\nChallenging Shout's grants an additional 20% Damage Reduction that decays over its duration."
+   },
+   {
+    "name": "Rallying Cry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rallying_cry.png",
+    "tip": "Rallying Cry\nRank 1\nDefensive\nShout\nCombat\nFury Cost: 35\nBellow a rallying cry, increasing your Movement Speed by x [20%] for 4 seconds.\nNearby allies gain half of Rallying Cry's effects.\nModifiers\nRallying Cry Fortifies you for 15% of your Maximum Life when cast.\nFor every 3 meters traveled while Rallying Cry is active, restore 2 Primary Resource to yourself and half to nearby allies.\nRallying Cry increases your Resource Generation by x40% and your Movement Speed by an additional x10%.\nPhysical Damage"
+   },
+   {
+    "name": "Wrath of the Berserker",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wrath_of_the_berserker.png",
+    "tip": "Wrath of the Berserker\nRank 15\nUltimate\nCombat\nCooldown: 90 seconds\nExplode into rage, Knocking Back surrounding enemies while gaining x30% damage, Berserking, and Unstoppable for [14] seconds.\nModifiers\nWhile Wrath of the Berserker is active, your Berserking damage bonus is increased by x100%.\nThe duration of Wrath of the Berserker is increased by 12 seconds.\nWhile Wrath of the Berserker is active, you gain a Fire aura that deals [255%] damage and Burns for [26%] damage over 5 seconds. You gain +50% All Resistance."
+   },
+   {
+    "name": "Whirlwind",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/whirlwind_winding.png",
+    "tip": "Whirlwind\nRank 15\nCore\nMartial\nChanneled\nFury Cost: 15 per second\nLucky Hit: 20%\nRapidly attack surrounding enemies for [181%] damage.\nModifiers\nWhirlwind deals x40% increased damage and costs 10 additional Fury.\nChanneling Whirlwind causes it to deal x1% increased damage each time it hits an enemy, stacking up to 25 times.\nWhirlwind also creates 2 Dust Devils that each deal [158%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon"
+   },
+   {
+    "name": "Polearm",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/polearm.png",
+    "tip": "Polearm\nx15% increased Lucky Hit Chance.\nYou deal x15% increased damage while Healthy."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "986,368": 1,
+   "928,253": 1,
+   "1023,124": 1,
+   "1114,226": 1,
+   "846,1032": 1,
+   "956,976": 1,
+   "1050,1128": 1,
+   "934,1164": 1,
+   "1401,1349": 15,
+   "1455,1216": 1,
+   "1605,1257": 1,
+   "1493,1406": 1,
+   "1400,1534": 1,
+   "1467,1476": 1,
+   "1609,1628": 1,
+   "1494,1663": 1,
+   "1178,1635": 4,
+   "1241,1634": 1,
+   "1383,1673": 1,
+   "1269,1818": 1,
+   "605,1683": 15,
+   "508,1737": 1,
+   "399,1592": 1,
+   "499,1553": 1,
+   "1066,3074": 15,
+   "1170,2942": 1,
+   "1271,3021": 1,
+   "1162,3206": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Might",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,13",
+    "9,13",
+    "10,12",
+    "10,13",
+    "11,13",
+    "12,13",
+    "12,14",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Carnage",
+   "glyph": "Challenger",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "3,16",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,14",
+    "5,15",
+    "5,16",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,13",
+    "7,14",
+    "8,5",
+    "8,8",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,3",
+    "9,4",
+    "9,5",
+    "9,8",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,15",
+    "9,16",
+    "10,2",
+    "10,3",
+    "10,8",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,14",
+    "10,15",
+    "10,16",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,18",
+    "12,11",
+    "12,13",
+    "12,16",
+    "12,17",
+    "12,18",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,15",
+    "13,16",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,13",
+    "15,14",
+    "16,14",
+    "17,14",
+    "17,15",
+    "17,16",
+    "18,15",
+    "18,16",
+    "19,15",
+    "19,16"
+   ]
+  },
+  {
+   "name": "Blood Rage",
+   "glyph": "Twister",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "5,7",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,5",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,12",
+    "10,13",
+    "10,15",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,13",
+    "12,16",
+    "12,17",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,4",
+    "14,5",
+    "14,6",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,3",
+    "15,4",
+    "15,5",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,4",
+    "16,14",
+    "16,15",
+    "16,16",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,16",
+    "17,18",
+    "18,11",
+    "18,16",
+    "18,17",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Warbringer",
+   "glyph": "Wrath",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "9,4",
+    "9,11",
+    "9,15",
+    "10,4",
+    "10,11",
+    "10,14",
+    "10,15",
+    "10,16",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,9",
+    "12,10",
+    "12,14",
+    "13,6",
+    "13,7",
+    "13,9",
+    "13,14",
+    "13,15",
+    "14,5",
+    "14,6",
+    "14,15",
+    "15,2",
+    "15,3",
+    "15,6",
+    "15,8",
+    "16,1",
+    "16,2",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,14",
+    "16,15",
+    "17,3",
+    "17,4",
+    "17,6",
+    "17,7",
+    "17,9",
+    "17,13",
+    "17,14",
+    "18,5",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,7",
+    "19,11",
+    "20,5",
+    "20,6",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Force of Nature",
+   "glyph": "Dominate",
+   "x": 0,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "4,14",
+    "5,9",
+    "5,12",
+    "5,13",
+    "5,14",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,8",
+    "7,9",
+    "7,11",
+    "7,14",
+    "7,15",
+    "7,16",
+    "8,7",
+    "8,8",
+    "8,13",
+    "8,14",
+    "8,15",
+    "9,6",
+    "9,7",
+    "9,13",
+    "9,15",
+    "9,16",
+    "10,6",
+    "10,11",
+    "10,13",
+    "10,16",
+    "10,17",
+    "11,5",
+    "11,6",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,11",
+    "12,16",
+    "12,17",
+    "13,11",
+    "14,11",
+    "15,11",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "17,14",
+    "17,15"
+   ]
+  }
+ ]
+}

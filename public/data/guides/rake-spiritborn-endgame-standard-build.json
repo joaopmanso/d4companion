@@ -1,0 +1,785 @@
+{
+ "id": "rake-spiritborn-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Spiritborn",
+ "build": "Rake - Spiritborn",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/rake-spiritborn-endgame/?var=0",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Rake - Spiritborn",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Harmony of Ebewaka",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/harmony_of_ebewaka.png",
+    "tip": "Harmony of Ebewaka\nMythic Unique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nAccording to your secondary Spirit Hall choice, your Skills are all additionally Jaguar, Eagle, Gorilla, or Centipede Skills.\n\nYour Skills deal x [39%] increased damage per Spirit type they have.\nSpiritborn\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "resourceGen"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Resource Generation",
+    "Maximum Resource"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Tzic"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Tzic": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Resolve Stacks\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "movementSpeed",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Movement Speed",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Kry"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Plains Power",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Plains Power\nSpiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circle for 10 seconds.\n\nCasting a Jaguar Skill in Mystic Circles empowers them to refresh Ferocity's duration and increase your damage by x [8 - 12%] per stack while you remain within.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nSpiritborn\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Sky Power",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of Sky Power\nSpiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circles for 10 seconds.\n\nCasting an Eagle Skill in Mystic Circles empowers them to move with you and explode for [X - X] Lightning damage when you Evade.\nDexterity\nMaximum Life\nMovement Speed\nResistance to All Elements\nMovement Speed\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "movementSpeed",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Movement Speed",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Rod of Kepeleke",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/rod_of_kepeleke.png",
+    "tip": "Rod of Kepeleke\nMythic Unique Quarterstaff\nWeapon Damage\nRanks to Core Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nYour Core Skills are now additionally Basic Skills and free to cast.\n\nWhen cast at Maximum Vigor, your Core Skills Consume all Vigor to cast at their largest Size, and become guaranteed Critical Strikes, with x [1.56%] increased Critical Strike Damage for each point of Vigor spent this way.\nSpiritborn\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "weaponDamage",
+    "ranks:core-skills",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Core Skills",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Ferocious Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Ferocious Aspect\nCodex • Spiritborn\nYour Maximum Ferocity stacks are increased by [4 - 6].\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nMaximum Resource\nMaximum Resolve Stacks\nAspect of Interdiction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Maximum Resource",
+    "Aspect Of Interdiction"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of the Midnight Sun",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_the_midnight_sun.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "dexterity",
+    "vulnDamage",
+    "critDamage",
+    "resourceGen"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Resource Generation"
+   ],
+   "tempers": [
+    [
+     "resourceGen",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Redirected Force",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "resourceGen"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Resource Generation"
+   ],
+   "tempers": [
+    [
+     "resourceGen",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Tzic",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Tzic\nMagic Rune of Invocation\nRequires: 200 Offering (Overflow: Increase damage by 1% per Offering)\nCooldown: 1 seconds\nInvoke the Spiritborn's Concussive Stomp, dealing damage and Knocking Down enemies."
+  },
+  {
+   "name": "Poc",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Berú of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Protean Heart",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Protean Heart\nThe Base Spirit of a Skill cast grants:\nEagle: + [17 - 20%] Movement Speed\nGorilla: [17 - 20%] Damage Reduction\nJaguar: [17 - 20%] Attack Speed\nCentipede: [1.7 - 2%] Life per Second\n\nCasting a Skill of a different Base Spirit:\nSwaps to the new bonus\nIncreases Core Stats by +100% for 7 seconds"
+   },
+   {
+    "name": "Fer of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Fer of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Phoba of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Phoba of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Linta of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Linta of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   },
+   {
+    "name": "Mlor of Rezoka's Rage",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
+    "set": "Rezoka'S Rage",
+    "mythic": false,
+    "tip": "Mlor of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Ravager",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ravager.png",
+    "tip": "Ravager\nRank 15\nFocus\nJaguar\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Minimum Ferocity increased by [2].\nActive: Unleash a savage roar, causing each of your attacks to trigger an additional [102%] damage strike per enemy over 6 seconds.\nModifiers\nRavager's duration is increased by 2 seconds.\nRavager's Passive also increases your Maximum Ferocity by 2.\nRavager's Passive gains: Whenever a Skill comes off Cooldown, deal [204%] damage to Close enemies.\nWhile Ravager is active, gain 25% Cooldown Rate.\nFire Damage"
+   },
+   {
+    "name": "Armored Hide",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/armored_hide.png",
+    "tip": "Armored Hide\nRank 9\nDefensive\nGorilla\nIncarnate\nCooldown: 25 seconds\nLucky Hit: 30%\nPassive: Gain 1 Resolve every [3.6] seconds.\nActive: Encase yourself, gaining + [51%] Block Chance for 3 seconds.\nModifiers\nWhile Armored Hide is active, gain +15% Blocked Damage Reduction.\nArmored Hide active duration is increased by 1 second.\nArmored Hide restores 50 Vigor and makes you Unstoppable for the duration.\nPhysical Damage"
+   },
+   {
+    "name": "Scourge",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/scourge.png",
+    "tip": "Scourge\nRank 15\nDefensive\nCentipede\nCooldown: 12 seconds\nLucky Hit: 10%\nCall forth a wave of insects that bite enemies, Fearing and Slowing them by 70% for 3 seconds while applying [255%] Poisoning damage over 6 seconds.\nModifiers\nScourge also Weakens enemies for 6 seconds.\nEnemies affected by Scourge are Vulnerable.\nScourge grants you 15% Damage Reduction and continuously affects enemies around you for 4.5 seconds.\nPoison Damage"
+   },
+   {
+    "name": "Toxic Skin",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/toxic_skin.png",
+    "tip": "Toxic Skin\nRank 15\nFocus\nCentipede\nIncarnate\nCooldown: 15 seconds\nLucky Hit: 20%\nPassive: Enemies that attack you are Poisoned for [184%] damage over 6 seconds.\nActive: Your toxins overflow, applying the Poisoning in a trail and making you Unhindered for 5 seconds.\nModifiers\nWhile Toxic Skin is active, Heal for 3% of your Maximum Life per second.\nToxic Skin's Cooldown is reduced by 3 seconds and its damage Weakens enemies. While its active, you gain [128%] Armor.\nPoison Damage"
+   },
+   {
+    "name": "Rake",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rake_simian_swipe.png",
+    "tip": "Rake\nRank 15\nCore\nJaguar\nVigor Cost: 30\nLucky Hit: 18%\nConjure claws that rake through enemies in front of you, dealing [128%] damage before exploding for an additional [191%] damage.\nModifiers\nRake gains 20% Cast Speed.\nFor each stack of Ferocity you have, Rake's Vigor cost is reduced by 2 and its initial hit's damage is increased by 5%.\nRake becomes a Gorilla Skill that deals Physical damage.\nRake sweeps in front of you, dealing [446%] damage and gaining a stack of Resolve if you hit an enemy.\nFire Damage"
+   },
+   {
+    "name": "The Hunter",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/the_hunter.png",
+    "tip": "The Hunter\nRank 15\nUltimate\nJaguar\nCooldown: 45 seconds\nLucky Hit: 15%\nBound across the battlefield with the Jaguar Spirit, dealing [128%] damage upon landing and the rapidily slashing enemies in the area for [510%] total damage over 7 strikes.\nModifiers\nThe Hunter's landing damage will Execute enemies.\nThe Hunter strikes a 50% larger area.\nThe Hunter overfills your Ferocity by 2 stacks. Killing enemies while with it active has a 40% chance to instantly reset its Cooldown. This chance is halved after each consecutive reset.\nFire Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "557,1140": 15,
+   "500,1233": 1,
+   "648,1345": 1,
+   "685,1241": 1,
+   "1183,1241": 1,
+   "1423,1151": 1,
+   "1322,1241": 1,
+   "1407,1528": 1,
+   "1517,1473": 1,
+   "1645,1567": 1,
+   "1497,1659": 1,
+   "1182,1631": 15,
+   "1424,1725": 1,
+   "1322,1817": 1,
+   "611,1676": 9,
+   "556,1546": 1,
+   "407,1585": 1,
+   "519,1732": 1,
+   "464,1879": 1,
+   "407,1770": 1,
+   "222,1882": 1,
+   "324,1990": 1,
+   "611,2083": 1,
+   "500,2028": 1,
+   "370,2122": 1,
+   "870,1879": 1,
+   "925,1770": 1,
+   "1072,1827": 1,
+   "1009,1990": 1,
+   "1073,3231": 15,
+   "944,3368": 1,
+   "1127,3435": 1,
+   "1202,3296": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Outmatch",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,14",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Prodigy's Tempo",
+   "glyph": "Ritual",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,7",
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,4",
+    "5,8",
+    "6,3",
+    "6,4",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,6",
+    "7,9",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,12",
+    "8,13",
+    "9,5",
+    "9,7",
+    "9,12",
+    "9,13",
+    "10,7",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,10",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "12,17",
+    "12,19",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,13",
+    "18,18",
+    "19,11",
+    "19,12",
+    "19,13",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Viscous Shield",
+   "glyph": "Headhunter",
+   "x": -1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,6",
+    "8,8",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,8",
+    "9,11",
+    "9,13",
+    "10,8",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,13",
+    "13,11",
+    "13,12",
+    "13,13"
+   ]
+  },
+  {
+   "name": "Convergence",
+   "glyph": "Colossal",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "5,13",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "9,16",
+    "9,17",
+    "10,11",
+    "10,14",
+    "10,15",
+    "10,16",
+    "10,17",
+    "10,18",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,9",
+    "12,10",
+    "12,14",
+    "12,15",
+    "13,9",
+    "13,15",
+    "14,15",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,14",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,13",
+    "17,14",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "In-Fighter",
+   "glyph": "Spirit",
+   "x": 1,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,16",
+    "7,20",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,16",
+    "8,20",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,4",
+    "19,3"
+   ]
+  }
+ ]
+}

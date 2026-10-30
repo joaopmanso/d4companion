@@ -1,0 +1,785 @@
+{
+ "id": "companion-druid-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Druid",
+ "build": "Companion - Druid",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/companion-druid-endgame/?var=0",
+ "updated": "September 15, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Companion",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Resolve Stacks\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "242 Primary Core Stat",
+    "25% Movement Speed",
+    "Stat 3",
+    "Stat 4"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Ceh"
+   ],
+   "socketArt": {
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ceh": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Debilitating Toxins",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Debilitating Toxins\nCodex • Druid\nYou gain [20 - 30%] Damage Reduction, and Poisoned enemies deal 15% less damage to you.\nWillpower\nArmor\nMaximum Life\nRanks to Defensive Skills\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "armor",
+    "life",
+    "ranks:defensive-skills"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Armor",
+    "Maximum Life",
+    "Ranks To Defensive Skills"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Que"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Hellbent Commander Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Hellbent Commander Aspect\nCodex • Druid\nYou deal x [50 - 70%] increased Summon damage.\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Lightning Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Storm's Companion",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/storm's_companion.png",
+    "tip": "Storm's Companion\nUnique Pants\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYour Wolf Companions are infused with the power of the storm, dealing x [80 - 100%] increased Lightning Damage and gaining the Storm Howl ability.\nDruid\nDropped By:\nAndariel"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Flickerstep",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/flickerstep.png",
+    "tip": "Flickerstep\nUnique Boots\nWillpower\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nMovement Speed\nEach enemy you Evade through reduces your active Ultimate Cooldown by [3 - 4] seconds, up to 10 seconds.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Movement Speed",
+    "Attacks Reduce Evade's Cooldown"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "2h-weapon": {
+   "name": "2H Weapon",
+   "item": {
+    "name": "Shepherd's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Shepherd's Aspect\nCodex • Druid\nCompanion Skills deal an additional [2 - 3%] damage per Companion you have.\nWeapon Damage\nWillpower\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Reanimation",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Reanimation\nCodex • Druid\nYour Summons gain increased damage while alive, up to x [60 - 90%] after 10 seconds.\nLightning Damage Multiplier\nCritical Strike Damage Multiplier\nNature Magic Skills\nRanks to All Skills\nMaximum Resolve Stacks\nOvercharged Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "ranks:nature-magic-skills",
+    "ranksAll"
+   ],
+   "affixNames": [
+    "Lightning Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Nature Magic Skills",
+    "Ranks To All Skills"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Overcharged Aspect"
+   ],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Accord of the Wilds",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/accord_of_the_wilds.png",
+    "tip": "Accord of the Wilds\nUnique Ring\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nMaximum Life\nCooldown Reduction\nYour Companion Skills each gain 1 additional companion and deal x [40 - 50%] bonus damage.\n\nGain the Passive Effect of Ravens, Wolves, and Poison Creeper for free.\nDruid\nDropped By:\nBeast in Ice"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "life"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of the Stampede",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Stampede\nDruid\nGain 1 additional Companion. In addition, your Companion Skills deal x [15 - 35%] bonus damage.\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nLightning Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Lightning Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Nagu",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Ceh",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage\nEnemies are Petrified for longer\n+1 Charm Slot"
+  },
+  "charms": [
+   {
+    "name": "Mlor of Nafain's Bestiary",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
+    "set": "Nafain'S Bestiary",
+    "mythic": false,
+    "tip": "Mlor of Nafain's Bestiary\nAll Stats\nNature Magic Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
+   },
+   {
+    "name": "Might of the Ursine",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+   },
+   {
+    "name": "Phoba of Nafain's Bestiary",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
+    "set": "Nafain'S Bestiary",
+    "mythic": false,
+    "tip": "Phoba of Nafain's Bestiary\nNature Magic Skills\nAll Stats\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
+   },
+   {
+    "name": "Berú of Nafain's Bestiary",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
+    "set": "Nafain'S Bestiary",
+    "mythic": false,
+    "tip": "Berú of Nafain's Bestiary\nMaximum Resource\nRank to Companion Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
+   },
+   {
+    "name": "Fer of Nafain's Bestiary",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
+    "set": "Nafain'S Bestiary",
+    "mythic": false,
+    "tip": "Fer of Nafain's Bestiary\nAll Stats\nRank to Companion Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
+   },
+   {
+    "name": "Linta of Nafain's Bestiary",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
+    "set": "Nafain'S Bestiary",
+    "mythic": false,
+    "tip": "Linta of Nafain's Bestiary\nNature Magic Skills\nAll Stats\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Debilitating Roar",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/debilitating_roar.png",
+    "tip": "Debilitating Roar\nRank 2\nDefensive\nWerebear\nShapeshifting\nShout\nCooldown: 18.7 seconds\nShapeshift into a Werebear and bellow a mighty roar reducing Nearby enemies' damage dealt by 25% for [3.8] seconds.\nModifiers\nIncrease the duration of Debilitating Roar by 1 second or 3 seconds if you are Fortified.\nReduce the Cooldown of Debilitating Roar by 8 seconds.\nDebilitating Roar immediately grants 1 stack of Resolve and an additional 1 stack every second for the duration."
+   },
+   {
+    "name": "Earthen Bulwark",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/earthen_bulwark.png",
+    "tip": "Earthen Bulwark\nRank 11\nDefensive\nNature Magic\nVersatile\nEarth\nCooldown: 13.6 seconds\nLucky Hit: 30%\nRock's surround you for 6 seconds, granting a Barrier that absorbs [78%] of your Maximum Life in damage.\nModifiers\nExtends the Barrier duration to 12 seconds and increase the base absorption amount to 60% of your Maximum Life.\nCasting Earthen Bulwark grants 2 stacks of Overpower.\nEarthen Bulwark grants 3 stacks of Resolve. In addition, Earthen Bulwark summons Tectonic Spikes that deal [315%] total damage to enemies around you.\nPhysical Damage"
+   },
+   {
+    "name": "Cyclone Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cyclone_armor.png",
+    "tip": "Cyclone Armor\nRank 15\nDefensive\nStorm\nNature Magic\nCooldown: 10.2 seconds\nLucky Hit: 25%\nPassive: Powerful winds surround you, granting a [23.6%] bonus to All Resistances.\nActive: The winds rapidly expand, Knocking Back enemies and dealing [146%] damage.\nModifiers\nActive: Cyclone Armor's radius is increased by 50%.\nPassive: Gain an additional +20% bonus to All Resistances.\nThe active winds are reversed pulling enemies towards you instead. In addition, the area of effect is increased by x30%.\nPhysical Damage"
+   },
+   {
+    "name": "Grizzly Rage",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/grizzly_rage.png",
+    "tip": "Grizzly Rage\nRank 1\nUltimate\nWerebear\nShapeshifting\nCooldown: 102.01 seconds\nShapeshift into a Dire Werebear for [20] seconds becoming Berserk and gaining +20% bonus Armor.\nModifiers\nReduces the cooldown of Grizzly Rage by 20 seconds.\nGrizzly Rage grants 100% Fortify when cast.\nYour damage is increased by x5% (max. x200%) each time you take or deal damage with a skill while Grizzly Rage is active."
+   },
+   {
+    "name": "Claw",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/claw.png",
+    "tip": "Claw\nRank 1\nBasic\nWerewolf\nShapeshifting\nGenerate Spirit: 15\nLucky Hit: 50%\nShapeshift into a Werewolf and claw at enemies dealing [80%] Physical damage.\nModifiers\nClaw's Cast Speed is increased by 20%.\nClaw now dashes you towards your target and deals [60%] damage.\nPhysical Damage"
+   },
+   {
+    "name": "Wolves",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wolves_werewolf_pack.png",
+    "tip": "Wolves\nRank 1\nCompanion\nVersatile\nSummon\nCooldown: 9.35 seconds\nLucky Hit: 50%\nPassive: Summon 2 wolf companions that bite enemies for [14%] damage.\nActive: Command your wolves to use their Feral Dash ability, instantly lunging at the target dealing [200%] damage and becoming Unstoppable.\nModifiers\nWhen your Wolves Critically Strike, you gain 20% Attack Speed for 5 seconds.\nAll Wolves' upgraded are increased by 100%.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Deer",
+    "options": [
+     3
+    ]
+   },
+   {
+    "shard": "Eagle",
+    "options": [
+     4
+    ]
+   },
+   {
+    "shard": "Wolf",
+    "options": [
+     1,
+     4
+    ]
+   },
+   {
+    "shard": "Snake",
+    "options": [
+     4
+    ]
+   }
+  ],
+  "tree": {
+   "1098,417": 1,
+   "1245,144": 1,
+   "1281,327": 1,
+   "1428,1307": 11,
+   "1527,1182": 1,
+   "1629,1329": 1,
+   "1564,1364": 1,
+   "1427,1491": 12,
+   "1627,1474": 1,
+   "1562,1619": 1,
+   "1226,1691": 14,
+   "1283,1892": 1,
+   "1116,1782": 1,
+   "790,1962": 1,
+   "989,1909": 1,
+   "480,1851": 15,
+   "244,1817": 1,
+   "1082,3165": 15,
+   "955,3304": 1,
+   "1082,3403": 1,
+   "1210,3232": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Keeper",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,8",
+    "6,10",
+    "6,12",
+    "6,15",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "7,15",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,13",
+    "9,8",
+    "9,10",
+    "9,13",
+    "10,9",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Untamed",
+   "glyph": "Wilds",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,8",
+    "4,8",
+    "5,8",
+    "5,9",
+    "5,12",
+    "5,13",
+    "5,14",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,8",
+    "7,9",
+    "7,11",
+    "7,14",
+    "7,15",
+    "7,16",
+    "8,7",
+    "8,8",
+    "8,14",
+    "8,15",
+    "9,2",
+    "9,3",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,2",
+    "10,6",
+    "10,11",
+    "10,13",
+    "10,16",
+    "11,5",
+    "11,6",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,11",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,8",
+    "15,11",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,8"
+   ]
+  },
+  {
+   "name": "Thunderstruck",
+   "glyph": "Earth and Sky",
+   "x": 1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "1,16",
+    "2,16",
+    "2,17",
+    "3,15",
+    "3,16",
+    "4,16",
+    "4,17",
+    "5,15",
+    "5,16",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,13",
+    "7,19",
+    "8,3",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,13",
+    "9,2",
+    "9,3",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "10,2",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,9",
+    "12,7",
+    "12,8",
+    "12,9",
+    "13,7",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,5",
+    "17,6",
+    "18,3",
+    "18,4",
+    "18,5",
+    "19,2",
+    "19,3",
+    "19,4",
+    "19,5",
+    "19,6",
+    "19,7",
+    "19,8",
+    "20,3",
+    "20,8",
+    "20,9",
+    "20,10",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Heightened Malice",
+   "glyph": "Spirit",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "4,18",
+    "5,16",
+    "5,17",
+    "5,18",
+    "6,15",
+    "6,16",
+    "7,14",
+    "7,15",
+    "8,13",
+    "8,14",
+    "9,13",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,10",
+    "12,11",
+    "12,15",
+    "13,5",
+    "13,7",
+    "13,9",
+    "13,10",
+    "13,15",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,2",
+    "15,3",
+    "15,4",
+    "15,5",
+    "15,8",
+    "16,1",
+    "16,2",
+    "16,3",
+    "16,5",
+    "16,6",
+    "17,6",
+    "17,7",
+    "17,9",
+    "18,7",
+    "18,8",
+    "18,9",
+    "18,10",
+    "18,11",
+    "19,5",
+    "19,6",
+    "19,7",
+    "19,11",
+    "20,5",
+    "20,6",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Lust for Carnage",
+   "glyph": "Werebear",
+   "x": 0,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,10",
+    "4,11",
+    "5,10",
+    "6,9",
+    "6,10",
+    "6,11",
+    "7,9",
+    "7,11",
+    "8,9",
+    "8,11",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,14",
+    "11,10",
+    "12,10",
+    "13,8",
+    "13,9",
+    "13,10",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,10",
+    "14,11",
+    "15,4",
+    "15,5",
+    "15,8",
+    "15,9",
+    "15,11",
+    "16,7",
+    "16,9",
+    "16,11",
+    "17,7",
+    "17,8",
+    "17,9"
+   ]
+  }
+ ]
+}

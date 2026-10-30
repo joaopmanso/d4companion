@@ -1,0 +1,872 @@
+{
+ "id": "leap-rend-barbarian-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Barbarian",
+ "build": "Leap Rend - Barbarian",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/leap-rend-barbarian-endgame/?var=0",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Leap Rend - Barbarian",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Resource\nCooldown Reduction\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "cdr",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Cooldown Reduction",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Rage of Harrogath",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/rage_of_harrogath.png",
+    "tip": "Rage of Harrogath\nMythic Unique Chest Armor\nStrength\nDamage Over Time Multiplier\nFury Regeneration\nMaximum Resource\nMaximum Life\nInflicting Damage Over Time on an enemy has up to a [78%] chance to reduce the Cooldowns of your Skills by 0.5 seconds.\nBarbarian\nDropped By:\nDuriel"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Damage Over Time Multiplier",
+    "Maximum Life",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Yul",
+    "Kry"
+   ],
+   "socketArt": {
+    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nMythic Unique Gloves\nPrimary Core Stat\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nDamage Over Time\nYour attacks randomly deal 1% to [390%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "All Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Chainscourged Mail",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/chainscourged_mail.png",
+    "tip": "Chainscourged Mail\nMythic Unique Pants\nStrength\nRanks to Brawling Skills\nFury Regeneration\nResistance to All Elements\nMaximum Life\nCasting a damaging Brawling Skill disables it afterwards. When all of these Skills that are on your Action Bar are disabled, they become re-enabled with their Cooldowns refreshed. Brawling Skills you Cast deal x [130%] increased damage for each disabled Skill.\nBarbarian\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Moni",
+    "Que"
+   ],
+   "socketArt": {
+    "Moni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Anger Management",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Anger Management\nCodex • Barbarian\nWhile above 50 Primary Resource, deal x [15 - 20%] increased damage and gain Berserking, but lose 3 Primary Resource Regeneration.\nStrength\nMovement Speed\nFury Regeneration\nMaximum Life\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Movement Speed",
+    "War Cry",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Fortune (Utility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "bludgeoning-weapon": {
+   "name": "Bludgeoning Weapon",
+   "item": {
+    "name": "Writhing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "overpower",
+    "strength",
+    "life"
+   ],
+   "affixNames": [
+    "2h Mace: 392.7% Overpower Damage",
+    "Strength",
+    "Maximum Life",
+    "Damage Over Time Multiplier",
+    "All Damage Multipler"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "Wanton Rupture Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "overpower",
+    "strength",
+    "life"
+   ],
+   "affixNames": [
+    "1h Mace: 196.3% Overpower Damage",
+    "Strength",
+    "Maximum Life",
+    "Damage Over Time Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Scourge (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Disobedience",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "strength",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [
+    "Battle-Mad Aspect"
+   ],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of the Ravenous",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_the_ravenous.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "strength",
+    "ranks:rend",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Rend",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Skullbreaker's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "vulnDamage",
+    "strength",
+    "cdr"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "Strength",
+    "Cooldown Reduction",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "slashing-weapon": {
+   "name": "Slashing Weapon",
+   "item": {
+    "name": "Shattered Vow",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/shattered_vow.png",
+    "tip": "Shattered Vow\nMythic Unique Polearm\n431 Weapon Damage\n200% Damage Over Time Duration\nDamage Over Time Multiplier\nAll Damage Multiplier\nDamage Over Time\nFire Damage\nEnemies afflicted by more Damage over Time than remaining Life are Executed."
+   },
+   "affixes": [
+    "weaponDamage",
+    "strength"
+   ],
+   "affixNames": [
+    "431 Weapon Damage",
+    "200% Damage Over Time Duration",
+    "Strength",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Barbarian\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nAll Damage Multiplier\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Strength",
+    "Damage Over Time Multiplier",
+    "Maximum Life",
+    "All Damage Multipler"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Scourge (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Moni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Yul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Fer of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Fer of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Linta of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Linta of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Berú of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Berú of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Mlor of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Mlor of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Fer of the Bloodletter",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/bloodletter's_flow.png",
+    "set": "Bloodletter'S Flow",
+    "mythic": false,
+    "tip": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+   },
+   {
+    "name": "Berú of the Bloodletter",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/bloodletter's_flow.png",
+    "set": "Bloodletter'S Flow",
+    "mythic": false,
+    "tip": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "War Cry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/war_cry.png",
+    "tip": "War Cry\nRank 15\nBrawling\nShout\nCombat\nCooldown: 25 seconds\nBellow a mighty war cry, increasing your damage dealt by x [18%] for 4 seconds.\nNearby allies gain half of War Cry's effects.\nModifiers\nWar Cry grants 2 stacks of Ferocity.\nWar Cry's duration is increased to 6 seconds.\nWar Cry's damage bonus is increased by 10% and allies now receive its full effect. You also gain Berserking for 4 seconds."
+   },
+   {
+    "name": "Iron Skin",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/iron_skin.png",
+    "tip": "Iron Skin\nRank 14\nDefensive\nCombat\nCooldown: 14 seconds\nSteel yourself for 3 seconds, increasing only your Maximum Life by 10% and gaining a Barrier that absorbs [82.8%] of your Maximum Life in damage.\nModifiers\nEnemies attacking you while Iron Skin is active become Weakened for 3 seconds.\nIncrease the Maximum Life granted from Iron Skin to 15%.\nIron Skin also grants Unstoppable and enemies that hit you are Knocked back.\nPhysical Damage"
+   },
+   {
+    "name": "Challenging Shout",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/challenging_shout.png",
+    "tip": "Challenging Shout\nRank 4\nDefensive\nShout\nCombat\nCooldown: 25 seconds\nTaunt Nearby enemies and gain [22.4%] Damage Reduction for 8 seconds.\nModifiers\nChallenging Shout Weakens enemies.\nThe first 5 enemies Taunted by Challenging Shout take x20% increased damage from you.\nChallenging Shout's grants an additional 20% Damage Reduction that decays over its duration."
+   },
+   {
+    "name": "Rallying Cry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rallying_cry.png",
+    "tip": "Rallying Cry\nRank 1\nDefensive\nShout\nCombat\nFury Cost: 35\nBellow a rallying cry, increasing your Movement Speed by x [20%] for 4 seconds.\nNearby allies gain half of Rallying Cry's effects.\nModifiers\nRallying Cry Fortifies you for 15% of your Maximum Life when cast.\nFor every 3 meters traveled while Rallying Cry is active, restore 2 Primary Resource to yourself and half to nearby allies.\nRallying Cry increases your Resource Generation by x40% and your Movement Speed by an additional x10%.\nPhysical Damage"
+   },
+   {
+    "name": "Wrath of the Berserker",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wrath_of_the_berserker.png",
+    "tip": "Wrath of the Berserker\nRank 15\nUltimate\nCombat\nCooldown: 90 seconds\nExplode into rage, Knocking Back surrounding enemies while gaining x30% damage, Berserking, and Unstoppable for [14] seconds.\nModifiers\nWhile Wrath of the Berserker is active, your Berserking damage bonus is increased by x100%.\nThe duration of Wrath of the Berserker is increased by 12 seconds.\nWhile Wrath of the Berserker is active, you gain a Fire aura that deals [255%] damage and Burns for [26%] damage over 5 seconds. You gain +50% All Resistance."
+   },
+   {
+    "name": "Leap",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/leap_mosh.png",
+    "tip": "Leap\nRank 1\nBrawling\nMobility\nMartial\nFury Generate: 15\nCooldown: 17 seconds\nLucky Hit: 66%\nLeap forward and then slam down, dealing [55%] damage and Slowing surrounding enemies by 70% for 3 seconds.\nModifiers\nLeap now generates 20 Fury.\nLeap deals x20% increased damage and Knocks Down enemies for 1 second.\nLeap Summons 3 Ancients that Leap at a random enemy and deal [14%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon"
+   },
+   {
+    "name": "2h Sword",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/2h_sword.png",
+    "tip": "2h Sword\n+20% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.\nYou deal x15% increased Bleeding damage."
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "640,1153": 15,
+   "750,1254": 1,
+   "639,1398": 1,
+   "525,1291": 1,
+   "1401,1349": 14,
+   "1455,1216": 1,
+   "1605,1257": 1,
+   "1493,1406": 1,
+   "1400,1534": 1,
+   "1513,1474": 1,
+   "1605,1518": 1,
+   "1540,1662": 1,
+   "1178,1635": 1,
+   "1291,1634": 1,
+   "1383,1673": 1,
+   "1269,1818": 1,
+   "603,2093": 1,
+   "507,2218": 1,
+   "397,2185": 1,
+   "494,2037": 1,
+   "605,1683": 15,
+   "508,1737": 1,
+   "399,1592": 1,
+   "499,1553": 1,
+   "1066,3074": 15,
+   "1170,2942": 1,
+   "1271,3021": 1,
+   "1208,3203": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Marshal",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Carnage",
+   "glyph": "Exploit",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,15",
+    "6,11",
+    "6,14",
+    "6,15",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,8",
+    "8,11",
+    "9,8",
+    "9,11",
+    "10,8",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,8",
+    "12,12",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,12",
+    "14,5",
+    "14,8",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8"
+   ]
+  },
+  {
+   "name": "Blood Rage",
+   "glyph": "Challenger",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,13",
+    "5,14",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,13",
+    "12,4",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,4",
+    "15,4"
+   ]
+  },
+  {
+   "name": "Decimator",
+   "glyph": "Disembowel",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "8,14",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,10",
+    "10,14",
+    "10,15",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,5",
+    "11,6",
+    "11,7",
+    "11,8",
+    "11,9",
+    "11,10",
+    "12,4",
+    "12,10",
+    "13,4",
+    "13,10",
+    "14,4",
+    "14,5",
+    "14,10",
+    "15,3",
+    "15,4",
+    "15,9",
+    "15,10",
+    "15,11",
+    "16,9",
+    "16,11",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,15",
+    "17,16",
+    "18,9",
+    "18,13",
+    "18,14",
+    "18,15",
+    "19,9",
+    "19,13",
+    "20,9",
+    "20,10",
+    "20,11",
+    "20,12",
+    "20,13"
+   ]
+  },
+  {
+   "name": "Hemorrhage",
+   "glyph": "Executioner",
+   "x": 2,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,13",
+    "7,14",
+    "8,6",
+    "8,7",
+    "8,13",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,9",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  }
+ ]
+}

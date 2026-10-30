@@ -1,0 +1,794 @@
+{
+ "id": "arrow-storms-rogue-endgame-s13",
+ "site": "d4builds",
+ "className": "Rogue",
+ "build": "Arrow Storms - Rogue",
+ "variant": "S13",
+ "url": "https://d4builds.gg/builds/arrow-storms-rogue-endgame/?var=1",
+ "updated": "July 10, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Arrow Storms - Rogue",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Resolve Stacks\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "dexterity",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "182 Primary Core Stat",
+    "25% Movement Speed"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Tam",
+    "Gar"
+   ],
+   "socketArt": {
+    "Tam": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nRogue\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Que"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Ferocious Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "vulnDamage",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "All Damage Multipler",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Shrouded Gift",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/shrouded_gift.png",
+    "tip": "Shrouded Gift\nUnique Pants\nDexterity\nMovement Speed\nMaximum Life\nResistance to All Elements\nMaximum Life\nWhenever you gain Stealth, you also gain Concealment. Gain [25 - 30%] Damage Reduction while Stealthed and for 8 seconds after breaking it.\nRogue\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Iron Rain",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Iron Rain\nRogue\nYour Arrow Storms deal x [15 - 25%] increased damage and continuously apply Vulnerable.\nDexterity\nMovement Speed\nMaximum Life\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "movementSpeed",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Movement Speed",
+    "Maximum Life",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "ranged-weapon": {
+   "name": "Ranged Weapon",
+   "item": {
+    "name": "Vengeful Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Vengeful Aspect\nCodex • Rogue\nYour Arrow Storms deal x [90 - 120%] increased damage and gain +50% increased Size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "dexterity",
+    "weaponDamage"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Critical Strike Damage Multiplier",
+    "Dexterity",
+    "All Damage Multipler",
+    "Weapon Damage"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Frozen Memories",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Frozen Memories\nRogue\nCold damage deals x [30 - 45%] increased damage to Chilled enemies, this bonus is tripled against Frozen enemies.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Aspect Of Piercing Cold"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Ring of Starless Skies\nMythic Unique Ring\n151 Primary Core Stat\n18.75% Attack Speed\nCooldown Reduction\nSpending your Primary Resource reduces the Resource cost of your Skills and increases your damage by x10% for 3 seconds, up to x50%."
+   },
+   "affixes": [
+    "dexterity",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "182 Primary Core Stat",
+    "33.75% Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Signet of Pelghain",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/signet_of_pelghain.png",
+    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+   },
+   "affixes": [
+    "vulnDamage",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "All Damage Multipler",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "Etna's Lost Dagger",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/etna's_lost_dagger.png",
+    "tip": "Etna's Lost Dagger\nUnique 1h Dagger\nDexterity\nRanks to Imbuements Skills\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable.\nRogue\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "All Damage Multipler",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "Azurewrath",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/azurewrath.png",
+    "tip": "Azurewrath\nUnique 1h Sword\nDexterity\nMaximum Life\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAfter Freeze expires, enemies take [120 - 150%] of the damage you dealt to them while Frozen.\nDropped By:\nAll Bosses, \nBartuc"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "All Damage Multiplier",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Tam",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of the Narrow Eye",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
+    "set": "Nilfur'S Narrow Eye",
+    "mythic": false,
+    "tip": "Berú of the Narrow Eye\nMarksman Skills\nLucky Hit: Chance to Deal Holy Damage\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   },
+   {
+    "name": "Linta of the Narrow Eye",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
+    "set": "Nilfur'S Narrow Eye",
+    "mythic": false,
+    "tip": "Linta of the Narrow Eye\nMarksman Skills\nLucky Hit: Chance to Deal Lightning Damage\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   },
+   {
+    "name": "Phoba of the Narrow Eye",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
+    "set": "Nilfur'S Narrow Eye",
+    "mythic": false,
+    "tip": "Phoba of the Narrow Eye\nMarksman Skills\nLucky Hit: Chance to Deal Fire Damage\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   },
+   {
+    "name": "Mlor of the Narrow Eye",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
+    "set": "Nilfur'S Narrow Eye",
+    "mythic": false,
+    "tip": "Mlor of the Narrow Eye\nMarksman Skills\nLucky Hit: Chance to Deal Poison Damage\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   },
+   {
+    "name": "Scoundrel's Kiss",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   {
+    "name": "Fer of the Narrow Eye",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
+    "set": "Nilfur'S Narrow Eye",
+    "mythic": false,
+    "tip": "Fer of the Narrow Eye\nMarksman Skills\nLucky Hit: Chance to Deal Shadow Damage\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Cold Imbuement",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cold_imbuement.png",
+    "tip": "Cold Imbuement\nRank 15\nImbuement\nCooldown: 20 seconds\nLucky Hit: 33%\nImbue your weapons with frigid energies for 6 seconds. While Imbued, your Imbueable Skills deal Cold damage, Chill enemies for [103%] per hit, and Weaken enemies for 4 seconds.\nModifiers\nCold Imbued Skills grant 4 Energy when hitting an enemy for the first time.\nWhen Cold Imbuement Chills an enemy, you have a 25% chance to gain 1 stack of Resolve.\nCold Imbued Skills cause enemies to become Vulnerable for 4 seconds. Cold Imbuement's Duration is increased by x [128%]."
+   },
+   {
+    "name": "Dash",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dash.png",
+    "tip": "Dash\nRank 1\nAgility\nImbueable\nCutthroat\nMobility\nCharges: 2\nCharge Cooldown: 12 seconds\nLucky Hit: 25%\nDash forward and slash enemies for [65%] damage. Any enemies hit are Slowed by 30% for 4 seconds.\nModifiers\nEnemies you Dash through become Weakened for 4 seconds.\nDash has 1 additional Charge and its Charge Cooldown is reduced by 3 seconds.\nAt the end of Dash, you enter Stealth for 4 seconds and gain 1 stack of Ferocity, increased by 1 per 5 Skill Ranks.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Concealment",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/concealment.png",
+    "tip": "Concealment\nRank 6\nSubterfuge\nCooldown: 16 seconds\nVanish from sight, gaining an advanced form of Stealth for 5 seconds that will not be removed by taking damage.\nConcealment also makes you Unstoppable, grants + [36%] Movement Speed, and Unhindered for its duration.\nUsing an attack Skill during Concealment will break Concealment.\nModifiers\nEntering Concealment Fortifies you for [23.8%] of your Maximum Life over 5 seconds. Breaking Concealment Knocks Down Close enemies for 2 seconds."
+   },
+   {
+    "name": "Smoke Grenade",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/smoke_grenade.png",
+    "tip": "Smoke Grenade\nRank 1\nSubterfuge\nGrenade\nCooldown: 10 seconds\nLucky Hit: 25%\nThrow a smoky concoction at enemies that deals [90%] damage and Dazes them for 4 seconds.\nModifiers\nSmoke Grenade's size is increased by 25%.\nSmoke Grenade gains 1 Charge or costs 10 less Energy.\nSmoke Grenade no longer Dazes enemies and instead creates a cloud of shadows at your feet. While within the cloud, you gain + [5%] Critical Strike Chance and Stealth once every 1 second."
+   },
+   {
+    "name": "Barrage",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/barrage.png",
+    "tip": "Barrage\nRank 15\nCore\nImbueable\nMarksman\nChain\nEnergy Cost: 30\nLucky Hit: 40%\nUnleash a barrage of 5 arrows that expands outwards, each dealing [255%] damage and piercing up to 2 times. Arrows cannot hit the same target more than once.\nModifiers\nBarrage deals x20% increased damage against Vulnerable or Weakened enemies.\nCasting Barrage consumes 1 stacks of Overpower to fire 2 additional arrows and all arrows to deal x20% increased damage.\nBarrage fires arrows into the air, dealing [51%] damage upon landing. Each arrow causes the enemy it hits to take x15% increased damage from Barrage for the next 4 seconds, up to x75%. Barrage now also creates an Arrow Storm, dealing [51%] damage.\nPhysical Damage\nRequires a Ranged weapon"
+   },
+   {
+    "name": "Forceful Arrow",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/forceful_arrow.png",
+    "tip": "Forceful Arrow\nRank 15\nBasic\nMarksman\nLucky Hit: 50%\nFire a powerful arrow at an enemy, dealing [128%] damage and Propelling Close enemies, Knock Back the enemy. Propel can occur once every 2 seconds per enemy.\nModifiers\nGain 3 Energy when Forceful Arrow damages an enemy and an additional 4 Energy after attempting to Propel an enemy.\nForceful Arrow grants 1 stack of Overpower after attempting to Propel an enemy.\nForceful Arrow's Propel no longer Knocks Back Close enemies and instead creates an Arrow Storm every 3 arrows, dealing [288%] damage and Slowing enemies hit by 50% for 2 seconds.\nPhysical Damage\nRequires a Ranged weapon"
+   },
+   {
+    "name": "Combo Points",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/combo_points.png",
+    "tip": "Combo Points\nYour Basic Skills now generate Combo Points. Core Skills consume Combo Points for additional effects."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "1081,535": 15,
+   "1191,478": 1,
+   "1284,626": 1,
+   "1220,662": 1,
+   "851,901": 15,
+   "906,717": 1,
+   "1054,866": 1,
+   "948,902": 1,
+   "1219,1656": 1,
+   "1424,1747": 1,
+   "1360,1784": 1,
+   "614,1673": 15,
+   "512,1547": 1,
+   "410,1581": 1,
+   "473,1731": 1,
+   "468,1877": 1,
+   "364,1765": 1,
+   "265,1820": 1,
+   "328,1986": 1,
+   "615,2078": 1,
+   "548,2024": 1,
+   "375,2117": 1,
+   "520,2207": 1,
+   "741,2408": 15,
+   "640,2300": 1,
+   "540,2354": 1,
+   "603,2520": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Devious",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Exploit Weakness",
+   "glyph": "Control",
+   "x": 0,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "5,11",
+    "5,12",
+    "6,12",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,12",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,7",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,4",
+    "9,11",
+    "9,15",
+    "10,4",
+    "10,11",
+    "10,14",
+    "10,15",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,9",
+    "12,10",
+    "13,4",
+    "13,9",
+    "14,4",
+    "14,5",
+    "14,6",
+    "15,6",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "19,5",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Cheap Shot",
+   "glyph": "Volley",
+   "x": 1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "8,6",
+    "8,8",
+    "9,8",
+    "9,11",
+    "10,8",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,8",
+    "12,13",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,13",
+    "14,5",
+    "14,8",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,15",
+    "16,11",
+    "16,15",
+    "17,11",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,16",
+    "19,11",
+    "19,16",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Danse Macabre",
+   "glyph": "Assassin",
+   "x": 1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "4,14",
+    "5,14",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,9",
+    "7,11",
+    "8,9",
+    "9,9",
+    "10,9",
+    "11,9",
+    "11,10",
+    "11,11",
+    "12,11",
+    "13,11",
+    "14,11",
+    "15,8",
+    "15,11",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "17,7"
+   ]
+  },
+  {
+   "name": "Eldritch Bounty",
+   "glyph": "Canny",
+   "x": -1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,13",
+    "7,20",
+    "8,6",
+    "8,7",
+    "8,13",
+    "8,20",
+    "9,7",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,7",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,12",
+    "13,7",
+    "13,8",
+    "13,12",
+    "14,7",
+    "14,12",
+    "14,13",
+    "15,6",
+    "15,7",
+    "15,13",
+    "15,14",
+    "16,6",
+    "16,13",
+    "16,14",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  }
+ ]
+}

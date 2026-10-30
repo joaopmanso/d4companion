@@ -1,0 +1,772 @@
+{
+ "id": "blizzard-sorcerer-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Sorcerer",
+ "build": "Blizzard - Sorcerer",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/blizzard-sorcerer-endgame/?var=0",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Blizzard",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Life\nResource Generation\nCooldown Reduction\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "intelligence",
+    "armor",
+    "cdr"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Stat 2",
+    "Armor",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Raiment of the Sea",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_sea.png",
+    "tip": "Raiment of the Sea\nMythic Unique Chest Armor\nIntelligence\nRanks to Blizzard\nMaximum Life\nArmor\nMaximum Life\nBlizzard's effects linger on enemies for an additional [156%] of its duration.\nSorcerer\nDropped By:\nVarshan"
+   },
+   "affixes": [
+    "intelligence",
+    "ranks:blizzard",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Ranks To Blizzard",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Vex"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Vex": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Storm Splitter's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Storm Splitter's Aspect\nCodex • Sorcerer\nYour non-Channeled Shock Skills deal x [30 - 45%] increased damage and have a 15% chance to trigger themselves on Cast.\nCritical Strike Damage Multiplier\nIntelligence\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Kry"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Great Storm Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Great Storm Aspect\nCodex • Sorcerer\nLucky Hit: Lightning damage has up to a 15% chance to grant a stack of Ferocity.\n\nYou gain [10 - 15%] Damage Reduction while you have Ferocity.\nIntelligence\nMovement Speed\nBlizzard\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "movementSpeed",
+    "resAll"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Movement Speed",
+    "Blizzard",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "2h-weapon": {
+   "name": "2H Weapon",
+   "item": {
+    "name": "Aspect of Splintering Energy",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nDamage Over Time Multiplier\nWeapon Damage\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Elemental Constellation",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Elemental Constellation\nSorcerer\nWhile you have an equal number of Frost, Pyromancy, and Shock Skills equipped, you deal [45 - 60%] increased damage.\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "All Damage Multiplier",
+    "Aspect Of Shredding Blades"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Elemental Attunement",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Thundergod's Blessing",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/thundergod's_blessing.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "Lightning Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Vex",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Vex\nLegendary Rune of Invocation\nRequires: 300 Offering (Overflow: More Skill ranks, up to 3.)\nCooldown: 5 seconds\nGain +1 to Skills for 10 seconds."
+  },
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Fer of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "tip": "Fer of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Linta of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "tip": "Linta of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Blood-Mad Idol",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+   },
+   {
+    "name": "Berú of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "tip": "Berú of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Mlor of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "tip": "Mlor of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Phoba of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "tip": "Phoba of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Unstable Currents",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/unstable_currents.png",
+    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents reduces your Mana costs by 5.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
+   },
+   {
+    "name": "Teleport",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+   },
+   {
+    "name": "Ice Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
+    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
+   },
+   {
+    "name": "Flame Shield",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+   },
+   {
+    "name": "Blizzard",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blizzard_static_field.png",
+    "tip": "Blizzard\nRank 15\nMastery\nFrost\nCore\nMana Cost: 40\nLucky Hit: 33%\nCall forth a frigid blizzard that deals [893%] Frostbite damage and continually Chills enemies for 100% over 4 seconds.\nModifiers\nBlizzard deals x30% increased damage to Crowd Controlled enemies.\nBlizzard now seeks enemies and its duration is increased by 50%.\nBlizzard becomes a Shock Skill, deals [1339%] Sparking damage over 1 seconds, and costs 15 Mana.\nBlizzard periodically Stuns enemies for 0.25 seconds.\nCold Damage"
+   },
+   {
+    "name": "Hydra",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hydra_frigid_hydra.png",
+    "tip": "Hydra\nEnchantment\nAfter spending 200 Mana, a 5-headed Hydra spawns for 10 seconds."
+   },
+   {
+    "name": "Lightning Spear",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/lightning_spear.png",
+    "tip": "Lightning Spear\nEnchantment\nAbsorbing Crackling Energy has a 10% chance to conjure a Lightning Spear."
+   },
+   {
+    "name": "Blizzard",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blizzard.png",
+    "tip": "Blizzard\nRank 15\nMastery\nFrost\nCore\nMana Cost: 40\nLucky Hit: 33%\nCall forth a frigid blizzard that deals [893%] Frostbite damage and continually Chills enemies for 100% over 4 seconds.\nModifiers\nBlizzard deals x30% increased damage to Crowd Controlled enemies.\nBlizzard now seeks enemies and its duration is increased by 50%.\nBlizzard becomes a Shock Skill, deals [1339%] Sparking damage over 1 seconds, and costs 15 Mana.\nBlizzard periodically Stuns enemies for 0.25 seconds.\nCold Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "1182,1240": 1,
+   "1238,1058": 1,
+   "1422,1151": 1,
+   "1275,1241": 1,
+   "1386,1350": 1,
+   "1441,1223": 1,
+   "1589,1371": 1,
+   "1478,1407": 1,
+   "1384,1519": 15,
+   "1497,1462": 1,
+   "1589,1499": 1,
+   "1479,1645": 1,
+   "1184,1626": 10,
+   "1247,1627": 1,
+   "1387,1665": 1,
+   "1276,1811": 1,
+   "615,1670": 1,
+   "512,1544": 1,
+   "410,1691": 1,
+   "474,1727": 1,
+   "613,2079": 1,
+   "502,2022": 1,
+   "410,2060": 1,
+   "474,2205": 1,
+   "1073,2407": 15,
+   "1175,2297": 1,
+   "1277,2463": 1,
+   "1213,2520": 1,
+   "1074,3052": 15,
+   "1177,2923": 1,
+   "1278,3110": 1,
+   "1213,3181": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Tactician",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "8,11",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,9",
+    "10,12",
+    "11,9",
+    "11,12",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Frigid Fate",
+   "glyph": "Adept",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,12",
+    "3,13",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,13",
+    "5,14",
+    "6,13",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,4",
+    "15,4"
+   ]
+  },
+  {
+   "name": "Static Surge",
+   "glyph": "Eliminator",
+   "x": 1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "4,15",
+    "4,16",
+    "5,15",
+    "6,14",
+    "6,15",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,13",
+    "7,14",
+    "8,6",
+    "8,8",
+    "8,13",
+    "9,8",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,8",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,8",
+    "12,13",
+    "13,5",
+    "13,8",
+    "13,13",
+    "14,5",
+    "14,8",
+    "14,13",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,12",
+    "15,13",
+    "16,11",
+    "17,11",
+    "18,11",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Enchantment Master",
+   "glyph": "Unleash",
+   "x": 1,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "3,7",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,8",
+    "5,9",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,2",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,2",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,12",
+    "8,13",
+    "9,2",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "10,2",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,10",
+    "11,12",
+    "11,13",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,16",
+    "12,20",
+    "13,8",
+    "13,9",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "13,20",
+    "14,9",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,12",
+    "17,15",
+    "17,16",
+    "18,16",
+    "18,17",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Fundamental Release",
+   "glyph": "Elementalist",
+   "x": 1,
+   "y": -3,
+   "rotate": 90,
+   "on": [
+    "6,8",
+    "6,14",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,8",
+    "8,13",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,13",
+    "9,17",
+    "9,18",
+    "9,19",
+    "10,6",
+    "10,13",
+    "10,16",
+    "10,17",
+    "10,19",
+    "11,5",
+    "11,6",
+    "11,13",
+    "11,16",
+    "11,17",
+    "11,19",
+    "11,20",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "12,15",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,11",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14"
+   ]
+  }
+ ]
+}

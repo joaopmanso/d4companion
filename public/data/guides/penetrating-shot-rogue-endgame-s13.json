@@ -1,0 +1,785 @@
+{
+ "id": "penetrating-shot-rogue-endgame-s13",
+ "site": "d4builds",
+ "className": "Rogue",
+ "build": "Penetrating Shot - Rogue",
+ "variant": "S13",
+ "url": "https://d4builds.gg/builds/penetrating-shot-rogue-endgame/?var=1",
+ "updated": "October 27, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Penetrating Shot",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Harlequin Crest",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/harlequin_crest.png",
+    "tip": "Harlequin Crest\nMythic Unique Helm\n151 Primary Core Stat\n2500 Maximum Life\nMaximum Resolve Stacks\nGain +6 Ranks to all Skills."
+   },
+   "affixes": [
+    "dexterity",
+    "life"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "2500 Maximum Life"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Mot"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Tyrael's Might",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tyrael's_might.png",
+    "tip": "Tyrael's Might\nMythic Unique Chest Armor\n151 Primary Core Stat\n100 Resistance to All Elements\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nGain 20% Damage Reduction.\nWhile at full Life, your Skills unleash a divine barrage dealing [X] damage."
+   },
+   "affixes": [
+    "dexterity",
+    "resAll"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "100 Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Zan",
+    "Que"
+   ],
+   "socketArt": {
+    "Zan": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Vengeful Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Vengeful Aspect\nCodex • Rogue\nYour Arrow Storms deal x [90 - 120%] increased damage and gain +50% increased Size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Glynn's Anvil",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Glynn's Anvil\nRogue\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Emerald",
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Mending Obscurity",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Mending Obscurity\nCodex • Rogue\nWhen entering Stealth and every second while Stealthed, you Heal for [10.5 - 15%] of your Maximum Life. Breaking Stealth Fortifies you for [7 - 10%] of your Maximum Life.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Movement Speed"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "ranged-weapon": {
+   "name": "Ranged Weapon",
+   "item": {
+    "name": "Aspect of Alchemical Advantage",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Alchemical Advantage\nRogue\nDealing Non-Physical damage increases your Attack Speed and Lucky Hit Chance by + [4 - 6%] for 8 seconds, up to + [40 - 60%].\nWeapon Damage\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nDexterity\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "weaponDamage",
+    "critDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Weapon Damage",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Ferocious Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "Aspect Of Piercing Cold"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Apogeic Furor",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
+    "tip": "Aspect of Apogeic Furor\nEvery Class\nCasting an Ultimate Skill reduces the Cooldowns of your other Skills by [6.5 - 10] seconds.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nRing, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Ring of Starless Skies\nMythic Unique Ring\n151 Primary Core Stat\n18.75% Attack Speed\nCooldown Reduction\nSpending your Primary Resource reduces the Resource cost of your Skills and increases your damage by x10% for 3 seconds, up to x50%."
+   },
+   "affixes": [
+    "dexterity",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "26.25% Attack Speed"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "The Umbracrux",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_umbracrux.png",
+    "tip": "The Umbracrux\nUnique 1h Dagger\nWeapon Damage\nMaximum Life\nDexterity\nLucky Hit: Up to a 15% Chance to Restore +[6 - 8] Primary Resource\nCritical Strike Chance\nYour Subterfuge Skills create an attackable Shade Totem for [6 - 8] seconds. Any base damage it takes is replicated onto surrounding enemies at 50% effectiveness.\n\nThis effect is treated as a Trap Skill. You may only have 1 Shade Totem active at a time.\nRogue\nDropped By:\nLord Zir"
+   },
+   "affixes": [
+    "critDamage",
+    "dexterity",
+    "luckyHit"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity",
+    "Lucky Hit: Up To A 15% Chance To Restore +[6 - 8] Primary Resource"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "El'druin, Sword of Justice",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/el'druin,_sword_of_justice.png",
+    "tip": "El'druin, Sword of Justice\nMythic Unique 1h Sword\nIndestructible\n179 Weapon Damage\n37.5% All Damage Multiplier\nDexterity\nLucky Hit: Up to a 15% Chance to Restore +[6 - 8] Primary Resource\nCritical Strike Chance\nAttacks will smite enemies with less than [22 - 35%] Health."
+   },
+   "affixes": [
+    "weaponDamage"
+   ],
+   "affixNames": [
+    "179 Weapon Damage",
+    "37.5% All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Mot",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+  },
+  {
+   "name": "Zan",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Zan\nRare Rune of Ritual\nGain: 200 Offering\nCast an Ultimate Skill."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Berú of the Sightless\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Fer of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Fer of the Sightless\nLucky Hit: Chance to Deal Fire Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Godslayer Crown",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Godslayer Crown\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them."
+   },
+   {
+    "name": "Linta of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Linta of the Sightless\nLucky Hit: Chance to Deal Lightning Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Mlor of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Mlor of the Sightless\nLucky Hit: Chance to Deal Holy Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Phoba of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Phoba of the Sightless\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Cold Imbuement",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cold_imbuement.png",
+    "tip": "Cold Imbuement\nRank 15\nImbuement\nCooldown: 20 seconds\nLucky Hit: 33%\nImbue your weapons with frigid energies for 6 seconds. While Imbued, your Imbueable Skills deal Cold damage, Chill enemies for [103%] per hit, and Weaken enemies for 4 seconds.\nModifiers\nCold Imbued Skills grant 4 Energy when hitting an enemy for the first time.\nWhen Cold Imbuement Chills an enemy, you have a 25% chance to gain 1 stack of Resolve.\nCold Imbued Skills cause enemies to become Vulnerable for 4 seconds. Cold Imbuement's Duration is increased by x [128%]."
+   },
+   {
+    "name": "Shadow Step",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/shadow_step.png",
+    "tip": "Shadow Step\nRank 1\nAgility\nImbueable\nCutthroat\nMobility\nCooldown: 9 seconds\nLucky Hit: 100%\nQuickly move through the shadows to stab your victim from behind for [80%] damage and Execute them. Gain 15% increased Movement Speed for 4 seconds afterwards.\nModifiers\nCasting Shadow Step reduces its Cooldown by 3 seconds.\nCasting Shadow Step grants Unstoppable for 2 seconds.\nShadow Step no longer requires a target, and it leaves a decoy at your starting location that Taunts Nearby enemies and explodes after 2 seconds, dealing [72%] Shadow damage.\n\nShadow Step's Cooldown is increased to 12 seconds.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Smoke Grenade",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/smoke_grenade.png",
+    "tip": "Smoke Grenade\nRank 1\nSubterfuge\nGrenade\nCooldown: 10 seconds\nLucky Hit: 25%\nThrow a smoky concoction at enemies that deals [90%] damage and Dazes them for 4 seconds.\nModifiers\nSmoke Grenade's size is increased by 25%.\nSmoke Grenade gains 1 Charge or costs 10 less Energy.\nSmoke Grenade no longer Dazes enemies and instead creates a cloud of shadows at your feet. While within the cloud, you gain + [5%] Critical Strike Chance and Stealth once every 1 second."
+   },
+   {
+    "name": "Concealment",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/concealment.png",
+    "tip": "Concealment\nRank 6\nSubterfuge\nCooldown: 16 seconds\nVanish from sight, gaining an advanced form of Stealth for 5 seconds that will not be removed by taking damage.\nConcealment also makes you Unstoppable, grants + [36%] Movement Speed, and Unhindered for its duration.\nUsing an attack Skill during Concealment will break Concealment.\nModifiers\nEntering Concealment Fortifies you for [23.8%] of your Maximum Life over 5 seconds. Breaking Concealment Knocks Down Close enemies for 2 seconds."
+   },
+   {
+    "name": "Penetrating Shot",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/penetrating_shot.png",
+    "tip": "Penetrating Shot\nRank 15\nCore\nImbueable\nMarksman\nEnergy Cost: 35\nLucky Hit: 50%\nFire an arrow that pierces through all enemies in a line, dealing [383%] damage.\nModifiers\nPenetrating Shot's arrows deal x25% increased damage. This bonus is reduced by x5% per enemy they pierce.\nPenetrating Shot deals x7% increased damage per stack of Ferocity.\nPenetrating Shot takes 100% longer to fire, but shoots a larger, more powerful arrow dealing [1339%] damage.\nPhysical Damage\nRequires a Ranged weapon"
+   },
+   {
+    "name": "Rain of Arrows",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
+    "tip": "Rain of Arrows\nRank 15\nUltimate\nImbueable\nMarksman\nCooldown: 50 seconds\nLucky Hit: 12%\nArrows rain down over a large area dealing [1148%] damage and Immobilizing enemies hit for 3 seconds.\nModifiers\nRain of Arrows deals x20% increased damage and has a 25% chance to deal double damage.\nRain of Arrows' damage is increased by x10% for every stack of Ferocity you have when Casting Rain of Arrows.\nRain of Arrows also unleashes 5 Arrow Storms that target Nearby enemies, each dealing [230%] damage.\nPhysical Damage\nRequires a Ranged weapon"
+   },
+   {
+    "name": "Inner Sight",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/inner_sight.png",
+    "tip": "Inner Sight\nAttack enemies to fill your Inner Sight gauge. Marked enemies fill it faster. When full, restore 300 Energy, and gain 100% Energy Cost Reduction, +25% Critical Strike Chance, and x25% Critical Strike Damage for 4 seconds."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "667,1150": 15,
+   "613,1290": 1,
+   "704,1388": 1,
+   "798,1204": 1,
+   "1219,1213": 1,
+   "1320,1087": 1,
+   "1421,1234": 1,
+   "1359,1268": 1,
+   "614,1673": 15,
+   "558,1547": 1,
+   "373,1637": 1,
+   "473,1731": 1,
+   "468,1877": 2,
+   "265,1820": 1,
+   "615,2078": 1,
+   "502,2023": 1,
+   "375,2117": 1,
+   "520,2207": 1,
+   "741,2408": 15,
+   "686,2300": 1,
+   "540,2354": 1,
+   "603,2520": 1,
+   "1074,3053": 15,
+   "1175,2925": 1,
+   "1314,3053": 1,
+   "1212,3182": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Control",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Leyrana's Instinct",
+   "glyph": "Devious",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,18",
+    "5,11",
+    "5,16",
+    "5,17",
+    "5,18",
+    "6,11",
+    "6,15",
+    "6,16",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,14",
+    "7,15",
+    "8,11",
+    "8,13",
+    "8,14",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,11",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,15",
+    "13,8",
+    "13,9",
+    "13,15",
+    "14,8",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,2",
+    "15,3",
+    "15,8",
+    "16,2",
+    "16,3",
+    "16,6",
+    "16,8",
+    "17,3",
+    "17,4",
+    "17,5",
+    "17,6",
+    "17,7",
+    "17,8",
+    "18,5",
+    "19,5",
+    "19,6",
+    "19,7",
+    "20,6",
+    "20,7"
+   ]
+  },
+  {
+   "name": "Exploit Weakness",
+   "glyph": "Versatility",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "5,11",
+    "5,12",
+    "6,12",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,4",
+    "9,11",
+    "10,4",
+    "10,11",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,9",
+    "12,10",
+    "13,6",
+    "13,9",
+    "14,6",
+    "15,2",
+    "15,3",
+    "15,6",
+    "16,2",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "17,3",
+    "17,4",
+    "17,6",
+    "18,5",
+    "18,6",
+    "19,5",
+    "19,6",
+    "19,7",
+    "20,6",
+    "20,7"
+   ]
+  },
+  {
+   "name": "Cheap Shot",
+   "glyph": "Eclipse",
+   "x": 1,
+   "y": -3,
+   "rotate": 0,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "8,6",
+    "8,8",
+    "8,11",
+    "9,8",
+    "9,11",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,8",
+    "12,13",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,8",
+    "14,13",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,12",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,11",
+    "16,15",
+    "17,11",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,16",
+    "19,11",
+    "19,16",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Danse Macabre",
+   "glyph": "Assassin",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "4,14",
+    "5,14",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,11",
+    "7,13",
+    "8,13",
+    "9,13",
+    "10,13",
+    "11,11",
+    "11,12",
+    "11,13",
+    "12,11",
+    "13,11",
+    "14,11",
+    "15,8",
+    "15,11",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "17,7",
+    "17,9",
+    "18,9",
+    "19,9",
+    "19,10",
+    "20,10",
+    "20,11"
+   ]
+  }
+ ]
+}

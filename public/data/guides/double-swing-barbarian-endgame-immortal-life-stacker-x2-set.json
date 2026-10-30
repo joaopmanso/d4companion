@@ -1,0 +1,903 @@
+{
+ "id": "double-swing-barbarian-endgame-immortal-life-stacker-x2-set",
+ "site": "d4builds",
+ "className": "Barbarian",
+ "build": "Double Swing",
+ "variant": "Immortal Life Stacker x2 Set",
+ "url": "https://d4builds.gg/builds/double-swing-barbarian-endgame/?var=1",
+ "updated": "October 29, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Double Swing",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Tuskhelm of Joritz the Mighty",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tuskhelm_of_joritz_the_mighty.png",
+    "tip": "Tuskhelm of Joritz the Mighty\nUnique Helm\nStrength\nCooldown Reduction\nMaximum Resource\nMaximum Life\nMaximum Life\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction.\nBarbarian\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "strength",
+    "cdr",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Cooldown Reduction",
+    "Maximum Resource",
+    "Maximum Life",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Gar"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Disobedience",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "Strength",
+    "Fury Regeneration",
+    "Maximum Life",
+    "Maximum Resource",
+    "Damage Reduction While Berserking"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Tam",
+    "Kry"
+   ],
+   "socketArt": {
+    "Tam": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Twin Strikes",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/twin_strikes.png",
+    "tip": "Twin Strikes\nMythic Unique Gloves\nStrength\nRanks to Double Swing\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nDouble Swing's initial sweep deals x [78%] increased damage and applies Vulnerable. Subsequent swings deals x [156%] increased damage and grants Berserking for 3 seconds.\nBarbarian\nDropped By:\nLord Zir"
+   },
+   "affixes": [
+    "critChance",
+    "ranks:double-swing",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Ranks To Double Swing",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nMythic Unique Pants\nStrength\nArmor\nFury Regeneration\nResistance to All Elements\nArmor\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Fury Regeneration",
+    "Resistance To All Elements",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby",
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Earthstriker's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Earthstriker's Aspect\nCodex • Barbarian\nGain 1 Overpower stack each time you swap weapons. You deal x [15.5 - 20.5%] increased damage while you have Overpower.\nStrength\nMovement Speed\nFury Regeneration\nShadow Resistance\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "movementSpeed",
+    "resAll",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "Strength",
+    "Movement Speed",
+    "Fury Regeneration",
+    "Resistance To All Elements",
+    "Damage Reduction While Berserking"
+   ],
+   "tempers": [
+    [
+     "evadeCdr",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "bludgeoning-weapon": {
+   "name": "Bludgeoning Weapon",
+   "item": {
+    "name": "Duelist's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Duelist's Aspect\nCodex • Barbarian\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times. This bonus is lost when swapping weapons.\nWeapon Damage\nStrength\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "overpower",
+    "strength",
+    "life",
+    "critDamage",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "2h Mace: 392.7% Overpower Damage",
+    "All Damage Multiplier",
+    "Strength",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "Damage Reduction While Berserking"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "Aspect of the Warpath",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Warpath\nCodex • Barbarian\nWhile you have Overpower charges, your Bludgeoning weapon attacks deal x [40 - 60%] increased damage.\nAll Damage Multiplier\nStrength\nCritical Strike Damage Multiplier\nMaximum Life\nAttack Speed\nPhysical Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "overpower",
+    "weaponDamage",
+    "strength",
+    "life",
+    "critDamage",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "1h Mace: 196.3% Overpower Damage",
+    "Weapon Damage",
+    "Strength",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "Damage Reduction While Berserking"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Barbarian\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nAll Damage Multiplier\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "ranksAll",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Physical Damage Multiplier",
+    "All Skills",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Aspect Of Anger Management",
+    "+1 Set Count To Berserker's Crucible"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Edgemaster's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "cdr",
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Cooldown Reduction",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "+1 Set Count To Sescheron's Fury"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Walloping",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Walloping\nCodex • Barbarian\nYour Skills using Bludgeoning weapons deal x [40 - 60%] increased damage if the enemy is Incapacitated or Vulnerable.\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "+1 Set Count To Sescheron's Fury"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "slashing-weapon": {
+   "name": "Slashing Weapon",
+   "item": {
+    "name": "The Grandfather",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_grandfather.png",
+    "tip": "The Grandfather\nMythic Unique 2h Sword\nIndestructible\nStrength\nCritcal Strike Chance\nCritical Strike Damage Multiplier\nMaximum Life\nAttack Speed\nPhysical Damage\nIncreases your Critical Strike Damage by x120%."
+   },
+   "affixes": [
+    "strength",
+    "critDamage",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Critcal Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Maximum Life",
+    "Physical Damage",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "Ramaladni's Magnum Opus",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ramaladni's_magnum_opus.png",
+    "tip": "Ramaladni's Magnum Opus\nMythic Unique 1h Sword\nAll Damage Multiplier\nMaximum Resource\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nSkills deal x [0.65%] increased damage per point of Fury you have, but 10% Maximum Fury Drains per second.\nBarbarian\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "weaponDamage",
+    "strength",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Maximum Resource",
+    "Strength",
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  },
+  {
+   "name": "Tam",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Fer of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Fer of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Linta of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Linta of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Berú of the Crucible",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
+    "set": "Berserker'S Crucible",
+    "mythic": false,
+    "tip": "Berú of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "tip": "Fists of Fate\nMythic Unique Gloves\nPrimary Core Stat\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nDamage Over Time\nYour attacks randomly deal 1% to [390%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   {
+    "name": "Berú of Sescheron's Fury",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
+    "set": "Sescheron'S Fury",
+    "mythic": false,
+    "tip": "Berú of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+   },
+   {
+    "name": "Linta of Sescheron's Fury",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
+    "set": "Sescheron'S Fury",
+    "mythic": false,
+    "tip": "Linta of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Double Swing",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/double_swing.png",
+    "tip": "Double Swing\nRank 15\nCore\nDual Wield\nMartial\nFury Cost: 20\nLucky Hit: 30%\nSweep your weapons from opposite directions, dealing [383%] damage with each weapon. Enemies caught in the center are damaged by both.\nModifiers\nGains 20% chance to hit twice.\nIncreases this Skill's damage by x2% per enemy hit for 2 seconds, all stacks expire simultaneously and the duration cannot be refreshed.\nThe intial sweep also creates 1 Dust Devil that deals [97%] damage, the subsequent sweep creates 2.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "War Cry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/war_cry.png",
+    "tip": "War Cry\nRank 15\nBrawling\nShout\nCombat\nCooldown: 25 seconds\nBellow a mighty war cry, increasing your damage dealt by x [18%] for 4 seconds.\nNearby allies gain half of War Cry's effects.\nModifiers\nWar Cry grants 2 stacks of Ferocity.\nWar Cry's duration is increased to 6 seconds.\nWar Cry's damage bonus is increased by 10% and allies now receive its full effect. You also gain Berserking for 4 seconds."
+   },
+   {
+    "name": "Challenging Shout",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/challenging_shout_raging.png",
+    "tip": "Challenging Shout\nRank 4\nDefensive\nShout\nCombat\nCooldown: 25 seconds\nTaunt Nearby enemies and gain [22.4%] Damage Reduction for 8 seconds.\nModifiers\nChallenging Shout Weakens enemies.\nThe first 5 enemies Taunted by Challenging Shout take x20% increased damage from you.\nChallenging Shout's grants an additional 20% Damage Reduction that decays over its duration."
+   },
+   {
+    "name": "Rallying Cry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rallying_cry.png",
+    "tip": "Rallying Cry\nRank 1\nDefensive\nShout\nCombat\nFury Cost: 35\nBellow a rallying cry, increasing your Movement Speed by x [20%] for 4 seconds.\nNearby allies gain half of Rallying Cry's effects.\nModifiers\nRallying Cry Fortifies you for 15% of your Maximum Life when cast.\nFor every 3 meters traveled while Rallying Cry is active, restore 2 Primary Resource to yourself and half to nearby allies.\nRallying Cry increases your Resource Generation by x40% and your Movement Speed by an additional x10%.\nPhysical Damage"
+   },
+   {
+    "name": "Wrath of the Berserker",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wrath_of_the_berserker_full_throttle.png",
+    "tip": "Wrath of the Berserker\nRank 15\nUltimate\nCombat\nCooldown: 90 seconds\nExplode into rage, Knocking Back surrounding enemies while gaining x30% damage, Berserking, and Unstoppable for [14] seconds.\nModifiers\nWhile Wrath of the Berserker is active, your Berserking damage bonus is increased by x100%.\nThe duration of Wrath of the Berserker is increased by 12 seconds.\nWhile Wrath of the Berserker is active, you gain a Fire aura that deals [255%] damage and Burns for [26%] damage over 5 seconds. You gain +50% All Resistance."
+   },
+   {
+    "name": "Iron Skin",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/iron_skin.png",
+    "tip": "Iron Skin\nRank 14\nDefensive\nCombat\nCooldown: 14 seconds\nSteel yourself for 3 seconds, increasing only your Maximum Life by 10% and gaining a Barrier that absorbs [82.8%] of your Maximum Life in damage.\nModifiers\nEnemies attacking you while Iron Skin is active become Weakened for 3 seconds.\nIncrease the Maximum Life granted from Iron Skin to 15%.\nIron Skin also grants Unstoppable and enemies that hit you are Knocked back.\nPhysical Damage"
+   },
+   {
+    "name": "2h Mace",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/2h_mace.png",
+    "tip": "2h Mace\nLucky Hit: Up to a 10% chance to gain 5 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.\nYou deal x15% increased Critical Strike damage while Berserking."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "456,1031": 15,
+   "314,1164": 1,
+   "248,1126": 1,
+   "344,976": 1,
+   "1401,1349": 15,
+   "1455,1216": 1,
+   "1605,1257": 1,
+   "1540,1403": 1,
+   "1400,1534": 15,
+   "1513,1474": 1,
+   "1605,1518": 1,
+   "1540,1662": 1,
+   "1178,1635": 1,
+   "1291,1634": 1,
+   "1383,1785": 1,
+   "1269,1818": 1,
+   "605,1683": 4,
+   "508,1737": 1,
+   "399,1592": 1,
+   "499,1553": 1,
+   "1066,3074": 15,
+   "1123,2942": 1,
+   "1272,3131": 1,
+   "1208,3203": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Ambidextrous",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Warbringer",
+   "glyph": "Crusher",
+   "x": 0,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,12",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,11",
+    "8,12",
+    "9,4",
+    "9,11",
+    "10,4",
+    "10,11",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,6",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,7",
+    "12,9",
+    "12,10",
+    "12,14",
+    "13,6",
+    "13,9",
+    "13,14",
+    "13,15",
+    "14,4",
+    "14,5",
+    "14,6",
+    "14,15",
+    "15,6",
+    "15,10",
+    "15,14",
+    "15,15",
+    "16,2",
+    "16,3",
+    "16,4",
+    "16,6",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,14",
+    "16,15",
+    "17,2",
+    "17,4",
+    "17,6",
+    "17,8",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,4",
+    "18,5",
+    "18,6",
+    "18,8",
+    "18,9",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,4",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Carnage",
+   "glyph": "Imbiber",
+   "x": 1,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "8,12",
+    "8,13",
+    "8,14",
+    "8,15",
+    "9,11",
+    "9,12",
+    "10,11",
+    "10,12",
+    "10,16",
+    "10,17",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,9",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,16",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,5",
+    "12,8",
+    "12,10",
+    "12,11",
+    "12,12",
+    "12,14",
+    "12,15",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,15",
+    "14,5",
+    "14,8",
+    "14,11",
+    "14,15",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,12",
+    "15,15",
+    "16,11",
+    "16,15",
+    "17,11",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,16",
+    "19,11",
+    "19,16",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Weapons Master",
+   "glyph": "Marshal",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,6",
+    "5,8",
+    "5,9",
+    "6,6",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "10,6",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,6",
+    "11,20",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "12,20",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "13,20",
+    "14,9",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,15",
+    "17,16",
+    "18,16",
+    "18,17",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Flawless Technique",
+   "glyph": "Wrath",
+   "x": 1,
+   "y": -3,
+   "rotate": 0,
+   "on": [
+    "3,6",
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,8",
+    "10,9",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,13",
+    "12,14",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,14",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "15,8",
+    "15,13",
+    "16,12",
+    "16,13",
+    "17,12",
+    "18,11",
+    "18,12",
+    "19,11",
+    "20,11"
+   ]
+  }
+ ]
+}

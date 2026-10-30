@@ -1,0 +1,827 @@
+{
+ "id": "flurry-rogue-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Rogue",
+ "build": "Flurry - Rogue",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/flurry-rogue-endgame/?var=0",
+ "updated": "October 27, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Flurry - Rogue",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Poison Imbuement",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire",
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png",
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "resAll",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Resistance To All Elements",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Zan",
+    "Kry"
+   ],
+   "socketArt": {
+    "Zan": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fist of the Iron Rose",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fist_of_the_iron_rose.png",
+    "tip": "Fist of the Iron Rose\nUnique Gloves\nDexterity\nAll Damage Multiplier\nVulnerable Damage Multiplier\nDexterity\nImbuement Potency\nDamage a Close enemy with Marksman or Cutthroat Skills each grant a +15% Attack Speed bonus for 8 seconds.\n\nWhile both Attack Speed bonuses are active, you deal x [45 - 60%] increased damage to Close enemies.\nRogue\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "dexterity",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "All Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Aspect of Disobedience",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Disobedience\nCodex • Every Class\nYour Damage over Time grants you [1 - 1.5%] Damage Reduction for 2 seconds, stacking up to 30 times.\nDexterity\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "armor",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Armor",
+    "Maximum Life",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Yul",
+    "Lo"
+   ],
+   "socketArt": {
+    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lo": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Siphoning Strikes",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Siphoning Strikes\nCodex • Rogue\nLucky Hit: Cutthroat Skills have up to a [45 - 65%] chance to Heal you for 3% of your Maximum Life.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "dexterity",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "ranged-weapon": {
+   "name": "Ranged Weapon",
+   "item": {
+    "name": "Infinity",
+    "kind": "runeword",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_2h_sword.png",
+    "tip": "Infinity\nMythic Unique Weapon\nMovement Speed\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nBerMalBerIst\nImbuement Potency\n50% Chance to unleash a Rank 20 Sorcerer Chain Lightning when you kill an enemy. You gain the Rank [22] passive of Druid's Cyclone Armor. Close enemies are Vulnerable and take x [125%] more damage from you."
+   },
+   "affixes": [
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Crossbow",
+    "Movement Speed",
+    "Maximum Life",
+    "All Damage Multiplier",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Blood-Mad Idol",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/blood-mad_idol.png",
+    "tip": "Blood-Mad Idol\nMaximum Resource\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+   },
+   "affixes": [
+    "dexterity",
+    "attackSpeed",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Attack Speed",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Earthstriker's Aspect"
+   ],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Writhing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Hellfire\nSoul Splinter\nJewelry:625 Resistance to All Elements\nYou deal x50% increased damage but lose 100% Critical Strike Chance."
+   },
+   "affixes": [
+    "dexterity",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "All Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Imitated Imbuement",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Dexterity"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "dual-wield-weapon-1": {
+   "name": "Dual-Wield Weapon 1",
+   "item": {
+    "name": "Asheara's Khanjar",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/asheara's_khanjar.png",
+    "tip": "Asheara's Khanjar\nUnique 1h Dagger\nWeapon Damage\nDexterity\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nHits with this weapon increase your Attack Speed by + [3.5 - 5%] and damage by x [11.7 - 16.7%] for 4 seconds, up to + [10.5 - 15%] and x [35 - 50%] respectively.\nRogue\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "weaponDamage",
+    "dexterity"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Dexterity",
+    "Damage Over Time Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "dual-wield-weapon-2": {
+   "name": "Dual-Wield Weapon 2",
+   "item": {
+    "name": "Etna's Lost Dagger",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/etna's_lost_dagger.png",
+    "tip": "Etna's Lost Dagger\nUnique 1h Dagger\nDexterity\nRanks to Imbuements Skills\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable.\nRogue\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "dexterity",
+    "ranks:imbuements-skills"
+   ],
+   "affixNames": [
+    "Dexterity",
+    "Ranks To Imbuements Skills",
+    "Damage Over Time Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Yul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+  },
+  {
+   "name": "Lo",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png",
+   "tip": "Lo\nCommon Rune of Ritual\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nGain 25% Deadly Strike Chance for 10 seconds."
+  },
+  {
+   "name": "Zan",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Zan\nRare Rune of Ritual\nGain: 200 Offering\nCast an Ultimate Skill."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Sea Lord's Fine Gloves",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Sea Lord's Fine Gloves\nUnique Gloves\nDexterity\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nTraps Arm Faster\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage\nRogue\nDropped By:\nDuriel"
+   },
+   {
+    "name": "Berú of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Berú of the Sightless\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Godslayer Crown",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Godslayer Crown\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them."
+   },
+   {
+    "name": "Fer of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Fer of the Sightless\nLucky Hit: Chance to Deal Fire Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "tip": "Hellfire Torch\nImbuement Skills\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Legacy of the Sightless"
+   },
+   {
+    "name": "Linta of the Sightless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
+    "set": "Legacy of the Sightless",
+    "mythic": false,
+    "tip": "Linta of the Sightless\nLucky Hit: Chance to Deal Lightning Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Poison Imbuement",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/poison_imbuement.png",
+    "tip": "Poison Imbuement\nRank 15\nImbuement\nCooldown: 20 seconds\nLucky Hit: 33%\nImbue your weapons with lethal poison for 6 seconds. While Imbued, your Imbueable Skills deal Poison damage and apply [255%] of their Base damage as additional Poisoning damage over 6 seconds.\nModifiers\nPoison Imbuement's duration is increased by 2 seconds. Casting Poison Imbuement consumes up to 2 stacks of Ferocity to further increase its duration by 2 per Ferocity spent.\nLucky Hit: Poison Imbued Skills have up to a 30% chance to reduce the Cooldown of Poison Imbuement by 2 seconds.\nPoison Imbuement gains x40% increased Potency. Each successive time an enemy is Poisoned by Poison Imbuement, the Potency of Poison Imbuement against the enemy is increased by x5%, up to x50%.\nPoison Damage"
+   },
+   {
+    "name": "Dash",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dash.png",
+    "tip": "Dash\nRank 1\nAgility\nImbueable\nCutthroat\nMobility\nCharges: 2\nCharge Cooldown: 12 seconds\nLucky Hit: 25%\nDash forward and slash enemies for [65%] damage. Any enemies hit are Slowed by 30% for 4 seconds.\nModifiers\nEnemies you Dash through become Weakened for 4 seconds.\nDash has 1 additional Charge and its Charge Cooldown is reduced by 3 seconds.\nAt the end of Dash, you enter Stealth for 4 seconds and gain 1 stack of Ferocity, increased by 1 per 5 Skill Ranks.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Dance of Knives",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
+    "tip": "Dance of Knives\nRank 15\nCore\nCutthroat\nImbueable\nChanneled\nEnergy Cost: 25 per second\nLucky Hit: 35%\nChannel to launch knives at surrounding enemies with each knife dealing [133%] damage. Attack Speed increases damage done rather than number of knives thrown.\nModifiers\nDance of Knives Slows enemies hit by 25% for 4 seconds and grants x12% Movement Speed while Channeling.\nDance of Knives' knives has a 33% chance to pierce and grenades' explosion area is increased by +25%.\nKnives have a 50% chance to shatter into 6 shards of metal on hit, dealing [66%] damage.\nDance of Knives becomes a Marksman Skill.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Concealment",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/concealment.png",
+    "tip": "Concealment\nRank 6\nSubterfuge\nCooldown: 16 seconds\nVanish from sight, gaining an advanced form of Stealth for 5 seconds that will not be removed by taking damage.\nConcealment also makes you Unstoppable, grants + [36%] Movement Speed, and Unhindered for its duration.\nUsing an attack Skill during Concealment will break Concealment.\nModifiers\nEntering Concealment Fortifies you for [23.8%] of your Maximum Life over 5 seconds. Breaking Concealment Knocks Down Close enemies for 2 seconds."
+   },
+   {
+    "name": "Flurry",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flurry.png",
+    "tip": "Flurry\nRank 15\nCore\nImbueable\nCutthroat\nEnergy Cost: 25\nLucky Hit: 20%\nUnleash a flurry of stabs and slashes, striking enemies in front of you 4 times and dealing a total of [500%] damage to each.\nModifiers\nFlurry gains +20% increased Cast Speed.\nCasting Flurry increases its damage by x15%, up to x45%. This bonus resets after hitting the maximum.\nFlurry now damages enemies in a circle around you and deals [194%] damage.\nPhysical Damage\nRequires Dual Wielded weapons"
+   },
+   {
+    "name": "Shadow Clone",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/shadow_clone_sentry.png",
+    "tip": "Shadow Clone\nRank 15\nUltimate\nSummoning\nCutthroat\nCooldown: 60 seconds\nYour shadow mimicks your actions for 15 seconds. This Shadow Clone deals [56%] of your damage.\nModifiers\nCasting Shadow Clone makes all Nearby enemies Weakened and Vulnerable for 6 seconds.\nShadow Clone's Cooldown is reduced by 10 seconds.\nShadow Clone becomes a Marksman Skill and now summons a stationary shadow that fires 3 piercing arrows every 1 seconds. Each arrow deals [51%] damage.\nShadow Clone gains 2 additional Charges, and its Cooldown is reduced by 20 seconds. You may have up to 3 Shadow Clones active at a time.\nPhysical Damage"
+   },
+   {
+    "name": "Preparation",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/preparation.png",
+    "tip": "Preparation\nSpend 75 Energy to reduce your Ultimate Skill's Cooldown by 5 seconds. Ultimate Skills grant 15% Damage Reduction for 10 seconds."
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "483,992": 15,
+   "381,882": 1,
+   "280,937": 1,
+   "390,1105": 1,
+   "484,1149": 15,
+   "353,1251": 1,
+   "391,1353": 1,
+   "540,1287": 1,
+   "1219,1656": 1,
+   "1332,1599": 1,
+   "1424,1747": 1,
+   "1360,1784": 1,
+   "468,1877": 6,
+   "228,1878": 1,
+   "1074,2504": 15,
+   "1183,2447": 1,
+   "1275,2484": 1,
+   "1211,2632": 1,
+   "743,3054": 15,
+   "688,2924": 1,
+   "540,3108": 1,
+   "650,3182": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Assassin",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "4,13",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "8,11",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Exploit Weakness",
+   "glyph": "Tracker",
+   "x": 0,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,12",
+    "7,13",
+    "8,4",
+    "8,5",
+    "8,7",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,4",
+    "9,11",
+    "9,15",
+    "10,4",
+    "10,11",
+    "10,14",
+    "10,15",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,5",
+    "12,9",
+    "12,10",
+    "13,5",
+    "13,9",
+    "14,5",
+    "15,5",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,6",
+    "18,9",
+    "18,10",
+    "18,11",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Eldritch Bounty",
+   "glyph": "Bane",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,16",
+    "6,19",
+    "7,16",
+    "7,19",
+    "8,6",
+    "8,7",
+    "8,15",
+    "8,16",
+    "8,17",
+    "8,18",
+    "8,19",
+    "8,20",
+    "9,7",
+    "9,8",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,12",
+    "11,20",
+    "12,12",
+    "13,10",
+    "13,11",
+    "13,12",
+    "14,10",
+    "14,12",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,12",
+    "15,13",
+    "15,14",
+    "16,6",
+    "16,13",
+    "16,14",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  },
+  {
+   "name": "Tricks of the Trade",
+   "glyph": "Efficacy",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "6,6",
+    "7,6",
+    "8,6",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "10,7",
+    "10,10",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,7",
+    "11,13",
+    "12,4",
+    "12,7",
+    "12,9",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,4",
+    "14,10",
+    "14,13",
+    "15,4",
+    "15,13",
+    "16,13",
+    "16,18",
+    "17,13",
+    "17,14",
+    "17,17",
+    "17,18",
+    "18,14",
+    "18,15",
+    "18,16",
+    "18,17",
+    "18,18",
+    "19,14",
+    "20,11",
+    "20,12",
+    "20,13",
+    "20,14"
+   ]
+  },
+  {
+   "name": "Cheap Shot",
+   "glyph": "Versatility",
+   "x": 0,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "8,6",
+    "8,8",
+    "9,8",
+    "9,11",
+    "10,8",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,8",
+    "12,13",
+    "13,8",
+    "13,11",
+    "13,13",
+    "14,8",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,5",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "15,11",
+    "15,15",
+    "16,11",
+    "16,15",
+    "17,11",
+    "17,15",
+    "17,16",
+    "18,11",
+    "18,16",
+    "19,11",
+    "19,16",
+    "20,11"
+   ]
+  }
+ ]
+}

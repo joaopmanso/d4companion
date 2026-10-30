@@ -1,0 +1,855 @@
+{
+ "id": "ice-spikes-sorcerer-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Sorcerer",
+ "build": "Ice Spikes - Sorcerer",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/ice-spikes-sorcerer-endgame/?var=0",
+ "updated": "September 20, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "",
+ "short": "Ice Spikes - Sorcerer",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Life\nResource Generation\nCooldown Reduction\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "intelligence",
+    "armor",
+    "cdr"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Stat 2",
+    "Armor",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Anguish",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Raiment of the Sea",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_sea.png",
+    "tip": "Raiment of the Sea\nMythic Unique Chest Armor\nIntelligence\nRanks to Blizzard\nMaximum Life\nArmor\nMaximum Life\nBlizzard's effects linger on enemies for an additional [156%] of its duration.\nSorcerer\nDropped By:\nVarshan"
+   },
+   "affixes": [
+    "intelligence",
+    "ranks:blizzard",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Ranks To Blizzard",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Vex"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Vex": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Blasting Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Yul",
+    "Ohm"
+   ],
+   "socketArt": {
+    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ohm": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Esu's Heirloom",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
+    "tip": "Esu's Heirloom\nUnique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [20 - 40%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "intelligence",
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Movement Speed",
+    "Mana Regeneration",
+    "Maximum Life"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Aspect of Merciless Cold",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Merciless Cold\nCodex • Sorcerer\nYour Cold direct damage causes enemies to take [10 - 15%] increased Cold damage for 4 seconds, stacking up to 10 times.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "weaponDamage",
+    "critDamage",
+    "intelligence"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Weapon Damage",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Intelligence"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Lingering Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "intelligence"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Intelligence",
+    "Aspect Of Biting Cold"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Blue Rose",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/blue_rose.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "intelligence",
+    "ranks:frost-skills",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Ranks To Frost Skills",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Elemental Attunement",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Stat 1",
+    "Stat 2",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Aspect of the Frozen Wake",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Frozen Wake\nSorcerer\nForming an Ice Spike increases their damage by x [3 - 4%] for 2 seconds, stacking up to 30 times.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "critChance",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Vex",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Vex\nLegendary Rune of Invocation\nRequires: 300 Offering (Overflow: More Skill ranks, up to 3.)\nCooldown: 5 seconds\nGain +1 to Skills for 10 seconds."
+  },
+  {
+   "name": "Yul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+  },
+  {
+   "name": "Ohm",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "tip": "Berú of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   },
+   {
+    "name": "Fer of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "tip": "Fer of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   },
+   {
+    "name": "Blood-Mad Idol",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+   },
+   {
+    "name": "Mlor of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "tip": "Mlor of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   },
+   {
+    "name": "Linta of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "tip": "Linta of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   },
+   {
+    "name": "Phoba of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "tip": "Phoba of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Teleport",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+   },
+   {
+    "name": "Ice Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
+    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
+   },
+   {
+    "name": "Familiar",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/familiar_fast_as_lightning.png",
+    "tip": "Familiar\nRank 2\nConjuration\nPyromancy\nSummon\nCharges: 3\nCharge Cooldown: 12 seconds\nLucky Hit: 10%\nSummon a Fire Familiar for 8 seconds. It seeks enemies and periodically explodes, dealing [77%] damage.\nYou may have up to 6 Familiars active at a time.\nModifiers\nFamiliar gains 1 additional Charge.\nGain a bonus based on the Familiar type when the Familiar explodes:\n- Fire Familiar: Gain +5% Healing Received for 5 seconds.\n- Cold Familiar: Gain a Barrier for 5% of your Maximum Life for 5 seconds, up to 30%.\n- Lightning Familiar: Reduce a random active Cooldown by 0.5 seconds.\nFamiliar becomes a Shock Skill that deals Lightning damage.\nFamiliar increases your Minimum Ferocity by 1 and grants [2.1%] Cooldown Reduction while active."
+   },
+   {
+    "name": "Deep Freeze",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/deep_freeze.png",
+    "tip": "Deep Freeze\nRank 1\nUltimate\nFrost\nCooldown: 60 seconds\nLucky Hit: 5%\nEncase yourself in ice and become Immune for 4 seconds, Chilling surrounding enemies for 13% and continuously dealing [52%] damage to them. When Deep Freeze ends, you explode for an additional [180%] damage.\nCasting Deep Freeze again ends the effect early.\nModifiers\nIncreases the duration to 5 seconds.\nCooldown speed is increased by 50% while you have a Barrier.\nInstead of encasing yourself and becoming Immune, Deep Freeze now forms at the target location dealing [63%] damage continuously and [216%] explosion damage.\nYou remain free to act during the duration and Deep Freeze now has 3 Charges.\nCold Damage"
+   },
+   {
+    "name": "Blizzard",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blizzard.png",
+    "tip": "Blizzard\nRank 15\nMastery\nFrost\nCore\nMana Cost: 40\nLucky Hit: 33%\nCall forth a frigid blizzard that deals [893%] Frostbite damage and continually Chills enemies for 100% over 4 seconds.\nModifiers\nBlizzard deals x30% increased damage to Crowd Controlled enemies.\nBlizzard now seeks enemies and its duration is increased by 50%.\nBlizzard becomes a Shock Skill, deals [1339%] Sparking damage over 1 seconds, and costs 15 Mana.\nBlizzard periodically Stuns enemies for 0.25 seconds.\nCold Damage"
+   },
+   {
+    "name": "Flame Shield",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+   },
+   {
+    "name": "Hydra",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hydra.png",
+    "tip": "Hydra\nEnchantment\nAfter spending 200 Mana, a 5-headed Hydra spawns for 10 seconds."
+   },
+   {
+    "name": "Blizzard",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blizzard.png",
+    "tip": "Blizzard\nRank 15\nMastery\nFrost\nCore\nMana Cost: 40\nLucky Hit: 33%\nCall forth a frigid blizzard that deals [893%] Frostbite damage and continually Chills enemies for 100% over 4 seconds.\nModifiers\nBlizzard deals x30% increased damage to Crowd Controlled enemies.\nBlizzard now seeks enemies and its duration is increased by 50%.\nBlizzard becomes a Shock Skill, deals [1339%] Sparking damage over 1 seconds, and costs 15 Mana.\nBlizzard periodically Stuns enemies for 0.25 seconds.\nCold Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "1182,1240": 1,
+   "1238,1058": 1,
+   "1422,1151": 1,
+   "1275,1241": 1,
+   "1386,1350": 1,
+   "1441,1223": 1,
+   "1589,1371": 1,
+   "1478,1407": 1,
+   "1384,1519": 15,
+   "1450,1461": 1,
+   "1589,1499": 1,
+   "1479,1645": 1,
+   "615,1670": 1,
+   "512,1544": 1,
+   "410,1691": 1,
+   "474,1727": 1,
+   "873,1874": 15,
+   "926,1763": 1,
+   "1110,1851": 1,
+   "1011,1985": 1,
+   "744,2407": 1,
+   "687,2297": 1,
+   "539,2464": 1,
+   "604,2518": 1,
+   "818,2573": 1,
+   "751,2575": 1,
+   "612,2611": 1,
+   "676,2756": 1,
+   "1001,2574": 1,
+   "1112,2575": 1,
+   "1203,2723": 1,
+   "1140,2758": 1,
+   "1073,2407": 15,
+   "1175,2297": 1,
+   "1312,2410": 1,
+   "1165,2518": 1,
+   "743,3051": 2,
+   "639,2924": 1,
+   "503,3053": 1,
+   "651,3181": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Tactician",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Frigid Fate",
+   "glyph": "Elementalist",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,13",
+    "5,14",
+    "6,6",
+    "6,13",
+    "7,6",
+    "7,13",
+    "8,6",
+    "8,13",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,7",
+    "10,10",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,7",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,7",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,4",
+    "15,4"
+   ]
+  },
+  {
+   "name": "Icefall",
+   "glyph": "Destruction",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,7",
+    "3,8",
+    "3,14",
+    "3,15",
+    "3,16",
+    "4,6",
+    "4,7",
+    "4,16",
+    "5,16",
+    "6,12",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "7,11",
+    "7,12",
+    "7,18",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,12",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,14",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Enchantment Master",
+   "glyph": "Unleash",
+   "x": 1,
+   "y": 0,
+   "rotate": 90,
+   "on": [
+    "2,7",
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,6",
+    "5,8",
+    "5,9",
+    "6,6",
+    "7,2",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,2",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,12",
+    "8,13",
+    "9,2",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "10,2",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,10",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,16",
+    "13,8",
+    "13,9",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,9",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,12",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Searing Heat",
+   "glyph": "Eliminator",
+   "x": 2,
+   "y": 0,
+   "rotate": 180,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,13",
+    "7,14",
+    "7,20",
+    "8,6",
+    "8,7",
+    "8,13",
+    "8,20",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,12",
+    "12,13",
+    "13,7",
+    "13,8",
+    "13,13",
+    "14,7",
+    "14,13",
+    "15,6",
+    "15,7",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,6",
+    "16,14",
+    "17,5",
+    "17,6",
+    "17,14",
+    "18,3",
+    "18,4",
+    "18,5",
+    "19,3"
+   ]
+  }
+ ]
+}

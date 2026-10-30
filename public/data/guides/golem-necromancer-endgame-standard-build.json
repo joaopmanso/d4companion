@@ -1,0 +1,828 @@
+{
+ "id": "golem-necromancer-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Necromancer",
+ "build": "Golem - Necromancer",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/golem-necromancer-endgame/?var=0",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "B",
+ "short": "Golem",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [130%]."
+   },
+   "affixes": [
+    "intelligence",
+    "cdr"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Stat 2",
+    "Essence Regeneration",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMaximum Resource\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "movementSpeed",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Movement Speed",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Thul"
+   ],
+   "socketArt": {
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Thul": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Sacrificial Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Sacrificial Aspect\nCodex • Necromancer\nYour Sacrifice bonuses are increased by [50 - 80%].\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Blood Moon Breeches",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/blood_moon_breeches.png",
+    "tip": "Blood Moon Breeches\nUnique Pants\nIntelligence\nCritical Strike Damage Multiplier\nArmor\nResistance to All Elements\nMaximum Life\nYour Summons have a [7 - 10%] chance to randomly inflict Decrepify or Iron Maiden when they deal damage.\n\nYou deal x [50 - 60%] increased Critical Strike Damage to enemies affected by your Curses.\nNecromancer\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "intelligence",
+    "critDamage",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Critical Strike Damage Multiplier",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Que"
+   ],
+   "socketArt": {
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of the Void",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of the Void\nNecromancer\nDarkness Skills Weaken enemies for 4 seconds. Darkness Skills deal x [10 - 15%] increased damage to Weakened enemies.\nIntelligence\nMaximum Life\nArmor\nMovement Speed\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Armor",
+    "Movement Speed"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Mace of King Leoric",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/mace_of_king_leoric.png",
+    "tip": "Mace of King Leoric\nUnique 1h Mace\nWeapon Damage\nRanks to Golem\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nYour Golem will consume one of your Skeleton Mages or Skeleton Warriors every 8 seconds, healing to full Life and gaining x [100 - 120%] increased damage for 10 seconds.\nNecromancer\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "weaponDamage",
+    "ranks:golem",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Golem",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst",
+    "Skull"
+   ],
+   "socketArt": {
+    "Amethyst": "https://sunderarmor.com/DIABLO4/Gems/grand-amethyst.png",
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Reanimation",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "intelligence"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Intelligence"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [
+    "Exploiter's Aspect"
+   ],
+   "sockets": [
+    "Splinter of Anguish"
+   ],
+   "socketArt": {
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Hellbent Commander Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Critical Strike Chance"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Pact of Bone",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/pact_of_bone.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "intelligence",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Lidless Wall",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/lidless_wall.png",
+    "tip": "Lidless Wall\nUnique Shield\nIntelligence\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nCritical Strike Chance\nLucky Hit: While you have an active Bone Storm, hitting an enemy has up to a [35 - 45%] chance to spawn a Bone Storm around their location. \n\nEach Sacrifice bonus increases this chance by 25% and allows you to spawn 1 more Bone Storm. Each active Bone Storm grants x30% Critical Strike Damage, up to x150%.\nNecromancer\nDropped By:\nAndariel"
+   },
+   "affixes": [
+    "intelligence",
+    "critChance",
+    "damageReduction",
+    "cdr"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Critical Strike Chance",
+    "Damage Reduction",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Thul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Thul\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Size)\nCooldown: 1 seconds\nInvoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+  },
+  {
+   "name": "Nagu",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of Desecration",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
+    "set": "Radament'S Desecration",
+    "mythic": false,
+    "tip": "Berú of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+   },
+   {
+    "name": "Fer of Desecration",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
+    "set": "Radament'S Desecration",
+    "mythic": false,
+    "tip": "Fer of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+   },
+   {
+    "name": "Bloodless Scream",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Bloodless Scream\nYour Darkness Skills Chill enemies for up to 100% and deal x [100 - 125%] increased damage to Frozen enemies and bosses.\n\nEvery 800 times you damage enemies with Darkness Skills, all Nearby enemies are Feared for 0.25 seconds before Freezing for 3 more seconds."
+   },
+   {
+    "name": "Linta of Desecration",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
+    "set": "Radament'S Desecration",
+    "mythic": false,
+    "tip": "Linta of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+   },
+   {
+    "name": "Mlor of Desecration",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
+    "set": "Radament'S Desecration",
+    "mythic": false,
+    "tip": "Mlor of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+   },
+   {
+    "name": "Phoba of Desecration",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
+    "set": "Radament'S Desecration",
+    "mythic": false,
+    "tip": "Phoba of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Sever",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sever.png",
+    "tip": "Sever\nCore\nDarkness\nEssence Cost: 20\nLucky Hit: 40%\nA specter of you charges forward, dealing [60%] damage, then attacks with its scythe, dealing [100%] damage.\nShadow Damage"
+   },
+   {
+    "name": "Bone Prison",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bone_prison_plunging_darkness.png",
+    "tip": "Bone Prison\nRank 15\nMacabre\nBone\nCooldown: 15 seconds\nUnearth a prison of bone with X Life that surrounds the target area for [8.4] seconds.\nModifiers\nCasting Bone Prison generates 50 Essence. Trapping a Boss generates an additional 25 Essence.\nBone Prison grants 1 stack of Resolve for each enemy trapped.\nBone Prison becomes a Blood Skill, casting the prison around you.\nWhile standing within it your Essence Generation and Cast Speed are increased by [51%] , but it drains 5% of your Maximum Life every second."
+   },
+   {
+    "name": "Skeleton Warrior",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/skeleton_warrior.png",
+    "tip": "Skeleton Warrior\nRank 15\nCorpse\nSummon\nMinion\nCooldown: 10 seconds\nLucky Hit: 20%\nPassive: Raise a skeletal warrior from a nearby Corpse every 2 seconds, up to a maximum of 4 warriors. Skeletal warriors deal [166%] with each attack.\nActive: Command your skeletal warriors to leap at an enemy and attack.\nModifiers\nSkeletal Warriors heal you for 2% of your Maximum Life whenever they attack.\nSkeleton Warriors have a 30% chance to make enemies Vulnerable for 4 seconds.\nIf all of your skeletal warriors have been Summoned, Skeleton Warrior briefly Summons a Skeleton Priest instead.\nSkeleton Priest empowers your Minions for 8 seconds, increasing their Critical Strike Chance by + [21%] and healing them for 100% of their Maximum Life over the duration.\nPhysical Damage"
+   },
+   {
+    "name": "Bone Storm",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bone_storm.png",
+    "tip": "Bone Storm\nRank 15\nUltimate\nBone\nCooldown: 60 seconds\nLucky Hit: 40%\nA swirling storm of bones appears around you and your Golem, dealing [1020%] to surrounding enemies over 10 seconds.\nModifiers\nBone Storm increases your Damage Reduction by 10%.\nCasting Bone Storm grants a Barrier for 50% of your Maximum Life for 10 seconds.\nBone Storm increases your Critical Strike Chance and Cast Speed by + [38%].\nPhysical Damage"
+   },
+   {
+    "name": "Golem",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/golem.png",
+    "tip": "Golem\nRank 15\nMacabre\nSummon\nMinion\nCooldown: 16 seconds\nLucky Hit: 20%\nPassive: Raise a Golem that attacks for [319%] damage. When your Golem dies, it respawns after 10 seconds.\nActive: Command your Golem to leap to the target area. It becomes Unstoppable, Taunts Nearby enemies, and takes 30% reduced damage for the next 6 seconds. It gains 50% of its Armor as Thorns for the duration.\nModifiers\nGolem deals x30% increased damage to Vulnerable enemies.\nCommanding your Golem grants 3 stacks of Resolve, Overpower, or Ferocity based on whether your Golem type is Bone, Blood, or Iron respectively.\nGolem now raises 3 smaller Golems that deal 60% of normal damage and gain +30% Attack Speed.\nPhysical Damage"
+   },
+   {
+    "name": "Blight",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blight_whirlpool.png",
+    "tip": "Blight\nRank 1\nCore\nDarkness\nEssence Cost: 20\nLucky Hit: 40%\nUnleash concentrated blight that deals [40%] damage and leaves behind a defiled area, dealing [210%] Corrupting damage over 6 seconds.\nModifiers\nBlight's Size is increased by 35%.\nBlight has an additional 20% Lucky Hit Chance.\nBlight deals Cold and Frostbite damage and its Essence cost is reduced by 10.\nIts defiled area Pulls In enemies and Chills for 15% every second.\nShadow Damage"
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "849,1036": 1,
+   "960,979": 1,
+   "1090,1074": 1,
+   "987,1165": 1,
+   "666,1154": 1,
+   "792,1256": 1,
+   "700,1397": 1,
+   "605,1293": 1,
+   "1348,1441": 15,
+   "1458,1330": 1,
+   "1552,1497": 1,
+   "1487,1552": 1,
+   "608,2092": 15,
+   "495,2034": 1,
+   "404,2072": 1,
+   "467,2221": 1,
+   "606,1680": 1,
+   "468,1737": 1,
+   "363,1647": 1,
+   "504,1554": 1,
+   "1072,2423": 10,
+   "1173,2313": 1,
+   "1311,2425": 1,
+   "1210,2538": 1,
+   "738,2422": 1,
+   "635,2311": 1,
+   "530,2479": 1,
+   "597,2532": 1,
+   "1069,3240": 15,
+   "1202,3306": 1,
+   "1127,3446": 1,
+   "939,3332": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Essence",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Hulking Monstrosity",
+   "glyph": "Abyssal",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,15",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,6",
+    "6,13",
+    "7,6",
+    "7,13",
+    "8,6",
+    "8,13",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,7",
+    "10,10",
+    "10,13",
+    "11,7",
+    "11,13",
+    "12,7",
+    "12,9",
+    "12,13",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,10",
+    "14,13",
+    "15,13",
+    "16,13",
+    "16,14",
+    "17,14",
+    "17,18",
+    "18,14",
+    "18,15",
+    "18,16",
+    "18,17",
+    "18,18",
+    "19,14",
+    "20,11",
+    "20,12",
+    "20,13",
+    "20,14"
+   ]
+  },
+  {
+   "name": "Frailty",
+   "glyph": "Golem",
+   "x": 0,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,8",
+    "4,8",
+    "5,8",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,7",
+    "7,11",
+    "8,7",
+    "9,2",
+    "9,3",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "10,2",
+    "10,5",
+    "10,6",
+    "11,2",
+    "11,5",
+    "11,6",
+    "12,5",
+    "12,6",
+    "12,7",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "13,11",
+    "14,11",
+    "15,11",
+    "15,15",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,15"
+   ]
+  },
+  {
+   "name": "Cult Leader",
+   "glyph": "Deadraiser",
+   "x": 1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "3,15",
+    "3,16",
+    "3,17",
+    "4,16",
+    "5,16",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,13",
+    "7,14",
+    "7,19",
+    "7,20",
+    "8,13",
+    "8,20",
+    "9,13",
+    "9,20",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,12",
+    "11,20",
+    "12,12",
+    "13,10",
+    "13,11",
+    "13,12",
+    "14,10",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,2",
+    "19,3",
+    "19,4"
+   ]
+  },
+  {
+   "name": "Wither",
+   "glyph": "Amplify",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "3,7",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,8",
+    "5,9",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "10,6",
+    "11,6",
+    "12,6",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,13",
+    "18,18",
+    "19,11",
+    "19,12",
+    "19,13",
+    "20,11"
+   ]
+  }
+ ]
+}

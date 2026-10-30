@@ -1,0 +1,804 @@
+{
+ "id": "divine-lance-paladin-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Paladin",
+ "build": "Divine Lance - Paladin",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/divine-lance-paladin-endgame/?var=0",
+ "updated": "September 18, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "tier": "A",
+ "short": "Divine Lance",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Leoric's Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
+    "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Life\nCooldown Reduction\nThorns\nMaximum Resolve Stacks\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "cdr",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Cooldown Reduction",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Anguish",
+    "Splinter of Pain"
+   ],
+   "socketArt": {
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png",
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Enigma",
+    "kind": "runeword",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Resolve Stacks\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+   },
+   "affixes": [
+    "ranksAll",
+    "movementSpeed",
+    "damageReduction",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Ranks To All Skills",
+    "Movement Speed",
+    "Damage Reduction",
+    "Maximum Life",
+    "Armor"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Moni",
+    "Thul"
+   ],
+   "socketArt": {
+    "Moni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Thul": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nDefiance Aura Potency\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "All Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nThorns\nMaximum Resolve Stacks\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Mot"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Interdiction",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Interdiction\nPaladin\nGain [2 - 3%] Block Chance per Resolve stack.\nStrength\nMaximum Life\nArmor\nMovement Speed\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "armor",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Armor",
+    "Movement Speed"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Light's Rebuke",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/light's_rebuke.png",
+    "tip": "Light's Rebuke\nMythic Unique Flail\nWeapon Damage\nRanks to Divine Lance\nCritical Strike Damage Multiplier\nStrength\nCritical Strike Chance\nEnemies impaled by the first strike of Divine Lance take x [260%] increased damage from Divine Lance's subsequent hits.\nPaladin\nDropped By:\nBeast in Ice"
+   },
+   "affixes": [
+    "weaponDamage",
+    "ranks:divine-lance",
+    "critDamage",
+    "strength"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Divine Lance",
+    "Critical Strike Damage Multiplier",
+    "Strength"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Locran's Talisman",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/locran's_talisman.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "strength",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [],
+   "aspects": [
+    "Embattled Aspect"
+   ],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "strength",
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "18.75% Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Sin"
+   ],
+   "socketArt": {
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Redirected Force",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critDamage",
+    "strength",
+    "cdr",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Strength",
+    "Cooldown Reduction",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Mother"
+   ],
+   "socketArt": {
+    "Splinter of the Mother": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_mother.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Aspect of the Zealot's Covenant",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Zealot's Covenant\nPaladin\nAdditional hits from Zealot Oath deal x [100 - 120%] increased damage.\n\nYour Maximum Fervor is increased by 1 and its duration is increased by 2 seconds.\nStrength\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "critChance",
+    "damageReduction",
+    "cdr"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Strength",
+    "Critical Strike Chance",
+    "Damage Reduction",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Moni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills."
+  },
+  {
+   "name": "Thul",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Thul\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Size)\nCooldown: 1 seconds\nInvoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+  },
+  {
+   "name": "Poc",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
+  },
+  {
+   "name": "Mot",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Berú of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "tip": "Berú of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Fer of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "tip": "Fer of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Linta of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "tip": "Linta of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Berú of Iron Conviction",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
+    "set": "Cathan'S Iron Conviction",
+    "mythic": false,
+    "tip": "Berú of Iron Conviction\nCore Skills\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
+   },
+   {
+    "name": "Mlor of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "tip": "Mlor of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Fer of Iron Conviction",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
+    "set": "Cathan'S Iron Conviction",
+    "mythic": false,
+    "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Divine Lance",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/divine_lance_zealous_joust.png",
+    "tip": "Divine Lance\nRank 15\nCore\nDisciple\nMobility\nLucky Hit: 6%\nImpale enemies with a heavenly lance, stabbing 2 times for [281%] damage each.\nModifiers\nSuccessive hits on the same target with Divine Lance deal 5% more damage up to 30%.\nDivine Lance deals x15% increased damage.\nDouble this bonus against Vulnerable enemies.\nDivine Lance becomes a Zealot Skill.\nDivine Lance now stabs with 2 additional spears in a wider area, dealing [232%] damage each and has x10% increased Critical Strike Damage.\nHoly Damage"
+   },
+   {
+    "name": "Fanaticism Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fanaticism_aura.png",
+    "tip": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive."
+   },
+   {
+    "name": "Defiance Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/defiance_aura.png",
+    "tip": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage."
+   },
+   {
+    "name": "Rally",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rally.png",
+    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nCasting Rally's increases your Movement Speed by an additional +5% and grants Unhindered while active.\nRally now costs 35% of Maximum Life and can stack up to 3 times."
+   },
+   {
+    "name": "Condemn",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/condemn.png",
+    "tip": "Condemn\nRank 4\nJustice\nDisciple\nCooldown: 15 seconds\nLucky Hit: 26%\nHarness the Light and Pull enemies in after 1.5 seconds, briefly Stunning them and dealing [312%] damage.\nWhile Casting Condemn, you become Unhindered for 1.5 seconds.\nModifiers\nCondemn applies Weaken to enemies for 4 seconds.\nCondemn's size is increased by 50%.\nCondemn now has 1 additional Charge and applies Vulnerable for 4 seconds."
+   },
+   {
+    "name": "Fortress",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fortress.png",
+    "tip": "Fortress\nRank 15\nUltimate\nDefensive\nJuggernaut\nCooldown: 60 seconds\nMake your stand, becoming Immune for 3 seconds and create a defensive area around you for [9] seconds\nStanding in your Fortress grants you and your allies 2 Resolve stacks every 0.5 seconds.\nModifiers\nWhile inside of your Fortress you are Unstoppable.\nWhile inside of your Fortress you gain x4% damage per stack of Resolve.\nEnemies inside Fortress are Slowed by 50% and take 500% of your Thorns damage per second."
+   },
+   {
+    "name": "Zealot",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zealot.png",
+    "tip": "Zealot\nCasting Zealot Skills grants Fervor for 2 seconds. Critically Striking with these Skills echoes the attack for an additional 35% of the damage, repeating for each stack of Fervor.\nWhile at maximum Fervor, additionally Fortify for 1% of your Maximum Life."
+   }
+  ],
+  "prime": [
+   {
+    "name": "Siege Engine",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
+    "main": false,
+    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
+   },
+   {
+    "name": "Cold Blood",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
+    "main": false,
+    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
+   },
+   {
+    "name": "Grisly Trophies",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
+    "main": false,
+    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
+   },
+   {
+    "name": "Ice of Excidium",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
+    "main": true,
+    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
+   },
+   {
+    "name": "Seizing Frost",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
+    "main": false,
+    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
+   },
+   {
+    "name": "Shattered Flesh",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
+    "main": false,
+    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
+   },
+   {
+    "name": "Thrill of Ruin",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
+    "main": false,
+    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
+   }
+  ],
+  "soulShard": [],
+  "tree": {
+   "642,1152": 15,
+   "753,1253": 1,
+   "640,1392": 1,
+   "530,1244": 1,
+   "1215,1213": 15,
+   "1319,1085": 1,
+   "1420,1124": 1,
+   "1355,1272": 1,
+   "1346,1436": 15,
+   "1457,1325": 1,
+   "1550,1384": 1,
+   "1440,1550": 1,
+   "864,1883": 4,
+   "918,1770": 1,
+   "1069,1940": 1,
+   "957,1992": 1,
+   "735,2419": 1,
+   "633,2309": 1,
+   "530,2364": 1,
+   "642,2530": 1,
+   "736,3236": 15,
+   "865,3372": 1,
+   "792,3440": 1,
+   "604,3347": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Outmatch",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Relentless",
+   "glyph": "Feverous",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "7,4",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,16",
+    "8,17",
+    "8,18",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "10,4",
+    "10,8",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,14",
+    "13,15",
+    "14,14",
+    "14,15"
+   ]
+  },
+  {
+   "name": "Fervent",
+   "glyph": "Chip",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,15",
+    "6,11",
+    "6,14",
+    "6,15",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,5",
+    "8,6",
+    "8,8",
+    "8,12",
+    "9,5",
+    "9,8",
+    "9,11",
+    "9,12",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5",
+    "10,8",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,12",
+    "13,11",
+    "13,12"
+   ]
+  },
+  {
+   "name": "Shield Bearer",
+   "glyph": "Sentinel",
+   "x": 1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,13",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,13",
+    "12,13",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,16",
+    "14,17",
+    "14,18",
+    "15,18",
+    "16,18",
+    "17,17",
+    "17,18",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Castle",
+   "glyph": "Spirit",
+   "x": -1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "5,19",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,13",
+    "7,19",
+    "7,20",
+    "8,13",
+    "8,20",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,5",
+    "16,6",
+    "17,4",
+    "17,5",
+    "18,4",
+    "19,3",
+    "19,4",
+    "20,3"
+   ]
+  }
+ ]
+}
