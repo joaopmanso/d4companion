@@ -295,3 +295,65 @@ TAZ 10 + cnney Frm #ho AAasvisvod Dhl thot`;
   assert.deepEqual(item.sockets, ["×24% Fire and Holy Damage Multiplier"]);
   assert.match(item.power, /^Blazing Scream is now an Archfiend Skill/);
 });
+
+test("a real runeword screenshot: title read after the type line, compare block ignored", () => {
+  // Tesseract's text for Enigma with an equipped chest to compare against: the title comes after Item Power,
+  // its tracked M reads as "ITI", and "Properties lost when equipped" lists the other item's stats.
+  const text = `Ancestral Unique Chest
+Armor
+
+900 Item Power
+
+ENIGITIA %* A
+% yan
+Wr,
+
+JahIthBer
+2,805 Armor (-10% Toughness)
+* +1,531 Armor (+1,531)
+
+o 40.0% Maximum Life [40.0]% (
++40.0%)
+
+o +45% Movement Speed [45]% (+14%)
+%* 15.0% Damage Reduction (-3.8%)
+o +2 to All Skills [2] (+2)                              |
+
++ Your Evade is now Sorcerer's Teleport
+and costs 33 Primary Resource.
+
+APN
+hd
+
+- Properties lost when equipped:
+o 18.8% Resource Generation
+o 31.3% Impairment Reduction
+o +31.3% Attack Speed
+o +6,100 Maximum Life
+Socket (2)
+
+Requires Level 70
+
+Unique Equipped
+Lord of Hatred Item 1¥
+
+@ Seasonal Item
+
+#* Scroll Down`;
+  const item = parseTooltip(text, "Sorcerer", buildVocab(json("class-sorcerer.json"), items));
+  assert.equal(item.name, "Enigma");
+  assert.equal(item.rarity, "unique");
+  assert.equal(item.ancestral, true);
+  assert.equal(item.type, "Chest Armor");
+  assert.equal(item.slot, "chest");
+  assert.equal(item.itemPower, 900);
+  assert.deepEqual(item.affixes.map((a) => [a.text, a.key]), [
+    ["+1,531 Armor", "armor"],
+    ["40.0% Maximum Life", "life"],
+    ["+45% Movement Speed", "movementSpeed"],
+    ["15.0% Damage Reduction", "damageReduction"],
+    ["+2 to All Skills", "ranksAll"],
+  ]);
+  assert.deepEqual(item.sockets, []);
+  assert.equal(item.power, "Your Evade is now Sorcerer's Teleport and costs 33 Primary Resource.");
+});

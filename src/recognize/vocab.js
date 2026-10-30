@@ -44,10 +44,13 @@ export const NOISE_PHRASES = [
   "Requires Level", "Sell Value", "Durability", "Account Bound", "Not Yet Discovered", "Unequipped",
   "Properties lost when equipped", "Right-click to equip", "Shift", "Tempers", "Empty Socket", "Masterwork",
   "Item Power", "Socket", "Enchanted", "Imprinted", "Scroll to compare", "Mark as Junk", "Mark as Favorite",
-  "Equipped", "Gold", "Scroll Down", "Link", "Unequip",
+  "Equipped", "Gold", "Scroll Down", "Link", "Unequip", "Unique Equipped", "Seasonal Item", "Lord of Hatred Item",
 ];
 
-const statLike = (l) => l.length > 2 && l.length < 48 && !/\d|[,:.;]|\[/.test(l) && !/^(unique|mythic|legendary|codex)\b/i.test(l);
+// A runeword's rune list, printed as one word under the item power: "JahIthBer".
+export const RUNE_LIST_RE = /^[A-Z][a-z]+(?:[A-Z][a-z]+)+$/;
+
+const statLike = (l) => l.length > 2 && l.length < 48 && !/\d|[,:.;]|\[/.test(l) && !/^(unique|mythic|legendary|codex)\b/i.test(l) && !RUNE_LIST_RE.test(l);
 
 // What an item tip from the class catalog tells us: its affix names and its power text.
 function tipParts(tip) {

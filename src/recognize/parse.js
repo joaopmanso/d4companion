@@ -6,7 +6,7 @@
 import { matchAffix } from "../data/affixes.js";
 import { slotFromType } from "../data/slots.js";
 import { closest, nameIn, norm, similarity, wordOverlap } from "./fuzzy.js";
-import { BASE_VOCAB, RARITIES, NOISE_PHRASES } from "./vocab.js";
+import { BASE_VOCAB, RARITIES, NOISE_PHRASES, RUNE_LIST_RE } from "./vocab.js";
 
 const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|mythic|unique|legendary|rare|magic|common|set)\s+([a-z0-9][a-z0-9\s-]{1,30})$/i;
 // "800 Item Power", and the misreads "8OO ltem Power", "800 Item P0wer".
@@ -76,14 +76,14 @@ function snapStat(stat, vocab, trim = true) {
 }
 
 const isNoise = (l) => {
-  const head = norm(l).split(" ").slice(0, 3).join(" ");
+  const words = norm(l).split(" ");
   return NOISE_PHRASES.some((p) => {
     const n = norm(p);
+    const head = words.slice(0, Math.max(3, n.split(" ").length)).join(" ");
     return head.startsWith(n) || similarity(head.slice(0, n.length + 1), n) >= 0.8;
   }) || /^\d+\s*\/\s*\d+$/.test(l);
 };
 
-// The "Ancestral Legendary Boots" line: exact, or the closest rarity + type pair.
 // The "Ancestral Legendary Boots" line: exact, or the closest rarity + type pair. It can wrap onto two lines
 // ("Ancestral Mythic Unique" / "Amulet"), so each line is also tried joined with the next. `end` is its last line.
 function findRarityLine(lines, vocab) {
@@ -95,6 +95,9 @@ function findRarityLine(lines, vocab) {
     if (m && (split === undefined || m.index < split) && (closest(m[3], vocab.types, 0.75) || slotFromType(m[3]))) {
       const words = norm(text.slice(0, m.index)).split(" ");
       const mythic = /^unique$/i.test(m[2]) && similarity(words[words.length - 1], "mythic") >= 0.6;
+      // "Ancestral Unique Chest" / "Armor": "Chest" alone names a slot, but the type goes on onto the next line.
+      const wrapped = split === undefined && lines[i + 1] && !closest(m[3], vocab.types, 0.75) && closest(`${m[3]} ${lines[i + 1]}`, vocab.types, 0.85);
+      if (wrapped) return { i, end: i + 1, ancestral: !!m[1] || words.some((w) => similarity(w, "ancestral") >= 0.7), rarity: mythic ? "mythic unique" : m[2], type: wrapped.value };
       return { i, end, ancestral: !!m[1] || words.some((w) => similarity(w, "ancestral") >= 0.7), rarity: mythic ? "mythic unique" : m[2], type: closest(m[3], vocab.types, 0.75)?.value || m[3].trim() };
     }
   }
@@ -135,7 +138,9 @@ function identify(nameLines, vocab, typed) {
   ];
   // Every run of name lines, each also without short junk words at its end ("BEATING FLAME mw").
   const texts = [];
-  const lines = nameLines.filter((l) => l.replace(/[^A-Za-z]/g, "").length >= 3); // drop specks like "J"
+  // Tracked capitals split an M into strokes: "ENIGITIA" is "ENIGMA".
+  const lines = nameLines.filter((l) => l.replace(/[^A-Za-z]/g, "").length >= 3) // drop specks like "J"
+    .flatMap((l) => (/ITI|IVI/.test(l) ? [l, l.replace(/ITI|IVI/g, "M")] : [l]));
   for (let a = 0; a < lines.length; a++) {
     for (let b = a + 1; b <= lines.length; b++) {
       const words = lines.slice(a, b).join(" ").split(" ").filter(Boolean);
@@ -196,7 +201,17 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
   }
   // Legendary, rare and magic names are random, so only uniques, mythics, charms and seals are looked up.
   const fixedName = !r || !/^(legendary|rare|magic|common)$/i.test(r.rarity) || item.talisman;
-  const id = fixedName ? identify(nameLines, vocab, r && item) : null;
+  let id = fixedName ? identify(nameLines, vocab, r && item) : null;
+  // Tesseract sometimes reads the big title after the type and Item Power lines ("Ancestral Unique Chest" /
+  // "Armor" / "900 Item Power" / "ENIGITIA %* A"), so the lines between them and the first stat are tried too.
+  let bodyStart = r ? r.end + 1 : powerAt >= 0 ? powerAt + 1 : top;
+  if (fixedName && !id) {
+    const from = Math.max(bodyStart, powerAt + 1);
+    const below = [];
+    for (let i = from; i < lines.length && i < from + 4 && !splitStat(lines[i]).value && !isNoise(lines[i]); i++) below.push(lines[i]);
+    id = identify(below.map((l) => l.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, "")), vocab, r && item);
+    if (id) bodyStart = from + below.length;
+  }
   let known = null, charm = null;
   if (id?.what === "item") {
     known = id;
@@ -217,8 +232,6 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
   } else {
     item.name = titleCase(nameLines.join(" ") || lines[0] || "");
   }
-  const bodyStart = r ? r.end + 1 : powerAt >= 0 ? powerAt + 1 : top;
-
   const ip = lines.find((l) => POWER_RE.test(l));
   if (ip) item.itemPower = Number(ip.match(POWER_RE)[1].replace(/[OoIl|]/g, (c) => DIGIT_FIX[c]));
 
@@ -232,6 +245,9 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
   const body = lines.slice(bodyStart);
   for (let li = 0; li < body.length; li++) {
     const l = body[li];
+    // The compare block lists the equipped item's stats, not this one's; nothing after it belongs to this item.
+    if (/^properties lost/.test(norm(l))) break;
+    if (RUNE_LIST_RE.test(l)) continue;
     if (POWER_RE.test(l) || isNoise(l) || /^\(?\d\)?\s*set\b/i.test(l)) { last = null; continue; }
     // "Lucky Hit: Up to a 40% Chance to / Deal +800 Shadow Damage [550 - / 1,000]" is one affix over several lines.
     const lucky = l.replace(/^[^A-Za-z]*\S?\s+(?=lucky)/i, "").match(/^lucky\s*hit\s*[:;]\s*(.+)$/i);
