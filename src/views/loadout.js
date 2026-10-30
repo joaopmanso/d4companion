@@ -112,11 +112,11 @@ function renderGearStats(root, char, build) {
   box.innerHTML = `<h3>Gear stats</h3>
     ${trying ? `<p class="note trying-note">Including what you're trying on: ${esc(Object.entries(trials).map(([s, it]) => `${it.name} (${SLOT[s].name})`).join(", "))}.</p>` : ""}
     <div class="fit-grid">${bar(fit.items, "Guide items")}${bar(fit.affixes, "Guide affixes")}${bar(fit.tempers, "Guide tempers")}${bar(fit.sockets, "Guide sockets")}</div>
-    ${now.length ? now.map((g) => `<div class="gs-group"><span class="label">${esc(g.name)}</span><dl>${g.rows.map((r) => {
+    ${now.length ? `<div class="gs-groups">` + now.map((g) => `<div class="gs-group"><span class="label">${esc(g.name)}</span><dl>${g.rows.map((r) => {
       const was = base?.get(r.key);
       const diff = trying && r.numeric ? r.value - (was?.value || 0) : 0;
       return `<div><dt>${esc(r.label)}</dt><dd>${esc(fmtStat(r))}${diff ? ` <span class="delta ${diff > 0 ? "up" : "down"}">${diff > 0 ? "+" : ""}${Number(diff.toFixed(1)).toLocaleString()}</span>` : ""}</dd></div>`;
-    }).join("")}</dl></div>`).join("") : `<p class="note">Nothing entered yet. Add items to see their stats here.</p>`}
+    }).join("")}</dl></div>`).join("") + `</div>` : `<p class="note">Nothing entered yet. Add items to see their stats here.</p>`}
     <p class="note">Totals of the affixes, tempers and base stats on your gear. "×" multipliers are summed as a rough guide; the in-game sheet is exact.</p>`;
 }
 
