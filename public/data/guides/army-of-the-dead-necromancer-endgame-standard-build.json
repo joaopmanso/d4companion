@@ -351,7 +351,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "Critical Strike Damage",
+   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\n+1 Charm Slot\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -359,6 +360,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
+    "affix": "Critical Strike Damage",
     "tip": "Fer of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
@@ -366,6 +368,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
+    "affix": "Critical Strike Damage",
     "tip": "Phoba of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
@@ -373,6 +376,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
+    "affix": "Critical Strike Damage",
     "tip": "Linta of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
@@ -380,6 +384,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
+    "affix": "Critical Strike Damage",
     "tip": "Berú of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
@@ -387,6 +392,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
+    "affix": "Critical Strike Damage",
     "tip": "Mlor of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
@@ -395,7 +401,8 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
+    "affix": "Critical Strike Damage",
+    "tip": "Red Blessing\nCritical Strike Damage\nAll Stats\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
    }
   ]
  },

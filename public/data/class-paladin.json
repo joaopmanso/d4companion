@@ -18247,7 +18247,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
    },
    "Linta of Light's Epiphany": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
@@ -18296,7 +18296,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth"
+    "tip": "Griswold's Opus\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
    },
    "Berú of Radiant Fire": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
@@ -18345,7 +18345,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nDefiance Aura Potency\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+    "tip": "Fists of Fate\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    "Phoba of Dauntless Faith": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",

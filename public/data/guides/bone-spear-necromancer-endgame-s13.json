@@ -330,14 +330,16 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
-    "tip": "Berú of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+    "affix": "",
+    "tip": "Berú of the Blood Binder\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
     "name": "Fer of the Blood Binder",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
-    "tip": "Fer of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+    "affix": "",
+    "tip": "Fer of the Blood Binder\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
     "name": "Red Blessing",
@@ -345,6 +347,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
    },
    {
@@ -352,21 +355,24 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
-    "tip": "Linta of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+    "affix": "",
+    "tip": "Linta of the Blood Binder\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
     "name": "Phoba of the Blood Binder",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
-    "tip": "Phoba of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+    "affix": "",
+    "tip": "Phoba of the Blood Binder\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
     "name": "Mlor of the Blood Binder",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
-    "tip": "Mlor of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
+    "affix": "",
+    "tip": "Mlor of the Blood Binder\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    }
   ]
  },

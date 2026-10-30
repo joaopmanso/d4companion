@@ -382,6 +382,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -390,6 +391,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Fer of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -397,13 +399,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cathan's Righteous Will"
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Light's Epiphany"
    },
    {
     "name": "Berú of Light's Epiphany",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Berú of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -412,13 +416,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+    "affix": "",
+    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
    },
    {
     "name": "Linta of Light's Epiphany",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Linta of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -426,6 +432,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Phoba of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    }
   ]

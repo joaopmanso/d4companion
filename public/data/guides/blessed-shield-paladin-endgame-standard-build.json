@@ -347,6 +347,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -355,6 +356,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
     "set": "Cathan'S Righteous Will",
     "mythic": false,
+    "affix": "Juggernaut Skills",
     "tip": "Linta of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
    },
    {
@@ -362,6 +364,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
+    "affix": "20% All Stats",
     "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cathan's Righteous Will"
    },
    {
@@ -369,6 +372,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
     "set": "Cathan'S Righteous Will",
     "mythic": false,
+    "affix": "Juggernaut Skills",
     "tip": "Fer of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
    },
    {
@@ -377,6 +381,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Razorplate\nThorns has a 30% chance to deal x [200 - 250%] increased damage."
    },
    {
@@ -384,6 +389,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
     "set": "Cathan'S Righteous Will",
     "mythic": false,
+    "affix": "Juggernaut Skills",
     "tip": "Mlor of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
    },
    {
@@ -392,6 +398,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "The Furnace\nYou deal x [75 - 100%] more damage to Elites."
    }
   ]

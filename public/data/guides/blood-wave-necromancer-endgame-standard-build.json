@@ -352,6 +352,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -360,6 +361,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
+    "affix": "Blood Skills",
     "tip": "Fer of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
@@ -367,6 +369,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
+    "affix": "Blood Skills",
     "tip": "Linta of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
@@ -375,6 +378,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "Blood Skills",
     "tip": "Blood-Mad Idol\nBlood Skills\nLucky Hit: Chance to Freeze\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
    },
    {
@@ -382,6 +386,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
     "set": "Word of the Blood Binder",
     "mythic": false,
+    "affix": "Blood Skills",
     "tip": "Phoba of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage."
    },
    {
@@ -389,6 +394,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
+    "affix": "Lucky Hit: Chance to Freeze",
     "tip": "Hellfire Torch\nLucky Hit: Chance to Freeze\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Word of the Blood Binder"
    },
    {
@@ -397,6 +403,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
    }
   ]

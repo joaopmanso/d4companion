@@ -369,6 +369,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -377,6 +378,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
     "set": "Cathan'S Dauntless Faith",
     "mythic": false,
+    "affix": "Core Skills",
     "tip": "Berú of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
    },
    {
@@ -384,6 +386,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
     "set": "Cathan'S Dauntless Faith",
     "mythic": false,
+    "affix": "Core Skills",
     "tip": "Fer of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
    },
    {
@@ -391,6 +394,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
     "set": "Cathan'S Dauntless Faith",
     "mythic": false,
+    "affix": "Core Skills",
     "tip": "Linta of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
    },
    {
@@ -398,6 +402,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
+    "affix": "Core Skills",
     "tip": "Berú of Iron Conviction\nCore Skills\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    {
@@ -405,6 +410,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
     "set": "Cathan'S Dauntless Faith",
     "mythic": false,
+    "affix": "Core Skills",
     "tip": "Mlor of Dauntless Faith\nCore Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
    },
    {
@@ -412,6 +418,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
+    "affix": "Cathan's Iron Conviction",
     "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    }
   ]

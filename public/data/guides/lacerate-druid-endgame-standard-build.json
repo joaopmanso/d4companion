@@ -385,7 +385,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nDamage to Crowd Controlled Enemies\nEnemies are Petrified for longer\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -393,34 +394,39 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Berú of the Old Mountain\nStorm Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Werewolf Skills",
+    "tip": "Berú of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Fer of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Fer of the Old Mountain\nStorm Skills\nPoison Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Werewolf Skills",
+    "tip": "Fer of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Berú of the Red Wolf Moon",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
-    "tip": "Berú of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
+    "affix": "",
+    "tip": "Berú of the Red Wolf Moon\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
     "name": "Linta of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Linta of the Old Mountain\nStorm Skills\nPhysical Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Werewolf Skills",
+    "tip": "Linta of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Phoba of the Red Wolf Moon",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Phoba of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
@@ -428,7 +434,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Mlor of the Old Mountain\nStorm Skills\nCold Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Werewolf Skills",
+    "tip": "Mlor of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    }
   ]
  },

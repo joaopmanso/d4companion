@@ -414,6 +414,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -422,27 +423,31 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
-    "tip": "Berú of the Sightless\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "affix": "Trap Skills",
+    "tip": "Berú of the Sightless\nTrap Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
     "name": "Phoba of the Sightless",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
-    "tip": "Phoba of the Sightless\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "affix": "Trap Skills",
+    "tip": "Phoba of the Sightless\nTrap Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
     "name": "Fer of the Sightless",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
-    "tip": "Fer of the Sightless\nLucky Hit: Chance to Deal Fire Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "affix": "Trap Skills",
+    "tip": "Fer of the Sightless\nTrap Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
     "name": "Berú of Applied Alchemy",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/applied_alchemy.png",
     "set": "Applied Alchemy",
     "mythic": false,
+    "affix": "",
     "tip": "Berú of Applied Alchemy\nApplied Alchemy\nPhoba of Applied Alchemy\nFer of Applied Alchemy\nMlor of Applied Alchemy\nLinta of Applied Alchemy\nBerú of Applied Alchemy\nApplied Alchemy\n(2) Set: Your Grenade and Trap Skills deal x60% increased damage. Casting a Grenade or Trap Skill reduces the active Cooldown of your Grenade and Trap Skills by 1 second.\n(3) Set: Gain 5% Damage Reduction for every Grenade or Trap Skill Casted within the last 12 seconds, up to 5%.\n(5) Set: Casting a Grenade or Trap Skill triggers a cluster of exploding Stun Grenades that deal [X] total Physical damage and Stun enemies for 1 second. Enemies hit by Stun Grenades take x250% increased damage from your Grenade and Trap Skills for 6 seconds."
    },
    {
@@ -450,13 +455,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
-    "tip": "Linta of the Sightless\nLucky Hit: Chance to Deal Lightning Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "affix": "Trap Skills",
+    "tip": "Linta of the Sightless\nTrap Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
     "name": "Fer of Applied Alchemy",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/applied_alchemy.png",
     "set": "Applied Alchemy",
     "mythic": false,
+    "affix": "Trap Skills",
     "tip": "Fer of Applied Alchemy\nTrap Skills\nApplied Alchemy\nPhoba of Applied Alchemy\nFer of Applied Alchemy\nMlor of Applied Alchemy\nLinta of Applied Alchemy\nBerú of Applied Alchemy\nApplied Alchemy\n(2) Set: Your Grenade and Trap Skills deal x60% increased damage. Casting a Grenade or Trap Skill reduces the active Cooldown of your Grenade and Trap Skills by 1 second.\n(3) Set: Gain 5% Damage Reduction for every Grenade or Trap Skill Casted within the last 12 seconds, up to 5%.\n(5) Set: Casting a Grenade or Trap Skill triggers a cluster of exploding Stun Grenades that deal [X] total Physical damage and Stun enemies for 1 second. Enemies hit by Stun Grenades take x250% increased damage from your Grenade and Trap Skills for 6 seconds."
    }
   ]

@@ -464,7 +464,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -472,6 +473,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bul-kathos'_pride.png",
     "set": "Bul-Kathos' Pride",
     "mythic": false,
+    "affix": "Combat Skills",
     "tip": "Berú of Bul-Kathos' Pride\nCombat Skills\nBul-Kathos' Pride\nPhoba of Bul-Kathos' Pride\nFer of Bul-Kathos' Pride\nMlor of Bul-Kathos' Pride\nLinta of Bul-Kathos' Pride\nBerú of Bul-Kathos' Pride\nBul-Kathos' Pride\n(2) Set: Ancient Skills cost 50% reduced Fury, gain 50% increased Cooldown Reduction, and deal x50% increased damage.\n(3) Set: Summoning an Ancient grants 5% Damage Reduction for 10 seconds, up to 30%.\n(5) Set: When Summoning an Ancient, Summon 1 additional Ancient. Ancient Skills deal x200% increased damage."
    },
    {
@@ -479,6 +481,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bul-kathos'_pride.png",
     "set": "Bul-Kathos' Pride",
     "mythic": false,
+    "affix": "Combat Skills",
     "tip": "Fer of Bul-Kathos' Pride\nCombat Skills\nBul-Kathos' Pride\nPhoba of Bul-Kathos' Pride\nFer of Bul-Kathos' Pride\nMlor of Bul-Kathos' Pride\nLinta of Bul-Kathos' Pride\nBerú of Bul-Kathos' Pride\nBul-Kathos' Pride\n(2) Set: Ancient Skills cost 50% reduced Fury, gain 50% increased Cooldown Reduction, and deal x50% increased damage.\n(3) Set: Summoning an Ancient grants 5% Damage Reduction for 10 seconds, up to 30%.\n(5) Set: When Summoning an Ancient, Summon 1 additional Ancient. Ancient Skills deal x200% increased damage."
    },
    {
@@ -487,13 +490,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Endurant Faith\nMaximum Resource\nWhen you would be damaged for at least 30% of your Maximum Life at once, it is instead distributed over the next 4 seconds and reduced by [15 - 20%]."
+    "affix": "Combat Skills",
+    "tip": "Endurant Faith\nCombat Skills\nWhen you would be damaged for at least 30% of your Maximum Life at once, it is instead distributed over the next 4 seconds and reduced by [15 - 20%]."
    },
    {
     "name": "Mlor of Bul-Kathos' Pride",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bul-kathos'_pride.png",
     "set": "Bul-Kathos' Pride",
     "mythic": false,
+    "affix": "Combat Skills",
     "tip": "Mlor of Bul-Kathos' Pride\nCombat Skills\nBul-Kathos' Pride\nPhoba of Bul-Kathos' Pride\nFer of Bul-Kathos' Pride\nMlor of Bul-Kathos' Pride\nLinta of Bul-Kathos' Pride\nBerú of Bul-Kathos' Pride\nBul-Kathos' Pride\n(2) Set: Ancient Skills cost 50% reduced Fury, gain 50% increased Cooldown Reduction, and deal x50% increased damage.\n(3) Set: Summoning an Ancient grants 5% Damage Reduction for 10 seconds, up to 30%.\n(5) Set: When Summoning an Ancient, Summon 1 additional Ancient. Ancient Skills deal x200% increased damage."
    },
    {
@@ -502,14 +507,16 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nMythic Unique Gloves\nPrimary Core Stat\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nDamage Over Time\nYour attacks randomly deal 1% to [390%] of their normal damage.\nDropped By:\nAll Bosses"
+    "affix": "",
+    "tip": "Fists of Fate\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    {
     "name": "Hellfire Torch",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Berserker's Crucible"
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Bul-Kathos' Pride"
    }
   ]
  },

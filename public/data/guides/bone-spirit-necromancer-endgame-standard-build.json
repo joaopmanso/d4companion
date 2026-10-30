@@ -384,6 +384,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -392,42 +393,48 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
     "set": "Radament'S Desecration",
     "mythic": false,
-    "tip": "Berú of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+    "affix": "All Stats",
+    "tip": "Berú of Desecration\nAll Stats\nDarkness Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
    },
    {
     "name": "Fer of Desecration",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
     "set": "Radament'S Desecration",
     "mythic": false,
-    "tip": "Fer of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+    "affix": "All Stats",
+    "tip": "Fer of Desecration\nAll Stats\nDarkness Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
    },
    {
     "name": "Linta of Desecration",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
     "set": "Radament'S Desecration",
     "mythic": false,
-    "tip": "Linta of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+    "affix": "All Stats",
+    "tip": "Linta of Desecration\nAll Stats\nDarkness Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
    },
    {
     "name": "Linta of the Black Shroud",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
-    "tip": "Linta of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
+    "affix": "All Stats",
+    "tip": "Linta of the Black Shroud\nAll Stats\nDarkness Skills\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    {
     "name": "Mlor of Desecration",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/radament's_desecration.png",
     "set": "Radament'S Desecration",
     "mythic": false,
-    "tip": "Mlor of Desecration\nMacabre Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
+    "affix": "All Stats",
+    "tip": "Mlor of Desecration\nAll Stats\nDarkness Skills\nRadament's Desecration\nPhoba of Desecration\nFer of Desecration\nMlor of Desecration\nLinta of Desecration\nBerú of Desecration\nRadament's Desecration\n(2) Set: Forming or consuming a Corpse reduces the Essence costs and Cooldowns of your Profane and Macabre Skills by 25% and increases their damage by x50% for 6 seconds. Your Ultimate Skills form 10 Corpses over their duration.\n(3) Set: When you form or consume a Corpse you gain 15% Damage Reduction for 6 seconds. Enemies Close to your Corpses will be afflicted with Decrepify and Iron Maiden.\n(5) Set: Your Profane and Macabre Skills deal x250% increased damage. Your Ultimate Skills are also Profane or Macabre Skills."
    },
    {
     "name": "Mlor of the Black Shroud",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
-    "tip": "Mlor of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
+    "affix": "All Stats",
+    "tip": "Mlor of the Black Shroud\nAll Stats\nDarkness Skills\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    }
   ]
  },

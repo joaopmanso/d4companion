@@ -362,6 +362,7 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "affix": "+1 Charm Slot",
    "tip": "Legendary Seal\n+1 Charm Slot"
   },
   "charms": [
@@ -371,6 +372,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
    },
    {
@@ -378,6 +380,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
     "set": "Habacalva'S Cauldron",
     "mythic": false,
+    "affix": "Pyromancy Skills",
     "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    },
    {
@@ -385,6 +388,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
     "set": "Habacalva'S Cauldron",
     "mythic": false,
+    "affix": "Pyromancy Skills",
     "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    },
    {
@@ -392,6 +396,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
     "set": "Habacalva'S Cauldron",
     "mythic": false,
+    "affix": "Pyromancy Skills",
     "tip": "Mlor of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    },
    {
@@ -399,6 +404,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
     "set": "Habacalva'S Cauldron",
     "mythic": false,
+    "affix": "Pyromancy Skills",
     "tip": "Linta of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    },
    {
@@ -406,6 +412,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
     "set": "Habacalva'S Cauldron",
     "mythic": false,
+    "affix": "Pyromancy Skills",
     "tip": "Phoba of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    }
   ]

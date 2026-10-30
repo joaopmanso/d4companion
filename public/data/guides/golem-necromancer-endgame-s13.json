@@ -326,6 +326,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
+    "affix": "",
     "tip": "Berú of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    {
@@ -333,6 +334,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
+    "affix": "",
     "tip": "Fer of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    {
@@ -341,6 +343,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower."
    },
    {
@@ -348,6 +351,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
+    "affix": "",
     "tip": "Linta of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    {
@@ -355,6 +359,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
+    "affix": "",
     "tip": "Phoba of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    {
@@ -362,6 +367,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
     "set": "Peace of the Black Shroud",
     "mythic": false,
+    "affix": "",
     "tip": "Mlor of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    }
   ]

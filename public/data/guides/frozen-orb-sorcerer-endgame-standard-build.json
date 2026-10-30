@@ -375,6 +375,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Azurewrath\nAfter Freeze expires, enemies take [120 - 150%] of the damage you dealt to them while Frozen."
    },
    {
@@ -382,6 +383,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
     "set": "Breath of the Frozen Sea",
     "mythic": false,
+    "affix": "Frost Skills",
     "tip": "Fer of the Frozen Sea\nFrost Skills\nBreath of the Frozen Sea\nPhoba of the Frozen Sea\nFer of the Frozen Sea\nMlor of the Frozen Sea\nLinta of the Frozen Sea\nBerú of the Frozen Sea\nBreath of the Frozen Sea\n(2) Set: Frost Skills deal 70% of their direct damage as bonus Frostbite over 12 seconds.\n(3) Set: You cannot be Chilled or Frozen. Your Maximum Life and Barrier generation is increased by x30%.\n(5) Set: Frost Skill damage is increased by x200%. Freezing enemies or when enemies become Unstoppable consumes all Frostbite on them, dealing its remaining damage instantly. Mana Cost of Frost skills reduced by 30%."
    },
    {
@@ -389,6 +391,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
     "set": "Breath of the Frozen Sea",
     "mythic": false,
+    "affix": "Frost Skills",
     "tip": "Berú of the Frozen Sea\nFrost Skills\nBreath of the Frozen Sea\nPhoba of the Frozen Sea\nFer of the Frozen Sea\nMlor of the Frozen Sea\nLinta of the Frozen Sea\nBerú of the Frozen Sea\nBreath of the Frozen Sea\n(2) Set: Frost Skills deal 70% of their direct damage as bonus Frostbite over 12 seconds.\n(3) Set: You cannot be Chilled or Frozen. Your Maximum Life and Barrier generation is increased by x30%.\n(5) Set: Frost Skill damage is increased by x200%. Freezing enemies or when enemies become Unstoppable consumes all Frostbite on them, dealing its remaining damage instantly. Mana Cost of Frost skills reduced by 30%."
    },
    {
@@ -396,6 +399,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
     "set": "Breath of the Frozen Sea",
     "mythic": false,
+    "affix": "Frost Skills",
     "tip": "Linta of the Frozen Sea\nFrost Skills\nBreath of the Frozen Sea\nPhoba of the Frozen Sea\nFer of the Frozen Sea\nMlor of the Frozen Sea\nLinta of the Frozen Sea\nBerú of the Frozen Sea\nBreath of the Frozen Sea\n(2) Set: Frost Skills deal 70% of their direct damage as bonus Frostbite over 12 seconds.\n(3) Set: You cannot be Chilled or Frozen. Your Maximum Life and Barrier generation is increased by x30%.\n(5) Set: Frost Skill damage is increased by x200%. Freezing enemies or when enemies become Unstoppable consumes all Frostbite on them, dealing its remaining damage instantly. Mana Cost of Frost skills reduced by 30%."
    },
    {
@@ -403,6 +407,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
     "set": "Breath of the Frozen Sea",
     "mythic": false,
+    "affix": "Frost Skills",
     "tip": "Mlor of the Frozen Sea\nFrost Skills\nBreath of the Frozen Sea\nPhoba of the Frozen Sea\nFer of the Frozen Sea\nMlor of the Frozen Sea\nLinta of the Frozen Sea\nBerú of the Frozen Sea\nBreath of the Frozen Sea\n(2) Set: Frost Skills deal 70% of their direct damage as bonus Frostbite over 12 seconds.\n(3) Set: You cannot be Chilled or Frozen. Your Maximum Life and Barrier generation is increased by x30%.\n(5) Set: Frost Skill damage is increased by x200%. Freezing enemies or when enemies become Unstoppable consumes all Frostbite on them, dealing its remaining damage instantly. Mana Cost of Frost skills reduced by 30%."
    },
    {
@@ -410,6 +415,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
     "set": "Breath of the Frozen Sea",
     "mythic": false,
+    "affix": "Frost Skills",
     "tip": "Phoba of the Frozen Sea\nFrost Skills\nBreath of the Frozen Sea\nPhoba of the Frozen Sea\nFer of the Frozen Sea\nMlor of the Frozen Sea\nLinta of the Frozen Sea\nBerú of the Frozen Sea\nBreath of the Frozen Sea\n(2) Set: Frost Skills deal 70% of their direct damage as bonus Frostbite over 12 seconds.\n(3) Set: You cannot be Chilled or Frozen. Your Maximum Life and Barrier generation is increased by x30%.\n(5) Set: Frost Skill damage is increased by x200%. Freezing enemies or when enemies become Unstoppable consumes all Frostbite on them, dealing its remaining damage instantly. Mana Cost of Frost skills reduced by 30%."
    }
   ]

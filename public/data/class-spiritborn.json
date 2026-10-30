@@ -14879,7 +14879,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Rod of Kepeleke\nMythic Unique Quarterstaff\nWeapon Damage\nRanks to Core Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nYour Core Skills are now additionally Basic Skills and free to cast.\n\nWhen cast at Maximum Vigor, your Core Skills Consume all Vigor to cast at their largest Size, and become guaranteed Critical Strikes, with x [1.56%] increased Critical Strike Damage for each point of Vigor spent this way.\nSpiritborn\nDropped By:\nAstaroth"
+    "tip": "Rod of Kepeleke\nYour Core Skills are now additionally Basic Skills and free to cast.\n\nWhen cast at Maximum Vigor, your Core Skills Consume all Vigor to cast at their largest Size, and become guaranteed Critical Strikes, with x [0.43 - 0.53%] increased Critical Strike Damage for each point of Vigor spent this way."
    },
    "Fer of Rezoka's Rage": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
@@ -14956,7 +14956,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Sunstained War-Crozier\nMythic Unique Quarterstaff\nWeapon Damage\nRanks to Potency Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nYour base Focus Skills benefit from all their Upgrades, and they increase the damage of your Potency Skills by x [91%] for 8 seconds, up to [455%].\nSpiritborn\nDropped By:\nGrigoire"
+    "tip": "Sunstained War-Crozier\nYour base Focus Skills benefit from all their Upgrades, and they increase the damage of your Potency Skills by x [20 - 25%] for 8 seconds, up to [100 - 125%]."
    }
   },
   "seals": {

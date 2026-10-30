@@ -18364,7 +18364,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+    "tip": "Scoundrel's Kiss\nMaximum Resource\nGain 1 Ferocity every 2 seconds as long as no enemies are Close to you.\n\nYour Marksman Skills deal x [19.5%] increased damage per stack of Ferocity."
    },
    "Endurant Faith": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
@@ -18392,7 +18392,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Sea Lord's Fine Gloves\nUnique Gloves\nDexterity\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nTraps Arm Faster\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage\nRogue\nDropped By:\nDuriel"
+    "tip": "Sea Lord's Fine Gloves\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage"
    },
    "Berú of Spellbound Steel": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
@@ -18434,7 +18434,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+    "tip": "Tibault's Will\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after."
    },
    "Berú of the Narrow Eye": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
@@ -18469,7 +18469,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Etna's Lost Dagger\nUnique 1h Dagger\nDexterity\nRanks to Imbuements Skills\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable.\nRogue\nDropped By:\nHarbinger of Hatred"
+    "tip": "Etna's Lost Dagger\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable."
    },
    "Fer of the Narrow Eye": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nilfur's_narrow_eye.png",
@@ -18483,14 +18483,14 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+    "tip": "Saboteur's Signet\nYour Grenades gain +50% increased Size and deal x [75 - 90%] increased damage.\n\nEnemies damaged by Grenade Skills become either Vulnerable or Weakened for 4 seconds."
    },
    "Gladiator's Triumph": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Gladiator's Triumph\nUnique Gloves\nDexterity\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower.\nRogue\nDropped By:\nAstaroth"
+    "tip": "Gladiator's Triumph\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower."
    }
   },
   "seals": {

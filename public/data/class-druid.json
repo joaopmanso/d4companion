@@ -19132,7 +19132,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+    "tip": "Might of the Ursine\nGain x [2 - 4%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form."
    },
    "Hellfire Torch": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
@@ -19146,7 +19146,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nUnique Gloves\nPrimary Core Stat\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nCrowd Control Duration\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage.\nDropped By:\nAll Bosses"
+    "tip": "Fists of Fate\nLightning Resistance\nWerewolf Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    "Blood-Mad Idol": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -19230,7 +19230,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+    "tip": "Fractured Runestone\nYour Earth Skills deal x [40 - 50%] bonus Critical Strike damage. This bonus is increased to x [80 - 100%] with at least 4 stacks of Overpower. You passively gain 2 stacks of Overpower every 10 seconds."
    },
    "Shard of Verathiel": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -19244,7 +19244,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Tibault's Will\nUnique Pants\nWillpower\nMaximum Life\nArmor\nSpirit Regeneration\nMaximum Resolve Stacks\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+    "tip": "Tibault's Will\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after."
    }
   },
   "seals": {

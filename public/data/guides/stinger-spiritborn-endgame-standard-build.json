@@ -315,6 +315,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -323,7 +324,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Balazan's Bite"
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Bliss of the Multitude"
    },
    {
     "name": "Sepazontec",
@@ -331,6 +333,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Sepazontec\nYour Basic Skills deal x [70 - 90%] increased damage and always use their 3rd attack.\n\nEvery 3rd cast of a Basic Skill strikes three times."
    },
    {
@@ -338,6 +341,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bliss_of_the_multitude.png",
     "set": "Bliss of the Multitude",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Fer of the Multitude\nMaximum Resource\nBliss of the Multitude\nPhoba of the Multitude\nFer of the Multitude\nMlor of the Multitude\nLinta of the Multitude\nBerú of the Multitude\nBliss of the Multitude\n(2) Set: While you have an Ultimate Skill active, your Skills gain that Ultimate's Spirit type. Your Skills deal x20% increased damage per Spirit type they have.\n(3) Set: Casting a Skill grants you 70% Resistance to its Spirit's primary damage type and gain the Passive effect of that Spirit's Incarnate Skill for 10 seconds.\n(5) Set: Casting a Skill has a 5% chance to invoke the Ultimate Spirit of that Skill's type and increase your damage from that Spirit by x50% for 10 seconds."
    },
    {
@@ -346,6 +350,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "Maximum Resource",
     "tip": "Locran's Talisman\nMaximum Resource\nCritical Strikes deal x [80 - 100%] increased damage but your Critical Strike Chance is reduced by +50%."
    },
    {
@@ -353,6 +358,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bliss_of_the_multitude.png",
     "set": "Bliss of the Multitude",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Linta of the Multitude\nMaximum Resource\nBliss of the Multitude\nPhoba of the Multitude\nFer of the Multitude\nMlor of the Multitude\nLinta of the Multitude\nBerú of the Multitude\nBliss of the Multitude\n(2) Set: While you have an Ultimate Skill active, your Skills gain that Ultimate's Spirit type. Your Skills deal x20% increased damage per Spirit type they have.\n(3) Set: Casting a Skill grants you 70% Resistance to its Spirit's primary damage type and gain the Passive effect of that Spirit's Incarnate Skill for 10 seconds.\n(5) Set: Casting a Skill has a 5% chance to invoke the Ultimate Spirit of that Skill's type and increase your damage from that Spirit by x50% for 10 seconds."
    },
    {
@@ -360,6 +366,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bliss_of_the_multitude.png",
     "set": "Bliss of the Multitude",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Mlor of the Multitude\nMaximum Resource\nBliss of the Multitude\nPhoba of the Multitude\nFer of the Multitude\nMlor of the Multitude\nLinta of the Multitude\nBerú of the Multitude\nBliss of the Multitude\n(2) Set: While you have an Ultimate Skill active, your Skills gain that Ultimate's Spirit type. Your Skills deal x20% increased damage per Spirit type they have.\n(3) Set: Casting a Skill grants you 70% Resistance to its Spirit's primary damage type and gain the Passive effect of that Spirit's Incarnate Skill for 10 seconds.\n(5) Set: Casting a Skill has a 5% chance to invoke the Ultimate Spirit of that Skill's type and increase your damage from that Spirit by x50% for 10 seconds."
    }
   ]

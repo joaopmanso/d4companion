@@ -380,6 +380,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -388,6 +389,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
     "set": "Spellbound Steel",
     "mythic": false,
+    "affix": "Imbuement Skills",
     "tip": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    {
@@ -395,6 +397,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
     "set": "Spellbound Steel",
     "mythic": false,
+    "affix": "",
     "tip": "Mlor of Spellbound Steel\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    {
@@ -402,6 +405,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
     "set": "Spellbound Steel",
     "mythic": false,
+    "affix": "Imbuement Skills",
     "tip": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    {
@@ -410,13 +414,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Sea Lord's Fine Gloves\nUnique Gloves\nDexterity\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nTraps Arm Faster\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage\nRogue\nDropped By:\nDuriel"
+    "affix": "Imbuement Skills",
+    "tip": "Sea Lord's Fine Gloves\nImbuement Skills\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage"
    },
    {
     "name": "Linta of Spellbound Steel",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
     "set": "Spellbound Steel",
     "mythic": false,
+    "affix": "Imbuement Skills",
     "tip": "Linta of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    {
@@ -424,6 +430,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
     "set": "Spellbound Steel",
     "mythic": false,
+    "affix": "Imbuement Skills",
     "tip": "Phoba of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    }
   ]

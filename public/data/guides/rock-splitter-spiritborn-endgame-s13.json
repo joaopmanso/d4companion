@@ -337,6 +337,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Protean Heart\nThe Base Spirit of a Skill cast grants:\nEagle: + [17 - 20%] Movement Speed\nGorilla: [17 - 20%] Damage Reduction\nJaguar: [17 - 20%] Attack Speed\nCentipede: [1.7 - 2%] Life per Second\n\nCasting a Skill of a different Base Spirit:\nSwaps to the new bonus\nIncreases Core Stats by +100% for 7 seconds"
    },
    {
@@ -344,35 +345,40 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
     "set": "Rezoka'S Rage",
     "mythic": false,
-    "tip": "Mlor of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "affix": "Rezoka's Rage",
+    "tip": "Mlor of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    {
     "name": "Berú of Rezoka's Rage",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
     "set": "Rezoka'S Rage",
     "mythic": false,
-    "tip": "Berú of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "affix": "Rezoka's Rage",
+    "tip": "Berú of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    {
     "name": "Phoba of Rezoka's Rage",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
     "set": "Rezoka'S Rage",
     "mythic": false,
-    "tip": "Phoba of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "affix": "Rezoka's Rage",
+    "tip": "Phoba of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    {
     "name": "Fer of Rezoka's Rage",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
     "set": "Rezoka'S Rage",
     "mythic": false,
-    "tip": "Fer of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "affix": "Rezoka's Rage",
+    "tip": "Fer of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    {
     "name": "Linta of Rezoka's Rage",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
     "set": "Rezoka'S Rage",
     "mythic": false,
-    "tip": "Linta of Rezoka's Rage\nGorilla Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "affix": "Rezoka's Rage",
+    "tip": "Linta of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    }
   ]
  },

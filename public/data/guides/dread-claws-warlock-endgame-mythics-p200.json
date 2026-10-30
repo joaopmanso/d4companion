@@ -358,7 +358,8 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-   "tip": "Legendary Seal\nCritical Strike Damage"
+   "affix": "Critical Strike Damage",
+   "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot\n+1 Charm Slot"
   },
   "charms": [
    {
@@ -366,6 +367,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Fer of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    {
@@ -373,6 +375,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Linta of Harash's Shadow\nMaximum Resource\nRanks to Demonology Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    {
@@ -380,6 +383,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Berú of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    {
@@ -388,13 +392,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+    "affix": "Maximum Resource",
+    "tip": "Fists of Fate\nMaximum Resource\nRanks to Abyss Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    {
     "name": "Mlor of Harash's Shadow",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Mlor of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    {
@@ -402,6 +408,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Phoba of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    }
   ]

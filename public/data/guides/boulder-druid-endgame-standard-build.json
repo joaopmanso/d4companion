@@ -318,7 +318,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nDamage to Crowd Controlled Enemies\nEnemies are Petrified for longer\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "",
+   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -326,42 +327,48 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/might_of_the_den_mother.png",
     "set": "Might of the Den Mother",
     "mythic": false,
-    "tip": "Berú of the Den Mother\nNature Magic Skills\nAll Stats\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
+    "affix": "",
+    "tip": "Berú of the Den Mother\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
    },
    {
     "name": "Fer of the Den Mother",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/might_of_the_den_mother.png",
     "set": "Might of the Den Mother",
     "mythic": false,
-    "tip": "Fer of the Den Mother\nMaximum Resource\nRank to Companion Skills\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
+    "affix": "Nature Magic Skills",
+    "tip": "Fer of the Den Mother\nNature Magic Skills\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
    },
    {
     "name": "Berú of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Berú of the Old Mountain\nStorm Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Nature Magic Skills",
+    "tip": "Berú of the Old Mountain\nNature Magic Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Linta of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Linta of the Old Mountain\nStorm Skills\nPhysical Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Nature Magic Skills",
+    "tip": "Linta of the Old Mountain\nNature Magic Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Phoba of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Phoba of the Old Mountain\nNature Magic Skills\nLucky Hit: Chance to Freeze\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Nature Magic Skills",
+    "tip": "Phoba of the Old Mountain\nNature Magic Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    },
    {
     "name": "Mlor of the Old Mountain",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
     "set": "Song of the Old Mountain",
     "mythic": false,
-    "tip": "Mlor of the Old Mountain\nStorm Skills\nCold Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+    "affix": "Nature Magic Skills",
+    "tip": "Mlor of the Old Mountain\nNature Magic Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
    }
   ]
  },

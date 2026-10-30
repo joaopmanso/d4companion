@@ -340,6 +340,7 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "affix": "Critical Strike Damage",
    "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot\n+1 Charm Slot"
   },
   "charms": [
@@ -348,6 +349,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
+    "affix": "Heaven's Radiant Fire",
     "tip": "Berú of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    {
@@ -355,6 +357,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
+    "affix": "Heaven's Radiant Fire",
     "tip": "Fer of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    {
@@ -362,6 +365,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
+    "affix": "Heaven's Radiant Fire",
     "tip": "Linta of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    {
@@ -370,13 +374,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth"
+    "affix": "",
+    "tip": "Griswold's Opus\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
    },
    {
     "name": "Mlor of Radiant Fire",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
+    "affix": "Heaven's Radiant Fire",
     "tip": "Mlor of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    {
@@ -384,6 +390,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
+    "affix": "Heaven's Radiant Fire",
     "tip": "Phoba of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    }
   ]

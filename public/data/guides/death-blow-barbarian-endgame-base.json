@@ -454,7 +454,8 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-   "tip": "Legendary Seal\nCritical Strike Damage\nAttack Speed while Berserking\n+1 Unique Charm Slot"
+   "affix": "Critical Strike Damage",
+   "tip": "Legendary Seal\nCritical Strike Damage\n+1 Unique Charm Slot\n+1 Unique Charm Slot"
   },
   "charms": [
    {
@@ -462,6 +463,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
     "set": "Arms of Arreat",
     "mythic": false,
+    "affix": "",
     "tip": "Fer of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
    },
    {
@@ -469,6 +471,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
     "set": "Arms of Arreat",
     "mythic": false,
+    "affix": "",
     "tip": "Linta of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
    },
    {
@@ -476,6 +479,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
     "set": "Arms of Arreat",
     "mythic": false,
+    "affix": "",
     "tip": "Berú of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
    },
    {
@@ -483,6 +487,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
     "set": "Arms of Arreat",
     "mythic": false,
+    "affix": "",
     "tip": "Mlor of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
    },
    {
@@ -491,6 +496,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Dark Stalker's Medallion\nCasting a Skill with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual-Wielded weapon grants x [15 - 20%] increased damage for 15 seconds.\n\nWhile all three bonuses are active, you gain +25% Crowd Control Duration and Attack Speed."
    },
    {
@@ -498,6 +504,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/arms_of_arreat.png",
     "set": "Arms of Arreat",
     "mythic": false,
+    "affix": "",
     "tip": "Phoba of Arreat\nArms of Arreat\nPhoba of Arreat\nFer of Arreat\nMlor of Arreat\nLinta of Arreat\nBerú of Arreat\nArms of Arreat\n(2) Set: Casting Skills that swapped weapons deal x100% increased damage and reduce your Weapon Mastery Cooldowns by 5 seconds.\n(3) Set: Swapping weapons grants 2 Resolve and a Barrier for 10% of your Maximum Life, up to 100%, for 6 seconds.\n(5) Set: Swapping weapons grants x50% increased damage for 6 seconds, stacking up to x150%, and also triggers an equipped Non-Ultimate Weapon Mastery Skill."
    }
   ]

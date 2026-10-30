@@ -376,7 +376,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "All Stats",
+   "tip": "Seal of the Diamond Mind\nAll Stats\nMinion Damage\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -384,6 +385,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/art_of_the_bone_weaver.png",
     "set": "Art of the Bone Weaver",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Berú of the Bone Weaver\nAll Stats\nMinion Skills\nArt of the Bone Weaver\nPhoba of the Bone Weaver\nFer of the Bone Weaver\nMlor of the Bone Weaver\nLinta of the Bone Weaver\nBerú of the Bone Weaver\nArt of the Bone Weaver\n(2) Set: After spending 100 Essence on Bone Skills you gain Quintessence for 15 seconds. Quintessence increases your Critical Strike Chance by +10% and your Critical Strike Damage by x50%.\n(3) Set: Quintessence also grants 30% Damage Reduction.\n(5) Set: Whenever you gain Quintessence you spray out 12 piercing bone shards in all directions, dealing [X] damage each, generating 3 Essence per enemy hit, and causing enemies hit to take x200% increased damage from your Bone Skills."
    },
    {
@@ -391,6 +393,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/art_of_the_bone_weaver.png",
     "set": "Art of the Bone Weaver",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Fer of the Bone Weaver\nAll Stats\nMinion Skills\nArt of the Bone Weaver\nPhoba of the Bone Weaver\nFer of the Bone Weaver\nMlor of the Bone Weaver\nLinta of the Bone Weaver\nBerú of the Bone Weaver\nArt of the Bone Weaver\n(2) Set: After spending 100 Essence on Bone Skills you gain Quintessence for 15 seconds. Quintessence increases your Critical Strike Chance by +10% and your Critical Strike Damage by x50%.\n(3) Set: Quintessence also grants 30% Damage Reduction.\n(5) Set: Whenever you gain Quintessence you spray out 12 piercing bone shards in all directions, dealing [X] damage each, generating 3 Essence per enemy hit, and causing enemies hit to take x200% increased damage from your Bone Skills."
    },
    {
@@ -398,6 +401,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/art_of_the_bone_weaver.png",
     "set": "Art of the Bone Weaver",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Linta of the Bone Weaver\nAll Stats\nMinion Skills\nArt of the Bone Weaver\nPhoba of the Bone Weaver\nFer of the Bone Weaver\nMlor of the Bone Weaver\nLinta of the Bone Weaver\nBerú of the Bone Weaver\nArt of the Bone Weaver\n(2) Set: After spending 100 Essence on Bone Skills you gain Quintessence for 15 seconds. Quintessence increases your Critical Strike Chance by +10% and your Critical Strike Damage by x50%.\n(3) Set: Quintessence also grants 30% Damage Reduction.\n(5) Set: Whenever you gain Quintessence you spray out 12 piercing bone shards in all directions, dealing [X] damage each, generating 3 Essence per enemy hit, and causing enemies hit to take x200% increased damage from your Bone Skills."
    },
    {
@@ -405,13 +409,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
-    "tip": "Mlor of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
+    "affix": "All Stats",
+    "tip": "Mlor of the Waking Touch\nAll Stats\nMinion Skills\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    {
     "name": "Mlor of the Bone Weaver",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/art_of_the_bone_weaver.png",
     "set": "Art of the Bone Weaver",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Mlor of the Bone Weaver\nAll Stats\nMinion Skills\nArt of the Bone Weaver\nPhoba of the Bone Weaver\nFer of the Bone Weaver\nMlor of the Bone Weaver\nLinta of the Bone Weaver\nBerú of the Bone Weaver\nArt of the Bone Weaver\n(2) Set: After spending 100 Essence on Bone Skills you gain Quintessence for 15 seconds. Quintessence increases your Critical Strike Chance by +10% and your Critical Strike Damage by x50%.\n(3) Set: Quintessence also grants 30% Damage Reduction.\n(5) Set: Whenever you gain Quintessence you spray out 12 piercing bone shards in all directions, dealing [X] damage each, generating 3 Essence per enemy hit, and causing enemies hit to take x200% increased damage from your Bone Skills."
    },
    {
@@ -419,7 +425,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
     "set": "Rathma'S Waking Touch",
     "mythic": false,
-    "tip": "Linta of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
+    "affix": "All Stats",
+    "tip": "Linta of the Waking Touch\nAll Stats\nMinion Skills\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    }
   ]
  },

@@ -376,7 +376,8 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-   "tip": "Legendary Seal\nCritical Strike Damage\nEnemies are Petrified for longer\n+1 Charm Slot"
+   "affix": "+1 Charm Slot",
+   "tip": "Legendary Seal\n+1 Charm Slot"
   },
   "charms": [
    {
@@ -384,6 +385,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Mlor of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
@@ -391,6 +393,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Phoba of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
@@ -398,6 +401,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Linta of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
@@ -406,6 +410,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "Werewolf Skills",
     "tip": "Arioc's Needle\nWerewolf Skills\nGain x [17.5 - 25%] Deadly Strike Chance. Your Deadly Strikes deal x [35 - 50%] increased damage."
    },
    {
@@ -413,6 +418,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Berú of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    },
    {
@@ -420,6 +426,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
     "set": "Rush of the Red Wolf Moon",
     "mythic": false,
+    "affix": "Werewolf Skills",
     "tip": "Fer of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
    }
   ]

@@ -312,7 +312,8 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nDamage to Crowd Controlled Enemies\nEnemies are Petrified for longer\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "Critical Strike Chance",
+   "tip": "Seal of the Diamond Mind\nCritical Strike Chance\n+1 Charm Slot\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -320,6 +321,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Mlor of Nafain's Bestiary\nAll Stats\nNature Magic Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -328,13 +330,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+    "affix": "Rank to Companion Skills",
+    "tip": "Might of the Ursine\nRank to Companion Skills\nMaximum Life\nGain x [2 - 4%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form."
    },
    {
     "name": "Phoba of Nafain's Bestiary",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "Nature Magic Skills",
     "tip": "Phoba of Nafain's Bestiary\nNature Magic Skills\nAll Stats\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -342,6 +346,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/might_of_the_den_mother.png",
     "set": "Might of the Den Mother",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Fer of the Den Mother\nMaximum Resource\nRank to Companion Skills\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
    },
    {
@@ -349,6 +354,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Fer of Nafain's Bestiary\nAll Stats\nRank to Companion Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -356,6 +362,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/might_of_the_den_mother.png",
     "set": "Might of the Den Mother",
     "mythic": false,
+    "affix": "Nature Magic Skills",
     "tip": "Berú of the Den Mother\nNature Magic Skills\nAll Stats\nMight of the Den Mother\nPhoba of the Den Mother\nFer of the Den Mother\nMlor of the Den Mother\nLinta of the Den Mother\nBerú of the Den Mother\nMight of the Den Mother\n(2) Set: Taking or dealing damage in Werebear form grants 1 stack of Stoicism, (2 while Berserking) which increases your damage by 4%. Stacks up to 20 times and lasts forever. Stacks are removed when taking direct damage.\n(3) Set: Increases your Damage Reduction while in Werebear form by 25% and an additional +10% while Berserking.\n(5) Set: At 40 stacks of Stoicism, you explode in a feral Rampage for 10 seconds. While Rampaging, you grow larger allowing your Werebear Skills to deal x225% bonus damage. In addition, Rampaging allows you to move Unhindered through enemies Knocking them Down. Rampaging lasts forever while you are above 15 stacks."
    }
   ]

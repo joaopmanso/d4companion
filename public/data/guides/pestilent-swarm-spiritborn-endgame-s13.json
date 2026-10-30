@@ -302,6 +302,7 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "affix": "+1 Charm Slot",
    "tip": "Legendary Seal\n+1 Charm Slot"
   },
   "charms": [
@@ -310,6 +311,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
     "set": "Balazan'S Bite",
     "mythic": false,
+    "affix": "Gorilla Skills",
     "tip": "Berú of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
    },
    {
@@ -317,6 +319,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
     "set": "Balazan'S Bite",
     "mythic": false,
+    "affix": "Gorilla Skills",
     "tip": "Fer of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
    },
    {
@@ -325,6 +328,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Protean Heart\nThe Base Spirit of a Skill cast grants:\nEagle: + [17 - 20%] Movement Speed\nGorilla: [17 - 20%] Damage Reduction\nJaguar: [17 - 20%] Attack Speed\nCentipede: [1.7 - 2%] Life per Second\n\nCasting a Skill of a different Base Spirit:\nSwaps to the new bonus\nIncreases Core Stats by +100% for 7 seconds"
    },
    {
@@ -332,6 +336,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
     "set": "Balazan'S Bite",
     "mythic": false,
+    "affix": "Gorilla Skills",
     "tip": "Linta of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
    },
    {
@@ -339,6 +344,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
     "set": "Balazan'S Bite",
     "mythic": false,
+    "affix": "Gorilla Skills",
     "tip": "Phoba of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
    },
    {
@@ -346,6 +352,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
     "set": "Balazan'S Bite",
     "mythic": false,
+    "affix": "Gorilla Skills",
     "tip": "Mlor of Balazan's Bite\nGorilla Skills\nBalazan's Bite\nPhoba of Balazan's Bite\nFer of Balazan's Bite\nMlor of Balazan's Bite\nLinta of Balazan's Bite\nBerú of Balazan's Bite\nBalazan's Bite\n(2) Set: Your Poisoning effects last x80% longer and Weaken enemies.\n(3) Set: Gain 40% Maximum Life. Dealing Poisoning damage has a 10% chance to Heal you for 5% of your Maximum Life.\n(5) Set: Every 6 seconds, a Non-Boss enemy who you Poisoned for more than their remaining Life is killed instantly and unleashes Scourge. Scourge increases your Poison damage by x250% for 10 seconds."
    }
   ]

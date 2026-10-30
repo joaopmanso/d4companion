@@ -425,6 +425,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "Damage",
    "tip": "Seal of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -433,6 +434,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Mlor of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
    },
    {
@@ -440,6 +442,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
     "set": "Berserker'S Crucible",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Linta of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    {
@@ -447,6 +450,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Linta of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
    },
    {
@@ -454,6 +458,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
     "set": "Berserker'S Crucible",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Mlor of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    {
@@ -461,6 +466,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Berú of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
    },
    {
@@ -468,6 +474,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
+    "affix": "Brawling Skills",
     "tip": "Fer of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
    }
   ]

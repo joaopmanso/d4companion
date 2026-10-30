@@ -317,7 +317,8 @@
   "seal": {
    "name": "Legendary Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-   "tip": "Legendary Seal\nCritical Strike Damage\nEnemies are Petrified for longer\n+1 Charm Slot"
+   "affix": "Critical Strike Damage",
+   "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot\nEnemies are Petrified for longer"
   },
   "charms": [
    {
@@ -325,6 +326,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Mlor of Nafain's Bestiary\nAll Stats\nNature Magic Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -333,13 +335,15 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Might of the Ursine\nMythic Unique Ring\nWillpower\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCritical Strike Chance\nGain x [5.2%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form.\nDruid\nDropped By:\nHarbinger of Hatred"
+    "affix": "Rank to Companion Skills",
+    "tip": "Might of the Ursine\nRank to Companion Skills\nMaximum Life\nGain x [2 - 4%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form."
    },
    {
     "name": "Phoba of Nafain's Bestiary",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "Nature Magic Skills",
     "tip": "Phoba of Nafain's Bestiary\nNature Magic Skills\nAll Stats\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -347,6 +351,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "Maximum Resource",
     "tip": "Berú of Nafain's Bestiary\nMaximum Resource\nRank to Companion Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -354,6 +359,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "All Stats",
     "tip": "Fer of Nafain's Bestiary\nAll Stats\nRank to Companion Skills\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    },
    {
@@ -361,6 +367,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/nafain's_bestiary.png",
     "set": "Nafain'S Bestiary",
     "mythic": false,
+    "affix": "Nature Magic Skills",
     "tip": "Linta of Nafain's Bestiary\nNature Magic Skills\nAll Stats\nNafain's Bestiary\nPhoba of Nafain's Bestiary\nFer of Nafain's Bestiary\nMlor of Nafain's Bestiary\nLinta of Nafain's Bestiary\nBerú of Nafain's Bestiary\nNafain's Bestiary\n(2) Set: Summon a Bear Companion that attacks enemies for 1 damage and may cast Battle Roar increasing the damage of all Companions by x60% for 10 seconds. (5 second cooldown)\n(3) Set: 30% of the damage you take is split between you and your Bear Companion. When you or your Bear Companion becomes Injured, your Bear Companion casts Debilitating Roar on enemies and fully heals.\n(5) Set: Gain 1 additional Bear and all other Companions of each type. Gain all Companion Side Upgrades for free and increases Companion Damage by x250%. Your Companions slightly grow in size."
    }
   ]

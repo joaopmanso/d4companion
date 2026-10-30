@@ -379,6 +379,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
    "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -387,6 +388,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Fer of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -394,6 +396,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
+    "affix": "Cathan's Iron Conviction",
     "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    {
@@ -401,6 +404,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Berú of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -408,13 +412,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
-    "tip": "Berú of Iron Conviction\nCore Skills\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
+    "affix": "Cathan's Iron Conviction",
+    "tip": "Berú of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    {
     "name": "Linta of Light's Epiphany",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Linta of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    {
@@ -422,6 +428,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
+    "affix": "Light's Epiphany",
     "tip": "Phoba of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    }
   ]

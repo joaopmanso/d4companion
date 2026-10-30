@@ -18022,7 +18022,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nMythic Unique Gloves\nPrimary Core Stat\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nDamage Over Time\nYour attacks randomly deal 1% to [390%] of their normal damage.\nDropped By:\nAll Bosses"
+    "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    "Phoba of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
@@ -18085,7 +18085,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Tuskhelm of Joritz the Mighty\nUnique Helm\nStrength\nCooldown Reduction\nMaximum Resource\nMaximum Life\nMaximum Life\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction.\nBarbarian\nDropped By:\nBartuc"
+    "tip": "Tuskhelm of Joritz the Mighty\nBrawling Skills\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction."
    },
    "Arioc's Needle": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",

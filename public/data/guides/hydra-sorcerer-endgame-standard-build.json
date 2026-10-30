@@ -335,6 +335,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tiraj's_uncanny_insight.png",
     "set": "Tiraj'S Uncanny Insight",
     "mythic": false,
+    "affix": "Conjuration Skills",
     "tip": "Fer of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
    },
    {
@@ -342,6 +343,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tiraj's_uncanny_insight.png",
     "set": "Tiraj'S Uncanny Insight",
     "mythic": false,
+    "affix": "Conjuration Skills",
     "tip": "Linta of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
    },
    {
@@ -349,6 +351,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tiraj's_uncanny_insight.png",
     "set": "Tiraj'S Uncanny Insight",
     "mythic": false,
+    "affix": "Conjuration Skills",
     "tip": "Berú of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
    },
    {
@@ -356,6 +359,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tiraj's_uncanny_insight.png",
     "set": "Tiraj'S Uncanny Insight",
     "mythic": false,
+    "affix": "Conjuration Skills",
     "tip": "Mlor of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
    },
    {
@@ -364,6 +368,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
+    "affix": "",
     "tip": "Azurewrath\nAfter Freeze expires, enemies take [120 - 150%] of the damage you dealt to them while Frozen."
    },
    {
@@ -371,6 +376,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tiraj's_uncanny_insight.png",
     "set": "Tiraj'S Uncanny Insight",
     "mythic": false,
+    "affix": "Conjuration Skills",
     "tip": "Phoba of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
    }
   ]
