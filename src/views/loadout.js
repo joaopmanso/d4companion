@@ -141,6 +141,48 @@ function renderDoll(root, char, build) {
   $("#doll-left", root).style.gridTemplateRows = $("#doll-right", root).style.gridTemplateRows = `repeat(${Math.max(left.length, right.length)}, 1fr)`;
 }
 
+// Charm and seal art sits off-centre in its image, by a different amount for each (a set charm's gem
+// is at 56% of the height, a mythic charm's at 51%), so each image is measured once and placed so its
+// visible artwork fills and centres the socket. Needs CORS-readable images (our image cache allows it);
+// if an image can't be read it just stays centred as a whole.
+const artBox = new Map();
+function measureArt(img) {
+  if (artBox.has(img.src)) return artBox.get(img.src);
+  let box = null;
+  try {
+    const c = document.createElement("canvas");
+    c.width = img.naturalWidth; c.height = img.naturalHeight;
+    const x = c.getContext("2d", { willReadFrequently: true });
+    x.drawImage(img, 0, 0);
+    const d = x.getImageData(0, 0, c.width, c.height).data;
+    let l = c.width, t = c.height, r = -1, b = -1;
+    for (let y = 0; y < c.height; y++) for (let k = 0; k < c.width; k++) {
+      if (d[(y * c.width + k) * 4 + 3] > 40) { if (k < l) l = k; if (k > r) r = k; if (y < t) t = y; if (y > b) b = y; }
+    }
+    if (r >= 0) box = { l, t, w: r - l + 1, h: b - t + 1, nw: c.width, nh: c.height };
+  } catch { /* image not CORS-readable */ }
+  artBox.set(img.src, box);
+  return box;
+}
+function centerArt(img) {
+  const box = measureArt(img);
+  const socket = img.parentElement;
+  if (!box || !socket) return;
+  const size = socket.clientWidth;
+  const k = (size * (socket.classList.contains("seal") ? 1 : 0.94)) / Math.max(box.w, box.h);
+  Object.assign(img.style, {
+    position: "absolute", maxWidth: "none", objectFit: "fill", borderRadius: "0",
+    width: `${box.nw * k}px`, height: `${box.nh * k}px`,
+    left: `${size / 2 - (box.l + box.w / 2) * k}px`, top: `${size / 2 - (box.t + box.h / 2) * k}px`,
+  });
+}
+function centerTalismanArt(root) {
+  for (const img of root.querySelectorAll(".tal-socket img")) {
+    if (img.complete && img.naturalWidth) centerArt(img);
+    else img.addEventListener("load", () => centerArt(img), { once: true });
+  }
+}
+
 // Talisman: the seal in the middle, six charm sockets around it. Click a socket to set what you have.
 const CHARM_POS = [[30, 15], [70, 15], [11, 50], [89, 50], [30, 85], [70, 85]];
 
@@ -151,10 +193,11 @@ function renderTalisman(root, char, build) {
   const sockets = CHARM_POS.map(([x, y], i) => {
     const c = charms[i];
     const cls = c ? (c.mythic ? " mythic" : c.unique ? " unique" : c.set ? " set" : "") : " empty";
-    return `<span class="tal-ring" style="left:${x}%;top:${y}%"></span><button class="tal-socket${cls}" style="left:${x}%;top:${y}%" data-tip="charm:${i}" aria-label="${esc(c?.name || "Empty charm socket")}">${c?.art ? `<img src="${esc(c.art)}" alt="">` : `<span class="plus">+</span>`}</button>`;
+    return `<span class="tal-ring" style="left:${x}%;top:${y}%"></span><button class="tal-socket${cls}" style="left:${x}%;top:${y}%" data-tip="charm:${i}" aria-label="${esc(c?.name || "Empty charm socket")}">${c?.art ? `<img crossorigin="anonymous" src="${esc(c.art)}" alt="">` : `<span class="plus">+</span>`}</button>`;
   }).join("");
   $("#talisman", root).innerHTML = `<span class="tal-ring seal-ring" style="left:50%;top:50%"></span>
-    <button class="tal-socket seal${seal ? "" : " empty"}" style="left:50%;top:50%" data-tip="seal" aria-label="${esc(seal?.name || "Empty seal socket")}">${seal?.art ? `<img src="${esc(seal.art)}" alt="">` : `<span class="plus">+</span>`}</button>${sockets}`;
+    <button class="tal-socket seal${seal ? "" : " empty"}" style="left:50%;top:50%" data-tip="seal" aria-label="${esc(seal?.name || "Empty seal socket")}">${seal?.art ? `<img crossorigin="anonymous" src="${esc(seal.art)}" alt="">` : `<span class="plus">+</span>`}</button>${sockets}`;
+  centerTalismanArt($("#talisman", root));
 
   const counts = setCounts(charms);
   const minus = lowersThresholds(seal) ? 1 : 0;

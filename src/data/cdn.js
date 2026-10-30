@@ -31,6 +31,7 @@ export function watchArt() {
     const img = e.target;
     if (!(img instanceof HTMLImageElement) || img.dataset.fellBack) return;
     const src = original(img.src);
-    if (src) { img.dataset.fellBack = "1"; img.src = src; }
+    // The original sites don't send CORS headers, so a fallback image must load without them.
+    if (src) { img.dataset.fellBack = "1"; img.removeAttribute("crossorigin"); img.src = src; }
   }, true);
 }
