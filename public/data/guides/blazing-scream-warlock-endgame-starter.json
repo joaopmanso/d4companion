@@ -352,16 +352,6 @@
  },
  "runes": [
   {
-   "name": "Mal",
-   "art": "art/sa/DIABLO4/Runes/15-invocation.png",
-   "tip": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power"
-  },
-  {
-   "name": "Lac",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
-   "tip": "Lac\nRare Rune of Invocation\nRequires: 400 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
-  },
-  {
    "name": "Igni",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
@@ -370,6 +360,16 @@
    "name": "Que",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Mal",
+   "art": "art/sa/DIABLO4/Runes/15-invocation.png",
+   "tip": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power"
+  },
+  {
+   "name": "Lac",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Lac\nRare Rune of Invocation\nRequires: 400 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
   }
  ],
  "talisman": {
