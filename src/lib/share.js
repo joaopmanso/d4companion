@@ -18,7 +18,7 @@ function strip(char) {
     const { shot, engine, rawText, usage, warning, ...rest } = g;
     gear[slot] = rest;
   }
-  return { v: 1, name: char.name, className: char.className, buildId: char.buildId, gear, talisman: char.talisman, stats: char.stats };
+  return { v: 1, name: char.name, className: char.className, buildId: char.buildId, gear, talisman: char.talisman, stats: char.stats, skillTree: char.skillTree, paragon: char.paragon };
 }
 
 export async function shareLink(char) {
@@ -32,5 +32,5 @@ export async function readShared(payload) {
   const json = await pipe(fromB64url(payload), new DecompressionStream("deflate-raw"));
   const c = JSON.parse(new TextDecoder().decode(json));
   if (c.v !== 1 || !c.buildId) throw new Error("This share link isn't valid.");
-  return { id: "shared", name: c.name || "Shared character", className: c.className, buildId: c.buildId, gear: c.gear || {}, talisman: c.talisman, stats: c.stats || {} };
+  return { id: "shared", name: c.name || "Shared character", className: c.className, buildId: c.buildId, gear: c.gear || {}, talisman: c.talisman, stats: c.stats || {}, skillTree: c.skillTree, paragon: c.paragon };
 }

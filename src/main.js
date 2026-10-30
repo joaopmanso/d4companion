@@ -144,10 +144,10 @@ function takeImage(file) {
 }
 document.addEventListener("click", (e) => {
   if (!e.target.closest("#share-save") || !shared.char) return;
-  const { name, className, buildId, gear, talisman, stats } = shared.char;
+  const { name, className, buildId, gear, talisman, stats, skillTree, paragon } = shared.char;
   store.addCharacter({ name: `${name} (copy)`, className, buildId });
   const id = store.get().activeId;
-  store.updateCharacter(id, { gear: structuredClone(gear), talisman: structuredClone(talisman || { seal: null, charms: [null, null, null, null, null, null] }), stats: structuredClone(stats || {}) });
+  store.updateCharacter(id, { gear: structuredClone(gear), talisman: structuredClone(talisman || { seal: null, charms: [null, null, null, null, null, null] }), stats: structuredClone(stats || {}), skillTree: structuredClone(skillTree || {}), paragon: structuredClone(paragon || { boards: [] }) });
   location.hash = "#/loadout";
 });
 addEventListener("paste", (e) => {

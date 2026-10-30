@@ -380,3 +380,34 @@ body.read-only .tab[data-view="farm"], body.read-only .tab[data-view="guides"] {
 /* Links to the farm guide from inside a shared loadout lead nowhere, so hide them too. */
 body.read-only a[href="#/farm"] { display: none; }
 body.read-only .tal-socket { cursor: help; }
+
+/* ---------- Mine / Guide toggle and editing for skills and Paragon ---------- */
+.st-toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; }
+.seg button { appearance: none; border: 0; background: var(--raised); color: var(--muted); font-family: var(--font-display); font-weight: 700; font-size: 0.82rem; letter-spacing: .08em; text-transform: uppercase; padding: 7px 14px; cursor: pointer; }
+.seg button[aria-selected="true"] { background: linear-gradient(180deg, #a8291b, #5c0f08); color: #fbe9c4; }
+.add-board select { width: auto; }
+.board-head select { width: auto; padding: 3px 6px; font-size: 0.82rem; }
+
+/* Compact skill summary */
+.ss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.ss-skill { display: grid; gap: 6px; padding: 8px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--raised); }
+.ss-skill.missing { border-style: dashed; opacity: .75; }
+.ss-head { appearance: none; border: 0; background: none; color: inherit; font: inherit; cursor: help; display: flex; gap: 8px; align-items: center; text-align: left; padding: 0; }
+.ss-head img { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line-strong); }
+.ss-head b { font-family: var(--font-display); display: block; }
+.ss-head small { color: var(--ember); font-family: var(--font-data); }
+.ss-mods { display: flex; flex-wrap: wrap; gap: 4px; }
+.ss-mod { appearance: none; font: inherit; color: var(--fg); cursor: help; display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px 2px 2px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); font-size: 0.78rem; }
+.ss-mod img { width: 20px; height: 20px; border-radius: 50%; }
+.ss-mod.missing { border-style: dashed; color: var(--muted); }
+.ss-mod.missing img { filter: grayscale(1); opacity: .5; }
+.ss-mod.extra { border-color: #4a8cff; }
+
+/* Differences from the guide on the full tree and the boards */
+.st-node.editable { cursor: pointer; }
+.st-node.miss::after, .st-node.extra::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 2px dashed #f0a03a; pointer-events: none; }
+.st-node.extra::after { border: 2px solid #4a8cff; }
+.pg-tile.editable { cursor: pointer; }
+.pg-tile.miss { outline: 2px dashed #f0a03a; outline-offset: -1px; z-index: 1; }
+.pg-tile.extra { outline: 2px solid #4a8cff; outline-offset: -1px; z-index: 1; }
