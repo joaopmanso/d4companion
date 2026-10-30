@@ -2,6 +2,7 @@
 
 One line per change, newest first. Format: `YYYY-MM-DD · area · what changed`.
 
+- 2026-10-30 · ocr · Legendary and rare names are cleaned (`cleanName`): ®/©/ø inside a word is read as o, one- and two-character junk from icons and art is dropped, words snap onto known name words (aspect prefixes, item types, fixed names) and anything after the item type is cut. "Sadistic Excepti®Nal 5 Y J Boots" now reads "Sadistic Exceptional Boots".
 - 2026-10-31 · design · The Diablo dress is back over the Hallmark layout (owner found the plain version empty and bland): `ornament.css` adds framed panels with gilt brackets, the fire wash, rarity glows, ember selection and gold meters; palette warmed, display face Cinzel; footer notice spans the full width.
 - 2026-10-31 · design · Ancestral tiles keep their rarity edge; the white glow sits outside it, so a pasted Ancestral mythic stays purple.
 - 2026-10-30 · ocr · Enigma (a runeword) is identified: when Tesseract reads the title after the type and Item Power lines, those lines are tried as the name too, and a tracked capital M read as `ITI`/`IVI` is fixed. Everything from `Properties lost when equipped` on (the equipped item's stats) is ignored instead of becoming sockets and power text. A type line wrapped after a slot word (`Unique Chest` / `Armor`) joins up, the rune list (`JahIthBer`) is no longer an affix, and `Unique Equipped`, `Seasonal Item` and `Lord of Hatred Item` are noise.

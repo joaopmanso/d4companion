@@ -85,7 +85,13 @@ export function buildVocab(cls, all = catalogOf(cls)) {
     const m = a.match(/^ranks to (.+)$/i);
     if (m) skills.add(m[1]);
   }
-  return { affixes: [...affixes], types: [...types], items, aspects, skills: [...skills], charms, seals };
+  // Words that legendary and rare names are built from: aspect prefixes and suffixes ("Sadistic", "of the Moon"),
+  // item types, and the words of fixed names.
+  const nameWords = new Set();
+  for (const n of [...items.map((it) => it.name), ...aspects.map((a) => a.name), ...charms.map((c) => c.name), ...seals.map((s) => s.name), ...types]) {
+    for (const w of String(n).split(/[\s-]+/)) if (/^[A-Za-z']{4,}$/.test(w) && !/^aspects?$/i.test(w)) nameWords.add(w);
+  }
+  return { affixes: [...affixes], types: [...types], items, aspects, skills: [...skills], charms, seals, nameWords: [...nameWords] };
 }
 
 // A class file's catalog in the items.json shape, for callers that don't load items.json.

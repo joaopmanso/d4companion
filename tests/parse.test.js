@@ -357,3 +357,13 @@ Lord of Hatred Item 1¥
   assert.deepEqual(item.sockets, []);
   assert.equal(item.power, "Your Evade is now Sorcerer's Teleport and costs 33 Primary Resource.");
 });
+
+test("a random legendary name loses icon junk and symbols, and its words snap to known name words", () => {
+  // The user's screenshot read "Sadistic Excepti®Nal 5 Y J Boots": ® for an o, and the art's specks on the title line.
+  for (const name of ["SADISTIC EXCEPTI®NAL 5 Y J\nBOOTS", "SADISTlC EXCEPTI©NAL BOOTS 5 Y J", "Sadistic Excepti®Nal 5 Y J Boots"]) {
+    const item = parseTooltip(`${name}\nAncestral Legendary Boots\n800 Item Power\n+12% Movement Speed`, "Warlock", warlock);
+    assert.equal(item.name, "Sadistic Exceptional Boots", name);
+    assert.equal(item.slot, "boots");
+  }
+  assert.equal(parseTooltip("HELM OF THE DEAD\nRare Helm\n800 Item Power", "Warlock", warlock).name, "Helm of the Dead");
+});

@@ -174,6 +174,24 @@ function titleCase(s) {
   return s.toLowerCase().replace(/\b[\p{L}']+/gu, (w, i) => (i > 0 && SMALL.has(w) ? w : w[0].toUpperCase() + w.slice(1)));
 }
 
+// A random (legendary or rare) name, cleaned: "SADISTIC EXCEPTI®NAL 5 Y J" / "BOOTS" → "Sadistic Exceptional Boots".
+// OCR reads an o as ®/©/ø inside words; icons and the art beside the title leave one- and two-character tokens,
+// which are dropped (except "of", "the", …). Words close to a known name word or the item type snap onto it.
+function cleanName(nameLines, type, vocab) {
+  const typeWords = String(type || "").split(/\s+/).filter((w) => w.length >= 3);
+  const known = [...typeWords, ...(vocab.nameWords || [])];
+  const words = nameLines.join(" ")
+    .replace(/(?<=[A-Za-z])[®©°øº](?=[A-Za-z])/g, "o")
+    .split(/\s+/)
+    .map((w) => w.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""))
+    .filter((w) => /^[A-Za-z][A-Za-z']*$/.test(w) && (w.length >= 3 || (w.length === 2 && SMALL.has(w.toLowerCase()))))
+    .map((w) => (w.length >= 4 ? closest(w, known, 0.8)?.value || w : w));
+  // Junk after the item type ("Boots mw"), unless a suffix follows ("Boots of the Moon").
+  const end = words.findLastIndex((w) => typeWords.some((t) => norm(t) === norm(w)));
+  const kept = end >= 0 && !/^of$/i.test(words[end + 1] || "") ? words.slice(0, end + 1) : words;
+  return titleCase(kept.join(" "));
+}
+
 // `marks` (from the OCR reader) maps lineKey(value, stat) to the line's icon: "ga", "enchant", "temper" or "plain".
 export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) {
   const lines = normaliseLines(text);
@@ -230,7 +248,7 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
     if (id.set) item.set = id.set;
     item.type ||= id.what === "seal" ? "Seal" : id.set ? "Set Charm" : `${id.mythic ? "Mythic" : "Unique"} Charm`;
   } else {
-    item.name = titleCase(nameLines.join(" ") || lines[0] || "");
+    item.name = cleanName(nameLines.length ? nameLines : lines.slice(0, 1), item.type, vocab);
   }
   const ip = lines.find((l) => POWER_RE.test(l));
   if (ip) item.itemPower = Number(ip.match(POWER_RE)[1].replace(/[OoIl|]/g, (c) => DIGIT_FIX[c]));
