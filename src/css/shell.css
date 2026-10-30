@@ -207,10 +207,10 @@ input::placeholder, textarea::placeholder { color: var(--color-muted); }
 .ico .pip { position: absolute; top: -5px; right: -5px; width: 10px; height: 10px; transform: rotate(45deg); border: var(--rule-hair) solid var(--deep); }
 .ico .pip.done { background: var(--dk-good); }
 .ico .pip.todo { background: var(--ember); }
-/* Ancestral: the white glow the game draws around the piece (asked for by the owner) */
+/* Ancestral: the white glow the game draws around the piece (asked for by the owner). It sits outside
+   the rarity edge, so an Ancestral mythic keeps its purple border. */
 .ico.ancestral {
-  border-color: var(--ancestral);
-  box-shadow: 0 0 0 1px var(--ancestral), 0 0 10px 2px color-mix(in oklab, var(--ancestral) 45%, transparent), 0 0 22px 4px color-mix(in oklab, var(--ancestral) 18%, transparent);
+  box-shadow: 0 0 0 2px var(--deep), 0 0 0 3px var(--ancestral), 0 0 10px 3px color-mix(in oklab, var(--ancestral) 45%, transparent), 0 0 22px 4px color-mix(in oklab, var(--ancestral) 18%, transparent);
 }
 .ico.ancestral img.art { filter: drop-shadow(0 0 3px color-mix(in oklab, var(--ancestral) 90%, transparent)); }
 .anc-text { color: inherit; }
