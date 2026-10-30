@@ -38,7 +38,7 @@ Only sites that allow it are synced. d4builds' `robots.txt` permits its build pa
 
 | Reader | Cost | Accuracy |
 |---|---|---|
-| Free OCR (Tesseract.js, runs in your browser) | Free | Good on clean crops. It can't see Greater Affix stars or temper icons, so you tick those yourself. |
+| Free OCR (Tesseract.js, runs in your browser) | Free | Good on crops of the tooltip. Each line is snapped to the game's own wording: item types, the class's uniques, affix names, skill ranks and aspect powers. So misreads like "Critcal Strike Chanee" or "8OO ltem Power" still come out right, and a legendary's aspect is named from its power text. It can't see Greater Affix stars or temper icons, so you tick those yourself. |
 | Claude (your own Anthropic API key) | A few cents per check with Opus 5.5; Sonnet and Haiku cost less | Reads every line, GA stars, tempers and enchants |
 
 The key stays in your browser's local storage, is sent only to `api.anthropic.com`, and is never exported.
