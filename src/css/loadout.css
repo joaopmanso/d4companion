@@ -1,0 +1,275 @@
+/* Loadout: the character screen. The paperdoll leads (armour and weapons left, jewellery and
+   off-hand right, the class portrait between them on the deep plate, tiles hugging the figure),
+   with the chosen slot's tooltip and actions beside it. Under the doll: the talisman, runes and
+   Splinters, then stat targets; under the tooltip: the stats the gear adds up to. */
+:root {
+  --lo-side: 440px;
+  --lo-figure: 300px;
+  --lo-tile: 64px;
+  --lo-tal: 240px;
+  --lo-sock: 50px;
+  --lo-seal: 82px;
+  --lo-track: color-mix(in oklab, var(--color-rule) 80%, var(--color-paper));
+}
+
+/* ---------- The two columns: the doll's side and the tooltip's side ---------- */
+.loadout-grid {
+  display: grid; gap: var(--space-xl) var(--space-lg); align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(0, var(--lo-side));
+}
+.lo-main, .lo-side { display: grid; gap: var(--space-xl); min-width: 0; align-content: start; }
+.lo-side { gap: var(--space-xl); }
+
+.lo-head { grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-xs) var(--space-lg); align-items: end; }
+.lo-head > h2 { grid-column: 1; text-wrap: balance; }
+.lo-head > p { grid-column: 1; }
+.lo-head > .share-row { grid-column: 2; grid-row: 1 / span 2; max-width: 420px; justify-content: flex-end; }
+.lo-head .share-row.row { margin-top: 0; }
+.lo-head .share-row .note { flex: 1 1 320px; min-width: 0; }
+
+/* ---------- Paperdoll ---------- */
+.doll {
+  display: grid; gap: var(--space-xs) var(--space-sm); align-items: stretch;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, var(--lo-figure)) minmax(0, 1fr);
+}
+.doll-col { display: grid; gap: var(--space-2xs); align-content: stretch; min-width: 0; }
+
+.dslot {
+  appearance: none; cursor: pointer; width: 100%; min-width: 0;
+  display: flex; align-items: center; gap: var(--space-sm); text-align: left;
+  padding: var(--space-2xs); color: var(--color-ink);
+  background: none; border: 0; border-radius: var(--radius-control);
+}
+.doll-col.left .dslot { flex-direction: row-reverse; text-align: right; }
+.dslot.spacer { visibility: hidden; pointer-events: none; }
+.dslot .ico { width: var(--lo-tile); height: var(--lo-tile); }
+.dslot:hover .ico { outline: 1px solid var(--color-rule-strong); outline-offset: 2px; }
+.dslot:hover .nm { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+.dslot:active { transform: translateY(1px); }
+.dslot:focus-visible { outline-offset: 0; }
+/* The chosen slot: its tile ringed in the one red */
+.dslot[aria-pressed="true"] .ico { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.dslot[aria-pressed="true"] .ty { color: var(--color-ink-2); }
+/* Being tried on (not saved): a dashed warning ring instead */
+.dslot.trying .ico { outline: 2px dashed var(--color-warn); outline-offset: 3px; }
+
+.dtext { display: grid; gap: var(--space-3xs); min-width: 0; }
+.dtext .nm { font-family: var(--font-display); font-size: var(--text-md); line-height: 1.2; overflow-wrap: break-word; }
+.dslot.empty .nm { color: var(--color-muted); }
+.dtext .ty { font-size: var(--text-sm); line-height: 1.3; color: var(--color-muted); }
+.dtext .gd { font-size: var(--text-xs); line-height: 1.3; color: var(--color-accent-text); }
+.trying-tag { font-weight: 700; color: var(--color-warn); }
+
+/* The portrait: the official class art on the deep plate */
+.doll-figure {
+  position: relative; overflow: hidden; min-height: 400px;
+  display: grid; place-items: end center;
+  background: var(--deep); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+}
+.doll-figure .portrait { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; }
+.doll-figure .crest { position: relative; z-index: var(--z-base); width: 44px; height: auto; margin-bottom: var(--space-md); }
+.doll-figure .crest.big { width: 120px; margin: 0; align-self: center; opacity: 0.8; }
+.art-credit {
+  position: absolute; z-index: var(--z-base); right: 0; bottom: 0;
+  padding: var(--space-3xs) var(--space-2xs); font-size: var(--text-xs); line-height: 1.2;
+  color: var(--deep-muted); background: var(--deep);
+}
+
+/* ---------- The chosen slot: tooltip, actions, then what the guide wants ---------- */
+.slot-detail { display: grid; gap: var(--space-md); align-content: start; min-width: 0; }
+.slot-detail .gt { width: 100%; max-width: none; }
+.slot-detail > .note { margin-top: calc(var(--space-xs) * -1); }
+.slot-actions { display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; }
+.tt-sec { display: grid; gap: var(--space-2xs); padding-top: var(--space-sm); border-top: var(--rule-hair) solid var(--color-rule); }
+.tt-sec p { overflow-wrap: break-word; }
+.tt-sec .steps { margin-top: var(--space-2xs); }
+.tt-sec .chip { justify-self: start; }
+.want-name { font-family: var(--font-display); font-size: var(--text-lg); line-height: 1.2; }
+.want-box { display: grid; gap: var(--space-xs); padding-top: var(--space-sm); border-top: var(--rule-hair) solid var(--color-rule); }
+.want-box .gt { opacity: 0.85; }
+
+.slot-detail .verdict-head { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-sm); align-items: center; }
+.slot-detail .verdict-title { flex: 1 1 200px; min-width: 0; font-family: var(--font-display); font-size: var(--text-lg); line-height: 1.2; }
+
+.tt-shot {
+  appearance: none; display: block; max-width: 100%; padding: 0; cursor: zoom-in; overflow: hidden;
+  background: var(--deep); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+  transition: border-color var(--dur-micro) var(--ease-out);
+}
+.tt-shot:hover { border-color: var(--color-rule-strong); }
+.tt-shot:active { transform: translateY(1px); }
+.tt-shot img { display: block; max-width: 100%; max-height: 260px; margin-inline: auto; }
+.tt-shot.big { cursor: zoom-out; }
+.tt-shot.big img { max-height: none; }
+
+form.slot-detail.edit { padding: var(--space-md); background: var(--color-paper-2); border-radius: var(--radius-card); }
+
+/* Pick from a list: rows on hairlines, no boxes */
+.pick-list { display: grid; gap: var(--space-sm); }
+.pick-head { display: grid; gap: var(--space-2xs); }
+.pick-items { display: grid; max-height: 60dvh; overflow-y: auto; overscroll-behavior: contain; border-top: var(--rule-hair) solid var(--color-rule); }
+.pick-item {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: var(--space-sm); align-items: center;
+  padding-block: var(--space-xs); border-bottom: var(--rule-hair) solid var(--color-rule);
+}
+.pick-item .ico { width: 48px; height: 48px; }
+.pi-text { display: grid; min-width: 0; }
+.pi-text b { font-family: var(--font-display); font-weight: 400; line-height: 1.25; overflow-wrap: break-word; }
+.pi-text small { display: flex; flex-wrap: wrap; gap: 0 var(--space-xs); font-size: var(--text-sm); color: var(--color-muted); }
+.pi-guide { color: var(--color-accent-text); }
+.pi-kind { text-transform: capitalize; }
+.pi-acts { display: flex; gap: var(--space-2xs); }
+.pi-acts .btn { min-height: 32px; }
+
+/* ---------- Talisman, runes and Splinters ---------- */
+.lo-kit { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: var(--space-xl) var(--space-lg); align-items: start; }
+.tal-body { display: grid; grid-template-columns: var(--lo-tal) minmax(0, 1fr); gap: var(--space-md) var(--space-lg); align-items: start; }
+.tal-side { display: grid; gap: var(--space-sm); min-width: 0; }
+
+/* The talisman: the seal in the middle, six charm sockets round it, all on the deep plate */
+.talisman {
+  position: relative; width: var(--lo-tal); aspect-ratio: 1;
+  background: var(--deep); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+}
+.talisman::before {
+  content: ""; position: absolute; inset: 8%; border-radius: 50%; pointer-events: none;
+  border: var(--rule-hair) solid var(--deep-edge);
+}
+.tal-ring {
+  position: absolute; width: var(--lo-sock); height: var(--lo-sock); transform: translate(-50%, -50%);
+  border-radius: 50%; background: var(--deep-2); border: var(--rule-hair) solid var(--deep-edge);
+}
+.tal-ring.seal-ring { width: var(--lo-seal); height: var(--lo-seal); border-color: var(--deep-muted); }
+/* A filled socket is edged in its charm's rarity */
+.tal-ring:has(+ .tal-socket.mythic) { border-color: var(--dk-mythic); }
+.tal-ring:has(+ .tal-socket.unique) { border-color: var(--dk-unique); }
+.tal-ring:has(+ .tal-socket.set) { border-color: var(--dk-set); }
+.tal-ring:has(+ .tal-socket.seal:not(.empty)) { border-color: var(--dk-mythic); }
+
+.tal-socket {
+  appearance: none; position: absolute; z-index: var(--z-base); width: 42px; height: 42px; padding: 0; margin: 0;
+  transform: translate(-50%, -50%); display: grid; place-items: center; cursor: pointer;
+  background: none; border: 0; border-radius: 50%; color: var(--deep-muted);
+  transition: transform var(--dur-micro) var(--ease-out);
+}
+.tal-socket.seal { width: 68px; height: 68px; }
+.tal-socket img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.tal-socket:hover { transform: translate(-50%, -50%) scale(1.08); }
+.tal-socket:active { transform: translate(-50%, -50%) scale(0.97); }
+.tal-socket:focus-visible { outline-offset: 3px; }
+.tal-socket .plus { font-family: var(--font-display); font-size: var(--text-lg); line-height: 1; color: var(--deep-dim); transition: color var(--dur-micro) var(--ease-out); }
+.tal-socket.empty:hover .plus { color: var(--deep-ink); }
+
+.tal-picker { display: grid; gap: var(--space-xs); padding: var(--space-sm); background: var(--color-paper-2); border-radius: var(--radius-card); }
+
+.lo-talisman .charms { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2xs); font-size: var(--text-sm); line-height: 1.4; }
+.charms .set-count { color: var(--color-set); font-weight: 700; }
+.charms .set-count .muted { font-weight: 400; }
+.charms .ok { color: var(--color-good); }
+.charms .tal-guide { display: grid; gap: var(--space-2xs); margin-top: var(--space-xs); padding-top: var(--space-xs); border-top: var(--rule-hair) solid var(--color-rule); color: var(--color-ink); }
+.lo-talisman .charms .tal-guide ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-xs); }
+/* the shared .have tag must not box a checklist row */
+.charms .tal-guide li.have, .charms .tal-guide li.need { box-shadow: none; padding: 0; white-space: normal; font-size: inherit; font-weight: 400; color: var(--color-ink); border-radius: 0; }
+.charms .tal-guide li { display: grid; grid-template-columns: 16px minmax(0, 1fr); gap: var(--space-xs); align-items: start; }
+.charms .tal-guide b { font-weight: 700; }
+.charms .tal-guide .mark { font-weight: 700; }
+.charms .tal-guide .have .mark { color: var(--color-good); }
+.charms .tal-guide .need .mark { color: var(--color-bad); }
+.charms .tal-guide .aff { color: var(--color-ink-2); }
+
+/* Runes and Splinters: the art on a small deep tile, its name and slot under it */
+.lo-sockets { gap: var(--space-lg); }
+.foot-group { display: grid; gap: var(--space-xs); align-content: start; }
+.runes, .splinters { display: flex; flex-wrap: wrap; gap: var(--space-sm); align-items: start; }
+.rune, .splinter {
+  appearance: none; cursor: help; display: grid; justify-items: center; gap: var(--space-3xs);
+  min-width: 72px; padding: var(--space-2xs); text-align: center;
+  font-size: var(--text-sm); line-height: 1.25; color: var(--color-ink);
+  background: none; border: var(--rule-hair) solid transparent; border-radius: var(--radius-control);
+  transition: border-color var(--dur-micro) var(--ease-out);
+}
+.rune:hover, .splinter:hover { border-color: var(--color-rule-strong); }
+.rune:active, .splinter:active { transform: translateY(1px); }
+.rune img, .splinter img {
+  width: 52px; height: 52px; object-fit: contain; padding: var(--space-2xs);
+  background: var(--deep); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+}
+.splinter img { border-color: var(--dk-legendary); }
+.rune small, .splinter small { display: block; font-size: var(--text-xs); color: var(--color-muted); }
+.rune small.move, .splinter small.move { color: var(--color-warn); }
+.rune.ghost, .splinter.ghost { border-style: dashed; border-color: var(--color-rule-strong); color: var(--color-muted); }
+.rune.ghost img, .splinter.ghost img { filter: grayscale(1) brightness(0.55); }
+
+/* ---------- Stat targets ---------- */
+.stats-head { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-md); align-items: baseline; justify-content: space-between; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: var(--space-md) var(--space-lg); }
+.stat { display: grid; gap: var(--space-2xs); min-width: 0; }
+.stat-top { display: flex; justify-content: space-between; gap: var(--space-xs); align-items: baseline; }
+.stat-name { min-width: 0; }
+.stat-val { font-size: var(--text-md); }
+.stat input { min-height: 32px; width: 9ch; font-family: var(--font-outlier); font-variant-numeric: tabular-nums; text-align: right; }
+.meter { height: 4px; background: var(--lo-track); border-radius: var(--radius-control); overflow: hidden; }
+.meter > i { display: block; height: 100%; background: var(--color-muted); }
+.meter.ok > i { background: var(--color-good); }
+.meter.low > i { background: var(--color-warn); }
+.meter.bad > i { background: var(--color-bad); }
+.stat-target { font-size: var(--text-xs); color: var(--color-muted); }
+
+/* ---------- Gear stats ---------- */
+.gear-stats { gap: var(--space-md); }
+.gear-stats > .note { font-size: var(--text-sm); }
+.trying-note { color: var(--color-warn); }
+.fit-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-sm) var(--space-lg); }
+.fit { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-2xs) var(--space-xs); font-size: var(--text-sm); align-items: baseline; }
+.fit b { font-weight: 400; color: var(--color-ink); }
+.fit i { grid-column: 1 / -1; position: relative; height: 4px; overflow: hidden; background: var(--lo-track); border-radius: var(--radius-control); }
+.fit i::before { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--p); background: var(--color-ink-2); }
+.gs-groups { display: grid; gap: var(--space-md); }
+.gs-group { display: grid; gap: var(--space-2xs); }
+.gs-group > .label { color: var(--color-ink); font-weight: 700; }
+.gs-group dl { margin: 0; display: grid; }
+.gs-group dl div { display: flex; justify-content: space-between; gap: var(--space-xs); padding-block: var(--space-3xs); border-bottom: var(--rule-hair) solid var(--color-rule); font-size: var(--text-sm); line-height: 1.35; }
+.gs-group dt { color: var(--color-muted); min-width: 0; }
+.gs-group dd { margin: 0; white-space: nowrap; color: var(--color-ink); }
+.delta { font-size: var(--text-xs); }
+.delta.up { color: var(--color-good); }
+.delta.down { color: var(--color-bad); }
+
+/* ---------- Narrower screens ---------- */
+@media (max-width: 75rem) {
+  .loadout-grid { grid-template-columns: minmax(0, 1fr); }
+  .lo-main, .lo-side { display: contents; }
+  .doll-wrap { order: 1; }
+  .lo-detail { order: 2; max-width: 720px; }
+  .lo-head { grid-template-columns: minmax(0, 1fr); }
+  .lo-head > .share-row { grid-column: 1; grid-row: auto; justify-content: flex-start; }
+  .lo-kit { order: 3; }
+  .gear-stats { order: 4; }
+  .stats-panel { order: 5; }
+  .gs-groups { grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: var(--space-md) var(--space-lg); }
+}
+@media (max-width: 52rem) {
+  .lo-kit { grid-template-columns: minmax(0, 1fr); }
+  .loadout { --lo-figure: 220px; --lo-tile: 56px; }
+}
+@media (max-width: 40rem) {
+  .loadout { --lo-tile: 48px; }
+  .doll { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-sm) var(--space-xs); }
+  .doll-figure { grid-column: 1 / -1; order: -1; min-height: 200px; }
+  .doll-col { grid-template-rows: none !important; align-content: start; }
+  .doll-col .dslot.spacer { display: none; }
+  .doll-col.left .dslot { flex-direction: row; text-align: left; }
+  .dslot { gap: var(--space-xs); }
+  .dtext .nm { font-size: var(--text-sm); }
+  .dtext .ty { font-size: var(--text-xs); }
+  .tal-body { grid-template-columns: minmax(0, 1fr); }
+  .fit-grid { grid-template-columns: minmax(0, 1fr); }
+  .pick-item { grid-template-columns: 48px minmax(0, 1fr); }
+  .pi-acts { grid-column: 1 / -1; }
+}
+
+/* Reduced motion: sockets and slots answer without moving */
+@media (prefers-reduced-motion: reduce) {
+  .tal-socket, .tal-socket:hover, .tal-socket:active { transform: translate(-50%, -50%); transition: none; }
+  .dslot:active, .rune:active, .splinter:active, .tt-shot:active { transform: none; }
+}

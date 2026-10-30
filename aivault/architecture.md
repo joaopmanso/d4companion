@@ -16,7 +16,14 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 | File | Role |
 |---|---|
 | `src/main.js` | Routing, header (character picker, guide picker), loading the build plus class data (`ensureBuild`), migrations, share-link banner, global paste handler. `VIEWS` lists the tabs. `NEEDS_CHAR` lists views that need a character. |
-| `src/app.css`, `src/styles.css` | All styling, with theme tokens for light and dark. |
+| `src/css/app.css` | Entry stylesheet: the Hallmark stamp (the design's recorded decisions), then imports the rest in order. |
+| `src/css/tokens.css` | Every colour, font, space, size and duration token; dark default, light under `[data-theme=light]`; the fixed "deep plate" colours for game art. |
+| `src/css/base.css` | Hallmark's base rules (focus ring, clipping, reduced motion). Rarely edited. |
+| `src/css/shell.css` | The bar, tabs, footer and shared components (`.btn`, `.panel`, tags, `.ico` item tile, `.gt` game tooltip, tables, `.seg`). |
+| `src/css/loadout.css` | Loadout screen: paperdoll, talisman, runes, slot tooltip, gear stats, pick list. |
+| `src/css/trees.css` | Skill tree and Paragon screens. |
+| `src/css/check.css` | Item check (and the item form it shares with the loadout), farm guide, Hordes. |
+| `src/css/pages.css` | War Plans, Strongrooms, Sources, Characters, the welcome flow and the guide picker dialog. |
 | `index.html` | Shell markup: header, tabs, `#main`. |
 
 ### Views (`src/views/`), one per tab, each exporting `render(root, ctx)`

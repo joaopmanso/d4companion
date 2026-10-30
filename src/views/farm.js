@@ -43,13 +43,15 @@ export function render(root, { char, build }) {
   root.innerHTML = `<section class="view">
     <div class="view-head"><h2>Farm guide</h2><p>Where every piece of ${esc(build.name)} comes from this season and the fastest way to get it, best route first. Items ${esc(char.name)} already wears in the guide's version are hidden unless you show all.</p></div>
     <div class="filters">
-      <button class="btn ghost" data-f="todo" aria-pressed="${filter === "todo"}">Still to farm (${list.filter((t) => !t.have).length})</button>
-      <button class="btn ghost" data-f="all" aria-pressed="${filter === "all"}">Everything (${list.length})</button>
+      <div class="filter-set">
+        <button type="button" class="btn" data-f="todo" aria-pressed="${filter === "todo"}">Still to farm <span class="data">${list.filter((t) => !t.have).length}</span></button>
+        <button type="button" class="btn" data-f="all" aria-pressed="${filter === "all"}">Everything <span class="data">${list.length}</span></button>
+      </div>
       <span class="note">Best routes use: ${kinds.map((k) => `<span class="kind ${k}">${esc(KIND_LABEL[k])}</span>`).join(" ")}</span>
     </div>
     <div class="farm-list">${shown.map(({ src, art, where, have, status }) => `<article class="panel farm-card">
       <span class="ico t-${src.rarity === "set" ? "set" : src.rarity}">${art ? `<img class="art" src="${esc(art)}" alt="">` : ""}</span>
-      <div style="display:grid;gap:8px;min-width:0">
+      <div class="farm-body">
         <h3><span class="r-${src.rarity}">${esc(src.name)}</span><small>${esc(where)}</small>${have ? `<span class="have">Have it</span>` : status ? `<small>${esc(status)}</small>` : ""}</h3>
         ${src.power ? `<p class="note">${esc(src.power)}</p>` : ""}
         <div class="routes">${src.routes.map((r) => `<div class="route${r.best ? " best" : ""}">

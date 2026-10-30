@@ -28,7 +28,7 @@ function boardHtml(bd, def, bi, { guideOn, editable }) {
 function mapHtml(boards) {
   const xs = boards.map((b) => b.x), ys = boards.map((b) => b.y);
   const minX = Math.min(...xs), minY = Math.min(...ys), w = Math.max(...xs) - minX + 1, h = Math.max(...ys) - minY + 1;
-  return `<div class="pg-map" style="grid-template-columns:repeat(${w}, 1fr);grid-template-rows:repeat(${h}, 1fr);aspect-ratio:${w}/${h}">${boards.map((b, i) => `<a href="#pg-${i}" data-jump="${i}" style="grid-column:${b.x - minX + 1};grid-row:${b.y - minY + 1}" title="${esc(b.name)}"><b>${i + 1}</b><span>${esc(b.name)}</span></a>`).join("")}</div>`;
+  return `<div class="pg-map deep" style="grid-template-columns:repeat(${w}, 1fr);grid-template-rows:repeat(${h}, 1fr);aspect-ratio:${w}/${h}">${boards.map((b, i) => `<a href="#pg-${i}" data-jump="${i}" style="grid-column:${b.x - minX + 1};grid-row:${b.y - minY + 1}" title="${esc(b.name)}"><b>${i + 1}</b><span>${esc(b.name)}</span></a>`).join("")}</div>`;
 }
 
 export function render(root, ctx) {
@@ -72,8 +72,8 @@ export function render(root, ctx) {
             <select data-glyph-set="${i}" aria-label="Glyph"><option value="">No glyph</option>${glyphs.map((n) => `<option${n === b.glyph ? " selected" : ""}>${esc(n)}</option>`).join("")}</select>
             ${i ? `<button class="btn ghost" data-remove="${i}">Remove</button>` : ""}`
           : `${b.rotate ? `<span class="tag">Turned ${b.rotate}°</span>` : ""}`}
-          <span class="tag">${b.on.length} points${g ? ` · guide ${g.size}` : mine ? " · not in guide" : ""}</span></div>
-        <div class="pg-frame">${def ? boardHtml(b, def, i, { guideOn: g, editable }) : `<p class="note">This board's layout hasn't been synced yet.</p>`}</div>
+          <span class="tag"><span class="data">${b.on.length}</span> points</span>${g ? `<span class="tag">Guide: <span class="data">${g.size}</span></span>` : mine ? `<span class="tag">Not in guide</span>` : ""}</div>
+        <div class="pg-frame deep">${def ? boardHtml(b, def, i, { guideOn: g, editable }) : `<p class="note">This board's layout hasn't been synced yet.</p>`}</div>
         ${leg[0] ? `<p><b class="r-legendary">${esc(leg[1] || leg[0])}</b>${leg.length > 2 ? `: ${esc(leg.slice(2).join(" "))}` : ""}</p>` : ""}
         <p><b class="pg-glyph-name">${esc(b.glyph || "No glyph")}</b> <span class="note">glyph</span></p>
       </article>`;
@@ -102,7 +102,7 @@ export function render(root, ctx) {
     // The site writes the node type first ("Rare Node", "Magic Node"); show the node's name first instead.
     const lines = (t.tip || "").split("\n");
     const text = /(node|glyph)$/i.test(lines[0] || "") && lines[1] ? [lines[1], lines[0], ...lines.slice(2)].join("\n") : t.tip;
-    const foot = isEditable() ? `${lit ? "Taken" : "Not taken"} · guide: ${inGuide ? "takes it" : "doesn't"}. Click to ${lit ? "remove" : "take"} it.` : lit ? "On this path." : "Not taken.";
+    const foot = isEditable() ? `${lit ? "Taken" : "Not taken"}. Guide: ${inGuide ? "takes it" : "doesn't"}. Click to ${lit ? "remove" : "take"} it.` : lit ? "On this path." : "Not taken.";
     return tipFromText(text, { r, art: t.iconOn || t.icon, foot });
   });
 

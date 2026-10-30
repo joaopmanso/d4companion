@@ -29,9 +29,9 @@ export function affixListHtml(lines, { why = false } = {}) {
 
 export function typeLine(item, slotId, { html = false } = {}) {
   const r = rarityOf(item);
-  if (r === "unknown") return `${SLOT[slotId].noun} · not recorded`;
+  if (r === "unknown") return `${SLOT[slotId].noun}, not recorded`;
   const anc = item.ancestral ? (html ? `<span class="anc-text">Ancestral</span> ` : "Ancestral ") : "";
-  return `${anc}${item.crafted ? "Crafted " : ""}${RARITY_LABEL[r]} ${esc(SLOT[slotId].noun)}${item.itemPower ? ` · ${item.itemPower} Item Power` : ""}`;
+  return `${anc}${item.crafted ? "Crafted " : ""}${RARITY_LABEL[r]} ${esc(SLOT[slotId].noun)}${item.itemPower ? `, ${item.itemPower} Item Power` : ""}`;
 }
 
 export function itemTip(item, slotId, build, ev, { why = false, foot = "" } = {}) {

@@ -14,15 +14,15 @@ export function render(root) {
   root.innerHTML = `<section class="view">
     <div class="view-head"><h2>Hordes picker</h2><p>Enter the three Infernal Offers you're shown. The picker ranks them from Maxroll's order and adjusts for what you already took this run. Your run is kept in this browser only.</p></div>
     <div class="hordes">
-      <div class="panel">
-        <div class="row" style="justify-content:space-between"><h3>This run</h3><button class="btn ghost" id="run-reset">New run</button></div>
+      <div class="panel hordes-run">
+        <div class="row run-head"><h3>This run</h3><button type="button" class="btn small" id="run-reset">New run</button></div>
         <div class="picks" id="run-picks"></div>
         <p class="note" id="run-plan"></p>
         <div class="field"><label class="label" for="run-add">Add a pick by hand</label><select id="run-add">${opts}</select></div>
         <div class="slot-next"><span class="label">After the last wave</span>
           <p>Spend on <b>Bartuc</b> at 666 (Hand of Apotheosis). Below that, <b>Greater Equipment</b> at 400. With Council Coffers, open the <b>Chest of Talismans</b> for set charms. Materials and Gold eat everything left, so open them last.</p></div>
       </div>
-      <div class="panel">
+      <div class="panel hordes-offers">
         <h3>Offers now</h3>
         <div class="offer-row">${[1, 2, 3].map((i) => `<select id="offer-${i}" aria-label="Offer ${i}">${opts}</select>`).join("")}</div>
         <div class="verdicts" id="verdicts"></div>
@@ -33,7 +33,7 @@ export function render(root) {
   const offers = () => [1, 2, 3].map((i) => $(`#offer-${i}`, root));
   function renderRun() {
     $("#run-picks", root).innerHTML = run.length
-      ? run.map((id, i) => `<span class="pick">${esc(short(id))}<button aria-label="Remove ${esc(short(id))}" data-rm="${i}">×</button></span>`).join("")
+      ? run.map((id, i) => `<span class="pick">${esc(short(id))}<button type="button" aria-label="Remove ${esc(short(id))}" data-rm="${i}">×</button></span>`).join("")
       : `<span class="note">No picks yet. Take your first offer from the right.</span>`;
     const lords = run.includes("colossal"), puff = run.includes("puffing"), spires = SPIRE_MULT.some((x) => run.includes(x));
     $("#run-plan", root).textContent = lords ? "Plan: Lords. Look for Fiendish Legions, Teeming Masses, Ruthless Lords, Exalted Fiends."
@@ -50,7 +50,7 @@ export function render(root) {
       const tag = i === 0 ? `<span class="tag take">Take this</span>` : r.score < 30 ? `<span class="tag skip">Skip</span>` : `<span class="tag">Second choice</span>`;
       return `<div class="verdict${i === 0 ? " best" : ""}"><div class="verdict-top"><span class="verdict-name">${esc(o.name)}</span>${tag}</div>
         <p class="note">${esc(o.fx)}</p><ul>${r.why.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-        <div class="row"><button class="btn ${i === 0 ? "primary" : "ghost"}" data-take="${r.id}">${i === 0 ? "I took it" : "I took this one instead"}</button></div></div>`;
+        <div class="row"><button type="button" class="btn ${i === 0 ? "primary" : "ghost"}" data-take="${r.id}">${i === 0 ? "I took it" : "I took this one instead"}</button></div></div>`;
     }).join("");
   }
   const addPick = (id) => { if (!id) return; run.push(id); saveRun(); offers().forEach((s) => { s.value = ""; }); renderRun(); renderVerdicts(); };

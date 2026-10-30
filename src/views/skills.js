@@ -61,7 +61,7 @@ function summaryHtml(tree, alloc, guide, mine) {
     const pts = alloc[s.key] || 0, gp = guide[s.key] || 0;
     const kids = tree.nodes.filter((n) => own.get(n.key) === s.key && (alloc[n.key] || (mine && guide[n.key])));
     return `<div class="ss-skill${pts ? "" : " missing"}">
-      <button class="ss-head" data-node="${idx.get(s.key)}"><img src="${esc(s.icon)}" alt=""><span><b>${esc(s.name)}</b><small>${pts}/${maxOf(s)}${mine && gp !== pts ? ` · guide ${gp}` : ""}</small></span></button>
+      <button class="ss-head" data-node="${idx.get(s.key)}"><img src="${esc(s.icon)}" alt=""><span><b>${esc(s.name)}</b><small class="data">${pts}/${maxOf(s)}</small>${mine && gp !== pts ? `<small class="ss-guide">Guide: <span class="data">${gp}</span></small>` : ""}</span></button>
       ${kids.length ? `<div class="ss-mods">${kids.map((k) => {
         const have = alloc[k.key] > 0, want = guide[k.key] > 0;
         return `<button class="ss-mod${have ? "" : " missing"}${mine && have && !want ? " extra" : ""}" data-node="${idx.get(k.key)}"><img src="${esc(k.icon)}" alt="">${esc(k.name)}</button>`;
@@ -92,13 +92,13 @@ export function render(root, ctx) {
       ${tree ? `<button class="btn" data-act="full">${full ? "Collapse tree" : "Show full tree"}</button>` : ""}
     </div>
     <div class="skill-top">
-      <div class="panel"><h3>Skill bar</h3><div class="skill-bar">${s.bar.map((k, i) => `<button class="skill-icon" data-bar="${i}"><img src="${esc(k.icon)}" alt="">${esc(k.name)}</button>`).join("")}</div><p class="note">The guide's bar.</p></div>
-      <div class="panel"><h3>Prime Evil powers</h3><div class="prime">${(s.prime || []).map((p, i) => `<button class="${p.main ? "main" : ""}" data-prime="${i}">${p.icon ? `<img src="${esc(p.icon)}" alt="">` : ""}${esc(p.name)}${p.main ? " (main)" : ""}</button>`).join("")}</div>
+      <div class="panel"><h3>Skill bar</h3><div class="skill-bar deep">${s.bar.map((k, i) => `<button class="skill-icon" data-bar="${i}"><img src="${esc(k.icon)}" alt=""><span>${esc(k.name)}</span></button>`).join("")}</div><p class="note">The guide's bar.</p></div>
+      <div class="panel"><h3>Prime Evil powers</h3><div class="prime deep">${(s.prime || []).map((p, i) => `<button class="${p.main ? "main" : ""}" data-prime="${i}">${p.icon ? `<img src="${esc(p.icon)}" alt="">` : ""}<span>${esc(p.name)}${p.main ? " (main)" : ""}</span></button>`).join("")}</div>
         ${s.soulShard?.length ? `<p class="note">Soul Shard: <b>${esc(s.soulShard.map((x) => x.shard).join(", "))}</b></p>` : ""}</div>
     </div>
     ${tree ? (full
       ? `${mine && !readOnly ? `<p class="note">Click a node for +1, right-click for −1, Ctrl-click to max or clear it. Orange rings: the guide takes it and you don't. Blue: yours, not the guide's.</p>` : ""}
-         <div class="st-wrap" id="st-wrap"><div class="st-scale" id="st-scale" style="height:${t.h}px">${t.html}</div></div>`
+         <div class="st-wrap deep" id="st-wrap"><div class="st-scale" id="st-scale" style="height:${t.h}px">${t.html}</div></div>`
       : `<div class="panel"><h3>${mine ? "Your skills" : "The guide's skills"}</h3>${summaryHtml(tree, alloc, guide, mine && !readOnly)}</div>`)
       : `<p class="warnbox">The skill-tree layout hasn't been synced yet.</p>`}
   </section>`;
@@ -127,7 +127,7 @@ export function render(root, ctx) {
     const n = c.tree.nodes[+el.dataset.node];
     if (n.kind === "category") return "";
     const g = b.skills.tree[n.key] || 0, m = ch?.skillTree?.[n.key] || 0;
-    const foot = `Guide: ${g ? `${g}/${maxOf(n)}` : "not taken"}${ch ? ` · Yours: ${m ? `${m}/${maxOf(n)}` : "not taken"}` : ""}.`;
+    const foot = `Guide: ${g ? `${g}/${maxOf(n)}` : "not taken"}.${ch ? ` Yours: ${m ? `${m}/${maxOf(n)}` : "not taken"}.` : ""}`;
     return tipFromText(n.tip, { name: n.name || undefined, art: n.icon, r: g || m ? "legendary" : "unknown", foot });
   });
 

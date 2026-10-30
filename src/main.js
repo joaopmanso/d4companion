@@ -1,5 +1,4 @@
-import "./styles.css";
-import "./app.css";
+import "./css/app.css";
 import { $, esc } from "./lib/dom.js";
 import { store } from "./lib/store.js";
 import { loadIndex, loadGuide, loadClass, DEFAULT_GUIDE } from "./data/guides.js";
@@ -84,10 +83,10 @@ function renderHeader() {
   const b = loaded.build;
   const entry = index.guides.find((g) => g.id === b?.id);
   $("#guide-pick").innerHTML = c && b
-    ? `${entry?.icon ? `<img src="${esc(entry.icon)}" alt="">` : ""}<span><b>${esc(entry?.short || b.name)}</b> · ${esc(b.variant)}${entry?.tier ? ` <i class="tier-chip t-${esc(entry.tier)}">${esc(entry.tier)}</i>` : ""}</span><span class="change">Change</span>`
+    ? `${entry?.icon ? `<img src="${esc(entry.icon)}" alt="">` : ""}${entry?.tier ? `<i class="tier-chip t-${esc(entry.tier)}">${esc(entry.tier)}</i>` : ""}<span><b>${esc(entry?.short || b.name)}</b>, ${esc(b.variant)}</span><span class="change">Change</span>`
     : `<span>Create a character to pick a guide</span><span class="change">Start</span>`;
-  $("#build-line").innerHTML = c && b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a> · guide updated ${esc(b.guide.updated || "?")} · guides checked daily, last change ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}` : "";
-  $("#season-line").textContent = c && b ? `Diablo IV · Season ${b.season} · ${c.className || b.className}` : "Diablo IV · Season 15";
+  $("#build-line").innerHTML = c && b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a><span>Guide updated ${esc(b.guide.updated || "?")}</span><span>Guides checked daily, last change ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}</span>` : "";
+  $("#season-line").textContent = c && b ? `Season ${b.season} ${c.className || b.className}` : "Diablo IV, Season 15";
 }
 
 async function render() {

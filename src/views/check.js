@@ -96,8 +96,8 @@ function paint() {
   const settings = store.settings();
   const engineBtns = [];
   if (S.blob && !S.busy) {
-    if (settings.apiKey && S.item?.engine !== "claude") engineBtns.push(`<button class="btn ghost" data-reread="claude">Read with Claude</button>`);
-    if (S.item?.engine !== "ocr") engineBtns.push(`<button class="btn ghost" data-reread="ocr">Read with free OCR</button>`);
+    if (settings.apiKey && S.item?.engine !== "claude") engineBtns.push(`<button type="button" class="btn small" data-reread="claude">Read with Claude</button>`);
+    if (S.item?.engine !== "ocr") engineBtns.push(`<button type="button" class="btn small" data-reread="ocr">Read with free OCR</button>`);
   }
   if (!settings.apiKey) engineBtns.push(`<span class="note">Using free OCR. Add an Anthropic API key in <a href="#/characters">Settings</a> for much better reading.</span>`);
   $("#c-engine", root).innerHTML = engineBtns.join("");
@@ -131,14 +131,25 @@ function paintVerdict(char, build) {
     : tipCard({ name: SLOT[slotId].name, type: "Empty slot", r: "unknown", art: itemArt(null, slotId, build) });
   box.innerHTML = `<div class="verdict-card">
     <div class="verdict-head"><span class="badge ${ev.verdict}">${label}</span><span class="verdict-title">${esc(ev.headline)}</span></div>
-    <p class="scores">Score ${ev.score} vs your ${ev.currentScore} · ${ev.potential} once fixed · for ${esc(char.name)}, ${esc(SLOT[slotId].name)}</p>
-    ${itemTip(S.item, slotId, build, ev, { why: true })}
-    <div><span class="label">What to do with it</span>${actions}</div>
-    ${ev.notes.length ? `<ul class="note">${ev.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
-    <details><summary class="label">Compare with what you wear now</summary>${curTip}</details>
-    <div class="row">
-      <button class="btn primary" id="c-equip"${S.saved ? " disabled" : ""}>${S.saved ? "Equipped" : `Equip as ${esc(SLOT[slotId].name)}`}</button>
-      <button class="btn ghost" id="c-clear">Clear</button>
+    <div class="scores">
+      <dl>
+        <div><dt>Score</dt><dd class="data">${ev.score}</dd></div>
+        <div><dt>Yours now</dt><dd class="data">${ev.currentScore}</dd></div>
+        <div><dt>Once fixed</dt><dd class="data">${ev.potential}</dd></div>
+      </dl>
+      <p class="note">For ${esc(char.name)}, ${esc(SLOT[slotId].name)}</p>
+    </div>
+    <div class="verdict-body">
+      ${itemTip(S.item, slotId, build, ev, { why: true })}
+      <div class="verdict-todo">
+        <span class="label">What to do with it</span>${actions}
+        ${ev.notes.length ? `<ul class="note verdict-notes">${ev.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+      </div>
+    </div>
+    <details class="verdict-compare"><summary class="label">Compare with what you wear now</summary>${curTip}</details>
+    <div class="row verdict-act">
+      <button type="button" class="btn primary" id="c-equip"${S.saved ? " disabled" : ""}>${S.saved ? "Equipped" : `Equip as ${esc(SLOT[slotId].name)}`}</button>
+      <button type="button" class="btn ghost" id="c-clear">Clear</button>
       <span class="note" id="c-saved">${S.saved ? `Saved to ${esc(char.name)}'s ${esc(SLOT[slotId].name)}.` : ""}</span>
     </div>
   </div>`;

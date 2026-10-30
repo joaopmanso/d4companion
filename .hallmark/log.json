@@ -1,0 +1,33 @@
+[
+ {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "app",
+  "theme": "custom",
+  "shape": "app screen",
+  "axes": "dark/roman-serif/chromatic-red",
+  "nav": "top bar over one tab row",
+  "footer": "centred fair-use notice",
+  "hero": "none (app)",
+  "imagery": "game art on the deep plate",
+  "photos": [],
+  "signature": "the game item tooltip with every line marked keep or reroll",
+  "sections": [
+   "loadout",
+   "item check",
+   "skills",
+   "paragon",
+   "farm",
+   "hordes",
+   "war plans",
+   "strongrooms",
+   "sources",
+   "characters"
+  ],
+  "waived": [
+   "39b"
+  ],
+  "prompt": "Diablo IV build companion, Diablo look and feel, clean and unique",
+  "date": "2026-10-30"
+ }
+]

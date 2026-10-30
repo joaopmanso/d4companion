@@ -10,7 +10,7 @@ function affixRow(a = { text: "", kind: "affix", ga: false }) {
   return `<div class="aff-row">
     <input type="text" data-f="text" value="${esc(a.text)}" placeholder="+12.5% Critical Strike Damage" aria-label="Affix line">
     <select data-f="kind" aria-label="Line type">${KINDS.map(([v, l]) => `<option value="${v}"${a.kind === v ? " selected" : ""}>${l}</option>`).join("")}</select>
-    <label title="Greater Affix (star icon)"><input type="checkbox" data-f="ga"${a.ga ? " checked" : ""}> GA</label>
+    <label class="ga" title="Greater Affix (star icon)"><input type="checkbox" data-f="ga"${a.ga ? " checked" : ""}> GA</label>
     <button type="button" class="x" data-rm aria-label="Remove line">×</button>
   </div>`;
 }

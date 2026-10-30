@@ -1,0 +1,341 @@
+/* The shell and the parts every screen shares: the bar, the tabs, headings, controls, tags,
+   tables, the item tile and the game's tooltip. Screen-specific rules live in their own files. */
+
+body { font-size: var(--text-md); line-height: 1.55; font-synthesis: none; }
+.wrap, .container {
+  width: 100%; max-width: var(--container); margin-inline: auto;
+  padding-inline: max(var(--gutter), env(safe-area-inset-left, 0px));
+}
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+a { color: var(--color-accent-text); }
+a:hover { color: var(--color-ink); }
+h1, h2, h3 { font-weight: 400; letter-spacing: var(--tracking-display); line-height: 1.15; color: var(--color-ink); }
+h2 { font-size: var(--text-section); max-width: 30ch; }
+h3 { font-size: var(--text-title); max-width: 40ch; }
+p { max-width: 70ch; }
+
+/* ---------- The bar: wordmark, who you are playing, which guide, settings ---------- */
+.bar {
+  position: sticky; top: 0; z-index: var(--z-sticky-nav);
+  background: var(--color-paper); border-bottom: var(--rule-hair) solid var(--color-rule);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.bar-row {
+  display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--space-xs) var(--space-lg);
+  align-items: center; padding-block: var(--space-sm);
+}
+.brand { display: grid; gap: 0; min-width: 0; }
+.brand h1 { font-size: var(--text-wordmark); line-height: 1.1; white-space: nowrap; }
+.brand h1 a { color: var(--color-ink); text-decoration: none; }
+.brand h1 a:hover { color: var(--color-accent-text); }
+.season { font-size: var(--text-sm); color: var(--color-muted); white-space: nowrap; }
+.topbar { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-sm); align-items: end; justify-content: flex-end; min-width: 0; }
+.topbar .pick { display: grid; gap: var(--space-3xs); min-width: 0; }
+.topbar .pick > .label { font-size: var(--text-xs); }
+.topbar select { width: auto; min-width: 200px; }
+.topbar .pick.wide { flex: 0 1 440px; }
+.pick-actions { display: flex; gap: var(--space-2xs); align-items: center; }
+
+.guide-btn {
+  appearance: none; cursor: pointer; width: 100%; min-width: 0; max-width: 100%; min-height: var(--control-h);
+  display: flex; align-items: center; gap: var(--space-xs); text-align: left;
+  padding: var(--space-2xs) var(--space-xs); color: var(--color-ink);
+  background: var(--color-paper-2); border: var(--rule-hair) solid var(--color-rule-strong); border-radius: var(--radius-control);
+  transition: background-color var(--dur-micro) var(--ease-out);
+}
+.guide-btn:hover { background: var(--color-paper-3); }
+.guide-btn:active { transform: translateY(1px); }
+.guide-btn img { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; }
+.guide-btn span:first-of-type { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.guide-btn b { font-weight: 700; }
+.guide-btn .change { font-size: var(--text-sm); color: var(--color-accent-text); white-space: nowrap; }
+
+/* Tabs: one row that scrolls sideways on a phone, with no bar showing */
+.tabs { border-top: var(--rule-hair) solid var(--color-rule); }
+.tabs .wrap {
+  display: flex; gap: var(--space-lg); overflow-x: auto; scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+.tabs .wrap::-webkit-scrollbar { display: none; }
+.tab {
+  appearance: none; background: none; border: 0; cursor: pointer; white-space: nowrap; flex-shrink: 0;
+  color: var(--color-muted); font-size: var(--text-md); padding: var(--space-xs) 0 var(--space-xs);
+  box-shadow: inset 0 -2px 0 transparent;
+  transition: color var(--dur-micro) var(--ease-out);
+}
+.tab:hover { color: var(--color-ink); }
+.tab:active { transform: translateY(1px); }
+.tab[aria-selected="true"] { color: var(--color-ink); box-shadow: inset 0 -2px 0 var(--color-accent); }
+.tab:focus-visible { outline-offset: -2px; }
+
+/* Context strip under the bar: the guide's source and the paste hint */
+.context { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2xs) var(--space-lg); padding-block: var(--space-sm) 0; }
+.build-line { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-md); font-size: var(--text-sm); color: var(--color-muted); max-width: none; }
+.paste-hint { font-size: var(--text-sm); color: var(--color-muted); }
+@media (pointer: coarse) { .paste-hint { display: none; } }
+kbd {
+  font-family: var(--font-outlier); font-size: var(--text-xs); color: var(--color-ink);
+  border: var(--rule-hair) solid var(--color-rule-strong); border-radius: var(--radius-control);
+  padding: 0 var(--space-2xs); background: var(--color-paper-2);
+}
+
+@media (max-width: 60rem) {
+  .bar { position: static; }
+  .bar-row { grid-template-columns: 1fr; }
+  .topbar { justify-content: stretch; }
+  .topbar .pick, .topbar .pick.wide { flex: 1 1 240px; }
+  .topbar select { width: 100%; min-width: 0; }
+  .tabs { position: sticky; top: 0; z-index: var(--z-sticky-nav); background: var(--color-paper); }
+}
+
+/* ---------- Screens ---------- */
+main { padding-block: var(--space-xl) var(--space-2xl); }
+.view { display: grid; gap: var(--space-xl); }
+.view-head { display: grid; gap: var(--space-xs); }
+.view-head p { color: var(--color-ink-2); max-width: 70ch; }
+.label { font-size: var(--text-sm); color: var(--color-muted); }
+.data { font-family: var(--font-outlier); font-variant-numeric: tabular-nums; }
+.note { color: var(--color-muted); font-size: var(--text-sm); }
+.muted { color: var(--color-muted); }
+
+/* A section of a screen: a hairline above, its heading, then its content. No box. */
+.panel { display: grid; gap: var(--space-sm); align-content: start; min-width: 0; padding-top: var(--space-md); border-top: var(--rule-hair) solid var(--color-rule-strong); }
+.panel > h3:first-child, .panel > .row:first-child h3 { margin-bottom: var(--space-3xs); }
+.panel ol, .panel ul { margin: 0; padding-left: 1.2em; display: grid; gap: var(--space-2xs); }
+.panel ul li::marker { color: var(--color-muted); }
+.two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: var(--space-xl) var(--gap-columns); }
+.row { display: flex; gap: var(--space-xs); flex-wrap: wrap; align-items: center; }
+
+/* ---------- Controls ---------- */
+.btn {
+  appearance: none; cursor: pointer; white-space: nowrap;
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2xs);
+  min-height: var(--control-h); padding: 0 var(--space-md);
+  font-size: var(--text-md); font-weight: 700; line-height: 1;
+  color: var(--color-ink); background: transparent;
+  border: var(--rule-hair) solid var(--color-rule-strong); border-radius: var(--radius-control);
+  transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out);
+  position: relative;
+}
+.btn::after { content: ""; position: absolute; inset: -4px 0; }
+.btn:hover { background: var(--color-paper-3); }
+.btn:active { transform: translateY(1px); }
+.btn:disabled, .btn[aria-disabled="true"] { opacity: 0.55; cursor: not-allowed; transform: none; }
+.btn.primary { background: var(--color-accent); border-color: var(--color-accent); color: var(--color-accent-ink); }
+.btn.primary:hover { background: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+.btn.ghost { border-color: transparent; color: var(--color-ink-2); }
+.btn.ghost:hover { color: var(--color-ink); background: var(--color-paper-2); }
+.btn.small { min-height: 30px; padding: 0 var(--space-sm); font-size: var(--text-sm); }
+.icon-btn { padding: 0; width: var(--control-h); }
+.icon-btn svg { width: 18px; height: 18px; }
+
+input, select, textarea {
+  color: var(--color-ink); background: var(--color-paper-2);
+  border: var(--rule-hair) solid var(--color-rule-strong); border-radius: var(--radius-control);
+  min-height: var(--control-h); padding: var(--space-2xs) var(--space-xs); width: 100%;
+}
+textarea { resize: vertical; min-height: 72px; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--color-focus); outline-offset: -1px; }
+input:disabled, select:disabled, textarea:disabled { opacity: 0.55; cursor: not-allowed; }
+input[type="radio"], input[type="checkbox"] { width: auto; min-height: 0; accent-color: var(--color-accent); }
+input::placeholder, textarea::placeholder { color: var(--color-muted); }
+.field { display: grid; gap: var(--space-2xs); }
+.field > span:first-child, .field > .label { font-size: var(--text-sm); color: var(--color-muted); }
+.radio { display: flex; gap: var(--space-xs); align-items: flex-start; }
+.radio + .radio { margin-top: var(--space-2xs); }
+@media (max-width: 40rem) { input, select, textarea { font-size: var(--text-md); } }
+
+/* Segmented choice: Mine or the guide's */
+.seg { display: inline-flex; border: var(--rule-hair) solid var(--color-rule-strong); border-radius: var(--radius-control); }
+.seg button {
+  appearance: none; border: 0; cursor: pointer; min-height: 34px; padding: 0 var(--space-md);
+  background: transparent; color: var(--color-muted); font-size: var(--text-md);
+  transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out);
+}
+.seg button + button { border-left: var(--rule-hair) solid var(--color-rule-strong); }
+.seg button:hover { color: var(--color-ink); background: var(--color-paper-2); }
+.seg button:active { transform: translateY(1px); }
+.seg button[aria-selected="true"] { background: var(--color-paper-3); color: var(--color-ink); box-shadow: inset 0 -2px 0 var(--color-accent); }
+.seg button:focus-visible { outline-offset: -2px; }
+
+/* ---------- Tags: one voice for every small marker, its colour says what it is ---------- */
+.chip, .badge, .tag, .kind, .tier, .tier-chip, .have {
+  display: inline-flex; align-items: center; gap: var(--space-2xs); white-space: nowrap;
+  font-family: var(--font-body); font-style: normal; font-weight: 700; font-size: var(--text-sm); line-height: 1.3;
+  padding: 0 var(--space-2xs); border-radius: var(--radius-control); color: var(--color-muted);
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+.badge { font-size: var(--text-md); padding: var(--space-3xs) var(--space-xs); }
+.chip.done, .have, .badge.equip { color: var(--color-good); }
+.chip.todo, .badge.build { color: var(--color-warn); }
+.badge.sidegrade { color: var(--color-muted); }
+.badge.salvage, .tag.skip { color: var(--color-bad); }
+.tag.take { color: var(--color-accent-text); }
+.kind.boss { color: var(--color-mythic); } .kind.helltide { color: var(--color-accent-text); } .kind.dungeon { color: var(--color-rare); }
+.kind.craft { color: var(--color-unique); } .kind.hordes { color: var(--color-bad); } .kind.undercity { color: var(--color-set); } .kind.world { color: var(--color-muted); }
+.tier { min-width: 2.2em; justify-content: center; font-family: var(--font-display); font-weight: 400; }
+.tier.s { color: var(--color-legendary); } .tier.a { color: var(--color-unique); } .tier.b { color: var(--color-muted); } .tier.x { color: var(--color-bad); }
+.tier-chip { font-family: var(--font-display); font-weight: 400; }
+.t-S { color: var(--color-legendary); } .t-A { color: var(--color-mythic); } .t-B { color: var(--color-magic); } .t-C { color: var(--color-set); } .t-Unranked { color: var(--color-muted); }
+
+/* ---------- Rarity, as the game prints it ---------- */
+.r-mythic, .r-crafted { color: var(--color-mythic); }
+.r-unique { color: var(--color-unique); }
+.r-legendary { color: var(--color-legendary); }
+.r-rare { color: var(--color-rare); }
+.r-magic { color: var(--color-magic); }
+.r-set { color: var(--color-set); }
+.r-unknown { color: var(--color-muted); }
+
+/* ---------- The item tile: always the deep plate, edged in its rarity ---------- */
+.ico {
+  --edge: var(--deep-edge);
+  width: 58px; height: 58px; flex-shrink: 0; position: relative; display: grid; place-items: center;
+  background: var(--deep); border: var(--rule-hair) solid var(--edge); border-radius: var(--radius-card);
+}
+.ico.t-mythic, .ico.t-crafted { --edge: var(--dk-mythic); }
+.ico.t-unique { --edge: var(--dk-unique); }
+.ico.t-legendary { --edge: var(--dk-legendary); }
+.ico.t-rare { --edge: var(--dk-rare); }
+.ico.t-set { --edge: var(--dk-set); }
+.ico.t-magic { --edge: var(--dk-magic); }
+.ico.t-unknown { border-style: dashed; }
+.ico svg { width: 72%; height: 72%; }
+.ico img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ico img.art { inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); object-fit: contain; object-position: center; }
+.ico.ghost img, .ico img.art.empty { opacity: 0.35; filter: grayscale(1); }
+.ico .pip { position: absolute; top: -5px; right: -5px; width: 10px; height: 10px; transform: rotate(45deg); border: var(--rule-hair) solid var(--deep); }
+.ico .pip.done { background: var(--dk-good); }
+.ico .pip.todo { background: var(--ember); }
+/* Ancestral: the white glow the game draws around the piece (asked for by the owner) */
+.ico.ancestral {
+  border-color: var(--ancestral);
+  box-shadow: 0 0 0 1px var(--ancestral), 0 0 10px 2px color-mix(in oklab, var(--ancestral) 45%, transparent), 0 0 22px 4px color-mix(in oklab, var(--ancestral) 18%, transparent);
+}
+.ico.ancestral img.art { filter: drop-shadow(0 0 3px color-mix(in oklab, var(--ancestral) 90%, transparent)); }
+.anc-text { color: inherit; }
+
+/* ---------- The game's tooltip: the deep plate, a rarity edge, ruled sections ---------- */
+.gt {
+  --gt-edge: var(--deep-edge);
+  width: min(360px, 100%); display: grid; gap: var(--space-xs);
+  color: var(--deep-ink); background: var(--deep); line-height: 1.4;
+  border: var(--rule-hair) solid var(--gt-edge); border-top-width: 3px; border-radius: var(--radius-card);
+  padding: var(--space-md) var(--space-md) var(--space-sm);
+}
+.gt.t-mythic, .gt.t-crafted { --gt-edge: var(--dk-mythic); }
+.gt.t-unique { --gt-edge: var(--dk-unique); }
+.gt.t-legendary { --gt-edge: var(--dk-legendary); }
+.gt.t-rare { --gt-edge: var(--dk-rare); }
+.gt.t-set { --gt-edge: var(--dk-set); }
+.gt.t-magic { --gt-edge: var(--dk-magic); }
+.gt.ancestral { --gt-edge: var(--ancestral); }
+.gt-head { display: flex; justify-content: space-between; gap: var(--space-sm); align-items: flex-start; }
+.gt-head > div:first-child { min-width: 0; }
+.gt-name { font-family: var(--font-display); font-size: var(--text-lg); line-height: 1.2; overflow-wrap: break-word; }
+.gt-type { font-size: var(--text-sm); }
+.gt .ico { width: 64px; height: 64px; }
+.gt-rule { height: 1px; background: var(--deep-edge); }
+.gt-aff { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2xs); font-size: var(--text-md); }
+.gt-aff li { display: grid; grid-template-columns: 12px minmax(0, 1fr); gap: var(--space-xs); }
+.gt-aff li::before { content: ""; width: 5px; height: 5px; margin-top: 0.62em; transform: rotate(45deg); background: currentColor; }
+.gt-aff li.good { color: var(--dk-good); }
+.gt-aff li.bad { color: var(--dk-bad); }
+.gt-aff li.neutral { color: var(--deep-muted); }
+.gt-aff li.reroll { outline: 1px dashed var(--dk-bad); outline-offset: 2px; }
+.gt-aff li.temper::before { background: transparent; border: 1px solid var(--dk-legendary); border-radius: 50%; transform: none; }
+.gt-aff li .why { display: block; font-size: var(--text-sm); color: var(--deep-muted); }
+.gt-aff li .tag { font-size: var(--text-xs); margin-right: var(--space-2xs); color: inherit; }
+.ga-star { color: var(--dk-unique); }
+.gt-power { color: var(--dk-legendary); font-size: var(--text-md); }
+.gt-next { color: var(--deep-muted); font-size: var(--text-sm); }
+.gt-foot { color: var(--deep-muted); font-size: var(--text-sm); }
+.gt-set { color: var(--dk-set); font-family: var(--font-display); font-size: var(--text-md); }
+.gt-set span { color: var(--deep-muted); font-family: var(--font-body); font-size: var(--text-sm); }
+.gt-bonus { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2xs); font-size: var(--text-sm); color: var(--deep-dim); }
+.gt-bonus li.on { color: var(--deep-ink); }
+.gt-bonus b { color: inherit; font-weight: 700; }
+.gt-bonus li.on b { color: var(--dk-set); }
+.tt-power { color: var(--color-legendary); }
+
+/* One floating card for everything you can point at; empty until a script fills it */
+.hovercard { position: fixed; z-index: var(--z-tooltip); left: 0; top: 0; pointer-events: none; box-shadow: var(--shadow-pop); }
+.hovercard:not(.on) { display: none; }
+.hovercard img.shot { display: block; max-width: min(420px, 46vw); max-height: calc(100dvh - 24px); border: var(--rule-hair) solid var(--deep-edge); }
+
+/* ---------- Tables: horizontal rules only ---------- */
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 720px; }
+th, td { text-align: left; vertical-align: top; padding: var(--space-xs) var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
+th:first-child, td:first-child { padding-left: 0; }
+th { font-size: var(--text-sm); font-weight: 700; color: var(--color-muted); white-space: nowrap; border-bottom-color: var(--color-rule-strong); }
+td .item { font-family: var(--font-display); }
+@media (max-width: 45rem) {
+  .table-scroll { overflow: visible; }
+  .table-scroll table { min-width: 0; }
+  .table-scroll thead { display: none; }
+  .table-scroll tr { display: grid; gap: var(--space-3xs); padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
+  .table-scroll td { display: block; border: 0; padding: 0; }
+}
+
+/* Numbered steps, in the game's diamond */
+.steps, .path { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-xs); }
+.steps { counter-reset: st; }
+.path { counter-reset: node; }
+.steps li { counter-increment: st; }
+.path li { counter-increment: node; }
+.steps li, .path li { display: grid; grid-template-columns: 1.8em minmax(0, 1fr); gap: var(--space-xs); align-items: start; }
+.steps li::before, .path li::before {
+  width: 1.5em; height: 1.5em; display: grid; place-items: center; margin-top: 0.05em;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  background: var(--color-accent); color: var(--color-accent-ink);
+  font-family: var(--font-outlier); font-size: var(--text-xs);
+}
+.steps li::before { content: counter(st); }
+.path li::before { content: counter(node); }
+.steps li.k-note::before { background: var(--color-rule-strong); }
+.path b { font-weight: 700; }
+.path span { color: var(--color-muted); }
+
+.warnbox { padding: var(--space-xs) var(--space-sm); background: var(--color-paper-2); font-size: var(--text-md); max-width: 70ch; border-radius: var(--radius-card); }
+
+/* ---------- Shared characters, the paste veil, the footer ---------- */
+.share-banner {
+  display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-sm); align-items: center;
+  margin-top: var(--space-md); padding: var(--space-sm) var(--space-md);
+  background: var(--color-paper-2); border-radius: var(--radius-card); box-shadow: inset 3px 0 0 var(--color-accent);
+}
+.share-banner span { flex: 1 1 320px; }
+.share-banner[hidden] { display: none; }
+.share-row { margin-top: var(--space-2xs); }
+.share-url { margin-top: var(--space-xs); font-family: var(--font-outlier); font-size: var(--text-sm); overflow-wrap: anywhere; }
+
+.drop-veil {
+  position: fixed; inset: 0; z-index: var(--z-modal); display: none; place-items: center; padding: var(--space-lg);
+  background: var(--color-scrim); outline: 2px dashed var(--ember); outline-offset: -12px;
+  font-family: var(--font-display); font-size: var(--text-2xl); color: var(--deep-ink); text-align: center;
+}
+.drop-veil.on { display: grid; }
+
+.site-foot {
+  border-top: var(--rule-hair) solid var(--color-rule); padding-block: var(--space-lg) var(--space-xl);
+  display: grid; justify-items: center; gap: var(--space-xs); text-align: center;
+  color: var(--color-muted); font-size: var(--text-sm);
+}
+.site-foot p { max-width: 75ch; }
+.site-foot b { color: var(--color-ink-2); }
+
+/* Read-only shared view: nothing that edits, and no tabs that don't apply */
+body.read-only .topbar, body.read-only .paste-hint, body.read-only .share-row,
+body.read-only .slot-actions, body.read-only #stats-edit, body.read-only #tal-pick,
+body.read-only .tab[data-view="check"], body.read-only .tab[data-view="hordes"], body.read-only .tab[data-view="warplans"],
+body.read-only .tab[data-view="strongroom"], body.read-only .tab[data-view="characters"],
+body.read-only .tab[data-view="farm"], body.read-only .tab[data-view="guides"] { display: none; }
+body.read-only a[href="#/farm"] { display: none; }
+body.read-only .tal-socket { cursor: help; }
+
+@media (max-width: 40rem) {
+  :root { --gutter: 16px; }
+  main { padding-block: var(--space-lg) var(--space-xl); }
+  .view { gap: var(--space-lg); }
+}

@@ -1,0 +1,81 @@
+/* Colour is loot: the chrome is iron and bone, and the only hues on screen are the game's rarity
+   tiers, the verdicts, and one blood red for the thing to act on. Dark is the default; light is
+   the same system on bone paper. Game art (item tiles, tooltips, boards, the tree) always sits on
+   the deep plate, so its colours never change with the theme. */
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 1.728rem; --text-section: 1.728rem; --text-title: 1.2rem; --text-lead: 1rem; --text-wordmark: 1.44rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --container: 1440px; --gutter: 32px; --gap-columns: 24px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --control-h: 36px;
+  --radius-card: 2px; --radius-control: 2px; --radius-pill: 999px; --rule-hair: 1px;
+
+  --font-display: "Marcellus", "Trajan Pro", ui-serif, Georgia, serif;
+  --font-body: "Alegreya Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-outlier: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --tracking-display: 0.01em;
+
+  /* The deep plate and the game's own colours: fixed in both themes */
+  --deep: oklch(11% 0.01 25); --deep-2: oklch(15% 0.012 25); --deep-edge: oklch(34% 0.03 45);
+  --deep-ink: oklch(88% 0.016 80); --deep-muted: oklch(68% 0.02 70); --deep-dim: oklch(52% 0.02 60);
+  --dk-mythic: oklch(76% 0.15 305); --dk-unique: oklch(81% 0.09 80); --dk-legendary: oklch(74% 0.16 52);
+  --dk-rare: oklch(88% 0.15 100); --dk-set: oklch(77% 0.17 145); --dk-magic: oklch(74% 0.12 265);
+  --dk-good: oklch(80% 0.14 150); --dk-bad: oklch(72% 0.15 25); --dk-warn: oklch(82% 0.13 80);
+  --ancestral: oklch(97% 0.01 90);
+  --ember: oklch(64% 0.2 35);
+
+  /* Dark (default) */
+  --color-paper: oklch(14.5% 0.012 25); --color-paper-2: oklch(18% 0.014 25); --color-paper-3: oklch(22% 0.016 25);
+  --color-ink: oklch(92% 0.018 80); --color-ink-2: oklch(84% 0.02 75); --color-muted: oklch(72% 0.02 65);
+  --color-rule: oklch(30% 0.018 30); --color-rule-strong: oklch(56% 0.03 45);
+  --color-accent: oklch(50% 0.19 27); --color-accent-hover: oklch(56% 0.2 29); --color-accent-ink: oklch(96% 0.02 80);
+  --color-accent-text: oklch(72% 0.15 38); --color-focus: oklch(72% 0.17 40);
+  --color-mythic: var(--dk-mythic); --color-unique: var(--dk-unique); --color-legendary: var(--dk-legendary);
+  --color-rare: var(--dk-rare); --color-set: var(--dk-set); --color-magic: var(--dk-magic);
+  --color-good: var(--dk-good); --color-bad: var(--dk-bad); --color-warn: var(--dk-warn); --color-mine: oklch(72% 0.13 255);
+  --color-error: var(--dk-bad); --color-success: var(--dk-good);
+  --color-scrim: oklch(8% 0.01 25 / 0.78);
+  --shadow-pop: 0 12px 32px oklch(5% 0.01 25 / 0.55);
+  color-scheme: dark;
+}
+
+/* Light: bone paper, the same iron and blood */
+:root[data-theme="light"] {
+  --color-paper: oklch(95.5% 0.007 30); --color-paper-2: oklch(92% 0.01 30); --color-paper-3: oklch(98.5% 0.004 30);
+  --color-ink: oklch(20% 0.02 25); --color-ink-2: oklch(30% 0.02 25); --color-muted: oklch(45% 0.02 30);
+  --color-rule: oklch(84% 0.014 30); --color-rule-strong: oklch(52% 0.03 35);
+  --color-accent: oklch(47% 0.18 27); --color-accent-hover: oklch(41% 0.17 27); --color-accent-ink: oklch(97% 0.01 80);
+  --color-accent-text: oklch(45% 0.17 27); --color-focus: oklch(47% 0.19 27);
+  --color-mythic: oklch(46% 0.18 305); --color-unique: oklch(46% 0.09 75); --color-legendary: oklch(50% 0.15 50);
+  --color-rare: oklch(48% 0.11 100); --color-set: oklch(46% 0.13 145); --color-magic: oklch(46% 0.14 265);
+  --color-good: oklch(44% 0.12 150); --color-bad: oklch(48% 0.18 27); --color-warn: oklch(48% 0.12 75); --color-mine: oklch(48% 0.15 255);
+  --color-scrim: oklch(20% 0.02 25 / 0.55);
+  --shadow-pop: 0 12px 32px oklch(20% 0.02 25 / 0.22);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    --color-paper: oklch(95.5% 0.007 30); --color-paper-2: oklch(92% 0.01 30); --color-paper-3: oklch(98.5% 0.004 30);
+    --color-ink: oklch(20% 0.02 25); --color-ink-2: oklch(30% 0.02 25); --color-muted: oklch(45% 0.02 30);
+    --color-rule: oklch(84% 0.014 30); --color-rule-strong: oklch(52% 0.03 35);
+    --color-accent: oklch(47% 0.18 27); --color-accent-hover: oklch(41% 0.17 27); --color-accent-ink: oklch(97% 0.01 80);
+    --color-accent-text: oklch(45% 0.17 27); --color-focus: oklch(47% 0.19 27);
+    --color-mythic: oklch(46% 0.18 305); --color-unique: oklch(46% 0.09 75); --color-legendary: oklch(50% 0.15 50);
+    --color-rare: oklch(48% 0.11 100); --color-set: oklch(46% 0.13 145); --color-magic: oklch(46% 0.14 265);
+    --color-good: oklch(44% 0.12 150); --color-bad: oklch(48% 0.18 27); --color-warn: oklch(48% 0.12 75); --color-mine: oklch(48% 0.15 255);
+    --color-scrim: oklch(20% 0.02 25 / 0.55);
+    --shadow-pop: 0 12px 32px oklch(20% 0.02 25 / 0.22);
+    color-scheme: light;
+  }
+}
+
+/* Anything drawn on the deep plate reads the game's colours, whatever the theme */
+.deep, .ico, .gt, .hovercard {
+  --color-ink: var(--deep-ink); --color-muted: var(--deep-muted);
+  --color-mythic: var(--dk-mythic); --color-unique: var(--dk-unique); --color-legendary: var(--dk-legendary);
+  --color-rare: var(--dk-rare); --color-set: var(--dk-set); --color-magic: var(--dk-magic);
+  --color-good: var(--dk-good); --color-bad: var(--dk-bad); --color-warn: var(--dk-warn);
+}

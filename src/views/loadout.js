@@ -69,23 +69,30 @@ export function render(root, ctx) {
   if (root.dataset.char !== char.id) { trials = {}; listing = false; root.dataset.char = char.id; }
   const view = viewOf(char);
   if (!root.querySelector(".doll-wrap")) {
-    root.innerHTML = `<section class="view">
-      <div class="view-head"><h2>Loadout</h2><p>What your character has, laid out like the character screen. Pick a slot for its rolls marked against the guide and what to do next. Empty slots and dimmed sockets are things you haven't entered yet; the guide's target is shown beside them, not as yours.</p>
+    root.innerHTML = `<section class="view loadout">
+      <div class="view-head lo-head"><h2>Loadout</h2><p>What your character has, laid out like the character screen. Pick a slot for its rolls marked against the guide and what to do next. Empty slots and dimmed sockets are things you haven't entered yet; the guide's target is shown beside them, not as yours.</p>
         <div class="row share-row"><button class="btn" id="share-btn" type="button">Share this character</button><span class="note" id="share-note"></span></div></div>
-      <div class="loadout-top">
-        <div class="doll-wrap">
-          <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" id="doll-figure"></div><div class="doll-col right" id="doll-right"></div></div>
-          <div class="doll-foot">
-            <div class="foot-group"><span class="label">Talisman</span><div class="talisman" id="talisman"></div><div id="tal-pick"></div><ul class="charms" id="charms"></ul></div>
-            <div class="foot-stack">
-              <div class="foot-group"><span class="label">Runes</span><div class="runes" id="runes"></div></div>
-              <div class="foot-group"><span class="label">Splinters</span><div class="splinters" id="splinters"></div></div>
-            </div>
+      <div class="loadout-grid">
+        <div class="lo-main">
+          <div class="doll-wrap">
+            <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" id="doll-figure"></div><div class="doll-col right" id="doll-right"></div></div>
           </div>
+          <div class="lo-kit">
+            <section class="panel lo-talisman"><h3>Talisman</h3>
+              <div class="tal-body"><div class="talisman" id="talisman"></div><div class="tal-side"><div id="tal-pick"></div><ul class="charms" id="charms"></ul></div></div>
+            </section>
+            <section class="panel lo-sockets">
+              <div class="foot-group"><h3>Runes</h3><div class="runes" id="runes"></div></div>
+              <div class="foot-group"><h3>Splinters</h3><div class="splinters" id="splinters"></div></div>
+            </section>
+          </div>
+          <div class="panel stats-panel" id="stats"></div>
         </div>
-        <aside class="panel gear-stats" id="gear-stats" aria-label="Stats from your gear"></aside>
+        <div class="lo-side">
+          <div class="lo-detail" id="detail"></div>
+          <aside class="panel gear-stats" id="gear-stats" aria-label="Stats from your gear"></aside>
+        </div>
       </div>
-      <div class="loadout-lower"><div id="detail"></div><div class="stats-panel" id="stats"></div></div>
     </section>`;
     bind(root);
   }
@@ -122,14 +129,14 @@ function renderGearStats(root, char, build) {
   const now = grouped(view.gear);
   const base = trying ? totals(char.gear) : null;
   const fit = buildFit(view.gear, build);
-  const bar = ([a, b], label) => `<div class="fit"><span>${label}</span><b>${a}/${b}</b><i style="--p:${b ? Math.round((a / b) * 100) : 0}%"></i></div>`;
+  const bar = ([a, b], label) => `<div class="fit"><span>${label}</span><b class="data">${a}/${b}</b><i style="--p:${b ? Math.round((a / b) * 100) : 0}%"></i></div>`;
   box.innerHTML = `<h3>Gear stats</h3>
     ${trying ? `<p class="note trying-note">Including what you're trying on: ${esc(Object.entries(trials).map(([s, it]) => `${it.name} (${SLOT[s].name})`).join(", "))}.</p>` : ""}
     <div class="fit-grid">${bar(fit.items, "Guide items")}${bar(fit.affixes, "Guide affixes")}${bar(fit.tempers, "Guide tempers")}${bar(fit.sockets, "Guide sockets")}</div>
     ${now.length ? `<div class="gs-groups">` + now.map((g) => `<div class="gs-group"><span class="label">${esc(g.name)}</span><dl>${g.rows.map((r) => {
       const was = base?.get(r.key);
       const diff = trying && r.numeric ? r.value - (was?.value || 0) : 0;
-      return `<div><dt>${esc(r.label)}</dt><dd>${esc(fmtStat(r))}${diff ? ` <span class="delta ${diff > 0 ? "up" : "down"}">${diff > 0 ? "+" : ""}${Number(diff.toFixed(1)).toLocaleString()}</span>` : ""}</dd></div>`;
+      return `<div><dt>${esc(r.label)}</dt><dd class="data">${esc(fmtStat(r))}${diff ? ` <span class="delta ${diff > 0 ? "up" : "down"}">${diff > 0 ? "+" : ""}${Number(diff.toFixed(1)).toLocaleString()}</span>` : ""}</dd></div>`;
     }).join("")}</dl></div>`).join("") + `</div>` : `<p class="note">Nothing entered yet. Add items to see their stats here.</p>`}
     <p class="note">Totals of the affixes, tempers and base stats on your gear. "×" multipliers are summed as a rough guide; the in-game sheet is exact.</p>`;
 }
@@ -210,7 +217,7 @@ function renderTalisman(root, char, build) {
       ${want.seal ? row(want.seal, mine.seal === want.seal.name, "Seal") : ""}
       ${want.charms.map((c) => row(c, haveNames.has(c.name), c.set || (c.mythic ? "Mythic charm" : "Unique charm"))).join("")}
     </ul></li>` : "";
-  $("#charms", root).innerHTML = (counts.size ? [...counts].map(([name, n]) => `<li><i></i>${esc(name)} <span class="muted">${n} counted${minus ? " (needs one fewer)" : ""}</span></li>`).join("") : `<li class="muted">No charms entered. Click a socket to add yours.</li>`)
+  $("#charms", root).innerHTML = (counts.size ? [...counts].map(([name, n]) => `<li class="set-count">${esc(name)} <span class="muted">${n} counted${minus ? " (needs one fewer)" : ""}</span></li>`).join("") : `<li class="muted">No charms entered. Click a socket to add yours.</li>`)
     + checklist
     + (!steps.length ? `<li class="ok">Matches the guide's talisman.</li>` : "");
 
@@ -236,7 +243,7 @@ function renderSockets(root, char, build) {
   const spl = socketReport(char, build, (n) => /^splinter/i.test(n));
   const chip = (s, kind, i, ghost) => `<button class="${kind}${ghost ? " ghost" : ""}" data-tip="${kind}:${ghost ? "want" : "have"}:${i}">
     ${socketArt(s.name, build) ? `<img src="${esc(socketArt(s.name, build))}" alt="">` : ""}${esc(kind === "splinter" ? shortSplinter(s.name) : s.name)}
-    <small>${ghost ? `Guide: ${esc(SLOT[s.slot].name)}` : esc(SLOT[s.slot].name)}${!ghost && s.move ? ` → ${esc(SLOT[s.move].name)}` : ""}</small></button>`;
+    <small>${ghost ? `Guide: ${esc(SLOT[s.slot].name)}` : esc(SLOT[s.slot].name)}</small>${!ghost && s.move ? `<small class="move">Move to ${esc(SLOT[s.move].name)}</small>` : ""}</button>`;
   $("#runes", root).innerHTML = runes.have.map((s, i) => chip(s, "rune", i, false)).join("") + runes.missing.map((s, i) => chip(s, "rune", i, true)).join("") || `<span class="note">None</span>`;
   $("#splinters", root).innerHTML = spl.have.map((s, i) => chip(s, "splinter", i, false)).join("") + spl.missing.map((s, i) => chip(s, "splinter", i, true)).join("") || `<span class="note">None</span>`;
   ctxNow.sockets = { rune: runes, splinter: spl };
@@ -318,8 +325,8 @@ function listHtml(id, build) {
     <div class="pick-head"><label class="label" for="pick-q">Pick an item for ${esc(SLOT[id].name)}</label><input id="pick-q" type="search" placeholder="Search ${list.length} items" autocomplete="off"></div>
     <div class="pick-items" id="pick-items">${list.map((c, i) => `<div class="pick-item" data-name="${esc(c.name.toLowerCase())}">
       <span class="ico t-${c.kind === "aspect" ? "legendary" : esc(c.rarity || "legendary")}"><img class="art" src="${esc(c.art || BASE_ART[SLOT[id].kind])}" alt=""></span>
-      <span class="pi-text"><b class="r-${c.kind === "aspect" ? "legendary" : esc(c.rarity || "legendary")}">${esc(c.name)}</b><small>${c.guide ? "The guide's pick · " : ""}${c.kind === "aspect" ? "Aspect" : esc(c.rarity || "")}</small></span>
-      <span class="pi-acts"><button class="btn ghost" data-try="${i}">Try</button><button class="btn" data-equip="${i}">Equip</button></span>
+      <span class="pi-text"><b class="r-${c.kind === "aspect" ? "legendary" : esc(c.rarity || "legendary")}">${esc(c.name)}</b><small>${c.guide ? `<span class="pi-guide">The guide's pick</span>` : ""}<span class="pi-kind">${c.kind === "aspect" ? "Aspect" : esc(c.rarity || "")}</span></small></span>
+      <span class="pi-acts"><button class="btn small ghost" data-try="${i}">Try</button><button class="btn small" data-equip="${i}">Equip</button></span>
     </div>`).join("")}</div>
     <p class="note">Rolls aren't known for list picks; paste a screenshot or edit by hand once you have the item.</p>
     <div class="slot-actions"><button class="btn ghost" id="pick-close">Close</button></div>
@@ -339,27 +346,27 @@ async function renderDetail(root, char, build) {
       ${itemTip(tr, id, build, ev, { why: true })}
       ${ev.actions.length ? `<div class="tt-sec"><span class="label">To make it match the guide</span><ol class="steps">${ev.actions.map((a) => `<li>${esc(a.text)}</li>`).join("")}</ol></div>` : ""}
       <p class="note">Not saved. The paperdoll and gear stats show it in place of ${char.gear[id] ? esc(char.gear[id].name) : "the empty slot"}.</p>
-      <div class="slot-actions"><button class="btn ghost" data-act="untry">Stop trying</button><button class="btn" data-act="list">Try another</button><button class="btn primary" data-act="keep">Equip it</button></div>
+      <div class="slot-actions"><button class="btn primary" data-act="keep">Equip it</button><button class="btn" data-act="list">Try another</button><button class="btn ghost" data-act="untry">Stop trying</button></div>
     </div>`;
     return;
   }
   const g = char.gear[id];
   const src = target && SOURCES[target.item.source];
   const want = target ? `<div class="tt-sec"><span class="label">Guide for ${esc(SLOT[id].name)}</span>
-    <p><b>${esc(target.item.name)}</b>${target.note ? ` · ${esc(target.note)}` : ""}</p>
+    <p class="want-name">${esc(target.item.name)}</p>${target.note ? `<p class="note">${esc(target.note)}</p>` : ""}
     <p class="note">Affixes, in order: ${esc(wantedList(target)) || "not listed"}. Temper: ${esc(target.tempers.map(([k, r]) => `${affixLabel(k)} from ${r}`).join(", ")) || "not listed"}.${target.sockets?.length ? ` Sockets: ${esc(target.sockets.join(" + "))}.` : ""}</p>
-    <p class="note">Get it: ${src ? esc(src.routes.find((r) => r.best)?.label || src.routes[0].label) : "see the farm guide"} · <a href="#/farm">full route</a></p></div>` : `<p class="note">This guide doesn't use ${esc(SLOT[id].name)}.</p>`;
+    <p class="note">Get it: ${src ? esc(src.routes.find((r) => r.best)?.label || src.routes[0].label) : "see the farm guide"}. <a href="#/farm">The full route</a></p></div>` : `<p class="note">This guide doesn't use ${esc(SLOT[id].name)}.</p>`;
 
   if (editing) {
-    box.innerHTML = `<form class="tooltip slot-detail" id="edit-form">${itemFormHtml(g || { name: "", rarity: "legendary", affixes: [] }, { slotId: id, showSlot: false })}
-      <div class="slot-actions"><button type="button" class="btn ghost" id="e-cancel">Cancel</button><button class="btn primary" type="submit">Save ${esc(SLOT[id].name)}</button></div></form>`;
+    box.innerHTML = `<form class="tooltip slot-detail edit" id="edit-form">${itemFormHtml(g || { name: "", rarity: "legendary", affixes: [] }, { slotId: id, showSlot: false })}
+      <div class="slot-actions"><button class="btn primary" type="submit">Save ${esc(SLOT[id].name)}</button><button type="button" class="btn ghost" id="e-cancel">Cancel</button></div></form>`;
     bindItemForm($("#edit-form", box));
     return;
   }
   if (!g) {
     box.innerHTML = `<div class="tooltip slot-detail">
       ${tipCard({ name: SLOT[id].name, type: "Empty: nothing entered yet", r: "unknown", art: BASE_ART[SLOT[id].kind], ghost: true })}
-      <div class="slot-actions"><button class="btn" data-act="list">Pick from list</button><button class="btn" data-act="edit">Enter by hand</button><button class="btn primary" data-act="check">Add from screenshot</button></div>
+      <div class="slot-actions"><button class="btn primary" data-act="check">Add from screenshot</button><button class="btn" data-act="list">Pick from list</button><button class="btn" data-act="edit">Enter by hand</button></div>
       ${target ? guideWants(target, id) : ""}${want}</div>`;
     return;
   }
@@ -367,11 +374,11 @@ async function renderDetail(root, char, build) {
   const steps = st.steps.length ? `<ol class="steps">${st.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>` : `<p class="chip done">Matches the guide</p>`;
   box.innerHTML = `<div class="tooltip slot-detail">
     ${itemTip(g, id, build, st.ev, { why: true })}
+    <div class="slot-actions"><button class="btn primary" data-act="check">Check a replacement</button><button class="btn" data-act="list">Swap or try from list</button><button class="btn" data-act="edit">Edit by hand</button><button class="btn ghost" data-act="clear">Clear slot</button></div>
+    <p class="note">Updated ${esc(new Date(g.updated || Date.now()).toLocaleDateString())}${g.engine ? `, read by ${g.engine === "claude" ? "Claude" : "OCR"}` : ""}</p>
     <div class="tt-sec"><span class="label">Next steps</span>${steps}</div>
     ${want}
     ${g.shot ? `<button class="tt-shot" id="shot-btn" aria-label="Show the screenshot"><img id="shot-img" alt="Saved tooltip screenshot"></button>` : ""}
-    <p class="note">Updated ${esc(new Date(g.updated || Date.now()).toLocaleDateString())}${g.engine ? ` · read by ${g.engine === "claude" ? "Claude" : "OCR"}` : ""}</p>
-    <div class="slot-actions"><button class="btn ghost" data-act="clear">Clear slot</button><button class="btn" data-act="list">Swap or try from list</button><button class="btn" data-act="edit">Edit by hand</button><button class="btn primary" data-act="check">Check a replacement</button></div>
   </div>`;
   if (g.shot) { const u = await shots.url(g.shot); const img = $("#shot-img", box); if (img && u) img.src = u; }
 }
@@ -382,13 +389,13 @@ function renderStats(root, char, build) {
   const st = char.stats || {};
   const fmt = (s, n) => s.unit === "%" ? n.toLocaleString(undefined, { maximumFractionDigits: 1 }) + "%" : n.toLocaleString();
   box.innerHTML = `<div class="stats-head"><h3>Stat targets</h3><div class="row"><span class="note">${st.updated ? `Updated ${esc(new Date(st.updated).toLocaleDateString())}` : ""}</span>
-    <button class="btn ghost" id="stats-edit">${editingStats ? "Save numbers" : "Update numbers"}</button></div></div>
+    <button class="btn small" id="stats-edit">${editingStats ? "Save numbers" : "Update numbers"}</button></div></div>
     <div class="stat-grid">${build.stats.map((s) => {
       const v = st[s.key], has = typeof v === "number" && isFinite(v);
       const pct = has ? Math.min(100, (v / s.target) * 100) : 0;
       const cls = !has ? "" : v >= s.target ? "ok" : v >= s.target * 0.6 ? "low" : "bad";
-      const val = editingStats ? `<input id="stat-${s.key}" inputmode="decimal" value="${has ? v : ""}" aria-label="${esc(s.name)}">` : `<span class="stat-val">${has ? fmt(s, v) : "—"}</span>`;
-      return `<div class="stat"><div class="stat-top"><span class="stat-name">${esc(s.name)}</span>${val}</div><div class="meter ${cls}"><i style="width:${pct}%"></i></div><span class="stat-target">Target ${fmt(s, s.target)} · ${s.src === "Maxroll" ? "Maxroll" : "our floor"}</span></div>`;
+      const val = editingStats ? `<input id="stat-${s.key}" inputmode="decimal" value="${has ? v : ""}" aria-label="${esc(s.name)}">` : `<span class="stat-val data">${has ? fmt(s, v) : "—"}</span>`;
+      return `<div class="stat"><div class="stat-top"><span class="stat-name">${esc(s.name)}</span>${val}</div><div class="meter ${cls}"><i style="width:${pct}%"></i></div><span class="stat-target">Target <span class="data">${fmt(s, s.target)}</span>, ${s.src === "Maxroll" ? "from Maxroll" : "our floor"}</span></div>`;
     }).join("")}</div>
     ${typeof st.toughness === "number" ? `<p class="note">Toughness ${st.toughness.toLocaleString()}</p>` : ""}
     <p class="note">Copy these from the character sheet.</p>`;

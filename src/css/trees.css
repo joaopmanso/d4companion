@@ -1,0 +1,194 @@
+/* Skill tree and Paragon. Both screens lead with the game's own art on the deep plate: the skill
+   bar and the build's skills, the boards. The only light on the plate is what the game lights:
+   allocated nodes and tiles, and the paths between them. Rings mark where you differ from the guide. */
+:root {
+  --tree-line: color-mix(in oklab, var(--deep-edge) 55%, var(--deep));
+  --tree-lit: var(--ember);
+  --tree-glow: color-mix(in oklab, var(--ember) 60%, transparent);
+  --tree-glow-soft: color-mix(in oklab, var(--ember) 40%, transparent);
+  --tree-miss: var(--dk-warn);
+  --tree-extra: oklch(72% 0.13 255);
+  --tree-badge: var(--deep);
+  --pg-hover: var(--dk-unique);
+  --pg-lit-ring: color-mix(in oklab, var(--dk-unique) 70%, transparent);
+  --pg-glow: color-mix(in oklab, var(--dk-legendary) 75%, transparent);
+  --pg-glyph: var(--color-rare);
+}
+
+/* ---------- Shared: the toolbar, art buttons that only show a tooltip ---------- */
+.st-toolbar { display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; }
+.st-toolbar .seg { margin-right: var(--space-xs); }
+.st-toolbar [data-act="full"] { margin-left: auto; }
+.add-board select { width: auto; max-width: 100%; }
+
+.skill-icon, .prime button, .ss-head, .ss-mod, .st-node, .pg-tile {
+  appearance: none; background: none; border: 0; padding: 0; margin: 0;
+  font: inherit; color: inherit; cursor: help; text-align: inherit;
+}
+.skill-icon:focus-visible, .prime button:focus-visible, .ss-head:focus-visible, .ss-mod:focus-visible,
+.st-node:focus-visible, .pg-tile:focus-visible, .pg-map a:focus-visible {
+  outline: 2px solid var(--color-focus); outline-offset: 2px; transition: none;
+}
+
+/* ---------- Skills: the bar and the Prime Evil powers, side by side on the plate ---------- */
+.skill-top { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: var(--space-xl) var(--gap-columns); }
+.skill-top .panel { border-top: 0; padding-top: 0; }
+.skill-bar, .prime { background: var(--deep); border-radius: var(--radius-card); padding: var(--space-md); }
+.skill-bar { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: var(--space-sm) var(--space-xs); }
+.skill-icon { display: grid; justify-items: center; align-content: start; gap: var(--space-xs); min-width: 0; color: var(--deep-ink); text-align: center; }
+.skill-icon img {
+  width: 100%; max-width: 72px; aspect-ratio: 1; object-fit: cover;
+  background: var(--deep-2); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+}
+.skill-icon span { font-size: var(--text-sm); line-height: 1.25; overflow-wrap: break-word; max-width: 100%; }
+.skill-icon:hover img { border-color: var(--dk-unique); }
+.skill-icon:hover span { color: var(--dk-unique); }
+.skill-icon:active img { transform: translateY(1px); }
+
+.prime { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: var(--space-sm) var(--space-xs); }
+.prime button { display: grid; justify-items: center; align-content: start; gap: var(--space-2xs); min-width: 0; color: var(--deep-muted); text-align: center; }
+.prime button img { width: 52px; height: 52px; object-fit: contain; }
+.prime button span { font-size: var(--text-sm); line-height: 1.25; overflow-wrap: break-word; max-width: 100%; }
+.prime button.main { color: var(--dk-legendary); }
+.prime button:hover { color: var(--dk-unique); }
+.prime button:active img { transform: translateY(1px); }
+.prime + .note b { color: var(--color-ink); }
+
+/* ---------- Skills: the build's skills, each with its ranks and what it takes ---------- */
+.ss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--space-lg) var(--gap-columns); }
+.ss-skill { display: grid; gap: var(--space-xs); align-content: start; padding-top: var(--space-sm); border-top: var(--rule-hair) solid var(--color-rule); min-width: 0; }
+.ss-skill.missing { border-top-style: dashed; border-top-color: var(--color-warn); }
+.ss-head { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: var(--space-sm); align-items: center; min-height: 48px; }
+.ss-head img {
+  width: 48px; height: 48px; object-fit: cover;
+  background: var(--deep); border: var(--rule-hair) solid var(--deep-edge); border-radius: var(--radius-card);
+}
+.ss-head > span { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--space-xs); min-width: 0; }
+.ss-head b { font-family: var(--font-display); font-weight: 400; font-size: var(--text-lg); line-height: 1.2; flex-basis: 100%; overflow-wrap: break-word; min-width: 0; }
+.ss-head small { font-size: var(--text-sm); color: var(--color-legendary); }
+.ss-head small.ss-guide { color: var(--color-muted); font-family: var(--font-body); }
+.ss-head:hover b { color: var(--color-accent-text); }
+.ss-skill.missing .ss-head img { opacity: 0.5; filter: grayscale(1); }
+.ss-skill.missing .ss-head small.data { color: var(--color-warn); }
+
+.ss-mods { display: flex; flex-wrap: wrap; gap: var(--space-2xs); padding-left: calc(48px + var(--space-sm)); }
+.ss-mod {
+  display: inline-flex; align-items: center; gap: var(--space-2xs); min-height: 32px; max-width: 100%;
+  padding: var(--space-3xs) var(--space-xs) var(--space-3xs) var(--space-3xs);
+  font-size: var(--text-sm); color: var(--color-ink-2);
+  box-shadow: inset 0 0 0 1px var(--color-rule-strong); border-radius: var(--radius-control);
+  transition: background-color var(--dur-micro) var(--ease-out);
+}
+.ss-mod img { width: 24px; height: 24px; flex-shrink: 0; border-radius: 50%; background: var(--deep); }
+.ss-mod span { min-width: 0; overflow-wrap: break-word; }
+.ss-mod:hover { background: var(--color-paper-2); color: var(--color-ink); }
+.ss-mod:active { transform: translateY(1px); }
+.ss-mod.missing { box-shadow: none; outline: 1px dashed var(--color-warn); outline-offset: -1px; color: var(--color-muted); }
+.ss-mod.missing img { filter: grayscale(1); opacity: 0.5; }
+.ss-mod.extra { box-shadow: inset 0 0 0 1px var(--color-mine); }
+
+/* ---------- Skills: the full tree, scaled to fit its plate ---------- */
+.st-wrap { position: relative; overflow: hidden; padding: var(--space-2xs); background: var(--deep); border-radius: var(--radius-card); }
+.st-scale { position: relative; }
+.st-inner { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.st-lines { position: absolute; left: 0; top: 0; overflow: visible; }
+.st-lines path { fill: none; stroke: var(--tree-line); stroke-width: 5; stroke-linecap: round; }
+.st-lines path.lit { stroke: var(--tree-lit); stroke-width: 6; }
+.st-node { position: absolute; transform: translate(-50%, -50%); display: grid; place-items: center; }
+.st-node .st-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.st-node .st-icon { position: relative; object-fit: contain; filter: grayscale(1) brightness(0.45); }
+.st-node.on .st-icon { filter: none; }
+.st-node.k-skill { width: 76px; height: 76px; }
+.st-node.k-skill .st-icon { width: 52px; height: 52px; border-radius: 50%; }
+.st-node.k-upgrade { width: 54px; height: 54px; }
+.st-node.k-upgrade .st-icon { width: 34px; height: 34px; }
+.st-node.k-mod { width: 44px; height: 44px; }
+.st-node.k-mod .st-icon { width: 28px; height: 28px; border-radius: 50%; }
+.st-node.k-category { width: 64px; height: 64px; transform: translate(-50%, -50%) rotate(45deg); cursor: default; }
+.st-node.k-category .st-icon { width: 40px; height: 40px; transform: rotate(-45deg); filter: none; }
+/* The game's own mark for a point spent: the node lit in ember */
+.st-node.on.k-skill, .st-node.on.k-upgrade, .st-node.on.k-mod { filter: drop-shadow(0 0 6px var(--tree-glow)); }
+.st-node:hover .st-icon { filter: none; }
+.st-node:hover .st-bg { filter: brightness(1.25); }
+.st-node.editable { cursor: pointer; }
+.st-node.editable:active .st-icon { opacity: 0.8; }
+.st-badge {
+  position: absolute; bottom: calc(-1 * var(--space-xs)); left: 50%; transform: translateX(-50%);
+  font-family: var(--font-outlier); font-variant-numeric: tabular-nums; font-size: var(--text-sm); line-height: 1;
+  color: var(--dk-unique); background: var(--tree-badge); white-space: nowrap;
+  padding: var(--space-3xs) var(--space-2xs); border-radius: var(--radius-control);
+  box-shadow: inset 0 0 0 1px var(--deep-edge);
+}
+.st-node:not(.on) .st-badge { color: var(--deep-dim); }
+.st-node.miss::after, .st-node.extra::after {
+  content: ""; position: absolute; inset: calc(-1 * var(--space-2xs)); border-radius: 50%; pointer-events: none;
+  border: 3px dashed var(--tree-miss);
+}
+.st-node.extra::after { border: 3px solid var(--tree-extra); }
+
+/* ---------- Paragon: the map, the glyphs, then the boards ---------- */
+/* The map and glyphs are an index to the boards, kept to one short band so the boards lead */
+.pg-top { display: grid; grid-template-columns: minmax(0, 240px) minmax(0, 1fr); gap: var(--space-lg) var(--space-xl); }
+.pg-map { display: grid; gap: var(--space-2xs); max-width: 240px; padding: var(--space-xs); border-radius: var(--radius-card); background: var(--deep); }
+.pg-map a {
+  display: grid; place-items: center; align-content: center; gap: 0; min-height: 44px; min-width: 0;
+  padding: var(--space-2xs); text-align: center; text-decoration: none;
+  color: var(--deep-muted); background: var(--deep-2); border-radius: var(--radius-control);
+  box-shadow: inset 0 0 0 1px var(--deep-edge);
+  font-size: var(--text-xs); line-height: 1.2;
+  transition: background-color var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out);
+}
+.pg-map a b { font-family: var(--font-outlier); font-variant-numeric: tabular-nums; font-weight: 400; font-size: var(--text-md); color: var(--dk-unique); }
+.pg-map a span { overflow-wrap: break-word; max-width: 100%; }
+.pg-map a:hover { color: var(--deep-ink); box-shadow: inset 0 0 0 1px var(--dk-legendary); }
+.pg-map a:active { transform: translateY(1px); }
+
+.panel .pg-glyphs { list-style: none; padding: 0; gap: var(--space-xs); grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); }
+.pg-glyphs li { cursor: help; display: flex; flex-wrap: wrap; gap: 0 var(--space-xs); align-items: baseline; }
+.pg-glyphs b, .pg-glyph-name { color: var(--pg-glyph); font-family: var(--font-display); font-weight: 400; }
+.pg-glyphs li:hover b { color: var(--color-ink); }
+
+.pg-boards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: var(--space-xl) var(--gap-columns); }
+.pg-card { align-content: start; }
+.pg-card > p { max-width: 70ch; }
+.board-head { display: flex; flex-wrap: wrap; gap: var(--space-xs); align-items: center; }
+.board-head h3 { flex: 1 1 auto; min-width: 0; overflow-wrap: break-word; }
+.board-head select { width: auto; max-width: 100%; }
+.board-num {
+  flex: none; width: 1.9em; height: 1.9em; display: grid; place-items: center;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  background: var(--color-accent); color: var(--color-accent-ink);
+  font-family: var(--font-outlier); font-variant-numeric: tabular-nums; font-size: var(--text-sm);
+}
+.board-head .tag { font-weight: 400; }
+
+.pg-frame { display: grid; place-items: center; padding: var(--space-sm); background: var(--deep); border-radius: var(--radius-card); overflow: hidden; }
+.pg-board { display: grid; grid-template-columns: repeat(21, minmax(0, 1fr)); grid-template-rows: repeat(21, minmax(0, 1fr)); width: min(100%, 560px); aspect-ratio: 1; gap: 1px; }
+.pg-tile { position: relative; min-width: 0; min-height: 0; }
+.pg-rot { position: absolute; inset: 0; display: block; }
+.pg-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.pg-tile .pg-ic { inset: 12%; width: 76%; height: 76%; }
+.pg-tile:not(.on) .pg-ic { filter: grayscale(1) brightness(0.32); }
+.pg-tile:not(.on) .pg-bg { filter: grayscale(0.6) brightness(0.32); }
+.pg-tile.on { z-index: var(--z-base); }
+.pg-tile.on .pg-ic { filter: drop-shadow(0 0 2px var(--pg-lit-ring)); }
+/* Legendary nodes and glyph sockets, lit, carry the game's warm light */
+.pg-tile.on.t-L, .pg-tile.on.t-G { filter: drop-shadow(0 0 4px var(--pg-glow)); }
+.pg-tile:hover { z-index: 2; outline: 1px solid var(--pg-hover); }
+.pg-tile:hover .pg-ic, .pg-tile:hover .pg-bg { filter: none; }
+.pg-tile.editable { cursor: pointer; }
+.pg-tile.editable:active .pg-rot { opacity: 0.75; }
+.pg-tile:focus-visible { z-index: 3; outline-offset: 0; }
+.pg-tile.miss { outline: 2px dashed var(--tree-miss); outline-offset: -1px; z-index: var(--z-base); }
+.pg-tile.extra { outline: 2px solid var(--tree-extra); outline-offset: -1px; z-index: var(--z-base); }
+
+@media (max-width: 60rem) {
+  .skill-top, .pg-top { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 40rem) {
+  .skill-bar { grid-template-columns: repeat(3, minmax(0, 1fr)); padding: var(--space-sm); }
+  .prime { padding: var(--space-sm); }
+  .ss-mods { padding-left: 0; }
+  .st-toolbar [data-act="full"] { margin-left: 0; }
+  .pg-frame { padding: var(--space-2xs); }
+}

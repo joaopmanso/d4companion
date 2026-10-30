@@ -25,20 +25,20 @@ export function pickerHtml({ index, className, currentId, lockClass, open }) {
   for (const b of builds) { const t = b.tier || "Unranked"; if (!groups.has(t)) groups.set(t, []); groups.get(t).push(b); }
   const tabs = lockClass ? "" : `<div class="gp-classes" role="tablist">${CLASSES.map((c) => {
     const n = buildsFor(index, c).length;
-    return `<button type="button" role="tab" class="gp-class" data-class="${c}" aria-selected="${c === className}"><img src="${esc(emblem(c))}" alt="">${c}<small>${n ? `${n} builds` : "not synced yet"}</small></button>`;
+    return `<button type="button" role="tab" class="gp-class" data-class="${c}" aria-selected="${c === className}"><img src="${esc(emblem(c))}" alt=""><span class="gp-class-name">${c}</span><small>${n ? `${n} builds` : "not synced yet"}</small></button>`;
   }).join("")}</div>`;
   const body = builds.length ? [...groups].map(([tier, list]) => `<div class="gp-tier"><div class="gp-tier-label t-${esc(tier)}">${esc(tier)}</div>
       <div class="gp-builds">${list.map((b) => `<div class="gp-build${b.key === openKey ? " open" : ""}">
         <button type="button" class="gp-card" data-build="${esc(b.key)}" aria-expanded="${b.key === openKey}">
-          ${b.icon ? `<img src="${esc(b.icon)}" alt="">` : ""}<span><b>${esc(b.name)}</b><small>${b.variants.length} variant${b.variants.length > 1 ? "s" : ""}</small></span>
+          ${b.icon ? `<img src="${esc(b.icon)}" alt="">` : ""}<span class="gp-card-text"><b>${esc(b.name)}</b><small>${b.variants.length} variant${b.variants.length > 1 ? "s" : ""}</small></span>
         </button>
-        ${b.key === openKey ? `<div class="gp-variants">${b.variants.map((v) => `<button type="button" class="gp-variant${v.id === currentId ? " current" : ""}" data-guide="${esc(v.id)}">${esc(v.variant)}<small>${esc(v.updated || "")}</small></button>`).join("")}
-          <a class="note" href="${esc(b.url)}" target="_blank" rel="noopener">Read it on ${esc(b.variants[0].site)} ↗</a></div>` : ""}
+        ${b.key === openKey ? `<div class="gp-variants">${b.variants.map((v) => `<button type="button" class="gp-variant${v.id === currentId ? " current" : ""}" data-guide="${esc(v.id)}"><span>${esc(v.variant)}</span><small>${esc(v.updated || "")}</small></button>`).join("")}
+          <a class="note gp-read" href="${esc(b.url)}" target="_blank" rel="noopener">Read it on ${esc(b.variants[0].site)}</a></div>` : ""}
       </div>`).join("")}</div></div>`).join("")
     : `<p class="note">No ${esc(className)} guides synced yet. They arrive with the next daily sync.</p>`;
   const tierNote = index.tiers?.length ? `<p class="note">Tiers are d4builds' Season tier list; unranked builds have a guide but aren't on it.</p>` : "";
   return `${tabs}<div class="gp-list">${body}</div>${tierNote}
-    <div class="gp-other"><span class="label">Other guide sites</span>${(index.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.note)}">${esc(l.site)} ↗</a>`).join("")}</div>`;
+    <div class="gp-other"><span class="label">Other guide sites</span>${(index.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.note)}">${esc(l.site)}</a>`).join("")}</div>`;
 }
 
 // Modal version for "Change guide". Resolves with the chosen guide id, or null.
