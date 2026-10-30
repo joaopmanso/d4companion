@@ -367,3 +367,57 @@ test("a random legendary name loses icon junk and symbols, and its words snap to
   }
   assert.equal(parseTooltip("HELM OF THE DEAD\nRare Helm\n800 Item Power", "Warlock", warlock).name, "Helm of the Dead");
 });
+
+test("a real unique: the rarity line beats the catalog, the flavour quote is cut, and the power keeps its last line", () => {
+  // Tesseract's text for Hand of Apotheosis. The catalog lists it as mythic, but the tooltip says Unique.
+  const text = `aM wi  oo 4
+- SRR me vy LRN or
+
+HAND ©F                     3
+
+APOTHE®SIS        AL
+Ancestral Unique Gloves                 { y B
+~ 900 Item Power                                f
+
+25 (* +25) Quality
+
+1,001 Armor
+
+o +201 Willpower +[150 - 180]
+o +2,693 Maximum Life [1,831 - 2,200]
+o +351 Life On Hit [263 - 316]
+o x25% Fire Damage Multiplier [14 -
+241%
++ Any Demonform grants you all
+Metamorphosis Upgrades for free and
+
+they are 100%]+] [50 - 100]% more
+potent.
+
+"There are certain thresholds one must not
+
+| cross. Not because the demonologist will lose
+
+| their way back, but because they will not return
+| the same as they were before.” -Grimoire of
+Reckoning
+
+Requires Level 70
+
+Account Bound
+veg re 9`;
+  const item = parseTooltip(text, "Warlock", warlock);
+  assert.equal(item.name, "Hand of Apotheosis");
+  assert.equal(item.rarity, "unique");
+  assert.equal(item.ancestral, true);
+  assert.equal(item.slot, "gloves");
+  assert.equal(item.itemPower, 900);
+  assert.deepEqual(item.affixes.map((a) => [a.text, a.key]), [
+    ["+201 Willpower", "willpower"],
+    ["+2,693 Maximum Life", "life"],
+    ["+351 Life on Hit", "lifeOnHit"],
+    ["×25% Fire Damage Multiplier", "fireDamageMult"],
+  ]);
+  assert.equal(item.power, "Any Demonform grants you all Metamorphosis Upgrades for free and they are 100% more potent.");
+  assert.deepEqual(item.sockets, []);
+});

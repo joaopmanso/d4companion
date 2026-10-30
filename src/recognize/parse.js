@@ -63,14 +63,14 @@ function snapStat(stat, vocab, trim = true) {
   const rank = stat.match(/^(ranks?\s+)?(t[o0]|of)\s+(.+)$/i);
   if (rank) {
     const skill = closest(rank[3], vocab.skills, 0.75) || closest(rank[3], vocab.affixes.filter((a) => /skills$/i.test(a)), 0.75);
-    if (skill) return { phrase: `${rank[1] ? "Ranks " : ""}to ${skill.value}`, score: skill.score };
+    if (skill) return { phrase: `${rank[1] ? "Ranks " : ""}to ${skill.value}`, score: skill.score, words: stat.split(" ").length };
   }
   // Stray marks after the stat ("Strength i:", "Attack Speed 11 111i") are dropped a word at a time.
   // Only for lines with a value: a power line like "Hellfire Skills deal 39%" must not shrink to "Hellfire Skills".
   const words = stat.split(" ");
   for (let n = words.length; n >= (trim ? Math.max(1, words.length - 3) : words.length); n--) {
     const hit = closest(words.slice(0, n).join(" "), vocab.affixes, 0.78);
-    if (hit) return { phrase: hit.value, score: hit.score };
+    if (hit) return { phrase: hit.value, score: hit.score, words: n };
   }
   return null;
 }
@@ -234,7 +234,8 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
   if (id?.what === "item") {
     known = id;
     item.name = id.name;
-    item.rarity = id.rarity;
+    // The rarity line beats the catalog, which can be wrong (Hand of Apotheosis is listed as mythic).
+    if (!r) item.rarity = id.rarity;
     item.type = id.type || item.type;
     item.slot = id.slot || slotFromType(item.type) || item.slot;
     item.talisman = null;
@@ -257,8 +258,14 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
   // A known unique rolls from its own affix pool, so that is tried first and loosely; then everything.
   const pool = known?.affixes?.length ? { ...vocab, affixes: known.affixes } : null;
   const statVocab = vocab;
-  const snapTo = (stat, trim) => (pool && snapStat(stat, pool, trim)) || snapStat(stat, statVocab, trim);
+  // The pool wins unless the full vocabulary names more of the line: "Fire Damage Multiplier" isn't the pool's "Fire Damage".
+  const snapTo = (stat, trim) => {
+    const own = pool && snapStat(stat, pool, trim);
+    const any = (!own || own.words < stat.split(" ").length) && snapStat(stat, statVocab, trim);
+    return any && (!own || any.words > own.words) ? any : own || any || null;
+  };
   const prose = [];
+  let proseAt = -1; // body index of the last power line, so its short last line ("potent.") joins it
   let last = null;
   const body = lines.slice(bodyStart);
   for (let li = 0; li < body.length; li++) {
@@ -266,6 +273,13 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
     // The compare block lists the equipped item's stats, not this one's; nothing after it belongs to this item.
     if (/^properties lost/.test(norm(l))) break;
     if (RUNE_LIST_RE.test(l)) continue;
+    // The italic flavour quote under the power ("There are certain thresholds…" -Grimoire of Reckoning) is lore:
+    // skipped from its opening quote up to the next stat or footer line.
+    if (/^W{0,3}["“]s*[A-Za-z]/.test(l)) {
+      while (li + 1 < body.length && !isNoise(body[li + 1]) && !splitStat(body[li + 1]).value) li++;
+      last = null;
+      continue;
+    }
     if (POWER_RE.test(l) || isNoise(l) || /^\(?\d\)?\s*set\b/i.test(l)) { last = null; continue; }
     // "Lucky Hit: Up to a 40% Chance to / Deal +800 Shadow Damage [550 - / 1,000]" is one affix over several lines.
     const lucky = l.replace(/^[^A-Za-z]*\S?\s+(?=lucky)/i, "").match(/^lucky\s*hit\s*[:;]\s*(.+)$/i);
@@ -320,11 +334,15 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) 
     if (value && stat.length < 40 && matchAffix(`${value} ${stat}`, className)) {
       const text = `${value} ${stat}`;
       item.affixes.push({ text, key: matchAffix(text, className), kind: "affix", ga: false });
-    } else if (l.length > 20 && !value) {
+    } else if (!value && (l.length > 20 || (proseAt === li - 1 && !/[.!?]["”]?$/.test(prose[prose.length - 1]) && /^[a-z]/.test(l)))) {
       prose.push(l.replace(/^[^A-Za-z0-9]+(?=[A-Za-z])/, ""));
+      proseAt = li;
     }
   }
-  item.power = prose.join(" ").replace(/\s+/g, " ").trim();
+  item.power = prose.join(" ").replace(/\s+/g, " ")
+    .replace(/(\d%?)\s*[[\]]\+[[\]]/g, "$1") // "100%[+]" (often read "]+]"): the marker for a value past its range
+    .replace(/\s*[[(][\d.,\s\-–]+[\])]%?/g, "") // roll ranges, as affixes drop them: "[50 - 100]%"
+    .trim();
   // Name unreadable? A unique's power text is as good as its name: compare it with every unique's.
   if (!known && !item.talisman && item.power && (!r || /unique|mythic/.test(item.rarity))) {
     let best = null;

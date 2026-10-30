@@ -2,6 +2,7 @@
 
 One line per change, newest first. Format: `YYYY-MM-DD · area · what changed`.
 
+- 2026-10-30 · ocr · The rarity line read from the tooltip beats the catalog's (Hand of Apotheosis is no longer called mythic). The italic flavour quote under a power is skipped, a power's short last line ("potent.") is kept, and `100%[+]` markers (read `]+]`) and roll ranges are cut from the power. A unique's own affix pool no longer cuts "Fire Damage Multiplier" down to "Fire Damage".
 - 2026-10-30 · ocr · Legendary and rare names are cleaned (`cleanName`): ®/©/ø inside a word is read as o, one- and two-character junk from icons and art is dropped, words snap onto known name words (aspect prefixes, item types, fixed names) and anything after the item type is cut. "Sadistic Excepti®Nal 5 Y J Boots" now reads "Sadistic Exceptional Boots".
 - 2026-10-31 · design · The Diablo dress is back over the Hallmark layout (owner found the plain version empty and bland): `ornament.css` adds framed panels with gilt brackets, the fire wash, rarity glows, ember selection and gold meters; palette warmed, display face Cinzel; footer notice spans the full width.
 - 2026-10-31 · design · Ancestral tiles keep their rarity edge; the white glow sits outside it, so a pasted Ancestral mythic stays purple.
