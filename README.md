@@ -19,7 +19,7 @@ A Diablo IV build companion that runs entirely in your browser. Pick a guide, tr
 - **Paragon.** Every board in the game's tile art, turned the way the guide attaches it, with the path lit. Hover any tile for its stats.
 - **Farm guide.** The best route to each piece the guide needs, such as a boss, Belial pool, Helltide, Escalation dungeon, Undercity or Cube recipe.
 - **Activity tabs.** Hordes picker, War Plans and Strongroom tiers.
-- **Share links.** **Share this character** (Loadout) or **Share** (Characters) makes a read-only link. The character is compressed into the part of the URL after `#`, which browsers never send to the server, so only people with the link can see it. Screenshots and the API key are never included. Viewers can browse the loadout, skill tree and Paragon, or save a copy to their own browser.
+- **Share links.** **Share this character** (Loadout) or **Share** (Characters) makes a short read-only link like `…/#/c/k3Xq9aBz0W`. The character is stored for a year in the site's own Cloudflare Worker (private repo `d4companion-cdn`) under an id made from its content; if the Worker can't be reached, the link falls back to a long one with the character packed after the `#`. Screenshots and the API key are never included. Viewers can browse the loadout, skill tree and Paragon, or save a copy to their own browser.
 - **Themes.** Light, dark, or follow the system.
 
 ## Guide data, synced daily

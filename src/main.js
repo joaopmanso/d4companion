@@ -5,7 +5,7 @@ import { store } from "./lib/store.js";
 import { loadIndex, loadGuide, loadClass, DEFAULT_GUIDE } from "./data/guides.js";
 import { initTheme } from "./lib/theme.js";
 import { watchArt } from "./data/cdn.js";
-import { readShared } from "./lib/share.js";
+import { readShared, readShort } from "./lib/share.js";
 import * as loadout from "./views/loadout.js";
 import * as check from "./views/check.js";
 import * as skills from "./views/skills.js";
@@ -41,14 +41,15 @@ let index = { guides: [], links: [], classes: [], tiers: [] };
 let current = null;
 let loaded = { id: null, build: null, cls: null };
 
-// Share links look like #/s/<packed character>/<view>. While one is open, that character is shown
-// read-only in place of the user's own, and nothing is saved.
+// Share links look like #/c/<short id>/<view> (stored by our Worker) or #/s/<packed character>/<view>
+// (self-contained). While one is open, that character is shown read-only in place of the user's own,
+// and nothing is saved.
 const SHARE_VIEWS = new Set(["loadout", "skills", "paragon"]);
 let shared = { payload: null, char: null };
-const sharePayload = () => (location.hash.startsWith("#/s/") ? location.hash.split("/")[2] : null);
+const sharePayload = () => (/^#\/[sc]\//.test(location.hash) ? location.hash.split("/").slice(1, 3).join("/") : null);
 const viewFromHash = () => {
   const parts = location.hash.replace(/^#\/?/, "").split("/");
-  const id = parts[0] === "s" ? parts[2] : parts[0];
+  const id = parts[0] === "s" || parts[0] === "c" ? parts[2] : parts[0];
   return VIEW[id] && (!sharePayload() || SHARE_VIEWS.has(id)) ? id : "loadout";
 };
 const currentChar = () => shared.char || store.active();
@@ -92,11 +93,14 @@ function renderHeader() {
 async function render() {
   try {
     const payload = sharePayload();
-    if (payload !== shared.payload) shared = { payload, char: payload ? await readShared(payload) : null };
+    if (payload !== shared.payload) {
+      const [kind, key] = (payload || "").split("/");
+      shared = { payload, char: !payload ? null : kind === "c" ? await readShort(key) : await readShared(key) };
+    }
     document.body.classList.toggle("read-only", !!shared.char);
     await ensureBuild();
   } catch (err) {
-    $("#main").innerHTML = `<p class="warnbox">Couldn't load the guide data: ${esc(err.message)}</p>`;
+    $("#main").innerHTML = `<p class="warnbox">${sharePayload() ? esc(err.message) : `Couldn't load the guide data: ${esc(err.message)}`} <a href="#/loadout">Go to my characters</a></p>`;
     return;
   }
   renderHeader();
@@ -116,7 +120,7 @@ async function render() {
 }
 
 export function go(id) {
-  const target = shared.payload ? `#/s/${shared.payload}/${id}` : `#/${id}`;
+  const target = shared.payload ? `#/${shared.payload}/${id}` : `#/${id}`;
   if (location.hash !== target) location.hash = target;
   else render();
 }
