@@ -1,6 +1,6 @@
 name: Sync guides
 
-# Daily: re-read the d4builds Warlock guides and commit any changes to public/data and public/art/sa.
+# Daily: re-read the d4builds tier list and every class's guides, and commit any changes to public/data.
 # The deploy workflow runs after this one finishes, so the site picks the changes up.
 on:
   schedule:
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 300
     permissions:
       contents: write
     steps:
@@ -32,7 +32,7 @@ jobs:
       - run: npm test
       - name: Commit changes
         run: |
-          git add public/data public/art/sa
+          git add public/data
           if git diff --cached --quiet; then
             echo "No guide changes today."
             exit 0

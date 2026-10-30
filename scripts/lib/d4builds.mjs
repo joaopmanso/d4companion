@@ -68,7 +68,7 @@ function readGearTab() {
   const lines = sec ? sec.innerText.split("\n").map((l) => l.trim()).filter(Boolean) : [];
   const stats = {};
   let cur = null;
-  const SLOTS = ["Weapon", "Pants", "Offhand", "Ring 1", "Chest Armor", "Ring 2", "Amulet", "Boots", "Gloves", "Helm"];
+  const SLOTS = [...new Set(["Weapon", "Pants", "Offhand", "Ring 1", "Chest Armor", "Ring 2", "Amulet", "Boots", "Gloves", "Helm", ...out.gear.map((g) => g.slot)])];
   for (const l of lines) {
     if (l === "Gear Stats" || l === "Transfigure") continue;
     if (SLOTS.includes(l)) { cur = stats[l] = { affixes: [], tempers: [], aspects: [] }; continue; }
@@ -183,10 +183,26 @@ export async function scrapeVariant(page, url, i, cls) {
   return { ...gear, url: `${url}?var=${i}`, tree: alloc, paragon, slotMap: SLOT_NAMES };
 }
 
-// Warlock guide URLs: the site's sitemap plus any listed by hand (some guides aren't in the sitemap yet).
-export async function discover(className, extra = []) {
+// The site's Season tier list: tiers S–C, each with builds (name, class, skill icon, guide URL).
+export async function tierList(page) {
+  await page.goto("https://d4builds.gg/tierlist/", { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.waitForSelector(".tier__list__item", { timeout: 60000 });
+  await pause(800);
+  return page.evaluate(() => [...document.querySelectorAll(".tier__list")].map((l) => ({
+    tier: l.querySelector(".tier__list__category")?.innerText.trim() || "",
+    builds: [...l.querySelectorAll(".tier__list__item")].map((a) => ({
+      name: a.innerText.trim(),
+      className: (a.querySelector("img")?.className || "").replace("tier__list__item__icon", "").trim(),
+      icon: a.querySelector("img")?.src || "",
+      url: new URL(a.getAttribute("href"), location.href).href.replace(/\?.*$/, ""),
+    })),
+  })).filter((t) => t.tier));
+}
+
+// A class's endgame guide URLs: those in the tier list plus the site's sitemap.
+export async function discover(className, tierUrls = []) {
   const res = await fetch("https://d4builds.gg/sitemap.txt", { headers: { "user-agent": "d4companion-guide-sync" } });
   const list = res.ok ? (await res.text()).split("\n").map((l) => l.trim()) : [];
   const re = new RegExp(`/builds/[^/]*${className.toLowerCase()}-endgame/$`);
-  return [...new Set([...list.filter((u) => re.test(u)), ...extra])].map((u) => u.replace(/\/$/, "/"));
+  return [...new Set([...tierUrls, ...list.filter((u) => re.test(u))])];
 }

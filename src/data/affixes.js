@@ -7,7 +7,7 @@ export const AFFIXES = [
   { key: "ranksDemonology", label: "Ranks to Demonology Skills", re: /demonology skills?$/i, rank: true },
   { key: "ranksHellfire", label: "Ranks to Hellfire Skills", re: /hellfire skills?$/i, rank: true },
   { key: "ranksAll", label: "Ranks to All Skills", re: /all skills$/i, rank: true },
-  { key: "willpower", label: "Willpower", re: /willpower|primary core stat/i, core: true },
+  { key: "willpower", label: "Willpower", re: /willpower/i },
   { key: "allStats", label: "All Stats", re: /all stats/i },
   { key: "life", label: "Maximum Life", re: /max(imum)?\.?\s*life(?!\s*(on|per))/i },
   { key: "critChance", label: "Critical Strike Chance", re: /crit(ical)?\.?\s*(strike\s*)?chance/i },
@@ -62,27 +62,34 @@ const clean = (s) => String(s || "")
 // Strips the number so "+12.5% Critical Strike Damage" leaves "Critical Strike Damage".
 export const statText = (line) => clean(line).replace(/^[+\-×x]?\s*[\d,.]+\s*%?\s*(to\s+)?/i, "").replace(/^(to|of)\s+/i, "").trim();
 
-export function matchAffix(line) {
+// Each class's main stat, which guides write as "Primary Core Stat".
+export const CORE_STAT = { Barbarian: "strength", Paladin: "strength", Druid: "willpower", Warlock: "willpower", Necromancer: "intelligence", Sorcerer: "intelligence", Rogue: "dexterity", Spiritborn: "dexterity" };
+
+// Skill ranks for any class: "ranks:<skill>". The Warlock keys above stay for their nicer labels.
+const slug = (s) => s.toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const rankKey = (skill) => `ranks:${slug(skill.replace(/^ranks?\s+(to|of)\s+/i, ""))}`;
+
+export function matchAffix(line, className) {
   const text = clean(line);
   if (!text || IMPLICIT.test(text)) return null;
+  if (/primary core stat/i.test(text)) return CORE_STAT[className] || "willpower";
   const stat = statText(text);
   // Rank lines read "+2 to Blazing Scream" or "+2 Ranks to Hellfire Skills".
+  const ranked = /^[+]?\s*\d+\s+(ranks?\s+)?(to|of)\s+/i.test(text);
   for (const a of AFFIXES) {
-    if (a.rank && !/^[+]?\s*\d/.test(text)) continue;
+    if (a.rank && !ranked) continue;
     if (a.re.test(stat) || a.re.test(text)) return a.key;
   }
-  return null;
+  return ranked ? rankKey(stat) : null;
 }
 
 // A stat named without a value, as guides write it ("Ranks To Blazing Scream", "Hellfire Skills",
 // "Primary Core Stat", "Maximum Evade Charge").
-export function affixFromName(name) {
+export function affixFromName(name, className) {
+  if (/primary core stat/i.test(name)) return CORE_STAT[className] || "willpower";
   const text = clean(name).replace(/^ranks?\s+(to|of)\s+/i, "");
-  for (const a of AFFIXES) {
-    if (a.rank && a.re.test(text)) return a.key;
-    if (!a.rank && a.re.test(text)) return a.key;
-  }
-  return null;
+  for (const a of AFFIXES) if (a.re.test(text)) return a.key;
+  return /^ranks?\s+(to|of)\s+|skills?$/i.test(clean(name)) ? rankKey(text) : null;
 }
 
 export const affixValue = (line) => {
@@ -90,4 +97,5 @@ export const affixValue = (line) => {
   return m ? Number(m[1].replace(/,/g, "")) : null;
 };
 
-export const affixLabel = (key) => AFFIX[key]?.label || key || "That stat";
+export const affixLabel = (key) => AFFIX[key]?.label
+  || (key?.startsWith("ranks:") ? `Ranks to ${key.slice(6).replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}` : key) || "That stat";
