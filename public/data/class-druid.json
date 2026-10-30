@@ -18933,7 +18933,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Ring 2",
     "tip": "Aspect of the Followed Path\nCodex • Druid\nSkills Cast in the base Shapeshift form gain x [45 - 60%] increased damage.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Purified Lightbringer": {
@@ -19132,7 +19132,7 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Might of the Ursine\nGain x [2 - 4%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form."
+    "tip": "Might of the Ursine\nRank to Companion Skills\nMaximum Life\nGain x [2 - 4%] bonus damage to Werebear Skills for each stack of Resolve while in Werebear form. Additionally, you automatiicaly gain 1 stack of Resolve every 1 seconds while in Werebear form."
    },
    "Hellfire Torch": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",

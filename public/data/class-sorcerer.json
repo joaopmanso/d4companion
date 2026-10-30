@@ -19712,7 +19712,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Amulet",
     "tip": "Aspect of Elemental Constellation\nSorcerer\nWhile you have an equal number of Frost, Pyromancy, and Shock Skills equipped, you deal [45 - 60%] increased damage.\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Mage-Lord's Aspect": {
@@ -19817,14 +19817,14 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Ring 1",
     "tip": "Aspect of Merciless Cold\nCodex • Sorcerer\nYour Cold direct damage causes enemies to take [10 - 15%] increased Cold damage for 4 seconds, stacking up to 10 times.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Frozen Memories": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Weapon",
+    "slot": "2H Weapon",
     "tip": "Aspect of Frozen Memories\nSorcerer\nCold damage deals x [30 - 45%] increased damage to Chilled enemies, this bonus is tripled against Frozen enemies.\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Signet of Pelghain": {

@@ -17929,7 +17929,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Amulet",
     "tip": "Aspect of Celestial Strife\nPaladin\nWhile in Arbiter, kills grant x [1 - 1.5%] increased Vulnerable damage, up to a maximum of [50 - 75%].\nCritical Strike Chance\nStrength\nArmor\nCooldown Reduction\nArbiter Duration\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of the Indomitable": {
@@ -17950,7 +17950,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 2",
+    "slot": "Ring 1",
     "tip": "Aspect of Lagera's Sovereignty\nPaladin\nYour Disciple Skills deal x [40 - 60%] increased damage.\nCritical Strike Chance\nVulnerable Damage Multiplier\nCooldown Reduction\nCritical Strike Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Ascension": {
@@ -18362,7 +18362,7 @@
    },
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-    "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot\n+1 Charm Slot"
+    "tip": "Legendary Seal\n+1 Charm Slot"
    }
   },
   "runes": {

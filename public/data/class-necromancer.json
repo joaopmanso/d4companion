@@ -19491,8 +19491,8 @@
    },
    "The Undercrown": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_undercrown.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
     "tip": "The Undercrown\nUnique Helm\nIntelligence\nRanks to Minion Skills\nMaximum Life\nArmor\nMaximum Life\nCold Damage\nYour maximum number of Skeleton Warriors and Skeleton Mages is increased by [2 - 4].\n\nCommanding Skeleton Warriors also causes Skeleton Mages to focus the same target for 5 seconds.\nNecromancer\nDropped By:\nDuriel"
    },
@@ -19706,7 +19706,7 @@
     "set": "Peace of the Black Shroud",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
+    "tip": "Linta of the Black Shroud\nAll Stats\nDarkness Skills\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    "Phoba of the Black Shroud": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/peace_of_the_black_shroud.png",
@@ -19720,7 +19720,7 @@
     "set": "Peace of the Black Shroud",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of the Black Shroud\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
+    "tip": "Mlor of the Black Shroud\nAll Stats\nDarkness Skills\nPeace of the Black Shroud\nPhoba of the Black Shroud\nFer of the Black Shroud\nMlor of the Black Shroud\nLinta of the Black Shroud\nBerú of the Black Shroud\nPeace of the Black Shroud\n(2) Set: Your Darkness Skills deal 75% of their damage as additional Corrupting or Frostbite damage over 10 seconds.\n(3) Set: You gain 30% Damage Reduction for 5 seconds whenever you deal damage over time to an enemy.\n(5) Set: You deal x175% increased Shadow and Cold damage. Enemies who are Corrupted or Frostbitten for more than their remaining life are Vulnerable, Weakened, Slowed by 85%, Feared for 5 seconds, and take an additional x50% increased damage from you."
    },
    "Berú of the Blood Binder": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/word_of_the_blood_binder.png",
@@ -19755,7 +19755,7 @@
     "set": "Rathma'S Waking Touch",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
+    "tip": "Linta of the Waking Touch\nAll Stats\nMinion Skills\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    "Berú of the Waking Touch": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rathma's_waking_touch.png",
@@ -19769,7 +19769,7 @@
     "set": "Rathma'S Waking Touch",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of the Waking Touch\nCritical Strike Damage\nAll Stats\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
+    "tip": "Mlor of the Waking Touch\nAll Stats\nMinion Skills\nRathma's Waking Touch\nPhoba of the Waking Touch\nFer of the Waking Touch\nMlor of the Waking Touch\nLinta of the Waking Touch\nBerú of the Waking Touch\nRathma's Waking Touch\n(2) Set: Gain x60% Summoning Damage. Each time your Minions deal direct damage, reduce the Cooldown of Army of the Dead by 0.25 seconds.\n(3) Set: 35% of the damage you take is redirected to your Minions.\n(5) Set: Gain x200% Summoning Damage. While Army of the Dead is active, your Minions are larger, gain x100% increased Life, and gain 25% Attack Speed."
    },
    "Berú of the Bone Weaver": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/art_of_the_bone_weaver.png",

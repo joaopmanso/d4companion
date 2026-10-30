@@ -20214,7 +20214,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Ring 1",
+    "slot": "Offhand",
     "tip": "Crushing Aspect\nCodex • Warlock\nWhile Fortified, you deal x [45 - 65%] increased damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nDamage Per Overpower Stack\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Hellhound's Sabatons": {
@@ -20312,7 +20312,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Weapon",
     "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nWillpower\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nShadow Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Footfalls of the Waning World": {
@@ -20686,7 +20686,7 @@
     "set": "Chains of Horazon",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of Horazon's Chains\nDemonology Skills\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+    "tip": "Mlor of Horazon's Chains\nAbyss Skills\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    "Fer of Harash's Shadow": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
