@@ -13,9 +13,9 @@
 - **`sync-guides.yml`** runs daily at 06:17 UTC, and can be started by hand. Steps: `npm ci`, install Playwright Chromium, `npm run sync`, `npm test`. It then commits `public/data` as `Sync guides YYYY-MM-DD`, only if something changed, and pushes to `main`.
 - **`deploy.yml`** runs on a push to `main`, after a successful **Sync guides** run (bot pushes don't trigger push workflows), or by hand. Steps: `npm ci`, `npm test`, `npm run build`, then deploy to GitHub Pages. **A failing test, including the vault test, blocks the deploy.**
 
-## Branches and PRs
-- Work on a branch, open a PR, and the maintainer merges by hand.
-- Each PR updates `aivault/` (see [README](README.md#keeping-it-current-every-pr)) and adds a line to [changelog.md](changelog.md).
+## Committing
+- Commit and push straight to `main`; no PRs. Every push deploys, so run `npm test` and `npm run build` first.
+- Each change updates `aivault/` (see [README](README.md#keeping-it-current-every-change)) and adds a line to [changelog.md](changelog.md).
 
 ## Testing the OCR reader
 - Unit tests in `tests/parse.test.js` use real class vocab from `public/data/class-*.json` and noisy OCR text. When a real screenshot misreads, paste its Tesseract text into a new test. The reader keeps it on `item.rawText`; it isn't shown in the UI, so log it from `recognize()` in devtools.

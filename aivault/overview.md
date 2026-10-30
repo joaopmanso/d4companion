@@ -2,7 +2,7 @@
 
 **D4 Companion** is a Diablo IV build companion at https://joaopmanso.github.io/d4companion. Players pick a build guide, record their characters' gear, and paste item screenshots to find out whether an item is an upgrade and what to fix on it. It also shows the guide's skill tree, Paragon boards, farming routes and activity helpers (Hordes, War Plans, Strongrooms).
 
-Maintainer: João Pedro Manso (GitHub `joaopmanso`). PRs are merged by hand.
+Maintainer: João Pedro Manso (GitHub `joaopmanso`). Changes go straight to `main`, which deploys the site.
 
 ## Hard constraints
 
