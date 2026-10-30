@@ -29,7 +29,8 @@ Produced by the readers or the form, and stored in `gear`.
   talisman?,  // "charm" | "seal" for talisman pieces (then slot is null); set?: the charm's set name
   power,      // unique or mythic power text; for a set charm, its set bonuses from the catalog
   aspect,     // legendary aspect text. Free OCR prefixes the aspect's name when it recognises it: "Aspect of Ignition: …"
-  sockets: [string], shot?, updated?,
+  sockets: [string],  // gem/rune names, or from free OCR the socket's effect line ("×24% Fire and Holy Damage Multiplier")
+  shot?, updated?,
   engine?, rawText?, warning?, usage? }   // reader metadata, stripped before saving
 ```
 Affix keys come from `src/data/affixes.js` (`matchAffix`). The evaluator matches guide items by name, and aspects by name or text, against `` `${name} ${aspect} ${power}` ``.

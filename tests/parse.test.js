@@ -237,3 +237,61 @@ test("every unique, mythic and charm in items.json is identified from its name, 
   }
   assert.deepEqual(misses, []);
 });
+
+
+test("a real mythic weapon: art junk cut at the gap, socket effect, icons for Greater Affix, enchant and temper", () => {
+  // Tesseract's output for a player's Elegy (purple header, sword art beside the name and type line).
+  const text = `-FLEGY °°                       /
+
+[J       [J                % Ld     *     ’
+Ancestral Mythic Unique            * J
+Sword
+900 Item Power
+
+25 (+25) Quality
+
+2,288 Damage Per Second
+-  [1,766 - 2,394] Damage per Hit
+
++ 1.10 Attacks per Second (Fast)
+
+© +196 Weapon Damage [94 - 157]
+
+¢ +315 Willpower +[150 - 180]
+
+© x31% Critical Strike Damage
+Multiplier [13 - 25]%
+
+o +4 to Blazing Scream [3 - 4]
+
+X +6.3% Critical Strike Chance [2.5 -
+5.0]%
+
++ Blazing Scream is now an Archfiend
+Skill and deals 65%(x] [39 - 65]%
+increased damage. Blazing Scream
+gains the Skull Splitter Variant for
+free and the Lesser Demon skulls deal
+the same damage as the main skull.
+
+& x24% Fire and Holy Damage
+Multiplier
+
+TAZ 10 + cnney Frm #ho AAasvisvod Dhl thot`;
+  // What iconMarks read from the screenshot's icons, by line.
+  const marks = new Map([["196|weapon", "plain"], ["315|willpower", "ga"], ["31|critical", "enchant"], ["4|to", "plain"], ["63|critical", "temper"]]);
+  const item = parseTooltip(text, "Warlock", warlock, marks);
+  assert.equal(item.name, "Elegy");
+  assert.equal(item.rarity, "mythic");
+  assert.equal(item.ancestral, true);
+  assert.equal(item.slot, "weapon");
+  assert.deepEqual(item.affixes.map((a) => [a.text, a.kind, !!a.ga, !!a.enchanted]), [
+    ["+196 Weapon Damage", "affix", false, false],
+    ["+315 Willpower", "affix", true, false],
+    ["×31% Critical Strike Damage Multiplier", "affix", false, true],
+    ["+4 to Blazing Scream", "affix", false, false],
+    ["+6.3% Critical Strike Chance", "temper", false, false],
+  ]);
+  assert.deepEqual(item.sockets, ["×24% Fire and Holy Damage Multiplier"]);
+  assert.match(item.power, /^Blazing Scream is now an Archfiend Skill/);
+});

@@ -14,7 +14,7 @@ Parse by snapping, not by trusting characters. `src/recognize/vocab.js` builds t
 - snap the stat to an affix, or a rank line to a skill, backing off trailing junk words
 - rejoin wrapped affixes, and name a legendary's aspect by word overlap with the catalog's power texts
 
-Preprocessing uses an Otsu threshold clamped to 80–140 and Tesseract PSM 4.
+Preprocessing uses Tesseract PSM 4 and, at first, an Otsu threshold clamped to 80–140. That was later replaced by a local threshold, because bright plates broke it (see the changelog).
 
 ## Consequences
 - 100% of fields right on the rendered test set. Real screenshots still need fixtures (see roadmap).

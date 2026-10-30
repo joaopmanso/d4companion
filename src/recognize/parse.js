@@ -20,6 +20,9 @@ const DIGIT_FIX = { O: "0", o: "0", I: "1", l: "1", "|": "1", S: "5", B: "8" };
 export function normaliseLines(text) {
   return String(text || "")
     .split(/\r?\n/)
+    // The item art beside the name and type line is read as words after a wide gap ("BEATING FLAME *    JRRSASYY").
+    // Tooltip text is one column, so a line keeps only its wordiest gap-separated part.
+    .map((l) => l.split(/\s{3,}/).reduce((a, b) => (b.replace(/[^A-Za-z0-9]/g, "").length > a.replace(/[^A-Za-z0-9]/g, "").length ? b : a), ""))
     .map((l) => l.replace(/[_~`]/g, " ").replace(/\s+/g, " ").trim()
       // Specks of the plate's texture after the text: "Legendary Pants |", "Close Enemies |: ©»".
       .replace(/(\s+[^A-Za-z0-9%\])]{1,3})+$/, ""))
@@ -50,6 +53,9 @@ export function splitStat(line) {
   }
   return { value: "", stat: s };
 }
+
+// Matches an affix line between the OCR text and the icon reader: its value's digits and first stat word.
+export const lineKey = (value, stat) => `${String(value).replace(/\D/g, "")}|${norm(stat).split(" ")[0] || ""}`;
 
 // Snaps stat words onto a known affix ("Critcal Strike Chanee" → "Critical Strike Chance"), or onto a skill
 // for rank lines ("to Blazinq Scream" → "to Blazing Scream").
@@ -120,34 +126,42 @@ function findRarityLine(lines, vocab) {
 function identify(nameLines, vocab, typed) {
   // What the type line allows: a charm or seal, or gear for that slot. Some unique charms share a unique's name.
   const slot = typed && !typed.talisman ? typed.slot : null;
+  const fits = (it) => (!slot || !it.slot || it.slot === slot) && (!typed || typed.talisman || it.rarity === typed.rarity);
+  const gear = vocab.items.filter(fits);
   const pool = [
-    ...(typed?.talisman ? [] : vocab.items.filter((it) => !slot || !it.slot || it.slot === slot).map((it) => ({ ...it, what: "item" }))),
+    ...(typed?.talisman ? [] : (gear.length ? gear : vocab.items).map((it) => ({ ...it, what: "item" }))),
     ...(typed && typed.talisman !== "charm" ? [] : vocab.charms.map((c) => ({ ...c, what: "charm" }))),
     ...(typed && typed.talisman !== "seal" ? [] : vocab.seals.map((c) => ({ ...c, what: "seal" }))),
   ];
-  const names = pool.map((p) => p.name);
   // Every run of name lines, each also without short junk words at its end ("BEATING FLAME mw").
   const texts = [];
-  for (let a = 0; a < nameLines.length; a++) {
-    for (let b = a + 1; b <= nameLines.length; b++) {
-      const words = nameLines.slice(a, b).join(" ").split(" ").filter(Boolean);
+  const lines = nameLines.filter((l) => l.replace(/[^A-Za-z]/g, "").length >= 3); // drop specks like "J"
+  for (let a = 0; a < lines.length; a++) {
+    for (let b = a + 1; b <= lines.length; b++) {
+      const words = lines.slice(a, b).join(" ").split(" ").filter(Boolean);
       texts.push(words.join(" "));
       for (let n = words.length - 1; n >= Math.max(1, words.length - 2) && words[n].replace(/[^A-Za-z]/g, "").length <= 3; n--) texts.push(words.slice(0, n).join(" "));
     }
   }
-  // With the type line read, the pool is one slot's worth of names, so a looser match is safe.
-  const min = slot || typed?.talisman ? 0.72 : 0.78;
-  let hit = null;
-  for (const t of texts) {
-    const h = closest(t, names, min);
-    if (h && (!hit || h.score > hit.score)) hit = h;
-  }
-  if (!hit) {
-    // Word by word, skipping junk between them. A one-word name must match closely ("Infinite" isn't "Infinity").
-    const loose = nameIn(nameLines.join(" "), names);
-    if (loose && loose.score >= 0.85 && (norm(loose.value).includes(" ") || loose.score >= 0.95)) hit = loose;
-  }
-  return hit ? pool.find((p) => p.name === hit.value) : null;
+  const search = (candidates, min, shortMin) => {
+    const names = candidates.map((p) => p.name);
+    let hit = null;
+    for (const t of texts) {
+      const h = closest(t, names, min, shortMin);
+      if (h && (!hit || h.score > hit.score)) hit = h;
+    }
+    if (!hit) {
+      // Word by word, skipping junk between them. A one-word name must match closely ("Infinite" isn't "Infinity").
+      const loose = nameIn(lines.join(" "), names);
+      if (loose && loose.score >= 0.85 && (norm(loose.value).includes(" ") || loose.score >= 0.95)) hit = loose;
+    }
+    return hit ? candidates.find((p) => p.name === hit.value) : null;
+  };
+  // With the type line read, the pool is one slot's and rarity's worth of names, so a looser match is safe
+  // ("FLEGY" is Elegy). If that finds nothing, the catalog's slot or rarity may be off: try everything, strictly.
+  const narrowed = Boolean(slot || typed?.talisman);
+  return search(pool, narrowed ? 0.72 : 0.78, narrowed ? 0.78 : 0.85)
+    || (narrowed && !typed.talisman ? search(vocab.items.map((it) => ({ ...it, what: "item" })), 0.78, 0.85) : null);
 }
 
 const SMALL = new Set(["of", "the", "and", "to", "a", "in"]);
@@ -155,9 +169,10 @@ function titleCase(s) {
   return s.toLowerCase().replace(/\b[\p{L}']+/gu, (w, i) => (i > 0 && SMALL.has(w) ? w : w[0].toUpperCase() + w.slice(1)));
 }
 
-export function parseTooltip(text, className, vocab = BASE_VOCAB) {
+// `marks` (from the OCR reader) maps lineKey(value, stat) to the line's icon: "ga", "enchant", "temper" or "plain".
+export function parseTooltip(text, className, vocab = BASE_VOCAB, marks = null) {
   const lines = normaliseLines(text);
-  const item = { name: "", rarity: "legendary", ancestral: false, itemPower: null, type: "", slot: null, affixes: [], power: "", aspect: "" };
+  const item = { name: "", rarity: "legendary", ancestral: false, itemPower: null, type: "", slot: null, affixes: [], power: "", aspect: "", sockets: [] };
 
   const r = findRarityLine(lines, vocab);
   const powerAt = lines.findIndex((l) => POWER_RE.test(l));
@@ -167,7 +182,7 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
   for (let i = top - 1; i >= 0 && nameLines.length < 3; i--) {
     const l = lines[i];
     // A number line ends the name block, but "0F THE" or "1INTA" are letters misread as digits.
-    if (POWER_RE.test(l) || /^\W*[\d,.]+%?(\s|$)/.test(l) || isNoise(l)) break;
+    if (POWER_RE.test(l) || /^\W*\d[\d,.]*%?(\s|$)/.test(l) || isNoise(l)) break;
     nameLines.unshift(l.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""));
   }
   if (r) {
@@ -232,6 +247,20 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
     if (/^[\s[\]()\d.,%\-–xX×+]+$/.test(l)) continue; // a lone roll range or stray number
     const { value, stat } = splitStat(l);
     if (/\bquality\s*$/i.test(l)) continue; // "25 (+25) Quality"
+    if (/damage per (second|hit)|attacks? per second/i.test(l)) continue; // a weapon's base lines
+    // After the power text, a stat line is what a socketed gem or rune adds ("×24% Fire and Holy Damage / Multiplier").
+    if (prose.length && value) {
+      const next = body[li + 1] || "";
+      const wraps = next && !splitStat(next).value && next.length < 25 && !isNoise(next);
+      const full = `${stat}${wraps ? ` ${next.replace(/[^A-Za-z ]/g, "").trim()}` : ""}`;
+      // Only a real stat counts; power text has numbers too ("10 seconds, up to 50%").
+      const hit = snapTo(full, true);
+      if (hit || matchAffix(`${value} ${full}`, className)) {
+        item.sockets.push(`${value} ${hit && hit.score > 0.9 ? hit.phrase : full}`.trim());
+        if (wraps) li++;
+        continue;
+      }
+    }
     const snap = stat ? snapTo(stat, !!value) : null;
     // Stat lines start with a value ("+210 Willpower", "×22% Vulnerable Damage"). Without one, only a very close
     // match counts, since aspect text is full of stat words.
@@ -239,7 +268,7 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
       const text = `${value} ${snap.phrase}`.trim();
       if (/^[\d,.]+ (total )?armor$/i.test(text)) { last = null; continue; } // the armour base line
       // A value with no sign is a base stat ("288 All Resist"), not a rolled affix ("+270 Willpower").
-      last = { text, key: matchAffix(text, className), kind: /^[\d,.]+\s/.test(text) ? "implicit" : "affix", ga: false };
+      last = { text, key: matchAffix(text, className), kind: /^[\d,.]+\s/.test(text) ? "implicit" : "affix", ga: false, mark: marks?.get(lineKey(value, stat)) };
       item.affixes.push(last);
       continue;
     }
@@ -262,6 +291,18 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
     }
   }
   item.power = prose.join(" ").replace(/\s+/g, " ").trim();
+  // Name unreadable? A unique's power text is as good as its name: compare it with every unique's.
+  if (!known && !item.talisman && item.power && (!r || /unique|mythic/.test(item.rarity))) {
+    let best = null;
+    for (const it of vocab.items) {
+      const s = it.power ? wordOverlap(item.power, it.power) : 0;
+      if (!best || s > best.score) best = { it, score: s };
+    }
+    if (best?.score >= 0.6) {
+      known = best.it;
+      Object.assign(item, { name: known.name, rarity: known.rarity, type: known.type || item.type, slot: known.slot || slotFromType(known.type) || item.slot });
+    }
+  }
   if (charm?.set) {
     // A set charm's tooltip repeats the set's piece list and bonuses; the catalog has them clean.
     item.power = charm.tip.split("\n").filter((t) => /^\(\d\) Set:/.test(t)).join("\n");
@@ -282,8 +323,19 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
   if (item.slot === "ring") {
     for (const a of item.affixes) { if (/Res$/.test(a.key || "")) a.kind = "implicit"; else break; }
   }
-  // Past the fourth affix (second on Magic items), lines are almost always tempers.
-  const regular = item.rarity === "magic" ? 2 : 4;
-  item.affixes.filter((a) => a.kind === "affix").forEach((a, i) => { if (i >= regular) a.kind = "temper"; });
+  // The icons say which lines are Greater Affixes, enchanted or tempered. Without them (no icon read for any
+  // line), past the fourth affix (second on Magic items) lines are almost always tempers.
+  const rolled = item.affixes.filter((a) => a.kind === "affix");
+  if (rolled.some((a) => a.mark)) {
+    for (const a of rolled) {
+      if (a.mark === "ga") a.ga = true;
+      if (a.mark === "enchant") a.enchanted = true;
+      if (a.mark === "temper") a.kind = "temper";
+    }
+  } else {
+    const regular = item.rarity === "magic" ? 2 : 4;
+    rolled.forEach((a, i) => { if (i >= regular) a.kind = "temper"; });
+  }
+  for (const a of item.affixes) delete a.mark;
   return item;
 }

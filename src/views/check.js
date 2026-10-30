@@ -35,7 +35,7 @@ async function read(engineOverride) {
     S.slotId = item.talisman ? null : S.preset && (!item.slot || SLOT[S.preset].kind === SLOT[item.slot]?.kind || item.slot === "ring") ? S.preset : resolveSlot(item, char, build) || S.preset || "helm";
     S.status = item.engine === "claude"
       ? `Read by Claude. Check the lines below before you equip it.`
-      : `Read by free OCR${item.warning ? ` (Claude failed: ${item.warning})` : ""}. OCR can't see Greater Affix stars or temper icons, so tick those yourself.`;
+      : `Read by free OCR${item.warning ? ` (Claude failed: ${item.warning})` : ""}. Greater Affixes, tempers and enchants are read from the line icons, so check them below.`;
     if (!item.slot && !item.talisman) S.status += ` Couldn't tell what kind of item this is, so pick the slot below.`;
     S.error = false;
   } catch (err) {

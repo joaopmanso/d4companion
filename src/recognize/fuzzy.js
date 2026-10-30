@@ -30,8 +30,9 @@ export function similarity(a, b) {
   return 1 - distance(x, y) / Math.max(x.length, y.length);
 }
 
-// The closest candidate and its score. Short phrases need a closer match: one wrong letter in "Armor" is a lot.
-export function closest(text, candidates, min = 0.78) {
+// The closest candidate and its score. Short phrases need a closer match: one wrong letter in "Armor" is a lot,
+// unless the candidates are already few (`shortMin`).
+export function closest(text, candidates, min = 0.78, shortMin = 0.85) {
   const x = norm(text).replace(/ /g, "");
   if (!x) return null;
   let best = null;
@@ -41,7 +42,7 @@ export function closest(text, candidates, min = 0.78) {
     const score = 1 - distance(x, y) / Math.max(x.length, y.length);
     if (!best || score > best.score) best = { value: c, score };
   }
-  const need = Math.max(x.length, best?.value.length || 0) <= 6 ? Math.max(min, 0.85) : min;
+  const need = Math.max(x.length, best?.value.length || 0) <= 6 ? Math.max(min, shortMin) : min;
   return best && best.score >= need ? best : null;
 }
 
