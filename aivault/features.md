@@ -21,7 +21,7 @@ Status: ✅ shipped · 🧪 shipped, needs real-world tuning · 🗺️ planned 
 | War Plans, Strongrooms | ✅ | `views/warplans.js`, `views/strongroom.js` | |
 | Share links: short (Worker) with packed-URL fallback, read-only viewer, "Save a copy" | ✅ | `lib/share.js`, `main.js` | Never includes screenshots or the API key. |
 | Themes: dark (default), light, system | ✅ | `lib/theme.js`, `css/tokens.css` | Game art (item tiles, tooltips, tree, boards) stays on the dark "deep plate" in both themes. |
-| Design system (Hallmark custom: "colour is loot") | ✅ | `src/css/` | See [ADR 0009](adr/0009-design-system-hallmark.md). |
+| Design system (Hallmark layout + Diablo dress in `ornament.css`) | ✅ | `src/css/` | See [ADR 0009](adr/0009-design-system-hallmark.md). |
 | Daily guide sync and deploy | ✅ | `scripts/`, `.github/workflows/` | See [operations.md](operations.md). |
 | OCR: Greater Affix and temper icon detection | 🗺️ | | Needs real screenshots to calibrate. |
 | OCR: auto-crop the tooltip out of a full-screen screenshot | 🗺️ | | |

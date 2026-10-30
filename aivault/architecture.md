@@ -24,6 +24,7 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 | `src/css/trees.css` | Skill tree and Paragon screens. |
 | `src/css/check.css` | Item check (and the item form it shares with the loadout), farm guide, Hordes. |
 | `src/css/pages.css` | War Plans, Strongrooms, Sources, Characters, the welcome flow and the guide picker dialog. |
+| `src/css/ornament.css` | Loaded last: the game dress over the layout. Gilt corner brackets on panels and art plates, the fire wash, the wordmark gradient, rarity glows on tiles and tooltips, ember highlights on the chosen slot, gold meters. |
 | `index.html` | Shell markup: header, tabs, `#main`. |
 
 ### Views (`src/views/`), one per tab, each exporting `render(root, ctx)`

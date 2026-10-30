@@ -1,8 +1,8 @@
 /* Hallmark · shape: app screen · genre: atmospheric · theme: custom · redesign: full
- * paper: oklch(14.5% 0.012 25) · accent: oklch(50% 0.19 27) · display: Marcellus · body: Alegreya Sans
+ * paper: oklch(14.5% 0.012 25) · accent: oklch(50% 0.19 27) · display: Cinzel · body: Alegreya Sans
  * nav: top bar (wordmark, character, guide, settings) over one tab row · signature: the game's item tooltip, every line marked keep or reroll · states: loading, empty, error, full
  * idea: "Colour is loot: iron and bone chrome, and the only hues on screen are rarity tiers, verdicts and one blood red to act on" · vibe: "a character sheet from Sanctuary, kept by hand"
- * axes: dark/roman-serif/chromatic-red · posture: full palette (rarity roles) · contrast: pass · v2.0.0 */
+ * axes: dark/roman-serif/chromatic-red · posture: full palette (rarity roles) · contrast: pass · v2.0.0 · dress: ornament.css, owner asked for the Diablo frames, glows and gilt back over the layout */
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R4 V4 · weakest: S, the dark-and-red reading fits any Diablo fan site; rarity carries every hue so only an item tool could own it */
 /* Hallmark · dismissed 56 · .tabs is sticky only under 60rem, where .bar turns static, so one sticky bar holds at any width */
 /* Hallmark · sweep: Floor 0 FAIL in render · kept: every link, field and handler · Reflex 1 waived (39b) · finish-review: in-thread, by screenshot, dark and light at 1440 and 375 */
@@ -18,3 +18,4 @@
 @import url("./trees.css");
 @import url("./check.css");
 @import url("./pages.css");
+@import url("./ornament.css");

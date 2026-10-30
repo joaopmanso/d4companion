@@ -20,3 +20,6 @@ Restyling is a token edit. New screens reuse `shell.css` components and add a sc
 ## Alternatives considered
 - A catalog Hallmark theme: none carried the game's rarity colours as the palette.
 - Keep the old look and polish it: the tells were structural (capitals, brackets, glows everywhere), so a polish would not have changed how it reads.
+
+## Amendment, 2026-10-31
+The owner found the stripped version empty and bland and asked for the Diablo look back. The layout, tokens and per-screen files stay; `src/css/ornament.css`, loaded last, brings back framed panels with gilt corner brackets, the fire wash, rarity glows, ember highlights on what is chosen, gold meters and Cinzel headings. The "no brackets, no glows" decision above is reversed; colours still come only from tokens.

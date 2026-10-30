@@ -1,0 +1,146 @@
+/* The game's dress, laid over the layout: gilt corner brackets on every panel, fire at the top of
+   the page, rarity glows on tiles and tooltips, ember on whatever is chosen. Loaded last, so it only
+   adds frames, washes and highlights; spacing and structure stay in the other files. */
+
+/* ---------- The page: a fire glow from above ---------- */
+body {
+  background:
+    radial-gradient(ellipse 90% 520px at 50% -140px, var(--wash-fire), transparent 70%) no-repeat,
+    var(--color-paper);
+}
+
+/* ---------- The bar and the wordmark ---------- */
+.bar {
+  background: linear-gradient(180deg, var(--color-paper-2), var(--color-paper));
+  border-bottom-color: var(--color-gilt-dim);
+  box-shadow: 0 6px 18px var(--frame-shade);
+}
+.brand h1 { font-weight: 700; }
+.brand h1 a {
+  background: linear-gradient(180deg, var(--color-gilt) 20%, var(--color-accent-text) 65%, var(--blood-hi));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.brand h1 a:hover { color: transparent; filter: brightness(1.15); }
+
+.tabs { border-top-color: var(--color-rule); }
+.tab { font-family: var(--font-display); font-size: var(--text-sm); font-weight: 700; }
+.tab:hover { color: var(--color-gilt); }
+.tab[aria-selected="true"] { color: var(--color-gilt); box-shadow: inset 0 -2px 0 var(--ember); text-shadow: 0 0 12px var(--glow-ember); }
+
+/* ---------- Section heads: an ember crest, then a gilt rule fading out ---------- */
+.view-head h2 { display: flex; align-items: center; gap: var(--space-sm); max-width: none; }
+.view-head h2::before {
+  content: ""; flex: none; width: 9px; height: 9px; transform: rotate(45deg);
+  background: var(--ember); box-shadow: 0 0 10px var(--ember);
+}
+.view-head h2::after { content: ""; flex: 1; min-width: var(--space-xl); height: 1px; background: linear-gradient(90deg, var(--color-gilt-dim), transparent 80%); }
+.panel > h3, .panel > .row h3, .tree h3, .verdict-card h3 { color: var(--color-gilt); }
+
+/* ---------- Panels: stone, shaded at the edges, gilt brackets on each corner ---------- */
+.panel, .tree, .verdict-card, form.slot-detail.edit, .tal-picker {
+  position: relative;
+  padding: var(--space-md) var(--space-lg);
+  background: linear-gradient(180deg, var(--color-paper-2), var(--color-paper));
+  border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-card);
+  box-shadow: inset 0 0 40px var(--frame-shade), 0 4px 18px var(--frame-shade);
+}
+.panel .panel, .panel .tal-picker { box-shadow: none; background: var(--color-paper-2); }
+.panel::before, .tree::before, .verdict-card::before, form.slot-detail.edit::before,
+.doll-figure::before, .skill-bar::before, .st-wrap::before, .pg-frame::before {
+  --c: var(--bracket, var(--color-gilt-dim));
+  content: ""; position: absolute; inset: 0; pointer-events: none; z-index: var(--z-base);
+  background:
+    linear-gradient(var(--c), var(--c)) top left / 16px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) top left / 2px 16px no-repeat,
+    linear-gradient(var(--c), var(--c)) top right / 16px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) top right / 2px 16px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom left / 16px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom left / 2px 16px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom right / 16px 2px no-repeat,
+    linear-gradient(var(--c), var(--c)) bottom right / 2px 16px no-repeat;
+}
+.panel .panel::before { display: none; }
+.panel ul li::marker { color: var(--ember); }
+
+/* Game-art plates: the deep stone, a vignette and bronze brackets */
+.doll-figure, .skill-bar, .st-wrap, .pg-frame, .prime, .talisman {
+  --bracket: var(--gold-dim);
+  border: var(--rule-hair) solid var(--gold-deep);
+  box-shadow: inset 0 0 40px var(--shade), 0 4px 18px var(--frame-shade);
+}
+.skill-bar, .st-wrap, .pg-frame { position: relative; }
+
+/* ---------- Controls ---------- */
+.btn { background: linear-gradient(180deg, var(--color-paper-3), var(--color-paper-2)); }
+.btn:hover { background: linear-gradient(180deg, var(--color-paper-3), var(--color-paper-2)); border-color: var(--color-gilt); color: var(--color-gilt); }
+.btn.ghost, .btn.ghost:hover { background: transparent; border-color: transparent; }
+.btn.primary, .btn.primary:hover {
+  background: linear-gradient(180deg, var(--blood-hi), var(--blood-lo));
+  border-color: var(--gold-dim); color: var(--color-accent-ink); text-shadow: 0 1px 0 var(--shade);
+}
+.btn.primary { transition: filter var(--dur-micro) var(--ease-out); }
+.btn.primary:hover { filter: brightness(1.18); box-shadow: 0 0 14px var(--glow-ember); }
+input, select, textarea { box-shadow: inset 0 1px 4px var(--frame-shade); }
+.seg button[aria-selected="true"] { color: var(--color-gilt); box-shadow: inset 0 -2px 0 var(--ember); }
+.guide-btn { background: linear-gradient(180deg, var(--color-paper-3), var(--color-paper-2)); border-color: var(--color-gilt-dim); }
+.guide-btn:hover { background: linear-gradient(180deg, var(--color-paper-3), var(--color-paper-2)); border-color: var(--color-gilt); }
+
+/* ---------- Item tiles: a rarity glow in the well ---------- */
+.ico {
+  background:
+    radial-gradient(circle at 50% 40%, color-mix(in oklab, var(--edge) 26%, transparent), transparent 72%),
+    linear-gradient(180deg, var(--deep-2), var(--deep));
+  box-shadow: inset 0 0 14px var(--shade);
+}
+
+/* ---------- The paperdoll: warm on hover, ember on the chosen slot ---------- */
+.dslot { transition: background-color var(--dur-micro) var(--ease-out); }
+.dslot:hover { background: linear-gradient(90deg, color-mix(in oklab, var(--color-gilt) 10%, transparent), transparent 85%); }
+.doll-col.left .dslot:hover { background: linear-gradient(270deg, color-mix(in oklab, var(--color-gilt) 10%, transparent), transparent 85%); }
+.dslot[aria-pressed="true"] { background: linear-gradient(90deg, color-mix(in oklab, var(--ember) 18%, transparent), transparent 85%); }
+.doll-col.left .dslot[aria-pressed="true"] { background: linear-gradient(270deg, color-mix(in oklab, var(--ember) 18%, transparent), transparent 85%); }
+.dslot[aria-pressed="true"] .ico { outline: 2px solid var(--ember); outline-offset: 2px; box-shadow: inset 0 0 14px var(--shade), 0 0 16px var(--glow-ember); }
+.dslot[aria-pressed="true"] .nm { color: var(--color-gilt); }
+.tal-socket:hover img, .tal-socket:focus-visible img { filter: drop-shadow(0 0 8px var(--glow-gold)); }
+
+/* ---------- The game's tooltip: a rarity glow from the top, bronze crests, ruled with a diamond ---------- */
+.gt {
+  position: relative;
+  border-width: var(--rule-hair);
+  background:
+    radial-gradient(130% 110px at 50% 0, color-mix(in oklab, var(--gt-edge) 24%, transparent), transparent),
+    linear-gradient(180deg, var(--deep-2), var(--deep));
+  box-shadow:
+    inset 0 0 0 3px var(--deep), inset 0 0 0 4px color-mix(in oklab, var(--gt-edge) 55%, transparent),
+    0 0 20px color-mix(in oklab, var(--gt-edge) 18%, transparent), 0 10px 26px var(--shade);
+}
+.gt::before, .gt::after {
+  content: ""; position: absolute; left: 50%; width: 10px; height: 10px; z-index: var(--z-base);
+  transform: translateX(-50%) rotate(45deg);
+  background: linear-gradient(135deg, var(--gold), var(--gold-deep)); border: var(--rule-hair) solid var(--deep);
+}
+.gt::before { top: -6px; }
+.gt::after { bottom: -6px; }
+.gt-name { text-shadow: 0 0 14px color-mix(in oklab, var(--gt-edge) 40%, transparent); }
+.gt-rule { position: relative; background: linear-gradient(90deg, transparent, var(--gold-deep) 18%, var(--gold-deep) 82%, transparent); }
+.gt-rule::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 5px; height: 5px;
+  transform: translate(-50%, -50%) rotate(45deg); background: var(--deep); border: var(--rule-hair) solid var(--gold-dim);
+}
+
+/* ---------- Meters: gold when on target, fire when short ---------- */
+.meter { height: 6px; background: var(--deep); border: var(--rule-hair) solid var(--color-rule); box-shadow: inset 0 1px 3px var(--shade); }
+.meter.ok > i { background: linear-gradient(180deg, var(--gold), var(--gold-deep)); }
+.meter.low > i { background: linear-gradient(180deg, var(--dk-legendary), var(--ember)); }
+.meter.bad > i { background: linear-gradient(180deg, var(--dk-bad), var(--blood-lo)); }
+
+/* ---------- Verdicts, steps, tables, links ---------- */
+.verdict.best { box-shadow: 0 0 0 1px var(--ember), 0 0 18px var(--glow-ember); }
+.steps li::before, .path li::before { background: linear-gradient(180deg, var(--blood-hi), var(--blood-lo)); color: var(--gold); }
+th { font-family: var(--font-display); color: var(--color-gilt); background: linear-gradient(180deg, var(--color-paper-2), transparent); border-bottom-color: var(--color-gilt-dim); }
+.link, .char-row { background: linear-gradient(180deg, var(--color-paper-2), var(--color-paper)); transition: border-color var(--dur-micro) var(--ease-out); }
+.link:hover, .char-row:hover { border-color: var(--ember); }
+.route.best { box-shadow: inset 3px 0 0 var(--ember); }
+.share-banner { background: linear-gradient(90deg, color-mix(in oklab, var(--ember) 14%, var(--color-paper-2)), var(--color-paper-2)); }
+
+.site-foot { border-top-color: var(--color-gilt-dim); }

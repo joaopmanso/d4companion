@@ -13,7 +13,7 @@
   --control-h: 36px;
   --radius-card: 2px; --radius-control: 2px; --radius-pill: 999px; --rule-hair: 1px;
 
-  --font-display: "Marcellus", "Trajan Pro", ui-serif, Georgia, serif;
+  --font-display: "Cinzel", "Trajan Pro", ui-serif, Georgia, serif;
   --font-body: "Alegreya Sans", ui-sans-serif, system-ui, sans-serif;
   --font-outlier: "IBM Plex Mono", ui-monospace, Consolas, monospace;
   --tracking-display: 0.01em;
@@ -26,11 +26,18 @@
   --dk-good: oklch(80% 0.14 150); --dk-bad: oklch(72% 0.15 25); --dk-warn: oklch(82% 0.13 80);
   --ancestral: oklch(97% 0.01 90);
   --ember: oklch(64% 0.2 35);
+  /* Gilt and fire: the frames, crests and glows every in-game panel wears */
+  --gold: oklch(80% 0.1 80); --gold-dim: oklch(56% 0.08 72); --gold-deep: oklch(42% 0.07 65);
+  --blood-hi: oklch(46% 0.18 28); --blood-lo: oklch(26% 0.11 25);
+  --glow-ember: oklch(64% 0.2 35 / 0.45); --glow-gold: oklch(80% 0.1 80 / 0.28);
+  --shade: oklch(4% 0.01 25 / 0.55); --shade-soft: oklch(4% 0.01 25 / 0.28);
 
   /* Dark (default) */
-  --color-paper: oklch(14.5% 0.012 25); --color-paper-2: oklch(18% 0.014 25); --color-paper-3: oklch(22% 0.016 25);
-  --color-ink: oklch(92% 0.018 80); --color-ink-2: oklch(84% 0.02 75); --color-muted: oklch(72% 0.02 65);
-  --color-rule: oklch(30% 0.018 30); --color-rule-strong: oklch(56% 0.03 45);
+  --color-paper: oklch(12.5% 0.014 30); --color-paper-2: oklch(17.5% 0.02 35); --color-paper-3: oklch(22% 0.024 38);
+  --color-ink: oklch(91% 0.03 80); --color-ink-2: oklch(84% 0.035 75); --color-muted: oklch(70% 0.03 68);
+  --color-rule: oklch(31% 0.03 45); --color-rule-strong: oklch(50% 0.06 65);
+  --color-gilt: var(--gold); --color-gilt-dim: var(--gold-dim);
+  --wash-fire: oklch(42% 0.17 30 / 0.32); --frame-shade: var(--shade);
   --color-accent: oklch(50% 0.19 27); --color-accent-hover: oklch(56% 0.2 29); --color-accent-ink: oklch(96% 0.02 80);
   --color-accent-text: oklch(72% 0.15 38); --color-focus: oklch(72% 0.17 40);
   --color-mythic: var(--dk-mythic); --color-unique: var(--dk-unique); --color-legendary: var(--dk-legendary);
@@ -44,9 +51,9 @@
 
 /* Light: bone paper, the same iron and blood */
 :root[data-theme="light"] {
-  --color-paper: oklch(95.5% 0.007 30); --color-paper-2: oklch(92% 0.01 30); --color-paper-3: oklch(98.5% 0.004 30);
+  --color-paper: oklch(92% 0.025 80); --color-paper-2: oklch(88.5% 0.032 78); --color-paper-3: oklch(95.5% 0.018 82);
   --color-ink: oklch(20% 0.02 25); --color-ink-2: oklch(30% 0.02 25); --color-muted: oklch(45% 0.02 30);
-  --color-rule: oklch(84% 0.014 30); --color-rule-strong: oklch(52% 0.03 35);
+  --color-rule: oklch(80% 0.04 75); --color-rule-strong: oklch(55% 0.07 65);
   --color-accent: oklch(47% 0.18 27); --color-accent-hover: oklch(41% 0.17 27); --color-accent-ink: oklch(97% 0.01 80);
   --color-accent-text: oklch(45% 0.17 27); --color-focus: oklch(47% 0.19 27);
   --color-mythic: oklch(46% 0.18 305); --color-unique: oklch(46% 0.09 75); --color-legendary: oklch(50% 0.15 50);
@@ -54,13 +61,15 @@
   --color-good: oklch(44% 0.12 150); --color-bad: oklch(48% 0.18 27); --color-warn: oklch(48% 0.12 75); --color-mine: oklch(48% 0.15 255);
   --color-scrim: oklch(20% 0.02 25 / 0.55);
   --shadow-pop: 0 12px 32px oklch(20% 0.02 25 / 0.22);
+  --color-gilt: oklch(46% 0.09 68); --color-gilt-dim: oklch(60% 0.08 72);
+  --wash-fire: oklch(55% 0.15 35 / 0.14); --frame-shade: oklch(40% 0.05 55 / 0.16);
   color-scheme: light;
 }
 @media (prefers-color-scheme: light) {
   :root:not([data-theme]) {
-    --color-paper: oklch(95.5% 0.007 30); --color-paper-2: oklch(92% 0.01 30); --color-paper-3: oklch(98.5% 0.004 30);
+    --color-paper: oklch(92% 0.025 80); --color-paper-2: oklch(88.5% 0.032 78); --color-paper-3: oklch(95.5% 0.018 82);
     --color-ink: oklch(20% 0.02 25); --color-ink-2: oklch(30% 0.02 25); --color-muted: oklch(45% 0.02 30);
-    --color-rule: oklch(84% 0.014 30); --color-rule-strong: oklch(52% 0.03 35);
+    --color-rule: oklch(80% 0.04 75); --color-rule-strong: oklch(55% 0.07 65);
     --color-accent: oklch(47% 0.18 27); --color-accent-hover: oklch(41% 0.17 27); --color-accent-ink: oklch(97% 0.01 80);
     --color-accent-text: oklch(45% 0.17 27); --color-focus: oklch(47% 0.19 27);
     --color-mythic: oklch(46% 0.18 305); --color-unique: oklch(46% 0.09 75); --color-legendary: oklch(50% 0.15 50);
@@ -68,6 +77,8 @@
     --color-good: oklch(44% 0.12 150); --color-bad: oklch(48% 0.18 27); --color-warn: oklch(48% 0.12 75); --color-mine: oklch(48% 0.15 255);
     --color-scrim: oklch(20% 0.02 25 / 0.55);
     --shadow-pop: 0 12px 32px oklch(20% 0.02 25 / 0.22);
+    --color-gilt: oklch(46% 0.09 68); --color-gilt-dim: oklch(60% 0.08 72);
+    --wash-fire: oklch(55% 0.15 35 / 0.14); --frame-shade: oklch(40% 0.05 55 / 0.16);
     color-scheme: light;
   }
 }
@@ -78,4 +89,5 @@
   --color-mythic: var(--dk-mythic); --color-unique: var(--dk-unique); --color-legendary: var(--dk-legendary);
   --color-rare: var(--dk-rare); --color-set: var(--dk-set); --color-magic: var(--dk-magic);
   --color-good: var(--dk-good); --color-bad: var(--dk-bad); --color-warn: var(--dk-warn);
+  --color-gilt: var(--gold); --color-gilt-dim: var(--gold-dim);
 }
