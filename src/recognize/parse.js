@@ -5,10 +5,10 @@
 // are guessed here and shown for review.
 import { matchAffix } from "../data/affixes.js";
 import { slotFromType } from "../data/slots.js";
-import { closest, norm, similarity, wordOverlap } from "./fuzzy.js";
+import { closest, nameIn, norm, similarity, wordOverlap } from "./fuzzy.js";
 import { BASE_VOCAB, RARITIES, NOISE_PHRASES } from "./vocab.js";
 
-const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|unique|legendary|rare|magic|common)\s+([a-z0-9][a-z0-9\s-]{1,30})$/i;
+const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|unique|legendary|rare|magic|common|set)\s+([a-z0-9][a-z0-9\s-]{1,30})$/i;
 // "800 Item Power", and the misreads "8OO ltem Power", "800 Item P0wer".
 const POWER_RE = /([\dOoIl|]{3,4})\s*\+?\s*[il1|]tem\s*p[o0]wer/i;
 // Roll ranges after a value: "[8.0 - 12.5]%", "(8.0-12.5)", or one OCR cut off before its bracket closed.
@@ -118,30 +118,44 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
 
   const r = findRarityLine(lines, vocab);
   const ri = r ? r.i : -1;
-  let known = null;
+  let known = null, charm = null;
   if (r) {
     item.ancestral = r.ancestral;
-    item.rarity = /mythic/i.test(r.rarity) ? "mythic" : r.rarity.toLowerCase();
-    item.type = r.type;
-    item.slot = slotFromType(item.type);
-    // The name is the run of lines just above the rarity line (long names wrap onto two).
+    item.rarity = /mythic/i.test(r.rarity) ? "mythic" : /^set$/i.test(r.rarity) ? "legendary" : r.rarity.toLowerCase();
+    item.type = /^set$/i.test(r.rarity) ? `Set ${r.type}` : r.type;
+    // Charms and seals go in the talisman, not a gear slot.
+    item.talisman = /^charm$/i.test(r.type) ? "charm" : /^seal$/i.test(r.type) ? "seal" : null;
+    item.slot = item.talisman ? null : slotFromType(item.type);
+    // The name is the run of lines just above the rarity line (long names wrap onto two or three).
     const nameParts = [];
-    for (let i = ri - 1; i >= 0 && nameParts.length < 2; i--) {
+    for (let i = ri - 1; i >= 0 && nameParts.length < 3; i--) {
       const l = lines[i];
       if (POWER_RE.test(l) || /^\W*\d/.test(l) || isNoise(l)) break;
       nameParts.unshift(l.replace(/^[^A-Za-z]+|[^A-Za-z']+$/g, ""));
     }
-    // Uniques and mythics have fixed names, so snap to the class's catalog; legendary and rare names are random.
     const raw = nameParts.join(" ");
-    const pool = vocab.items.filter((it) => item.rarity === "unique" || item.rarity === "mythic" || !item.type || !it.type || norm(it.type) === norm(item.type));
-    const tail = nameParts.length > 1 ? nameParts[nameParts.length - 1] : "";
-    const hit = closest(raw, pool.map((it) => it.name), 0.72) || (tail && closest(tail, pool.map((it) => it.name), 0.8));
-    if (hit && (item.rarity === "unique" || item.rarity === "mythic")) {
-      known = vocab.items.find((it) => it.name === hit.value);
-      item.name = known.name;
-      if (known.rarity === "mythic") item.rarity = "mythic";
+    if (item.talisman) {
+      // Charm and seal names are fixed: snap to the class's charm or seal list.
+      const pool = item.talisman === "charm" ? vocab.charms : vocab.seals;
+      const names = pool.map((c) => c.name);
+      const hit = closest(raw, names, 0.75) || nameIn(raw, names);
+      charm = hit && pool.find((c) => c.name === hit.value);
+      item.name = charm ? charm.name : titleCase(raw);
+      if (charm?.mythic) item.rarity = "mythic";
+      if (charm?.set) item.set = charm.set;
     } else {
-      item.name = titleCase(raw);
+      // Uniques and mythics have fixed names, so snap to the class's catalog; legendary and rare names are random.
+      const pool = vocab.items.filter((it) => item.rarity === "unique" || item.rarity === "mythic" || !item.type || !it.type || norm(it.type) === norm(item.type));
+      const names = pool.map((it) => it.name);
+      const tail = nameParts.length > 1 ? nameParts[nameParts.length - 1] : "";
+      const hit = closest(raw, names, 0.72) || (tail && closest(tail, names, 0.8)) || nameIn(raw, names);
+      if (hit && (item.rarity === "unique" || item.rarity === "mythic")) {
+        known = vocab.items.find((it) => it.name === hit.value);
+        item.name = known.name;
+        if (known.rarity === "mythic") item.rarity = "mythic";
+      } else {
+        item.name = titleCase(raw);
+      }
     }
   } else {
     item.name = titleCase(lines[0] || "");
@@ -154,8 +168,21 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
   const statVocab = known?.affixes?.length ? { ...vocab, affixes: [...new Set([...known.affixes, ...vocab.affixes])] } : vocab;
   const prose = [];
   let last = null;
-  for (const l of lines.slice(ri + 1)) {
-    if (POWER_RE.test(l) || isNoise(l)) { last = null; continue; }
+  const body = lines.slice(ri + 1);
+  for (let li = 0; li < body.length; li++) {
+    const l = body[li];
+    if (POWER_RE.test(l) || isNoise(l) || /^\(?\d\)?\s*set\b/i.test(l)) { last = null; continue; }
+    // "Lucky Hit: Up to a 40% Chance to / Deal +800 Shadow Damage [550 - / 1,000]" is one affix over several lines.
+    const lucky = l.replace(/^[^A-Za-z]*\S?\s+(?=lucky)/i, "").match(/^lucky\s*hit\s*[:;]\s*(.+)$/i);
+    if (lucky) {
+      let text = lucky[1];
+      while (!/[[(]/.test(text) && li + 1 < body.length && /^[a-z+\d]/i.test(body[li + 1]) && !isNoise(body[li + 1])) text += ` ${body[++li]}`;
+      if (/[[(]/.test(text) && !/[\])]/.test(text) && /^[\d.,\s\-–%]+[\])]/.test(body[li + 1] || "")) li++;
+      last = { text: `Lucky Hit: ${text.replace(/\s*[[(].*$/, "").trim()}`, key: null, kind: "affix", ga: false };
+      item.affixes.push(last);
+      last = null;
+      continue;
+    }
     if (/^[\s[\]()\d.,%\-–xX×+]+$/.test(l)) continue; // a lone roll range or stray number
     const { value, stat } = splitStat(l);
     const snap = stat ? snapStat(stat, statVocab) : null;
@@ -186,7 +213,12 @@ export function parseTooltip(text, className, vocab = BASE_VOCAB) {
     }
   }
   item.power = prose.join(" ").replace(/\s+/g, " ").trim();
-  if (item.rarity === "legendary") {
+  if (charm?.set) {
+    // A set charm's tooltip repeats the set's piece list and bonuses; the catalog has them clean.
+    item.power = charm.tip.split("\n").filter((t) => /^\(\d\) Set:/.test(t)).join("\n");
+  } else if (item.talisman) {
+    // keep the unique charm's or seal's power as read
+  } else if (item.rarity === "legendary") {
     // Legendary tooltips print the aspect's power but not its name; find the name from the power text.
     let best = null;
     for (const a of vocab.aspects) {

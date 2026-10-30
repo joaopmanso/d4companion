@@ -26,7 +26,8 @@ Produced by the readers or the form, and stored in `gear`.
 { name, rarity: "mythic"|"unique"|"legendary"|"rare"|"magic", ancestral, itemPower, type, slot,
   affixes: [{ text: "+12.5% Critical Strike Chance", key: "critChance" | "ranks:<slug>" | null,
               kind: "affix"|"temper"|"implicit", ga: bool, enchanted?: bool }],
-  power,      // unique or mythic power text
+  talisman?,  // "charm" | "seal" for talisman pieces (then slot is null); set?: the charm's set name
+  power,      // unique or mythic power text; for a set charm, its set bonuses from the catalog
   aspect,     // legendary aspect text. Free OCR prefixes the aspect's name when it recognises it: "Aspect of Ignition: …"
   sockets: [string], shot?, updated?,
   engine?, rawText?, warning?, usage? }   // reader metadata, stripped before saving

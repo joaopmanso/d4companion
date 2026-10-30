@@ -23,7 +23,9 @@ export async function recognize(blob, settings, progress, className) {
     engine = "ocr";
   }
   item.engine = engine;
-  item.slot = item.slot || slotFromType(item.type);
+  // Charms and seals ("Set Charm", "Legendary Seal") belong in the talisman, not a gear slot.
+  item.talisman = item.talisman || (/\bcharm\b/i.test(item.type) ? "charm" : /\bseal\b/i.test(item.type) ? "seal" : null);
+  item.slot = item.talisman ? null : item.slot || slotFromType(item.type);
   for (const a of item.affixes) if (!a.key) a.key = matchAffix(a.text, className);
   if (!item.itemPower) item.itemPower = null;
   return item;

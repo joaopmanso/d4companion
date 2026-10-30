@@ -5,7 +5,7 @@
 // "1h"/"2h" weapon types stay as they are.
 const LETTER = { 0: "o", 1: "l", 5: "s", 8: "b" };
 export const norm = (s) => String(s || "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "")
-  .replace(/['’`]/g, "").replace(/[|]/g, "l").replace(/[^a-z0-9]+/g, " ").trim()
+  .replace(/['’`]/g, "").replace(/[|]/g, "l").replace(/[®©°øº]/g, "o").replace(/[^a-z0-9]+/g, " ").trim()
   .replace(/\S+/g, (w) => (/[a-z]/.test(w) && /\d/.test(w) && !/^\d+h$/.test(w) ? w.replace(/[0158]/g, (d) => LETTER[d]) : w));
 
 export function distance(a, b) {
@@ -43,6 +43,29 @@ export function closest(text, candidates, min = 0.78) {
   }
   const need = Math.max(x.length, best?.value.length || 0) <= 6 ? Math.max(min, 0.85) : min;
   return best && best.score >= need ? best : null;
+}
+
+// The candidate name whose every word appears, in order, among the OCR words. Item art sits to the right of
+// the name, so name lines pick up junk words ("FER OF PIN" / "ABADD®N'S FLESH mw"), which this skips over.
+export function nameIn(text, names) {
+  const raw = norm(text).split(" ").filter(Boolean);
+  let best = null;
+  for (const n of names) {
+    const want = norm(n).split(" ").filter(Boolean);
+    let j = 0, total = 0;
+    for (const w of want) {
+      let k = j;
+      while (k < raw.length && similarity(raw[k], w) < (w.length <= 3 ? 1 : 0.7)) k++;
+      if (k === raw.length) { total = -1; break; }
+      total += similarity(raw[k], w);
+      j = k + 1;
+    }
+    if (total < 0) continue;
+    // Longer names win ties, so "Fer of Abaddon's Flesh" beats a shorter name hidden inside it.
+    const score = total / want.length + want.length / 100;
+    if (!best || score > best.score) best = { value: n, score };
+  }
+  return best;
 }
 
 // Share of the query's words found in the candidate. For long prose (aspect powers) where numbers differ.

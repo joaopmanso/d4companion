@@ -23,7 +23,7 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 | File | Tab |
 |---|---|
 | `src/views/loadout.js` | **Loadout.** In-game style paperdoll of the character's own gear, talisman, runes and Splinters. The guide's target is shown dimmed with next steps. Share button. |
-| `src/views/check.js` | **Item check.** Paste or drop a screenshot, then `recognize`, an editable form (`itemform`), the `evaluate` verdict, and Equip. |
+| `src/views/check.js` | **Item check.** Paste or drop a screenshot, then `recognize`, an editable form (`itemform`), the `evaluate` verdict, and Equip. Charms and seals (`item.talisman`) get a talisman verdict instead: in the guide or not, already owned, set count, and "Put in talisman" into the first empty socket or the first non-guide charm. |
 | `src/views/skills.js` | **Skill tree.** Compact summary or full tree. "Mine" (editable) and "Guide" (read-only). |
 | `src/views/paragon.js` | **Paragon.** Boards drawn in tile art, rotated as attached. Mine and Guide. |
 | `src/views/farm.js` | **Farm guide.** Best route per needed piece, from `data/sources.js`. |
@@ -48,13 +48,13 @@ Every file under `src/` and `scripts/` must be listed here. `tests/vault.test.js
 ### Screenshot reading (`src/recognize/`)
 | File | Role |
 |---|---|
-| `src/recognize/index.js` | `recognize(blob, settings, progress, className)`. Uses Claude when an API key is set and the engine isn't `ocr`, falling back to OCR on error. Fills `slot` and `key`. |
+| `src/recognize/index.js` | `recognize(blob, settings, progress, className)`. Uses Claude when an API key is set and the engine isn't `ocr`, falling back to OCR on error. Fills `slot`, `key`, and `talisman` (`charm`/`seal` from the type line, in which case `slot` is null). |
 | `src/recognize/claude.js` | Claude reader: player's key, browser-direct, JSON-schema output. The system prompt is imported from `aivault/prompts/tooltip-reader.system.md`. `claudeError` gives player-facing errors. |
 | `src/recognize/models.js` | The model list shown in Settings. |
 | `src/recognize/ocr.js` | Tesseract worker (PSM 4). Preprocessing: upscale to about 2000 px wide, take the brightest channel, then an Otsu threshold clamped to 80–140. Loads the class vocabulary, then `parseTooltip`. |
-| `src/recognize/parse.js` | `parseTooltip(text, className, vocab)`. Snaps OCR lines onto the vocabulary: rarity and type line, unique names, affixes (fixing misread digits and dropping icon junk and roll ranges), skill ranks, rejoined wrapped lines, and the aspect name from its power text. Also exports `splitStat` and `normaliseLines`. |
-| `src/recognize/vocab.js` | `buildVocab(classJson)`: base affix, type and noise lists, plus the class catalog's uniques, aspects and skills. `BASE_VOCAB` has no class. |
-| `src/recognize/fuzzy.js` | `norm`, Levenshtein `distance`/`similarity`, `closest(text, candidates, min)` (stricter for short words), and `wordOverlap` for prose. |
+| `src/recognize/parse.js` | `parseTooltip(text, className, vocab)`. Snaps OCR lines onto the vocabulary: rarity and type line (including `Set Charm`, `Unique Charm`, `Seal`), unique, charm and seal names (`nameIn` skips the art's junk beside the name), multi-line `Lucky Hit:` affixes, affixes (fixing misread digits and dropping icon junk and roll ranges), skill ranks, rejoined wrapped lines, and the aspect name from its power text. Also exports `splitStat` and `normaliseLines`. |
+| `src/recognize/vocab.js` | `buildVocab(classJson)`: base affix, type and noise lists, plus the class catalog's uniques, aspects, skills, charms and seals. `BASE_VOCAB` has no class. |
+| `src/recognize/fuzzy.js` | `norm` (OCR's `®©ø` read as `o`), Levenshtein `distance`/`similarity`, `closest(text, candidates, min)` (stricter for short words), `nameIn(text, names)` (every word of a name, in order, among junk words), and `wordOverlap` for prose. |
 
 ### Shared helpers (`src/lib/`)
 | File | Role |

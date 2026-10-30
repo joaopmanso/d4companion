@@ -4,7 +4,7 @@
 import { AFFIXES } from "../data/affixes.js";
 import { closest } from "./fuzzy.js";
 
-export const RARITIES = ["Mythic Unique", "Unique", "Legendary", "Rare", "Magic", "Common"];
+export const RARITIES = ["Mythic Unique", "Unique", "Legendary", "Rare", "Magic", "Common", "Set"];
 
 export const ITEM_TYPES = [
   "Helm", "Chest Armor", "Gloves", "Pants", "Boots", "Amulet", "Ring",
@@ -12,6 +12,7 @@ export const ITEM_TYPES = [
   "Two-Handed Sword", "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Scythe",
   "1h Sword", "1h Axe", "1h Mace", "1h Dagger", "2h Sword", "2h Axe", "2h Mace", "2h Scythe",
   "Staff", "Bow", "Crossbow", "Polearm", "Focus", "Shield", "Totem", "Tome", "Weapon",
+  "Charm", "Seal", // talisman pieces: "Set Charm", "Unique Charm", "Legendary Seal"
 ];
 
 const ELEMENTS = ["Fire", "Cold", "Lightning", "Poison", "Shadow", "Physical", "Non-Physical"];
@@ -43,7 +44,7 @@ export const NOISE_PHRASES = [
   "Requires Level", "Sell Value", "Durability", "Account Bound", "Not Yet Discovered", "Unequipped",
   "Properties lost when equipped", "Right-click to equip", "Shift", "Tempers", "Empty Socket", "Masterwork",
   "Item Power", "Socket", "Enchanted", "Imprinted", "Scroll to compare", "Mark as Junk", "Mark as Favorite",
-  "Equipped", "Gold",
+  "Equipped", "Gold", "Scroll Down", "Link", "Unequip",
 ];
 
 const statLike = (l) => l.length > 2 && l.length < 48 && !/\d|[,:.;]|\[/.test(l) && !/^(unique|mythic|legendary|codex)\b/i.test(l);
@@ -62,6 +63,9 @@ export function buildVocab(cls) {
   const items = [];   // uniques and mythics: { name, rarity, type, affixes }
   const aspects = []; // legendary powers: { name, power }
   const skills = new Set();
+  // Talisman pieces: { name, set, unique, mythic, tip }.
+  const charms = Object.entries(cls?.catalog?.charms || {}).map(([name, c]) => ({ name, set: c.set || "", unique: !!c.unique, mythic: !!c.mythic, tip: c.tip || "" }));
+  const seals = Object.entries(cls?.catalog?.seals || {}).map(([name, s]) => ({ name, tip: s.tip || "" }));
 
   for (const [name, it] of Object.entries(cls?.catalog?.items || {})) {
     const p = tipParts(it.tip);
@@ -80,7 +84,7 @@ export function buildVocab(cls) {
     const m = a.match(/^ranks to (.+)$/i);
     if (m) skills.add(m[1]);
   }
-  return { affixes: [...affixes], types: [...types], items, aspects, skills: [...skills] };
+  return { affixes: [...affixes], types: [...types], items, aspects, skills: [...skills], charms, seals };
 }
 
 export const BASE_VOCAB = buildVocab(null);

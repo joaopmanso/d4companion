@@ -118,3 +118,46 @@ Durability: 100/100`;
   assert.deepEqual(item.affixes.map((a) => a.text), ["+180 Strength", "+9.5% Damage Reduction from Close Enemies", "+1,050 Maximum Life", "+12.0% Resistance to All Elements"]);
   assert.match(item.aspect, /^Overheating Aspect: Slain Burning/);
 });
+
+test("a real set charm screenshot: talisman piece, name past the icon junk, multi-line Lucky Hit", () => {
+  // Tesseract's output for a player's Fer of Abaddon's Flesh tooltip (green plate, charm art to the right of the name).
+  const text = `FER OF                  PIN
+ABADD®N'S FLESH    mw
+
+i
+
+Set Charm
+850 Item Power
+
+o +1,870 Cold Resistance [1,800 - 2,274]
+
+o Lucky Hit: Up to a 40% Chance to
+Deal +800 Shadow Damage [550 -
+1,000]
+
+Flesh of Abaddon
+—« Phoba of Abaddon's Flesh §
+—+ Fer of Abaddon's Flesh {7
+— Mlor of Abaddon's Flesh 7
+—+ Linta of Abaddon's Flesh &
+—+ Berti of Abaddon's Flesh )
+
+Flesh of Abaddon (5/5)
+(2) Set:
+
++ While in Demonform quickly gain
+Infernal Hunger stacks, each increasing
+the damage you take by 0.5%. Killing
+
+¥* Scroll Down
+
+ + 8 Link`;
+  const item = parseTooltip(text, "Warlock", warlock);
+  assert.equal(item.talisman, "charm");
+  assert.equal(item.slot, null);
+  assert.equal(item.name, "Fer of Abaddon's Flesh");
+  assert.equal(item.set, "Flesh of Abaddon");
+  assert.equal(item.itemPower, 850);
+  assert.deepEqual(item.affixes.map((a) => a.text), ["+1,870 Cold Resistance", "Lucky Hit: Up to a 40% Chance to Deal +800 Shadow Damage"]);
+  assert.match(item.power, /^\(2\) Set: While in Demonform/);
+});

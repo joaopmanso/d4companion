@@ -7,6 +7,7 @@ import { recognize } from "../recognize/index.js";
 import { evaluate, resolveSlot } from "../evaluate.js";
 import { itemTip, itemArt } from "../lib/itemview.js";
 import { itemFormHtml, bindItemForm, readItemForm } from "../lib/itemform.js";
+import { emptyTalisman, charmInfo, sealInfo } from "../lib/talisman.js";
 
 const S = { blob: null, url: null, item: null, slotId: null, preset: null, status: "", error: false, busy: false, saved: false, run: 0 };
 let ctxNow = null;
@@ -31,7 +32,7 @@ async function read(engineOverride) {
     if (!item.name && !item.affixes.length) throw new Error("No item tooltip found in that image. Crop closer to the tooltip, or enter it by hand below.");
     S.item = item;
     const { char, build } = ctxNow;
-    S.slotId = S.preset && (!item.slot || SLOT[S.preset].kind === SLOT[item.slot]?.kind || item.slot === "ring") ? S.preset : resolveSlot(item, char, build) || S.preset || "helm";
+    S.slotId = item.talisman ? null : S.preset && (!item.slot || SLOT[S.preset].kind === SLOT[item.slot]?.kind || item.slot === "ring") ? S.preset : resolveSlot(item, char, build) || S.preset || "helm";
     S.status = item.engine === "claude"
       ? `Read by Claude. Check the lines below before you equip it.`
       : `Read by free OCR${item.warning ? ` (Claude failed: ${item.warning})` : ""}. OCR can't see Greater Affix stars or temper icons, so tick those yourself.`;
@@ -104,7 +105,7 @@ function paint() {
   if (S.item && !S.busy) {
     if (form.dataset.for !== String(S.run)) {
       form.dataset.for = String(S.run);
-      form.innerHTML = `<h3>What was read</h3>${itemFormHtml(S.item, { slotId: S.slotId, slots: allSlots(ctxNow.build) })}`;
+      form.innerHTML = `<h3>What was read</h3>${itemFormHtml(S.item, { slotId: S.slotId, slots: allSlots(ctxNow.build), showSlot: !S.item.talisman })}`;
     }
   } else if (!S.item) {
     form.innerHTML = S.busy ? "" : `<p class="note">No screenshot yet. You can also <button type="button" class="btn ghost" id="c-manual">type an item in</button>.</p>`;
@@ -119,6 +120,7 @@ function paintVerdict(char, build) {
     box.innerHTML = `<h3>Verdict</h3><div class="answer idle">${S.busy ? "Reading…" : `Example: a Wendigo Brand with Willpower, Maximum Life, Vulnerable Damage and Movement Speed. The check would say equip it (it's the guide's ring), enchant Movement Speed into Critical Strike Damage, temper Resource Generation, and socket the Damnation Splinter.`}</div>`;
     return;
   }
+  if (S.item.talisman) { paintTalisman(char, build, box); return; }
   const slotId = S.slotId;
   const ev = evaluate(S.item, slotId, char, build);
   const cur = char.gear[slotId];
@@ -138,6 +140,56 @@ function paintVerdict(char, build) {
       <button class="btn ghost" id="c-clear">Clear</button>
       <span class="note" id="c-saved">${S.saved ? `Saved to ${esc(char.name)}'s ${esc(SLOT[slotId].name)}.` : ""}</span>
     </div>
+  </div>`;
+}
+
+// Charms and seals: is it in the guide's talisman, do you have it already, and which socket it would go in.
+function talismanPlan(char, build) {
+  const kind = S.item.talisman;
+  const name = S.item.name;
+  const mine = char.talisman || emptyTalisman();
+  const want = build.talisman || { charms: [] };
+  const wanted = kind === "seal" ? want.seal?.name === name : want.charms.some((c) => c.name === name);
+  const have = kind === "seal" ? mine.seal === name : mine.charms.includes(name);
+  let socket = null;
+  if (kind === "seal") socket = have ? null : "seal";
+  else if (!have) {
+    // The first empty socket, else the first charm the guide doesn't use.
+    socket = mine.charms.findIndex((c) => !c);
+    if (socket < 0) socket = mine.charms.findIndex((c) => !want.charms.some((w) => w.name === c));
+    if (socket < 0) socket = null;
+  }
+  return { kind, name, mine, want, wanted, have, socket };
+}
+
+function paintTalisman(char, build, box) {
+  const p = talismanPlan(char, build);
+  const info = p.kind === "seal" ? sealInfo(p.name, build) : charmInfo(p.name, build);
+  const known = !!(p.kind === "seal" ? build.catalog?.seals?.[p.name] : build.catalog?.charms?.[p.name]);
+  const what = p.kind === "seal" ? "seal" : "charm";
+  const [badge, label, headline] = p.have ? ["sidegrade", "Already have it", `This ${what} is already in your talisman.`]
+    : p.wanted ? ["equip", "Use it", `The guide's talisman uses this ${what}.`]
+    : ["salvage", "Not in the guide", `The guide's talisman doesn't use this ${what}.`];
+  const notes = [];
+  if (!known) notes.push(`"${p.name}" isn't in the ${build.className} charm list, so check the name in the form.`);
+  if (info?.set) {
+    const pieces = Object.values(build.catalog?.charms || {}).filter((c) => c.set === info.set).length;
+    const owned = p.mine.charms.filter((n) => n && charmInfo(n, build)?.set === info.set).length;
+    notes.push(`${info.set}: you have ${owned} of ${pieces} pieces${p.have ? "" : `, ${owned + 1} with this one`}.`);
+  }
+  const replacing = p.kind === "charm" && p.socket !== null ? p.mine.charms[p.socket] : p.kind === "seal" ? p.mine.seal : null;
+  const target = p.socket === null ? "" : p.socket === "seal" ? "seal socket" : `charm socket ${p.socket + 1}`;
+  const button = p.have ? `<button class="btn primary" disabled>Already in your talisman</button>`
+    : p.socket === null ? `<button class="btn primary" disabled>No free socket</button><span class="note">Every socket holds a charm the guide uses. Swap one by hand in Loadout.</span>`
+    : `<button class="btn primary" id="c-talisman"${S.saved ? " disabled" : ""}>${S.saved ? "Added" : `Put in ${target}`}</button>${replacing ? `<span class="note">Replaces ${esc(replacing)}.</span>` : ""}`;
+  const lines = S.item.affixes.length ? `<ul class="gt-aff">${S.item.affixes.map((a) => `<li>${esc(a.text)}</li>`).join("")}</ul>` : "";
+  box.innerHTML = `<div class="verdict-card">
+    <div class="verdict-head"><span class="badge ${badge}">${label}</span><span class="verdict-title">${esc(headline)}</span></div>
+    <p class="scores">${esc(info?.set ? `Set charm · ${info.set}` : p.kind === "seal" ? "Seal" : info?.mythic ? "Mythic charm" : "Unique charm")} · for ${esc(char.name)}'s talisman</p>
+    ${tipCard({ name: p.name, type: S.item.type || (p.kind === "seal" ? "Seal" : "Charm"), r: info?.mythic ? "mythic" : info?.unique ? "unique" : info?.set ? "set" : "legendary", art: info?.art || "", lines, power: esc(S.item.power || S.item.aspect || "").replace(/\n/g, "<br>") })}
+    ${notes.length ? `<ul class="note">${notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>` : ""}
+    <div class="row">${button}<button class="btn ghost" id="c-clear">Clear</button>
+      <span class="note">${S.saved ? `Saved to ${esc(char.name)}'s talisman.` : ""}</span></div>
   </div>`;
 }
 
@@ -174,6 +226,16 @@ function bind(root) {
       Object.assign(S, { blob: null, url: null, item: null, slotId: null, status: "", error: false, saved: false, preset: null });
       S.run++;
       paint();
+    }
+    if (e.target.closest("#c-talisman")) {
+      const { char, build } = ctxNow;
+      S.item = readItemForm(form, S.item, build.className);
+      const p = talismanPlan(char, build);
+      if (p.socket === null) return;
+      const t = structuredClone(p.mine);
+      if (p.socket === "seal") t.seal = p.name; else t.charms[p.socket] = p.name;
+      S.saved = true;
+      store.updateCharacter(char.id, { talisman: t });
     }
     if (e.target.closest("#c-equip")) {
       const { char } = ctxNow;

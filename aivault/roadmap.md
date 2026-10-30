@@ -3,7 +3,7 @@
 Ordered by priority within each section. When an item ships, delete it here and record it in [features.md](features.md) and [changelog.md](changelog.md). Items marked *(proposed)* have not been confirmed by the maintainer yet.
 
 ## Next
-- **Real screenshot fixtures for the OCR reader** *(proposed)*. Add a few real tooltip crops (1080p, 1440p, 4K) under `tests/fixtures/tooltips/`, with expected items, plus a script that runs them through Tesseract. This is the only way to tune the preprocessing honestly.
+- **Real screenshot fixtures for the OCR reader** *(proposed)*. One real case is in `tests/parse.test.js` (a set charm). Add a few more real tooltip crops (1080p, 1440p, 4K) under `tests/fixtures/tooltips/`, with expected items, plus a script that runs them through Tesseract. This is the only way to tune the preprocessing honestly.
 - **Greater Affix and temper icon detection** *(proposed)*. Use Tesseract line boxes (`data.lines[].bbox`) to sample the icon left of each affix line in the original colour image. Classify it as a regular bullet, GA star, temper or enchant by colour and shape. Calibrate on the fixtures above.
 - **Auto-crop the tooltip from a full-screen screenshot** *(proposed)*. Find the dark plate and its border, or OCR once, find the rarity line's block, crop, and OCR again.
 

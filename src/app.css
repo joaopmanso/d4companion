@@ -306,7 +306,7 @@ input[type="radio"], input[type="checkbox"] { width: auto; }
 .char-emblem { width: 28px; height: 28px; }
 
 /* ---------- Footer ---------- */
-.site-foot { border-top: 1px solid var(--line); margin-top: 24px; padding-block: 18px 30px; color: var(--muted); font-size: 0.82rem; display: grid; gap: 6px; }
+.site-foot { border-top: 1px solid var(--line); margin-top: 24px; padding-block: 18px 30px; color: var(--muted); font-size: 0.82rem; display: grid; gap: 6px; justify-items: center; text-align: center; }
 .site-foot p { max-width: 110ch; }
 
 /* ---------- Loadout: paperdoll with the gear stats panel on its right ---------- */
