@@ -2,11 +2,12 @@
 // into the "build" shape the views and the evaluator use, and adds the hand-kept extras
 // (stat targets, farm routes) that no guide site provides.
 import { SOURCES } from "./sources.js";
+import { rewriteArt } from "./cdn.js";
 import { CLASS_STATS } from "./classes.js";
 
 const cache = new Map();
 const getJson = (path) => {
-  if (!cache.has(path)) cache.set(path, fetch(path, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.json(); }));
+  if (!cache.has(path)) cache.set(path, fetch(path, { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(`${path}: ${r.status}`); return r.text(); }).then((t) => JSON.parse(rewriteArt(t))));
   return cache.get(path);
 };
 

@@ -4,6 +4,7 @@ import { $, esc } from "./lib/dom.js";
 import { store } from "./lib/store.js";
 import { loadIndex, loadGuide, loadClass, DEFAULT_GUIDE } from "./data/guides.js";
 import { initTheme } from "./lib/theme.js";
+import { watchArt } from "./data/cdn.js";
 import * as loadout from "./views/loadout.js";
 import * as check from "./views/check.js";
 import * as skills from "./views/skills.js";
@@ -33,6 +34,7 @@ const NEEDS_CHAR = new Set(["loadout", "check", "farm"]);
 
 $("#tabs").innerHTML = VIEWS.map(([id, label]) => `<button class="tab" role="tab" data-view="${id}" id="tab-${id}">${label}</button>`).join("");
 initTheme($("#theme-toggle"));
+watchArt();
 
 let index = { guides: [], links: [], classes: [], tiers: [] };
 let current = null;

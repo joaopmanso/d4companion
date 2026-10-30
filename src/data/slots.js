@@ -2,11 +2,13 @@
 // Armour and jewellery are the same for every class; weapon slots come from the guide
 // (Warlock: Weapon + Off-hand; Barbarian: four weapons; Rogue: dual wield + ranged…).
 
+import { artUrl } from "./cdn.js";
+
 const SA = "https://sunderarmor.com/DIABLO4/Uniques/";
-export const BASE_ART = {
-  helm: `${SA}d4_helm.png`, chest: `${SA}d4_chest_armor.png`, gloves: `${SA}d4_gloves.png`, pants: `${SA}d4_pants.png`,
-  boots: `${SA}d4_boots.png`, amulet: `${SA}d4_amulet.png`, ring: `${SA}d4_ring.png`, weapon: `${SA}d4_sword.png`, offhand: `${SA}d4_focus.png`,
-};
+export const BASE_ART = Object.fromEntries(Object.entries({
+  helm: "d4_helm.png", chest: "d4_chest_armor.png", gloves: "d4_gloves.png", pants: "d4_pants.png",
+  boots: "d4_boots.png", amulet: "d4_amulet.png", ring: "d4_ring.png", weapon: "d4_sword.png", offhand: "d4_focus.png",
+}).map(([k, f]) => [k, artUrl(SA + f)]));
 
 const FIXED = [
   { id: "helm", name: "Helm", noun: "Helm", kind: "helm" },

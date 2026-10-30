@@ -12,6 +12,7 @@ import { itemArt, itemTip, typeLine, wantedList, ancestralBadge } from "../lib/i
 import { itemFormHtml, bindItemForm, readItemForm } from "../lib/itemform.js";
 import { emptyTalisman, charmInfo, sealInfo, setCounts, lowersThresholds, talismanSteps } from "../lib/talisman.js";
 import { setPreset } from "./check.js";
+import { artUrl } from "../data/cdn.js";
 
 let selected = "helm";
 let editing = false;
@@ -40,7 +41,7 @@ function socketReport(char, build, pick) {
 }
 const socketArt = (name, build) => build.catalog?.runes?.[name]?.art || build.catalog?.gems?.[name]?.art
   || Object.values(build.slots).map((s) => s.socketArt?.[name]).find(Boolean)
-  || (isRune(name, build) ? "https://sunderarmor.com/DIABLO4/Runes/ritual.png" : "");
+  || (isRune(name, build) ? artUrl("https://sunderarmor.com/DIABLO4/Runes/ritual.png") : "");
 const shortSplinter = (n) => n.replace(/^Splinter of (the )?/i, "");
 
 export function render(root, ctx) {
