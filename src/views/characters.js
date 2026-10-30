@@ -5,6 +5,7 @@ import { store } from "../lib/store.js";
 import { MODELS } from "../recognize/models.js";
 import { emblem } from "../data/classes.js";
 import { pickerHtml } from "./guidepicker.js";
+import { shareLink } from "../lib/share.js";
 
 
 let creating = false;
@@ -88,9 +89,11 @@ export function render(root, ctx = lastCtx) {
         <span class="nm">${esc(c.name)}</span>
         <span class="note">${esc(guideName(index, c.buildId))} · ${Object.values(c.gear || {}).filter(Boolean).length} items</span>
         ${c.id === s.activeId ? `<span class="tag take">Active</span>` : `<button class="btn ghost" data-use="${esc(c.id)}">Make active</button>`}
+        <button class="btn ghost" data-share="${esc(c.id)}">Share</button>
         <button class="btn ghost" data-rename="${esc(c.id)}">Rename</button>
         <button class="btn ghost" data-del="${esc(c.id)}">Delete</button>
       </div>`).join("") || `<p class="note">No characters yet.</p>`}</div>
+      <p class="note" id="share-out"></p>
       ${creating ? "" : `<div class="row"><button class="btn" id="add-char">New character</button></div>`}
     </div>
     ${creating ? newCharacterHtml(index, true) : ""}
@@ -123,6 +126,15 @@ export function render(root, ctx = lastCtx) {
     if (t.closest("#add-char")) { creating = true; render(root); }
     if (t.closest("#nc-cancel")) { creating = false; render(root); }
     const use = t.closest("[data-use]")?.dataset.use; if (use) store.setActive(use);
+    const sh = t.closest("[data-share]")?.dataset.share;
+    if (sh) {
+      const c = s2.characters.find((x) => x.id === sh);
+      const url = await shareLink(c);
+      let copied = false;
+      try { await navigator.clipboard.writeText(url); copied = true; } catch { /* clipboard blocked */ }
+      $("#share-out", root).innerHTML = `${copied ? "Link copied. " : ""}Read-only link to <b>${esc(c.name)}</b>: <input class="share-url" readonly value="${esc(url)}" aria-label="Share link">`;
+      $("#share-out .share-url", root).select();
+    }
     const ren = t.closest("[data-rename]")?.dataset.rename;
     if (ren) { const c = s2.characters.find((x) => x.id === ren); const n = prompt("New name", c.name); if (n?.trim()) store.updateCharacter(ren, { name: n.trim() }); }
     const del = t.closest("[data-del]")?.dataset.del;

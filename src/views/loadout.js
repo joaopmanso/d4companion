@@ -14,6 +14,19 @@ import { emptyTalisman, charmInfo, sealInfo, setCounts, lowersThresholds, talism
 import { setPreset } from "./check.js";
 import { artUrl } from "../data/cdn.js";
 import { grouped, fmtStat, buildFit, totals } from "../lib/gearstats.js";
+import { shareLink } from "../lib/share.js";
+
+// Makes a read-only link to the character and copies it; the link is also shown to copy by hand.
+async function shareFlow(root, char) {
+  const note = $("#share-note", root);
+  try {
+    const url = await shareLink(char);
+    let copied = false;
+    try { await navigator.clipboard.writeText(url); copied = true; } catch { /* clipboard blocked */ }
+    note.innerHTML = `${copied ? "Link copied. " : ""}Anyone with it can view this character read-only; your screenshots and API key aren't included. <input class="share-url" readonly value="${esc(url)}" aria-label="Share link">`;
+    note.querySelector(".share-url").select();
+  } catch (err) { note.textContent = `Couldn't make the link: ${err.message}`; }
+}
 
 let selected = "helm";
 let editing = false;
@@ -57,7 +70,8 @@ export function render(root, ctx) {
   const view = viewOf(char);
   if (!root.querySelector(".doll-wrap")) {
     root.innerHTML = `<section class="view">
-      <div class="view-head"><h2>Loadout</h2><p>What your character has, laid out like the character screen. Pick a slot for its rolls marked against the guide and what to do next. Empty slots and dimmed sockets are things you haven't entered yet; the guide's target is shown beside them, not as yours.</p></div>
+      <div class="view-head"><h2>Loadout</h2><p>What your character has, laid out like the character screen. Pick a slot for its rolls marked against the guide and what to do next. Empty slots and dimmed sockets are things you haven't entered yet; the guide's target is shown beside them, not as yours.</p>
+        <div class="row share-row"><button class="btn" id="share-btn" type="button">Share this character</button><span class="note" id="share-note"></span></div></div>
       <div class="loadout-top">
         <div class="doll-wrap">
           <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" id="doll-figure"></div><div class="doll-col right" id="doll-right"></div></div>
@@ -339,8 +353,11 @@ function renderStats(root, char, build) {
 
 function bind(root) {
   hover = hoverCards(root, "[data-pick], [data-tip]", (el) => tipHtml(el));
-  root.addEventListener("click", (e) => {
+  root.addEventListener("click", async (e) => {
     const { char, build, go } = ctxNow;
+    if (e.target.closest("#share-btn")) { await shareFlow(root, char); return; }
+    // A shared character is read-only: only looking at slots is allowed.
+    if (ctxNow.readOnly && !e.target.closest("[data-pick]")) return;
     const pick = e.target.closest("[data-pick]");
     if (pick) { selected = pick.dataset.pick; editing = false; listing = false; hover.hide(); render(root, ctxNow); return; }
     // Picking from the list: try an item on (not saved) or equip it.
@@ -377,13 +394,14 @@ function bind(root) {
     }
   });
   root.addEventListener("input", (e) => {
-    if (e.target.id !== "pick-q") return;
+    if (e.target.id !== "pick-q" || ctxNow.readOnly) return;
     const q = e.target.value.trim().toLowerCase();
     for (const el of root.querySelectorAll(".pick-item")) el.hidden = !!q && !el.dataset.name.includes(q);
   });
   root.addEventListener("submit", (e) => {
     const { char, build } = ctxNow;
     e.preventDefault();
+    if (ctxNow.readOnly) return;
     if (e.target.id === "tal-form") {
       const t = structuredClone(myTalisman(char));
       const v = $("#tal-choice", root).value || null;

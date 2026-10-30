@@ -365,3 +365,15 @@ input[type="radio"], input[type="checkbox"] { width: auto; }
   .table-scroll tr:last-child { border-bottom: 0; }
   .table-scroll td { display: block; border: 0; padding: 0; }
 }
+
+/* ---------- Shared characters: read-only view ---------- */
+.share-row { margin-top: 4px; }
+.share-url { margin-top: 6px; font-family: var(--font-data); font-size: 0.78rem; }
+.share-banner { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: center; padding-block: 10px; margin-bottom: 10px;
+  border: 1px solid var(--ember); border-radius: var(--radius); background: linear-gradient(180deg, rgba(178,40,14,.18), transparent); }
+.share-banner[hidden] { display: none; }
+body.read-only .topbar, body.read-only .paste-hint, body.read-only .share-row,
+body.read-only .slot-actions, body.read-only #stats-edit, body.read-only #tal-pick,
+body.read-only .tab[data-view="check"], body.read-only .tab[data-view="hordes"], body.read-only .tab[data-view="warplans"],
+body.read-only .tab[data-view="strongroom"], body.read-only .tab[data-view="characters"] { display: none; }
+body.read-only .tal-socket { cursor: help; }
