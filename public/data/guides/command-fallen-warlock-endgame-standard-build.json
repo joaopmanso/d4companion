@@ -1,0 +1,813 @@
+{
+ "id": "command-fallen-warlock-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "Lunatic Kill Stacker",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/?var=0",
+ "updated": "August 11, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "slots": {
+  "helm": {
+   "item": {
+    "name": "Cage of Madness",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/cage_of_madness.png",
+    "tip": "Cage of Madness\nMythic Unique Helm\nWillpower\nRanks to Command Fallen\nMaximum Life\nMaximum Resource\nMaximum Life\nYour Evade transforms you into an angry Lunatic for up to 15 seconds that explodes dealing Command Fallen's damage and increasing by 100% for every second you're transformed.\nWhile transformed, your Movement Speed is increased by 60% and you periodically spawn a Mini Lunatic that seeks enemies.\nCommand Fallen deals x [442%] increased damage.\nWarlock\nDropped By:\nGrigoire"
+   },
+   "affixes": [
+    "willpower",
+    "life"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Ranks To Command Fallen",
+    "Maximum Life",
+    "Maximum Resource"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Que"
+   ],
+   "socketArt": {
+    "Nagu": "art/sa/DIABLO4/Runes/ritual.png",
+    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "item": {
+    "name": "Fleshwrit Carapace",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/fleshwrit_carapace.png",
+    "tip": "Fleshwrit Carapace\nUnique Chest Armor\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nSigil Skills deal x [70 - 90%] increased damage. Active Sigils gain 1 kill every second and unused kills are saved when they expire.\nWarlock\nDropped By:\nLord Zir"
+   },
+   "affixes": [
+    "willpower",
+    "armor",
+    "life"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Armor",
+    "Maximum Life",
+    "Maximum Resource"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Gar"
+   ],
+   "socketArt": {
+    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
+    "Gar": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "item": {
+    "name": "Paingorger's Gauntlets",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/paingorger_s_gauntlets.png",
+    "tip": "Paingorger's Gauntlets\nUnique Gloves\nPhysical Damage Multiplier\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nDamaging enemies with a Non-Basic Skill cast marks them for 3 seconds. When a Basic Skill first hits a marked enemy, the Basic Skill's damage is echoed to all marked enemies, dealing x [100 - 125%] increased damage.\nDropped By:\nAll Bosses, \nGrigoire"
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Physical Damage Multiplier",
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/tibault_s_will.png",
+    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nFire Resistance\nFire Resistance\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Command Fallen",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "item": {
+    "name": "Aspect of Fiendish Oppression",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Fiendish Oppression\nCodex • Warlock\nSummong a Greater Demon Knocks Down enemies around it for 5 seconds. Your Lesser Demon Skills deal x [10 - 20%] increased damage to Crowd Controlled enemies.\nWillpower\nMaximum Evade Charge\nHellfire Skills\nWrath Regeneration\nEvade Cooldown Reduction\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "item": {
+    "name": "Dirge of Odium",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/dirge_of_odium.png",
+    "tip": "Dirge of Odium\nMythic Unique 2h Axe\nWeapon Damage\nRanks to Basic Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nYour Basic Skills deal x [1.3%] increased damage per Wrath you have but you lose 10% Wrath per second. Every 50 Wrath gained beyond your Maximum generates 1 Dominance.\nWarlock\nDropped By:\nLord Zir"
+   },
+   "affixes": [
+    "weaponDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Basic Skills",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "art/sa/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "item": {
+    "name": "Seed of Horazon",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "ranksDemonology",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Physical Damage Multiplier",
+    "Ranks To Demonology Skills",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [
+    "Sadistic Aspect"
+   ],
+   "sockets": [
+    "Splinter of Anguish"
+   ],
+   "socketArt": {
+    "Splinter of Anguish": "art/sa/DIABLO4/Gems/splinter_of_anguish.png"
+   }
+  },
+  "ring1": {
+   "item": {
+    "name": "Aspect of Calamity",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of Hellfire"
+   ],
+   "socketArt": {
+    "Splinter of Hellfire": "art/sa/DIABLO4/Gems/splinter_of_hellfire.png"
+   }
+  },
+  "ring2": {
+   "item": {
+    "name": "Wendigo Brand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/wendigo_brand.png",
+    "tip": "Splinter of Damnation\nSoul Splinter\nJewelry:4375 Shadow Resistance\nKilling an Elite Pack increases Monster Power by 1 and Experience gained by 25% for 25 seconds."
+   },
+   "affixes": [
+    "willpower",
+    "vulnDamage",
+    "critDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Splinter of the Black Soulstone"
+   ],
+   "socketArt": {
+    "Splinter of the Black Soulstone": "art/sa/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Nagu",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Gar",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "art/sa/DIABLO4/Charms/1/seal.png",
+   "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Berú of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Berú of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Fer of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Fer of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Phoba of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Phoba of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Linta of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Linta of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Fer of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Berú of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Berú of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Metamorphosis",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/metamorphosis.png",
+    "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
+   },
+   {
+    "name": "Sigil of Summons",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_summons.png",
+    "tip": "Sigil of Summons\nRank 15\nSigil\nDemonology\nSummon\nLesser Demon\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a binding ritual for 10 seconds that extends the duration of your Summons.\nKilling 8 enemies or Demons within fuels the ritual to summon a demon for 20 seconds which attacks nearby enemies, dealing [204%] damage per hit.\nYou can have up to 3 demons active at once.\nModifiers\nEnemies within Sigil of Summons take x25% increased damage from your Lesser Demon Skills.\nSigil of Summons deals x25% increased damage but requires 25% more kills per summon.\nSigil of Summons now requires 16 kills to summon a Hellwyrm Greater Demon that mimics your Lesser Demon casts by regurgitating related Lesser Demons.\nPhysical Damage"
+   },
+   {
+    "name": "Summon Ae'grom",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_ae_grom.png",
+    "tip": "Summon Ae'grom\nRank 1\nSoul Shard\nDemonology\nSummon\nGreater Demon\nCooldown: 10 seconds\nLucky Hit: 15%\nPassive: Ae'grom cleaves with its arms, dealing [191%] damage.\nActive: Command Ae'grom to spew 5 Vile Child Lesser Demons, dealing [166%] damage when they land. Vile Children claw enemies, dealing [38%] , and last for 10 seconds.\nPhysical Damage"
+   },
+   {
+    "name": "Sigil of Subversion",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
+    "tip": "Sigil of Subversion\nRank 15\nSigil\nOccult\nAbyss\nCooldown: 10 seconds\nLucky Hit: 20%\nCreate a subversive ritual for 10 seconds that Hexes enemies.\nKilling 8 enemies or Demons within fuels the ritual to send forth shadow trails for [11.2] seconds that periodically grant you 1 stack of Shadowform every second while in them.\nYou can have up to 3 trails active at once.\nModifiers\nSigil of Subversion trails grant you x20% increased Movement Speed while on them.\nSigil of Subversion trails Slow enemies by 75%.\nSigil of Subversion becomes a Hellfire Skill and now creates lava trails that periodically deal [893%] damage. Enemies that die within the trails have a 35% chance to be charred into Brimstones which deal [510%] damage when they explode."
+   },
+   {
+    "name": "Command Fallen",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/command_fallen.png",
+    "tip": "Command Fallen\nRank 1\nBasic\nDemonology\nLesser Demon\nWrath Generate: 10\nLucky Hit: 30%\nSummon a Fallen Lunatic that charges your target and explodes, dealing [80%] damage.\nModifiers\nCommand Fallen generates 1 additional Wrath for every Demon or Enemy you have killed in the last 2 seconds, up to 5 additional Wrath.\nEvery 15 times you hit enemies with Command Fallen you gain 1 Dominance.\nCommand Fallen becomes a Hellfire Skill and passively summons a Lunatic every 5 seconds that follows you around and detonates when enemies get close, up to 5 Lunatics. Summon rate is based on your Attack Speed.\nPhysical Damage"
+   },
+   {
+    "name": "Tortured Wretch",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/tortured_wretch.png",
+    "tip": "Tortured Wretch\nRank 15\nDefensive\nDemonology\nSummon\nGreater Demon\nDominance Cost: 15\nLucky Hit: 20%\nSummon a tortured demon on your enemies, dealing [153%] damage and Taunting them to attack it for 5 seconds.\nModifiers\nEnemies and Demons killed Close to the Tortured Wretch extend its duration by 0.5 seconds, up to 5 seconds.\nTortured Wretch no longer Taunts but now lasts for 12 seconds and you redirect all damage to it so long as you stay in the area. It can absorb up to 30% of your Maximum Life before it is killed. When the demon dies it explodes, dealing up to [1275%] damage and Fortifying you for up to 25% based on the damage it absorbed.\nTortured Wretch cost is reduced by 30%.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Legion Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "757,536": 15,
+   "657,406": 1,
+   "552,442": 1,
+   "665,591": 1,
+   "1183,1249": 1,
+   "1238,1064": 1,
+   "1424,1157": 1,
+   "1275,1248": 1,
+   "1405,1351": 15,
+   "1506,1221": 1,
+   "1646,1314": 1,
+   "1545,1407": 1,
+   "739,2426": 4,
+   "681,2316": 1,
+   "495,2427": 1,
+   "644,2538": 1,
+   "1072,2336": 15,
+   "1129,2203": 1,
+   "1277,2353": 1,
+   "1166,2390": 1,
+   "1110,3076": 15,
+   "1165,2947": 1,
+   "1314,3022": 1,
+   "1201,3206": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Wrath",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Demonic Spicules",
+   "glyph": "Attrition",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,5",
+    "7,6",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,12",
+    "11,13",
+    "12,4",
+    "12,9",
+    "12,10",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,4",
+    "14,5",
+    "14,9",
+    "14,10",
+    "15,4",
+    "16,4"
+   ]
+  },
+  {
+   "name": "Fathomless",
+   "glyph": "Unbound",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "2,15",
+    "2,16",
+    "3,15",
+    "3,16",
+    "3,17",
+    "4,16",
+    "5,16",
+    "5,19",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,7",
+    "7,13",
+    "7,19",
+    "7,20",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,13",
+    "8,20",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,12",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,12",
+    "12,13",
+    "13,7",
+    "13,8",
+    "13,13",
+    "14,7",
+    "14,13",
+    "15,6",
+    "15,7",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,6",
+    "16,13",
+    "16,14",
+    "17,4",
+    "17,5",
+    "17,6",
+    "17,14",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  },
+  {
+   "name": "Ritualism",
+   "glyph": "Demonologist",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "5,11",
+    "5,12",
+    "5,13",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "9,16",
+    "9,17",
+    "10,11",
+    "10,14",
+    "10,15",
+    "10,16",
+    "11,6",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,6",
+    "12,7",
+    "12,9",
+    "12,10",
+    "12,14",
+    "12,15",
+    "13,6",
+    "13,9",
+    "13,15",
+    "14,4",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,15",
+    "15,3",
+    "15,6",
+    "15,10",
+    "15,14",
+    "15,15",
+    "16,2",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,14",
+    "16,15",
+    "17,4",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,10",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,4",
+    "18,5",
+    "18,6",
+    "18,8",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,4",
+    "19,6",
+    "19,7",
+    "19,11",
+    "20,6",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Dominion",
+   "glyph": "Eldritch Sight",
+   "x": 1,
+   "y": -3,
+   "rotate": 0,
+   "on": [
+    "4,10",
+    "4,13",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,11",
+    "5,13",
+    "5,14",
+    "6,8",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "6,15",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,11",
+    "7,15",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,5",
+    "10,6",
+    "10,13",
+    "10,16",
+    "10,17",
+    "11,5",
+    "11,6",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "12,5",
+    "12,6",
+    "12,11",
+    "12,16",
+    "12,17",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,8",
+    "15,11",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,14",
+    "17,15",
+    "18,9",
+    "19,9",
+    "19,10",
+    "20,10",
+    "20,11"
+   ]
+  }
+ ]
+}

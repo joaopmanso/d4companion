@@ -81,7 +81,7 @@ h3 { font-size: var(--step-1); color: var(--gold); }
 p { margin: 0; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .wrap {
-  max-width: 1160px; margin: 0 auto;
+  max-width: 1560px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
@@ -129,11 +129,11 @@ p { margin: 0; }
   background: var(--tab-bg); border-block: 1px solid var(--line-strong);
   box-shadow: 0 6px 16px rgba(0,0,0,.25);
 }
-.tabs .wrap { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: thin; justify-content: safe center; }
+.tabs .wrap { display: flex; flex-wrap: wrap; gap: 0 2px; justify-content: center; }
 .tab {
   appearance: none; background: none; border: 0; color: var(--muted);
   font-family: var(--font-display); font-weight: 700; font-size: 0.86rem; letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 13px 14px 11px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap;
+  padding: 12px 13px 10px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap;
 }
 .tab:hover { color: var(--fg); }
 .tab[aria-selected="true"] { color: var(--gold); border-bottom-color: var(--ember); text-shadow: 0 0 12px var(--bg-glow); }

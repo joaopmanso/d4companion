@@ -1,12 +1,14 @@
 // Shared item rendering: art lookup and the tooltip with each line marked good, bad or neutral for the build.
 import { esc, tipCard, rarityOf, RARITY_LABEL } from "./dom.js";
 import { ART, BASE_ART } from "../data/sources.js";
-import { SLOT } from "../data/builds/index.js";
+import { SLOT } from "../data/slots.js";
 import { affixLabel } from "../data/affixes.js";
 
 export function itemArt(item, slotId, build) {
   if (item?.name) {
-    for (const t of Object.values(build.slots)) if (t.item.match.test(item.name) && ART[t.item.source]) return ART[t.item.source];
+    for (const t of Object.values(build.slots)) if (t.item.match.test(item.name) && t.item.type !== "aspect" && t.item.art) return t.item.art;
+    const key = item.name.toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    if (ART[key]) return ART[key];
   }
   return BASE_ART[SLOT[slotId]?.kind] || "";
 }

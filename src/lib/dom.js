@@ -17,6 +17,25 @@ export function tipCard({ name, type = "", r = "unknown", art = "", lines = "", 
   </div>`;
 }
 
+// A tooltip card from a guide site's plain tooltip text: first line is the name, a short second line
+// naming a type becomes the type line, "+…" stat lines become affixes and the rest is body text.
+export function tipFromText(text, { name, art = "", r, foot = "" } = {}) {
+  const lines = String(text || "").split("\n").map((l) => l.trim()).filter(Boolean);
+  if (!lines.length) return tipCard({ name: name || "", r: r || "unknown", art, foot: foot || "No details from the guide site." });
+  const title = lines.shift();
+  const typeRe = /(unique|mythic|legendary|rare|magic|set|charm|seal|rune|gem|splinter|skill|power|node|glyph|basic|core|ultimate|passive)/i;
+  const type = lines[0] && lines[0].length < 48 && typeRe.test(lines[0]) ? lines.shift() : "";
+  const rr = r || (/mythic/i.test(type) ? "mythic" : /unique/i.test(type) ? "unique" : /legendary/i.test(type) ? "legendary" : /rare/i.test(type) ? "rare" : /magic/i.test(type) ? "magic" : /set/i.test(type) ? "set" : "unknown");
+  const stats = lines.filter((l) => /^[+×x-]?\s*[\d.,]+%?\s/.test(l) && l.length < 60);
+  const prose = lines.filter((l) => !stats.includes(l));
+  return tipCard({
+    name: name || title, type, r: rr, art,
+    lines: stats.length ? `<ul class="gt-aff">${stats.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : "",
+    power: prose.map(esc).join("<br>"),
+    foot,
+  });
+}
+
 // One floating card shared by every hoverable thing. `content(el)` returns HTML for the element.
 export function hoverCards(root, selector, content) {
   const card = document.createElement("div");

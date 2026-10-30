@@ -1,0 +1,735 @@
+{
+ "id": "profane-sentinel-warlock-endgame-s13",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "Profane Sentinel - Warlock",
+ "variant": "S13",
+ "url": "https://d4builds.gg/builds/profane-sentinel-warlock-endgame/?var=1",
+ "updated": "September 19, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "slots": {
+  "helm": {
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Life\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "242 Primary Core Stat",
+    "25% Movement Speed"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Prid"
+   ],
+   "socketArt": {
+    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
+    "Prid": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "item": {
+    "name": "Tyrael's Might",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/tyrael_s_might.png",
+    "tip": "Tyrael's Might\nMythic Unique Chest Armor\n151 Primary Core Stat\n100 Resistance to All Elements\nGain 20% Damage Reduction.\nWhile at full Life, your Skills unleash a divine barrage dealing [X] damage."
+   },
+   "affixes": [
+    "willpower",
+    "resAll"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "140 Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Nagu",
+    "Que"
+   ],
+   "socketArt": {
+    "Nagu": "art/sa/DIABLO4/Runes/ritual.png",
+    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "item": {
+    "name": "Hellbent Commander Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Hellbent Commander Aspect\nCodex • Warlock\nYou deal x [50 - 70%] increased Summon damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nWillpower\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "item": {
+    "name": "Aspect of Heavenly Strength",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Heavenly Strength\nWarlock\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "item": {
+    "name": "Footfalls of the Waning World",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
+    "tip": "Footfalls of the Waning World\nUnique Boots\nWillpower\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nMovement Speed\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [0.6 - 1] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Movement Speed",
+    "Profane Sentinel",
+    "Attacks Reduce Evade's Cooldown"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "item": {
+    "name": "The Grandfather",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/the_grandfather.png",
+    "tip": "The Grandfather\nMythic Unique 2h Sword\nIndestructible\n431 Weapon Damage\nCritcal Strike Chance\nWillpower\nMaximum Life\nCritical Strike Damage\nIncreases your Critical Strike Damage by x120%."
+   },
+   "affixes": [
+    "weaponDamage"
+   ],
+   "affixNames": [
+    "431 Weapon Damage",
+    "Critcal Strike Chance"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby",
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "amulet": {
+   "item": {
+    "name": "Seed of Horazon",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "willpower"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Willpower",
+    "Aspect Of Rallying Reversal"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "item": {
+    "name": "Seal of the Ophanim",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/seal_of_the_ophanim.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "All Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "item": {
+    "name": "Aspect of Calamity",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Prid",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
+  },
+  {
+   "name": "Nagu",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": null,
+  "charms": [
+   {
+    "name": "Berú of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Berú of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Fer of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Fer of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Crown of Lucion",
+    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Crown of Lucion\nEach time you use a Skill with a Primary Resource Cost, gain x [5 - 7.5%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times."
+   },
+   {
+    "name": "Linta of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Linta of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Phoba of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Phoba of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   },
+   {
+    "name": "Mlor of Horazon's Chains",
+    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "set": "Chains of Horazon",
+    "mythic": false,
+    "tip": "Mlor of Horazon's Chains\nDemonology Skills\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Terror Swarm",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/terror_swarm.png",
+    "tip": "Terror Swarm\nRank 15\nUltimate\nDemonology\nAbyss\nGreater Demon\nCooldown: 30 seconds\nLucky Hit: 1%\nSummon a terror from the depths that deals [1658%] damage and spews a voracious swarm that deals [332%] damage per bite for 15 seconds.\nModifiers\nTerror Swarm now bites up to 2 additional times per second.\nTerror Swarm periodically Pulls enemies into the center of the swarm.\nTerror Swarm starts smaller and weaker but grows up to 3 times as it feeds on enemies. Upon reaching maximum size, swarms split off another smaller swarm. Can have up to 3 active swarms.\nShadow Damage"
+   },
+   {
+    "name": "Sigil of Summons",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_summons.png",
+    "tip": "Sigil of Summons\nRank 15\nSigil\nDemonology\nSummon\nLesser Demon\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a binding ritual for 10 seconds that extends the duration of your Summons.\nKilling 8 enemies or Demons within fuels the ritual to summon a demon for 20 seconds which attacks nearby enemies, dealing [204%] damage per hit.\nYou can have up to 3 demons active at once.\nModifiers\nEnemies within Sigil of Summons take x25% increased damage from your Lesser Demon Skills.\nSigil of Summons deals x25% increased damage but requires 25% more kills per summon.\nSigil of Summons now requires 16 kills to summon a Hellwyrm Greater Demon that mimics your Lesser Demon casts by regurgitating related Lesser Demons.\nPhysical Damage"
+   },
+   {
+    "name": "Sigil of Subversion",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
+    "tip": "Sigil of Subversion\nRank 15\nSigil\nOccult\nAbyss\nCooldown: 10 seconds\nLucky Hit: 20%\nCreate a subversive ritual for 10 seconds that Hexes enemies.\nKilling 8 enemies or Demons within fuels the ritual to send forth shadow trails for [11.2] seconds that periodically grant you 1 stack of Shadowform every second while in them.\nYou can have up to 3 trails active at once.\nModifiers\nSigil of Subversion trails grant you x20% increased Movement Speed while on them.\nSigil of Subversion trails Slow enemies by 75%.\nSigil of Subversion becomes a Hellfire Skill and now creates lava trails that periodically deal [893%] damage. Enemies that die within the trails have a 35% chance to be charred into Brimstones which deal [510%] damage when they explode."
+   },
+   {
+    "name": "Summon Laalish",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_laalish.png",
+    "tip": "Summon Laalish\nRank 1\nSoul Shard\nDemonology\nAbyss\nSummon\nGreater Demon\nCooldown: 15 seconds\nLucky Hit: 15%\nPassive: Laalish seeks enemies and applies Vulnerable and a 30% Slow to Close enemies that lingers for 4 seconds. When you attack enemies, it moves through the abyss to bite them, dealing [765%] damage.\nActive: Command Laalish to create a Terror Realm for 6 seconds, applying Vulnerable and a 60% Slow to enemies within. Laalish devours enemies within Terror Realm, dealing [255%] damage every 1 second.\nWhile you are within Terror Realm, gain 1 stacks of Shadowform every 0.25 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Profane Sentinel",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/profane_sentinel.png",
+    "tip": "Profane Sentinel\nRank 1\nArchfiend\nDemonology\nAbyss\nSummon\nGreater Demon\nRecast\nDominance Cost: 10\nLucky Hit: 22%\nSummon a demonic eye for 15 seconds that focuses upon enemies with a beam that makes them Vulnerable and periodically blasts them, dealing [180%] damage. Recast to direct the eye's targeting.\nModifiers\nProfane Sentinel's beam area is 125% larger.\nThe longer Profane Sentinel is locked onto the same enemy the stronger it becomes, dealing 25% more damage every second.\nCasting Profane Sentinel induces your Lesser Demon Skills to make enemies Vulnerable for 5 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Blazing Scream",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/blazing_scream_abyssal_oppression.png",
+    "tip": "Blazing Scream\nRank 15\nCore\nDemonology\nHellfire\nGreater Demon\nWrath Cost: 35\nLucky Hit: 25%\nSend forth a Demon Skull dealing [332%] damage as it travels.\nModifiers\nBlazing Scream deals x3% increased damage based on how many different enemies it has hit, up to x30%.\nBlazing Scream gains up to x30% increased damage and speed based on your Movement Speed Bonus.\nBlazing Scream is now also a Summon Skill and orbits you for 10 seconds. The skull deals [979%] damage and extends Demonform when it hits enemies. Channeling increases the orbit speed by 150% and refreshes the duration.\nFire Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Mastermind Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "848,1036": 15,
+   "914,980": 1,
+   "1055,1128": 1,
+   "942,1165": 1,
+   "1406,1538": 1,
+   "1470,1482": 1,
+   "1611,1631": 1,
+   "1546,1665": 1,
+   "1182,1636": 15,
+   "1247,1638": 1,
+   "1387,1787": 1,
+   "1321,1825": 1,
+   "866,1891": 15,
+   "922,1777": 1,
+   "1109,1890": 1,
+   "960,1999": 1,
+   "739,2426": 1,
+   "681,2316": 1,
+   "495,2427": 1,
+   "644,2538": 1,
+   "1072,2336": 1,
+   "1174,2205": 1,
+   "1277,2353": 1,
+   "1072,3246": 15,
+   "1202,3310": 1,
+   "1072,3487": 1,
+   "941,3337": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Eldritch Sight",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "7,10",
+    "7,11",
+    "7,12",
+    "8,11",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,9",
+    "10,12",
+    "11,9",
+    "11,12",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Demonic Spicules",
+   "glyph": "Demonologist",
+   "x": 0,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,13",
+    "7,5",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,13",
+    "11,20",
+    "12,4",
+    "12,13",
+    "12,20",
+    "13,4",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,20",
+    "14,4",
+    "14,5",
+    "14,16",
+    "14,17",
+    "14,18",
+    "14,19",
+    "14,20",
+    "15,4",
+    "15,18",
+    "16,4",
+    "16,18",
+    "17,17",
+    "17,18",
+    "18,16",
+    "18,17",
+    "18,18"
+   ]
+  },
+  {
+   "name": "Greater Hex",
+   "glyph": "Abyssal",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,16",
+    "8,17",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "10,4",
+    "10,8",
+    "10,14",
+    "10,15",
+    "10,18",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,14",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14"
+   ]
+  },
+  {
+   "name": "Fathomless",
+   "glyph": "Attrition",
+   "x": 2,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,7",
+    "7,13",
+    "7,20",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,13",
+    "8,20",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,20",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,20",
+    "11,9",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,6",
+    "17,4",
+    "17,5",
+    "17,6",
+    "18,4",
+    "19,3",
+    "19,4"
+   ]
+  },
+  {
+   "name": "Dominion",
+   "glyph": "Destruction",
+   "x": -1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,8",
+    "7,11",
+    "8,8",
+    "8,11",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,6",
+    "11,5",
+    "11,6",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,7",
+    "12,8",
+    "12,9",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "12,15",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,11",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,9",
+    "17,14",
+    "17,15",
+    "18,9",
+    "19,9",
+    "20,9",
+    "20,10",
+    "20,11"
+   ]
+  }
+ ]
+}

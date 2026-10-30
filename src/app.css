@@ -11,7 +11,8 @@
   font-family: var(--font-display); font-size: var(--step-2); color: #fbe9c4; text-align: center; padding: 24px;
 }
 .drop-veil.on { display: grid; }
-.paste-hint { display: inline-flex; gap: 6px; align-items: center; }
+.paste-hint { display: block; }
+@media (pointer: coarse) { .paste-hint { display: none; } }
 kbd { font-family: var(--font-data); font-size: 0.8em; border: 1px solid var(--line-strong); border-bottom-width: 2px; border-radius: 3px; padding: 0 5px; background: var(--raised); }
 
 /* Item check */
@@ -127,3 +128,100 @@ kbd { font-family: var(--font-data); font-size: 0.8em; border: 1px solid var(--l
 input[type="radio"], input[type="checkbox"] { width: auto; }
 .radio { display: flex; gap: 8px; align-items: flex-start; }
 .radio + .radio { margin-top: 4px; }
+
+/* ---------- Header pickers ---------- */
+.topbar { align-items: end; }
+.topbar .pick { display: grid; gap: 3px; text-align: left; }
+.topbar .pick select { min-width: 220px; }
+.topbar .pick.wide select { min-width: min(440px, 80vw); }
+.pick-actions { display: flex; gap: 6px; align-items: center; }
+.icon-btn { padding: 7px 9px; line-height: 0; }
+.icon-btn svg { width: 18px; height: 18px; }
+@media (max-width: 560px) { .topbar .pick, .topbar .pick select, .topbar .pick.wide select { width: 100%; min-width: 0; } .topbar { align-items: stretch; } }
+
+/* ---------- Paperdoll portrait (official key art) ---------- */
+.doll-figure { overflow: hidden; border-radius: var(--radius); min-height: 440px; background: #050303; }
+.doll-figure .portrait {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%;
+  filter: saturate(0.9) contrast(1.08) brightness(0.92);
+  -webkit-mask-image: radial-gradient(ellipse 70% 78% at 50% 42%, #000 55%, transparent 100%);
+          mask-image: radial-gradient(ellipse 70% 78% at 50% 42%, #000 55%, transparent 100%);
+}
+.doll-figure::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 60% 30% at 50% 100%, rgba(178,40,14,.35), transparent 70%), linear-gradient(180deg, transparent 70%, rgba(5,3,3,.85)); }
+.doll-figure .crest { z-index: 1; bottom: 14px; width: 44px; }
+.art-credit { position: absolute; z-index: 1; right: 6px; bottom: 4px; font-size: 0.62rem; color: rgba(232,220,198,.45); }
+.doll { grid-template-columns: minmax(0, 1fr) minmax(240px, 340px) minmax(0, 1fr); }
+
+/* Slot icons: art centred inside the tile at a fixed inset, whatever its aspect ratio */
+.ico { overflow: visible; }
+.ico img.art { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); padding: 0; object-fit: contain; object-position: center; }
+.ico img:not(.art) { position: absolute; inset: 0; }
+
+/* ---------- Talisman: seal in the middle, six charm sockets around it ---------- */
+.talisman { width: 250px; aspect-ratio: 1; position: relative;
+  background: radial-gradient(circle at 50% 50%, rgba(178,40,14,.18), transparent 60%); }
+.talisman::before { content: ""; position: absolute; inset: 6%; border-radius: 50%; border: 2px solid #5c4526; box-shadow: inset 0 0 0 1px #000, 0 0 0 1px #000, inset 0 0 30px rgba(0,0,0,.8); }
+.tal-ring { position: absolute; width: 50px; height: 50px; transform: translate(-50%, -50%); border-radius: 50%;
+  background: radial-gradient(circle, #1b1210 55%, #0a0605 100%); border: 2px solid #6d532d; box-shadow: inset 0 0 10px #000, 0 0 0 1px #000; }
+.tal-ring.seal-ring { width: 82px; height: 82px; border-color: #8d6b36; }
+.tal-socket { position: absolute; width: 42px; height: 42px; transform: translate(-50%, -50%); padding: 0; margin: 0; border: 0; background: none; cursor: help; display: grid; place-items: center; z-index: 1; }
+.tal-socket.seal { width: 68px; height: 68px; }
+.tal-socket img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.tal-socket.set img { filter: drop-shadow(0 0 5px rgba(80,200,100,.45)); }
+.tal-socket.mythic img { filter: drop-shadow(0 0 6px rgba(176,120,255,.6)); }
+.charms li i { background: #4fd36a; }
+.charms li i.m { background: #b583ff; }
+.rune img { width: 46px; height: 46px; }
+
+/* ---------- Skill tree ---------- */
+.skill-top { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 900px) { .skill-top { grid-template-columns: 1fr; } }
+.skill-icon { appearance: none; background: none; border: 0; color: inherit; font: inherit; cursor: help; }
+.prime { display: flex; flex-wrap: wrap; gap: 6px; }
+.prime button { appearance: none; font: inherit; color: inherit; cursor: help; display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); border-radius: 2px; padding: 3px 8px 3px 3px; background: var(--raised); font-size: 0.88rem; }
+.prime button img { width: 26px; height: 26px; border-radius: 50%; }
+.prime button.main { border-color: var(--ember); color: var(--gold); }
+.st-wrap { position: relative; border: 1px solid #3b2d23; border-radius: var(--radius); padding: 4px; overflow: hidden;
+  background: radial-gradient(ellipse at 50% 0, rgba(120,24,10,.35), transparent 60%), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"), #0b0807; }
+.st-scale { position: relative; }
+.st-inner { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.st-lines { position: absolute; left: 0; top: 0; overflow: visible; }
+.st-lines path { fill: none; stroke: #2a2420; stroke-width: 5; stroke-linecap: round; }
+.st-lines path.lit { stroke: #b3341a; stroke-width: 5; filter: drop-shadow(0 0 4px rgba(240,104,58,.7)); }
+.st-node { position: absolute; transform: translate(-50%, -50%); padding: 0; border: 0; background: none; cursor: help; display: grid; place-items: center; }
+.st-node .st-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.st-node .st-icon { position: relative; object-fit: contain; filter: grayscale(1) brightness(.45); }
+.st-node.on .st-icon { filter: none; }
+.st-node.k-skill { width: 76px; height: 76px; } .st-node.k-skill .st-icon { width: 52px; height: 52px; border-radius: 50%; }
+.st-node.k-upgrade { width: 54px; height: 54px; } .st-node.k-upgrade .st-icon { width: 34px; height: 34px; }
+.st-node.k-mod { width: 44px; height: 44px; } .st-node.k-mod .st-icon { width: 28px; height: 28px; border-radius: 50%; }
+.st-node.k-category { width: 64px; height: 64px; transform: translate(-50%, -50%) rotate(45deg); }
+.st-node.k-category .st-icon { width: 40px; height: 40px; transform: rotate(-45deg); filter: none; }
+.st-node.on.k-skill, .st-node.on.k-upgrade, .st-node.on.k-mod { filter: drop-shadow(0 0 8px rgba(240,104,58,.55)); }
+.st-badge { position: absolute; bottom: -6px; left: 50%; transform: translateX(-50%); font: 700 11px/1 var(--font-data); color: #f3d68e; background: #120c0a; border: 1px solid #6d532d; border-radius: 2px; padding: 2px 4px; white-space: nowrap; }
+.st-node:not(.on) .st-badge { color: #8d8172; }
+
+/* ---------- Paragon ---------- */
+.pg-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+@media (max-width: 760px) { .pg-top { grid-template-columns: 1fr; } }
+.pg-map { display: grid; gap: 4px; max-width: 320px; }
+.pg-map a { display: grid; place-items: center; text-align: center; text-decoration: none; color: var(--fg); background: linear-gradient(180deg, #2a1712, #120a08); border: 1px solid #6d532d; border-radius: 2px; padding: 4px; min-height: 52px; font-size: 0.72rem; }
+.pg-map a b { font-family: var(--font-display); color: #f3d68e; font-size: 1rem; }
+.pg-map a:hover { border-color: var(--ember); }
+.pg-glyphs { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.pg-glyphs li { cursor: help; }
+.pg-glyphs b, .pg-glyph-name { color: #e14fd0; font-family: var(--font-display); }
+.pg-boards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: 16px; }
+.pg-frame { display: grid; place-items: center; padding: 10px; border-radius: var(--radius);
+  background: radial-gradient(ellipse at 50% 50%, rgba(100,20,10,.35), transparent 70%), #0a0706; border: 1px solid #4a3424; box-shadow: inset 0 0 40px #000, inset 0 0 0 1px #000; }
+.pg-board { display: grid; grid-template-columns: repeat(21, 1fr); grid-template-rows: repeat(21, 1fr); width: min(100%, 540px); aspect-ratio: 1; gap: 1px; }
+.pg-tile { position: relative; padding: 0; border: 0; background: none; cursor: help; min-width: 0; min-height: 0; }
+.pg-rot { position: absolute; inset: 0; display: block; }
+.pg-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.pg-tile .pg-ic { inset: 12%; width: 76%; height: 76%; }
+.pg-tile:not(.on) .pg-ic { filter: grayscale(1) brightness(.32); }
+.pg-tile:not(.on) .pg-bg { filter: grayscale(.6) brightness(.32); }
+.pg-tile.on .pg-ic { filter: drop-shadow(0 0 2px rgba(255,214,140,.75)); }
+.pg-tile.on { z-index: 1; }
+.pg-tile.on.t-L, .pg-tile.on.t-G { filter: drop-shadow(0 0 5px rgba(255,138,61,.8)); }
+.pg-tile:hover { z-index: 2; outline: 1px solid #f3d68e; }

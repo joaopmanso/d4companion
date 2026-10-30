@@ -1,0 +1,205 @@
+{
+ "updated": "2026-10-30T13:50:33.907Z",
+ "guides": [
+  {
+   "id": "dread-claws-warlock-endgame-mythics-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Abyss Shadow Speed Warlock",
+   "variant": "Mythics (P200+)",
+   "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=0",
+   "updated": "June 26, 2026"
+  },
+  {
+   "id": "hell-fracture-warlock-endgame-mythics-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "AoE Hellfracture Warlock (S13 LoH)",
+   "variant": "Mythics (P200+)",
+   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=0",
+   "updated": "April 29, 2026"
+  },
+  {
+   "id": "hell-fracture-warlock-endgame-starter-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "AoE Hellfracture Warlock (S13 LoH)",
+   "variant": "Starter (P200)",
+   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=1",
+   "updated": "April 29, 2026"
+  },
+  {
+   "id": "apocalypse-warlock-endgame-s13",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Apocalypse Warlock",
+   "variant": "S13",
+   "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/?var=1",
+   "updated": "September 14, 2026"
+  },
+  {
+   "id": "apocalypse-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Apocalypse Warlock",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/?var=0",
+   "updated": "September 14, 2026"
+  },
+  {
+   "id": "blazing-scream-warlock-endgame-150-speed-run-p300",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Blazing Scream Warlock",
+   "variant": "150 Speed Run (P300)",
+   "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=4",
+   "updated": "October 25, 2026"
+  },
+  {
+   "id": "blazing-scream-warlock-endgame-best-overall-currently-playing",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Blazing Scream Warlock",
+   "variant": "BEST OVERALL (currently playing)",
+   "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=2",
+   "updated": "October 25, 2026"
+  },
+  {
+   "id": "blazing-scream-warlock-endgame-leap-speed",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Blazing Scream Warlock",
+   "variant": "Leap Speed",
+   "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=1",
+   "updated": "October 25, 2026"
+  },
+  {
+   "id": "blazing-scream-warlock-endgame-no-mythic-p210",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Blazing Scream Warlock",
+   "variant": "No Mythic (P210)",
+   "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=3",
+   "updated": "October 25, 2026"
+  },
+  {
+   "id": "blazing-scream-warlock-endgame-starter",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Blazing Scream Warlock",
+   "variant": "Starter",
+   "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=0",
+   "updated": "October 25, 2026"
+  },
+  {
+   "id": "command-fallen-warlock-endgame-s13",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Lunatic Kill Stacker",
+   "variant": "S13",
+   "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/?var=1",
+   "updated": "August 11, 2026"
+  },
+  {
+   "id": "command-fallen-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Lunatic Kill Stacker",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/?var=0",
+   "updated": "August 11, 2026"
+  },
+  {
+   "id": "profane-sentinel-warlock-endgame-s13",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Profane Sentinel - Warlock",
+   "variant": "S13",
+   "url": "https://d4builds.gg/builds/profane-sentinel-warlock-endgame/?var=1",
+   "updated": "September 19, 2026"
+  },
+  {
+   "id": "profane-sentinel-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Profane Sentinel - Warlock",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/profane-sentinel-warlock-endgame/?var=0",
+   "updated": "September 19, 2026"
+  },
+  {
+   "id": "summon-warlock-endgame-mythic-endgame",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Summon Legion Rampage Warlock (S13 LoH)",
+   "variant": "Mythic Endgame",
+   "url": "https://d4builds.gg/builds/summon-warlock-endgame/?var=0",
+   "updated": "April 29, 2026"
+  },
+  {
+   "id": "summon-warlock-endgame-starter",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Summon Legion Rampage Warlock (S13 LoH)",
+   "variant": "Starter",
+   "url": "https://d4builds.gg/builds/summon-warlock-endgame/?var=1",
+   "updated": "April 29, 2026"
+  },
+  {
+   "id": "tyrants-grasp-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Tyrants Grasp Hellfire Warlock (S13 LoH)",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/tyrant's-grasp-warlock-endgame/?var=0",
+   "updated": "May 21, 2026"
+  },
+  {
+   "id": "umbral-chains-warlock-endgame-s13",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Umbral Chains - Warlock",
+   "variant": "S13",
+   "url": "https://d4builds.gg/builds/umbral-chains-warlock-endgame/?var=1",
+   "updated": "September 19, 2026"
+  },
+  {
+   "id": "umbral-chains-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Umbral Chains - Warlock",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/umbral-chains-warlock-endgame/?var=0",
+   "updated": "September 19, 2026"
+  },
+  {
+   "id": "metamorphosis-warlock-endgame-standard-build",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Vanguard Hellfire Demonform Warlock (S13 LoH)",
+   "variant": "Standard Build",
+   "url": "https://d4builds.gg/builds/metamorphosis-warlock-endgame/?var=0",
+   "updated": "April 27, 2026"
+  }
+ ],
+ "links": [
+  {
+   "site": "Maxroll",
+   "title": "Warlock build guides",
+   "url": "https://maxroll.gg/d4/build-guides?filter[class]=warlock",
+   "note": "Maxroll's terms forbid copying its guides, so open them there."
+  },
+  {
+   "site": "Mobalytics",
+   "title": "Warlock builds",
+   "url": "https://mobalytics.gg/diablo-4/warlock-builds",
+   "note": "Blocks automated requests, so it can't be synced."
+  },
+  {
+   "site": "Icy Veins",
+   "title": "Warlock builds",
+   "url": "https://www.icy-veins.com/d4/warlock-builds",
+   "note": "Blocks automated requests, so it can't be synced."
+  }
+ ]
+}

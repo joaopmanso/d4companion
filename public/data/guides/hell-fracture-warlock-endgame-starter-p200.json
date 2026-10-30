@@ -1,0 +1,707 @@
+{
+ "id": "hell-fracture-warlock-endgame-starter-p200",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "AoE Hellfracture Warlock (S13 LoH)",
+ "variant": "Starter (P200)",
+ "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=1",
+ "updated": "April 29, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "slots": {
+  "helm": {
+   "item": {
+    "name": "Godslayer Crown",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/godslayer_crown.png",
+    "tip": "Godslayer Crown\nUnique Helm\nPrimary Core Stat\nArmor\nWrath Regeneration\nCooldown Reduction\nMaximum Life\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them.\nDropped By:\nAll Bosses, \nAndariel"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "cdr"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Wat"
+   ],
+   "socketArt": {
+    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
+    "Wat": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "item": {
+    "name": "Soulbrand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/soulbrand.png",
+    "tip": "Soulbrand\nUnique Chest Armor\nPrimary Core Stat\nArmor\nWrath Regeneration\nArmor\nMaximum Life\nYour Healing Potions grant a Barrier for 100% of your Maximum Life for 1 second.\n\nYou gain [25 - 30%] Damage Reduction while you have a Barrier and you may drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "armor"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Que"
+   ],
+   "socketArt": {
+    "Cir": "art/sa/DIABLO4/Runes/ritual.png",
+    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "item": {
+    "name": "Aspect of Elemental Fate",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Elemental Fate\nEvery Class\nGain x [40 - 60%] increased damage to a set of damage types for 7 seconds alternating randomly between 2 sets:\n• Fire, Lightning, Holy, and Physical.\n• Cold, Poison, and Shadow.\n\nFate can favor you granting the same bonus more than once, stacking up to 6 times. At Maximum, it's your lucky day!\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "item": {
+    "name": "Aspect of Might",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Might\nCodex • Every Class\nBasic Skills grant [20 - 30%] Damage Reduction for 4 seconds.\nWillpower\nMaximum Life\nWrath Regeneration\nDodge Chance\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "dodge"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Dodge Chance"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "item": {
+    "name": "Aspect of Impetus",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of Impetus\nCodex • Warlock\nYou gain + [30 - 50%] increased Movement Speed while Close to your Demons.\nWillpower\nMaximum Life\nWrath Regeneration\nDodge Chance\nMovement Speed\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "dodge"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Dodge Chance"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "item": {
+    "name": "Spine of Tathamet",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/spine_of_tathamet.png",
+    "tip": "Spine of Tathamet\nUnique 1h Mace\nWeapon Damage\nRanks to Hell Fracture\nCritical Strike Damage Multiplier\nFire Damage Multiplier\nFire Damage\nHell Fracture deals x [100 - 120%] increased damage and every 3rd cast creates a triple fracture.\nWarlock\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "critDamage",
+    "fireDamageMult"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "Fire Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "amulet": {
+   "item": {
+    "name": "Aspect of Inner Calm",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nWillpower\nAll Damage Multipler\nRanks to All Skills\nCritical Strike Damage Multiplier\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "ranksAll",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "All Damage Multipler",
+    "Ranks To All Skills",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "item": {
+    "name": "Aspect of Ritual Synthesis",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/resource.png",
+    "tip": "Aspect of Ritual Synthesis\nCodex • Warlock\nCasting Hellfire Skills grants Occult Skills [30 - 50%] Cooldown Reduction for 3 seconds. Casting Abyss Skills grants Occult Skills [30 - 50%] Resource Cost Reduction for 3 seconds.\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nFire Damage\nRing, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "item": {
+    "name": "Aspect of Authority",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/resource.png",
+    "tip": "Aspect of Authority\nCodex • Warlock\nGain [10 - 25] Maximum Dominance and deal x15% increased Greater Demon Skill damage.\nWillpower\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nFire Damage\nRing, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Attack Speed"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "offhand": {
+   "item": {
+    "name": "Aspect of Lava",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Lava\nCodex • Warlock\nBrimstone explode into lava pools, dealing [260 - 340%] of their damage over 5 seconds. Standing in lava pools grants you Volatility.\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Wat",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Wat\nRare Rune of Invocation\nRequires: 100 Offering (Overflow: Increase Duration)\nCooldown: 1 seconds\nInvoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
+  },
+  {
+   "name": "Cir",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "art/sa/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage"
+  },
+  "charms": [
+   {
+    "name": "Linta of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Linta of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Mlor of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Mlor of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Fer of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Phoba of the Nameless",
+    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "tip": "Phoba of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Hell Fracture",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/hell_fracture.png",
+    "tip": "Hell Fracture\nRank 12\nCore\nOccult\nHellfire\nWrath Cost: 35\nLucky Hit: 8%\nSummon the fires of hell to fracture the ground, dealing [176%] damage to enemies in the area.\nThe fractures remain for 15 seconds and explode up to 2 more times when you cast Hell Fracture again.\nModifiers\nStanding within a Hell Fracture explosion grants you Volatility for 3 seconds.\nHell Fracture explodes 1 additional time.\nHell Fracture no longer explodes with each cast and instead creates 3 smaller fractures in front of you that erupt into 5 Brimstones when you enter. Each Brimstone deals [NaN%] damage when it explodes.\nFire Damage"
+   },
+   {
+    "name": "Nether Step",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/nether_step.png",
+    "tip": "Nether Step\nRank 15\nDefensive\nOccult\nAbyss\nMobility\nCooldown: 12 seconds\nLucky Hit: 0%\nStep through the shadows of Hell to emerge at the target location, gaining 4 stacks of Shadowform as well as x50% increased Movement Speed which decays over [5.6] seconds.\nModifiers\nNether Step's Movement Speed Bonus lasts 50% longer.\nNether Step's portals remain for 10 seconds and can be re-entered to move back and forth.\nNether Step gains an additional Charge.\nShadow Damage"
+   },
+   {
+    "name": "Apocalypse",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/apocalypse.png",
+    "tip": "Apocalypse\nRank 15\nUltimate\nOccult\nHellfire\nCooldown: 66.6 seconds\nLucky Hit: 50%\nCreate a massive sigil that detonates after 2 seconds dealing [1698%] damage to all enemies within.\nThis ritual does not benefit from Cooldown Reduction.\nModifiers\nApocalypse's final hit has a 20% chance to hit twice. When Apocalypse is empowered by Volatility this chance is increased to 100%.\nApocalypse launches a hellfire blast with at least 20 Stacks that deals [84%] damage. Hellfire Skill hits generate up to 100 Stacks, each Stack increases the blast's explosion size and damage by x40%.\nEnemies that survive Apocalypse take x15% increased damage from you for 3 seconds. This bonus lasts 200% longer against Hexed enemies.\nFire Damage"
+   },
+   {
+    "name": "Summon Abodian",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_abodian.png",
+    "tip": "Summon Abodian\nRank 1\nSoul Shard\nDemonology\nHellfire\nMobility\nGreater Demon\nSummon\nCooldown: 12 seconds\nLucky Hit: 15%\nPassive: Abodian bites and claws, dealing [245%] damage.\nActive: Command Abodian to enter Demonform for 6 seconds and mount Abodian, gaining x60% increased Movement Speed for 4 seconds. While mounted, chain enemies and Pull them behind you, dealing [64%] damage every 0.5 seconds. After you dismount, Abodian slams the ground, dealing [638%] damage.\nCast again while active to cancel.\nFire Damage"
+   },
+   {
+    "name": "Molten Bomb",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/molten_bomb.png",
+    "tip": "Molten Bomb\nRank 1\nBasic\nOccult\nHellfire\nWrath Generate: 10\nLucky Hit: 27%\nLob volatile lava at an enemy, dealing [75%] damage in a small area.\nModifiers\nMolten Bomb generates 1 additional Wrath on each impact.\nMolten Bomb has a 15% chance to Knock Down enemies for 2 seconds. When Molten Bomb is empowered by Volatility this chance is increased to 100%. Can occur once every 4 seconds per enemy.\nMolten Bomb creates a turret demon on impact for 5 seconds that spits lava at surrounding enemies, each dealing [24%] damage. You can have up to 6 turrets active at once.\nFire Damage"
+   },
+   {
+    "name": "Sigil of Chaos",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_chaos.png",
+    "tip": "Sigil of Chaos\nRank 15\nSigil\nOccult\nHellfire\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a destructive ritual for 10 seconds that grants you Volatility while within.\nKilling enemies or Demons within fuels the ritual's chaotic hellfire, increasing the chance for each enemy to explode for [128%] damage on death.\nModifiers\nVolatility from Sigil of Chaos now lasts for 10 seconds after you leave the area.\nVolatility empowered casts within Sigil of Chaos count as triggering 3 kills.\nSigil of Chaos is now cast around yourself for 15 seconds and instantly explodes your Lesser Demons within for [61%] damage. Cooldown is increased to 25 seconds.\nFire Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Vanguard Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "459,1036": 12,
+   "397,981": 1,
+   "219,1073": 1,
+   "319,1166": 1,
+   "1182,1636": 12,
+   "1247,1638": 1,
+   "1387,1675": 1,
+   "1321,1825": 1,
+   "607,2093": 15,
+   "544,2038": 1,
+   "402,2075": 1,
+   "468,2223": 1,
+   "1071,2522": 14,
+   "1137,2463": 1,
+   "1314,2557": 1,
+   "1211,2651": 1,
+   "737,3242": 15,
+   "608,3357": 1,
+   "739,3487": 1,
+   "868,3337": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Hellforge",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,10",
+    "2,11",
+    "3,10",
+    "4,9",
+    "4,10",
+    "5,8",
+    "5,9",
+    "5,10",
+    "6,10",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,13",
+    "9,13",
+    "10,13",
+    "11,13",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Pyrosis",
+   "glyph": "Destruction",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "7,11",
+    "8,11",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,14",
+    "10,11",
+    "10,14",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,12",
+    "13,12",
+    "14,12",
+    "15,11",
+    "15,12",
+    "15,13",
+    "16,11",
+    "16,13",
+    "17,13",
+    "17,14",
+    "18,13",
+    "19,13",
+    "20,11",
+    "20,12",
+    "20,13"
+   ]
+  },
+  {
+   "name": "Ritualism",
+   "glyph": "Headhunter",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,5",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,5",
+    "9,11",
+    "10,4",
+    "10,5",
+    "10,11",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,9",
+    "12,10",
+    "13,6",
+    "13,9",
+    "14,6",
+    "15,6",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "17,10",
+    "18,10",
+    "18,11",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Greater Hex",
+   "glyph": "Entropy",
+   "x": 1,
+   "y": 0,
+   "rotate": 90,
+   "on": [
+    "2,7",
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "4,6",
+    "5,5",
+    "5,6",
+    "5,7",
+    "5,8",
+    "6,4",
+    "6,5",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,4",
+    "10,8",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,14"
+   ]
+  },
+  {
+   "name": "Dynamism",
+   "glyph": "Eldritch Sight",
+   "x": 2,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,5",
+    "8,8",
+    "8,11",
+    "8,12",
+    "8,13",
+    "9,5",
+    "9,8",
+    "9,11",
+    "9,12",
+    "9,13",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5",
+    "10,8",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,13",
+    "13,11",
+    "13,12",
+    "13,13"
+   ]
+  }
+ ]
+}

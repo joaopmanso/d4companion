@@ -1,7 +1,7 @@
 // The editable item form, shared by the item check (to fix what was read) and the loadout (to edit by hand).
 import { esc } from "./dom.js";
 import { AFFIXES, matchAffix } from "../data/affixes.js";
-import { SLOTS } from "../data/builds/index.js";
+import { SLOTS } from "../data/slots.js";
 
 const RARITIES = ["mythic", "unique", "legendary", "rare", "magic"];
 const KINDS = [["affix", "Affix"], ["temper", "Temper"], ["implicit", "Base stat"]];

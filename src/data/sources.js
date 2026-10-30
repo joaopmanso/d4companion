@@ -141,7 +141,7 @@ export const SOURCES = {
       { kind: "craft", label: "Cube: Reroll Set Charm", steps: ["1 Set Charm + 25 Raw Primordial Dust + 50 Infused Horadric Resin turns a duplicate into the piece you're missing.", "Resin comes from salvaging Charms and Seals at the Blacksmith."] },
     ],
   },
-  "seal-diamond-mind": {
+  "seal-of-the-diamond-mind": {
     name: "Seal of the Diamond Mind", rarity: "mythic", slot: "Talisman seal",
     power: "Set bonuses need one fewer Charm, down to a minimum of 2.",
     routes: [

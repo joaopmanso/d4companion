@@ -1,0 +1,808 @@
+{
+ "id": "dread-claws-warlock-endgame-mythics-p200",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "Abyss Shadow Speed Warlock",
+ "variant": "Mythics (P200+)",
+ "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=0",
+ "updated": "June 26, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "slots": {
+  "helm": {
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Life\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "242 Primary Core Stat",
+    "25% Movement Speed",
+    "Stat 3",
+    "Stat 4"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Que"
+   ],
+   "socketArt": {
+    "Cir": "art/sa/DIABLO4/Runes/ritual.png",
+    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "item": {
+    "name": "Juggernaut's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nWillpower\nMaximum Resource\nMaximum Life\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Resource",
+    "Maximum Life",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Prid"
+   ],
+   "socketArt": {
+    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
+    "Prid": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "item": {
+    "name": "Aspect of Fathomless Dark",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nWillpower\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nShadow Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critDamage",
+    "critChance",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Damage Multiplier",
+    "Critical Strike Chance",
+    "Attack Speed"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "item": {
+    "name": "Aspect of Diabolical Armor",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Diabolical Armor\nCodex • Warlock\nDemonform grants 20% Damage Reduction plus an additional [1 - 1.5%] for 5 seconds any time you take Fire damage, up to [10 - 15%].\nMaximum Life\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "item": {
+    "name": "Footfalls of the Waning World",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
+    "tip": "Footfalls of the Waning World\nUnique Boots\nWillpower\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nMovement Speed\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [0.6 - 1] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Attacks Reduce Evade's Cooldown",
+    "Resistance To All Elements"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "item": {
+    "name": "Litany of Sable",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/litany_of_sable.png",
+    "tip": "Litany of Sable\nUnique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [100 - 120%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "weaponDamage",
+    "critDamage",
+    "willpower"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Dread Claws",
+    "Critical Strike Damage Multiplier",
+    "Willpower"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst"
+   ],
+   "socketArt": {
+    "Amethyst": "art/sa/DIABLO4/Gems/grand-amethyst.png"
+   }
+  },
+  "amulet": {
+   "item": {
+    "name": "Seed of Horazon",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "willpower",
+    "ranksDemonology",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Ranks To Demonology Skills",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring1": {
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "willpower",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "151 Primary Core Stat",
+    "18.75% Attack Speed",
+    "Stat 3",
+    "Stat 4"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "item": {
+    "name": "Edgemaster's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Edgemaster's Aspect\nCodex • Every Class\nSkills deal up to x [40 - 60%] increased damage based on your available Primary Resource when cast, receiving the maximum benefit while you have full Primary Resource.\nWillpower\nCritical Strike Damage Multiplier\nAll Damage Multipler\nCritical Strike Chance\nShadow Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Damage Multiplier",
+    "All Damage Multipler",
+    "Critical Strike Chance"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "offhand": {
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Warlock\nWhile Fortified, you deal x [45 - 65%] increased damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nDamage Per Overpower Stack\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [
+    "Stat 1",
+    "Stat 2",
+    "Stat 3",
+    "Stat 4"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst"
+   ],
+   "socketArt": {
+    "Amethyst": "art/sa/DIABLO4/Gems/grand-amethyst.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Prid",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "art/sa/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage"
+  },
+  "charms": [
+   {
+    "name": "Fer of Harash's Shadow",
+    "art": "art/sa/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "tip": "Fer of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Linta of Harash's Shadow",
+    "art": "art/sa/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "tip": "Linta of Harash's Shadow\nMaximum Resource\nRanks to Demonology Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Berú of Harash's Shadow",
+    "art": "art/sa/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "tip": "Berú of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   },
+   {
+    "name": "Mlor of Harash's Shadow",
+    "art": "art/sa/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "tip": "Mlor of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Phoba of Harash's Shadow",
+    "art": "art/sa/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "tip": "Phoba of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Dread Claws",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/dread_claws.png",
+    "tip": "Dread Claws\nRank 15\nCore\nDemonology\nAbyss\nDemon\nWrath Cost: 30\nLucky Hit: 15%\nBurst forth 4 shadowy claws, each dealing [179%] damage.\nModifiers\nEvery second, gain x20% increased damage for your next Dread Claws, up to x100%.\nDread Claws deals x50% increased damage with its first claw strike against each enemy. When attacking from Stealth all claws gain this bonus.\nDread Claws sends out 4 additional claws and each set deals x30% increased damage than the last.\nShadow Damage"
+   },
+   {
+    "name": "Doom",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/doom.png",
+    "tip": "Doom\nRank 1\nBasic\nOccult\nAbyss\nWrath Generate: 10\nLucky Hit: 20%\nBurst a sigil on your enemies, Hexing them and dealing [50%] damage.\nModifiers\nDoom generates 1 Wrath every 2 seconds for each Hexed enemy.\nWhenever you kill a Hexed enemy, Doom spreads the Hex to another enemy and deals [50%] damage to them.\nCasting Doom against a Vulnerable, Weakened, or Slowed enemy assimilates the effects, causing Doom to also apply those effects for 3 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Profane Sentinel",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/profane_sentinel.png",
+    "tip": "Profane Sentinel\nRank 1\nArchfiend\nDemonology\nAbyss\nSummon\nGreater Demon\nRecast\nDominance Cost: 10\nLucky Hit: 22%\nSummon a demonic eye for 15 seconds that focuses upon enemies with a beam that makes them Vulnerable and periodically blasts them, dealing [180%] damage. Recast to direct the eye's targeting.\nModifiers\nProfane Sentinel's beam area is 125% larger.\nThe longer Profane Sentinel is locked onto the same enemy the stronger it becomes, dealing 25% more damage every second.\nCasting Profane Sentinel induces your Lesser Demon Skills to make enemies Vulnerable for 5 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Metamorphosis",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/terror_demon.png",
+    "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
+   },
+   {
+    "name": "Summon Laalish",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_laalish.png",
+    "tip": "Summon Laalish\nRank 1\nSoul Shard\nDemonology\nAbyss\nSummon\nGreater Demon\nCooldown: 15 seconds\nLucky Hit: 15%\nPassive: Laalish seeks enemies and applies Vulnerable and a 30% Slow to Close enemies that lingers for 4 seconds. When you attack enemies, it moves through the abyss to bite them, dealing [765%] damage.\nActive: Command Laalish to create a Terror Realm for 6 seconds, applying Vulnerable and a 60% Slow to enemies within. Laalish devours enemies within Terror Realm, dealing [255%] damage every 1 second.\nWhile you are within Terror Realm, gain 1 stacks of Shadowform every 0.25 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Sigil of Subversion",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
+    "tip": "Sigil of Subversion\nRank 15\nSigil\nOccult\nAbyss\nCooldown: 10 seconds\nLucky Hit: 20%\nCreate a subversive ritual for 10 seconds that Hexes enemies.\nKilling 8 enemies or Demons within fuels the ritual to send forth shadow trails for [11.2] seconds that periodically grant you 1 stack of Shadowform every second while in them.\nYou can have up to 3 trails active at once.\nModifiers\nSigil of Subversion trails grant you x20% increased Movement Speed while on them.\nSigil of Subversion trails Slow enemies by 75%.\nSigil of Subversion becomes a Hellfire Skill and now creates lava trails that periodically deal [893%] damage. Enemies that die within the trails have a 35% chance to be charred into Brimstones which deal [510%] damage when they explode."
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Mastermind Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "988,369": 1,
+   "932,256": 1,
+   "968,165": 1,
+   "1119,275": 1,
+   "849,907": 15,
+   "905,721": 1,
+   "1053,757": 1,
+   "941,905": 1,
+   "1406,1538": 1,
+   "1470,1482": 1,
+   "1611,1631": 1,
+   "1546,1665": 1,
+   "1182,1636": 14,
+   "1247,1638": 1,
+   "1425,1732": 1,
+   "1321,1825": 1,
+   "866,1891": 1,
+   "970,1777": 1,
+   "1070,1834": 1,
+   "1006,2000": 1,
+   "739,2426": 15,
+   "681,2316": 1,
+   "533,2372": 1,
+   "597,2538": 1,
+   "1110,3076": 15,
+   "1165,2947": 1,
+   "1314,3132": 1,
+   "1201,3206": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Abyssal",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,10",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "6,15",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "7,15",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,13",
+    "9,8",
+    "9,10",
+    "9,13",
+    "10,9",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Dominion",
+   "glyph": "Demonologist",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "4,10",
+    "4,13",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,13",
+    "5,14",
+    "6,8",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,8",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,13",
+    "9,13",
+    "10,13",
+    "11,13",
+    "11,20",
+    "12,13",
+    "12,20",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "13,20",
+    "14,11",
+    "14,13",
+    "15,7",
+    "15,8",
+    "15,11",
+    "15,13",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,8",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,13",
+    "19,13",
+    "20,11",
+    "20,12",
+    "20,13"
+   ]
+  },
+  {
+   "name": "Greater Hex",
+   "glyph": "Destruction",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "3,9",
+    "3,10",
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,11",
+    "9,4",
+    "9,6",
+    "9,7",
+    "10,4",
+    "10,7",
+    "10,8",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,10",
+    "11,14",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,13",
+    "12,14",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,14",
+    "13,15",
+    "14,8",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "15,10",
+    "16,9",
+    "16,10"
+   ]
+  },
+  {
+   "name": "Dynamism",
+   "glyph": "Mastermind",
+   "x": 0,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "3,15",
+    "4,15",
+    "4,16",
+    "5,15",
+    "6,14",
+    "6,15",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,14",
+    "8,5",
+    "8,8",
+    "8,11",
+    "8,12",
+    "8,13",
+    "8,14",
+    "9,5",
+    "9,8",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,15",
+    "9,16",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5",
+    "10,8",
+    "10,11",
+    "10,12",
+    "10,15",
+    "10,16",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "12,11",
+    "12,13",
+    "12,16",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,15",
+    "13,16",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,14",
+    "16,14",
+    "17,14",
+    "17,15",
+    "17,16",
+    "18,15",
+    "18,16",
+    "19,15",
+    "19,16"
+   ]
+  },
+  {
+   "name": "Ritualism",
+   "glyph": "Eliminator",
+   "x": 1,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "5,13",
+    "6,12",
+    "6,13",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,12",
+    "7,13",
+    "8,6",
+    "8,7",
+    "8,9",
+    "8,10",
+    "8,11",
+    "8,12",
+    "9,11",
+    "9,15",
+    "10,11",
+    "10,14",
+    "10,15",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,9",
+    "12,10",
+    "12,14",
+    "13,6",
+    "13,9",
+    "13,14",
+    "13,15",
+    "14,6",
+    "14,15",
+    "15,6",
+    "15,14",
+    "15,15",
+    "16,3",
+    "16,4",
+    "16,5",
+    "16,6",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,14",
+    "16,15",
+    "17,6",
+    "17,10",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,6",
+    "18,10",
+    "18,11",
+    "18,12",
+    "18,13",
+    "19,6",
+    "19,11",
+    "20,11"
+   ]
+  }
+ ]
+}

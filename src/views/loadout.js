@@ -1,12 +1,12 @@
-import { $, esc, tipCard, rarityOf, hoverCards } from "../lib/dom.js";
+import { $, esc, tipCard, tipFromText, rarityOf, hoverCards } from "../lib/dom.js";
 import { store, shots } from "../lib/store.js";
-import { SLOT, LEFT, RIGHT } from "../data/builds/index.js";
+import { SLOT, LEFT, RIGHT } from "../data/slots.js";
 import { SOURCES } from "../data/sources.js";
+import { CLASS_ART } from "../data/classes.js";
 import { affixLabel } from "../data/affixes.js";
 import { slotStatus } from "../evaluate.js";
 import { itemArt, itemTip, typeLine, wantedList } from "../lib/itemview.js";
 import { itemFormHtml, bindItemForm, readItemForm } from "../lib/itemform.js";
-import { FIGURE } from "../lib/figure.js";
 import { setPreset } from "./check.js";
 
 let selected = "gloves";
@@ -15,15 +15,20 @@ let editingStats = false;
 let hover = null;
 let ctxNow = null;
 
+const splintersOf = (build) => {
+  const out = [];
+  for (const [sid, s] of Object.entries(build.slots)) for (const name of s.sockets || []) if (/^splinter/i.test(name)) out.push({ name, slot: SLOT[sid].name, art: s.socketArt?.[name] || "" });
+  return out;
+};
+
 export function render(root, ctx) {
   ctxNow = ctx;
   const { char, build } = ctx;
-  if (!char) { root.innerHTML = `<p class="note">Make a character first in Characters.</p>`; return; }
   if (!root.querySelector(".doll-wrap")) {
     root.innerHTML = `<section class="view">
       <div class="view-head"><h2>Loadout</h2><p>Pick a slot to see its rolls marked against the guide and what to do next. A gold diamond means the slot matches the guide with nothing left to fix; an ember one means it still has steps.</p></div>
       <div class="doll-wrap">
-        <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" aria-hidden="true">${FIGURE}<img class="crest" src="art/class-warlock.webp" alt=""></div><div class="doll-col right" id="doll-right"></div></div>
+        <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" id="doll-figure"></div><div class="doll-col right" id="doll-right"></div></div>
         <div class="doll-foot">
           <div class="foot-group"><span class="label">Talisman</span><div class="talisman" id="talisman"></div><ul class="charms" id="charms"></ul></div>
           <div class="foot-stack">
@@ -37,6 +42,8 @@ export function render(root, ctx) {
     </section>`;
     bind(root);
   }
+  const art = CLASS_ART[build.className];
+  $("#doll-figure", root).innerHTML = art ? `<img class="portrait" src="${esc(art.portrait)}" alt=""><img class="crest" src="${esc(art.crest)}" alt=""><span class="art-credit">${esc(art.credit)}</span>` : "";
   renderDoll(root, char, build);
   renderTalisman(root, build);
   renderDetail(root, char, build);
@@ -47,8 +54,8 @@ function slotButton(id, char, build) {
   const g = char.gear[id];
   const r = rarityOf(g);
   const st = slotStatus(char, build, id);
-  const guide = build.slots[id].item;
-  const miss = g && !guide.match.test(`${g.name} ${g.aspect || ""} ${g.power || ""}`) ? `<span class="gd">Guide: ${esc(guide.name)}</span>` : "";
+  const guide = build.slots[id]?.item;
+  const miss = g && guide && !guide.match.test(`${g.name} ${g.aspect || ""} ${g.power || ""}`) ? `<span class="gd">Guide: ${esc(guide.name)}</span>` : "";
   const art = itemArt(g, id, build);
   return `<button class="dslot" data-pick="${id}" aria-pressed="${id === selected}">
     <span class="ico t-${r === "unknown" ? "unknown" : r}"><img class="art${g ? "" : " empty"}" src="${esc(art)}" alt=""><i class="pip ${st.done ? "done" : "todo"}" aria-hidden="true"></i></span>
@@ -59,60 +66,46 @@ function slotButton(id, char, build) {
 function renderDoll(root, char, build) {
   $("#doll-left", root).innerHTML = LEFT.map((id) => slotButton(id, char, build)).join("");
   $("#doll-right", root).innerHTML = RIGHT.map((id) => slotButton(id, char, build)).join("");
-  $("#doll-src", root).textContent = `Talisman, runes and Splinters follow the ${build.guide.site} “${build.guide.variant}” variant, checked ${build.guide.checked}. Point at any of them for details.`;
+  $("#doll-src", root).textContent = `Talisman, runes and Splinters follow ${build.guide.site} “${build.name}: ${build.variant}”. Point at any of them for details.`;
 }
 
-const setCount = (t, k) => t.charms.filter((c) => c.set === k).length + (t.torch.set === k ? 1 : 0);
+// Talisman: the seal in the middle, six charms around it at the in-game positions.
+const CHARM_POS = [[30, 15], [70, 15], [11, 50], [89, 50], [30, 85], [70, 85]];
 
 function renderTalisman(root, build) {
-  const t = build.talisman;
-  const pos = t.charms.map((_, i) => { const a = (Math.PI / 3) * i - Math.PI / 2; return [120 + 88 * Math.cos(a), 120 + 88 * Math.sin(a)]; });
-  const pct = (v) => (v / 240 * 100).toFixed(2) + "%";
-  $("#talisman", root).innerHTML = `<svg viewBox="0 0 240 240" aria-hidden="true">
-      <circle cx="120" cy="120" r="88" fill="none" stroke="#7b5a26" stroke-width="3"/><circle cx="120" cy="120" r="44" fill="#140d0b" stroke="#a88a52" stroke-width="2"/>
-      ${pos.map(([x, y]) => `<line x1="120" y1="120" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="#4a3424" stroke-width="2"/><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="24" fill="#140d0b" stroke="#7b5a26" stroke-width="2"/>`).join("")}
-    </svg>
-    <button class="tal-socket seal" style="left:50%;top:50%" data-tip="seal"><img src="${esc(t.seal.art)}" alt="${esc(t.seal.name)}"></button>
-    ${t.charms.map((c, i) => `<button class="tal-socket" style="left:${pct(pos[i][0])};top:${pct(pos[i][1])}" data-tip="charm:${i}"><img src="${esc(c.art)}" alt="${esc(c.name)}"></button>`).join("")}`;
-  $("#charms", root).innerHTML = Object.entries(t.sets).map(([k, s]) => {
-    const n = setCount(t, k), on = s.bonuses.filter(([p]) => n >= t.setNeed(p)).length;
-    return `<li><i class="${k}"></i>${esc(s.name)} <span class="muted">${n} counted${t.torch.set === k ? " (with Torch)" : ""} · ${on} of ${s.bonuses.length} bonuses</span></li>`;
+  const t = build.talisman || { charms: [] };
+  const sockets = CHARM_POS.map(([x, y], i) => {
+    const c = t.charms[i];
+    return `<span class="tal-ring" style="left:${x}%;top:${y}%"></span>${c ? `<button class="tal-socket${c.mythic ? " mythic" : c.unique ? " unique" : c.set ? " set" : ""}" style="left:${x}%;top:${y}%" data-tip="charm:${i}" aria-label="${esc(c.name)}"><img src="${esc(c.art)}" alt=""></button>` : ""}`;
   }).join("");
-  $("#runes", root).innerHTML = build.runes.map(({ pair, socket }) => `<div class="rune-pair" title="${esc(socket)}">${pair.map((r, i) => `${i ? `<span class="rune-link"></span>` : ""}<button class="rune" data-tip="rune:${r}"><img src="${esc(build.runeInfo[r].art)}" alt="">${r}</button>`).join("")}</div>`).join("");
-  $("#splinters", root).innerHTML = build.splinters.map((s, i) => `<button class="splinter" data-tip="splinter:${i}"><img src="${esc(s.art)}" alt="">${esc(s.short)}</button>`).join("");
-}
-
-function setBody(t, k) {
-  const s = t.sets[k], n = setCount(t, k);
-  return `<div class="gt-set">${esc(s.name)} <span>(${n} counted)</span></div><ul class="gt-bonus">${s.bonuses.map(([p, txt]) => {
-    const need = t.setNeed(p);
-    return `<li class="${n >= need ? "on" : ""}"><b>(${p}${need !== p ? `, needs ${need}` : ""})</b> ${esc(txt)}</li>`;
-  }).join("")}</ul>`;
+  $("#talisman", root).innerHTML = `<span class="tal-ring seal-ring" style="left:50%;top:50%"></span>
+    ${t.seal ? `<button class="tal-socket seal" style="left:50%;top:50%" data-tip="seal" aria-label="${esc(t.seal.name)}"><img src="${esc(t.seal.art)}" alt=""></button>` : ""}${sockets}`;
+  const sets = new Map();
+  for (const c of t.charms) if (c.set) sets.set(c.set, (sets.get(c.set) || 0) + 1);
+  $("#charms", root).innerHTML = [...sets].map(([name, n]) => `<li><i></i>${esc(name)} <span class="muted">${n} charm${n > 1 ? "s" : ""}</span></li>`).join("")
+    + t.charms.filter((c) => c.mythic || c.unique).map((c) => `<li class="r-${c.mythic ? "mythic" : "unique"}"><i class="m"></i>${esc(c.name)}</li>`).join("")
+    + (t.seal ? `<li class="r-mythic"><i class="m"></i>${esc(t.seal.name)}</li>` : "");
+  $("#runes", root).innerHTML = (build.runes || []).map((r, i) => `<button class="rune" data-tip="rune:${i}"><img src="${esc(r.art)}" alt="">${esc(r.name)}</button>`).join("") || `<span class="note">None</span>`;
+  const spl = splintersOf(build);
+  $("#splinters", root).innerHTML = spl.map((s, i) => `<button class="splinter" data-tip="splinter:${i}"><img src="${esc(s.art)}" alt="">${esc(s.name.replace(/^Splinter of (the )?/i, ""))}</button>`).join("") || `<span class="note">None</span>`;
 }
 
 function tipHtml(el) {
-  const { char, build } = ctxNow;
+  const { char, build, cls } = ctxNow;
   if (el.dataset.pick) {
-    const id = el.dataset.pick, g = char.gear[id];
-    if (!g) return tipCard({ name: SLOT[id].name, type: "Empty slot", r: "unknown", art: itemArt(null, id, build), body: `<p class="gt-next">Guide: ${esc(build.slots[id].item.name)}. Wants ${esc(wantedList(build.slots[id]))}.</p>` });
+    const id = el.dataset.pick, g = char.gear[id], target = build.slots[id];
+    if (!g) return target ? tipFromText(target.item.tip, { name: target.item.name, art: target.item.art, foot: `Guide item for ${SLOT[id].name}. You have nothing recorded here.` }) : "";
     const st = slotStatus(char, build, id);
     return itemTip(g, id, build, st.ev, { foot: st.steps.length ? `Next: ${esc(st.steps[0])}` : "Matches the guide." });
   }
   const t = build.talisman;
   const [kind, arg] = el.dataset.tip.split(":");
-  if (kind === "seal") return tipCard({ name: t.seal.name, type: "Mythic Seal", r: "mythic", art: t.seal.art, power: esc(t.seal.text), body: Object.keys(t.sets).map((k) => setBody(t, k)).join("") });
-  if (kind === "charm") {
-    const c = t.charms[+arg];
-    if (c.set === "torch") return tipCard({ name: c.name, type: "Mythic Charm", r: "mythic", art: c.art, lines: `<ul class="gt-aff">${t.torch.affixes.map((a) => `<li>${esc(a)}</li>`).join("")}</ul>`, body: setBody(t, t.torch.set), foot: "We read the guide's Torch as rolling Flesh of Abaddon." });
-    return tipCard({ name: c.name, type: "Set Charm", r: "set", art: c.art, body: setBody(t, c.set) });
-  }
-  if (kind === "rune") {
-    const r = build.runeInfo[arg];
-    return tipCard({ name: `${arg} Rune`, type: `${r.rarity[0].toUpperCase() + r.rarity.slice(1)} ${r.role} Rune`, r: r.rarity, art: r.art, power: esc(r.text), foot: build.runeNote });
-  }
+  if (kind === "seal") return tipFromText(t.seal.tip, { name: t.seal.name, art: t.seal.art, r: "mythic" });
+  if (kind === "charm") { const c = t.charms[+arg]; return tipFromText(c.tip, { name: c.name, art: c.art, r: c.mythic ? "mythic" : c.set ? "set" : undefined }); }
+  if (kind === "rune") { const r = build.runes[+arg]; return tipFromText(r.tip, { name: r.name, art: r.art }); }
   if (kind === "splinter") {
-    const s = build.splinters[+arg];
-    return tipCard({ name: s.name, type: "Soul Splinter", r: "legendary", art: s.art, lines: `<ul class="gt-aff"><li>${esc(s.affix)}</li></ul>`, power: esc(s.text), foot: `Guide socket: ${esc(s.socket)}.${s.reserve ? ` Farm: Escalation Nightmare Dungeons, ${esc(s.reserve)} Reserve.` : ""}` });
+    const s = splintersOf(build)[+arg];
+    return tipFromText(cls?.tips?.[s.name] || "", { name: s.name, art: s.art, r: "legendary", foot: `Guide socket: ${esc(s.slot)}. Farm: Escalation Nightmare Dungeons with the matching gem Reserve.` });
   }
   return "";
 }
@@ -120,11 +113,12 @@ function tipHtml(el) {
 async function renderDetail(root, char, build) {
   const box = $("#detail", root);
   const id = selected, g = char.gear[id], target = build.slots[id];
+  if (!target) { box.innerHTML = `<div class="tooltip slot-detail"><p class="note">This guide doesn't list ${esc(SLOT[id].name)}.</p></div>`; return; }
   const src = SOURCES[target.item.source];
   const want = `<div class="tt-sec"><span class="label">Guide for ${esc(SLOT[id].name)}</span>
     <p><b>${esc(target.item.name)}</b>${target.note ? ` · ${esc(target.note)}` : ""}</p>
-    <p class="note">Affixes, in order: ${esc(wantedList(target))}. Temper: ${esc(target.tempers.map(([k, r]) => `${affixLabel(k)} from ${r}`).join(", "))}.${target.sockets ? ` Sockets: ${esc(target.sockets.join(" + "))}.` : ""}</p>
-    ${src ? `<p class="note">Get it: ${esc(src.routes.find((r) => r.best)?.label || src.routes[0].label)} · <a href="#/farm" data-farm>full route</a></p>` : ""}</div>`;
+    <p class="note">Affixes, in order: ${esc(wantedList(target)) || "not listed"}. Temper: ${esc(target.tempers.map(([k, r]) => `${affixLabel(k)} from ${r}`).join(", ")) || "not listed"}.${target.sockets?.length ? ` Sockets: ${esc(target.sockets.join(" + "))}.` : ""}</p>
+    <p class="note">Get it: ${src ? esc(src.routes.find((r) => r.best)?.label || src.routes[0].label) : "see the farm guide"} · <a href="#/farm">full route</a></p></div>`;
 
   if (editing) {
     box.innerHTML = `<form class="tooltip slot-detail" id="edit-form">${itemFormHtml(g || { name: "", rarity: "legendary", affixes: [] }, { slotId: id, showSlot: false })}

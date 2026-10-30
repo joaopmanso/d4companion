@@ -1,0 +1,698 @@
+{
+ "id": "tyrants-grasp-warlock-endgame-standard-build",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "Tyrants Grasp Hellfire Warlock (S13 LoH)",
+ "variant": "Standard Build",
+ "url": "https://d4builds.gg/builds/tyrant's-grasp-warlock-endgame/?var=0",
+ "updated": "May 21, 2026",
+ "author": "",
+ "checked": "2026-10-30",
+ "slots": {
+  "helm": {
+   "item": {
+    "name": "Heir of Perdition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Life\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
+   },
+   "affixes": [
+    "willpower",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "182 Primary Core Stat",
+    "25% Movement Speed",
+    "Tempering Stat 1"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Thul"
+   ],
+   "socketArt": {
+    "Cir": "art/sa/DIABLO4/Runes/ritual.png",
+    "Thul": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "item": {
+    "name": "Soulbrand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/soulbrand.png",
+    "tip": "Soulbrand\nUnique Chest Armor\nPrimary Core Stat\nArmor\nWrath Regeneration\nArmor\nMaximum Life\nYour Healing Potions grant a Barrier for 100% of your Maximum Life for 1 second.\n\nYou gain [25 - 30%] Damage Reduction while you have a Barrier and you may drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Maximum Resource",
+    "Armor"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Igni",
+    "Que"
+   ],
+   "socketArt": {
+    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
+    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "item": {
+    "name": "Aspect of Peril",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "item": {
+    "name": "Aspect of Might",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Might\nCodex • Every Class\nBasic Skills grant [20 - 30%] Damage Reduction for 4 seconds.\nWillpower\nMaximum Life\nWrath Regeneration\nDodge Chance\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "dodge"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Dodge Chance"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "boots": {
+   "item": {
+    "name": "Aspect of Impetus",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of Impetus\nCodex • Warlock\nYou gain + [30 - 50%] increased Movement Speed while Close to your Demons.\nWillpower\nMaximum Life\nWrath Regeneration\nDodge Chance\nMovement Speed\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Movement Speed"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "item": {
+    "name": "El'druin, Sword of Justice",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/el_druin__sword_of_justice.png",
+    "tip": "El'druin, Sword of Justice\nMythic Unique 1h Sword\nIndestructible\n179 Weapon Damage\n37.5% All Damage Multiplier\nCritical Strike Damage\nAttacks will smite enemies with less than [22 - 35%] Health."
+   },
+   "affixes": [
+    "weaponDamage"
+   ],
+   "affixNames": [
+    "179 Weapon Damage",
+    "37.5% All Damage Multiplier"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "amulet": {
+   "item": {
+    "name": "Seed of Horazon",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "critDamage",
+    "ranksAll"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "Ranks To All Skills"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring1": {
+   "item": {
+    "name": "Ring of Starless Skies",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "art/sa/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "willpower",
+    "attackSpeed"
+   ],
+   "affixNames": [
+    "242 Primary Core Stat",
+    "26.25% Attack Speed",
+    "Tempering Stat 1"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "item": {
+    "name": "Aspect of Inner Calm",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nWillpower\nAll Damage Multipler\nRanks to All Skills\nCritical Strike Damage Multiplier\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Cooldown Reduction"
+   ],
+   "tempers": [
+    [
+     "fireDamage",
+     "Elemental Finesse: Day (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "offhand": {
+   "item": {
+    "name": "Vehement Brawler's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "tip": "Vehement Brawler's Aspect\nEvery Class\nCasting an Ultimate Skill increases your damage by x [35 - 50%] for 8 seconds. Gain 2 additional Ultimate Skill Ranks.\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [],
+   "affixNames": [
+    "Stat 1",
+    "Stat 2",
+    "Stat 3",
+    "Stat 4"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Cir",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Thul",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Thul\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Size)\nCooldown: 1 seconds\nInvoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "art/sa/DIABLO4/Charms/1/seal_legendary.png",
+   "tip": "Legendary Seal\nCritical Strike Damage"
+  },
+  "charms": [
+   {
+    "name": "Mlor of Abaddon's Flesh",
+    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "set": "Flesh of Abaddon",
+    "mythic": false,
+    "tip": "Mlor of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
+   },
+   {
+    "name": "Fer of Abaddon's Flesh",
+    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "set": "Flesh of Abaddon",
+    "mythic": false,
+    "tip": "Fer of Abaddon's Flesh\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   },
+   {
+    "name": "Linta of Abaddon's Flesh",
+    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "set": "Flesh of Abaddon",
+    "mythic": false,
+    "tip": "Linta of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
+   },
+   {
+    "name": "Phoba of Abaddon's Flesh",
+    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "set": "Flesh of Abaddon",
+    "mythic": false,
+    "tip": "Phoba of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Tyrant's Grasp",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/tyrant_s_grasp.png",
+    "tip": "Tyrant's Grasp\nRank 15\nArchfiend\nDemonology\nHellfire\nGreater Demon\nDominance Cost: 7\nLucky Hit: 15%\nSummon a demon hand that Pulls enemies away from you, dealing [255%] damage.\nModifiers\nTyrant's Grasp deals x100% increased damage against Unstoppable enemies.\nTyrant's Grasp's area is increased by 100% and Pulls in Brimstone.\nTyrant's Grasp is now a direct grasp attack that transforms you into Demonform and Pulls enemies inward.\nFire Damage"
+   },
+   {
+    "name": "Nether Step",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/nether_step.png",
+    "tip": "Nether Step\nRank 15\nDefensive\nOccult\nAbyss\nMobility\nCooldown: 12 seconds\nLucky Hit: 0%\nStep through the shadows of Hell to emerge at the target location, gaining 4 stacks of Shadowform as well as x50% increased Movement Speed which decays over [5.6] seconds.\nModifiers\nNether Step's Movement Speed Bonus lasts 50% longer.\nNether Step's portals remain for 10 seconds and can be re-entered to move back and forth.\nNether Step gains an additional Charge.\nShadow Damage"
+   },
+   {
+    "name": "Apocalypse",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/apocalypse.png",
+    "tip": "Apocalypse\nRank 15\nUltimate\nOccult\nHellfire\nCooldown: 66.6 seconds\nLucky Hit: 50%\nCreate a massive sigil that detonates after 2 seconds dealing [1698%] damage to all enemies within.\nThis ritual does not benefit from Cooldown Reduction.\nModifiers\nApocalypse's final hit has a 20% chance to hit twice. When Apocalypse is empowered by Volatility this chance is increased to 100%.\nApocalypse launches a hellfire blast with at least 20 Stacks that deals [84%] damage. Hellfire Skill hits generate up to 100 Stacks, each Stack increases the blast's explosion size and damage by x40%.\nEnemies that survive Apocalypse take x15% increased damage from you for 3 seconds. This bonus lasts 200% longer against Hexed enemies.\nFire Damage"
+   },
+   {
+    "name": "Metamorphosis",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/metamorphosis.png",
+    "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
+   },
+   {
+    "name": "Demonic Swipe-v2",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/demonic_swipe-v2.png",
+    "tip": "Demonic Swipe\nRank 1\nBasic\nDemonology\nHellfire\nShapeshifting\nArchfiend\nLucky Hit: 10%\nAttack an enemy, dealing [75%] damage."
+   },
+   {
+    "name": "Dark Prison",
+    "icon": "art/sa/DIABLO4/Skills/VoH2/chain_aura.png",
+    "tip": "Dark Prison\nRank 11\nDefensive\nOccult\nAbyss\nCooldown: 20 seconds\nLucky Hit: 20%\nCreate a shadowy totem for [11] seconds that chains enemies, Tethering them to the area and preventing them from escaping.\nModifiers\nHitting enemies within Dark Prison Fortifies you for 1% Maximum Life.\nDark Prison becomes a Hellfire Skill and now creates an aura of fire chains around you, reducing damage coming from outside by 45% and Slowing enemies within by 80%.\nEnemies killed within Dark Prison reduce its cooldown by 0.5 seconds.\nShadow Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Vanguard Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "822,369": 1,
+   "691,229": 1,
+   "877,255": 1,
+   "841,165": 1,
+   "1406,1538": 15,
+   "1470,1482": 1,
+   "1611,1631": 1,
+   "1546,1665": 1,
+   "1182,1636": 15,
+   "1247,1638": 1,
+   "1387,1675": 1,
+   "1321,1825": 1,
+   "607,2093": 15,
+   "544,2038": 1,
+   "402,2075": 1,
+   "468,2223": 1,
+   "1071,2522": 4,
+   "1137,2463": 1,
+   "1314,2557": 1,
+   "1211,2651": 1,
+   "1110,3076": 15,
+   "1165,2947": 1,
+   "1351,3076": 1,
+   "1201,3206": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Attrition",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,12",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Demonic Spicules",
+   "glyph": "Archfiend",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "3,13",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,13",
+    "7,5",
+    "7,6",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,13",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,10",
+    "12,13",
+    "12,16",
+    "12,17",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,4",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,4",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,14",
+    "16,15",
+    "16,16",
+    "16,18",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,16",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Pyrosis",
+   "glyph": "Demonologist",
+   "x": 1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,9",
+    "6,10",
+    "6,12",
+    "7,8",
+    "7,9",
+    "7,11",
+    "7,12",
+    "7,14",
+    "8,8",
+    "8,11",
+    "8,13",
+    "8,14",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,8",
+    "10,11",
+    "10,12",
+    "10,14",
+    "11,10",
+    "11,11",
+    "11,14",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,10",
+    "12,11",
+    "12,12",
+    "12,18",
+    "13,5",
+    "13,12",
+    "13,13",
+    "13,17",
+    "13,18",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,13",
+    "14,14",
+    "14,15",
+    "14,16",
+    "14,17",
+    "14,18",
+    "15,4",
+    "15,5",
+    "15,9",
+    "15,11",
+    "15,12",
+    "15,13",
+    "15,17",
+    "15,18",
+    "15,19",
+    "16,7",
+    "16,9",
+    "16,11",
+    "16,13",
+    "17,7",
+    "17,8",
+    "17,9",
+    "17,13",
+    "17,14",
+    "17,15",
+    "17,16",
+    "18,7",
+    "18,8",
+    "18,14",
+    "18,15"
+   ]
+  },
+  {
+   "name": "4 Ritualism Str 54 • Dex 10 • Int 74 • Will 110",
+   "glyph": "",
+   "x": 0,
+   "y": -2,
+   "rotate": 0,
+   "on": []
+  }
+ ]
+}

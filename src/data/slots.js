@@ -1,9 +1,4 @@
-import blazingScream from "./blazing-scream.js";
-
-// Every build a character can follow. To add one, copy blazing-scream.js, change the data, and list it here.
-export const BUILDS = [blazingScream];
-export const BUILD = Object.fromEntries(BUILDS.map((b) => [b.id, b]));
-export const buildFor = (character) => BUILD[character?.buildId] || BUILDS[0];
+// Slots and item types. The builds themselves are synced guides (see ../guides.js).
 
 // The paperdoll, as the in-game character screen lays it out.
 export const SLOTS = [

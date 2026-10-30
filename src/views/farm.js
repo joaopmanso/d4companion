@@ -1,30 +1,38 @@
 // Farm guide: for every piece the build needs, the best way to get it, and whether the character already has it.
 import { esc } from "../lib/dom.js";
 import { SOURCES, ART, KIND_LABEL } from "../data/sources.js";
-import { SLOT } from "../data/builds/index.js";
+import { SLOT } from "../data/slots.js";
 import { isGuideItem } from "../evaluate.js";
 
 let filter = "todo";
 
+const slug = (s) => String(s).toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "").replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+// Items with no hand-checked route yet still get a card that points to their drop source.
+const unknown = (name, rarity) => ({
+  name, rarity, routes: [{ kind: "world", label: "No route on file yet", steps: [`Check where ${name} drops on diablofilter.com/items/${slug(name)}.`] }],
+});
+
 function targets(char, build) {
   const out = [];
   for (const [slotId, t] of Object.entries(build.slots)) {
-    const src = SOURCES[t.item.source];
-    if (!src) continue;
+    const src = SOURCES[t.item.source] || unknown(t.item.name, t.item.rarity || "legendary");
     const g = char.gear[slotId];
     const have = isGuideItem(g, t);
-    const mythicNeeded = src.rarity === "mythic" && g?.rarity !== "mythic";
-    out.push({ key: t.item.source, src, art: ART[t.item.source] || "", where: SLOT[slotId].name, have: have && !mythicNeeded,
-      status: !have ? "Not yet" : mythicNeeded ? `You have the Unique; farm the Mythic` : "Have it" });
+    const mythicNeeded = (src.rarity === "mythic" || t.item.rarity === "mythic") && g?.rarity !== "mythic" && t.item.type !== "aspect";
+    out.push({ key: t.item.source || slug(t.item.name), src, art: t.item.art || ART[t.item.source] || "", where: SLOT[slotId].name, have: have && !mythicNeeded,
+      status: !have ? "Not yet" : mythicNeeded ? "You have the Unique; farm the Mythic" : "Have it" });
   }
-  const extra = [
-    ["splinters", "art/spl-anguish.webp", build.splinters.map((s) => `${s.short} (${s.socket})`).join(", ")],
-    ["runes", "art/rune-mal.png", build.runes.map((r) => `${r.pair.join(" + ")} (${r.socket})`).join(", ")],
-    ["set-charms", "art/charm-linta-flesh.webp", "Talisman"],
-    ["seal-diamond-mind", "art/seal-diamond-mind.webp", "Talisman seal"],
-    ["hellfire-torch", "art/charm-hellfire-torch.webp", "Talisman charm"],
-  ];
-  for (const [key, art, where] of extra) out.push({ key, src: SOURCES[key], art, where, have: false, status: "" });
+  const sockets = Object.values(build.slots).flatMap((s) => s.sockets || []);
+  const splinters = [...new Set(sockets.filter((s) => /^splinter/i.test(s)))];
+  const charms = build.talisman?.charms || [];
+  const extra = [];
+  if (splinters.length) extra.push(["splinters", Object.values(build.slots).map((s) => s.socketArt?.[splinters[0]]).find(Boolean) || "", splinters.join(", ")]);
+  if (build.runes?.length) extra.push(["runes", build.runes[0].art, build.runes.map((r) => r.name).join(", ")]);
+  if (charms.some((c) => c.set)) extra.push(["set-charms", charms.find((c) => c.set).art, [...new Set(charms.filter((c) => c.set).map((c) => c.set))].join(", ")]);
+  if (build.talisman?.seal) extra.push([SOURCES[slug(build.talisman.seal.name)] ? slug(build.talisman.seal.name) : null, build.talisman.seal.art, "Talisman seal", build.talisman.seal.name]);
+  for (const c of charms.filter((c) => c.mythic)) extra.push([SOURCES[slug(c.name)] ? slug(c.name) : null, c.art, "Talisman charm", c.name]);
+  for (const [key, art, where, name] of extra) out.push({ key, src: SOURCES[key] || unknown(name, "mythic"), art, where, have: false, status: "" });
   return out;
 }
 

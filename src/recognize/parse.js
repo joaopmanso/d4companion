@@ -1,7 +1,7 @@
 // Turns the text of a Diablo IV tooltip (OCR output, one line per row) into an item.
 // OCR can't see the tooltip's icons, so greater affixes and tempers are guessed here and shown for review.
 import { matchAffix } from "../data/affixes.js";
-import { slotFromType } from "../data/builds/index.js";
+import { slotFromType } from "../data/slots.js";
 
 const RARITY_RE = /\b(ancestral\s+)?(mythic\s+unique|unique|legendary|rare|magic|common)\s+([a-z][a-z\s-]{2,30})$/i;
 const POWER_RE = /(\d{3,4})\s*item\s*power/i;

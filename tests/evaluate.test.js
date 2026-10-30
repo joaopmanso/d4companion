@@ -1,11 +1,13 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import build from "../src/data/builds/blazing-scream.js";
+import { readFileSync } from "node:fs";
+import { toBuild } from "../src/data/guides.js";
 import { TEST_CHARACTER } from "./fixture.js";
 import { evaluate, resolveSlot, slotStatus } from "../src/evaluate.js";
 import { parseTooltip } from "../src/recognize/parse.js";
 import { matchAffix } from "../src/data/affixes.js";
 
+const build = toBuild(JSON.parse(readFileSync(new URL("../public/data/guides/blazing-scream-warlock-endgame-best-overall-currently-playing.json", import.meta.url))));
 const char = structuredClone(TEST_CHARACTER);
 
 test("affix lines map to keys", () => {

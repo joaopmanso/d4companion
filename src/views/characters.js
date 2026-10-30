@@ -1,21 +1,29 @@
 // Characters (each follows one build) and settings: screenshot reader, API key, backup.
 import { $, esc } from "../lib/dom.js";
 import { store } from "../lib/store.js";
-import { BUILDS, BUILD } from "../data/builds/index.js";
+
 import { MODELS } from "../recognize/models.js";
 
 let creating = false;
+
+// Synced guides as <option>s, grouped by build.
+function guideOptions(index, selected) {
+  const groups = new Map();
+  for (const g of index?.guides || []) { const k = `${g.build} · ${g.site}`; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(g); }
+  return [...groups].map(([label, list]) => `<optgroup label="${esc(label)}">${list.map((g) => `<option value="${esc(g.id)}"${g.id === selected ? " selected" : ""}>${esc(g.variant)}</option>`).join("")}</optgroup>`).join("");
+}
+const guideName = (index, id) => { const g = index?.guides.find((x) => x.id === id); return g ? `${g.build}: ${g.variant}` : "Guide not synced"; };
 export function startNew() { creating = true; }
 
 // First visit in this browser: nothing is stored yet, so ask for a character or a backup to import.
-export function renderWelcome(root) {
+export function renderWelcome(root, { index, guideId }) {
   root.innerHTML = `<section class="view">
     <div class="view-head"><h2>Welcome</h2><p>This site keeps everything in your browser only. There are no accounts and nothing is uploaded, so another computer or browser starts empty. Create a character, or import a backup you exported elsewhere.</p></div>
     <div class="two-col">
       <form class="panel" id="w-new">
         <h3>New character</h3>
         <div class="field"><label class="label" for="w-name">Name</label><input id="w-name" required placeholder="e.g. Blazing Scream Warlock"></div>
-        <div class="field"><label class="label" for="w-build">Guide to follow</label><select id="w-build">${BUILDS.map((b) => `<option value="${b.id}">${esc(b.name)} · ${esc(b.guide.site)} ${esc(b.guide.variant)}</option>`).join("")}</select></div>
+        <div class="field"><label class="label" for="w-build">Guide to follow</label><select id="w-build">${guideOptions(index, guideId)}</select></div>
         <div class="row"><button class="btn primary" type="submit">Create character</button></div>
       </form>
       <div class="panel">
@@ -36,7 +44,10 @@ export function renderWelcome(root) {
   };
 }
 
-export function render(root) {
+let lastCtx = {};
+export function render(root, ctx = lastCtx) {
+  lastCtx = ctx;
+  const { index, build } = ctx;
   const s = store.get();
   const set = s.settings;
   root.innerHTML = `<section class="view">
@@ -44,17 +55,17 @@ export function render(root) {
     <div class="panel">
       <div class="char-list">${s.characters.map((c) => `<div class="char-row${c.id === s.activeId ? " active" : ""}">
         <span class="nm">${esc(c.name)}</span>
-        <span class="note">${esc(BUILD[c.buildId]?.name || "Unknown build")} · ${Object.values(c.gear || {}).filter(Boolean).length}/10 slots</span>
+        <span class="note">${esc(guideName(index, c.buildId))} · ${Object.values(c.gear || {}).filter(Boolean).length}/10 slots</span>
         ${c.id === s.activeId ? `<span class="tag take">Active</span>` : `<button class="btn ghost" data-use="${esc(c.id)}">Make active</button>`}
         <button class="btn ghost" data-rename="${esc(c.id)}">Rename</button>
         <button class="btn ghost" data-del="${esc(c.id)}">Delete</button>
       </div>`).join("") || `<p class="note">No characters yet.</p>`}</div>
       ${creating ? `<form class="form-grid" id="new-char">
           <div class="field"><label class="label" for="nc-name">Name</label><input id="nc-name" required placeholder="e.g. Alt Warlock" autofocus></div>
-          <div class="field"><label class="label" for="nc-build">Build</label><select id="nc-build">${BUILDS.map((b) => `<option value="${b.id}">${esc(b.name)} (${esc(b.guide.site)} ${esc(b.guide.variant)})</option>`).join("")}</select></div>
+          <div class="field"><label class="label" for="nc-build">Guide to follow</label><select id="nc-build">${guideOptions(index, build?.id)}</select></div>
           <div class="row" style="align-self:end"><button class="btn primary" type="submit">Create</button><button class="btn ghost" type="button" id="nc-cancel">Cancel</button></div>
         </form>
-        <p class="note">Only the Blazing Scream Warlock build is set up so far. Each build is one data file in <code>src/data/builds/</code>, so new ones can be added.</p>`
+        <p class="note">You can switch guides any time from the Guide menu at the top.</p>`
       : `<div class="row"><button class="btn" id="add-char">New character</button></div>`}
     </div>
 

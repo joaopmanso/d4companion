@@ -1,7 +1,7 @@
 // Picks the reader: Claude when an API key is set (unless the player chose OCR), otherwise free OCR.
 // Both readers load on first use, so the rest of the site stays light.
 import { matchAffix } from "../data/affixes.js";
-import { slotFromType } from "../data/builds/index.js";
+import { slotFromType } from "../data/slots.js";
 
 export async function recognize(blob, settings, progress) {
   const useClaude = settings.apiKey && settings.engine !== "ocr";

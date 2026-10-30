@@ -2,7 +2,7 @@
 // character and which lines to reroll, temper or fix. Equipping saves it (and the screenshot) to the loadout.
 import { $, esc, tipCard } from "../lib/dom.js";
 import { store, shots } from "../lib/store.js";
-import { SLOT } from "../data/builds/index.js";
+import { SLOT } from "../data/slots.js";
 import { recognize } from "../recognize/index.js";
 import { evaluate, resolveSlot } from "../evaluate.js";
 import { itemTip, itemArt } from "../lib/itemview.js";

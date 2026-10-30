@@ -74,6 +74,17 @@ export function matchAffix(line) {
   return null;
 }
 
+// A stat named without a value, as guides write it ("Ranks To Blazing Scream", "Hellfire Skills",
+// "Primary Core Stat", "Maximum Evade Charge").
+export function affixFromName(name) {
+  const text = clean(name).replace(/^ranks?\s+(to|of)\s+/i, "");
+  for (const a of AFFIXES) {
+    if (a.rank && a.re.test(text)) return a.key;
+    if (!a.rank && a.re.test(text)) return a.key;
+  }
+  return null;
+}
+
 export const affixValue = (line) => {
   const m = clean(line).match(/[+\-×x]?\s*([\d,]+(\.\d+)?)/);
   return m ? Number(m[1].replace(/,/g, "")) : null;

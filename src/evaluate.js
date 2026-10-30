@@ -2,7 +2,7 @@
 // then says whether to equip it and what to fix (enchant, temper, imprint, socket, masterwork).
 import { affixLabel } from "./data/affixes.js";
 import { SOURCES } from "./data/sources.js";
-import { SLOT } from "./data/builds/index.js";
+import { SLOT } from "./data/slots.js";
 
 const RARITY_RANK = { mythic: 4, unique: 3, legendary: 2, rare: 1, magic: 0, common: 0 };
 
