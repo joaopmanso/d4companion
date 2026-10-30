@@ -357,16 +357,6 @@
  },
  "runes": [
   {
-   "name": "Mal",
-   "art": "art/sa/DIABLO4/Runes/15-invocation.png",
-   "tip": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power"
-  },
-  {
-   "name": "Tir",
-   "art": "art/sa/DIABLO4/Runes/15-ritual.png",
-   "tip": "Tir\nCommon Rune of Ritual\nRequires: 300 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain +2 Primary Resource on Kill for 8 seconds, up to +8."
-  },
-  {
    "name": "Cem",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Cem\nMagic Rune of Ritual\nGain: 75 Offering\nCast Evade."
@@ -375,6 +365,16 @@
    "name": "Que",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Mal",
+   "art": "art/sa/DIABLO4/Runes/15-invocation.png",
+   "tip": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power"
+  },
+  {
+   "name": "Tir",
+   "art": "art/sa/DIABLO4/Runes/15-ritual.png",
+   "tip": "Tir\nCommon Rune of Ritual\nRequires: 300 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain +2 Primary Resource on Kill for 8 seconds, up to +8."
   }
  ],
  "talisman": {

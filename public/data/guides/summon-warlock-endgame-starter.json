@@ -324,16 +324,6 @@
  },
  "runes": [
   {
-   "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
-   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
-  },
-  {
-   "name": "Ohm",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
-   "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
-  },
-  {
    "name": "Cir",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
@@ -342,6 +332,16 @@
    "name": "Thul",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Thul\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Size)\nCooldown: 1 seconds\nInvoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+  },
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Ohm",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
   }
  ],
  "talisman": {

@@ -40,7 +40,11 @@ export function normalise(raw, { site, className, index, art, tips }) {
     id: `${base}-${slug(variant)}`,
     site, className, build, variant, url: raw.url, updated: raw.updated, author: raw.author, checked: new Date().toISOString().slice(0, 10),
     slots,
-    runes: raw.runes.map((r) => ({ name: r.name, art: art(r.img), tip: tip(r.name) })),
+    // The site lists runes as Ritual + Invocation pairs but not always in the same pair order.
+    runes: raw.runes.map((r) => ({ name: r.name, art: art(r.img), tip: tip(r.name) }))
+      .reduce((pairs, r, i) => (i % 2 ? pairs[pairs.length - 1].push(r) : pairs.push([r]), pairs), [])
+      .sort((a, b) => a.map((r) => r.name).join().localeCompare(b.map((r) => r.name).join()))
+      .flat(),
     talisman: {
       seal: raw.talisman.seal ? (() => {
         const t = tips[`seal:${raw.talisman.seal.img}`] || "";

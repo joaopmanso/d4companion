@@ -28,6 +28,17 @@ const only = process.argv.slice(2).find((a) => a.startsWith("--only="))?.slice(7
 
 const readJson = (p, d) => { try { return JSON.parse(readFileSync(p, "utf8")); } catch { return d; } };
 const writeJson = (p, v) => { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, JSON.stringify(v, null, 1) + "\n"); };
+// Only content counts as a change: keep the previous dates when nothing else differs, so a day
+// with no guide edits makes no commit and no redeploy.
+const same = (a, b, skip) => JSON.stringify({ ...a, ...Object.fromEntries(skip.map((k) => [k, 0])) }) === JSON.stringify({ ...b, ...Object.fromEntries(skip.map((k) => [k, 0])) });
+let changed = false;
+function writeIfChanged(p, v, skip) {
+  const old = readJson(p, null);
+  if (old && same(old, v, skip)) return old;
+  writeJson(p, v);
+  changed = true;
+  return v;
+}
 
 // Downloads sunderarmor.com art into public/art/sa and returns the local path.
 const pending = new Map();
@@ -72,7 +83,8 @@ for (const cls of CLASSES) {
       try {
         const raw = await d4b.scrapeVariant(page, url, i, state);
         const guide = normalise(raw, { site: "d4builds", className: cls.name, index: i, art: localArt, tips: state.tips });
-        writeJson(join(DATA, "guides", `${guide.id}.json`), guide);
+        const kept = writeIfChanged(join(DATA, "guides", `${guide.id}.json`), guide, ["checked"]);
+        guide.checked = kept.checked;
         index.guides.push({ id: guide.id, site: guide.site, className: guide.className, build: guide.build, variant: guide.variant, url: guide.url, updated: guide.updated });
         console.log("ok", guide.id);
       } catch (e) {
@@ -91,7 +103,7 @@ for (const cls of CLASSES) {
     bgOn: localArt((nd.bg || "").replace("_inactive", "_active")), bgOff: localArt((nd.bg || "").replace(/_active(?=\.png)/, "_inactive")),
   })) };
   const boards = Object.fromEntries(Object.entries(state.boards).map(([k, b]) => [k, { tiles: b.tiles.map((t) => ({ ...t, icon: localArt(t.icon), iconOn: localArt(t.iconOn), bg: localArt(t.bg) })) }]));
-  writeJson(clsFile, { className: cls.name, captured: fresh ? cache.captured : new Date().toISOString(), tree, boards, glyphs: state.glyphs, tips: state.tips });
+  writeIfChanged(clsFile, { className: cls.name, captured: fresh ? cache.captured : new Date().toISOString(), tree, boards, glyphs: state.glyphs, tips: state.tips }, []);
 }
 await browser.close();
 
@@ -100,7 +112,8 @@ const prev = readJson(join(DATA, "guides.json"), { guides: [] });
 for (const g of prev.guides) if (!index.guides.some((x) => x.id === g.id) && (failures || only)) index.guides.push(g);
 if (!failures && !only) for (const f of readdirSync(join(DATA, "guides"))) if (!index.guides.some((g) => `${g.id}.json` === f)) unlinkSync(join(DATA, "guides", f));
 index.guides.sort((a, b) => a.build.localeCompare(b.build) || a.variant.localeCompare(b.variant));
-writeJson(join(DATA, "guides.json"), index);
+if (!changed && JSON.stringify(prev.guides) === JSON.stringify(index.guides)) index.updated = prev.updated;
+writeIfChanged(join(DATA, "guides.json"), index, []);
 
 console.log(`guides ${index.guides.length}, new art ${await downloadArt()}, failures ${failures}`);
 if (index.guides.length === 0) process.exit(1);

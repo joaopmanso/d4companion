@@ -319,16 +319,6 @@
  },
  "runes": [
   {
-   "name": "Zan",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
-   "tip": "Zan\nRare Rune of Ritual\nGain: 200 Offering\nCast an Ultimate Skill."
-  },
-  {
-   "name": "Que",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
-   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
-  },
-  {
    "name": "Igni",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
@@ -337,6 +327,16 @@
    "name": "Jah",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Jah\nLegendary Rune of Invocation\nRequires: 250 Offering (Overflow: Store Excess Offering)\nCooldown: 2 seconds\nReplace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
+  },
+  {
+   "name": "Zan",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Zan\nRare Rune of Ritual\nGain: 200 Offering\nCast an Ultimate Skill."
+  },
+  {
+   "name": "Que",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
   }
  ],
  "talisman": {

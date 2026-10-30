@@ -303,16 +303,6 @@
  },
  "runes": [
   {
-   "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
-   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
-  },
-  {
-   "name": "Prid",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
-   "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
-  },
-  {
    "name": "Cir",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
@@ -321,6 +311,16 @@
    "name": "Ceh",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
+  },
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Prid",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
   }
  ],
  "talisman": {

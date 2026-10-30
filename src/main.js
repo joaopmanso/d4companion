@@ -67,7 +67,7 @@ function renderHeader() {
     + (index.links?.length ? `<optgroup label="Other sites (open in a new tab)">${index.links.map((l, i) => `<option value="link:${i}">${esc(l.site)}: ${esc(l.title)} ↗</option>`).join("")}</optgroup>` : "");
 
   const b = loaded.build;
-  $("#build-line").innerHTML = b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a> · guide updated ${esc(b.guide.updated || "?")} · synced ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}` : "";
+  $("#build-line").innerHTML = b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a> · guide updated ${esc(b.guide.updated || "?")} · guides checked daily, last change ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}` : "";
   $("#season-line").textContent = b ? `Diablo IV · Season ${b.season} · ${b.className}` : "Diablo IV";
 }
 

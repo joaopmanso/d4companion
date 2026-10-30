@@ -348,16 +348,6 @@
  },
  "runes": [
   {
-   "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
-   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
-  },
-  {
-   "name": "Wat",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
-   "tip": "Wat\nRare Rune of Invocation\nRequires: 100 Offering (Overflow: Increase Duration)\nCooldown: 1 seconds\nInvoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
-  },
-  {
    "name": "Cir",
    "art": "art/sa/DIABLO4/Runes/ritual.png",
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
@@ -366,6 +356,16 @@
    "name": "Que",
    "art": "art/sa/DIABLO4/Runes/invocation.png",
    "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  },
+  {
+   "name": "Igni",
+   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
+  },
+  {
+   "name": "Wat",
+   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "tip": "Wat\nRare Rune of Invocation\nRequires: 100 Offering (Overflow: Increase Duration)\nCooldown: 1 seconds\nInvoke the Necromancer's Horrid Decrepify, Slowing enemies, reducing their damage, and letting you Execute them."
   }
  ],
  "talisman": {
