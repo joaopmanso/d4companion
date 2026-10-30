@@ -375,5 +375,8 @@ input[type="radio"], input[type="checkbox"] { width: auto; }
 body.read-only .topbar, body.read-only .paste-hint, body.read-only .share-row,
 body.read-only .slot-actions, body.read-only #stats-edit, body.read-only #tal-pick,
 body.read-only .tab[data-view="check"], body.read-only .tab[data-view="hordes"], body.read-only .tab[data-view="warplans"],
-body.read-only .tab[data-view="strongroom"], body.read-only .tab[data-view="characters"] { display: none; }
+body.read-only .tab[data-view="strongroom"], body.read-only .tab[data-view="characters"],
+body.read-only .tab[data-view="farm"], body.read-only .tab[data-view="guides"] { display: none; }
+/* Links to the farm guide from inside a shared loadout lead nowhere, so hide them too. */
+body.read-only a[href="#/farm"] { display: none; }
 body.read-only .tal-socket { cursor: help; }

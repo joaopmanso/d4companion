@@ -43,7 +43,7 @@ let loaded = { id: null, build: null, cls: null };
 
 // Share links look like #/s/<packed character>/<view>. While one is open, that character is shown
 // read-only in place of the user's own, and nothing is saved.
-const SHARE_VIEWS = new Set(["loadout", "skills", "paragon", "farm", "guides"]);
+const SHARE_VIEWS = new Set(["loadout", "skills", "paragon"]);
 let shared = { payload: null, char: null };
 const sharePayload = () => (location.hash.startsWith("#/s/") ? location.hash.split("/")[2] : null);
 const viewFromHash = () => {
