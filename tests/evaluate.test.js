@@ -16,7 +16,9 @@ test("affix lines map to keys", () => {
   assert.equal(matchAffix("+12.5% Critical Strike Damage [10.0 - 15.0]%"), "critDamage");
   assert.equal(matchAffix("10.6% Critical Strike Chance"), "critChance");
   assert.equal(matchAffix("+1,875 Maximum Life"), "life");
-  assert.equal(matchAffix("+150 Primary Core Stat"), "willpower");
+  assert.equal(matchAffix("+150 Primary Core Stat", "Warlock"), "willpower");
+  assert.equal(matchAffix("+150 Primary Core Stat", "Rogue"), "dexterity");
+  assert.equal(matchAffix("+3 to Penetrating Shot"), "ranks:penetrating-shot");
   assert.equal(matchAffix("×42% Fire Damage Multiplier"), "fireDamageMult");
   assert.equal(matchAffix("1,234 Armor"), null);
 });

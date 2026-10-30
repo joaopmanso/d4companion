@@ -1,6 +1,6 @@
 // Farm guide: for every piece the build needs, the best way to get it, and whether the character already has it.
 import { esc } from "../lib/dom.js";
-import { SOURCES, ART, KIND_LABEL } from "../data/sources.js";
+import { SOURCES, KIND_LABEL } from "../data/sources.js";
 import { SLOT } from "../data/slots.js";
 import { isGuideItem } from "../evaluate.js";
 
@@ -20,7 +20,7 @@ function targets(char, build) {
     const g = char.gear[slotId];
     const have = isGuideItem(g, t);
     const mythicNeeded = (src.rarity === "mythic" || t.item.rarity === "mythic") && g?.rarity !== "mythic" && t.item.type !== "aspect";
-    out.push({ key: t.item.source || slug(t.item.name), src, art: t.item.art || ART[t.item.source] || "", where: SLOT[slotId].name, have: have && !mythicNeeded,
+    out.push({ key: t.item.source || slug(t.item.name), src, art: t.item.art || "", where: SLOT[slotId].name, have: have && !mythicNeeded,
       status: !have ? "Not yet" : mythicNeeded ? "You have the Unique; farm the Mythic" : "Have it" });
   }
   const sockets = Object.values(build.slots).flatMap((s) => s.sockets || []);

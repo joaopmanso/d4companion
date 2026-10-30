@@ -14,7 +14,7 @@ export function normaliseLines(text) {
     .filter((l) => l.length > 1);
 }
 
-export function parseTooltip(text) {
+export function parseTooltip(text, className) {
   const lines = normaliseLines(text);
   const item = { name: "", rarity: "legendary", ancestral: false, itemPower: null, type: "", slot: null, affixes: [], power: "", aspect: "" };
 
@@ -45,7 +45,7 @@ export function parseTooltip(text) {
   for (const l of lines.slice(Math.max(0, ri + 1))) {
     if (NOISE.test(l) || POWER_RE.test(l)) continue;
     if (/^\[?[\d.,\s%-]+\]?%?$/.test(l)) continue; // a lone roll range
-    const key = matchAffix(l);
+    const key = matchAffix(l, className);
     // Stat lines start with a value ("+210 Willpower", "×22% Vulnerable…"); wrapped power text doesn't.
     const looksLikeStat = /^[+×x\-]?\s*[\d,.]+%?\s+\D/.test(l);
     if (key && looksLikeStat) {

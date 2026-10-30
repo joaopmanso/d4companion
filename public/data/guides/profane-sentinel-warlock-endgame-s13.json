@@ -8,13 +8,16 @@
  "updated": "September 19, 2026",
  "author": "",
  "checked": "2026-10-30",
+ "tier": "",
+ "short": "Profane Sentinel - Warlock",
  "slots": {
   "helm": {
+   "name": "Helm",
    "item": {
     "name": "Heir of Perdition",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
     "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Life\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
    },
    "affixes": [
@@ -37,16 +40,17 @@
     "Prid"
    ],
    "socketArt": {
-    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
-    "Prid": "art/sa/DIABLO4/Runes/invocation.png"
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Prid": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "chest": {
+   "name": "Chest Armor",
    "item": {
     "name": "Tyrael's Might",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/tyrael_s_might.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tyrael's_might.png",
     "tip": "Tyrael's Might\nMythic Unique Chest Armor\n151 Primary Core Stat\n100 Resistance to All Elements\nGain 20% Damage Reduction.\nWhile at full Life, your Skills unleash a divine barrage dealing [X] damage."
    },
    "affixes": [
@@ -69,16 +73,17 @@
     "Que"
    ],
    "socketArt": {
-    "Nagu": "art/sa/DIABLO4/Runes/ritual.png",
-    "Que": "art/sa/DIABLO4/Runes/invocation.png"
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "gloves": {
+   "name": "Gloves",
    "item": {
     "name": "Hellbent Commander Aspect",
     "kind": "aspect",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Hellbent Commander Aspect\nCodex • Warlock\nYou deal x [50 - 70%] increased Summon damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nWillpower\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
@@ -103,11 +108,12 @@
    "socketArt": {}
   },
   "pants": {
+   "name": "Pants",
    "item": {
     "name": "Aspect of Heavenly Strength",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "tip": "Aspect of Heavenly Strength\nWarlock\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -134,15 +140,16 @@
     "Sapphire"
    ],
    "socketArt": {
-    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
    }
   },
   "boots": {
+   "name": "Boots",
    "item": {
     "name": "Footfalls of the Waning World",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
     "tip": "Footfalls of the Waning World\nUnique Boots\nWillpower\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nMovement Speed\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [0.6 - 1] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
    },
    "affixes": [
@@ -166,11 +173,12 @@
    "socketArt": {}
   },
   "weapon": {
+   "name": "Weapon",
    "item": {
     "name": "The Grandfather",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/the_grandfather.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_grandfather.png",
     "tip": "The Grandfather\nMythic Unique 2h Sword\nIndestructible\n431 Weapon Damage\nCritcal Strike Chance\nWillpower\nMaximum Life\nCritical Strike Damage\nIncreases your Critical Strike Damage by x120%."
    },
    "affixes": [
@@ -192,15 +200,16 @@
     "Ruby"
    ],
    "socketArt": {
-    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   },
   "amulet": {
+   "name": "Amulet",
    "item": {
     "name": "Seed of Horazon",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/seed_of_horazon.png",
     "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
    "affixes": [
@@ -226,15 +235,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring1": {
+   "name": "Ring 1",
    "item": {
     "name": "Seal of the Ophanim",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/seal_of_the_ophanim.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/seal_of_the_ophanim.png",
     "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "affixes": [
@@ -259,15 +269,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring2": {
+   "name": "Ring 2",
    "item": {
     "name": "Aspect of Calamity",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
    },
    "affixes": [
@@ -292,29 +303,45 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
+  },
+  "empty": {
+   "name": "Empty",
+   "item": {
+    "name": "Offhand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/offhand.png",
+    "tip": ""
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
   }
  },
  "runes": [
   {
    "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
   },
   {
    "name": "Prid",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
   },
   {
    "name": "Nagu",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
   },
   {
    "name": "Que",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
   }
  ],
@@ -323,21 +350,21 @@
   "charms": [
    {
     "name": "Berú of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Berú of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Fer of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Fer of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Crown of Lucion",
-    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
     "set": "",
     "mythic": false,
     "unique": true,
@@ -345,21 +372,21 @@
    },
    {
     "name": "Linta of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Linta of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Phoba of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Phoba of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Mlor of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Mlor of Horazon's Chains\nDemonology Skills\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
@@ -370,32 +397,32 @@
   "bar": [
    {
     "name": "Terror Swarm",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/terror_swarm.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_swarm.png",
     "tip": "Terror Swarm\nRank 15\nUltimate\nDemonology\nAbyss\nGreater Demon\nCooldown: 30 seconds\nLucky Hit: 1%\nSummon a terror from the depths that deals [1658%] damage and spews a voracious swarm that deals [332%] damage per bite for 15 seconds.\nModifiers\nTerror Swarm now bites up to 2 additional times per second.\nTerror Swarm periodically Pulls enemies into the center of the swarm.\nTerror Swarm starts smaller and weaker but grows up to 3 times as it feeds on enemies. Upon reaching maximum size, swarms split off another smaller swarm. Can have up to 3 active swarms.\nShadow Damage"
    },
    {
     "name": "Sigil of Summons",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_summons.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sigil_of_summons.png",
     "tip": "Sigil of Summons\nRank 15\nSigil\nDemonology\nSummon\nLesser Demon\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a binding ritual for 10 seconds that extends the duration of your Summons.\nKilling 8 enemies or Demons within fuels the ritual to summon a demon for 20 seconds which attacks nearby enemies, dealing [204%] damage per hit.\nYou can have up to 3 demons active at once.\nModifiers\nEnemies within Sigil of Summons take x25% increased damage from your Lesser Demon Skills.\nSigil of Summons deals x25% increased damage but requires 25% more kills per summon.\nSigil of Summons now requires 16 kills to summon a Hellwyrm Greater Demon that mimics your Lesser Demon casts by regurgitating related Lesser Demons.\nPhysical Damage"
    },
    {
     "name": "Sigil of Subversion",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
     "tip": "Sigil of Subversion\nRank 15\nSigil\nOccult\nAbyss\nCooldown: 10 seconds\nLucky Hit: 20%\nCreate a subversive ritual for 10 seconds that Hexes enemies.\nKilling 8 enemies or Demons within fuels the ritual to send forth shadow trails for [11.2] seconds that periodically grant you 1 stack of Shadowform every second while in them.\nYou can have up to 3 trails active at once.\nModifiers\nSigil of Subversion trails grant you x20% increased Movement Speed while on them.\nSigil of Subversion trails Slow enemies by 75%.\nSigil of Subversion becomes a Hellfire Skill and now creates lava trails that periodically deal [893%] damage. Enemies that die within the trails have a 35% chance to be charred into Brimstones which deal [510%] damage when they explode."
    },
    {
     "name": "Summon Laalish",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_laalish.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_laalish.png",
     "tip": "Summon Laalish\nRank 1\nSoul Shard\nDemonology\nAbyss\nSummon\nGreater Demon\nCooldown: 15 seconds\nLucky Hit: 15%\nPassive: Laalish seeks enemies and applies Vulnerable and a 30% Slow to Close enemies that lingers for 4 seconds. When you attack enemies, it moves through the abyss to bite them, dealing [765%] damage.\nActive: Command Laalish to create a Terror Realm for 6 seconds, applying Vulnerable and a 60% Slow to enemies within. Laalish devours enemies within Terror Realm, dealing [255%] damage every 1 second.\nWhile you are within Terror Realm, gain 1 stacks of Shadowform every 0.25 seconds.\nShadow Damage"
    },
    {
     "name": "Profane Sentinel",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/profane_sentinel.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/profane_sentinel.png",
     "tip": "Profane Sentinel\nRank 1\nArchfiend\nDemonology\nAbyss\nSummon\nGreater Demon\nRecast\nDominance Cost: 10\nLucky Hit: 22%\nSummon a demonic eye for 15 seconds that focuses upon enemies with a beam that makes them Vulnerable and periodically blasts them, dealing [180%] damage. Recast to direct the eye's targeting.\nModifiers\nProfane Sentinel's beam area is 125% larger.\nThe longer Profane Sentinel is locked onto the same enemy the stronger it becomes, dealing 25% more damage every second.\nCasting Profane Sentinel induces your Lesser Demon Skills to make enemies Vulnerable for 5 seconds.\nShadow Damage"
    },
    {
     "name": "Blazing Scream",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/blazing_scream_abyssal_oppression.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream_abyssal_oppression.png",
     "tip": "Blazing Scream\nRank 15\nCore\nDemonology\nHellfire\nGreater Demon\nWrath Cost: 35\nLucky Hit: 25%\nSend forth a Demon Skull dealing [332%] damage as it travels.\nModifiers\nBlazing Scream deals x3% increased damage based on how many different enemies it has hit, up to x30%.\nBlazing Scream gains up to x30% increased damage and speed based on your Movement Speed Bonus.\nBlazing Scream is now also a Summon Skill and orbits you for 10 seconds. The skull deals [979%] damage and extends Demonform when it hits enemies. Channeling increases the orbit speed by 150% and refreshes the duration.\nFire Damage"
    }
   ],

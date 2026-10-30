@@ -1,7 +1,7 @@
 // Guides come from public/data, written daily by scripts/fetch-guides.mjs. This turns a synced guide
 // into the "build" shape the views and the evaluator use, and adds the hand-kept extras
 // (stat targets, farm routes) that no guide site provides.
-import { SOURCES, ART } from "./sources.js";
+import { SOURCES } from "./sources.js";
 import { CLASS_STATS } from "./classes.js";
 
 const cache = new Map();
@@ -39,7 +39,7 @@ export function toBuild(g) {
   for (const [sid, s] of Object.entries(g.slots)) {
     const key = slug(s.item.name);
     slots[sid] = {
-      item: { name: s.item.name, match: matcher(s.item), type: s.item.kind === "aspect" ? "aspect" : s.item.kind, rarity: s.item.rarity, source: SOURCES[key] ? key : null, art: ART[key] || s.item.art, tip: s.item.tip },
+      item: { name: s.item.name, match: matcher(s.item), type: s.item.kind === "aspect" ? "aspect" : s.item.kind, rarity: s.item.rarity, source: SOURCES[key] ? key : null, art: s.item.art, tip: s.item.tip },
       affixes: [...new Set(s.affixes)],
       tempers: s.tempers,
       sockets: s.sockets,

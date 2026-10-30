@@ -1,17 +1,20 @@
 // Shared item rendering: art lookup and the tooltip with each line marked good, bad or neutral for the build.
+// Art is linked from the guide site; an item with no known art shows the slot's plain base icon.
 import { esc, tipCard, rarityOf, RARITY_LABEL } from "./dom.js";
-import { ART, BASE_ART } from "../data/sources.js";
-import { SLOT } from "../data/slots.js";
+import { SLOT, BASE_ART } from "../data/slots.js";
 import { affixLabel } from "../data/affixes.js";
 
+// Only for items the player has: art by exact name from the guide or the class catalog.
 export function itemArt(item, slotId, build) {
   if (item?.name) {
-    for (const t of Object.values(build.slots)) if (t.item.match.test(item.name) && t.item.type !== "aspect" && t.item.art) return t.item.art;
-    const key = item.name.toLowerCase().replace(/['’]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-    if (ART[key]) return ART[key];
+    const cat = build?.catalog?.items?.[item.name];
+    if (cat?.art) return cat.art;
+    for (const t of Object.values(build?.slots || {})) if (t.item.type !== "aspect" && t.item.name.toLowerCase() === item.name.toLowerCase() && t.item.art) return t.item.art;
   }
-  return BASE_ART[SLOT[slotId]?.kind] || "";
+  return BASE_ART[SLOT[slotId]?.kind] || BASE_ART.weapon;
 }
+
+export const ancestralBadge = (item) => (item?.ancestral ? `<i class="anc" title="Ancestral" aria-label="Ancestral"></i>` : "");
 
 export function affixListHtml(lines, { why = false } = {}) {
   if (!lines?.length) return "";
@@ -23,10 +26,11 @@ export function affixListHtml(lines, { why = false } = {}) {
   }).join("")}</ul>`;
 }
 
-export function typeLine(item, slotId) {
+export function typeLine(item, slotId, { html = false } = {}) {
   const r = rarityOf(item);
   if (r === "unknown") return `${SLOT[slotId].noun} · not recorded`;
-  return `${item.ancestral ? "Ancestral " : ""}${item.crafted ? "Crafted " : ""}${RARITY_LABEL[r]} ${SLOT[slotId].noun}${item.itemPower ? ` · ${item.itemPower} Item Power` : ""}`;
+  const anc = item.ancestral ? (html ? `<span class="anc-text">Ancestral</span> ` : "Ancestral ") : "";
+  return `${anc}${item.crafted ? "Crafted " : ""}${RARITY_LABEL[r]} ${esc(SLOT[slotId].noun)}${item.itemPower ? ` · ${item.itemPower} Item Power` : ""}`;
 }
 
 export function itemTip(item, slotId, build, ev, { why = false, foot = "" } = {}) {
@@ -35,8 +39,8 @@ export function itemTip(item, slotId, build, ev, { why = false, foot = "" } = {}
   const mw = item.masterwork ? `<p class="gt-next">${esc(item.masterwork)}</p>` : "";
   const power = [item.power, item.aspect].filter(Boolean).map(esc).join(" ");
   return tipCard({
-    name: item.name || "Unnamed item", type: typeLine(item, slotId), r: r === "unknown" ? "unknown" : r,
-    art: itemArt(item, slotId, build),
+    name: item.name || "Unnamed item", typeHtml: typeLine(item, slotId, { html: true }), r: r === "unknown" ? "unknown" : r,
+    art: itemArt(item, slotId, build), ancestral: !!item.ancestral,
     lines: affixListHtml(ev?.lines || item.affixes.map((a) => ({ ...a, status: "neutral" })), { why }),
     power, body: sockets + mw, foot,
   });

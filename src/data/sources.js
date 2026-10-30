@@ -2,23 +2,6 @@
 // `routes` are ordered best first. `kind` drives the badge: boss, helltide, dungeon, craft, hordes, undercity, world.
 // Sources checked Oct 30, 2026: diablofilter.com, Maxroll, AOEAH boss tables, Timesaver, d4guides, Icy Veins.
 
-export const ART = {
-  "leorics-crown": "art/leorics-crown.webp",
-  enigma: "art/enigma.webp",
-  "hand-of-apotheosis": "art/hand-of-apotheosis.webp",
-  temerity: "art/temerity.webp",
-  elegy: "art/elegy.webp",
-  "infernal-homunculus": "art/infernal-homunculus.webp",
-  "molochs-beating-flame": "art/molochs-beating-flame.webp",
-  "wendigo-brand": "art/wendigo-brand.webp",
-  "the-eightfold-idol": "art/the-eightfold-idol.webp",
-};
-
-export const BASE_ART = {
-  helm: "art/base-helm.webp", chest: "art/base-chest_armor.webp", gloves: "art/base-gloves.webp", pants: "art/base-pants.webp",
-  boots: "art/base-boots.webp", sword: "art/base-sword.webp", focus: "art/base-focus.webp", amulet: "art/base-amulet.webp", ring: "art/base-ring.webp",
-};
-
 // Common boss facts reused by the item routes below.
 const BELIAL = "After opening a lair boss hoard at Torment, Belial can ambush. Beat him and you choose which boss's loot pool his hoard uses, so pick the pool of the item you want.";
 

@@ -2,7 +2,7 @@
 // character and which lines to reroll, temper or fix. Equipping saves it (and the screenshot) to the loadout.
 import { $, esc, tipCard } from "../lib/dom.js";
 import { store, shots } from "../lib/store.js";
-import { SLOT } from "../data/slots.js";
+import { SLOT, allSlots } from "../data/slots.js";
 import { recognize } from "../recognize/index.js";
 import { evaluate, resolveSlot } from "../evaluate.js";
 import { itemTip, itemArt } from "../lib/itemview.js";
@@ -26,7 +26,7 @@ async function read(engineOverride) {
   paint();
   const settings = { ...store.settings(), ...(engineOverride ? { engine: engineOverride } : {}) };
   try {
-    const item = await recognize(S.blob, settings, (msg) => { if (run === S.run) { S.status = msg; paintStatus(); } });
+    const item = await recognize(S.blob, settings, (msg) => { if (run === S.run) { S.status = msg; paintStatus(); } }, ctxNow.build.className);
     if (run !== S.run) return;
     if (!item.name && !item.affixes.length) throw new Error("No item tooltip found in that image. Crop closer to the tooltip, or enter it by hand below.");
     S.item = item;
@@ -104,7 +104,7 @@ function paint() {
   if (S.item && !S.busy) {
     if (form.dataset.for !== String(S.run)) {
       form.dataset.for = String(S.run);
-      form.innerHTML = `<h3>What was read</h3>${itemFormHtml(S.item, { slotId: S.slotId })}`;
+      form.innerHTML = `<h3>What was read</h3>${itemFormHtml(S.item, { slotId: S.slotId, slots: allSlots(ctxNow.build) })}`;
     }
   } else if (!S.item) {
     form.innerHTML = S.busy ? "" : `<p class="note">No screenshot yet. You can also <button type="button" class="btn ghost" id="c-manual">type an item in</button>.</p>`;
@@ -153,7 +153,7 @@ function bind(root) {
     clearTimeout(typing);
     typing = setTimeout(() => {
       if (!S.item) return;
-      S.item = readItemForm(form, S.item);
+      S.item = readItemForm(form, S.item, ctxNow.build.className);
       S.slotId = S.item.slot || S.slotId;
       S.saved = false;
       paintVerdict(ctxNow.char, ctxNow.build);
@@ -177,7 +177,7 @@ function bind(root) {
     }
     if (e.target.closest("#c-equip")) {
       const { char } = ctxNow;
-      const item = readItemForm(form, S.item);
+      const item = readItemForm(form, S.item, ctxNow.build.className);
       const slotId = item.slot || S.slotId;
       delete item.slot; delete item.rawText; delete item.usage; delete item.warning;
       const shot = S.blob ? await shots.put(S.blob) : null;

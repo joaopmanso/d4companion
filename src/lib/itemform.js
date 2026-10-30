@@ -1,7 +1,7 @@
 // The editable item form, shared by the item check (to fix what was read) and the loadout (to edit by hand).
 import { esc } from "./dom.js";
 import { AFFIXES, matchAffix } from "../data/affixes.js";
-import { SLOTS } from "../data/slots.js";
+import { SLOT, SLOTS } from "../data/slots.js";
 
 const RARITIES = ["mythic", "unique", "legendary", "rare", "magic"];
 const KINDS = [["affix", "Affix"], ["temper", "Temper"], ["implicit", "Base stat"]];
@@ -15,11 +15,11 @@ function affixRow(a = { text: "", kind: "affix", ga: false }) {
   </div>`;
 }
 
-export function itemFormHtml(item, { slotId, showSlot = true } = {}) {
+export function itemFormHtml(item, { slotId, showSlot = true, slots = SLOTS.map((s) => s.id) } = {}) {
   return `<div class="review">
     <div class="row2">
       <div class="field"><label class="label" for="f-name">Name</label><input id="f-name" value="${esc(item.name)}"></div>
-      ${showSlot ? `<div class="field"><label class="label" for="f-slot">Slot</label><select id="f-slot">${SLOTS.map((s) => `<option value="${s.id}"${s.id === slotId ? " selected" : ""}>${s.name}</option>`).join("")}</select></div>` : ""}
+      ${showSlot ? `<div class="field"><label class="label" for="f-slot">Slot</label><select id="f-slot">${slots.map((id) => `<option value="${id}"${id === slotId ? " selected" : ""}>${SLOT[id].name}</option>`).join("")}</select></div>` : ""}
       <div class="field"><label class="label" for="f-rarity">Rarity</label><select id="f-rarity">${RARITIES.map((r) => `<option value="${r}"${item.rarity === r ? " selected" : ""}>${r[0].toUpperCase() + r.slice(1)}</option>`).join("")}</select></div>
       <div class="field"><label class="label" for="f-ip">Item Power</label><input id="f-ip" inputmode="numeric" value="${esc(item.itemPower ?? "")}"></div>
     </div>
@@ -44,14 +44,14 @@ export function bindItemForm(root, onChange) {
   root.addEventListener("change", () => onChange?.());
 }
 
-export function readItemForm(root, base = {}) {
+export function readItemForm(root, base = {}, className) {
   const v = (id) => root.querySelector(id)?.value.trim() ?? "";
   const power = v("#f-power");
   const rarity = v("#f-rarity") || "legendary";
   const affixes = [...root.querySelectorAll(".aff-row")].map((r) => {
     const text = r.querySelector('[data-f="text"]').value.trim();
     const prev = (base.affixes || []).find((a) => a.text === text);
-    return { text, key: matchAffix(text) || prev?.key || null, kind: r.querySelector('[data-f="kind"]').value, ga: r.querySelector('[data-f="ga"]').checked, enchanted: prev?.enchanted || /enchant/i.test(text) };
+    return { text, key: matchAffix(text, className) || prev?.key || null, kind: r.querySelector('[data-f="kind"]').value, ga: r.querySelector('[data-f="ga"]').checked, enchanted: prev?.enchanted || /enchant/i.test(text) };
   }).filter((a) => a.text);
   return {
     ...base,

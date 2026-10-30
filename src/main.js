@@ -14,6 +14,7 @@ import * as warplans from "./views/warplans.js";
 import * as strongroom from "./views/strongroom.js";
 import * as guides from "./views/guides.js";
 import * as characters from "./views/characters.js";
+import { openGuideDialog } from "./views/guidepicker.js";
 
 const VIEWS = [
   ["loadout", "Loadout", loadout],
@@ -33,20 +34,29 @@ const NEEDS_CHAR = new Set(["loadout", "check", "farm"]);
 $("#tabs").innerHTML = VIEWS.map(([id, label]) => `<button class="tab" role="tab" data-view="${id}" id="tab-${id}">${label}</button>`).join("");
 initTheme($("#theme-toggle"));
 
-let index = { guides: [], links: [] };
+let index = { guides: [], links: [], classes: [], tiers: [] };
 let current = null;
 let loaded = { id: null, build: null, cls: null };
 
 const viewFromHash = () => { const id = location.hash.replace(/^#\/?/, "").split("/")[0]; return VIEW[id] ? id : "loadout"; };
-// With no character yet, the guide picker remembers the choice for the first one.
-const activeGuideId = () => store.active()?.buildId || store.settings().guide || DEFAULT_GUIDE;
+const activeGuideId = () => store.active()?.buildId || DEFAULT_GUIDE;
 
 async function ensureBuild() {
   const id = activeGuideId();
   if (loaded.id === id && loaded.build) return;
   const build = await loadGuide(id);
   const cls = await loadClass(build.className).catch(() => null);
+  build.catalog = cls?.catalog || {};
   loaded = { id, build, cls };
+}
+
+// Characters saved before classes existed get theirs from the guide they follow.
+function migrate() {
+  for (const c of store.get().characters) {
+    if (c.className) continue;
+    const g = index.guides.find((x) => x.id === c.buildId) || (c.buildId === "blazing-scream-warlock" ? { className: "Warlock" } : null);
+    if (g) store.updateCharacter(c.id, { className: g.className });
+  }
 }
 
 function renderHeader() {
@@ -54,21 +64,13 @@ function renderHeader() {
   const c = store.active();
   $("#char-pick").innerHTML = (s.characters.length ? s.characters.map((x) => `<option value="${esc(x.id)}"${x.id === c?.id ? " selected" : ""}>${esc(x.name)}</option>`).join("") : `<option value="">No character yet</option>`)
     + `<option value="__new">+ New character…</option>`;
-
-  // Guides grouped by build; other sites as links (they can't be synced, so they open in a new tab).
-  const groups = new Map();
-  for (const g of index.guides) {
-    const key = `${g.build} · ${g.site}`;
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(g);
-  }
-  const sel = loaded.build?.id;
-  $("#guide-pick").innerHTML = [...groups].map(([label, list]) => `<optgroup label="${esc(label)}">${list.map((g) => `<option value="${esc(g.id)}"${g.id === sel ? " selected" : ""}>${esc(g.build)}: ${esc(g.variant)}</option>`).join("")}</optgroup>`).join("")
-    + (index.links?.length ? `<optgroup label="Other sites (open in a new tab)">${index.links.map((l, i) => `<option value="link:${i}">${esc(l.site)}: ${esc(l.title)} ↗</option>`).join("")}</optgroup>` : "");
-
   const b = loaded.build;
-  $("#build-line").innerHTML = b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a> · guide updated ${esc(b.guide.updated || "?")} · guides checked daily, last change ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}` : "";
-  $("#season-line").textContent = b ? `Diablo IV · Season ${b.season} · ${b.className}` : "Diablo IV";
+  const entry = index.guides.find((g) => g.id === b?.id);
+  $("#guide-pick").innerHTML = c && b
+    ? `${entry?.icon ? `<img src="${esc(entry.icon)}" alt="">` : ""}<span><b>${esc(entry?.short || b.name)}</b> · ${esc(b.variant)}${entry?.tier ? ` <i class="tier-chip t-${esc(entry.tier)}">${esc(entry.tier)}</i>` : ""}</span><span class="change">Change</span>`
+    : `<span>Create a character to pick a guide</span><span class="change">Start</span>`;
+  $("#build-line").innerHTML = c && b ? `<a href="${esc(b.guide.url)}" target="_blank" rel="noopener">Open on ${esc(b.guide.site)}</a> · guide updated ${esc(b.guide.updated || "?")} · guides checked daily, last change ${esc(index.updated ? new Date(index.updated).toLocaleDateString() : "?")}` : "";
+  $("#season-line").textContent = c && b ? `Diablo IV · Season ${b.season} · ${c.className || b.className}` : "Diablo IV · Season 15";
 }
 
 async function render() {
@@ -90,7 +92,7 @@ async function render() {
   if (!box) { box = document.createElement("div"); box.dataset.root = rootId; main.appendChild(box); }
   for (const el of main.children) el.hidden = el !== box;
   if (current !== id) { current = id; scrollTo({ top: 0 }); }
-  if (welcome) characters.renderWelcome(box, { index, guideId: activeGuideId() });
+  if (welcome) characters.renderWelcome(box, { index });
   else VIEW[id].render(box, { char, build: loaded.build, cls: loaded.cls, index, go });
 }
 
@@ -105,18 +107,13 @@ $("#char-pick").addEventListener("change", (e) => {
   if (e.target.value === "__new") { characters.startNew(); go("characters"); return; }
   if (e.target.value) store.setActive(e.target.value);
 });
-$("#guide-pick").addEventListener("change", (e) => {
-  const v = e.target.value;
-  if (v.startsWith("link:")) {
-    open(index.links[+v.slice(5)].url, "_blank", "noopener");
-    e.target.value = loaded.build?.id || "";
-    return;
-  }
+// Change the guide the active character follows: the browser shows only that character's class.
+$("#guide-pick").addEventListener("click", async () => {
   const c = store.active();
-  if (c) store.updateCharacter(c.id, { buildId: v });
-  else store.setSettings({ guide: v });
-});
-$("#char-manage").addEventListener("click", () => go("characters"));
+  if (!c) { characters.startNew(); go(store.get().characters.length ? "characters" : "loadout"); return; }
+  const id = await openGuideDialog({ index, className: c.className || loaded.build.className, currentId: c.buildId });
+  if (id && id !== c.buildId) store.updateCharacter(c.id, { buildId: id });
+});$("#char-manage").addEventListener("click", () => go("characters"));
 store.subscribe(() => render());
 
 // Paste or drop a screenshot anywhere: it goes to the item check.
@@ -140,4 +137,4 @@ addEventListener("drop", (e) => {
   takeImage([...(e.dataTransfer?.files || [])].find((f) => f.type.startsWith("image/")));
 });
 
-loadIndex().then((i) => { index = i; }).catch(() => {}).finally(render);
+loadIndex().then((i) => { index = { classes: [], tiers: [], ...i }; migrate(); }).catch(() => {}).finally(render);

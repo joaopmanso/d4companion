@@ -42,7 +42,8 @@ function writeIfChanged(p, v, skip) {
   changed = true;
   return v;
 }
-const baseUrl = (u) => u.replace(/\?.*$/, "").replace(/\/?$/, "/");
+// Same guide whether its apostrophe is written ' or %27 (the tier list and sitemap differ).
+const baseUrl = (u) => decodeURIComponent(u.replace(/\?.*$/, "")).replace(/\/?$/, "/");
 
 const { browser, context } = await openBrowser();
 const page = await context.newPage();

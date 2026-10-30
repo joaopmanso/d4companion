@@ -8,13 +8,16 @@
  "updated": "September 14, 2026",
  "author": "",
  "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Apocalypse",
  "slots": {
   "helm": {
+   "name": "Helm",
    "item": {
     "name": "Heir of Perdition",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/heir_of_perdition.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
     "tip": "Heir of Perdition\nMythic Unique Helm\n151 Primary Core Stat\n25% Movement Speed\nMaximum Life\nSuccumb to hatred and earn Mother's Favor. Slaughtering enemies briefly steals +15% Critical Strike Chance from surrounding allies with Mother's Favor. Mother's Favor always grants you x15% increased damage."
    },
    "affixes": [
@@ -37,16 +40,17 @@
     "Prid"
    ],
    "socketArt": {
-    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
-    "Prid": "art/sa/DIABLO4/Runes/invocation.png"
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Prid": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "chest": {
+   "name": "Chest Armor",
    "item": {
     "name": "Fleshwrit Carapace",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/fleshwrit_carapace.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fleshwrit_carapace.png",
     "tip": "Fleshwrit Carapace\nUnique Chest Armor\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nSigil Skills deal x [70 - 90%] increased damage. Active Sigils gain 1 kill every second and unused kills are saved when they expire.\nWarlock\nDropped By:\nLord Zir"
    },
    "affixes": [
@@ -73,16 +77,17 @@
     "Ceh"
    ],
    "socketArt": {
-    "Cir": "art/sa/DIABLO4/Runes/ritual.png",
-    "Ceh": "art/sa/DIABLO4/Runes/invocation.png"
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ceh": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "gloves": {
+   "name": "Gloves",
    "item": {
     "name": "Hands of the Worldbreaker",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/hands_of_the_worldbreaker.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/hands_of_the_worldbreaker.png",
     "tip": "Hands of the Worldbreaker\nMythic Unique Gloves\nFire Damage Multiplier\nAttack Speed\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nDamage Per Overpower Stack\nApocalypse deals up to x [455%] increased damage when cast in Sigil of Chaos based on the number of kills the Sigil has stored. \n\nApocalypse is now also a Sigil Skill.\nWarlock\nDropped By:\nGrigoire"
    },
    "affixes": [
@@ -107,11 +112,12 @@
    "socketArt": {}
   },
   "pants": {
+   "name": "Pants",
    "item": {
     "name": "Aspect of Heavenly Strength",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "tip": "Aspect of Heavenly Strength\nWarlock\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -134,15 +140,16 @@
     "Sapphire"
    ],
    "socketArt": {
-    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
    }
   },
   "boots": {
+   "name": "Boots",
    "item": {
     "name": "Aspect of Rallying Reversal",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/utility.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
     "tip": "Aspect of Rallying Reversal\nCodex • Every Class\nWhen you Crowd Control an enemy or apply any Stagger to a Boss, gain 1 Ferocity and [10 - 15%] Damage Reduction for 4 seconds.\nWillpower\nMaximum Life\nHellfire Skills\nMovement Speed\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -168,11 +175,12 @@
    "socketArt": {}
   },
   "weapon": {
+   "name": "Weapon",
    "item": {
     "name": "Cremator's Aspect",
     "kind": "aspect",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Cremator's Aspect\nCodex • Warlock\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nCritical Strike Damage Multiplier\nWillpower\nAll Damage Multiplier\nWeapon Damage\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
@@ -199,15 +207,16 @@
     "Ruby"
    ],
    "socketArt": {
-    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   },
   "amulet": {
+   "name": "Amulet",
    "item": {
     "name": "The Hemat Stone",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/the_hemat_stone.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_hemat_stone.png",
     "tip": "The Hemat Stone\nBonuses from Command Valloch and the Ritualist Shard and its Fragments have 200% increased Potency. Your Occult Skills deal x [25 - 40%] increased damage."
    },
    "affixes": [
@@ -234,15 +243,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring1": {
+   "name": "Ring 1",
    "item": {
     "name": "Crushing Aspect",
     "kind": "aspect",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Crushing Aspect\nCodex • Warlock\nWhile Fortified, you deal x [45 - 65%] increased damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Chance\nDamage Per Overpower Stack\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
@@ -267,15 +277,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring2": {
+   "name": "Ring 2",
    "item": {
     "name": "Ring of Starless Skies",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/ring_of_starless_skies.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "affixes": [
@@ -297,29 +308,45 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
+  },
+  "empty": {
+   "name": "Empty",
+   "item": {
+    "name": "Offhand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/offhand.png",
+    "tip": ""
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
   }
  },
  "runes": [
   {
    "name": "Cir",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
   },
   {
    "name": "Ceh",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
   },
   {
    "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
   },
   {
    "name": "Prid",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
   }
  ],
@@ -328,21 +355,21 @@
   "charms": [
    {
     "name": "Berú of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Berú of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Fer of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Banished Lord's Talisman",
-    "art": "art/sa/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
     "set": "",
     "mythic": false,
     "unique": true,
@@ -350,21 +377,21 @@
    },
    {
     "name": "Linta of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Linta of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Phoba of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Phoba of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Mlor of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Mlor of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
@@ -375,32 +402,32 @@
   "bar": [
    {
     "name": "Umbral Chains",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/chain_whips.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/chain_whips.png",
     "tip": "Umbral Chains\nRank 15\nCore\nOccult\nAbyss\nWrath Cost: 35\nLucky Hit: 6%\nSend forth a shadowy chain, dealing [204%] damage along the way and linking up to 2 enemies for 5 seconds. Enemies caught in the chain are Slowed by 30% and take [64%] damage per second.\nModifiers\nWhen Umbral Chains ends it refunds 1 Wrath for every enemy hit over its duration.\nUmbral Chains flies 50% farther and its Slow is increased to 60%.\nUmbral Chains becomes a Hellfire Skill and whips around your target, dealing [112%] damage per second to surrounding enemies and striking a 25% larger area when empowered by Volatility.\nShadow Damage"
    },
    {
     "name": "Nether Step",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/nether_step.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/nether_step.png",
     "tip": "Nether Step\nRank 15\nDefensive\nOccult\nAbyss\nMobility\nCooldown: 12 seconds\nLucky Hit: 0%\nStep through the shadows of Hell to emerge at the target location, gaining 4 stacks of Shadowform as well as x50% increased Movement Speed which decays over [5.6] seconds.\nModifiers\nNether Step's Movement Speed Bonus lasts 50% longer.\nNether Step's portals remain for 10 seconds and can be re-entered to move back and forth.\nNether Step gains an additional Charge.\nShadow Damage"
    },
    {
     "name": "Summon Vollach",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_vollach.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_vollach.png",
     "tip": "Summon Vollach\nRank 1\nSoul Shard\nDemonology\nSummon\nGreater Demon\nDominance Cost: 25\nPassive: Valloch increases your Maximum Overpower by 2 and Maximum Wrath by 40.\nActive: Command Valloch to siphon its power to overfill your Overpower by 1 and increase Wrath Regeneration by + [255%] for 10 seconds.\nPhysical Damage"
    },
    {
     "name": "Dark Prison",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/chain_aura.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/chain_aura.png",
     "tip": "Dark Prison\nRank 11\nDefensive\nOccult\nAbyss\nCooldown: 20 seconds\nLucky Hit: 20%\nCreate a shadowy totem for [11] seconds that chains enemies, Tethering them to the area and preventing them from escaping.\nModifiers\nHitting enemies within Dark Prison Fortifies you for 1% Maximum Life.\nDark Prison becomes a Hellfire Skill and now creates an aura of fire chains around you, reducing damage coming from outside by 45% and Slowing enemies within by 80%.\nEnemies killed within Dark Prison reduce its cooldown by 0.5 seconds.\nShadow Damage"
    },
    {
     "name": "Apocalypse",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/apocalypse.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/apocalypse.png",
     "tip": "Apocalypse\nRank 15\nUltimate\nOccult\nHellfire\nCooldown: 66.6 seconds\nLucky Hit: 50%\nCreate a massive sigil that detonates after 2 seconds dealing [1698%] damage to all enemies within.\nThis ritual does not benefit from Cooldown Reduction.\nModifiers\nApocalypse's final hit has a 20% chance to hit twice. When Apocalypse is empowered by Volatility this chance is increased to 100%.\nApocalypse launches a hellfire blast with at least 20 Stacks that deals [84%] damage. Hellfire Skill hits generate up to 100 Stacks, each Stack increases the blast's explosion size and damage by x40%.\nEnemies that survive Apocalypse take x15% increased damage from you for 3 seconds. This bonus lasts 200% longer against Hexed enemies.\nFire Damage"
    },
    {
     "name": "Bombardment",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/bombardment_endless_barrage.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bombardment_endless_barrage.png",
     "tip": "Bombardment\nRank 1\nCore\nDemonology\nLesser Demon\nSummon\nWrath Cost: 30\nLucky Hit: 3%\nSmash down 4 demons into the ground, each dealing [55%] damage.\nModifiers\nEach time Bombardment throws a demon it has a 100% chance to also throw a surrounding Lesser Demon at your target location.\nBombardment becomes a Hellfire Skill and now only slams down demons randomly around yourself but demons continue to rain down around you for 10 seconds afterwards. This effect can stack up to 5 times.\nBombardment throws 1 additional demon.\nPhysical Damage"
    }
   ],

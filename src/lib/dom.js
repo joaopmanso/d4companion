@@ -6,10 +6,12 @@ export const RARITY_LABEL = { mythic: "Mythic Unique", unique: "Unique", legenda
 export const rarityOf = (item) => (item && RARITY_LABEL[item.rarity] ? item.rarity : "unknown");
 
 // The game's tooltip frame: name, type line, art, then sections split by ornate rules.
-export function tipCard({ name, type = "", r = "unknown", art = "", lines = "", power = "", body = "", foot = "" }) {
-  const icon = art ? `<div class="ico t-${r}"><img class="art" src="${esc(art)}" alt=""></div>` : "";
-  return `<div class="gt t-${r}">
-    <div class="gt-head"><div><div class="gt-name r-${r}">${esc(name)}</div><div class="gt-type r-${r}">${esc(type)}</div></div>${icon}</div>
+// `typeHtml` is pre-escaped markup (e.g. the red "Ancestral" word); `ghost` dims the art for items
+// the player doesn't have (a guide's target).
+export function tipCard({ name, type = "", typeHtml = "", r = "unknown", art = "", lines = "", power = "", body = "", foot = "", ancestral = false, ghost = false }) {
+  const icon = art ? `<div class="ico t-${r}${ghost ? " ghost" : ""}"><img class="art" src="${esc(art)}" alt="">${ancestral ? `<i class="anc" title="Ancestral"></i>` : ""}</div>` : "";
+  return `<div class="gt t-${r}${ancestral ? " ancestral" : ""}">
+    <div class="gt-head"><div><div class="gt-name r-${r}">${esc(name)}</div><div class="gt-type r-${r}">${typeHtml || esc(type)}</div></div>${icon}</div>
     ${lines ? `<div class="gt-rule"></div>${lines}` : ""}
     ${power ? `<div class="gt-rule"></div><p class="gt-power">${power}</p>` : ""}
     ${body ? `<div class="gt-rule"></div>${body}` : ""}
@@ -19,9 +21,9 @@ export function tipCard({ name, type = "", r = "unknown", art = "", lines = "", 
 
 // A tooltip card from a guide site's plain tooltip text: first line is the name, a short second line
 // naming a type becomes the type line, "+…" stat lines become affixes and the rest is body text.
-export function tipFromText(text, { name, art = "", r, foot = "" } = {}) {
+export function tipFromText(text, { name, art = "", r, foot = "", ghost = false } = {}) {
   const lines = String(text || "").split("\n").map((l) => l.trim()).filter(Boolean);
-  if (!lines.length) return tipCard({ name: name || "", r: r || "unknown", art, foot: foot || "No details from the guide site." });
+  if (!lines.length) return tipCard({ name: name || "", r: r || "unknown", art, ghost, foot: foot || "No details from the guide site." });
   const title = lines.shift();
   const typeRe = /(unique|mythic|legendary|rare|magic|set|charm|seal|rune|gem|splinter|skill|power|node|glyph|basic|core|ultimate|passive)/i;
   const type = lines[0] && lines[0].length < 48 && typeRe.test(lines[0]) ? lines.shift() : "";
@@ -29,7 +31,7 @@ export function tipFromText(text, { name, art = "", r, foot = "" } = {}) {
   const stats = lines.filter((l) => /^[+×x-]?\s*[\d.,]+%?\s/.test(l) && l.length < 60);
   const prose = lines.filter((l) => !stats.includes(l));
   return tipCard({
-    name: name || title, type, r: rr, art,
+    name: name || title, type, r: rr, art, ghost,
     lines: stats.length ? `<ul class="gt-aff">${stats.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>` : "",
     power: prose.map(esc).join("<br>"),
     foot,

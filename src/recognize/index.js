@@ -3,10 +3,10 @@
 import { matchAffix } from "../data/affixes.js";
 import { slotFromType } from "../data/slots.js";
 
-export async function recognize(blob, settings, progress) {
+export async function recognize(blob, settings, progress, className) {
   const useClaude = settings.apiKey && settings.engine !== "ocr";
   let item, engine;
-  const ocr = async () => (await import("./ocr.js")).ocrItem(blob, progress);
+  const ocr = async () => (await import("./ocr.js")).ocrItem(blob, progress, className);
   if (useClaude) {
     const { claudeItem, claudeError } = await import("./claude.js");
     try {
@@ -24,7 +24,7 @@ export async function recognize(blob, settings, progress) {
   }
   item.engine = engine;
   item.slot = item.slot || slotFromType(item.type);
-  for (const a of item.affixes) if (!a.key) a.key = matchAffix(a.text);
+  for (const a of item.affixes) if (!a.key) a.key = matchAffix(a.text, className);
   if (!item.itemPower) item.itemPower = null;
   return item;
 }

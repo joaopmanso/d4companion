@@ -1,38 +1,339 @@
 {
- "updated": "2026-10-30T13:59:55.509Z",
+ "updated": "2026-10-30T14:33:11.803Z",
+ "classes": [
+  {
+   "name": "Barbarian",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/barbarian.png"
+  },
+  {
+   "name": "Druid",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/druid.png"
+  },
+  {
+   "name": "Necromancer",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/necromancer.png"
+  },
+  {
+   "name": "Paladin",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/paladin.png"
+  },
+  {
+   "name": "Rogue",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/rogue.png"
+  },
+  {
+   "name": "Sorcerer",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/sorcerer.png"
+  },
+  {
+   "name": "Spiritborn",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/spiritborn.png"
+  },
+  {
+   "name": "Warlock",
+   "emblem": "https://sunderarmor.com/DIABLO4/Classes/2/warlock.png"
+  }
+ ],
+ "tiers": [
+  {
+   "tier": "S",
+   "builds": [
+    {
+     "name": "Blazing Scream",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
+     "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/"
+    },
+    {
+     "name": "Apocalypse",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/apocalypse.png",
+     "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/"
+    },
+    {
+     "name": "Firewall",
+     "className": "Sorcerer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/firewall.png",
+     "url": "https://d4builds.gg/builds/firewall-sorcerer-endgame/"
+    },
+    {
+     "name": "Hellbound Abodian",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_abodian.png",
+     "url": "https://d4builds.gg/builds/75ab2cff-f838-42a1-a294-1543145ea43a/"
+    },
+    {
+     "name": "Penetrating Shot",
+     "className": "Rogue",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/penetrating_shot.png",
+     "url": "https://d4builds.gg/builds/penetrating-shot-rogue-endgame/"
+    },
+    {
+     "name": "Rain of Arrows",
+     "className": "Rogue",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
+     "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/"
+    },
+    {
+     "name": "Charge",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/charge_battering_ram.png",
+     "url": "https://d4builds.gg/builds/charge-barbarian-endgame/"
+    },
+    {
+     "name": "Whirlwind",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/whirlwind.png",
+     "url": "https://d4builds.gg/builds/whirlwind-barbarian-endgame/"
+    },
+    {
+     "name": "Pestilent Swarm",
+     "className": "Spiritborn",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/counterattack_counterattack_of_the_swarm.png",
+     "url": "https://d4builds.gg/builds/pestilent-swarm-spiritborn-endgame/"
+    },
+    {
+     "name": "Death Trap",
+     "className": "Rogue",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/death_trap.png",
+     "url": "https://d4builds.gg/builds/death-trap-rogue-endgame/"
+    },
+    {
+     "name": "Thorns",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blessed_shield.png",
+     "url": "https://d4builds.gg/builds/blessed-shield-paladin-endgame/"
+    },
+    {
+     "name": "Blood Wave",
+     "className": "Necromancer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blood_wave.png",
+     "url": "https://d4builds.gg/builds/blood-wave-necromancer-endgame/"
+    }
+   ]
+  },
+  {
+   "tier": "A",
+   "builds": [
+    {
+     "name": "Dance of Knives",
+     "className": "Rogue",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
+     "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/"
+    },
+    {
+     "name": "Hammer of the Ancients",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hammer_of_the_ancients.png",
+     "url": "https://d4builds.gg/builds/hota-barbarian-endgame/"
+    },
+    {
+     "name": "Rend",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rend.png",
+     "url": "https://d4builds.gg/builds/rend-barbarian-endgame/"
+    },
+    {
+     "name": "Mighty Throw",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/mighty_throw.png",
+     "url": "https://d4builds.gg/tierlist/null"
+    },
+    {
+     "name": "Lightning Storm",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/lightning_storm.png",
+     "url": "https://d4builds.gg/builds/lightning-storm-druid-endgame/"
+    },
+    {
+     "name": "Landslide",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/landslide.png",
+     "url": "https://d4builds.gg/builds/landslide-druid-endgame/"
+    },
+    {
+     "name": "Rabies",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rabies.png",
+     "url": "https://d4builds.gg/builds/rabies-druid-endgame/"
+    },
+    {
+     "name": "Shadow Dot",
+     "className": "Necromancer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/shadowblight.png",
+     "url": "https://d4builds.gg/tierlist/null"
+    },
+    {
+     "name": "Divine Lance",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/divine_lance.png",
+     "url": "https://d4builds.gg/builds/divine-lance-paladin-endgame/"
+    },
+    {
+     "name": "Hammerdin",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blessed_hammer.png",
+     "url": "https://d4builds.gg/builds/5814d1f6-320d-4963-a3de-3a4e90df40f6/"
+    },
+    {
+     "name": "Lunatic",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/command_fallen.png",
+     "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/"
+    },
+    {
+     "name": "Tyrant's Grasp",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/tyrant's_grasp.png",
+     "url": "https://d4builds.gg/tierlist/null"
+    }
+   ]
+  },
+  {
+   "tier": "B",
+   "builds": [
+    {
+     "name": "Dread Claws",
+     "className": "Warlock",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
+     "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/"
+    },
+    {
+     "name": "Ancients",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/call_of_the_ancients.png",
+     "url": "https://d4builds.gg/builds/ancients-barbarian-endgame/"
+    },
+    {
+     "name": "Shred",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/shred_storm_shred.png",
+     "url": "https://d4builds.gg/builds/shred-druid-endgame/"
+    },
+    {
+     "name": "Werenado",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/tornado.png",
+     "url": "https://d4builds.gg/builds/tornado-druid-endgame/"
+    },
+    {
+     "name": "Companion",
+     "className": "Druid",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/wolves.png",
+     "url": "https://d4builds.gg/builds/companion-druid-endgame/"
+    },
+    {
+     "name": "Stinger",
+     "className": "Spiritborn",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/stinger.png",
+     "url": "https://d4builds.gg/builds/stinger-spiritborn-endgame/"
+    },
+    {
+     "name": "Quill Volley",
+     "className": "Spiritborn",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/quill_volley.png",
+     "url": "https://d4builds.gg/builds/quill-volley-spiritborn-endgame/"
+    },
+    {
+     "name": "Meteor",
+     "className": "Sorcerer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
+     "url": "https://d4builds.gg/builds/meteor-sorcerer-endgame/"
+    },
+    {
+     "name": "Twisting Blades",
+     "className": "Rogue",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/twisting_blades.png",
+     "url": "https://d4builds.gg/builds/twisting-blades-rogue-endgame/"
+    },
+    {
+     "name": "Arbiter Wing Strike",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/arbiter_of_justice.png",
+     "url": "https://d4builds.gg/builds/arbiter-wing-strike-paladin-endgame/"
+    },
+    {
+     "name": "Zeal",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zeal.png",
+     "url": "https://d4builds.gg/builds/zeal-paladin-endgame/"
+    },
+    {
+     "name": "Golem",
+     "className": "Necromancer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/golem.png",
+     "url": "https://d4builds.gg/builds/golem-necromancer-endgame/"
+    },
+    {
+     "name": "Bone Spirit",
+     "className": "Necromancer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bone_spirit.png",
+     "url": "https://d4builds.gg/builds/bone-spirit-necromancer-endgame/"
+    },
+    {
+     "name": "Bone Spear",
+     "className": "Necromancer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bone_spear.png",
+     "url": "https://d4builds.gg/builds/bone-spear-necromancer-endgame/"
+    },
+    {
+     "name": "Death Blow",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/death_blow.png",
+     "url": "https://d4builds.gg/builds/death-blow-barbarian-endgame/"
+    },
+    {
+     "name": "Double Swing",
+     "className": "Barbarian",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/double_swing.png",
+     "url": "https://d4builds.gg/builds/double-swing-barbarian-endgame/"
+    },
+    {
+     "name": "Ball Lightning",
+     "className": "Sorcerer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ball_lightning.png",
+     "url": "https://d4builds.gg/builds/ball-lightning-sorcerer-endgame/"
+    },
+    {
+     "name": "Fireball",
+     "className": "Sorcerer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fireball.png",
+     "url": "https://d4builds.gg/builds/fireball-sorcerer-endgame/"
+    },
+    {
+     "name": "Blizzard",
+     "className": "Sorcerer",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blizzard_static_field.png",
+     "url": "https://d4builds.gg/builds/blizzard-sorcerer-endgame/"
+    },
+    {
+     "name": "Clash",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/clash.png",
+     "url": "https://d4builds.gg/builds/clash-paladin-endgame/"
+    },
+    {
+     "name": "Judgement",
+     "className": "Paladin",
+     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/spear_of_the_heavens.png",
+     "url": "https://d4builds.gg/tierlist/null"
+    }
+   ]
+  },
+  {
+   "tier": "C",
+   "builds": []
+  }
+ ],
  "guides": [
-  {
-   "id": "dread-claws-warlock-endgame-mythics-p200",
-   "site": "d4builds",
-   "className": "Warlock",
-   "build": "Abyss Shadow Speed Warlock",
-   "variant": "Mythics (P200+)",
-   "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=0",
-   "updated": "June 26, 2026"
-  },
-  {
-   "id": "hell-fracture-warlock-endgame-mythics-p200",
-   "site": "d4builds",
-   "className": "Warlock",
-   "build": "AoE Hellfracture Warlock (S13 LoH)",
-   "variant": "Mythics (P200+)",
-   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=0",
-   "updated": "April 29, 2026"
-  },
-  {
-   "id": "hell-fracture-warlock-endgame-starter-p200",
-   "site": "d4builds",
-   "className": "Warlock",
-   "build": "AoE Hellfracture Warlock (S13 LoH)",
-   "variant": "Starter (P200)",
-   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=1",
-   "updated": "April 29, 2026"
-  },
   {
    "id": "apocalypse-warlock-endgame-s13",
    "site": "d4builds",
    "className": "Warlock",
    "build": "Apocalypse Warlock",
+   "short": "Apocalypse",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/apocalypse.png",
    "variant": "S13",
    "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/?var=1",
    "updated": "September 14, 2026"
@@ -42,6 +343,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Apocalypse Warlock",
+   "short": "Apocalypse",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/apocalypse.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/?var=0",
    "updated": "September 14, 2026"
@@ -51,6 +355,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Blazing Scream Warlock",
+   "short": "Blazing Scream",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
    "variant": "150 Speed Run (P300)",
    "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=4",
    "updated": "October 25, 2026"
@@ -60,6 +367,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Blazing Scream Warlock",
+   "short": "Blazing Scream",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
    "variant": "BEST OVERALL (currently playing)",
    "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=2",
    "updated": "October 25, 2026"
@@ -69,6 +379,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Blazing Scream Warlock",
+   "short": "Blazing Scream",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
    "variant": "Leap Speed",
    "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=1",
    "updated": "October 25, 2026"
@@ -78,6 +391,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Blazing Scream Warlock",
+   "short": "Blazing Scream",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
    "variant": "No Mythic (P210)",
    "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=3",
    "updated": "October 25, 2026"
@@ -87,15 +403,45 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Blazing Scream Warlock",
+   "short": "Blazing Scream",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
    "variant": "Starter",
    "url": "https://d4builds.gg/builds/blazing-scream-warlock-endgame/?var=0",
    "updated": "October 25, 2026"
+  },
+  {
+   "id": "75ab2cff-f838-42a1-a294-1543145ea43a-mythic",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Warlock Build",
+   "short": "Hellbound Abodian",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_abodian.png",
+   "variant": "Mythic",
+   "url": "https://d4builds.gg/builds/75ab2cff-f838-42a1-a294-1543145ea43a/?var=0",
+   "updated": "October 7, 2026"
+  },
+  {
+   "id": "75ab2cff-f838-42a1-a294-1543145ea43a-no-mythic",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Warlock Build",
+   "short": "Hellbound Abodian",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_abodian.png",
+   "variant": "No Mythic",
+   "url": "https://d4builds.gg/builds/75ab2cff-f838-42a1-a294-1543145ea43a/?var=1",
+   "updated": "October 7, 2026"
   },
   {
    "id": "command-fallen-warlock-endgame-s13",
    "site": "d4builds",
    "className": "Warlock",
    "build": "Lunatic Kill Stacker",
+   "short": "Lunatic",
+   "tier": "A",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/command_fallen.png",
    "variant": "S13",
    "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/?var=1",
    "updated": "August 11, 2026"
@@ -105,15 +451,57 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Lunatic Kill Stacker",
+   "short": "Lunatic",
+   "tier": "A",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/command_fallen.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/command-fallen-warlock-endgame/?var=0",
    "updated": "August 11, 2026"
+  },
+  {
+   "id": "dread-claws-warlock-endgame-mythics-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "Abyss Shadow Speed Warlock",
+   "short": "Dread Claws",
+   "tier": "B",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
+   "variant": "Mythics (P200+)",
+   "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=0",
+   "updated": "June 26, 2026"
+  },
+  {
+   "id": "hell-fracture-warlock-endgame-mythics-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "AoE Hellfracture Warlock",
+   "short": "AoE Hellfracture Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hell_fracture.png",
+   "variant": "Mythics (P200+)",
+   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=0",
+   "updated": "April 29, 2026"
+  },
+  {
+   "id": "hell-fracture-warlock-endgame-starter-p200",
+   "site": "d4builds",
+   "className": "Warlock",
+   "build": "AoE Hellfracture Warlock",
+   "short": "AoE Hellfracture Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hell_fracture.png",
+   "variant": "Starter (P200)",
+   "url": "https://d4builds.gg/builds/hell-fracture-warlock-endgame/?var=1",
+   "updated": "April 29, 2026"
   },
   {
    "id": "profane-sentinel-warlock-endgame-s13",
    "site": "d4builds",
    "className": "Warlock",
    "build": "Profane Sentinel - Warlock",
+   "short": "Profane Sentinel - Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_swarm.png",
    "variant": "S13",
    "url": "https://d4builds.gg/builds/profane-sentinel-warlock-endgame/?var=1",
    "updated": "September 19, 2026"
@@ -123,6 +511,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Profane Sentinel - Warlock",
+   "short": "Profane Sentinel - Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_swarm.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/profane-sentinel-warlock-endgame/?var=0",
    "updated": "September 19, 2026"
@@ -131,7 +522,10 @@
    "id": "summon-warlock-endgame-mythic-endgame",
    "site": "d4builds",
    "className": "Warlock",
-   "build": "Summon Legion Rampage Warlock (S13 LoH)",
+   "build": "Summon Legion Rampage Warlock",
+   "short": "Summon Legion Rampage Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_ae'grom.png",
    "variant": "Mythic Endgame",
    "url": "https://d4builds.gg/builds/summon-warlock-endgame/?var=0",
    "updated": "April 29, 2026"
@@ -140,7 +534,10 @@
    "id": "summon-warlock-endgame-starter",
    "site": "d4builds",
    "className": "Warlock",
-   "build": "Summon Legion Rampage Warlock (S13 LoH)",
+   "build": "Summon Legion Rampage Warlock",
+   "short": "Summon Legion Rampage Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_ae'grom.png",
    "variant": "Starter",
    "url": "https://d4builds.gg/builds/summon-warlock-endgame/?var=1",
    "updated": "April 29, 2026"
@@ -149,7 +546,10 @@
    "id": "tyrants-grasp-warlock-endgame-standard-build",
    "site": "d4builds",
    "className": "Warlock",
-   "build": "Tyrants Grasp Hellfire Warlock (S13 LoH)",
+   "build": "Tyrants Grasp Hellfire Warlock",
+   "short": "Tyrants Grasp Hellfire Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/tyrant's_grasp.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/tyrant's-grasp-warlock-endgame/?var=0",
    "updated": "May 21, 2026"
@@ -159,6 +559,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Umbral Chains - Warlock",
+   "short": "Umbral Chains - Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_swarm.png",
    "variant": "S13",
    "url": "https://d4builds.gg/builds/umbral-chains-warlock-endgame/?var=1",
    "updated": "September 19, 2026"
@@ -168,6 +571,9 @@
    "site": "d4builds",
    "className": "Warlock",
    "build": "Umbral Chains - Warlock",
+   "short": "Umbral Chains - Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_swarm.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/umbral-chains-warlock-endgame/?var=0",
    "updated": "September 19, 2026"
@@ -176,7 +582,10 @@
    "id": "metamorphosis-warlock-endgame-standard-build",
    "site": "d4builds",
    "className": "Warlock",
-   "build": "Vanguard Hellfire Demonform Warlock (S13 LoH)",
+   "build": "Vanguard Hellfire Demonform Warlock",
+   "short": "Vanguard Hellfire Demonform Warlock",
+   "tier": "",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/demonic_smash.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/metamorphosis-warlock-endgame/?var=0",
    "updated": "April 27, 2026"
@@ -185,20 +594,20 @@
  "links": [
   {
    "site": "Maxroll",
-   "title": "Warlock build guides",
-   "url": "https://maxroll.gg/d4/build-guides?filter[class]=warlock",
+   "title": "Build guides",
+   "url": "https://maxroll.gg/d4/build-guides",
    "note": "Maxroll's terms forbid copying its guides, so open them there."
   },
   {
    "site": "Mobalytics",
-   "title": "Warlock builds",
-   "url": "https://mobalytics.gg/diablo-4/warlock-builds",
+   "title": "Builds",
+   "url": "https://mobalytics.gg/diablo-4/builds",
    "note": "Blocks automated requests, so it can't be synced."
   },
   {
    "site": "Icy Veins",
-   "title": "Warlock builds",
-   "url": "https://www.icy-veins.com/d4/warlock-builds",
+   "title": "Builds",
+   "url": "https://www.icy-veins.com/d4/builds/",
    "note": "Blocks automated requests, so it can't be synced."
   }
  ]

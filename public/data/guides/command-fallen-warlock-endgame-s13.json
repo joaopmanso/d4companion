@@ -8,13 +8,16 @@
  "updated": "August 11, 2026",
  "author": "",
  "checked": "2026-10-30",
+ "tier": "A",
+ "short": "Lunatic",
  "slots": {
   "helm": {
+   "name": "Helm",
    "item": {
     "name": "Cage of Madness",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/cage_of_madness.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/cage_of_madness.png",
     "tip": "Cage of Madness\nMythic Unique Helm\nWillpower\nRanks to Command Fallen\nMaximum Life\nMaximum Resource\nMaximum Life\nYour Evade transforms you into an angry Lunatic for up to 15 seconds that explodes dealing Command Fallen's damage and increasing by 100% for every second you're transformed.\nWhile transformed, your Movement Speed is increased by 60% and you periodically spawn a Mini Lunatic that seeks enemies.\nCommand Fallen deals x [442%] increased damage.\nWarlock\nDropped By:\nGrigoire"
    },
    "affixes": [],
@@ -32,16 +35,17 @@
     "Prid"
    ],
    "socketArt": {
-    "Nagu": "art/sa/DIABLO4/Runes/ritual.png",
-    "Prid": "art/sa/DIABLO4/Runes/invocation.png"
+    "Nagu": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Prid": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "chest": {
+   "name": "Chest Armor",
    "item": {
     "name": "Tyrael's Might",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/tyrael_s_might.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tyrael's_might.png",
     "tip": "Tyrael's Might\nMythic Unique Chest Armor\n151 Primary Core Stat\n100 Resistance to All Elements\nGain 20% Damage Reduction.\nWhile at full Life, your Skills unleash a divine barrage dealing [X] damage."
    },
    "affixes": [
@@ -60,16 +64,17 @@
     "Ceh"
    ],
    "socketArt": {
-    "Igni": "art/sa/DIABLO4/Runes/ritual.png",
-    "Ceh": "art/sa/DIABLO4/Runes/invocation.png"
+    "Igni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Ceh": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "gloves": {
+   "name": "Gloves",
    "item": {
     "name": "Paingorger's Gauntlets",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/paingorger_s_gauntlets.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/paingorger's_gauntlets.png",
     "tip": "Paingorger's Gauntlets\nUnique Gloves\nPhysical Damage Multiplier\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nDamaging enemies with a Non-Basic Skill cast marks them for 3 seconds. When a Basic Skill first hits a marked enemy, the Basic Skill's damage is echoed to all marked enemies, dealing x [100 - 125%] increased damage.\nDropped By:\nAll Bosses, \nGrigoire"
    },
    "affixes": [
@@ -89,11 +94,12 @@
    "socketArt": {}
   },
   "pants": {
+   "name": "Pants",
    "item": {
     "name": "Aspect of Heavenly Strength",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/defensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "tip": "Aspect of Heavenly Strength\nWarlock\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -119,15 +125,16 @@
     "Sapphire"
    ],
    "socketArt": {
-    "Sapphire": "art/sa/DIABLO4/Gems/grand-sapphire.png"
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
    }
   },
   "boots": {
+   "name": "Boots",
    "item": {
     "name": "Aspect of Dominance",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/utility.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
     "tip": "Aspect of Dominance\nEvery Class\nCrowd Controlling an enemy grants [1 - 2] Resolve.\nWillpower\nMaximum Life\nArmor\nResistance to All Elements\nBarrier Generation\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -153,11 +160,12 @@
    "socketArt": {}
   },
   "weapon": {
+   "name": "Weapon",
    "item": {
     "name": "Aspect of Mutilation",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Aspect of Mutilation\nCodex • Warlock\nIf you fail to Eviscerate an enemy you still apply [20 - 30%] of its Bleeding damage for 3 seconds.\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [],
@@ -176,15 +184,16 @@
     "Skull"
    ],
    "socketArt": {
-    "Skull": "art/sa/DIABLO4/Gems/grand-skull.png"
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
    }
   },
   "amulet": {
+   "name": "Amulet",
    "item": {
     "name": "Seed of Horazon",
     "kind": "unique",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/2/seed_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/seed_of_horazon.png",
     "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
    "affixes": [
@@ -205,15 +214,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring1": {
+   "name": "Ring 1",
    "item": {
     "name": "Aspect of the Moonrise",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/offensive.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "tip": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [40 - 60%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nWillpower\nAttack Speed\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
@@ -233,15 +243,16 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
   },
   "ring2": {
+   "name": "Ring 2",
    "item": {
     "name": "Aspect of Adaptability",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/resource.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
     "tip": "Aspect of Adaptability\nEvery Class\nBasic Skills generate [15 - 25] additional Primary Resource, once per Skill.\nWillpower\nMaximum Life\nAttack Speed\nDamage Over Time Multiplier\nDamage Over Time\nRing, Amulet (+50%)"
    },
    "affixes": [
@@ -261,77 +272,93 @@
     "Diamond"
    ],
    "socketArt": {
-    "Diamond": "art/sa/DIABLO4/Gems/grand-diamond.png"
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
    }
+  },
+  "empty": {
+   "name": "Empty",
+   "item": {
+    "name": "Offhand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/offhand.png",
+    "tip": ""
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
   }
  },
  "runes": [
   {
    "name": "Igni",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Igni\nLegendary Rune of Ritual\nGain: 25 Offering\nStores offering every 0.3 seconds. Cast a non-Basic Skill to gain the stored offering. (Up to 500 Offering)."
   },
   {
    "name": "Ceh",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
   },
   {
    "name": "Nagu",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Nagu\nRare Rune of Ritual\nGain: 100 Offering\nMaintain at least 1 active Summon for 5 seconds, gaining offering for each up to 6 Summon."
   },
   {
    "name": "Prid",
-   "art": "art/sa/DIABLO4/Runes/invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
    "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
   }
  ],
  "talisman": {
   "seal": {
    "name": "Legendary Seal",
-   "art": "art/sa/DIABLO4/Charms/1/seal_legendary.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
    "tip": "Legendary Seal\nCritical Strike Damage"
   },
   "charms": [
    {
     "name": "Berú of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Berú of Horazon's Chains\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Fer of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Fer of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Fer of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Linta of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Linta of Horazon's Chains\nDemonology Skills\nMaximum Resource\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
    },
    {
     "name": "Linta of the Nameless",
-    "art": "art/sa/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "tip": "Linta of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Mlor of Horazon's Chains",
-    "art": "art/sa/DIABLO4/Charms/1/chains_of_horazon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
     "set": "Chains of Horazon",
     "mythic": false,
     "tip": "Mlor of Horazon's Chains\nDemonology Skills\nChains of Horazon\nPhoba of Horazon's Chains\nFer of Horazon's Chains\nMlor of Horazon's Chains\nLinta of Horazon's Chains\nBerú of Horazon's Chains\nChains of Horazon\n(2) Set: Gain a bonus per active Soul Shard demon: - Ae'grom: x10% increased Damage per active Greater Demon Summon - Abodian: +25% increased Movement Speed and Attack Speed - Laalish: Attacks Execute enemies - Valloch: 50% increased Dominance Generation\n(3) Set: Gain 8.5% Damage Reduction for each active Soul Shard demon.\n(5) Set: Gain all Soul Shard demons and deal x200% increased Damage for 20 seconds after casting a Soul Shard Skill. All Soul Shard Skill costs are reduced by 35%."
@@ -342,32 +369,32 @@
   "bar": [
    {
     "name": "Metamorphosis",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/metamorphosis.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/metamorphosis.png",
     "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
    },
    {
     "name": "Sigil of Summons",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_summons.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sigil_of_summons.png",
     "tip": "Sigil of Summons\nRank 15\nSigil\nDemonology\nSummon\nLesser Demon\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a binding ritual for 10 seconds that extends the duration of your Summons.\nKilling 8 enemies or Demons within fuels the ritual to summon a demon for 20 seconds which attacks nearby enemies, dealing [204%] damage per hit.\nYou can have up to 3 demons active at once.\nModifiers\nEnemies within Sigil of Summons take x25% increased damage from your Lesser Demon Skills.\nSigil of Summons deals x25% increased damage but requires 25% more kills per summon.\nSigil of Summons now requires 16 kills to summon a Hellwyrm Greater Demon that mimics your Lesser Demon casts by regurgitating related Lesser Demons.\nPhysical Damage"
    },
    {
     "name": "Summon Ae'grom",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/summon_ae_grom.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_ae'grom.png",
     "tip": "Summon Ae'grom\nRank 1\nSoul Shard\nDemonology\nSummon\nGreater Demon\nCooldown: 10 seconds\nLucky Hit: 15%\nPassive: Ae'grom cleaves with its arms, dealing [191%] damage.\nActive: Command Ae'grom to spew 5 Vile Child Lesser Demons, dealing [166%] damage when they land. Vile Children claw enemies, dealing [38%] , and last for 10 seconds.\nPhysical Damage"
    },
    {
     "name": "Command Fallen",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/command_fallen.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/command_fallen.png",
     "tip": "Command Fallen\nRank 1\nBasic\nDemonology\nLesser Demon\nWrath Generate: 10\nLucky Hit: 30%\nSummon a Fallen Lunatic that charges your target and explodes, dealing [80%] damage.\nModifiers\nCommand Fallen generates 1 additional Wrath for every Demon or Enemy you have killed in the last 2 seconds, up to 5 additional Wrath.\nEvery 15 times you hit enemies with Command Fallen you gain 1 Dominance.\nCommand Fallen becomes a Hellfire Skill and passively summons a Lunatic every 5 seconds that follows you around and detonates when enemies get close, up to 5 Lunatics. Summon rate is based on your Attack Speed.\nPhysical Damage"
    },
    {
     "name": "Rampage-v2",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/rampage-v2.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rampage-v2.png",
     "tip": "Rampage\nRank 1\nArchfiend\nDemonology\nSummon\nGreater Demon\nDominance Cost: 15\nLucky Hit: 30%\nSummon a rampaging brute for 10 seconds that smashes wildly, dealing [64%] damage with a 5% chance per hit to Eviscerate enemies for [1280%] damage.\nModifiers\nCasting Rampage compels your Lesser Demon Skills to generate 1 Wrath per hit for 5 seconds.\nRampage has a 100% chance to trigger its Eviscerate, Volatility, or Knockdown hit effect when striking unaffected Elite enemies.\nRampage becomes a Hellfire Mobility leap attack that transforms you into Demonform, dealing [290%] damage with a 5% chance per hit to grant you Volatility for 10 seconds.\nPhysical Damage"
    },
    {
     "name": "Tortured Wretch",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/tortured_wretch.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/tortured_wretch.png",
     "tip": "Tortured Wretch\nRank 15\nDefensive\nDemonology\nSummon\nGreater Demon\nDominance Cost: 15\nLucky Hit: 20%\nSummon a tortured demon on your enemies, dealing [153%] damage and Taunting them to attack it for 5 seconds.\nModifiers\nEnemies and Demons killed Close to the Tortured Wretch extend its duration by 0.5 seconds, up to 5 seconds.\nTortured Wretch no longer Taunts but now lasts for 12 seconds and you redirect all damage to it so long as you stay in the area. It can absorb up to 30% of your Maximum Life before it is killed. When the demon dies it explodes, dealing up to [1275%] damage and Fortifying you for up to 25% based on the damage it absorbed.\nTortured Wretch cost is reduced by 30%.\nPhysical Damage"
    }
   ],

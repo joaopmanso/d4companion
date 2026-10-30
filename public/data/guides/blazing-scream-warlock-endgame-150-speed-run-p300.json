@@ -8,13 +8,16 @@
  "updated": "October 25, 2026",
  "author": "",
  "checked": "2026-10-30",
+ "tier": "S",
+ "short": "Blazing Scream",
  "slots": {
   "helm": {
+   "name": "Helm",
    "item": {
     "name": "Leoric's Crown",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/leoric_s_crown.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/leoric's_crown.png",
     "tip": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nFire Resistance\nMaximum Life\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%]."
    },
    "affixes": [
@@ -41,16 +44,17 @@
     "Splinter of the Black Soulstone"
    ],
    "socketArt": {
-    "Splinter of Anguish": "art/sa/DIABLO4/Gems/splinter_of_anguish.png",
-    "Splinter of the Black Soulstone": "art/sa/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png",
+    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
    }
   },
   "chest": {
+   "name": "Chest Armor",
    "item": {
     "name": "Enigma",
     "kind": "runeword",
     "rarity": "unique",
-    "art": "art/sa/DIABLO4/Uniques/d4_chest_armor.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
     "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
    },
    "affixes": [
@@ -79,16 +83,17 @@
     "Ist"
    ],
    "socketArt": {
-    "Mal": "art/sa/DIABLO4/Runes/15-invocation.png",
-    "Ist": "art/sa/DIABLO4/Runes/15-ritual.png"
+    "Mal": "https://sunderarmor.com/DIABLO4/Runes/15-invocation.png",
+    "Ist": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png"
    }
   },
   "gloves": {
+   "name": "Gloves",
    "item": {
     "name": "Hand of Apotheosis",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/hand_of_apotheosis.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/hand_of_apotheosis.png",
     "tip": "Hand of Apotheosis\nUnique Gloves\nCritical Strike Chance\nMaximum Life\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nFire Damage\nMetamorphosis gains all Side Upgrades for free and they are [30 - 50%] more potent.\nWarlock\nDropped By:\nBartuc"
    },
    "affixes": [
@@ -114,11 +119,12 @@
    "socketArt": {}
   },
   "pants": {
+   "name": "Pants",
    "item": {
     "name": "Temerity",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/temerity.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
     "tip": "Temerity\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nFire Resistance\nFire Resistance\nEffects that Heal you beyond 100% Life grant you a Barrier up to [80 - 100%] of your Maximum Life that lasts for 8 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred"
    },
    "affixes": [
@@ -145,16 +151,17 @@
     "Tir"
    ],
    "socketArt": {
-    "Cir": "art/sa/DIABLO4/Runes/ritual.png",
-    "Tir": "art/sa/DIABLO4/Runes/15-ritual.png"
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Tir": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png"
    }
   },
   "boots": {
+   "name": "Boots",
    "item": {
     "name": "Aspect of Fiendish Oppression",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "art/sa/DIABLO4/Codex/1/utility.png",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
     "tip": "Aspect of Fiendish Oppression\nCodex • Warlock\nSummong a Greater Demon Knocks Down enemies around it for 5 seconds. Your Lesser Demon Skills deal x [10 - 20%] increased damage to Crowd Controlled enemies.\nWillpower\nMaximum Evade Charge\nHellfire Skills\nWrath Regeneration\nEvade Cooldown Reduction\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "affixes": [
@@ -180,11 +187,12 @@
    "socketArt": {}
   },
   "weapon": {
+   "name": "Weapon",
    "item": {
     "name": "Elegy",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/elegy.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/elegy.png",
     "tip": "Elegy\nUnique 1h Sword\nWeapon Damage\nRanks to Blazing Scream\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nAttack Speed\nBlazing Scream is now an Archfiend Skill and deals x [30 - 50%] increased damage. Blazing Scream gains the Skull Splitter Variant at no cost and the Lesser Demon skulls deal the same damage as the main skull.\nWarlock\nDropped By:\nLord Zir"
    },
    "affixes": [
@@ -213,15 +221,16 @@
     "Ruby"
    ],
    "socketArt": {
-    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   },
   "amulet": {
+   "name": "Amulet",
    "item": {
     "name": "Moloch's Beating Flame",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/moloch_s_beating_flame.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/moloch's_beating_flame.png",
     "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
    "affixes": [
@@ -249,15 +258,16 @@
     "Splinter of Pain"
    ],
    "socketArt": {
-    "Splinter of Pain": "art/sa/DIABLO4/Gems/splinter_of_pain.png"
+    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
    }
   },
   "ring1": {
+   "name": "Ring 1",
    "item": {
     "name": "Wendigo Brand",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/wendigo_brand.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/wendigo_brand.png",
     "tip": "Splinter of Damnation\nSoul Splinter\nJewelry:4375 Shadow Resistance\nKilling an Elite Pack increases Monster Power by 1 and Experience gained by 25% for 25 seconds."
    },
    "affixes": [
@@ -283,15 +293,16 @@
     "Splinter of Damnation"
    ],
    "socketArt": {
-    "Splinter of Damnation": "art/sa/DIABLO4/Gems/splinter_of_damnation.png"
+    "Splinter of Damnation": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_damnation.png"
    }
   },
   "ring2": {
+   "name": "Ring 2",
    "item": {
     "name": "The Eightfold Idol",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/the_eightfold_idol.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_eightfold_idol.png",
     "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "affixes": [
@@ -317,15 +328,16 @@
     "Splinter of Sin"
    ],
    "socketArt": {
-    "Splinter of Sin": "art/sa/DIABLO4/Gems/splinter_of_sin.png"
+    "Splinter of Sin": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_sin.png"
    }
   },
   "offhand": {
+   "name": "Offhand",
    "item": {
     "name": "Infernal Homunculus",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "art/sa/DIABLO4/Uniques/2/infernal_homunculus.png",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/infernal_homunculus.png",
     "tip": "Infernal Homunculus\nUnique Focus\nWeapon Damage\nRanks to Demonology Skills\nAttack Speed\nYour Archfiend Skills deal x [50 - 70%] increased damage and gain their Lesser Demon Side Upgrades for free with 200% longer durations.\nWarlock\nDropped By:\nUrivar"
    },
    "affixes": [
@@ -351,77 +363,77 @@
     "Ruby"
    ],
    "socketArt": {
-    "Ruby": "art/sa/DIABLO4/Gems/grand-ruby.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   }
  },
  "runes": [
   {
    "name": "Cir",
-   "art": "art/sa/DIABLO4/Runes/ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
   },
   {
    "name": "Tir",
-   "art": "art/sa/DIABLO4/Runes/15-ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png",
    "tip": "Tir\nCommon Rune of Ritual\nRequires: 300 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain +2 Primary Resource on Kill for 8 seconds, up to +8."
   },
   {
    "name": "Mal",
-   "art": "art/sa/DIABLO4/Runes/15-invocation.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/15-invocation.png",
    "tip": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power"
   },
   {
    "name": "Ist",
-   "art": "art/sa/DIABLO4/Runes/15-ritual.png",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png",
    "tip": "Ist\nCommon Rune of Ritual\nRequires: 1000 Offering\nCooldown: 1 seconds\nInvoke your Prime Evil power."
   }
  ],
  "talisman": {
   "seal": {
    "name": "Seal of the Diamond Mind",
-   "art": "art/sa/DIABLO4/Charms/1/seal.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
    "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
     "name": "Blood-Mad Idol",
-    "art": "art/sa/DIABLO4/Charms/1/mythic_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
     "tip": "Blood-Mad Idol\nHellfire Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    {
     "name": "Hellfire Torch",
-    "art": "art/sa/DIABLO4/Charms/1/mythic_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
     "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Flesh of Abaddon"
    },
    {
     "name": "Fists of Fate",
-    "art": "art/sa/DIABLO4/Charms/1/mythic_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
     "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    {
     "name": "Linta of Abaddon's Flesh",
-    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
     "tip": "Linta of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
     "name": "Berú of Abaddon's Flesh",
-    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
     "tip": "Berú of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
     "name": "Phoba of Abaddon's Flesh",
-    "art": "art/sa/DIABLO4/Charms/1/flesh_of_abaddon.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
     "tip": "Phoba of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
@@ -432,75 +444,75 @@
   "bar": [
    {
     "name": "Sigil of Chaos",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/sigil_of_chaos.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sigil_of_chaos.png",
     "tip": "Sigil of Chaos\nRank 15\nSigil\nOccult\nHellfire\nCooldown: 10 seconds\nLucky Hit: 35%\nCreate a destructive ritual for 10 seconds that grants you Volatility while within.\nKilling enemies or Demons within fuels the ritual's chaotic hellfire, increasing the chance for each enemy to explode for [128%] damage on death.\nModifiers\nVolatility from Sigil of Chaos now lasts for 10 seconds after you leave the area.\nVolatility empowered casts within Sigil of Chaos count as triggering 3 kills.\nSigil of Chaos is now cast around yourself for 15 seconds and instantly explodes your Lesser Demons within for [61%] damage. Cooldown is increased to 25 seconds.\nFire Damage"
    },
    {
     "name": "Metamorphosis",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/metamorphosis.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/metamorphosis.png",
     "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
    },
    {
     "name": "Bombardment",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/bombardment_endless_barrage.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/bombardment_endless_barrage.png",
     "tip": "Bombardment\nRank 1\nCore\nDemonology\nLesser Demon\nSummon\nWrath Cost: 30\nLucky Hit: 3%\nSmash down 4 demons into the ground, each dealing [55%] damage.\nModifiers\nEach time Bombardment throws a demon it has a 100% chance to also throw a surrounding Lesser Demon at your target location.\nBombardment becomes a Hellfire Skill and now only slams down demons randomly around yourself but demons continue to rain down around you for 10 seconds afterwards. This effect can stack up to 5 times.\nBombardment throws 1 additional demon.\nPhysical Damage"
    },
    {
     "name": "Dark Prison",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/chain_aura.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/chain_aura.png",
     "tip": "Dark Prison\nRank 11\nDefensive\nOccult\nAbyss\nCooldown: 20 seconds\nLucky Hit: 20%\nCreate a shadowy totem for [11] seconds that chains enemies, Tethering them to the area and preventing them from escaping.\nModifiers\nHitting enemies within Dark Prison Fortifies you for 1% Maximum Life.\nDark Prison becomes a Hellfire Skill and now creates an aura of fire chains around you, reducing damage coming from outside by 45% and Slowing enemies within by 80%.\nEnemies killed within Dark Prison reduce its cooldown by 0.5 seconds.\nShadow Damage"
    },
    {
     "name": "Command Fallen",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/meat_shields.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meat_shields.png",
     "tip": "Command Fallen\nRank 1\nBasic\nDemonology\nLesser Demon\nWrath Generate: 10\nLucky Hit: 30%\nSummon a Fallen Lunatic that charges your target and explodes, dealing [80%] damage.\nModifiers\nCommand Fallen generates 1 additional Wrath for every Demon or Enemy you have killed in the last 2 seconds, up to 5 additional Wrath.\nEvery 15 times you hit enemies with Command Fallen you gain 1 Dominance.\nCommand Fallen becomes a Hellfire Skill and passively summons a Lunatic every 5 seconds that follows you around and detonates when enemies get close, up to 5 Lunatics. Summon rate is based on your Attack Speed.\nPhysical Damage"
    },
    {
     "name": "Blazing Scream",
-    "icon": "art/sa/DIABLO4/Skills/VoH2/blazing_scream.png",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blazing_scream.png",
     "tip": "Blazing Scream\nRank 15\nCore\nDemonology\nHellfire\nGreater Demon\nWrath Cost: 35\nLucky Hit: 25%\nSend forth a Demon Skull dealing [332%] damage as it travels.\nModifiers\nBlazing Scream deals x3% increased damage based on how many different enemies it has hit, up to x30%.\nBlazing Scream gains up to x30% increased damage and speed based on your Movement Speed Bonus.\nBlazing Scream is now also a Summon Skill and orbits you for 10 seconds. The skull deals [979%] damage and extends Demonform when it hits enemies. Channeling increases the orbit speed by 150% and refreshes the duration.\nFire Damage"
    }
   ],
   "prime": [
    {
     "name": "Undying Rage",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/undying-rage.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/undying-rage.png",
     "main": false,
     "tip": "Undying Rage\nPrime Evil Power\nWhile in a Nightmare Dungeon, Ghosts of Odium trigger 50% more often and deal 200% increased damage."
    },
    {
     "name": "Flush of Bile",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/flush-of-bile.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/flush-of-bile.png",
     "main": false,
     "tip": "Flush of Bile\nPrime Evil Power\nGhosts of Odium generate 50 Primary Resource."
    },
    {
     "name": "Death Collector",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/death-collector.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/death-collector.png",
     "main": false,
     "tip": "Death Collector\nPrime Evil Power\nWhile in The Pit, enemies damaged by Ghosts of Odium have a chance to drop Progress Orbs when they die."
    },
    {
     "name": "Ghosts of Odium",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/ghosts-of-odium.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ghosts-of-odium.png",
     "main": true,
     "tip": "Ghosts of Odium\nMain Prime Evil Power\nMephisto's power overflows you, periodically unleashing Ghosts of Odium, dealing X Physical damage."
    },
    {
     "name": "Strangling Grip",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/strangling-grip.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/strangling-grip.png",
     "main": false,
     "tip": "Strangling Grip\nPrime Evil Power\nGhosts of Odium make enemies Vulnerable for 5 seconds and have a 15% chance to Immobilize them for 2 seconds."
    },
    {
     "name": "Vengeful Soul",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/vengeful-soul.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/vengeful-soul.png",
     "main": false,
     "tip": "Vengeful Soul\nPrime Evil Power\nWhen an enemy is first hit by Ghosts of Odium, it deals an additional 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
    },
    {
     "name": "Fever of Malice",
-    "icon": "art/sa/DIABLO4/PrimeEvilPowers/fever-of-malice.png",
+    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/fever-of-malice.png",
     "main": false,
     "tip": "Fever of Malice\nPrime Evil Power\nKilling enemies can enrage you with Fever of Malice for 5 seconds, dramatically increasing the number of Ghosts of Odium you unleash."
    }

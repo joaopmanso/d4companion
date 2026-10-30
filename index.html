@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>D4 Companion</title>
   <meta name="description" content="Diablo IV build companion: characters, loadouts, screenshot item checks, skills, Paragon and farming routes.">
-  <link rel="icon" href="art/class-warlock.webp">
+  <link rel="icon" href="https://sunderarmor.com/DIABLO4/Classes/2/warlock.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cinzel+Decorative:wght@700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -19,7 +19,7 @@
     </div>
     <div class="topbar">
       <div class="pick"><label class="label" for="char-pick">Character</label><select id="char-pick"></select></div>
-      <div class="pick wide"><label class="label" for="guide-pick">Guide</label><select id="guide-pick"></select></div>
+      <div class="pick wide"><span class="label">Guide</span><button type="button" class="guide-btn" id="guide-pick"></button></div>
       <div class="pick-actions">
         <button class="btn ghost" id="char-manage" type="button">Settings</button>
         <button class="btn ghost icon-btn" id="theme-toggle" type="button"></button>
@@ -34,6 +34,12 @@
   </nav>
 
   <main class="wrap" id="main"></main>
+
+  <footer class="wrap site-foot">
+    <p><b>Fair use.</b> D4 Companion is an unofficial, non-commercial fan tool. Diablo IV, its names, item, skill and Paragon art, and the Warlock render are trademarks and copyrights of Blizzard Entertainment, used here under fair use for commentary and reference. This site isn't affiliated with or endorsed by Blizzard.</p>
+    <p>Images are not copied: they're shown directly from their sources (sunderarmor.com via d4builds.gg, and Blizzard's own site). Build data comes from <a href="https://d4builds.gg" target="_blank" rel="noopener">d4builds.gg</a>, credited on every guide with a link back. If you own any of this content and want it removed, contact the maintainer through <a href="https://github.com/joaopmanso" target="_blank" rel="noopener">GitHub</a>.</p>
+    <p>Your characters, gear and API key stay in your browser. Nothing is uploaded.</p>
+  </footer>
 
   <div class="drop-veil" id="drop-veil">Drop the tooltip screenshot to check it</div>
   <script type="module" src="/src/main.js"></script>

@@ -2,7 +2,7 @@
 // then says whether to equip it and what to fix (enchant, temper, imprint, socket, masterwork).
 import { affixLabel } from "./data/affixes.js";
 import { SOURCES } from "./data/sources.js";
-import { SLOT } from "./data/slots.js";
+import { SLOT, weaponSlots } from "./data/slots.js";
 
 const RARITY_RANK = { mythic: 4, unique: 3, legendary: 2, rare: 1, magic: 0, common: 0 };
 
@@ -47,15 +47,17 @@ export function scoreItem(item, target) {
 export function resolveSlot(item, character, build) {
   for (const [id, t] of Object.entries(build.slots)) if (isGuideItem(item, t)) return id;
   const s = item.slot;
-  if (s === "ring" || s === "ring1" || s === "ring2") {
-    const gain = (id) => scoreItem(item, build.slots[id]).total - scoreItem(character.gear[id], build.slots[id]).total;
-    return gain("ring2") > gain("ring1") ? "ring2" : "ring1";
-  }
-  return s && build.slots[s] ? s : null;
+  const gain = (id) => scoreItem(item, build.slots[id]).total - scoreItem(character.gear[id], build.slots[id]).total;
+  const best = (ids) => ids.filter((id) => build.slots[id]).sort((a, b) => gain(b) - gain(a))[0] || null;
+  if (s === "ring" || s === "ring1" || s === "ring2") return best(["ring1", "ring2"]);
+  if (s && build.slots[s]) return s;
+  // Weapon slots differ by class ("two-handed-slashing", "dual-wield-weapon-1"…): pick the best fit.
+  if (s === "weapon" || s === "offhand") return best(weaponSlots(build));
+  return null;
 }
 
 export function evaluate(item, slotId, character, build) {
-  const target = build.slots[slotId];
+  const target = build.slots[slotId] || { item: { name: "nothing in this slot", match: /$^/, type: "none" }, affixes: [], tempers: [] };
   const current = character.gear[slotId] || null;
   const cand = scoreItem(item, target);
   const cur = scoreItem(current, target);
@@ -147,6 +149,7 @@ export function evaluate(item, slotId, character, build) {
 export function slotStatus(character, build, slotId) {
   const item = character.gear[slotId];
   const target = build.slots[slotId];
+  if (!target) return { done: true, steps: [] }; // the guide doesn't use this slot
   if (!item) return { done: false, steps: [`Nothing recorded. Guide: ${target.item.name}.`] };
   const ev = evaluate(item, slotId, { ...character, gear: { ...character.gear, [slotId]: null } }, build);
   const steps = ev.actions.filter((a) => a.type !== "masterwork" && a.type !== "note").map((a) => a.text);

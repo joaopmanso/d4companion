@@ -6,10 +6,11 @@ A Diablo IV build companion that runs entirely in your browser. Pick a guide, tr
 
 ## What it does
 
-- **Guide picker.** Choose from every synced guide and variant. Each character follows its own guide.
+- **Guide browser.** New characters start from a class picker and this Season's tier list (S to C, then unranked builds), with every synced variant. **Change guide** in the header switches the active character to another build of its class at any time.
 - **Loadout.**
-  - An in-game style paperdoll with the talisman, runes and Splinters.
-  - Each slot marks its affixes good or bad against the guide and lists the next steps: enchant, temper, imprint or socket.
+  - An in-game style paperdoll: armour down the left with the weapon at the bottom, jewellery down the right with the off-hand at the bottom.
+  - It shows only what you entered. Empty slots, talisman sockets and missing runes or Splinters stay empty, with the guide's target shown separately as the next step.
+  - Each item marks its affixes good or bad against the guide and lists the next steps: enchant, temper, imprint or socket. Ancestral items carry a red marker.
 - **Item check.** Paste a tooltip screenshot with `Ctrl+V`, or drop it on the page.
   - It gives a verdict: equip, build it up, side-grade or salvage.
   - It highlights affixes to reroll and tempers to fix.
@@ -24,10 +25,9 @@ A Diablo IV build companion that runs entirely in your browser. Pick a guide, tr
 
 `.github/workflows/sync-guides.yml` runs `npm run sync` every day. The sync (`scripts/fetch-guides.mjs`) does the following:
 
-- Reads every **d4builds.gg** Warlock endgame guide and variant with headless Chromium.
-- Writes the results to `public/data/`.
-- Downloads the art they reference into `public/art/sa/`.
-- Commits any changes, then the deploy workflow publishes them.
+- Reads the **d4builds.gg** Season tier list and every class's endgame guides and variants with headless Chromium.
+- Writes the results to `public/data/`. Image URLs point at the source site; no images are copied into the repo.
+- Commits only when guide content changed, then the deploy workflow publishes it.
 
 The class's skill tree layout, Paragon tiles and tooltips are captured once and refreshed weekly.
 
@@ -59,7 +59,6 @@ Pushes to `main`, and each successful sync, deploy the site to GitHub Pages.
 - Guide data comes from [d4builds.gg](https://d4builds.gg).
 - Stat targets come from Maxroll.
 - Drop routes come from diablofilter, Maxroll, AOEAH, Timesaver and d4guides.
-- Item, skill and Paragon art comes from sunderarmor.com and diablofilter.com.
-- The Warlock key art is © Blizzard Entertainment.
+- Item, skill and Paragon art is shown directly from sunderarmor.com (via d4builds.gg); the Warlock render is linked from Blizzard's site. No images are stored in this repository.
 
 Diablo IV is © Blizzard Entertainment. This is an unofficial fan tool.

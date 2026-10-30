@@ -1,73 +1,99 @@
-// Characters (each follows one build) and settings: screenshot reader, API key, backup.
+// Characters (each has a class and follows one guide) and settings: screenshot reader, API key, backup.
+// New characters start in the guide browser: pick a class, browse its tier list, choose a variant, name it.
 import { $, esc } from "../lib/dom.js";
 import { store } from "../lib/store.js";
-
 import { MODELS } from "../recognize/models.js";
+import { emblem } from "../data/classes.js";
+import { pickerHtml } from "./guidepicker.js";
+
 
 let creating = false;
-
-// Synced guides as <option>s, grouped by build.
-function guideOptions(index, selected) {
-  const groups = new Map();
-  for (const g of index?.guides || []) { const k = `${g.build} · ${g.site}`; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(g); }
-  return [...groups].map(([label, list]) => `<optgroup label="${esc(label)}">${list.map((g) => `<option value="${esc(g.id)}"${g.id === selected ? " selected" : ""}>${esc(g.variant)}</option>`).join("")}</optgroup>`).join("");
-}
-const guideName = (index, id) => { const g = index?.guides.find((x) => x.id === id); return g ? `${g.build}: ${g.variant}` : "Guide not synced"; };
+const draft = { className: "Warlock", open: undefined, guideId: null };
 export function startNew() { creating = true; }
 
-// First visit in this browser: nothing is stored yet, so ask for a character or a backup to import.
-export function renderWelcome(root, { index, guideId }) {
+const guideOf = (index, id) => index?.guides.find((x) => x.id === id);
+const guideName = (index, id) => { const g = guideOf(index, id); return g ? `${g.short || g.build}: ${g.variant}` : "Guide not synced"; };
+
+// The create-a-character panel, shared by the welcome screen and the Characters page.
+function newCharacterHtml(index, cancellable) {
+  const chosen = guideOf(index, draft.guideId);
+  return `<div class="panel new-char">
+    <h3>New character</h3>
+    <p class="note">Choose a class, then a build from this Season's tier list, then the variant you'll follow. You can change the guide later.</p>
+    ${pickerHtml({ index, className: draft.className, currentId: draft.guideId, open: draft.open })}
+    <form class="new-char-form" id="nc-form">
+      ${chosen ? `<p class="chosen"><img src="${esc(emblem(chosen.className))}" alt=""> <span><b>${esc(chosen.short || chosen.build)}</b>: ${esc(chosen.variant)}<br><span class="note">${esc(chosen.className)}${chosen.tier ? ` · tier ${esc(chosen.tier)}` : ""}</span></span></p>` : `<p class="note">No build chosen yet.</p>`}
+      <div class="field"><label class="label" for="nc-name">Character name</label><input id="nc-name" required placeholder="e.g. My ${esc(draft.className)}"></div>
+      <div class="row"><button class="btn primary" type="submit"${chosen ? "" : " disabled"}>Create character</button>${cancellable ? `<button class="btn ghost" type="button" id="nc-cancel">Cancel</button>` : ""}</div>
+    </form>
+  </div>`;
+}
+
+function bindNew(root, rerender) {
+  root.addEventListener("click", (e) => {
+    const c = e.target.closest("[data-class]");
+    if (c && root.contains(c)) { draft.className = c.dataset.class; draft.open = undefined; draft.guideId = null; rerender(); return; }
+    const b = e.target.closest("[data-build]");
+    if (b) { draft.open = draft.open === b.dataset.build ? "" : b.dataset.build; rerender(); return; }
+    const g = e.target.closest("[data-guide]");
+    if (g) { draft.guideId = g.dataset.guide; rerender(); $("#nc-name", root)?.focus(); }
+  });
+  root.addEventListener("submit", (e) => {
+    if (e.target.id !== "nc-form") return;
+    e.preventDefault();
+    const g = guideOf(lastCtx.index, draft.guideId);
+    if (!g) return;
+    creating = false;
+    const name = $("#nc-name", root).value.trim() || `My ${g.className}`;
+    draft.guideId = null;
+    store.addCharacter({ name, buildId: g.id, className: g.className });
+  });
+}
+
+// First visit in this browser: nothing is stored yet, so offer a new character or a backup.
+let welcomeBound = false;
+export function renderWelcome(root, ctx) {
+  lastCtx = { ...lastCtx, ...ctx };
   root.innerHTML = `<section class="view">
     <div class="view-head"><h2>Welcome</h2><p>This site keeps everything in your browser only. There are no accounts and nothing is uploaded, so another computer or browser starts empty. Create a character, or import a backup you exported elsewhere.</p></div>
-    <div class="two-col">
-      <form class="panel" id="w-new">
-        <h3>New character</h3>
-        <div class="field"><label class="label" for="w-name">Name</label><input id="w-name" required placeholder="e.g. Blazing Scream Warlock"></div>
-        <div class="field"><label class="label" for="w-build">Guide to follow</label><select id="w-build">${guideOptions(index, guideId)}</select></div>
-        <div class="row"><button class="btn primary" type="submit">Create character</button></div>
-      </form>
-      <div class="panel">
-        <h3>Import a backup</h3>
-        <p class="note">Use a file from <b>Export backup</b> on another device.</p>
-        <div class="row"><button class="btn" id="w-import" type="button">Choose backup file</button><input type="file" id="w-file" accept="application/json,.json" hidden><span class="note" id="w-note"></span></div>
-      </div>
+    ${newCharacterHtml(ctx.index, false)}
+    <div class="panel">
+      <h3>Import a backup</h3>
+      <p class="note">Use a file from <b>Export backup</b> on another device.</p>
+      <div class="row"><button class="btn" id="w-import" type="button">Choose backup file</button><input type="file" id="w-file" accept="application/json,.json" hidden><span class="note" id="w-note"></span></div>
     </div>
   </section>`;
-  root.onsubmit = (e) => {
-    e.preventDefault();
-    store.addCharacter({ name: $("#w-name", root).value.trim() || "My character", buildId: $("#w-build", root).value });
-  };
-  root.onclick = (e) => { if (e.target.closest("#w-import")) $("#w-file", root).click(); };
-  root.onchange = async (e) => {
+  if (welcomeBound) return;
+  welcomeBound = true;
+  bindNew(root, () => renderWelcome(root, lastCtx));
+  root.addEventListener("click", (e) => { if (e.target.closest("#w-import")) $("#w-file", root).click(); });
+  root.addEventListener("change", async (e) => {
     if (e.target.id !== "w-file" || !e.target.files?.[0]) return;
     try { await store.importAll(await e.target.files[0].text()); } catch (err) { $("#w-note", root).textContent = err.message; }
-  };
+  });
 }
 
 let lastCtx = {};
+let bound = false;
 export function render(root, ctx = lastCtx) {
   lastCtx = ctx;
-  const { index, build } = ctx;
+  const { index } = ctx;
   const s = store.get();
   const set = s.settings;
   root.innerHTML = `<section class="view">
-    <div class="view-head"><h2>Characters</h2><p>Each character follows one build and keeps its own gear and stats. Switch the active one from the menu at the top; the loadout, item checks and farm guide follow it.</p></div>
+    <div class="view-head"><h2>Characters</h2><p>Each character has a class, follows one guide and keeps its own gear, talisman and stats. Switch the active one from the menu at the top.</p></div>
     <div class="panel">
       <div class="char-list">${s.characters.map((c) => `<div class="char-row${c.id === s.activeId ? " active" : ""}">
+        <img class="char-emblem" src="${esc(emblem(c.className || guideOf(index, c.buildId)?.className || "Warlock"))}" alt="">
         <span class="nm">${esc(c.name)}</span>
-        <span class="note">${esc(guideName(index, c.buildId))} · ${Object.values(c.gear || {}).filter(Boolean).length}/10 slots</span>
+        <span class="note">${esc(guideName(index, c.buildId))} · ${Object.values(c.gear || {}).filter(Boolean).length} items</span>
         ${c.id === s.activeId ? `<span class="tag take">Active</span>` : `<button class="btn ghost" data-use="${esc(c.id)}">Make active</button>`}
         <button class="btn ghost" data-rename="${esc(c.id)}">Rename</button>
         <button class="btn ghost" data-del="${esc(c.id)}">Delete</button>
       </div>`).join("") || `<p class="note">No characters yet.</p>`}</div>
-      ${creating ? `<form class="form-grid" id="new-char">
-          <div class="field"><label class="label" for="nc-name">Name</label><input id="nc-name" required placeholder="e.g. Alt Warlock" autofocus></div>
-          <div class="field"><label class="label" for="nc-build">Guide to follow</label><select id="nc-build">${guideOptions(index, build?.id)}</select></div>
-          <div class="row" style="align-self:end"><button class="btn primary" type="submit">Create</button><button class="btn ghost" type="button" id="nc-cancel">Cancel</button></div>
-        </form>
-        <p class="note">You can switch guides any time from the Guide menu at the top.</p>`
-      : `<div class="row"><button class="btn" id="add-char">New character</button></div>`}
+      ${creating ? "" : `<div class="row"><button class="btn" id="add-char">New character</button></div>`}
     </div>
+    ${creating ? newCharacterHtml(index, true) : ""}
 
     <div class="view-head"><h2>Screenshot reading</h2></div>
     <div class="panel">
@@ -87,16 +113,20 @@ export function render(root, ctx = lastCtx) {
       <div class="row"><button class="btn" id="export">Export backup</button><button class="btn ghost" id="import">Import backup</button><input type="file" id="import-file" accept="application/json,.json" hidden><span class="note" id="backup-note"></span></div>
     </div>
   </section>`;
+  if (bound) return;
+  bound = true;
+  bindNew(root, () => render(root));
 
-  root.onclick = async (e) => {
+  root.addEventListener("click", async (e) => {
     const t = e.target;
+    const s2 = store.get();
     if (t.closest("#add-char")) { creating = true; render(root); }
     if (t.closest("#nc-cancel")) { creating = false; render(root); }
     const use = t.closest("[data-use]")?.dataset.use; if (use) store.setActive(use);
     const ren = t.closest("[data-rename]")?.dataset.rename;
-    if (ren) { const c = s.characters.find((x) => x.id === ren); const n = prompt("New name", c.name); if (n?.trim()) store.updateCharacter(ren, { name: n.trim() }); }
+    if (ren) { const c = s2.characters.find((x) => x.id === ren); const n = prompt("New name", c.name); if (n?.trim()) store.updateCharacter(ren, { name: n.trim() }); }
     const del = t.closest("[data-del]")?.dataset.del;
-    if (del) { const c = s.characters.find((x) => x.id === del); if (confirm(`Delete ${c.name} and its saved gear? This can't be undone unless you have a backup.`)) store.removeCharacter(del); }
+    if (del) { const c = s2.characters.find((x) => x.id === del); if (confirm(`Delete ${c.name} and its saved gear? This can't be undone unless you have a backup.`)) store.removeCharacter(del); }
     if (t.closest("#save-key")) {
       const key = $("#api-key", root).value.trim();
       store.setSettings({ ...(key ? { apiKey: key } : {}), model: $("#model", root).value });
@@ -109,8 +139,8 @@ export function render(root, ctx = lastCtx) {
       setTimeout(() => URL.revokeObjectURL(a.href), 5000);
     }
     if (t.closest("#import")) $("#import-file", root).click();
-  };
-  root.onchange = async (e) => {
+  });
+  root.addEventListener("change", async (e) => {
     if (e.target.name === "engine") store.setSettings({ engine: e.target.value });
     if (e.target.id === "model") store.setSettings({ model: e.target.value });
     if (e.target.id === "import-file" && e.target.files?.[0]) {
@@ -119,11 +149,6 @@ export function render(root, ctx = lastCtx) {
         await store.importAll(await e.target.files[0].text());
       } catch (err) { $("#backup-note", root).textContent = err.message; }
     }
-  };
-  root.onsubmit = (e) => {
-    if (e.target.id !== "new-char") return;
-    e.preventDefault();
-    creating = false;
-    store.addCharacter({ name: $("#nc-name", root).value.trim() || "New character", buildId: $("#nc-build", root).value });
-  };
+  });
 }
+

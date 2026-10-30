@@ -29,8 +29,10 @@ export const store = {
   subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); },
   active: () => state.characters.find((c) => c.id === state.activeId) || state.characters[0] || null,
   setActive(id) { state.activeId = id; save(); },
-  addCharacter({ name, buildId }) {
-    const c = { id: `c${Date.now().toString(36)}`, name, buildId, gear: {}, stats: {} };
+  // A character has a class, follows one guide, and keeps only what the player entered:
+  // gear by slot, a talisman (seal + six charm names) and character-sheet stats.
+  addCharacter({ name, buildId, className }) {
+    const c = { id: `c${Date.now().toString(36)}`, name, className, buildId, gear: {}, talisman: { seal: null, charms: [null, null, null, null, null, null] }, stats: {} };
     state.characters.push(c);
     state.activeId = c.id;
     save();

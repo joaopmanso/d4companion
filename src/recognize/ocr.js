@@ -32,14 +32,14 @@ async function prepare(blob) {
   return c;
 }
 
-export async function ocrItem(blob, progress) {
+export async function ocrItem(blob, progress, className) {
   onProgress = (m) => {
     if (m.status === "recognizing text") progress?.(`Reading text… ${Math.round(m.progress * 100)}%`);
     else if (m.status) progress?.(m.status.replace(/^\w/, (c) => c.toUpperCase()) + "…");
   };
   const w = await worker();
   const { data } = await w.recognize(await prepare(blob));
-  const item = parseTooltip(data.text);
+  const item = parseTooltip(data.text, className);
   item.rawText = data.text;
   return item;
 }

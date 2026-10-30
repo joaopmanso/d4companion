@@ -1,111 +1,181 @@
+// Loadout: the character's own gear, talisman, runes and Splinters, laid out like the in-game character
+// screen. Nothing here is taken from the guide: where the character has nothing yet, the slot is empty
+// and the guide's target is shown separately (dimmed) with the next step.
 import { $, esc, tipCard, tipFromText, rarityOf, hoverCards } from "../lib/dom.js";
 import { store, shots } from "../lib/store.js";
-import { SLOT, LEFT, RIGHT } from "../data/slots.js";
+import { SLOT, paperdoll, BASE_ART } from "../data/slots.js";
 import { SOURCES } from "../data/sources.js";
-import { CLASS_ART } from "../data/classes.js";
+import { CLASS_ART, emblem } from "../data/classes.js";
 import { affixLabel } from "../data/affixes.js";
 import { slotStatus } from "../evaluate.js";
-import { itemArt, itemTip, typeLine, wantedList } from "../lib/itemview.js";
+import { itemArt, itemTip, typeLine, wantedList, ancestralBadge } from "../lib/itemview.js";
 import { itemFormHtml, bindItemForm, readItemForm } from "../lib/itemform.js";
+import { emptyTalisman, charmInfo, sealInfo, setCounts, lowersThresholds, talismanSteps } from "../lib/talisman.js";
 import { setPreset } from "./check.js";
 
-let selected = "gloves";
+let selected = "helm";
 let editing = false;
 let editingStats = false;
+let picking = null; // "seal" | charm index being chosen
 let hover = null;
 let ctxNow = null;
 
-const splintersOf = (build) => {
-  const out = [];
-  for (const [sid, s] of Object.entries(build.slots)) for (const name of s.sockets || []) if (/^splinter/i.test(name)) out.push({ name, slot: SLOT[sid].name, art: s.socketArt?.[name] || "" });
-  return out;
-};
+const myTalisman = (char) => char.talisman || emptyTalisman();
+// Runes have short one-word names (Tal, Mal, Igni…); any guide's rune list catches the rest.
+const GEM = /^(ruby|topaz|skull|emerald|amethyst|sapphire|diamond)\b/i;
+const isRune = (name, build) => !GEM.test(name) && !build.catalog?.gems?.[name]
+  && !!(build.catalog?.runes?.[name] || build.runes?.some((r) => r.name === name) || /^[A-Z][a-z]{1,3}$/.test(name));
+
+// Sockets the character actually has, and the ones the guide wants that are missing.
+function socketReport(char, build, pick) {
+  const have = [], missing = [];
+  for (const [sid, g] of Object.entries(char.gear || {})) for (const name of g?.sockets || []) if (pick(name)) have.push({ name, slot: sid });
+  for (const [sid, t] of Object.entries(build.slots)) for (const name of t.sockets || []) {
+    if (!pick(name)) continue;
+    const at = have.find((h) => h.name === name);
+    if (!at) missing.push({ name, slot: sid, art: t.socketArt?.[name] || "" });
+    else if (at.slot !== sid) at.move = sid;
+  }
+  return { have, missing };
+}
+const socketArt = (name, build) => build.catalog?.runes?.[name]?.art || build.catalog?.gems?.[name]?.art
+  || Object.values(build.slots).map((s) => s.socketArt?.[name]).find(Boolean)
+  || (isRune(name, build) ? "https://sunderarmor.com/DIABLO4/Runes/ritual.png" : "");
+const shortSplinter = (n) => n.replace(/^Splinter of (the )?/i, "");
 
 export function render(root, ctx) {
   ctxNow = ctx;
   const { char, build } = ctx;
   if (!root.querySelector(".doll-wrap")) {
     root.innerHTML = `<section class="view">
-      <div class="view-head"><h2>Loadout</h2><p>Pick a slot to see its rolls marked against the guide and what to do next. A gold diamond means the slot matches the guide with nothing left to fix; an ember one means it still has steps.</p></div>
+      <div class="view-head"><h2>Loadout</h2><p>What your character has, laid out like the character screen. Pick a slot for its rolls marked against the guide and what to do next. Empty slots and dimmed sockets are things you haven't entered yet; the guide's target is shown beside them, not as yours.</p></div>
       <div class="doll-wrap">
         <div class="doll"><div class="doll-col left" id="doll-left"></div><div class="doll-figure" id="doll-figure"></div><div class="doll-col right" id="doll-right"></div></div>
         <div class="doll-foot">
-          <div class="foot-group"><span class="label">Talisman</span><div class="talisman" id="talisman"></div><ul class="charms" id="charms"></ul></div>
+          <div class="foot-group"><span class="label">Talisman</span><div class="talisman" id="talisman"></div><div id="tal-pick"></div><ul class="charms" id="charms"></ul></div>
           <div class="foot-stack">
             <div class="foot-group"><span class="label">Runes</span><div class="runes" id="runes"></div></div>
             <div class="foot-group"><span class="label">Splinters</span><div class="splinters" id="splinters"></div></div>
           </div>
         </div>
-        <p class="note doll-src" id="doll-src"></p>
       </div>
       <div class="loadout-lower"><div id="detail"></div><div class="stats-panel" id="stats"></div></div>
     </section>`;
     bind(root);
   }
   const art = CLASS_ART[build.className];
-  $("#doll-figure", root).innerHTML = art ? `<img class="portrait" src="${esc(art.portrait)}" alt=""><img class="crest" src="${esc(art.crest)}" alt=""><span class="art-credit">${esc(art.credit)}</span>` : "";
+  $("#doll-figure", root).innerHTML = art
+    ? `<img class="portrait" src="${esc(art.portrait)}" alt="" style="object-position:${art.focus}"><img class="crest" src="${esc(emblem(build.className))}" alt=""><span class="art-credit">${esc(art.credit)}</span>`
+    : `<img class="crest big" src="${esc(emblem(build.className))}" alt="">`;
   renderDoll(root, char, build);
-  renderTalisman(root, build);
+  renderTalisman(root, char, build);
+  renderSockets(root, char, build);
   renderDetail(root, char, build);
   renderStats(root, char, build);
 }
 
 function slotButton(id, char, build) {
+  if (!id) return `<span class="dslot spacer" aria-hidden="true"></span>`;
   const g = char.gear[id];
   const r = rarityOf(g);
+  const target = build.slots[id];
   const st = slotStatus(char, build, id);
-  const guide = build.slots[id]?.item;
-  const miss = g && guide && !guide.match.test(`${g.name} ${g.aspect || ""} ${g.power || ""}`) ? `<span class="gd">Guide: ${esc(guide.name)}</span>` : "";
-  const art = itemArt(g, id, build);
-  return `<button class="dslot" data-pick="${id}" aria-pressed="${id === selected}">
-    <span class="ico t-${r === "unknown" ? "unknown" : r}"><img class="art${g ? "" : " empty"}" src="${esc(art)}" alt=""><i class="pip ${st.done ? "done" : "todo"}" aria-hidden="true"></i></span>
-    <span class="dtext"><span class="nm r-${r}">${esc(g?.name || SLOT[id].name)}</span><span class="ty">${g ? esc(typeLine(g, id)) : "Empty"}</span>${miss}</span>
+  const miss = target && (!g || !target.item.match.test(`${g.name} ${g.aspect || ""} ${g.power || ""}`)) ? `<span class="gd">Guide: ${esc(target.item.name)}</span>` : "";
+  return `<button class="dslot${g ? "" : " empty"}" data-pick="${id}" aria-pressed="${id === selected}">
+    <span class="ico t-${r === "unknown" ? "unknown" : r}"><img class="art${g ? "" : " empty"}" src="${esc(itemArt(g, id, build))}" alt="">${ancestralBadge(g)}<i class="pip ${st.done ? "done" : "todo"}" aria-hidden="true"></i></span>
+    <span class="dtext"><span class="nm r-${r}">${esc(g?.name || SLOT[id].name)}</span><span class="ty">${g ? typeLine(g, id, { html: true }) : "Empty"}</span>${miss}</span>
   </button>`;
 }
 
 function renderDoll(root, char, build) {
-  $("#doll-left", root).innerHTML = LEFT.map((id) => slotButton(id, char, build)).join("");
-  $("#doll-right", root).innerHTML = RIGHT.map((id) => slotButton(id, char, build)).join("");
-  $("#doll-src", root).textContent = `Talisman, runes and Splinters follow ${build.guide.site} “${build.name}: ${build.variant}”. Point at any of them for details.`;
+  const { left, right } = paperdoll(build);
+  $("#doll-left", root).innerHTML = left.map((id) => slotButton(id, char, build)).join("");
+  $("#doll-right", root).innerHTML = right.map((id) => slotButton(id, char, build)).join("");
+  $("#doll-left", root).style.gridTemplateRows = $("#doll-right", root).style.gridTemplateRows = `repeat(${Math.max(left.length, right.length)}, 1fr)`;
 }
 
-// Talisman: the seal in the middle, six charms around it at the in-game positions.
+// Talisman: the seal in the middle, six charm sockets around it. Click a socket to set what you have.
 const CHARM_POS = [[30, 15], [70, 15], [11, 50], [89, 50], [30, 85], [70, 85]];
 
-function renderTalisman(root, build) {
-  const t = build.talisman || { charms: [] };
+function renderTalisman(root, char, build) {
+  const mine = myTalisman(char);
+  const seal = sealInfo(mine.seal, build);
+  const charms = mine.charms.map((n) => charmInfo(n, build));
   const sockets = CHARM_POS.map(([x, y], i) => {
-    const c = t.charms[i];
-    return `<span class="tal-ring" style="left:${x}%;top:${y}%"></span>${c ? `<button class="tal-socket${c.mythic ? " mythic" : c.unique ? " unique" : c.set ? " set" : ""}" style="left:${x}%;top:${y}%" data-tip="charm:${i}" aria-label="${esc(c.name)}"><img src="${esc(c.art)}" alt=""></button>` : ""}`;
+    const c = charms[i];
+    const cls = c ? (c.mythic ? " mythic" : c.unique ? " unique" : c.set ? " set" : "") : " empty";
+    return `<span class="tal-ring" style="left:${x}%;top:${y}%"></span><button class="tal-socket${cls}" style="left:${x}%;top:${y}%" data-tip="charm:${i}" aria-label="${esc(c?.name || "Empty charm socket")}">${c?.art ? `<img src="${esc(c.art)}" alt="">` : `<span class="plus">+</span>`}</button>`;
   }).join("");
   $("#talisman", root).innerHTML = `<span class="tal-ring seal-ring" style="left:50%;top:50%"></span>
-    ${t.seal ? `<button class="tal-socket seal" style="left:50%;top:50%" data-tip="seal" aria-label="${esc(t.seal.name)}"><img src="${esc(t.seal.art)}" alt=""></button>` : ""}${sockets}`;
-  const sets = new Map();
-  for (const c of t.charms) if (c.set) sets.set(c.set, (sets.get(c.set) || 0) + 1);
-  $("#charms", root).innerHTML = [...sets].map(([name, n]) => `<li><i></i>${esc(name)} <span class="muted">${n} charm${n > 1 ? "s" : ""}</span></li>`).join("")
-    + t.charms.filter((c) => c.mythic || c.unique).map((c) => `<li class="r-${c.mythic ? "mythic" : "unique"}"><i class="m"></i>${esc(c.name)}</li>`).join("")
-    + (t.seal ? `<li class="r-mythic"><i class="m"></i>${esc(t.seal.name)}</li>` : "");
-  $("#runes", root).innerHTML = (build.runes || []).map((r, i) => `<button class="rune" data-tip="rune:${i}"><img src="${esc(r.art)}" alt="">${esc(r.name)}</button>`).join("") || `<span class="note">None</span>`;
-  const spl = splintersOf(build);
-  $("#splinters", root).innerHTML = spl.map((s, i) => `<button class="splinter" data-tip="splinter:${i}"><img src="${esc(s.art)}" alt="">${esc(s.name.replace(/^Splinter of (the )?/i, ""))}</button>`).join("") || `<span class="note">None</span>`;
+    <button class="tal-socket seal${seal ? "" : " empty"}" style="left:50%;top:50%" data-tip="seal" aria-label="${esc(seal?.name || "Empty seal socket")}">${seal?.art ? `<img src="${esc(seal.art)}" alt="">` : `<span class="plus">+</span>`}</button>${sockets}`;
+
+  const counts = setCounts(charms);
+  const minus = lowersThresholds(seal) ? 1 : 0;
+  const steps = talismanSteps(mine, build);
+  $("#charms", root).innerHTML = (counts.size ? [...counts].map(([name, n]) => `<li><i></i>${esc(name)} <span class="muted">${n} counted${minus ? " (needs one fewer)" : ""}</span></li>`).join("") : `<li class="muted">No charms entered. Click a socket to add yours.</li>`)
+    + (steps.length ? `<li class="tal-steps"><span class="label">To match the guide</span><ul>${steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></li>` : `<li class="ok">Matches the guide's talisman.</li>`);
+
+  const pick = $("#tal-pick", root);
+  if (picking === null) { pick.innerHTML = ""; return; }
+  const isSeal = picking === "seal";
+  const pool = isSeal ? Object.keys(build.catalog?.seals || {}) : Object.keys(build.catalog?.charms || {});
+  const want = isSeal ? build.talisman?.seal?.name : build.talisman?.charms?.[picking]?.name;
+  const groups = new Map();
+  for (const n of pool) { const ci = charmInfo(n, build); const k = isSeal ? "Seals" : (ci.set || (ci.mythic ? "Mythic charms" : "Unique charms")); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(n); }
+  const current = isSeal ? mine.seal : mine.charms[picking];
+  pick.innerHTML = `<form class="tal-picker" id="tal-form">
+    <label class="label" for="tal-choice">${isSeal ? "Your seal" : `Your charm in socket ${picking + 1}`}</label>
+    <select id="tal-choice"><option value="">Empty</option>${[...groups].map(([k, list]) => `<optgroup label="${esc(k)}">${list.sort().map((n) => `<option${n === current ? " selected" : ""}>${esc(n)}</option>`).join("")}</optgroup>`).join("")}</select>
+    ${want ? `<p class="note">The guide uses ${esc(want)} here.</p>` : ""}
+    <div class="row"><button class="btn primary" type="submit">Save</button><button class="btn ghost" type="button" id="tal-cancel">Cancel</button></div>
+  </form>`;
+}
+
+function renderSockets(root, char, build) {
+  const runes = socketReport(char, build, (n) => isRune(n, build));
+  const spl = socketReport(char, build, (n) => /^splinter/i.test(n));
+  const chip = (s, kind, i, ghost) => `<button class="${kind}${ghost ? " ghost" : ""}" data-tip="${kind}:${ghost ? "want" : "have"}:${i}">
+    ${socketArt(s.name, build) ? `<img src="${esc(socketArt(s.name, build))}" alt="">` : ""}${esc(kind === "splinter" ? shortSplinter(s.name) : s.name)}
+    <small>${ghost ? `Guide: ${esc(SLOT[s.slot].name)}` : esc(SLOT[s.slot].name)}${!ghost && s.move ? ` → ${esc(SLOT[s.move].name)}` : ""}</small></button>`;
+  $("#runes", root).innerHTML = runes.have.map((s, i) => chip(s, "rune", i, false)).join("") + runes.missing.map((s, i) => chip(s, "rune", i, true)).join("") || `<span class="note">None</span>`;
+  $("#splinters", root).innerHTML = spl.have.map((s, i) => chip(s, "splinter", i, false)).join("") + spl.missing.map((s, i) => chip(s, "splinter", i, true)).join("") || `<span class="note">None</span>`;
+  ctxNow.sockets = { rune: runes, splinter: spl };
+}
+
+function guideWants(target, id) {
+  return `<div class="want-box"><span class="label">Guide wants for ${esc(SLOT[id].name)}</span>
+    ${tipFromText(target.item.tip, { name: target.item.name, art: target.item.art, ghost: true, foot: `Affixes: ${esc(wantedList(target)) || "not listed"}.` })}</div>`;
 }
 
 function tipHtml(el) {
-  const { char, build, cls } = ctxNow;
+  const { char, build } = ctxNow;
   if (el.dataset.pick) {
     const id = el.dataset.pick, g = char.gear[id], target = build.slots[id];
-    if (!g) return target ? tipFromText(target.item.tip, { name: target.item.name, art: target.item.art, foot: `Guide item for ${SLOT[id].name}. You have nothing recorded here.` }) : "";
+    if (!g) return tipCard({ name: SLOT[id].name, type: "Empty: nothing entered yet", r: "unknown", art: BASE_ART[SLOT[id].kind], ghost: true,
+      foot: target ? `Guide wants ${esc(target.item.name)}. Paste a screenshot or enter it by hand.` : "" });
     const st = slotStatus(char, build, id);
     return itemTip(g, id, build, st.ev, { foot: st.steps.length ? `Next: ${esc(st.steps[0])}` : "Matches the guide." });
   }
-  const t = build.talisman;
-  const [kind, arg] = el.dataset.tip.split(":");
-  if (kind === "seal") return tipFromText(t.seal.tip, { name: t.seal.name, art: t.seal.art, r: "mythic" });
-  if (kind === "charm") { const c = t.charms[+arg]; return tipFromText(c.tip, { name: c.name, art: c.art, r: c.mythic ? "mythic" : c.set ? "set" : undefined }); }
-  if (kind === "rune") { const r = build.runes[+arg]; return tipFromText(r.tip, { name: r.name, art: r.art }); }
-  if (kind === "splinter") {
-    const s = splintersOf(build)[+arg];
-    return tipFromText(cls?.tips?.[s.name] || "", { name: s.name, art: s.art, r: "legendary", foot: `Guide socket: ${esc(s.slot)}. Farm: Escalation Nightmare Dungeons with the matching gem Reserve.` });
+  const [kind, a, b] = el.dataset.tip.split(":");
+  const mine = myTalisman(char);
+  if (kind === "seal") {
+    const s = sealInfo(mine.seal, build);
+    const want = build.talisman?.seal;
+    if (!s) return tipCard({ name: "Empty seal socket", r: "unknown", art: want?.art || "", ghost: true, foot: want ? `Guide uses ${esc(want.name)}. Click to set yours.` : "Click to set yours." });
+    return tipFromText(s.tip, { name: s.name, art: s.art, r: "mythic", foot: want && want.name !== s.name ? `Guide uses ${esc(want.name)}.` : "Click to change." });
+  }
+  if (kind === "charm") {
+    const c = charmInfo(mine.charms[+a], build);
+    const want = build.talisman?.charms?.[+a];
+    if (!c) return tipCard({ name: "Empty charm socket", r: "unknown", art: want?.art || "", ghost: true, foot: want ? `Guide uses ${esc(want.name)} here. Click to set yours.` : "Click to set yours." });
+    return tipFromText(c.tip, { name: c.name, art: c.art, r: c.mythic ? "mythic" : c.unique ? "unique" : c.set ? "set" : undefined, foot: "Click to change." });
+  }
+  if (kind === "rune" || kind === "splinter") {
+    const rep = ctxNow.sockets[kind];
+    const s = a === "want" ? rep.missing[+b] : rep.have[+b];
+    const tip = build.catalog?.runes?.[s.name]?.tip || build.runes?.find((r) => r.name === s.name)?.tip || "";
+    const foot = a === "want" ? `You don't have this socketed yet. Guide: ${esc(SLOT[s.slot].name)}.` : s.move ? `Guide puts it in ${esc(SLOT[s.move].name)}.` : `Socketed in your ${esc(SLOT[s.slot].name)}.`;
+    return tipFromText(tip, { name: s.name, art: socketArt(s.name, build), r: kind === "splinter" ? "legendary" : undefined, ghost: a === "want", foot });
   }
   return "";
 }
@@ -113,12 +183,11 @@ function tipHtml(el) {
 async function renderDetail(root, char, build) {
   const box = $("#detail", root);
   const id = selected, g = char.gear[id], target = build.slots[id];
-  if (!target) { box.innerHTML = `<div class="tooltip slot-detail"><p class="note">This guide doesn't list ${esc(SLOT[id].name)}.</p></div>`; return; }
-  const src = SOURCES[target.item.source];
-  const want = `<div class="tt-sec"><span class="label">Guide for ${esc(SLOT[id].name)}</span>
+  const src = target && SOURCES[target.item.source];
+  const want = target ? `<div class="tt-sec"><span class="label">Guide for ${esc(SLOT[id].name)}</span>
     <p><b>${esc(target.item.name)}</b>${target.note ? ` · ${esc(target.note)}` : ""}</p>
     <p class="note">Affixes, in order: ${esc(wantedList(target)) || "not listed"}. Temper: ${esc(target.tempers.map(([k, r]) => `${affixLabel(k)} from ${r}`).join(", ")) || "not listed"}.${target.sockets?.length ? ` Sockets: ${esc(target.sockets.join(" + "))}.` : ""}</p>
-    <p class="note">Get it: ${src ? esc(src.routes.find((r) => r.best)?.label || src.routes[0].label) : "see the farm guide"} · <a href="#/farm">full route</a></p></div>`;
+    <p class="note">Get it: ${src ? esc(src.routes.find((r) => r.best)?.label || src.routes[0].label) : "see the farm guide"} · <a href="#/farm">full route</a></p></div>` : `<p class="note">This guide doesn't use ${esc(SLOT[id].name)}.</p>`;
 
   if (editing) {
     box.innerHTML = `<form class="tooltip slot-detail" id="edit-form">${itemFormHtml(g || { name: "", rarity: "legendary", affixes: [] }, { slotId: id, showSlot: false })}
@@ -127,8 +196,10 @@ async function renderDetail(root, char, build) {
     return;
   }
   if (!g) {
-    box.innerHTML = `<div class="tooltip slot-detail">${tipCard({ name: SLOT[id].name, type: "Empty slot", r: "unknown", art: itemArt(null, id, build) })}${want}
-      <div class="slot-actions"><button class="btn" data-act="edit">Enter by hand</button><button class="btn primary" data-act="check">Add from screenshot</button></div></div>`;
+    box.innerHTML = `<div class="tooltip slot-detail">
+      ${tipCard({ name: SLOT[id].name, type: "Empty: nothing entered yet", r: "unknown", art: BASE_ART[SLOT[id].kind], ghost: true })}
+      <div class="slot-actions"><button class="btn" data-act="edit">Enter by hand</button><button class="btn primary" data-act="check">Add from screenshot</button></div>
+      ${target ? guideWants(target, id) : ""}${want}</div>`;
     return;
   }
   const st = slotStatus(char, build, id);
@@ -145,9 +216,11 @@ async function renderDetail(root, char, build) {
 }
 
 function renderStats(root, char, build) {
+  const box = $("#stats", root);
+  if (!build.stats.length) { box.innerHTML = `<h3>Stat targets</h3><p class="note">No stat targets on file for the ${esc(build.className)} yet.</p>`; return; }
   const st = char.stats || {};
   const fmt = (s, n) => s.unit === "%" ? n.toLocaleString(undefined, { maximumFractionDigits: 1 }) + "%" : n.toLocaleString();
-  $("#stats", root).innerHTML = `<div class="stats-head"><h3>Stat targets</h3><div class="row"><span class="note">${st.updated ? `Updated ${esc(new Date(st.updated).toLocaleDateString())}` : ""}</span>
+  box.innerHTML = `<div class="stats-head"><h3>Stat targets</h3><div class="row"><span class="note">${st.updated ? `Updated ${esc(new Date(st.updated).toLocaleDateString())}` : ""}</span>
     <button class="btn ghost" id="stats-edit">${editingStats ? "Save numbers" : "Update numbers"}</button></div></div>
     <div class="stat-grid">${build.stats.map((s) => {
       const v = st[s.key], has = typeof v === "number" && isFinite(v);
@@ -157,7 +230,7 @@ function renderStats(root, char, build) {
       return `<div class="stat"><div class="stat-top"><span class="stat-name">${esc(s.name)}</span>${val}</div><div class="meter ${cls}"><i style="width:${pct}%"></i></div><span class="stat-target">Target ${fmt(s, s.target)} · ${s.src === "Maxroll" ? "Maxroll" : "our floor"}</span></div>`;
     }).join("")}</div>
     ${typeof st.toughness === "number" ? `<p class="note">Toughness ${st.toughness.toLocaleString()}</p>` : ""}
-    <p class="note">Copy these from the character sheet. Resistance floors other than Maxroll's are levels we settled on for Mephisto and Baal.</p>`;
+    <p class="note">Copy these from the character sheet.</p>`;
 }
 
 function bind(root) {
@@ -166,6 +239,9 @@ function bind(root) {
     const { char, build, go } = ctxNow;
     const pick = e.target.closest("[data-pick]");
     if (pick) { selected = pick.dataset.pick; editing = false; hover.hide(); render(root, ctxNow); return; }
+    const tal = e.target.closest(".tal-socket");
+    if (tal) { hover.hide(); picking = tal.dataset.tip === "seal" ? "seal" : +tal.dataset.tip.split(":")[1]; renderTalisman(root, char, build); $("#tal-choice", root)?.focus(); return; }
+    if (e.target.closest("#tal-cancel")) { picking = null; renderTalisman(root, char, build); return; }
     const act = e.target.closest("[data-act]")?.dataset.act;
     if (act === "edit") { editing = true; renderDetail(root, char, build); }
     if (act === "check") { setPreset(selected); go("check"); }
@@ -183,11 +259,19 @@ function bind(root) {
     }
   });
   root.addEventListener("submit", (e) => {
-    if (e.target.id !== "edit-form") return;
+    const { char, build } = ctxNow;
     e.preventDefault();
-    const { char } = ctxNow;
+    if (e.target.id === "tal-form") {
+      const t = structuredClone(myTalisman(char));
+      const v = $("#tal-choice", root).value || null;
+      if (picking === "seal") t.seal = v; else t.charms[picking] = v;
+      picking = null;
+      store.updateCharacter(char.id, { talisman: t });
+      return;
+    }
+    if (e.target.id !== "edit-form") return;
     const prev = char.gear[selected] || {};
-    const item = readItemForm(e.target, prev);
+    const item = readItemForm(e.target, prev, build.className);
     delete item.slot;
     editing = false;
     store.setGear(char.id, selected, { ...item, updated: new Date().toISOString() });
