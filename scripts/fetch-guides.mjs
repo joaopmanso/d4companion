@@ -51,6 +51,10 @@ const prev = readJson(join(DATA, "guides.json"), { guides: [], tiers: [] });
 
 let tiers = [];
 try { tiers = await d4b.tierList(page); } catch (e) { console.warn("tier list failed", e.message); tiers = prev.tiers || []; }
+// Only the current season is synced. The tier list page names it ("… Season 15 Endgame Tier List");
+// guides or variants tagged with another season ("(S13 LoH)", "S13") are skipped.
+const SEASON = Number((await page.title().catch(() => "")).match(/Season (\d+)/)?.[1]) || 15;
+const otherSeason = (text) => { const m = String(text || "").match(/\bS(\d{1,2})\b/); return m && Number(m[1]) !== SEASON; };
 const tierOf = new Map(tiers.flatMap((t) => t.builds.map((b) => [baseUrl(b.url), { tier: t.tier, ...b }])));
 
 const index = { updated: new Date().toISOString(), classes: [], tiers, guides: [], links: LINK_ONLY };
@@ -77,6 +81,8 @@ for (const className of CLASSES) {
     for (let i = 0; i < n; i++) {
       try {
         const raw = await d4b.scrapeVariant(page, url, i, state);
+        if (otherSeason(raw.title)) { console.log("skip (older season guide)", url); break; }
+        if (otherSeason(raw.variant)) { console.log("skip (older season variant)", url, raw.variant); continue; }
         const guide = normalise(raw, { site: "d4builds", className, index: i, tips: state.tips, tier: t });
         catalogAdd(catalog, guide);
         const kept = writeIfChanged(join(DATA, "guides", `${guide.id}.json`), guide, ["checked"]);
@@ -89,6 +95,11 @@ for (const className of CLASSES) {
       }
       await pause(800); // be gentle with the site
     }
+  }
+  // drop guides from earlier runs that belong to another season (from before this filter existed)
+  for (const g of prev.guides) if (g.className === className && (otherSeason(g.build) || otherSeason(g.variant))) {
+    try { unlinkSync(join(DATA, "guides", `${g.id}.json`)); } catch { /* already gone */ }
+    prev.guides = prev.guides.filter((x) => x.id !== g.id);
   }
 
   if (!state.tree) continue; // nothing scraped for this class
