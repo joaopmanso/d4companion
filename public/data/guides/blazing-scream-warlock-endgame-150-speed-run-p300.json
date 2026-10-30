@@ -393,6 +393,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "Critical Strike Damage",
    "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -401,6 +402,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
+    "affix": "Hellfire Skills",
     "tip": "Blood-Mad Idol\nHellfire Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    {
@@ -408,6 +410,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
+    "affix": "20% All Stats",
     "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Flesh of Abaddon"
    },
    {
@@ -415,13 +418,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
-    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+    "affix": "",
+    "tip": "Fists of Fate\nYour attacks randomly deal 1% to [390%] of their normal damage."
    },
    {
     "name": "Linta of Abaddon's Flesh",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Linta of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
@@ -429,6 +434,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Berú of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
@@ -436,6 +442,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Phoba of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    }
   ]

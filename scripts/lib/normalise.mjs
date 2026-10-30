@@ -18,6 +18,13 @@ const SET_FROM_ART = (src) => {
   return { set: f.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bOf\b/g, "of").replace(/\bThe\b/g, "the"), mythic: false };
 };
 
+// A charm's or seal's tooltip names the guide's chosen affix on its second line ("Hellfire Skills",
+// "Critical Strike Damage"); longer lines are effect text, not an affix.
+const affixOf = (tip, setName) => {
+  const l = String(tip || "").split("\n").map((s) => s.trim())[1] || "";
+  return l && l.length < 48 && !/[.:]$/.test(l) && l !== setName && !/^(your|when|while|every|gain)\b/i.test(l) ? l : "";
+};
+
 export function normalise(raw, { site, className, index, tips, tier }) {
   const build = raw.title.replace(/\s*\(S\d+[^)]*\)\s*$/, "").trim();
   const variant = raw.variant || `Variant ${index + 1}`;
@@ -45,9 +52,9 @@ export function normalise(raw, { site, className, index, tips, tier }) {
   }
 
   const seal = raw.talisman.seal ? (() => {
-    const t = tips[`seal:${raw.talisman.seal.img}`] || "";
+    const t = raw.talisman.seal.tip || tips[`seal:${raw.talisman.seal.img}`] || "";
     const name = sealName(raw.talisman.seal.img, t);
-    return { name, art: raw.talisman.seal.img, tip: t.replace(/^Seal\b/, name) };
+    return { name, art: raw.talisman.seal.img, affix: affixOf(t), tip: t.replace(/^Seal\b/, name) };
   })() : null;
 
   return {
@@ -62,7 +69,11 @@ export function normalise(raw, { site, className, index, tips, tier }) {
       .flat(),
     talisman: {
       seal,
-      charms: raw.talisman.charms.map((c) => ({ name: c.name, art: c.img, ...SET_FROM_ART(c.img), tip: tip(c.name) })),
+      charms: raw.talisman.charms.map((c) => {
+        const set = SET_FROM_ART(c.img);
+        const t = c.tip || tip(c.name);
+        return { name: c.name, art: c.img, ...set, affix: affixOf(t, set.set), tip: t };
+      }),
     },
     skills: {
       bar: raw.skillBar.map((s) => ({ name: s.name, icon: s.img, tip: tip(s.name) })),

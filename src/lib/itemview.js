@@ -14,7 +14,8 @@ export function itemArt(item, slotId, build) {
   return BASE_ART[SLOT[slotId]?.kind] || BASE_ART.weapon;
 }
 
-export const ancestralBadge = (item) => (item?.ancestral ? `<i class="anc" title="Ancestral" aria-label="Ancestral"></i>` : "");
+// Ancestral items glow white in game; the glow is the .ico.ancestral class, this only labels it.
+export const ancestralBadge = (item) => (item?.ancestral ? `<span class="sr">Ancestral</span>` : "");
 
 export function affixListHtml(lines, { why = false } = {}) {
   if (!lines?.length) return "";

@@ -142,6 +142,12 @@ export async function scrapeVariant(page, url, i, cls) {
   const gear = await page.evaluate(readGearTab);
   const sealName = await captureTips(page, cls);
   if (gear.talisman.seal) gear.talisman.seal.name = sealName;
+  // Each guide picks its own affix for every charm and the seal (the tooltip's second line), so
+  // these tooltips are read per variant rather than taken from the shared cache.
+  const charmEls = await page.$$(".builder__charm.active");
+  for (let k = 0; k < charmEls.length && k < gear.talisman.charms.length; k++) gear.talisman.charms[k].tip = await hoverText(page, charmEls[k]);
+  const sealEl = await page.$(".builder__seal.active");
+  if (sealEl && gear.talisman.seal) gear.talisman.seal.tip = await hoverText(page, sealEl);
 
   await tab(page, "Skill Tree");
   const needLayout = !cls.tree;

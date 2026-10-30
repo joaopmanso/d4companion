@@ -9,7 +9,7 @@ export const rarityOf = (item) => (item && RARITY_LABEL[item.rarity] ? item.rari
 // `typeHtml` is pre-escaped markup (e.g. the red "Ancestral" word); `ghost` dims the art for items
 // the player doesn't have (a guide's target).
 export function tipCard({ name, type = "", typeHtml = "", r = "unknown", art = "", lines = "", power = "", body = "", foot = "", ancestral = false, ghost = false }) {
-  const icon = art ? `<div class="ico t-${r}${ghost ? " ghost" : ""}"><img class="art" src="${esc(art)}" alt="">${ancestral ? `<i class="anc" title="Ancestral"></i>` : ""}</div>` : "";
+  const icon = art ? `<div class="ico t-${r}${ghost ? " ghost" : ""}${ancestral ? " ancestral" : ""}"><img class="art" src="${esc(art)}" alt=""></div>` : "";
   return `<div class="gt t-${r}${ancestral ? " ancestral" : ""}">
     <div class="gt-head"><div><div class="gt-name r-${r}">${esc(name)}</div><div class="gt-type r-${r}">${typeHtml || esc(type)}</div></div>${icon}</div>
     ${lines ? `<div class="gt-rule"></div>${lines}` : ""}

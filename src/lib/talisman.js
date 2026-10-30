@@ -27,13 +27,16 @@ export function setCounts(charms) {
 export const lowersThresholds = (seal) => /reduces the number of charms needed/i.test(seal?.tip || "");
 
 // What's missing compared with the guide, as next steps.
+// The affix the guide wants on a charm or seal ("Hellfire Skills"), if it names one.
+export const lookFor = (c) => (c?.affix ? `look for ${c.affix}` : "");
+
 export function talismanSteps(mine, build) {
   const want = build.talisman || { charms: [] };
   const have = new Set(mine.charms.filter(Boolean));
   const steps = [];
-  if (want.seal && mine.seal !== want.seal.name) steps.push(`Seal: ${want.seal.name}${mine.seal ? ` (you have ${mine.seal})` : ""}.`);
+  if (want.seal && mine.seal !== want.seal.name) steps.push(`Seal: ${want.seal.name}${want.seal.affix ? ` with ${want.seal.affix}` : ""}${mine.seal ? ` (you have ${mine.seal})` : ""}.`);
   const missing = want.charms.filter((c) => !have.has(c.name));
-  for (const c of missing) steps.push(`Charm: ${c.name}${c.set ? ` (${c.set})` : ""}.`);
+  for (const c of missing) steps.push(`Charm: ${c.name}${c.set ? ` (${c.set})` : ""}${c.affix && !c.mythic ? `, ${lookFor(c)}` : ""}.`);
   const extra = [...have].filter((n) => !want.charms.some((c) => c.name === n));
   if (extra.length) steps.push(`Not in the guide: ${extra.join(", ")}.`);
   return steps;

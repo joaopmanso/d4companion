@@ -393,6 +393,7 @@
   "seal": {
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "Critical Strike Damage",
    "tip": "Seal of the Diamond Mind\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
@@ -401,6 +402,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Berú of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
@@ -408,6 +410,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
+    "affix": "20% All Stats",
     "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Flesh of Abaddon"
    },
    {
@@ -415,13 +418,15 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
-    "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+    "affix": "",
+    "tip": "Fer of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    {
     "name": "Linta of Abaddon's Flesh",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Linta of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
@@ -429,6 +434,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Berú of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    },
    {
@@ -436,6 +442,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
     "set": "Flesh of Abaddon",
     "mythic": false,
+    "affix": "Hellfire Skills",
     "tip": "Phoba of Abaddon's Flesh\nHellfire Skills\nFlesh of Abaddon\nPhoba of Abaddon's Flesh\nFer of Abaddon's Flesh\nMlor of Abaddon's Flesh\nLinta of Abaddon's Flesh\nBerú of Abaddon's Flesh\nFlesh of Abaddon\n(2) Set: While in Demonform quickly gain Infernal Hunger stacks, each increasing the damage you take by 0.5%. Killing enemies or hitting Bosses converts Infernal Hunger stacks into Demonic Strength, each granting x2% increased Damage for 20 seconds.\n(3) Set: Demonform increases your Maximum Life by 20%, each stack of Demonic Strength grants 0.55% additional Maximum Life.\n(5) Set: Demonic Strength's bonuses are increased by 150% and now persist after you leave Demonform. While you have Volatility you deal x66% increased Hellfire damage and gain Infernal Hunger stacks twice as fast."
    }
   ]
