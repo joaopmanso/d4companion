@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/minion-necromancer-endgame/?var=0",
  "updated": "September 20, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-10-31",
  "tier": "",
  "short": "SKULM-S15-SINGULARITY",
  "slots": {
@@ -377,7 +377,7 @@
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
    "affix": "All Stats",
-   "tip": "Seal of the Diamond Mind\nAll Stats\nMinion Damage\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nAll Stats\nMinion Damage\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
