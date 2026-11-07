@@ -1,6 +1,6 @@
 {
  "className": "Barbarian",
- "captured": "2026-10-30T15:18:06.011Z",
+ "captured": "2026-11-07T13:06:27.756Z",
  "tree": {
   "nodes": [
    {
@@ -13750,7 +13750,7 @@
      "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor.png",
      "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor_active.png",
      "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
-     "tip": "Cheat Sheet\nRunes\nRune Word Recipes\nPrime Evil Powers\nClass Skills\nUniques\nLegendary Aspects\nParagon Boards\nParagon Glyphs\nGear Affixes\nTempering Manuals"
+     "tip": "Horadric Affixes\nRunes\nRune Word Recipes\nPrime Evil Powers\nClass Skills\nUniques\nLegendary Aspects\nParagon Boards\nParagon Glyphs\nGear Affixes\nTempering Manuals\nCheat Sheet"
     },
     {
      "r": 13,
@@ -17484,7 +17484,7 @@
   "Mlor of the Crucible": "Mlor of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites.",
   "Berú of Sescheron's Fury": "Berú of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%.",
   "Fer of Sescheron's Fury": "Fer of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%.",
-  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
+  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
   "Iron Skin": "Iron Skin\nRank 14\nDefensive\nCombat\nCooldown: 14 seconds\nSteel yourself for 3 seconds, increasing only your Maximum Life by 10% and gaining a Barrier that absorbs [82.8%] of your Maximum Life in damage.\nModifiers\nEnemies attacking you while Iron Skin is active become Weakened for 3 seconds.\nIncrease the Maximum Life granted from Iron Skin to 15%.\nIron Skin also grants Unstoppable and enemies that hit you are Knocked back.\nPhysical Damage",
   "War Cry": "War Cry\nRank 15\nBrawling\nShout\nCombat\nCooldown: 25 seconds\nBellow a mighty war cry, increasing your damage dealt by x [18%] for 4 seconds.\nNearby allies gain half of War Cry's effects.\nModifiers\nWar Cry grants 2 stacks of Ferocity.\nWar Cry's duration is increased to 6 seconds.\nWar Cry's damage bonus is increased by 10% and allies now receive its full effect. You also gain Berserking for 4 seconds.",
   "Steel Grasp": "Steel Grasp\nRank 1\nWeapon Mastery\nCombat\nCharges: 2\nCharge Cooldown: 11 seconds\nLucky Hit: 25%\nThow out a trio of chains that deal [100%] damage and Pull In enemies.\nModifiers\nSteel Grasp grants Berserking for 2 seconds on Hit.\nSteel Grasp makes enemies Vulnerable for 4 seconds.\nSteel Grasp is also a Brawling Skill that launches 2 additional chains for [65%] damage.\nPhysical Damage",
@@ -17592,9 +17592,8 @@
   "Nomad's Longing Heart": "Nomad's Longing Heart\nMartial Skill\nCore Skills deal x [52%] increased damage, but cost x25% more Fury. The damage is doubled against Injured and Healthy enemies.",
   "Double Swing": "Double Swing\nRank 15\nCore\nDual Wield\nMartial\nFury Cost: 20\nLucky Hit: 30%\nSweep your weapons from opposite directions, dealing [383%] damage with each weapon. Enemies caught in the center are damaged by both.\nModifiers\nGains 20% chance to hit twice.\nIncreases this Skill's damage by x2% per enemy hit for 2 seconds, all stacks expire simultaneously and the duration cannot be refreshed.\nThe intial sweep also creates 1 Dust Devil that deals [97%] damage, the subsequent sweep creates 2.\nPhysical Damage\nRequires Dual Wielded weapons",
   "2h Mace": "2h Mace\nLucky Hit: Up to a 10% chance to gain 5 Fury when hitting an enemy. Double the amount of Fury gained while Berserking.\nYou deal x15% increased Critical Strike damage while Berserking.",
-  "Tam": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill.",
-  "Kry": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies.",
   "Skullbreaker's Aspect": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds.",
+  "Kry": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies.",
   "Moni": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills.",
   "Fer of the Bloodletter": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",
   "Berú of the Bloodletter": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",

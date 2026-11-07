@@ -1,6 +1,6 @@
 {
  "className": "Necromancer",
- "captured": "2026-10-30T15:36:30.817Z",
+ "captured": "2026-11-07T13:23:22.454Z",
  "tree": {
   "nodes": [
    {
@@ -19154,7 +19154,7 @@
   "Phoba of the Blood Binder": "Phoba of the Blood Binder\nBlood Skills\nWord of the Blood Binder\nPhoba of the Blood Binder\nFer of the Blood Binder\nMlor of the Blood Binder\nLinta of the Blood Binder\nBerú of the Blood Binder\nWord of the Blood Binder\n(2) Set: Your Blood Skills Fortify you for 5% of your Maximum Life on cast and deal x60% increased damage while Fortify is actively healing you.\n(3) Set: Every percentage of Fortified Life you gain also increases your Maximum Life by an equal percentage for 20 seconds, up to 50%.\n(5) Set: Your Basic, Core, and Ultimate Blood skills drain 3% of your Maximum Life on Cast to trigger twice. Your Blood Skills deal x100% increased damage.",
   "Hellfire Torch": "Hellfire Torch\nLucky Hit: Chance to Freeze\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Word of the Blood Binder",
   "Red Blessing": "Red Blessing\nWhile Healthy, gain 2 Maximum Overpower. Blood Orbs grant 2 stacks of Overpower.\n\nYou deal x [5.33 - 6.67%] increased damage per stack of Overpower.",
-  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
+  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
   "Sever": "Sever\nCore\nDarkness\nEssence Cost: 20\nLucky Hit: 40%\nA specter of you charges forward, dealing [60%] damage, then attacks with its scythe, dealing [100%] damage.\nShadow Damage",
   "Blood Lance": "Blood Lance\nCore\nBlood\nEssence Cost: 15\nLucky Hit: 50%\nThrow a blood lance, dealing [160%] damage to an enemy that ricochets to another enemy. Enemies hit are lanced for 3 seconds.\nWhen Blood Lance hits an enemy, it deals damage to all other lanced enemies.\nPhysical Damage",
   "Bone Prison": "Bone Prison\nRank 15\nMacabre\nBone\nCooldown: 15 seconds\nUnearth a prison of bone with X Life that surrounds the target area for [8.4] seconds.\nModifiers\nCasting Bone Prison generates 50 Essence. Trapping a Boss generates an additional 25 Essence.\nBone Prison grants 1 stack of Resolve for each enemy trapped.\nBone Prison becomes a Blood Skill, casting the prison around you.\nWhile standing within it your Essence Generation and Cast Speed are increased by [51%] , but it drains 5% of your Maximum Life every second.",

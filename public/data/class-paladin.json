@@ -1,6 +1,6 @@
 {
  "className": "Paladin",
- "captured": "2026-10-30T15:46:02.039Z",
+ "captured": "2026-11-07T13:32:09.300Z",
  "tree": {
   "nodes": [
    {
@@ -17615,7 +17615,7 @@
   "Razorplate": "Razorplate\nThorns has a 30% chance to deal x [200 - 250%] increased damage.",
   "Mlor of Righteous Will": "Mlor of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds.",
   "The Furnace": "The Furnace\nYou deal x [75 - 100%] more damage to Elites.",
-  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
+  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal.png": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)",
   "Fortress": "Fortress\nRank 15\nUltimate\nDefensive\nJuggernaut\nCooldown: 60 seconds\nMake your stand, becoming Immune for 3 seconds and create a defensive area around you for [9] seconds\nStanding in your Fortress grants you and your allies 2 Resolve stacks every 0.5 seconds.\nModifiers\nWhile inside of your Fortress you are Unstoppable.\nWhile inside of your Fortress you gain x4% damage per stack of Resolve.\nEnemies inside Fortress are Slowed by 50% and take 500% of your Thorns damage per second.",
   "Fanaticism Aura": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive.",
   "Defiance Aura": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage.",

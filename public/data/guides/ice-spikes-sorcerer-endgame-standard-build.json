@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/ice-spikes-sorcerer-endgame/?var=0",
  "updated": "September 20, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-11-07",
  "tier": "",
  "short": "Ice Spikes - Sorcerer",
  "slots": {
@@ -451,7 +451,7 @@
    {
     "name": "Deep Freeze",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/deep_freeze.png",
-    "tip": "Deep Freeze\nRank 1\nUltimate\nFrost\nCooldown: 60 seconds\nLucky Hit: 5%\nEncase yourself in ice and become Immune for 4 seconds, Chilling surrounding enemies for 13% and continuously dealing [52%] damage to them. When Deep Freeze ends, you explode for an additional [180%] damage.\nCasting Deep Freeze again ends the effect early.\nModifiers\nIncreases the duration to 5 seconds.\nCooldown speed is increased by 50% while you have a Barrier.\nInstead of encasing yourself and becoming Immune, Deep Freeze now forms at the target location dealing [63%] damage continuously and [216%] explosion damage.\nYou remain free to act during the duration and Deep Freeze now has 3 Charges.\nCold Damage"
+    "tip": "Deep Freeze\nRank 2\nUltimate\nFrost\nCooldown: 60 seconds\nLucky Hit: 5%\nEncase yourself in ice and become Immune for 4 seconds, Chilling surrounding enemies for 13% and continuously dealing [57%] damage to them. When Deep Freeze ends, you explode for an additional [198%] damage.\nCasting Deep Freeze again ends the effect early.\nModifiers\nDamage makes enemies Vulnerable and Weakened for 8 seconds.\nCooldown speed is increased by 50% while you have a Barrier.\nDeep Freeze's continuous and final explosion damage become Frostbite damage that deals [462%] and [1584%] damage over 4 seconds respectively.\nThis Frostbite damage Chills for 100% over 4 seconds and will remove Unstoppable from enemies.\nCold Damage"
    },
    {
     "name": "Blizzard",
