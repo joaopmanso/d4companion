@@ -14403,6 +14403,1600 @@
      "tip": "Normal Node\n5 Intelligence"
     }
    ]
+  },
+  "Swarm of Storms": {
+   "tiles": [
+    {
+     "r": 2,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 2,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 2,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 2,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 2,
+     "c": 12,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 2,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 2,
+     "c": 14,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 3,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 3,
+     "c": 11,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 3,
+     "c": 14,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 4,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 4,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 4,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 4,
+     "c": 14,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 5,
+     "c": 8,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 9,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Centipede Damage"
+    },
+    {
+     "r": 5,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 11,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 5,
+     "c": 12,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 5,
+     "c": 13,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 14,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Eagle Damage"
+    },
+    {
+     "r": 6,
+     "c": 8,
+     "t": "r",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nArthropodal\n10% Centipede Damage\n10 Dexterity\nBonus: Another 10% Centipede Damage if requirements are met:\n209 / 330 Strength\n287 / 330 Intelligence"
+    },
+    {
+     "r": 6,
+     "c": 9,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 6,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 6,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 6,
+     "c": 12,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 6,
+     "c": 13,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 6,
+     "c": 14,
+     "t": "r",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nAvian\n10% Eagle Damage\n10 Dexterity\nBonus: Another 10% Eagle Damage if requirements are met:\n287 / 360 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 7,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Centipede Damage"
+    },
+    {
+     "r": 7,
+     "c": 8,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 7,
+     "c": 9,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 10,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 7,
+     "c": 11,
+     "t": "G",
+     "alt": "",
+     "icon": "",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/40_Dexterity.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_glyph.png",
+     "tip": "Rare Glyph\nJagged Plume (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you gain [24.1%] Spirit Feather potency.\nAdditional Bonus:\nSpawning a Storm Feather grants you x3% increased damage and 2% increased Movement Speed for 5 seconds, stacking up to 10 times.\nRequirements (within radius):\n122 / 40 Dexterity\nLegendary Bonus:\nIncrease Eagle damage by x [15.4%]."
+    },
+    {
+     "r": 7,
+     "c": 12,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 7,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 7,
+     "c": 14,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 7,
+     "c": 15,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Eagle Damage"
+    },
+    {
+     "r": 8,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 8,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 8,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 8,
+     "c": 11,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 8,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 8,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 8,
+     "c": 14,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 2,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 3,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 4,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 5,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 6,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 7,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 9,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 9,
+     "c": 13,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 14,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 9,
+     "c": 15,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 16,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 17,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 18,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 19,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 9,
+     "c": 20,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 10,
+     "c": 2,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 10,
+     "c": 3,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 10,
+     "c": 5,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Damage"
+    },
+    {
+     "r": 10,
+     "c": 6,
+     "t": "m",
+     "alt": "AttackSpeed",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.3% Attack Speed"
+    },
+    {
+     "r": 10,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 10,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 10,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 10,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 10,
+     "c": 14,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 10,
+     "c": 16,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 10,
+     "c": 17,
+     "t": "m",
+     "alt": "Armor",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Total Armor"
+    },
+    {
+     "r": 10,
+     "c": 19,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 10,
+     "c": 20,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 11,
+     "c": 2,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 11,
+     "c": 3,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 11,
+     "c": 5,
+     "t": "r",
+     "alt": "AttackSpeed",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nFlash Fire\n1.3% Attack Speed\n10% Damage\nBonus: Another 1.3% Attack Speed if requirements are met:\n209 / 380 Strength"
+    },
+    {
+     "r": 11,
+     "c": 6,
+     "t": "m",
+     "alt": "AttackSpeed",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.3% Attack Speed"
+    },
+    {
+     "r": 11,
+     "c": 9,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 11,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 11,
+     "c": 11,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 11,
+     "c": 12,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 11,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 11,
+     "c": 16,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 11,
+     "c": 17,
+     "t": "r",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nHaven\n4% Maximum Life\n3% Total Armor\nBonus: Another 4% Maximum Life if requirements are met:\n287 / 360 Intelligence"
+    },
+    {
+     "r": 11,
+     "c": 19,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 11,
+     "c": 20,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 2,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 3,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 5,
+     "t": "m",
+     "alt": "Damage",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Damage_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Damage"
+    },
+    {
+     "r": 12,
+     "c": 6,
+     "t": "m",
+     "alt": "AttackSpeed",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/AttackSpeed_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.3% Attack Speed"
+    },
+    {
+     "r": 12,
+     "c": 7,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 12,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 14,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 15,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 16,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 12,
+     "c": 17,
+     "t": "m",
+     "alt": "Armor",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Armor_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Total Armor"
+    },
+    {
+     "r": 12,
+     "c": 19,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 20,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 2,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 3,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 4,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 13,
+     "c": 5,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 13,
+     "c": 6,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 7,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 13,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 13,
+     "c": 11,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 13,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 14,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 13,
+     "c": 15,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 16,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 17,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 13,
+     "c": 18,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 13,
+     "c": 19,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 13,
+     "c": 20,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 14,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 14,
+     "c": 11,
+     "t": "L",
+     "alt": "Spiritborn",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Spiritborn.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Spiritborn_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_legendary.png",
+     "tip": "Legendary Node\nSwarm of Storms\nSkills that create Pestilent Swarms and Spirit Storms deal x100% increased damage. Your Storm Feathers deal x150% increased damage."
+    },
+    {
+     "r": 14,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 15,
+     "c": 7,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 15,
+     "c": 8,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 15,
+     "c": 9,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 15,
+     "c": 11,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 15,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 15,
+     "c": 14,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 15,
+     "c": 15,
+     "t": "m",
+     "alt": "LuckyHitBonus",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.3% Lucky Hit Chance"
+    },
+    {
+     "r": 16,
+     "c": 7,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 16,
+     "c": 8,
+     "t": "r",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nTraining\n4% Maximum Life\n3% Resistance to All Elements\nBonus: Another 4% Maximum Life if requirements are met:\n209 / 360 Strength"
+    },
+    {
+     "r": 16,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 16,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 16,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 16,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 16,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 16,
+     "c": 14,
+     "t": "r",
+     "alt": "LuckyHitBonus",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nSentinel\n2.5% Lucky Hit Chance\n3% Resistance to All Elements\nBonus: Another 2.5% Lucky Hit Chance if requirements are met:\n692 / 1540 Dexterity"
+    },
+    {
+     "r": 16,
+     "c": 15,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 17,
+     "c": 7,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 17,
+     "c": 8,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 17,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 17,
+     "c": 10,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 17,
+     "c": 11,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 17,
+     "c": 12,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 17,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 17,
+     "c": 14,
+     "t": "m",
+     "alt": "LuckyHitBonus",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/LuckyHitBonus_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.3% Lucky Hit Chance"
+    },
+    {
+     "r": 17,
+     "c": 15,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 18,
+     "c": 9,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 18,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 19,
+     "c": 9,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 19,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 19,
+     "c": 12,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 19,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 20,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 20,
+     "c": 10,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 20,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 20,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 20,
+     "c": 13,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    }
+   ]
   }
  },
  "glyphs": {
@@ -14417,7 +16011,8 @@
   "Talon": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
   "Ritual": "Rare Glyph\nBane (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased Poison damage.\nAdditional Bonus:\nPoisoning damage effects have a 15% chance to deal double the amount of damage over their duration.\nRequirements (within radius):\n29 / 25 Strength\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
   "Outmatch": "Rare Glyph\nMenagerist (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nDealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease Incarnate skill damage by x [15.4%].",
-  "Headhunter": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%]."
+  "Headhunter": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
+  "Jagged Plume": "Rare Glyph\nJagged Plume (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you gain [24.1%] Spirit Feather potency.\nAdditional Bonus:\nSpawning a Storm Feather grants you x3% increased damage and 2% increased Movement Speed for 5 seconds, stacking up to 10 times.\nRequirements (within radius):\n122 / 40 Dexterity\nLegendary Bonus:\nIncrease Eagle damage by x [15.4%]."
  },
  "tips": {
   "Harmony of Ebewaka": "Harmony of Ebewaka\nMythic Unique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nAccording to your secondary Spirit Hall choice, your Skills are all additionally Jaguar, Eagle, Gorilla, or Centipede Skills.\n\nYour Skills deal x [39%] increased damage per Spirit type they have.\nSpiritborn\nDropped By:\nBartuc",
@@ -14525,7 +16120,11 @@
   "Paingorger's Gauntlets": "Paingorger's Gauntlets\nUnique Gloves\nPrimary Core Stat\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nDamaging enemies with a Non-Basic Skill cast marks them for 3 seconds. When a Basic Skill first hits a marked enemy, the Basic Skill's damage is echoed to all marked enemies, dealing x [100 - 125%] increased damage.\nDropped By:\nAll Bosses, \nGrigoire",
   "Ruby": "Ruby\nGem\nWeapon:+x32% Fire and Holy Damage Multiplier\nArmor:150 Strength\nJewelry:4375 Fire Resistance",
   "Splinter of Anguish": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%.",
-  "Rock Splitter": "Rock Splitter\nRank 15\nBasic\nGorilla\nMobility\nGenerate Vigor: 11\nLucky Hit: 28%\nRush at a target and clobber enemies in front of you, dealing [128%] damage.\nYour 3rd attack strikes enemies around you, dealing [281%] damage.\nModifiers\nRock Splitter deals x20% increased damage when hitting a Slowed or Knocked Down enemy.\nRock Splitter grants Resolve.\nRock Splitter becomes a Jaguar Skill that deals Fire damage.\nRock Splitter's 3rd attack hits twice, dealing [255%] damage each hit. If you have 4 stacks of Ferocity, hit an additional time.\nPhysical Damage"
+  "Rock Splitter": "Rock Splitter\nRank 15\nBasic\nGorilla\nMobility\nGenerate Vigor: 11\nLucky Hit: 28%\nRush at a target and clobber enemies in front of you, dealing [128%] damage.\nYour 3rd attack strikes enemies around you, dealing [281%] damage.\nModifiers\nRock Splitter deals x20% increased damage when hitting a Slowed or Knocked Down enemy.\nRock Splitter grants Resolve.\nRock Splitter becomes a Jaguar Skill that deals Fire damage.\nRock Splitter's 3rd attack hits twice, dealing [255%] damage each hit. If you have 4 stacks of Ferocity, hit an additional time.\nPhysical Damage",
+  "Jacinth Shell": "Jacinth Shell\nMythic Unique Chest Armor\nDexterity\nVigor per Second\nMaximum Life\nArmor\nMaximum Life\nEach of your active Cooldowns grants x [9.1%] Damage Reduction, and each second, they drain 10% of your Maximum Vigor from you to reduce their durations by 1.5 seconds.\nSpiritborn\nDropped By:\nAndariel",
+  "Aspect of Falling Feathers": "Aspect of Falling Feathers\nSpiritborn\nMoving with a Mobility Skill or Evade spawns Storm Feathers behind you.\n\nStorm Feathers now drop from the sky as they are spawned, each dealing [X - X] Lightning damage on impact.\nDexterity\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nMovement Speed\nMaximum Ferocity\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
+  "Ohm": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds.",
+  "Sunbird's Gorget": "Sunbird's Gorget\nPicking up a Storm Feather forms a firestorm around you for 12 seconds dealing [X] Fire damage every 0.5 seconds.\n\nEvery 5 additional Storm Feathers you pick up intensifies the firestorm, increasing its damage by x100% but not refreshing its duration. Storm Feathers are now Jaguar Skills and the firestorm is an Eagle, Jaguar, and Storm Feather Skill."
  },
  "catalog": {
   "items": {

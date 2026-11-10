@@ -19557,7 +19557,15 @@
   "Flamescar": "Flamescar\nUnique Wand\nWeapon Damage\nRanks to Incinerate\nDamage Over Time Multiplier\nAll Damage Multiplier\nDamage Over Time\nIncinerate gains one final charge, irradiating the area around youj and increasing damage dealt by x [200 - 300%] but costing an additional 50 Mana per second.\nSorcerer\nDropped By:\nUrivar",
   "Incinerate": "Incinerate\nRank 15\nCore\nPyromancy\nChanneled\nCost: 25 Mana per second\nLucky Hit: 16%\nChannel a beam of fire, dealing [36%] damage and an additional [179%] Burning damage over 4 seconds.\nIncinerate's damage increases by x50% every second you channel it, up to x100%.\nModifiers\nIncinerate deals x25% increased damage while you are Healthy.\nIncinerate gains 20% chance to deal double damage while you have a stack of Overpower.\nIncinerate gains 2 additional beams and deals its Burning damage 50% faster, but its range is reduced.\nFire Damage",
   "Aspect of Channeling": "Aspect of Channeling\nCodex • Sorcerer\nWhile channeling a Skill, all damage is increased by x [50 - 70%].\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
-  "Cremator's Aspect": "Cremator's Aspect\nCodex • Sorcerer\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nOverheating Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+  "Cremator's Aspect": "Cremator's Aspect\nCodex • Sorcerer\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nOverheating Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Duelist's Aspect": "Duelist's Aspect\nCodex • Sorcerer\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nAttack Speed\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Neo": "Neo\nRare Rune of Ritual\nGain: 200 Offering\nDeal damage after not taking any within 2 seconds. (Resets if Invulnerable.)",
+  "Lac": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds.",
+  "Skull": "Skull\nGem\nWeapon:+x32% Physical Damage Multiplier\nArmor:+38% Healing Received\nJewelry:4375 Physical Resistance",
+  "Crown of Lucion": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Life\nRanks to Ball Lightning\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth",
+  "Conceited Aspect": "Conceited Aspect\nEvery Class\nDeal x [40 - 60%] increased damage while you have a Barrier active.\nCritical Strike Chance\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Aspect of Piercing Static": "Aspect of Piercing Static\nCodex • Sorcerer\nYour Crackling Energy charges grant [4 - 6%] increased Critical Strike Damage and 2.5% Attack Speed.\nIntelligence\nMaximum Life\nLife On Hit\nCritical Strike Damage Multiplier\nAttack Speed\nShock Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Emerald": "Emerald\nGem\nWeapon:+x32% Poison Damage Multiplier\nArmor:150 Dexterity\nJewelry:4375 Poison Resistance"
  },
  "catalog": {
   "items": {
@@ -19579,7 +19587,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Gloves",
+    "slot": "Amulet",
     "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Tibault's Will": {
@@ -19614,14 +19622,14 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 1",
+    "slot": "Ring 2",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "Drognan's Anguish": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/drognan's_anguish.png",
     "rarity": "unique",
     "kind": "unique",
-    "slot": "Ring 2",
+    "slot": "Ring 1",
     "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
    },
    "Starfall Coronet": {
@@ -19649,7 +19657,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "2H Weapon",
+    "slot": "Gloves",
     "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Lingering Aspect": {
@@ -19663,7 +19671,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 2",
+    "slot": "Amulet",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "Leoric's Crown": {
@@ -19684,7 +19692,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Weapon",
+    "slot": "Gloves",
     "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Ring of Starless Skies": {
@@ -19953,35 +19961,35 @@
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Mlor of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Berú of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Berú of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Linta of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Linta of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Fer of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Fer of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Phoba of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Phoba of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Phoba of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Berú of Wild Lightning": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
