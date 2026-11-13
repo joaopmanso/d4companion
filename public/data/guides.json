@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T14:49:55.561Z",
+ "updated": "2026-11-13T14:32:16.434Z",
  "classes": [
   {
    "name": "Barbarian",
@@ -456,7 +456,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/call_of_the_ancients.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/ancients-barbarian-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "death-blow-barbarian-endgame-base",
@@ -600,7 +600,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/shred_storm_shred.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/shred-druid-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "tornado-druid-endgame-standard-build",
@@ -708,7 +708,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blood_wave.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/blood-wave-necromancer-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "bone-spear-necromancer-endgame-standard-build",
@@ -804,7 +804,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/blessed_shield.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/blessed-shield-paladin-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "divine-lance-paladin-endgame-standard-build",
@@ -1080,7 +1080,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/penetrating_shot.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/penetrating-shot-rogue-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "dance-of-knives-rogue-endgame-standard-build",
@@ -1128,7 +1128,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/poison_imbuement.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/flurry-rogue-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "grenade-rogue-endgame-standard-build",
@@ -1332,7 +1332,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/counterattack_counterattack_of_the_swarm.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/pestilent-swarm-spiritborn-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "quill-volley-spiritborn-endgame-standard-build",
@@ -1356,7 +1356,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/stinger.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/stinger-spiritborn-endgame/?var=0",
-   "updated": "October 27, 2026"
+   "updated": "November 12, 2026"
   },
   {
    "id": "crushing-hand-spiritborn-endgame-standard-build",
