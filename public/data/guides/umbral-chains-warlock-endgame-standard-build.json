@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/umbral-chains-warlock-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-11-14",
  "tier": "",
  "short": "Umbral Chains - Warlock",
  "slots": {
@@ -94,7 +94,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nWillpower\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nShadow Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critDamage",
@@ -124,7 +124,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/bindings_of_attrition.png",
-    "tip": "Bindings of Attrition\nUnique Pants\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nCasting Dark Prison consumes [48 - 27%] of your Maximum Life to reset its Cooldown. You gain [20 - 30%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth"
+    "tip": "Bindings of Attrition\nMythic Unique Pants\nWillpower\nArmor\nArmor\nWrath Regeneration\nMaximum Life\nCasting Dark Prison consumes [62.4%] of your Maximum Life to reset its Cooldown. You gain [39%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth"
    },
    "affixes": [
     "willpower",
@@ -447,7 +447,7 @@
    {
     "name": "Profane Sentinel",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/profane_sentinel.png",
-    "tip": "Profane Sentinel\nRank 1\nArchfiend\nDemonology\nAbyss\nSummon\nGreater Demon\nRecast\nDominance Cost: 10\nLucky Hit: 22%\nSummon a demonic eye for 15 seconds that focuses upon enemies with a beam that makes them Vulnerable and periodically blasts them, dealing [180%] damage. Recast to direct the eye's targeting.\nModifiers\nProfane Sentinel's beam area is 125% larger.\nThe longer Profane Sentinel is locked onto the same enemy the stronger it becomes, dealing 25% more damage every second.\nCasting Profane Sentinel induces your Lesser Demon Skills to make enemies Vulnerable for 5 seconds.\nShadow Damage"
+    "tip": "Profane Sentinel\nRank 15\nArchfiend\nDemonology\nAbyss\nSummon\nGreater Demon\nRecast\nDominance Cost: 10\nLucky Hit: 22%\nSummon a demonic eye for 15 seconds that focuses upon enemies with a beam that makes them Vulnerable and periodically blasts them, dealing [459%] damage. Recast to direct the eye's targeting.\nModifiers\nProfane Sentinel deals x30% when it only hits a single target.\nProfane Sentinel deals x25% increased damage but its blast area is reduced by 50%.\nYou can now summon multiple Profane Sentinels but can no longer redirect their gaze. Profane Sentinels deal [321%] damage and fire extra blasts at any Nearby Stealthed enemies.\nShadow Damage"
    },
    {
     "name": "Summon Vollach",

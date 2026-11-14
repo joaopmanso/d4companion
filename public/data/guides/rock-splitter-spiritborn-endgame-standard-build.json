@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/rock-splitter-spiritborn-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-11-14",
  "tier": "",
  "short": "Rock Splitter - Spiritborn",
  "slots": {
@@ -281,7 +281,7 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+    "tip": "Reaper's Aspect\nSpiritborn\nEnemies you Poison have 100% Reduced Healing and your Eagle Skills gain + [30 - 50%] increased Critical Strike Chance and x30% increased damage against them.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Damage\n+1 Set count to \nRezoka's Rage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critDamage",

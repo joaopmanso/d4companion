@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/incinerate-sorcerer-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-11-14",
  "tier": "",
  "short": "Incinerate - Sorcerer",
  "slots": {
@@ -55,7 +55,7 @@
     "kind": "mythic",
     "rarity": "mythic",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
-    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
+    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
    },
    "affixes": [
     "intelligence",
@@ -92,7 +92,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "vulnDamage",
@@ -116,7 +116,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+    "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
    },
    "affixes": [
     "intelligence",
@@ -153,7 +153,7 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
-    "tip": "Overheating Aspect\nSorcerer\nSlain Burning enemies have a 10% chance to grant Overpower. Your Fire damage is increased by x [15 - 20%].\nIntelligence\nArmor\nMaximum Life\nFirewall\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+    "tip": "Overheating Aspect\nSorcerer\nYour Fire Damage is increased by x [15 - 20%]. \nLucky Hit: Fire Damage has up to a 15% chance to generate a stack of Overpower.\nIntelligence\nMaximum Life\nMovement Speed\nMeteor\nMovement Speed\nTal Rasha's Threefold Way\n: Maximum Mana\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "affixes": [
     "intelligence",
@@ -213,7 +213,7 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nAttack Speed\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nDamage Over Time\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "vulnDamage",
@@ -247,7 +247,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/drognan's_anguish.png",
-    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+    "tip": "Drognan's Anguish\nMythic Unique Ring\nIntelligence\nRanks to Pyromancy Skills\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nCasting Pyromancy Skills Burns you for 5% of your Maximum Life over 10 seconds. You inflict x [325%] increased Burning damage based on how much of your Life is Burning.\nSorcerer\nDropped By:\nAndariel"
    },
    "affixes": [
     "intelligence",
@@ -281,7 +281,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
-    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+    "tip": "Aspect of Elemental Attunement\nCodex • Sorcerer\nLucky Hit: Up to a 20% chance to reduce the Cooldown of one of your Defensive Skills by [8 - 10] seconds.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nRing, Amulet (+50%)"
    },
    "affixes": [
     "vulnDamage",
@@ -314,7 +314,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "cdr",
@@ -422,17 +422,17 @@
    {
     "name": "Teleport",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
-    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport Weakens enemies for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
    },
    {
     "name": "Ice Armor",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
-    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
+    "tip": "Ice Armor\nRank 1\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [30%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [50%] while active."
    },
    {
     "name": "Flame Shield",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
-    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield increases your minimum Overpower by 1 for 2 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
    },
    {
     "name": "Hydra",
@@ -447,7 +447,7 @@
    {
     "name": "Inferno",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/inferno.png",
-    "tip": "Inferno\nRank 15\nUltimate\nPyromancy\nCooldown: 24 seconds\nLucky Hit: 10%\nSummon a fiery serpent that deals [54%] damage and Burns enemies for [217%] damage over 4 seconds, stacking up to 4 times.\nModifiers\nInferno overfills your Overpower by 2 stacks.\nInferno's Cooldown is reduced to 12 seconds, but it now also costs 30 Mana.\nInferno's Burning duration is increased to 8 seconds. Enemies killed by Inferno explode, dealing [270%] damage.\nFire Damage"
+    "tip": "Inferno\nRank 15\nUltimate\nPyromancy\nCooldown: 24 seconds\nLucky Hit: 10%\nSummon a fiery serpent that deals [54%] damage and Burns enemies for [217%] damage over 4 seconds, stacking up to 4 times.\nInferno continuously pulls enemies towards the center.\nModifiers\nInferno overfills your Overpower by 2 stacks.\nInferno's Cooldown is reduced to 12 seconds, but it now also costs 30 Mana.\nInferno now forms around you and follows you, healing you for 50% of your Maximum Life per second.\nFire Damage"
    },
    {
     "name": "Incinerate",
@@ -457,7 +457,7 @@
    {
     "name": "Firewall",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/firewall.png",
-    "tip": "Firewall\nRank 15\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 30%\nCreate a wall of fire, dealing [765%] Burning damage over 3.5 seconds. Enemies continue Burning for 1.8 seconds after leaving the wall.\nModifiers\nFirewall deals x75% increased damage, but its duration is reduced by 25%.\nFirewall Weakens enemies for 2 seconds.\nFirewall creates a ring of fire that deals [765%] Fire damage over 3.5 seconds, but it now\nhas a 12 second Cooldown.\nStanding in this ring causes your Direct Damage from Pyromancy Skills to inflict this Burning damage to enemies.\nFire Damage"
+    "tip": "Firewall\nRank 11\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 30%\nCreate a wall of fire, dealing [630%] Burning damage over 3.5 seconds. Enemies continue Burning for 1.8 seconds after leaving the wall.\nModifiers\nFirewall deals x75% increased damage, but its duration is reduced by 25%.\nEvery 100 Mana spent makes your next Firewall cost no Mana, stacking up to 300 total Mana.\nFirewall creates a ring of fire that deals [210%] Fire damage over 5 seconds, but it now\nhas a 8 second Cooldown.\nStanding in this ring causes your Direct Damage from Pyromancy Skills to inflict this Burning damage to enemies.\nFire Damage"
    }
   ],
   "prime": [

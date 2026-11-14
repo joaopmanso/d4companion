@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/flurry-rogue-endgame/?var=0",
  "updated": "November 12, 2026",
  "author": "",
- "checked": "2026-11-13",
+ "checked": "2026-11-14",
  "tier": "",
  "short": "Flurry - Rogue",
  "slots": {
@@ -246,7 +246,7 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Splinter of Hellfire\nSoul Splinter\nJewelry:625 Resistance to All Elements\nYou deal x50% increased damage but lose 100% Critical Strike Chance."
+    "tip": "Writhing Aspect\nCodex • Rogue\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "dexterity",
@@ -307,7 +307,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/asheara's_khanjar.png",
-    "tip": "Asheara's Khanjar\nUnique 1h Dagger\nWeapon Damage\nDexterity\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nHits with this weapon increase your Attack Speed by + [3.5 - 5%] and damage by x [11.7 - 16.7%] for 4 seconds, up to + [10.5 - 15%] and x [35 - 50%] respectively.\nRogue\nDropped By:\nAstaroth"
+    "tip": "Asheara's Khanjar\nMythic Unique 1h Dagger\nWeapon Damage\nMaximum Life\nCritical Strike Damage Multiplier\nDexterity\nCritical Strike Chance\nHits with this weapon increase your Attack Speed by + [6.5%] and damage by x [21.71%] for 4 seconds, up to + [19.5%] and x [65%] respectively.\nRogue\nDropped By:\nAstaroth"
    },
    "affixes": [
     "weaponDamage",
@@ -454,7 +454,7 @@
    {
     "name": "Dance of Knives",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
-    "tip": "Dance of Knives\nRank 15\nCore\nCutthroat\nImbueable\nChanneled\nEnergy Cost: 25 per second\nLucky Hit: 35%\nChannel to launch knives at surrounding enemies with each knife dealing [133%] damage. Attack Speed increases damage done rather than number of knives thrown.\nModifiers\nDance of Knives Slows enemies hit by 25% for 4 seconds and grants x12% Movement Speed while Channeling.\nDance of Knives' knives has a 33% chance to pierce and grenades' explosion area is increased by +25%.\nKnives have a 50% chance to shatter into 6 shards of metal on hit, dealing [66%] damage.\nDance of Knives becomes a Marksman Skill.\nPhysical Damage\nRequires Dual Wielded weapons"
+    "tip": "Dance of Knives\nRank 1\nCore\nCutthroat\nImbueable\nChanneled\nEnergy Cost: 25 per second\nLucky Hit: 35%\nChannel to launch knives at surrounding enemies with each knife dealing [52%] damage. Attack Speed increases damage done rather than number of knives thrown.\nModifiers\nDance of Knives Slows enemies hit by 25% for 4 seconds and grants x12% Movement Speed while Channeling.\nDance of Knives gains x20% increased Lucky Hit Chance.\nKnives have a 50% chance to shatter into 6 shards of metal on hit, dealing [26%] damage.\nDance of Knives becomes a Marksman Skill.\nPhysical Damage\nRequires Dual Wielded weapons"
    },
    {
     "name": "Concealment",

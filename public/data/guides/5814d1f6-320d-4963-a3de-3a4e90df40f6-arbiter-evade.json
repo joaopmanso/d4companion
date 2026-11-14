@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/5814d1f6-320d-4963-a3de-3a4e90df40f6/?var=1",
  "updated": "October 9, 2026",
  "author": "",
- "checked": "2026-10-31",
+ "checked": "2026-11-14",
  "tier": "A",
  "short": "Hammerdin",
  "slots": {
@@ -255,7 +255,7 @@
     "kind": "mythic",
     "rarity": "mythic",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
-    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "affixes": [
     "strength",
@@ -460,7 +460,7 @@
    {
     "name": "Aegis",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/aegis.png",
-    "tip": "Aegis\nRank 4\nValor\nDefensive\nJuggernaut\nCooldown: 20 seconds\nSurround yourself with shields of the Light, Taunting Close enemies and gaining [34%] Block Chance and 30% Armor for 4 seconds.\nModifiers\nCasting Aegis grants Unstoppable for 4 seconds.\nCasting Aegis increases your Block Damage Reduction by 15% while active.\nPassive: Gaining or spending Resolve has a 4% chance to trigger a free Aegis.\nCasting Aegis grants 8 stacks of Resolve."
+    "tip": "Aegis\nRank 15\nValor\nDefensive\nJuggernaut\nCooldown: 20 seconds\nSurround yourself with shields of the Light, Taunting Close enemies and gaining [42%] Block Chance and 30% Armor for 4 seconds.\nModifiers\nCasting Aegis grants Unstoppable for 4 seconds.\nIncrease Aegis's duration by 4.\nAegis now applies Judgement instead of Taunting enemies.\nBlocking while Aegis is active applies Judgement to the attacker."
    },
    {
     "name": "Arbiter of Justice",

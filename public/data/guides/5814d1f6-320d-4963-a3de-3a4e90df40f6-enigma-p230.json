@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/5814d1f6-320d-4963-a3de-3a4e90df40f6/?var=0",
  "updated": "October 9, 2026",
  "author": "",
- "checked": "2026-10-31",
+ "checked": "2026-11-14",
  "tier": "A",
  "short": "Hammerdin",
  "slots": {
@@ -54,7 +54,7 @@
     "kind": "runeword",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
-    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Resolve Stacks\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
    },
    "affixes": [
     "ranksAll",
@@ -258,7 +258,7 @@
     "kind": "mythic",
     "rarity": "mythic",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
-    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "affixes": [
     "strength",
@@ -462,7 +462,7 @@
    {
     "name": "Rally",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rally.png",
-    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nCasting Rally's increases your Movement Speed by an additional +5% and grants Unhindered while active.\nRally now costs 35% of Maximum Life and can stack up to 3 times."
+    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nRally's Cooldown and Costs are reduced by 15%.\nRally generates 20 more Faith and gains 1 additional Charge."
    },
    {
     "name": "Arbiter of Justice",

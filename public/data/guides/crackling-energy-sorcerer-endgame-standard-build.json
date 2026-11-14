@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/crackling-energy-sorcerer-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-30",
+ "checked": "2026-11-14",
  "tier": "",
  "short": "Crackling Energy - Sorcerer",
  "slots": {
@@ -54,7 +54,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
-    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
+    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
    },
    "affixes": [
     "intelligence",
@@ -91,7 +91,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critDamage",
@@ -121,7 +121,7 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
-    "tip": "Mage-Lord's Aspect\nSorcerer\nDealing Shock damage to Close enemies grants [30 - 45%] Damage Reduction for 6 seconds.\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+    "tip": "Mage-Lord's Aspect\nSorcerer\nDealing Shock damage to Close enemies grants [30 - 45%] Damage Reduction for 6 seconds.\nIntelligence\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "affixes": [
     "intelligence",
@@ -158,7 +158,7 @@
     "kind": "unique",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
-    "tip": "Esu's Heirloom\nUnique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [20 - 40%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
+    "tip": "Esu's Heirloom\nMythic Unique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [52%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
    },
    "affixes": [
     "intelligence",
@@ -189,7 +189,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nDamage Over Time Multiplier\nWeapon Damage\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Skills\nResource Cost Reduction\nAspect of Shredding Blades\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [],
    "affixNames": [],
@@ -280,7 +280,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
-    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+    "tip": "Aspect of Elemental Attunement\nCodex • Sorcerer\nLucky Hit: Up to a 20% chance to reduce the Cooldown of one of your Defensive Skills by [8 - 10] seconds.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nRing, Amulet (+50%)"
    },
    "affixes": [
     "critDamage",
@@ -389,22 +389,22 @@
    {
     "name": "Teleport",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
-    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport Weakens enemies for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
    },
    {
     "name": "Flame Shield",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield_flash.png",
-    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield increases your minimum Overpower by 1 for 2 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
    },
    {
     "name": "Ice Armor",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
-    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
+    "tip": "Ice Armor\nRank 1\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [30%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [50%] while active."
    },
    {
     "name": "Meteor",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
-    "tip": "Meteor\nRank 3\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [288%] damage and an additional [72%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit.\nMeteor rains down 6 Meteorites before the final impact that each deal [106%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
+    "tip": "Meteor\nRank 9\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [444%] damage and an additional [111%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit, up to 2 times.\nMeteor rains down 6 Meteorites before the final impact that each deal [163%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
    },
    {
     "name": "Fire Bolt",
@@ -414,12 +414,12 @@
    {
     "name": "Unstable Currents",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/unstable_currents.png",
-    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents reduces your Mana costs by 5.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
+    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
    },
    {
     "name": "Lightning Spear",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/lightning_spear.png",
-    "tip": "Lightning Spear\nEnchantment\nAbsorbing Crackling Energy has a 10% chance to conjure a Lightning Spear."
+    "tip": "Lightning Spear\nRank 15\nConjuration\nShock\nSummon\nCooldown: 20 seconds\nLucky Hit: 5%\nSummon a spear of lightning that seeks out enemies for 6 seconds, dealing [306%] damage per hit.\nYou may have up to 12 Lightning Spears active at a time.\nModifiers\nWhen a Lightning Spear Critically Strikes, its duration is increased by 0.1 seconds.\nLightning Spear gains 10% increased Critical Strike Chance.\nLightning Spear arcs to 2 additional surrounding targets dealing [122%] damage. Critical Strikes greatly increase the range of the arcs.\nLightning Damage"
    },
    {
     "name": "Charged Bolts",

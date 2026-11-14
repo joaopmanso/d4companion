@@ -51,11 +51,11 @@
   },
   {
    "name": "Asheara's Khanjar",
-   "rarity": "unique",
+   "rarity": "mythic",
    "kind": "unique",
    "type": "1h Dagger",
    "slot": "weapon",
-   "tip": "Asheara's Khanjar\nUnique 1h Dagger\nWeapon Damage\nDexterity\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nHits with this weapon increase your Attack Speed by + [3.5 - 5%] and damage by x [11.7 - 16.7%] for 4 seconds, up to + [10.5 - 15%] and x [35 - 50%] respectively.\nRogue\nDropped By:\nAstaroth",
+   "tip": "Asheara's Khanjar\nMythic Unique 1h Dagger\nWeapon Damage\nMaximum Life\nCritical Strike Damage Multiplier\nDexterity\nCritical Strike Chance\nHits with this weapon increase your Attack Speed by + [6.5%] and damage by x [21.71%] for 4 seconds, up to + [19.5%] and x [65%] respectively.\nRogue\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/asheara's_khanjar.png",
    "classes": [
     "Rogue"
@@ -124,11 +124,11 @@
   },
   {
    "name": "Bindings of Attrition",
-   "rarity": "unique",
+   "rarity": "mythic",
    "kind": "unique",
    "type": "Pants",
    "slot": "pants",
-   "tip": "Bindings of Attrition\nUnique Pants\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nCasting Dark Prison consumes [48 - 27%] of your Maximum Life to reset its Cooldown. You gain [20 - 30%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth",
+   "tip": "Bindings of Attrition\nMythic Unique Pants\nWillpower\nArmor\nArmor\nWrath Regeneration\nMaximum Life\nCasting Dark Prison consumes [62.4%] of your Maximum Life to reset its Cooldown. You gain [39%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/bindings_of_attrition.png",
    "classes": [
     "Warlock"
@@ -343,11 +343,11 @@
   },
   {
    "name": "Drognan's Anguish",
-   "rarity": "unique",
+   "rarity": "mythic",
    "kind": "unique",
    "type": "Ring",
    "slot": "ring",
-   "tip": "",
+   "tip": "Drognan's Anguish\nMythic Unique Ring\nIntelligence\nRanks to Pyromancy Skills\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nCasting Pyromancy Skills Burns you for 5% of your Maximum Life over 10 seconds. You inflict x [325%] increased Burning damage based on how much of your Life is Burning.\nSorcerer\nDropped By:\nAndariel",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/drognan's_anguish.png",
    "classes": [
     "Sorcerer"
@@ -434,11 +434,11 @@
   },
   {
    "name": "Esu's Heirloom",
-   "rarity": "unique",
+   "rarity": "mythic",
    "kind": "unique",
    "type": "Boots",
    "slot": "boots",
-   "tip": "Esu's Heirloom\nUnique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [20 - 40%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth",
+   "tip": "Esu's Heirloom\nMythic Unique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [52%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
    "classes": [
     "Sorcerer"
@@ -1201,7 +1201,7 @@
    "kind": "mythic",
    "type": "Chest Armor",
    "slot": "chest",
-   "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc",
+   "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
    "classes": [
     "Sorcerer"
@@ -2142,6 +2142,13 @@
    ]
   },
   {
+   "name": "Aspect of Combustion",
+   "tip": "Aspect of Combustion\nCodex • Sorcerer\nYour Pyromancy Skills deal [70 - 100%] increased Critical Strike Damage to Burning enemies.\nWeapon Damage\nIntelligence\nMaximum Life\nCritical Strike Damage Multiplier\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Sorcerer"
+   ]
+  },
+  {
    "name": "Aspect of Crippling Darkness",
    "tip": "Aspect of Crippling Darkness\nCodex • Rogue\nLucky Hit: Shadow damage has up to a 15% chance to deal x [20 - 30%] increased damage, Fear and Immobilize for 1 second.\nDexterity\nArmor\nMaximum Life\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
    "classes": [
@@ -2196,8 +2203,15 @@
    ]
   },
   {
+   "name": "Aspect of Elemental Attunement",
+   "tip": "Aspect of Elemental Attunement\nCodex • Sorcerer\nLucky Hit: Up to a 20% chance to reduce the Cooldown of one of your Defensive Skills by [8 - 10] seconds.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nRing, Amulet (+50%)",
+   "classes": [
+    "Sorcerer"
+   ]
+  },
+  {
    "name": "Aspect of Elemental Constellation",
-   "tip": "Aspect of Elemental Constellation\nSorcerer\nWhile you have an equal number of Frost, Pyromancy, and Shock Skills equipped, you deal [45 - 60%] increased damage.\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Elemental Constellation\nSorcerer\nWhile you have an equal number of Frost, Pyromancy, and Shock Skills equipped, you deal [45 - 60%] increased damage.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nAttack Speed\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2226,7 +2240,7 @@
   },
   {
    "name": "Aspect of Fathomless Dark",
-   "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nWillpower\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nShadow Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Warlock"
    ]
@@ -2335,7 +2349,7 @@
   },
   {
    "name": "Aspect of Interdiction",
-   "tip": "Aspect of Interdiction\nPaladin\nGain [2 - 3%] Block Chance per Resolve stack.\nStrength\nMaximum Life\nArmor\nMovement Speed\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
+   "tip": "Aspect of Interdiction\nPaladin\nGain [2 - 3%] Block Chance per Resolve stack.\nStrength\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nDefiance Aura Potency\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
    "classes": [
     "Paladin",
     "Spiritborn"
@@ -2413,7 +2427,7 @@
   },
   {
    "name": "Aspect of Overwhelming Currents",
-   "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2493,7 +2507,7 @@
   },
   {
    "name": "Aspect of Splintering Energy",
-   "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nDamage Over Time Multiplier\nWeapon Damage\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Skills\nResource Cost Reduction\nAspect of Shredding Blades\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2588,7 +2602,7 @@
   },
   {
    "name": "Aspect of the Untarnished Blaze",
-   "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2658,7 +2672,7 @@
   },
   {
    "name": "Blasting Aspect",
-   "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nIntelligence\nCritical Strike Chance\nCritical Strike Damage Multiplier\nMaximum Resource\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2799,8 +2813,15 @@
    ]
   },
   {
+   "name": "Lingering Aspect",
+   "tip": "Lingering Aspect\nCodex • Sorcerer\nYour Mastery Skills deal x [30 - 40%] increased damage every second they are active.\nMaximum Resource\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nCooldown Reduction\nAspect of Shredding Blades\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Sorcerer"
+   ]
+  },
+  {
    "name": "Mage-Lord's Aspect",
-   "tip": "Mage-Lord's Aspect\nSorcerer\nDealing Shock damage to Close enemies grants [30 - 45%] Damage Reduction for 6 seconds.\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
+   "tip": "Mage-Lord's Aspect\nSorcerer\nDealing Shock damage to Close enemies grants [30 - 45%] Damage Reduction for 6 seconds.\nIntelligence\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2853,6 +2874,13 @@
    "tip": "Overwhelming Aspect\nCodex • Warlock\nEach hit against Elite enemies deals x [80 - 120%] increased damage but requires and consumes 4 stacks of Overpower.\nWillpower\nMaximum Life\nCritical Strike Damage Multiplier\nWeapon Damage\nDamage Per Overpower Stack\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Warlock"
+   ]
+  },
+  {
+   "name": "Reaper's Aspect",
+   "tip": "Reaper's Aspect\nSpiritborn\nEnemies you Poison have 100% Reduced Healing and your Eagle Skills gain + [30 - 50%] increased Critical Strike Chance and x30% increased damage against them.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Damage\n+1 Set count to \nRezoka's Rage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Spiritborn"
    ]
   },
   {
@@ -2913,7 +2941,7 @@
   },
   {
    "name": "Storm Splitter's Aspect",
-   "tip": "Storm Splitter's Aspect\nCodex • Sorcerer\nYour non-Channeled Shock Skills deal x [30 - 45%] increased damage and have a 15% chance to trigger themselves on Cast.\nCritical Strike Damage Multiplier\nIntelligence\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Storm Splitter's Aspect\nCodex • Sorcerer\nYour non-Channeled Shock Skills deal x [30 - 45%] increased damage and have a 15% chance to trigger themselves on Cast.\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2987,8 +3015,9 @@
   },
   {
    "name": "Writhing Aspect",
-   "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Writhing Aspect\nCodex • Rogue\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
+    "Rogue",
     "Sorcerer",
     "Spiritborn"
    ]

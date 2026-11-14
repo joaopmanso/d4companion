@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/zeal-paladin-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-31",
+ "checked": "2026-11-14",
  "tier": "B",
  "short": "Zeal",
  "slots": {
@@ -50,7 +50,7 @@
     "kind": "runeword",
     "rarity": "unique",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
-    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Resolve Stacks\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
+    "tip": "Enigma\nUnique Chest Armor\nRanks to All Skills\nMovement Speed\nDamage Reduction\nMaximum Life\nArmor\nJahIthBer\nMaximum Life\nYour Evade is now Sorcerer's Teleport and costs 33 Primary Resource."
    },
    "affixes": [
     "ranksAll",
@@ -146,7 +146,7 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
-    "tip": "Aspect of Interdiction\nPaladin\nGain [2 - 3%] Block Chance per Resolve stack.\nStrength\nMaximum Life\nArmor\nMovement Speed\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+    "tip": "Aspect of Interdiction\nPaladin\nGain [2 - 3%] Block Chance per Resolve stack.\nStrength\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nDefiance Aura Potency\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "affixes": [
     "strength",
@@ -428,7 +428,7 @@
    {
     "name": "Rally",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rally.png",
-    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nCasting Rally's increases your Movement Speed by an additional +5% and grants Unhindered while active.\nRally now costs 35% of Maximum Life and can stack up to 3 times."
+    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nRally's Cooldown and Costs are reduced by 15%.\nRally generates 20 more Faith and gains 1 additional Charge."
    },
    {
     "name": "Fortress",
@@ -438,7 +438,7 @@
    {
     "name": "Zealot",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zealot.png",
-    "tip": "Zealot\nCasting Zealot Skills grants Fervor for 2 seconds. Critically Striking with these Skills echoes the attack for an additional 35% of the damage, repeating for each stack of Fervor.\nWhile at maximum Fervor, additionally Fortify for 1% of your Maximum Life."
+    "tip": "Zealot\nCasting Zealot Skills grants Fervor for 2 seconds. Critically Striking with these Skills echoes the attack for an additional 45% of the damage, repeating for each stack of Fervor.\nWhile at maximum Fervor, Zealot Skills Fortify you for 5% of your Maximum Life, and gain 15% Damage Reduction."
    }
   ],
   "prime": [
