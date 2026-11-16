@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:28:19.219Z",
+ "updated": "2026-11-16T15:40:50.196Z",
  "classes": [
   {
    "name": "Barbarian",
@@ -432,7 +432,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rend.png",
    "variant": "Selig",
    "url": "https://d4builds.gg/builds/rend-barbarian-endgame/?var=1",
-   "updated": "October 15, 2026"
+   "updated": "November 16, 2026"
   },
   {
    "id": "rend-barbarian-endgame-standard-build",
@@ -444,7 +444,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rend.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/rend-barbarian-endgame/?var=0",
-   "updated": "October 15, 2026"
+   "updated": "November 16, 2026"
   },
   {
    "id": "ancients-barbarian-endgame-standard-build",
