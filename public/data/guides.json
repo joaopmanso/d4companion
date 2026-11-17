@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T15:40:50.196Z",
+ "updated": "2026-11-17T15:57:15.369Z",
  "classes": [
   {
    "name": "Barbarian",
@@ -421,6 +421,18 @@
    "variant": "HotA + WW",
    "url": "https://d4builds.gg/builds/hota-barbarian-endgame/?var=1",
    "updated": "September 14, 2026"
+  },
+  {
+   "id": "rend-barbarian-endgame-leap",
+   "site": "d4builds",
+   "className": "Barbarian",
+   "build": "Rend Barb",
+   "short": "Rend",
+   "tier": "A",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rend.png",
+   "variant": "Leap",
+   "url": "https://d4builds.gg/builds/rend-barbarian-endgame/?var=2",
+   "updated": "November 16, 2026"
   },
   {
    "id": "rend-barbarian-endgame-selig",
