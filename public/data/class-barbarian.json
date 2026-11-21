@@ -1,6 +1,6 @@
 {
  "className": "Barbarian",
- "captured": "2026-11-14T13:37:55.331Z",
+ "captured": "2026-11-21T14:47:03.651Z",
  "tree": {
   "nodes": [
    {
@@ -17552,6 +17552,7 @@
   "Tir": "Tir\nCommon Rune of Ritual\nRequires: 300 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain +2 Primary Resource on Kill for 8 seconds, up to +8.",
   "Mal": "Mal\nCommon Rune of Invocation\nGain: 666 Offering\nInvoke your Prime Evil power",
   "Arioc's Needle": "Arioc's Needle\nMartial Skill\nGain x [32.5%] Deadly Strike Chance. Your Deadly Strikes deal x [65%] increased damage.",
+  "Leap": "Leap\nRank 1\nBrawling\nMobility\nMartial\nFury Generate: 15\nCooldown: 17 seconds\nLucky Hit: 66%\nLeap forward and then slam down, dealing [55%] damage and Slowing surrounding enemies by 70% for 3 seconds.\nModifiers\nLeap now generates 20 Fury.\nLeap now Pulls In enemies upon landing.\nLeap Summons 3 Ancients that Leap at a random enemy and deal [14%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon",
   "Arreat's Bearing": "Arreat's Bearing\nUnique Pants\nStrength\nArmor\nMaximum Life\nFury Regeneration\nMaximum Life\nYou non-Ultimate Skills that summon Ancients will now summon an additional one. Skills that summon Ancients deal x [30 - 40%] increased damage.\nBarbarian\nDropped By:\nBartuc",
   "Call to Arms": "Call to Arms\nUnique Weapon\nCritical Strike Damage Multiplier\nRanks to All Skills\nAll Damage Multiplier\nRanks to Shout Skills\nAttack Speed\nAmnRalMalIstOhm\nCritical Strike Chance\nWhile affected by a Shout Skill gain:\n+ [5] Ranks to all Skills\n+ [15%] Maximum Life\n+ x [15%] Maximum Primary Resource",
   "Aspect of Apogeic Furor": "Aspect of Apogeic Furor\nEvery Class\nCasting an Ultimate Skill reduces the Cooldowns of your other Skills by [6.5 - 10] seconds.\nVulnerable Damage Multiplier\nAttack Speed\nCooldown Reduction\nCritical Strike Damage Multiplier\nCooldown Reduction\nRing, Amulet (+50%)",
@@ -17596,8 +17597,7 @@
   "Kry": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies.",
   "Moni": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills.",
   "Fer of the Bloodletter": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",
-  "Berú of the Bloodletter": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",
-  "Leap": "Leap\nRank 1\nBrawling\nMobility\nMartial\nFury Generate: 15\nCooldown: 17 seconds\nLucky Hit: 66%\nLeap forward and then slam down, dealing [55%] damage and Slowing surrounding enemies by 70% for 3 seconds.\nModifiers\nLeap now generates 20 Fury.\nLeap deals x20% increased damage and Knocks Down enemies for 1 second.\nLeap Summons 3 Ancients that Leap at a random enemy and deal [14%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon"
+  "Berú of the Bloodletter": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
  },
  "catalog": {
   "items": {

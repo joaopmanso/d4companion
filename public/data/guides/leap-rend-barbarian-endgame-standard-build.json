@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/leap-rend-barbarian-endgame/?var=0",
  "updated": "September 19, 2026",
  "author": "",
- "checked": "2026-10-31",
+ "checked": "2026-11-21",
  "tier": "",
  "short": "Leap Rend - Barbarian",
  "slots": {
@@ -518,7 +518,7 @@
    {
     "name": "Leap",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/leap_mosh.png",
-    "tip": "Leap\nRank 1\nBrawling\nMobility\nMartial\nFury Generate: 15\nCooldown: 17 seconds\nLucky Hit: 66%\nLeap forward and then slam down, dealing [55%] damage and Slowing surrounding enemies by 70% for 3 seconds.\nModifiers\nLeap now generates 20 Fury.\nLeap deals x20% increased damage and Knocks Down enemies for 1 second.\nLeap Summons 3 Ancients that Leap at a random enemy and deal [14%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon"
+    "tip": "Leap\nRank 1\nBrawling\nMobility\nMartial\nFury Generate: 15\nCooldown: 17 seconds\nLucky Hit: 66%\nLeap forward and then slam down, dealing [55%] damage and Slowing surrounding enemies by 70% for 3 seconds.\nModifiers\nLeap now generates 20 Fury.\nLeap now Pulls In enemies upon landing.\nLeap Summons 3 Ancients that Leap at a random enemy and deal [14%] damage.\nPhysical Damage\nRequires any complete Arsenal weapon"
    },
    {
     "name": "2h Sword",
