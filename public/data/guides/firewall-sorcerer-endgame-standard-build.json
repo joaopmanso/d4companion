@@ -2,12 +2,12 @@
  "id": "firewall-sorcerer-endgame-standard-build",
  "site": "d4builds",
  "className": "Sorcerer",
- "build": "Firewall - Sorcerer",
+ "build": "Firewall Sorc",
  "variant": "Standard Build",
  "url": "https://d4builds.gg/builds/firewall-sorcerer-endgame/?var=0",
- "updated": "October 27, 2026",
+ "updated": "November 25, 2026",
  "author": "",
- "checked": "2026-10-31",
+ "checked": "2026-11-25",
  "tier": "S",
  "short": "Firewall",
  "slots": {
@@ -15,119 +15,22 @@
    "name": "Helm",
    "item": {
     "name": "Vision of the Firestorm",
-    "kind": "unique",
-    "rarity": "unique",
+    "kind": "mythic",
+    "rarity": "mythic",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/vision_of_the_firestorm.png",
-    "tip": "Vision of the Firestorm\nUnique Helm\nIntelligence\nRanks to Firewall\nMaximum Life\nCooldown Reduction\nMaximum Life\nFirewall has x [80 - 100%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire"
+    "tip": "Vision of the Firestorm\nMythic Unique Helm\nIntelligence\nRanks to Firewall\nMaximum Resource\nCooldown Reduction\nMaximum Life\nFirewall has x [130%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire"
    },
    "affixes": [
     "intelligence",
     "ranks:firewall",
-    "life",
     "cdr"
    ],
    "affixNames": [
     "Intelligence",
     "Ranks To Firewall",
-    "Maximum Life",
-    "Cooldown Reduction"
-   ],
-   "tempers": [
-    [
-     "life",
-     "Worldly Endurance (Defensive)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [
-    "Tal",
-    "Eom"
-   ],
-   "socketArt": {
-    "Tal": "https://sunderarmor.com/DIABLO4/Runes/15-invocation.png",
-    "Eom": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
-   }
-  },
-  "chest": {
-   "name": "Chest Armor",
-   "item": {
-    "name": "Raiment of the Infinite",
-    "kind": "mythic",
-    "rarity": "mythic",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
-    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
-   },
-   "affixes": [
-    "intelligence",
-    "life",
-    "armor"
-   ],
-   "affixNames": [
-    "Intelligence",
-    "Maximum Life",
-    "Armor",
-    "Mana Regeneration"
-   ],
-   "tempers": [
-    [
-     "life",
-     "Worldly Endurance (Defensive)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [
-    "Yul",
-    "Lo"
-   ],
-   "socketArt": {
-    "Yul": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-    "Lo": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png"
-   }
-  },
-  "gloves": {
-   "name": "Gloves",
-   "item": {
-    "name": "Writhing Aspect",
-    "kind": "aspect",
-    "rarity": "legendary",
-    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nIntelligence\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
-   },
-   "affixes": [
-    "vulnDamage",
-    "intelligence"
-   ],
-   "affixNames": [
-    "Damage Over Time Multiplier",
-    "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Intelligence"
-   ],
-   "tempers": [],
-   "aspects": [],
-   "sockets": [],
-   "socketArt": {}
-  },
-  "pants": {
-   "name": "Pants",
-   "item": {
-    "name": "Tibault's Will",
-    "kind": "unique",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
-   },
-   "affixes": [
-    "intelligence",
-    "life",
-    "armor",
-    "resAll"
-   ],
-   "affixNames": [
-    "Primary Core Stat",
-    "Maximum Life",
-    "Armor",
-    "Resistance To All Elements"
+    "Maximum Resource",
+    "Cooldown Reduction",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -144,25 +47,128 @@
     "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
    }
   },
-  "boots": {
-   "name": "Boots",
+  "chest": {
+   "name": "Chest Armor",
    "item": {
-    "name": "Overheating Aspect",
-    "kind": "aspect",
-    "rarity": "legendary",
-    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
-    "tip": "Overheating Aspect\nSorcerer\nSlain Burning enemies have a 10% chance to grant Overpower. Your Fire damage is increased by x [15 - 20%].\nIntelligence\nArmor\nMaximum Life\nFirewall\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+    "name": "Raiment of the Infinite",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
+    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
    },
    "affixes": [
     "intelligence",
-    "armor",
-    "life"
+    "life",
+    "armor"
    ],
    "affixNames": [
     "Intelligence",
-    "Armor",
     "Maximum Life",
-    "Firewall"
+    "Maximum Resource",
+    "Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Neo",
+    "Kry"
+   ],
+   "socketArt": {
+    "Neo": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Writhing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nAttack Speed\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nDamage Over Time\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "vulnDamage",
+    "fireDamageMult",
+    "fireDamage"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Damage Over Time Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Fire Damage Multiplier",
+    "Habacalva's Cauldron: Fire Damage"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Mana Regeneration",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Lac"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lac": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Shredding Blades",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Shredding Blades\nSorcerer\nConjuration damage makes enemies Vulnerable for 4 seconds. You deal x [15 - 20%] increased damage to Vulnerable enemies.\nIntelligence\nMaximum Life\nMovement Speed\nFirewall\nMovement Speed\nHabacalva's Cauldron\n: Fire Damage\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "movementSpeed",
+    "fireDamage"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Movement Speed",
+    "Firewall",
+    "Habacalva's Cauldron: Fire Damage"
    ],
    "tempers": [
     [
@@ -174,21 +180,37 @@
    "sockets": [],
    "socketArt": {}
   },
-  "2h-weapon": {
-   "name": "2H Weapon",
+  "weapon": {
+   "name": "Weapon",
    "item": {
-    "name": "Infinity",
-    "kind": "runeword",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_2h_sword.png",
-    "tip": "Infinity\nUnique Weapon\nMovement Speed\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nBerMalBerIst\nDamage Over Time\n50% Chance to unleash a Rank 20 Sorcerer Chain Lightning when you kill an enemy. You gain the Rank [22] passive of Druid's Cyclone Armor. Close enemies are Vulnerable and take x [125%] more damage from you."
+    "name": "Aspect of the Untarnished Blaze",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
-   "affixes": [],
-   "affixNames": [],
-   "tempers": [],
+   "affixes": [
+    "intelligence",
+    "life",
+    "fireDamageMult",
+    "fireDamage"
+   ],
+   "affixNames": [
+    "1h Dagger",
+    "Intelligence",
+    "Maximum Life",
+    "Damage Over Time Multiplier",
+    "Fire Damage Multiplier",
+    "Habacalva's Cauldron: Fire Damage"
+   ],
+   "tempers": [
+    [
+     "attackSpeed",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
    "aspects": [],
    "sockets": [
-    "Ruby",
     "Ruby"
    ],
    "socketArt": {
@@ -202,52 +224,19 @@
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Splinter of Hellfire\nSoul Splinter\nJewelry:625 Resistance to All Elements\nYou deal x50% increased damage but lose 100% Critical Strike Chance."
+    "tip": "Aspect of Ancient Flame\nSorcerer\nYour Pyromancy Skills with a Cooldown deal x [20 - 30%] increased damage per second of Cooldown they incurred.\nVulnerable Damage Multiplier\nAttack Speed\nDamage Over Time Multiplier\nFire Damage Multiplier\nCooldown Reduction\nOverheating Aspect\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "vulnDamage",
-    "intelligence"
+    "attackSpeed",
+    "fireDamageMult"
    ],
    "affixNames": [
-    "Damage Over Time Multiplier",
     "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Intelligence",
-    "Aspect Of Shredding Blades"
-   ],
-   "tempers": [
-    [
-     "luckyHit",
-     "Worldly Stability (Resource)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [
-    "Splinter of Hellfire"
-   ],
-   "socketArt": {
-    "Splinter of Hellfire": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_hellfire.png"
-   }
-  },
-  "ring1": {
-   "name": "Ring 1",
-   "item": {
-    "name": "Aspect of Elemental Attunement",
-    "kind": "legendary",
-    "rarity": "legendary",
-    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
-    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
-   },
-   "affixes": [
-    "intelligence",
-    "fireDamageMult",
-    "vulnDamage"
-   ],
-   "affixNames": [
-    "Intelligence",
-    "Fire Damage Multiplier",
+    "Attack Speed",
     "Damage Over Time Multiplier",
-    "Vulnerable Damage Multiplier"
+    "Fire Damage Multiplier",
+    "+1 Set Count To Habacalva's Cauldron"
    ],
    "tempers": [
     [
@@ -255,22 +244,24 @@
      "Worldly Stability (Resource)"
     ]
    ],
-   "aspects": [],
+   "aspects": [
+    "Overheating Aspect"
+   ],
    "sockets": [
-    "Splinter of the Black Soulstone"
+    "Ruby"
    ],
    "socketArt": {
-    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   },
-  "ring2": {
-   "name": "Ring 2",
+  "ring1": {
+   "name": "Ring 1",
    "item": {
     "name": "Drognan's Anguish",
-    "kind": "unique",
-    "rarity": "unique",
+    "kind": "mythic",
+    "rarity": "mythic",
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/drognan's_anguish.png",
-    "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
+    "tip": "Drognan's Anguish\nMythic Unique Ring\nIntelligence\nRanks to Pyromancy Skills\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nCasting Pyromancy Skills Burns you for 5% of your Maximum Life over 10 seconds. You inflict x [325%] increased Burning damage based on how much of your Life is Burning.\nSorcerer\nDropped By:\nAndariel"
    },
    "affixes": [
     "intelligence",
@@ -280,8 +271,9 @@
    "affixNames": [
     "Intelligence",
     "Ranks To Pyromancy Skills",
+    "Vulnerable Damage Multiplier",
     "Damage Over Time Multiplier",
-    "Vulnerable Damage Multiplier"
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -291,51 +283,153 @@
    ],
    "aspects": [],
    "sockets": [
-    "Splinter of Pain"
+    "Topaz"
    ],
    "socketArt": {
-    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Duelist's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Duelist's Aspect\nCodex • Sorcerer\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nAttack Speed\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Vulnerable Damage Multiplier",
+    "Damage Over Time Multiplier",
+    "Cooldown Reduction",
+    "+1 Set Count To Habacalva's Cauldron"
+   ],
+   "tempers": [
+    [
+     "luckyHit",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Aspect of Inner Calm",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "fireDamageMult",
+    "fireDamage"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Damage Over Time Multiplier",
+    "Fire Damage Multiplier",
+    "Habacalva's Cauldron: Fire Damage"
+   ],
+   "tempers": [
+    [
+     "attackSpeed",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   }
  },
  "runes": [
   {
-   "name": "Tal",
-   "art": "https://sunderarmor.com/DIABLO4/Runes/15-invocation.png",
-   "tip": "Tal\nCommon Rune of Invocation\nGain: 3 Offering\nDeal Damage over Time"
-  },
-  {
-   "name": "Eom",
-   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
-   "tip": "Eom\nLegendary Rune of Invocation\nRequires: 100 Offering (Overflow: Further Reduced Cooldowns)\nCooldown: 1 seconds\nReduce your active Cooldowns by 0.1 seconds."
-  },
-  {
-   "name": "Yul",
+   "name": "Cir",
    "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-   "tip": "Yul\nLegendary Rune of Ritual\nGain: 50 Offering\nCast a Skill with a Cooldown."
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
   },
   {
-   "name": "Lo",
-   "art": "https://sunderarmor.com/DIABLO4/Runes/15-ritual.png",
-   "tip": "Lo\nCommon Rune of Ritual\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nGain 25% Deadly Strike Chance for 10 seconds."
+   "name": "Lac",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
+  },
+  {
+   "name": "Neo",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Neo\nRare Rune of Ritual\nGain: 200 Offering\nDeal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
   }
  ],
  "talisman": {
   "seal": {
-   "name": "Seal of the Diamond Mind",
+   "name": "Mythic Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "affix": "",
-   "tip": "Seal of the Diamond Mind of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "affix": "Damage",
+   "tip": "Mythic Seal of the Golden Epiphany\nDamage\nHabacalva's Cauldron:\nFire Damage\nYou can equip up to 3 Unique Charms."
   },
   "charms": [
    {
-    "name": "Blood-Mad Idol",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
-    "set": "",
+    "name": "Berú of the Cauldron",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
+    "set": "Habacalva'S Cauldron",
     "mythic": false,
-    "unique": true,
-    "affix": "",
-    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+    "affix": "Pyromancy Skills",
+    "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
+   },
+   {
+    "name": "Fer of the Cauldron",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
+    "set": "Habacalva'S Cauldron",
+    "mythic": false,
+    "affix": "Pyromancy Skills",
+    "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "Pyromancy Skills",
+    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
+   },
+   {
+    "name": "Blood-Mad Idol",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "Pyromancy Skills",
+    "tip": "Blood-Mad Idol\nPyromancy Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
+   },
+   {
+    "name": "Emberfury",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "Pyromancy Skills",
+    "tip": "Emberfury\nPyromancy Skills\nOverpower increases your Pyromancy Skill damage by x [22.1%] and size, Mana cost and Cooldowns by 10%."
    },
    {
     "name": "Hellfire Torch",
@@ -344,73 +438,40 @@
     "mythic": true,
     "affix": "20% All Stats",
     "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Habacalva's Cauldron"
-   },
-   {
-    "name": "Fists of Fate",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
-    "set": "",
-    "mythic": false,
-    "unique": true,
-    "affix": "Pyromancy Skills",
-    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
-   },
-   {
-    "name": "Phoba of the Cauldron",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
-    "set": "Habacalva'S Cauldron",
-    "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Phoba of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
-   },
-   {
-    "name": "Fer of the Cauldron",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
-    "set": "Habacalva'S Cauldron",
-    "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
-   },
-   {
-    "name": "Linta of the Cauldron",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
-    "set": "Habacalva'S Cauldron",
-    "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Linta of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    }
   ]
  },
  "skills": {
   "bar": [
    {
-    "name": "Meteor",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
-    "tip": "Meteor\nRank 3\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [288%] damage and an additional [72%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit.\nMeteor rains down 6 Meteorites before the final impact that each deal [106%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
-   },
-   {
-    "name": "Ice Armor",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
-    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
-   },
-   {
-    "name": "Teleport",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
-    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+    "name": "Firewall",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/firewall.png",
+    "tip": "Firewall\nRank 11\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 30%\nCreate a wall of fire, dealing [630%] Burning damage over 3.5 seconds. Enemies continue Burning for 1.8 seconds after leaving the wall.\nModifiers\nFirewall deals x75% increased damage, but its duration is reduced by 25%.\nEvery 100 Mana spent makes your next Firewall cost no Mana, stacking up to 300 total Mana.\nFirewall creates a ring of fire that deals [210%] Fire damage over 5 seconds, but it now\nhas a 8 second Cooldown.\nStanding in this ring causes your Direct Damage from Pyromancy Skills to inflict this Burning damage to enemies.\nFire Damage"
    },
    {
     "name": "Flame Shield",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
-    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield increases your minimum Overpower by 1 for 2 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
    },
    {
-    "name": "Firewall",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/firewall.png",
-    "tip": "Firewall\nRank 15\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 30%\nCreate a wall of fire, dealing [765%] Burning damage over 3.5 seconds. Enemies continue Burning for 1.8 seconds after leaving the wall.\nModifiers\nFirewall deals x75% increased damage, but its duration is reduced by 25%.\nFirewall Weakens enemies for 2 seconds.\nFirewall creates a ring of fire that deals [765%] Fire damage over 3.5 seconds, but it now\nhas a 12 second Cooldown.\nStanding in this ring causes your Direct Damage from Pyromancy Skills to inflict this Burning damage to enemies.\nFire Damage"
+    "name": "Ice Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
+    "tip": "Ice Armor\nRank 1\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [30%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [50%] while active."
    },
    {
     "name": "Unstable Currents",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/unstable_currents.png",
-    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents reduces your Mana costs by 5.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
+    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
+   },
+   {
+    "name": "Meteor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
+    "tip": "Meteor\nRank 9\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [444%] damage and an additional [111%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit, up to 2 times.\nMeteor rains down 6 Meteorites before the final impact that each deal [163%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
+   },
+   {
+    "name": "Teleport",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport Weakens enemies for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
    },
    {
     "name": "Hydra",
@@ -420,53 +481,10 @@
    {
     "name": "Meteor",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
-    "tip": "Meteor\nRank 3\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [288%] damage and an additional [72%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit.\nMeteor rains down 6 Meteorites before the final impact that each deal [106%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
+    "tip": "Meteor\nRank 9\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [444%] damage and an additional [111%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit, up to 2 times.\nMeteor rains down 6 Meteorites before the final impact that each deal [163%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
    }
   ],
-  "prime": [
-   {
-    "name": "Siege Engine",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
-    "main": false,
-    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
-   },
-   {
-    "name": "Cold Blood",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
-    "main": false,
-    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
-   },
-   {
-    "name": "Grisly Trophies",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
-    "main": false,
-    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
-   },
-   {
-    "name": "Ice of Excidium",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
-    "main": true,
-    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
-   },
-   {
-    "name": "Seizing Frost",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
-    "main": false,
-    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
-   },
-   {
-    "name": "Shattered Flesh",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
-    "main": false,
-    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
-   },
-   {
-    "name": "Thrill of Ruin",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
-    "main": false,
-    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
-   }
-  ],
+  "prime": [],
   "soulShard": [],
   "tree": {
    "667,1147": 1,
@@ -476,38 +494,36 @@
    "1182,1240": 1,
    "1238,1058": 1,
    "1422,1151": 1,
-   "1322,1241": 1,
+   "1275,1241": 1,
    "1386,1350": 1,
-   "1489,1223": 1,
+   "1441,1223": 1,
    "1589,1371": 1,
    "1478,1407": 1,
-   "1384,1519": 15,
+   "1384,1519": 1,
    "1450,1461": 1,
    "1589,1499": 1,
    "1479,1645": 1,
    "615,1670": 1,
-   "512,1544": 1,
+   "557,1544": 1,
    "374,1637": 1,
    "474,1727": 1,
    "613,2079": 1,
    "548,2022": 1,
    "412,2171": 1,
-   "744,2407": 1,
+   "744,2407": 15,
    "640,2297": 1,
    "539,2464": 1,
-   "604,2518": 1,
-   "818,2573": 15,
+   "818,2573": 11,
    "705,2575": 1,
    "577,2667": 1,
-   "676,2756": 1,
-   "1001,2574": 3,
+   "724,2758": 1,
+   "1001,2574": 9,
    "1064,2576": 1,
    "1240,2667": 1,
    "1140,2758": 1,
    "1074,3052": 15,
    "1177,2923": 1,
-   "1276,2998": 1,
-   "1165,3179": 1
+   "1276,2998": 1
   }
  },
  "paragon": [
@@ -521,23 +537,34 @@
     "2,11",
     "2,12",
     "3,12",
+    "4,9",
+    "4,10",
     "4,12",
+    "5,8",
+    "5,9",
     "5,10",
     "5,12",
+    "6,9",
     "6,10",
     "6,12",
+    "6,13",
+    "6,14",
     "7,10",
     "7,11",
     "7,12",
     "7,13",
     "8,9",
-    "8,10",
-    "8,13",
+    "8,11",
     "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
     "9,13",
-    "10,9",
+    "10,10",
     "10,13",
     "11,9",
+    "11,10",
+    "11,12",
     "11,13",
     "12,9",
     "12,10",
@@ -550,11 +577,91 @@
    ]
   },
   {
-   "name": "Frigid Fate",
-   "glyph": "Adept",
+   "name": "Enchantment Master",
+   "glyph": "Unleash",
    "x": 0,
    "y": -1,
-   "rotate": 180,
+   "rotate": 0,
+   "on": [
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,6",
+    "5,8",
+    "5,9",
+    "6,6",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,12",
+    "8,13",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "9,13",
+    "9,14",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,10",
+    "11,12",
+    "11,13",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,16",
+    "12,19",
+    "13,8",
+    "13,9",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "14,9",
+    "14,13",
+    "15,13",
+    "15,15",
+    "15,16",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,12",
+    "17,13",
+    "17,15",
+    "17,16",
+    "18,13",
+    "18,16",
+    "18,17",
+    "18,18",
+    "19,11",
+    "19,12",
+    "19,13",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Frigid Fate",
+   "glyph": "Adept",
+   "x": 1,
+   "y": -1,
+   "rotate": 0,
    "on": [
     "2,11",
     "3,11",
@@ -566,31 +673,23 @@
     "4,16",
     "5,13",
     "5,14",
-    "6,6",
     "6,13",
-    "7,6",
     "7,13",
-    "8,6",
-    "8,7",
     "8,13",
-    "9,7",
-    "9,8",
-    "9,9",
-    "9,10",
     "9,13",
-    "10,7",
-    "10,10",
     "10,13",
+    "10,14",
+    "10,15",
     "11,2",
     "11,3",
-    "11,4",
-    "11,7",
+    "11,11",
+    "11,12",
     "11,13",
-    "11,20",
-    "12,4",
-    "12,7",
+    "11,14",
+    "12,3",
     "12,13",
-    "12,20",
+    "12,16",
+    "13,3",
     "13,4",
     "13,5",
     "13,6",
@@ -599,31 +698,98 @@
     "13,9",
     "13,10",
     "13,11",
-    "13,12",
     "13,13",
     "13,14",
     "13,15",
     "13,16",
-    "13,20",
     "14,4",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
     "14,16",
-    "14,17",
-    "14,18",
-    "14,19",
-    "14,20",
     "15,4",
-    "15,18",
-    "16,18",
-    "17,18",
-    "18,18"
+    "15,10",
+    "15,11",
+    "15,13",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,13",
+    "17,14"
+   ]
+  },
+  {
+   "name": "Fundamental Release",
+   "glyph": "Pyromaniac",
+   "x": 1,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "5,9",
+    "5,13",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,11",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,8",
+    "7,11",
+    "7,14",
+    "8,8",
+    "8,14",
+    "8,15",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,15",
+    "9,16",
+    "9,17",
+    "9,18",
+    "9,19",
+    "10,6",
+    "10,9",
+    "10,16",
+    "10,19",
+    "11,5",
+    "11,6",
+    "11,9",
+    "11,10",
+    "11,11",
+    "11,16",
+    "11,17",
+    "11,19",
+    "11,20",
+    "12,11",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,11",
+    "15,14",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,13",
+    "19,13",
+    "20,11",
+    "20,12",
+    "20,13"
    ]
   },
   {
    "name": "Burning Instinct",
-   "glyph": "Torch",
-   "x": 1,
-   "y": -1,
-   "rotate": 180,
+   "glyph": "Eliminator",
+   "x": 0,
+   "y": -2,
+   "rotate": 270,
    "on": [
     "4,18",
     "5,17",
@@ -635,169 +801,56 @@
     "7,9",
     "7,10",
     "7,11",
+    "7,13",
     "7,14",
     "7,15",
     "8,11",
     "8,13",
-    "8,14",
     "9,11",
     "9,13",
     "10,11",
+    "10,12",
     "10,13",
-    "11,2",
-    "11,3",
-    "11,4",
     "11,10",
     "11,11",
-    "11,12",
-    "11,13",
-    "11,14",
-    "11,15",
-    "11,16",
-    "11,17",
-    "11,18",
-    "11,19",
-    "11,20",
-    "12,4",
     "12,9",
     "12,10",
-    "12,15",
-    "13,4",
-    "13,5",
-    "13,6",
-    "13,7",
+    "12,11",
     "13,8",
     "13,9",
-    "13,15",
-    "14,3",
     "14,4",
-    "14,15",
+    "14,8",
+    "14,9",
     "15,3",
+    "15,4",
+    "15,7",
+    "15,8",
+    "16,2",
     "16,3",
     "16,6",
+    "16,8",
+    "16,9",
+    "17,2",
     "17,3",
     "17,4",
     "17,5",
     "17,6",
+    "17,7",
+    "17,8",
+    "18,4",
     "18,5",
+    "18,8",
+    "18,9",
+    "18,10",
+    "19,4",
     "19,5",
-    "19,6"
-   ]
-  },
-  {
-   "name": "Enchantment Master",
-   "glyph": "Elementalist",
-   "x": 2,
-   "y": -1,
-   "rotate": 0,
-   "on": [
-    "4,6",
-    "4,7",
-    "4,8",
-    "5,6",
-    "6,6",
-    "7,6",
-    "8,4",
-    "8,5",
-    "8,6",
-    "8,12",
-    "8,13",
-    "9,6",
-    "9,12",
-    "9,13",
-    "9,14",
-    "10,6",
-    "10,12",
-    "11,2",
-    "11,6",
-    "11,12",
-    "11,13",
-    "12,2",
-    "12,3",
-    "12,4",
-    "12,5",
-    "12,6",
-    "12,8",
-    "12,9",
-    "12,10",
-    "12,11",
-    "12,13",
-    "12,16",
-    "13,6",
-    "13,7",
-    "13,8",
-    "13,9",
-    "13,11",
-    "13,12",
-    "13,13",
-    "13,14",
-    "13,15",
-    "13,16",
-    "14,9",
-    "14,13",
-    "15,13",
-    "16,12",
-    "16,13",
-    "16,14",
-    "16,15",
-    "17,12",
-    "17,15",
-    "17,16",
-    "18,16",
-    "18,17",
-    "18,18"
-   ]
-  },
-  {
-   "name": "Fundamental Release",
-   "glyph": "Pyromaniac",
-   "x": -1,
-   "y": -1,
-   "rotate": 0,
-   "on": [
-    "6,8",
-    "6,14",
-    "7,7",
-    "7,8",
-    "7,9",
-    "7,10",
-    "7,11",
-    "7,12",
-    "7,13",
-    "7,14",
-    "8,7",
-    "8,13",
-    "9,6",
-    "9,7",
-    "9,13",
-    "9,17",
-    "9,18",
-    "9,19",
-    "9,20",
-    "10,6",
-    "10,13",
-    "10,16",
-    "10,17",
-    "10,20",
-    "11,5",
-    "11,6",
-    "11,13",
-    "11,16",
-    "11,17",
-    "11,20",
-    "12,11",
-    "12,12",
-    "12,13",
-    "12,14",
-    "12,15",
-    "12,16",
-    "13,11",
-    "13,13",
-    "14,11",
-    "14,13",
-    "15,13",
-    "16,13",
-    "16,14"
+    "19,6",
+    "19,7",
+    "19,10",
+    "19,11",
+    "20,6",
+    "20,11",
+    "21,6"
    ]
   }
  ]

@@ -5,10 +5,10 @@
  "build": "Whirlwind Barb",
  "variant": "Starter No Mythic (P200)",
  "url": "https://d4builds.gg/builds/whirlwind-barbarian-endgame/?var=0",
- "updated": "October 12, 2026",
+ "updated": "November 1, 2026",
  "author": "",
- "checked": "2026-10-30",
- "tier": "S",
+ "checked": "2026-11-25",
+ "tier": "A",
  "short": "Whirlwind",
  "slots": {
   "helm": {
@@ -29,7 +29,8 @@
     "Strength",
     "Cooldown Reduction",
     "Maximum Resource",
-    "Maximum Life"
+    "Maximum Life",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -50,27 +51,19 @@
   "chest": {
    "name": "Chest Armor",
    "item": {
-    "name": "Stealth",
-    "kind": "runeword",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_chest_armor.png",
-    "tip": "Stealth\nUnique Chest Armor\nMaximum Life\nAttack Speed\nImpairment Reduction\nResource Generation\nMovement Speed\nDamage Reduction\nTalEth\nMaximum Life"
+    "name": "Aspect of Disobedience",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
-   "affixes": [
-    "life",
-    "attackSpeed",
-    "impairment",
-    "resourceGen",
-    "movementSpeed",
-    "damageReduction"
-   ],
+   "affixes": [],
    "affixNames": [
-    "Maximum Life",
-    "Attack Speed",
-    "Impairment Reduction",
-    "Resource Generation",
-    "Movement Speed",
-    "Damage Reduction"
+    "Stat 1",
+    "Stat 2",
+    "Stat 3",
+    "Stat 4",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -107,7 +100,8 @@
     "Critical Strike Chance",
     "Ranks To Whirlwind",
     "Critical Strike Damage Multiplier",
-    "Vulnerable Damage Multiplier"
+    "Vulnerable Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -137,7 +131,8 @@
     "Strength",
     "Maximum Life",
     "Fury Regeneration",
-    "Resistance To All Elements"
+    "Resistance To All Elements",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -172,7 +167,8 @@
     "Strength",
     "Movement Speed",
     "Fury Regeneration",
-    "Maximum Life"
+    "Maximum Life",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -204,7 +200,8 @@
     "Strength",
     "Maximum Life",
     "Weapon Damage",
-    "Critical Strike Damage Multiplier"
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -240,7 +237,8 @@
     "Strength",
     "Maximum Life",
     "Critical Strike Damage Multiplier",
-    "All Damage Multiplier"
+    "All Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -276,7 +274,8 @@
     "Vulnerable Damage Multiplier",
     "Core Skills",
     "Critical Strike Damage Multiplier",
-    "Aspect Of Booming Voice"
+    "Aspect Of Booming Voice",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -311,7 +310,8 @@
     "Strength",
     "Vulnerable Damage Multiplier",
     "Critical Strike Chance",
-    "Critical Strike Damage Multiplier"
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -346,7 +346,8 @@
     "Cooldown Reduction",
     "Critical Strike Chance",
     "Vulnerable Damage Multiplier",
-    "Critical Strike Damage Multiplier"
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -365,28 +366,23 @@
   "slashing-weapon": {
    "name": "Slashing Weapon",
    "item": {
-    "name": "Insight",
-    "kind": "runeword",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/d4_polearm.png",
-    "tip": "Insight\nUnique Weapon\nCritical Strike Damage Multiplier\nCritical Strike Chance\nWeapon Damage\nAll Stats\nCritical Strike Damage Multiplier\nFury Regeneration\nRalTirTalSol\nCritical Strike Chance\nPhysical Damage"
+    "name": "Aspect of Limitless Rage",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Limitless Rage\nBarbarian\nEach point of Fury you generate from Basic Skills increases your damage by x [0.5 - 0.75%], up to 350 Fury. This bonus is lost after 4 seconds.\nStrength\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
-    "critDamage",
-    "critChance",
-    "weaponDamage",
-    "allStats",
     "critDamage"
    ],
    "affixNames": [
     "Weapon Type",
     "Critical Strike Damage Multiplier",
-    "Critical Strike Chance",
-    "Weapon Damage",
-    "All Stats",
-    "Critical Strike Damage Multiplier",
-    "Fury Regeneration",
-    "Physical Damage"
+    "Stat 2",
+    "Stat 3",
+    "Stat 4",
+    "Physical Damage",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -421,7 +417,8 @@
     "Strength",
     "Maximum Resource",
     "Maximum Life",
-    "Critical Strike Damage Multiplier"
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -557,50 +554,7 @@
     "tip": "2h Sword\n+20% of direct damage you deal is inflicted as Bleeding damage over 5 seconds.\nYou deal x15% increased Bleeding damage."
    }
   ],
-  "prime": [
-   {
-    "name": "Undying Rage",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/undying-rage.png",
-    "main": false,
-    "tip": "Undying Rage\nPrime Evil Power\nWhile in a Nightmare Dungeon, Ghosts of Odium trigger 50% more often and deal 200% increased damage."
-   },
-   {
-    "name": "Flush of Bile",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/flush-of-bile.png",
-    "main": false,
-    "tip": "Flush of Bile\nPrime Evil Power\nGhosts of Odium generate 50 Primary Resource."
-   },
-   {
-    "name": "Death Collector",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/death-collector.png",
-    "main": false,
-    "tip": "Death Collector\nPrime Evil Power\nWhile in The Pit, enemies damaged by Ghosts of Odium have a chance to drop Progress Orbs when they die."
-   },
-   {
-    "name": "Ghosts of Odium",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ghosts-of-odium.png",
-    "main": true,
-    "tip": "Ghosts of Odium\nMain Prime Evil Power\nMephisto's power overflows you, periodically unleashing Ghosts of Odium, dealing X Physical damage."
-   },
-   {
-    "name": "Strangling Grip",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/strangling-grip.png",
-    "main": false,
-    "tip": "Strangling Grip\nPrime Evil Power\nGhosts of Odium make enemies Vulnerable for 5 seconds and have a 15% chance to Immobilize them for 2 seconds."
-   },
-   {
-    "name": "Vengeful Soul",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/vengeful-soul.png",
-    "main": false,
-    "tip": "Vengeful Soul\nPrime Evil Power\nWhen an enemy is first hit by Ghosts of Odium, it deals an additional 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
-   },
-   {
-    "name": "Fever of Malice",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/fever-of-malice.png",
-    "main": false,
-    "tip": "Fever of Malice\nPrime Evil Power\nKilling enemies can enrage you with Fever of Malice for 5 seconds, dramatically increasing the number of Ghosts of Odium you unleash."
-   }
-  ],
+  "prime": [],
   "soulShard": [],
   "tree": {
    "752,530": 1,

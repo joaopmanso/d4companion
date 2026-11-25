@@ -21612,7 +21612,8 @@
   "Abyssal": "Rare Glyph\nEldritch Sight (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [6.2%] increased damage to Vulnerable targets.\nAdditional Bonus:\nDealing damage to a Vulnerable target increases your damage by x3% for 20 seconds, up to x18%.\nRequirements (within radius):\n75 / 40 Willpower\nLegendary Bonus:\nIncrease damage to Vulnerable targets by x [15.4%].",
   "Mastermind": "Rare Glyph\nEldritch Sight (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [6.2%] increased damage to Vulnerable targets.\nAdditional Bonus:\nDealing damage to a Vulnerable target increases your damage by x3% for 20 seconds, up to x18%.\nRequirements (within radius):\n85 / 40 Willpower\nLegendary Bonus:\nIncrease damage to Vulnerable targets by x [15.4%].",
   "Destruction": "Rare Glyph\nEldritch Sight (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [6.2%] increased damage to Vulnerable targets.\nAdditional Bonus:\nDealing damage to a Vulnerable target increases your damage by x3% for 20 seconds, up to x18%.\nRequirements (within radius):\n85 / 40 Willpower\nLegendary Bonus:\nIncrease damage to Vulnerable targets by x [15.4%].",
-  "": "Glyph Socket"
+  "": "Glyph Socket",
+  "Superiority": "Rare Glyph\nEldritch Sight (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [6.2%] increased damage to Vulnerable targets.\nAdditional Bonus:\nDealing damage to a Vulnerable target increases your damage by x3% for 20 seconds, up to x18%.\nRequirements (within radius):\n65 / 40 Willpower\nLegendary Bonus:\nIncrease damage to Vulnerable targets by x [15.4%]."
  },
  "tips": {
   "Leoric's Crown": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nFire Resistance\nMaximum Life\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%].",
@@ -21790,7 +21791,11 @@
   "The Fecund Seal": "The Fecund Seal\nUnique Ring\nWillpower\nRanks to Sigil of Summons\nCritical Strike Damage Multiplier\nAll Damage Multipler\nDamage\nSigil of Summons deals x [80 - 100%] increased damage and you can summon up to 3 additional demon swarmers with kills outside the ritual.\nWarlock\nDropped By:\nHarbinger of Hatred",
   "Ohm": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds.",
   "Fiend of Abaddon": "Fiend of Abaddon\nRank 15\nUltimate\nDemonology\nSummon\nGreater Demon\nCooldown: 60 seconds\nLucky Hit: 22%\nSummon a massive fiend for 15 seconds that attacks enemies, dealing [893%] damage per swipe.\nModifiers\nFiend of Abaddon deals x2% increased damage for each Nearby enemy present when it is summoned, up to x60%.\nFiend of Abaddon deals x25% increased damage against Elite enemies and Bosses.\nIf an enemy survives more than 5 hits from Fiend of Abaddon then each subsequent hit increases its damage versus that target by x5% and extends its lifetime by 2 seconds, up to 60 seconds.\nPhysical Damage",
-  "Demonic Swipe-v2": "Demonic Swipe\nRank 1\nBasic\nDemonology\nHellfire\nShapeshifting\nArchfiend\nLucky Hit: 10%\nAttack an enemy, dealing [75%] damage."
+  "Demonic Swipe-v2": "Demonic Swipe\nRank 1\nBasic\nDemonology\nHellfire\nShapeshifting\nArchfiend\nLucky Hit: 10%\nAttack an enemy, dealing [75%] damage.",
+  "Scepter of the Three": "Scepter of the Three\nMythic Unique 2h Mace\nWeapon Damage\nMaximum Life\nYou can now equip all Ultimate Skills and gain 15 Ranks in them. Hitting enemies with Non-Ultimate Skills builds up your Ultimate Skill damage by x [3.25%] , up to x [325%]. After starting Ultimate Skills the damage bonus is reset once all have ended.\nWarlock\nDropped By:\nAndariel",
+  "Kry": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies.",
+  "Emerald": "Emerald\nGem\nWeapon:+x32% Poison Damage Multiplier\nArmor:150 Dexterity\nJewelry:4375 Poison Resistance",
+  "Berú of Mefis' Fulcrum": "Berú of Mefis' Fulcrum\nFulcrum of Mefis\nPhoba of Mefis' Fulcrum\nFer of Mefis' Fulcrum\nMlor of Mefis' Fulcrum\nLinta of Mefis' Fulcrum\nBerú of Mefis' Fulcrum\nFulcrum of Mefis\n(2) Set: Gain Sadism for 20 seconds as your demons take damage or die, increasing the damage your demons take by 2% per stack. You deal up to 200% more damage to enemies based on how much damage they have done to your demons.\n(3) Set: Sadism sends 2% of the damage you take to each of your demons. Sadism additionally increases enemy aggression towards your demons.\n(5) Set: Sadism increases your Demonology Skill damage by x2% per stack. Killing enemies while at max Sadism has a 25% chance to twist them into one of your equipped Lesser Demon Summons."
  },
  "catalog": {
   "items": {
@@ -21817,8 +21822,8 @@
    },
    "Temerity": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Pants",
     "tip": "Temerity\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nFire Resistance\nFire Resistance\nEffects that Heal you beyond 100% Life grant you a Barrier up to [80 - 100%] of your Maximum Life that lasts for 8 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred"
    },
@@ -21915,8 +21920,8 @@
    },
    "Wendigo Brand": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/wendigo_brand.png",
-    "rarity": "mythic",
-    "kind": "mythic",
+    "rarity": "unique",
+    "kind": "unique",
     "slot": "Ring 1",
     "tip": "Splinter of Damnation\nSoul Splinter\nJewelry:4375 Shadow Resistance\nKilling an Elite Pack increases Monster Power by 1 and Experience gained by 25% for 25 seconds."
    },
@@ -21936,8 +21941,8 @@
    },
    "Fleshwrit Carapace": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fleshwrit_carapace.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Chest Armor",
     "tip": "Fleshwrit Carapace\nUnique Chest Armor\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nSigil Skills deal x [70 - 90%] increased damage. Active Sigils gain 1 kill every second and unused kills are saved when they expire.\nWarlock\nDropped By:\nLord Zir"
    },
@@ -22114,28 +22119,28 @@
     "rarity": "legendary",
     "kind": "aspect",
     "slot": "Chest Armor",
-    "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nWillpower\nMaximum Resource\nMaximum Life\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+    "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nWillpower\nMaximum Life\nWrath Regeneration\nArmor\nMaximum Life\nShadow of Harash\n: Abyss Skill Damage\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "Aspect of Fathomless Dark": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Weapon",
+    "slot": "Ring 2",
     "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Footfalls of the Waning World": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Boots",
-    "tip": "Footfalls of the Waning World\nUnique Boots\nWillpower\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nMovement Speed\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [0.6 - 1] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
+    "tip": "Footfalls of the Waning World\nMythic Unique Boots\nWillpower\nAttacks Reduce Evade's Cooldown\nMaximum Life\nWrath Regeneration\nMobility Cooldown Reduction\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [1.3] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
    },
    "Litany of Sable": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/litany_of_sable.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Weapon",
-    "tip": "Litany of Sable\nUnique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [100 - 120%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth"
+    "tip": "Litany of Sable\nMythic Unique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [156%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth"
    },
    "Edgemaster's Aspect": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
@@ -22174,8 +22179,8 @@
    },
    "Bindings of Attrition": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/bindings_of_attrition.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Pants",
     "tip": "Bindings of Attrition\nMythic Unique Pants\nWillpower\nArmor\nArmor\nWrath Regeneration\nMaximum Life\nCasting Dark Prison consumes [62.4%] of your Maximum Life to reset its Cooldown. You gain [39%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth"
    },
@@ -22239,8 +22244,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Amulet",
-    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nWillpower\nAll Damage Multipler\nRanks to All Skills\nCritical Strike Damage Multiplier\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "slot": "Ring 1",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Ritual Synthesis": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
@@ -22339,6 +22344,48 @@
     "kind": "legendary",
     "slot": "Helm",
     "tip": "Aspect of Disobedience\nCodex • Every Class\nYour Damage over Time grants you [1 - 1.5%] Damage Reduction for 2 seconds, stacking up to 30 times.\nWillpower\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "Rictus of Terror": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/rictus_of_terror.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Helm",
+    "tip": "Rictus of Terror\nMythic Unique Helm\nWillpower\nCooldown Reduction\nMaximum Life\nAbyss Skills\nMaximum Life\nCommand Laalish is now an Ultimate Skill and deals x [156%] increased damage. \nYou gain the effects of the Unfathomable Fragment for free with 100% increased Potency.\nWarlock\nDropped By:\nDuriel"
+   },
+   "Fists of Fate": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Gloves",
+    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   },
+   "Ominous Aspect": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "aspect",
+    "slot": "Amulet",
+    "tip": "Ominous Aspect\nCodex • Warlock\nWhile standing still, gain x [15 - 19%] increased Greater Demon Skill damage for 2 seconds, up to x [75 - 95%].\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nShadow Damage Multiplier\nCooldown Reduction\nBane-Link Aspect\n+1 Set count to \nShadow of Harash\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Duelist's Aspect": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "aspect",
+    "slot": "Offhand",
+    "tip": "Duelist's Aspect\nCodex • Warlock\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Scepter of the Three": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/scepter_of_the_three.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Weapon",
+    "tip": "Scepter of the Three\nMythic Unique 2h Mace\nWeapon Damage\nMaximum Life\nYou can now equip all Ultimate Skills and gain 15 Ranks in them. Hitting enemies with Non-Ultimate Skills builds up your Ultimate Skill damage by x [3.25%] , up to x [325%]. After starting Ultimate Skills the damage bonus is reset once all have ended.\nWarlock\nDropped By:\nAndariel"
+   },
+   "Night Terror": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/night_terror.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Amulet",
+    "tip": "Night Terror\nYour Abyss Skills deal x [7.8%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
    }
   },
   "charms": {
@@ -22389,14 +22436,14 @@
     "set": "Rite of the Nameless",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+    "tip": "Berú of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    "Fer of the Nameless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
     "set": "Rite of the Nameless",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+    "tip": "Fer of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    "Anathema of the Primes": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -22410,7 +22457,7 @@
     "set": "Rite of the Nameless",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+    "tip": "Linta of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
    },
    "Phoba of the Nameless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
@@ -22431,7 +22478,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Flesh of Abaddon"
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Rite of the Nameless"
    },
    "The Furnace": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -22448,11 +22495,11 @@
     "tip": "Blood-Mad Idol\nHellfire Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    "The Hemat Stone": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "The Hemat Stone\nBonuses from Command Valloch and the Ritualist Shard and its Fragments have 200% increased Potency. Your Occult Skills deal x [25 - 40%] increased damage."
+    "mythic": true,
+    "unique": false,
+    "tip": "The Hemat Stone\nBonuses from Command Valloch and Ritualist Fragments have x [133.9%] increased Potency.\nYour Occult Skills deal x [52%] increased damage."
    },
    "Banished Lord's Talisman": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -22501,21 +22548,21 @@
     "set": "Shadow of Harash",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+    "tip": "Fer of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    "Linta of Harash's Shadow": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Harash's Shadow\nMaximum Resource\nRanks to Demonology Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+    "tip": "Linta of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    "Berú of Harash's Shadow": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
     "set": "Shadow of Harash",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+    "tip": "Berú of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    "Mlor of Harash's Shadow": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
@@ -22532,11 +22579,11 @@
     "tip": "Phoba of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
    },
    "Night Terror": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Night Terror\nYour Abyss Skills deal x [4 - 6%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
+    "mythic": true,
+    "unique": false,
+    "tip": "Night Terror\nYour Abyss Skills deal x [7.8%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
    },
    "Crown of Lucion": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -22551,16 +22598,23 @@
     "mythic": false,
     "unique": true,
     "tip": "Seed of Horazon\nYour Demonology Skills deal x [0.4 - 0.5%] increased damage per Wrath you have and you take + [0.13 - 0.17%] reduced damage per Dominance you have."
+   },
+   "Berú of Mefis' Fulcrum": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/fulcrum_of_mefis.png",
+    "set": "Fulcrum of Mefis",
+    "mythic": false,
+    "unique": false,
+    "tip": "Berú of Mefis' Fulcrum\nFulcrum of Mefis\nPhoba of Mefis' Fulcrum\nFer of Mefis' Fulcrum\nMlor of Mefis' Fulcrum\nLinta of Mefis' Fulcrum\nBerú of Mefis' Fulcrum\nFulcrum of Mefis\n(2) Set: Gain Sadism for 20 seconds as your demons take damage or die, increasing the damage your demons take by 2% per stack. You deal up to 200% more damage to enemies based on how much damage they have done to your demons.\n(3) Set: Sadism sends 2% of the damage you take to each of your demons. Sadism additionally increases enemy aggression towards your demons.\n(5) Set: Sadism increases your Demonology Skill damage by x2% per stack. Killing enemies while at max Sadism has a 25% chance to twist them into one of your equipped Lesser Demon Summons."
    }
   },
   "seals": {
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-    "tip": "Legendary Seal\nCritical Strike Damage"
+    "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot"
    },
    "Seal of the Diamond Mind": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-    "tip": "Seal of the Diamond Mind of the Diamond Mind\nCritical Strike Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+    "tip": "Seal of the Diamond Mind of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
    }
   },
   "runes": {
@@ -22643,6 +22697,10 @@
    "Ohm": {
     "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
     "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
+   },
+   "Kry": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+    "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
    }
   },
   "gems": {
@@ -22687,6 +22745,9 @@
    },
    "Topaz": {
     "art": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   },
+   "Emerald": {
+    "art": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
    }
   }
  }

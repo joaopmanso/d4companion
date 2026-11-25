@@ -2,134 +2,35 @@
  "id": "meteor-sorcerer-endgame-standard-build",
  "site": "d4builds",
  "className": "Sorcerer",
- "build": "Meteor - Sorcerer",
+ "build": "Meteor Sorc",
  "variant": "Standard Build",
  "url": "https://d4builds.gg/builds/meteor-sorcerer-endgame/?var=0",
- "updated": "September 22, 2026",
+ "updated": "November 25, 2026",
  "author": "",
- "checked": "2026-10-30",
- "tier": "B",
+ "checked": "2026-11-25",
+ "tier": "S",
  "short": "Meteor",
  "slots": {
   "helm": {
    "name": "Helm",
    "item": {
     "name": "Starfall Coronet",
-    "kind": "unique",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/starfall_coronet.png",
-    "tip": "Starfall Coronet\nUnique Helm\nMaximum Resource\nIntelligence\nMaximum Life\nMana Regeneration\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [80 - 100%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice"
-   },
-   "affixes": [
-    "intelligence",
-    "life"
-   ],
-   "affixNames": [
-    "Maximum Resource",
-    "Intelligence",
-    "Maximum Life",
-    "Mana Regeneration"
-   ],
-   "tempers": [
-    [
-     "life",
-     "Worldly Endurance (Defensive)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [
-    "Cir",
-    "Vex"
-   ],
-   "socketArt": {
-    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-    "Vex": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
-   }
-  },
-  "chest": {
-   "name": "Chest Armor",
-   "item": {
-    "name": "Raiment of the Infinite",
     "kind": "mythic",
     "rarity": "mythic",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
-    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/starfall_coronet.png",
+    "tip": "Starfall Coronet\nMythic Unique Helm\nIntelligence\nRanks to Meteor\nMaximum Life\nMaximum Resource\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [130%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice"
    },
    "affixes": [
     "intelligence",
+    "ranks:meteor",
     "life"
    ],
    "affixNames": [
+    "Intelligence",
+    "Ranks To Meteor",
+    "Maximum Life",
     "Maximum Resource",
-    "Intelligence",
-    "Maximum Life",
-    "Mana Regeneration"
-   ],
-   "tempers": [
-    [
-     "life",
-     "Worldly Endurance (Defensive)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [
-    "Poc",
-    "Que"
-   ],
-   "socketArt": {
-    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
-   }
-  },
-  "gloves": {
-   "name": "Gloves",
-   "item": {
-    "name": "Aspect of Searing Impact",
-    "kind": "legendary",
-    "rarity": "legendary",
-    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
-   },
-   "affixes": [
-    "critDamage",
-    "vulnDamage",
-    "cdr"
-   ],
-   "affixNames": [
-    "Critical Strike Damage Multiplier",
-    "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Cooldown Reduction"
-   ],
-   "tempers": [
-    [
-     "fireDamage",
-     "Pyromancy Finesse (Offensive)"
-    ]
-   ],
-   "aspects": [],
-   "sockets": [],
-   "socketArt": {}
-  },
-  "pants": {
-   "name": "Pants",
-   "item": {
-    "name": "Tibault's Will",
-    "kind": "unique",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
-   },
-   "affixes": [
-    "intelligence",
-    "life",
-    "armor"
-   ],
-   "affixNames": [
-    "Intelligence",
-    "Maximum Life",
-    "Armor",
-    "Mana Regeneration"
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -146,25 +47,132 @@
     "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
    }
   },
-  "boots": {
-   "name": "Boots",
+  "chest": {
+   "name": "Chest Armor",
    "item": {
-    "name": "Esu's Heirloom",
-    "kind": "unique",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
-    "tip": "Esu's Heirloom\nUnique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [20 - 40%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
+    "name": "Raiment of the Infinite",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
+    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
    },
    "affixes": [
     "intelligence",
-    "movementSpeed",
-    "life"
+    "life",
+    "armor"
    ],
    "affixNames": [
     "Intelligence",
-    "Movement Speed",
     "Maximum Life",
-    "Mana Regeneration"
+    "Maximum Resource",
+    "Ice Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Lac"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lac": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
+   },
+   "affixes": [
+    "intelligence",
+    "critDamage",
+    "fireDamageMult",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Critical Strike Damage Multiplier",
+    "Fire Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Mana Regeneration",
+    "Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Gar"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Overheating Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Overheating Aspect\nSorcerer\nYour Fire Damage is increased by x [15 - 20%]. \nLucky Hit: Fire Damage has up to a 15% chance to generate a stack of Overpower.\nIntelligence\nMaximum Life\nMovement Speed\nMeteor\nMovement Speed\nTal Rasha's Threefold Way\n: Maximum Mana\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Movement Speed",
+    "Meteor",
+    "Tal Rasha's Threefold Way: Maximum Mana"
    ],
    "tempers": [
     [
@@ -176,21 +184,37 @@
    "sockets": [],
    "socketArt": {}
   },
-  "2h-weapon": {
-   "name": "2H Weapon",
+  "weapon": {
+   "name": "Weapon",
    "item": {
-    "name": "Blasting Aspect",
-    "kind": "aspect",
+    "name": "Aspect of Combustion",
+    "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Combustion\nCodex • Sorcerer\nYour Pyromancy Skills deal [70 - 100%] increased Critical Strike Damage to Burning enemies.\nWeapon Damage\nIntelligence\nMaximum Life\nCritical Strike Damage Multiplier\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
-   "affixes": [],
-   "affixNames": [],
-   "tempers": [],
+   "affixes": [
+    "weaponDamage",
+    "intelligence",
+    "life",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Weapon Type",
+    "Weapon Damage",
+    "Intelligence",
+    "Maximum Life",
+    "Critical Strike Damage Multiplier",
+    "Tal Rasha's Threefold Way: Maximum Mana"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
    "aspects": [],
    "sockets": [
-    "Ruby",
     "Ruby"
    ],
    "socketArt": {
@@ -204,100 +228,141 @@
     "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
+    "tip": "Lingering Aspect\nCodex • Sorcerer\nYour Mastery Skills deal x [30 - 40%] increased damage every second they are active.\nMaximum Resource\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nCooldown Reduction\nAspect of Shredding Blades\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critDamage",
     "vulnDamage",
-    "cdr"
+    "fireDamageMult"
    ],
    "affixNames": [
+    "Maximum Resource",
     "Critical Strike Damage Multiplier",
     "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Cooldown Reduction",
-    "Aspect Of Shredding Blades"
+    "Fire Damage Multiplier",
+    "+1 Set Count To Habacalva's Cauldron"
    ],
    "tempers": [
     [
-     "resourceGen",
+     "cdr",
      "Worldly Stability (Resource)"
     ]
    ],
-   "aspects": [],
+   "aspects": [
+    "Tidal Aspect"
+   ],
    "sockets": [
-    "Splinter of Anguish"
+    "Ruby"
    ],
    "socketArt": {
-    "Splinter of Anguish": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_anguish.png"
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   },
   "ring1": {
    "name": "Ring 1",
    "item": {
-    "name": "Aspect of Elemental Attunement",
+    "name": "Aspect of Armageddon",
     "kind": "legendary",
     "rarity": "legendary",
-    "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
-    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Armageddon\nSorcerer\nYour Ultimate Skill grants you [50 - 80%] increased damage of its element type while active for 15 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
+    "critChance",
     "critDamage",
-    "vulnDamage",
-    "cdr"
+    "cdr",
+    "vulnDamage"
    ],
    "affixNames": [
+    "Critical Strike Chance",
     "Critical Strike Damage Multiplier",
+    "Cooldown Reduction",
     "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Cooldown Reduction"
+    "+1 Set Count To Tal Rasha's Threefold Way"
    ],
    "tempers": [
     [
-     "resourceGen",
+     "cdr",
      "Worldly Stability (Resource)"
     ]
    ],
    "aspects": [],
    "sockets": [
-    "Splinter of Pain"
+    "Topaz"
    ],
    "socketArt": {
-    "Splinter of Pain": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_pain.png"
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
    }
   },
   "ring2": {
    "name": "Ring 2",
    "item": {
-    "name": "Aspect of Combustion",
+    "name": "Aspect of Searing Impact",
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+    "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nVulnerable Damage Multiplier\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
+    "critChance",
     "critDamage",
-    "vulnDamage",
-    "cdr"
+    "attackSpeed",
+    "vulnDamage"
    ],
    "affixNames": [
+    "Critical Strike Chance",
     "Critical Strike Damage Multiplier",
+    "Attack Speed",
     "Vulnerable Damage Multiplier",
-    "All Damage Multiplier",
-    "Cooldown Reduction"
+    "+1 Set Count To Tal Rasha's Threefold Way"
    ],
    "tempers": [
     [
-     "resourceGen",
+     "luckyHit",
      "Worldly Stability (Resource)"
     ]
    ],
    "aspects": [],
    "sockets": [
-    "Splinter of the Black Soulstone"
+    "Skull"
    ],
    "socketArt": {
-    "Splinter of the Black Soulstone": "https://sunderarmor.com/DIABLO4/Gems/splinter_of_the_black_soulstone.png"
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Blasting Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nIntelligence\nCritical Strike Chance\nCritical Strike Damage Multiplier\nMaximum Resource\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Maximum Resource",
+    "Tal Rasha's Threefold Way: Maximum Mana"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
    }
   }
  },
@@ -308,9 +373,9 @@
    "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
   },
   {
-   "name": "Vex",
+   "name": "Gar",
    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
-   "tip": "Vex\nLegendary Rune of Invocation\nRequires: 300 Offering (Overflow: More Skill ranks, up to 3.)\nCooldown: 5 seconds\nGain +1 to Skills for 10 seconds."
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
   },
   {
    "name": "Poc",
@@ -318,157 +383,113 @@
    "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
   },
   {
-   "name": "Que",
+   "name": "Lac",
    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
-   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+   "tip": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
   }
  ],
  "talisman": {
   "seal": {
-   "name": "Legendary Seal",
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-   "affix": "+1 Charm Slot",
-   "tip": "Legendary Seal\n+1 Charm Slot"
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "All Stats",
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nAll Stats\nTal Rasha's Threefold Way:\nMaximum Mana\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
-   {
-    "name": "Blood-Mad Idol",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
-    "set": "",
-    "mythic": false,
-    "unique": true,
-    "affix": "Pyromancy Skills",
-    "tip": "Blood-Mad Idol\nPyromancy Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
-   },
-   {
-    "name": "Mlor of the Threefold",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
-    "set": "Tal Rasha'S Threefold Way",
-    "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Mlor of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
-   },
    {
     "name": "Berú of the Threefold",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Berú of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
-   },
-   {
-    "name": "Linta of the Threefold",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
-    "set": "Tal Rasha'S Threefold Way",
-    "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Linta of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "affix": "Mastery Skills",
+    "tip": "Berú of the Threefold\nMastery Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    {
     "name": "Fer of the Threefold",
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Fer of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "affix": "Mastery Skills",
+    "tip": "Fer of the Threefold\nMastery Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    {
-    "name": "Phoba of the Threefold",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
-    "set": "Tal Rasha'S Threefold Way",
+    "name": "Fer of the Cauldron",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
+    "set": "Habacalva'S Cauldron",
     "mythic": false,
-    "affix": "Pyromancy Skills",
-    "tip": "Phoba of the Threefold\nPyromancy Skills\nMaximum Resource\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "affix": "Mastery Skills",
+    "tip": "Fer of the Cauldron\nMastery Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
+   },
+   {
+    "name": "Molten Band",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "Mastery Skills",
+    "tip": "Molten Band\nMastery Skills\nYour Pyromancy Critical Strike Damage is increased by x [104%] against Healthy enemies and your Pyromancy Critical Strike Chance is increased by x [78%] against Injured enemies.\n\nKilling an enemy with a Critical Strike grants both bonuses against all enemies as well as +50% Attack Speed for 8 seconds."
+   },
+   {
+    "name": "Berú of the Cauldron",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
+    "set": "Habacalva'S Cauldron",
+    "mythic": false,
+    "affix": "Mastery Skills",
+    "tip": "Berú of the Cauldron\nMastery Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Habacalva's Cauldron"
    }
   ]
  },
  "skills": {
   "bar": [
    {
-    "name": "Teleport",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
-    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport increases your Movement Speed by +10% for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+    "name": "Meteor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
+    "tip": "Meteor\nRank 9\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [444%] damage and an additional [111%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit, up to 2 times.\nMeteor rains down 6 Meteorites before the final impact that each deal [163%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
    },
    {
     "name": "Ice Armor",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
-    "tip": "Ice Armor\nRank 15\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [77%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [128%] while active."
-   },
-   {
-    "name": "Familiar",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/familiar_fast_as_lightning.png",
-    "tip": "Familiar\nRank 2\nConjuration\nPyromancy\nSummon\nCharges: 3\nCharge Cooldown: 12 seconds\nLucky Hit: 10%\nSummon a Fire Familiar for 8 seconds. It seeks enemies and periodically explodes, dealing [77%] damage.\nYou may have up to 6 Familiars active at a time.\nModifiers\nFamiliar gains 1 additional Charge.\nGain a bonus based on the Familiar type when the Familiar explodes:\n- Fire Familiar: Gain +5% Healing Received for 5 seconds.\n- Cold Familiar: Gain a Barrier for 5% of your Maximum Life for 5 seconds, up to 30%.\n- Lightning Familiar: Reduce a random active Cooldown by 0.5 seconds.\nFamiliar becomes a Shock Skill that deals Lightning damage.\nFamiliar increases your Minimum Ferocity by 1 and grants [2.1%] Cooldown Reduction while active."
+    "tip": "Ice Armor\nRank 1\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [30%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [50%] while active."
    },
    {
     "name": "Flame Shield",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
-    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield's duration is increased to 1.5 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
-   },
-   {
-    "name": "Meteor",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
-    "tip": "Meteor\nRank 3\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [288%] damage and an additional [72%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit.\nMeteor rains down 6 Meteorites before the final impact that each deal [106%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield increases your minimum Overpower by 1 for 2 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
    },
    {
     "name": "Inferno",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/inferno.png",
-    "tip": "Inferno\nRank 15\nUltimate\nPyromancy\nCooldown: 24 seconds\nLucky Hit: 10%\nSummon a fiery serpent that deals [54%] damage and Burns enemies for [217%] damage over 4 seconds, stacking up to 4 times.\nModifiers\nInferno overfills your Overpower by 2 stacks.\nInferno's Cooldown is reduced to 12 seconds, but it now also costs 30 Mana.\nInferno's Burning duration is increased to 8 seconds. Enemies killed by Inferno explode, dealing [270%] damage.\nFire Damage"
+    "tip": "Inferno\nRank 15\nUltimate\nPyromancy\nCooldown: 24 seconds\nLucky Hit: 10%\nSummon a fiery serpent that deals [54%] damage and Burns enemies for [217%] damage over 4 seconds, stacking up to 4 times.\nInferno continuously pulls enemies towards the center.\nModifiers\nInferno overfills your Overpower by 2 stacks.\nInferno's Cooldown is reduced to 12 seconds, but it now also costs 30 Mana.\nInferno now forms around you and follows you, healing you for 50% of your Maximum Life per second.\nFire Damage"
+   },
+   {
+    "name": "Familiar",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/familiar_lucky_light.png",
+    "tip": "Familiar\nRank 1\nConjuration\nPyromancy\nSummon\nCharges: 3\nCharge Cooldown: 12 seconds\nLucky Hit: 10%\nSummon a Fire Familiar for 8 seconds. It seeks enemies and periodically explodes, dealing [70%] damage.\nYou may have up to 6 Familiars active at a time.\nModifiers\nFamiliar's explosion radius is increased by 50%.\nFamiliar's duration is increased by 4 seconds.\nCasting Familiar Grants 1 stack of Overpower.\nEach active Familiar increases your Lucky Hit Chance from Pyromancy Skills by 1%."
+   },
+   {
+    "name": "Teleport",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport Weakens enemies for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+   },
+   {
+    "name": "Meteor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
+    "tip": "Meteor\nRank 9\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [444%] damage and an additional [111%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit, up to 2 times.\nMeteor rains down 6 Meteorites before the final impact that each deal [163%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
    },
    {
     "name": "Hydra",
     "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hydra.png",
     "tip": "Hydra\nEnchantment\nAfter spending 200 Mana, a 5-headed Hydra spawns for 10 seconds."
-   },
-   {
-    "name": "Meteor",
-    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/meteor.png",
-    "tip": "Meteor\nRank 3\nMastery\nPyromancy\nCore\nMana Cost: 40\nLucky Hit: 40%\nCall down a meteor that crashes into enemies, dealing [288%] damage and an additional [72%] Burning damage over 3 seconds.\nModifiers\nMeteor now consumes all your remaining Mana on Cast, dealing x2% increased damage for each point of extra Mana spent.\nMeteor's Impact damage now grants 1 stack of Overpower per enemy hit.\nMeteor rains down 6 Meteorites before the final impact that each deal [106%] damage each, but Meteor no longer deals Burning damage.\nFire Damage"
    }
   ],
-  "prime": [
-   {
-    "name": "Siege Engine",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/siege-engine.png",
-    "main": false,
-    "tip": "Siege Engine\nPrime Evil Power\nIce of Excidium has a chance to grant Attunement while in the Undercity."
-   },
-   {
-    "name": "Cold Blood",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/cold-blood.png",
-    "main": false,
-    "tip": "Cold Blood\nPrime Evil Power\nIce of Excidium generates 50 Primary Resource."
-   },
-   {
-    "name": "Grisly Trophies",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/grisly-trophies.png",
-    "main": false,
-    "tip": "Grisly Trophies\nPrime Evil Power\nIce of Exidium causes Bosses to have a 30% chance to drop an additional Boss Trophy when killed."
-   },
-   {
-    "name": "Ice of Excidium",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/ice-of-excidium.png",
-    "main": true,
-    "tip": "Ice of Excidium\nMain Prime Evil Power\nBaal's power bursts forth from you, periodically unleashing a blast of ice, dealing X Cold damage and smaller projectiles that deal X damage."
-   },
-   {
-    "name": "Seizing Frost",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/seizing-frost.png",
-    "main": false,
-    "tip": "Seizing Frost\nPrime Evil Power\nIce of Exidium Chills enemies for 10% and makes them Vulnerable for 5 seconds. Smaller projectiles Chill for half as much."
-   },
-   {
-    "name": "Shattered Flesh",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/shattered-flesh.png",
-    "main": false,
-    "tip": "Shattered Flesh\nPrime Evil Power\nWhen an enemy is first hit by Ice of Exidiumm it deals an additonal 20% of their Maximum Life over 4 seconds. This damage cannot be increased."
-   },
-   {
-    "name": "Thrill of Ruin",
-    "icon": "https://sunderarmor.com/DIABLO4/PrimeEvilPowers/thrill-of-ruin.png",
-    "main": false,
-    "tip": "Thrill of Ruin\nPrime Evil Power\nKilling enemies can fill you with Thrill of Ruin for 5 seconds, dramatically increasing the number of Ice of Exidium blasts you unleash."
-   }
-  ],
+  "prime": [],
   "soulShard": [],
   "tree": {
    "1182,1240": 1,
@@ -476,7 +497,7 @@
    "1422,1151": 1,
    "1275,1241": 1,
    "1386,1350": 1,
-   "1441,1223": 1,
+   "1489,1223": 1,
    "1589,1371": 1,
    "1478,1407": 1,
    "1384,1519": 15,
@@ -485,19 +506,19 @@
    "1479,1645": 1,
    "615,1670": 1,
    "512,1544": 1,
-   "374,1637": 1,
+   "410,1691": 1,
    "474,1727": 1,
-   "873,1874": 2,
-   "926,1763": 1,
-   "1110,1851": 1,
-   "963,1985": 1,
+   "873,1874": 1,
+   "974,1763": 1,
+   "1075,1818": 1,
+   "1011,1985": 1,
    "744,2407": 1,
    "687,2297": 1,
    "539,2464": 1,
    "604,2518": 1,
    "818,2573": 1,
-   "705,2575": 1,
-   "615,2721": 1,
+   "751,2575": 1,
+   "577,2667": 1,
    "676,2756": 1,
    "1001,2574": 15,
    "1064,2576": 1,
@@ -509,14 +530,14 @@
    "1213,2520": 1,
    "907,3216": 15,
    "1035,3321": 1,
-   "963,3421": 1,
+   "852,3421": 1,
    "777,3310": 1
   }
  },
  "paragon": [
   {
    "name": "Starting Board",
-   "glyph": "Unleash",
+   "glyph": "Elementalist",
    "x": 0,
    "y": 0,
    "rotate": 0,
@@ -561,7 +582,7 @@
   },
   {
    "name": "Searing Heat",
-   "glyph": "Destruction",
+   "glyph": "Tactician",
    "x": 0,
    "y": -1,
    "rotate": 90,
@@ -572,10 +593,13 @@
     "2,14",
     "2,15",
     "2,16",
+    "3,15",
     "3,16",
+    "3,17",
     "4,16",
     "5,16",
-    "6,13",
+    "5,19",
+    "5,20",
     "6,14",
     "6,15",
     "6,16",
@@ -584,23 +608,19 @@
     "6,19",
     "6,20",
     "7,13",
+    "7,14",
+    "7,19",
     "7,20",
-    "8,6",
-    "8,7",
     "8,13",
-    "8,20",
-    "9,7",
-    "9,8",
-    "9,12",
+    "8,19",
     "9,13",
-    "9,20",
-    "10,8",
-    "10,9",
-    "10,10",
+    "9,19",
     "10,11",
     "10,12",
-    "10,20",
+    "10,13",
+    "10,19",
     "11,12",
+    "11,19",
     "11,20",
     "12,12",
     "13,10",
@@ -619,21 +639,15 @@
     "15,15",
     "16,6",
     "16,14",
-    "17,5",
-    "17,6",
-    "17,14",
-    "18,3",
-    "18,4",
-    "18,5",
-    "19,3"
+    "17,14"
    ]
   },
   {
    "name": "Frigid Fate",
-   "glyph": "Tactician",
+   "glyph": "Adept",
    "x": 1,
    "y": -1,
-   "rotate": 0,
+   "rotate": 90,
    "on": [
     "2,11",
     "3,11",
@@ -645,171 +659,188 @@
     "4,16",
     "5,13",
     "5,14",
-    "6,6",
-    "6,7",
     "6,13",
-    "7,6",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
     "7,13",
-    "8,6",
-    "8,7",
+    "8,9",
     "8,13",
-    "9,7",
-    "9,8",
     "9,9",
     "9,10",
-    "9,12",
     "9,13",
-    "10,7",
     "10,10",
+    "10,12",
     "10,13",
     "10,14",
-    "11,2",
-    "11,3",
-    "11,4",
-    "11,7",
+    "10,15",
+    "11,11",
     "11,12",
     "11,13",
-    "12,4",
-    "12,7",
+    "11,14",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
     "12,13",
-    "13,4",
-    "13,5",
-    "13,6",
-    "13,7",
+    "12,16",
+    "12,17",
     "13,8",
     "13,9",
     "13,10",
     "13,11",
-    "13,12",
     "13,13",
-    "14,5",
-    "14,9",
-    "15,4",
-    "15,5"
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,14",
+    "16,15",
+    "16,16",
+    "16,18",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,12",
+    "18,16",
+    "18,17",
+    "18,18",
+    "19,11",
+    "20,11"
    ]
   },
   {
    "name": "Enchantment Master",
    "glyph": "Pyromaniac",
    "x": 1,
-   "y": -2,
-   "rotate": 90,
+   "y": 0,
+   "rotate": 180,
    "on": [
+    "3,7",
+    "4,6",
+    "4,7",
     "4,8",
+    "4,9",
+    "5,6",
     "5,8",
+    "5,9",
+    "6,4",
+    "6,5",
     "6,6",
-    "6,7",
-    "6,8",
-    "7,6",
+    "7,3",
+    "7,4",
     "8,4",
     "8,5",
     "8,6",
     "8,7",
-    "8,12",
-    "8,13",
     "9,4",
-    "9,7",
-    "9,12",
-    "9,13",
-    "9,14",
-    "10,7",
-    "10,8",
-    "10,9",
-    "10,10",
-    "10,11",
-    "10,12",
-    "11,10",
-    "11,20",
+    "9,5",
+    "9,6",
+    "10,6",
+    "11,6",
+    "12,6",
     "12,8",
     "12,9",
-    "12,10",
-    "12,11",
-    "12,16",
-    "12,20",
+    "13,6",
+    "13,7",
     "13,8",
     "13,9",
-    "13,11",
-    "13,12",
-    "13,13",
-    "13,14",
-    "13,15",
-    "13,16",
-    "13,17",
-    "13,18",
-    "13,19",
-    "13,20",
     "14,9",
-    "14,13",
+    "15,9",
     "15,13",
+    "16,9",
     "16,12",
     "16,13",
     "16,14",
     "16,15",
+    "17,9",
+    "17,10",
+    "17,11",
     "17,12",
     "17,13",
     "17,15",
     "17,16",
-    "18,13",
+    "18,9",
     "18,16",
     "18,17",
     "18,18",
+    "19,9",
+    "19,10",
     "19,11",
-    "19,12",
-    "19,13",
     "20,11"
    ]
   },
   {
-   "name": "Static Surge",
-   "glyph": "Adept",
-   "x": 0,
-   "y": -2,
-   "rotate": 180,
+   "name": "Elemental Summoner",
+   "glyph": "Destruction",
+   "x": 2,
+   "y": -1,
+   "rotate": 90,
    "on": [
-    "4,16",
-    "5,15",
-    "5,16",
-    "6,14",
-    "6,15",
-    "7,5",
-    "7,6",
-    "7,7",
-    "7,8",
+    "6,13",
+    "7,12",
     "7,13",
-    "7,14",
-    "8,6",
     "8,8",
+    "8,9",
     "8,13",
+    "9,7",
     "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
     "9,13",
+    "9,14",
+    "9,15",
+    "10,7",
     "10,8",
-    "10,13",
-    "11,2",
-    "11,7",
+    "10,14",
     "11,8",
+    "11,12",
     "11,13",
     "11,14",
-    "12,2",
-    "12,3",
-    "12,4",
-    "12,5",
-    "12,8",
-    "12,13",
+    "12,12",
     "13,5",
-    "13,8",
-    "13,11",
     "13,12",
-    "13,13",
+    "14,4",
     "14,5",
+    "14,6",
+    "14,7",
     "14,8",
+    "14,9",
     "14,11",
+    "14,12",
+    "15,3",
+    "15,4",
     "15,5",
-    "15,6",
-    "15,7",
-    "15,8",
     "15,9",
     "15,10",
-    "15,11"
+    "15,11",
+    "16,9",
+    "16,11",
+    "17,6",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,7",
+    "18,8",
+    "18,9",
+    "19,9",
+    "20,9",
+    "20,10",
+    "20,11"
    ]
   }
  ]

@@ -1,0 +1,811 @@
+{
+ "id": "zeal-paladin-endgame-unqiue-charms-argent-veil",
+ "site": "d4builds",
+ "className": "Paladin",
+ "build": "Zeal Paladin",
+ "variant": "Unqiue Charms Argent Veil",
+ "url": "https://d4builds.gg/builds/zeal-paladin-endgame/?var=0",
+ "updated": "November 24, 2026",
+ "author": "",
+ "checked": "2026-11-25",
+ "tier": "A",
+ "short": "Zeal",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Crown of Lucion",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
+    "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nResistance to All Elements\nCooldown Reduction\nMaximum Life\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll",
+    "cdr"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Resistance To All Elements",
+    "Cooldown Reduction",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby",
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Aspect of Heavenly Strength",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Heavenly Strength\nPaladin\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nStrength\nMaximum Life\nFaith Regeneration\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Faith Regeneration",
+    "Resistance To All Elements",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Gar"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Aspect of Redirected Force",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Physical Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Arcadia",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/arcadia.png",
+    "tip": "Arcadia\nMythic Unique Pants\nStrength\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nRally converts up to 50% of your Fortify into Barrier and grants x [32.5%] Damage Reduction. Rally's Cooldown is reduced by 50%.\nPaladin\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Faith Regeneration",
+    "Resistance To All Elements",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cem",
+    "Mot"
+   ],
+   "socketArt": {
+    "Cem": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of the Arbiter's Zephyr",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/mobility.png",
+    "tip": "Aspect of the Arbiter's Zephyr\nPaladin\nArbiter's evade cooldown is reduced by [1 - 3] Seconds.\nStrength\nMaximum Life\nMaximum Evade Charge\nFaith Regeneration\nEvade Cooldown Reduction\nBoots, Amulet (+50%)"
+   },
+   "affixes": [
+    "strength",
+    "life",
+    "movementSpeed",
+    "resAll"
+   ],
+   "affixNames": [
+    "Strength",
+    "Maximum Life",
+    "Movement Speed",
+    "Resistance To All Elements",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Red Sermon",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/red_sermon.png",
+    "tip": "Red Sermon\nMythic Unique 1h Sword\nWeapon Damage\nRanks to Zeal\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nZeal deals x [156%] increased damage and gains the Death or Glory Variant for free.\nPaladin\nDropped By:\nButcher"
+   },
+   "affixes": [
+    "strength",
+    "ranks:zeal",
+    "critDamage",
+    "life"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Zeal",
+    "Critical Strike Damage Multiplier",
+    "Maximum Life",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull",
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Aspect of Jacques' Fervor",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Jacques' Fervor\nPaladin\nEach stack of Fervor drains 5 Faith per second to increase your damage by x [25 - 30%].\nVulnerable Damage Multiplier\nAll Skills\nCritical Strike Damage Multiplier\nMaximum Resolve Stacks\nAspect of Interdiction\n+1 Set count to \nCathan's Dauntless Faith\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "ranksAll",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Stat 1",
+    "Vulnerable Damage Multiplier",
+    "All Skills",
+    "Critical Strike Damage Multiplier",
+    "Aspect Of Interdiction",
+    "+1 Set Count To Cathan's Dauntless Faith"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of the Juggernaut's Covenant",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "All Damage Multiplier",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "+1 Set Count To Cathan's Dauntless Faith"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Argent Veil",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/argent_veil.png",
+    "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "affixes": [
+    "strength",
+    "ranks:core-skills",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Strength",
+    "Ranks To Core Skills",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "empty": {
+   "name": "Empty",
+   "item": {
+    "name": "Offhand",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/offhand.png",
+    "tip": ""
+   },
+   "affixes": [],
+   "affixNames": [],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  }
+ },
+ "runes": [
+  {
+   "name": "Cem",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cem\nMagic Rune of Ritual\nGain: 75 Offering\nCast Evade."
+  },
+  {
+   "name": "Mot",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+  },
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Mythic Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
+   "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
+  },
+  "charms": [
+   {
+    "name": "Fer of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "affix": "Zealot Skills",
+    "tip": "Fer of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Linta of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "affix": "Zealot Skills",
+    "tip": "Linta of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Berú of Dauntless Faith",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
+    "set": "Cathan'S Dauntless Faith",
+    "mythic": false,
+    "affix": "Zealot Skills",
+    "tip": "Berú of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
+   },
+   {
+    "name": "Griswold's Opus",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "",
+    "tip": "Griswold's Opus\nDealing direct damage grants x [1.3%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [65%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "",
+    "tip": "Fists of Fate\nYour attacks randomly deal 1% to [390%] of their normal damage."
+   },
+   {
+    "name": "Blood-Mad Idol",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "",
+    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Zeal",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zeal.png",
+    "tip": "Zeal\nRank 15\nCore\nZealot\nLucky Hit: 3%\nStrike enemies with blinding speed, dealing [204%] damage followed immediately by 3 additional strikes dealing [89%] damage each.\nModifiers\nZeal gains 2 additional strikes.\nZeal has an additional +6% Critical Strike Chance.\nDouble this bonus against Weakened enemies.\nZeal costs x10% Maximum Life instead of Faith and strikes around you in a circle.\nWhenever you lose Life, Zeal's damage increases by 60% and Critical Strike Chance by 20% for 6 seconds.\nPhysical Damage"
+   },
+   {
+    "name": "Fanaticism Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/fanaticism_aura.png",
+    "tip": "Fanaticism Aura\nRank 15\nAura\nZealot\nCooldown: 15 seconds\nPassive: Spending Faith emanates power from you, granting you and your allies + [7%] Attack Speed and + [2.8%] Critical Strike Chance for 3 seconds up to a maximum of 4 times.\nActive: Weaken all Nearby enemies for 4 seconds.\nModifiers\nFanaticism Aura's passive stacks 1 additional time.\nFanaticism Aura gains 15% more bonus from potency.\nFanaticism Aura Passive increases Critical Strike Damage by x [8.4%] for you and your allies.\nCritical Strikes trigger Fanaticism's Passive."
+   },
+   {
+    "name": "Defiance Aura",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/defiance_aura.png",
+    "tip": "Defiance Aura\nRank 15\nAura\nDefensive\nJuggernaut\nCooldown: 20 seconds\nPassive: Your presence reinforces you and your allies, granting [62%] Armor and [62%] bonus on All Resistances\nActive: You become Unstoppable for 2 seconds.\nModifiers\nDefiance Aura's passive also grants you and your allies 15% Maximum Life.\nDefiance Aura gains 15% more bonus from potency.\nDefiance Aura's passive also grants X Thorns and increases you and your allies' Thorns by + [105%].\nDefiance Aura's active instead releases a nova dealing x500% of your Thorns damage."
+   },
+   {
+    "name": "Rally",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rally.png",
+    "tip": "Rally\nRank 4\nValor\nZealot\nCharges: 3\nCharge Cooldown: 16 seconds\nRally forth, generating [19] Faith and gaining +15% Movement Speed for 6 seconds.\nModifiers\nCasting Rally increases your Critical Strike Chance by +5% while active.\nRally's Cooldown and Costs are reduced by 15%.\nRally generates 20 more Faith and gains 1 additional Charge."
+   },
+   {
+    "name": "Aegis",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/aegis.png",
+    "tip": "Aegis\nRank 15\nValor\nDefensive\nJuggernaut\nCooldown: 20 seconds\nSurround yourself with shields of the Light, Taunting Close enemies and gaining [42%] Block Chance and 30% Armor for 4 seconds.\nModifiers\nCasting Aegis grants Unstoppable for 4 seconds.\nIncrease Aegis's duration by 4.\nAegis now applies Judgement instead of Taunting enemies.\nBlocking while Aegis is active applies Judgement to the attacker."
+   },
+   {
+    "name": "Arbiter of Justice",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/arbiter_of_justice.png",
+    "tip": "Arbiter of Justice\nRank 15\nUltimate\nDisciple\nMobility\nCooldown: 120 seconds\nLucky Hit: 16%\nAscend to the heavens and crash upon the battlefield as an Arbiter for [28] seconds, dealing [1530%] damage upon landing.\nModifiers\nReduce Arbiter of Justice's Cooldown by 20 seconds.\nArbiter's duration is increased by 10 seconds.\nArbiter form gains the following benefits:\n- Wing Strikes deal x200% increased damage\n- Wing Strikes apply Vulnerable"
+   },
+   {
+    "name": "Zealot",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zealot.png",
+    "tip": "Zealot\nCasting Zealot Skills grants Fervor for 2 seconds. Critically Striking with these Skills echoes the attack for an additional 45% of the damage, repeating for each stack of Fervor.\nWhile at maximum Fervor, Zealot Skills Fortify you for 5% of your Maximum Life, and gain 15% Damage Reduction."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "845,900": 15,
+   "947,716": 1,
+   "1050,754": 1,
+   "939,902": 1,
+   "1215,1213": 15,
+   "1319,1085": 1,
+   "1420,1124": 1,
+   "1355,1272": 1,
+   "1346,1436": 15,
+   "1457,1325": 1,
+   "1550,1384": 1,
+   "1440,1550": 1,
+   "864,1883": 1,
+   "918,1770": 1,
+   "1067,1828": 1,
+   "1004,1990": 1,
+   "459,1883": 9,
+   "316,1994": 1,
+   "253,1825": 1,
+   "355,1771": 1,
+   "1106,3068": 10,
+   "1208,2940": 1,
+   "1309,3014": 1,
+   "1197,3199": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Spirit",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,12",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,10",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,9",
+    "10,12",
+    "11,9",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Castle",
+   "glyph": "Exploit",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "2,16",
+    "3,11",
+    "3,12",
+    "3,13",
+    "3,14",
+    "3,15",
+    "3,16",
+    "3,17",
+    "4,14",
+    "4,15",
+    "4,16",
+    "4,19",
+    "5,16",
+    "5,19",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "6,20",
+    "7,16",
+    "8,15",
+    "8,16",
+    "8,17",
+    "8,18",
+    "8,19",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,17",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,17",
+    "11,9",
+    "11,12",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,8",
+    "12,9",
+    "13,7",
+    "13,8",
+    "14,7",
+    "15,6",
+    "15,7",
+    "16,5",
+    "16,6",
+    "17,4",
+    "17,5",
+    "18,3",
+    "18,4",
+    "19,2",
+    "19,3",
+    "19,4",
+    "20,3"
+   ]
+  },
+  {
+   "name": "Fervent",
+   "glyph": "Feverous",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "3,15",
+    "4,15",
+    "4,16",
+    "5,14",
+    "5,15",
+    "6,14",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,5",
+    "8,8",
+    "8,11",
+    "8,12",
+    "9,5",
+    "9,8",
+    "9,11",
+    "9,12",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "10,14",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "11,20",
+    "12,12",
+    "12,16",
+    "12,17",
+    "12,18",
+    "12,19",
+    "12,20",
+    "13,11",
+    "13,12",
+    "13,15",
+    "13,16",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "15,13",
+    "15,15",
+    "16,15",
+    "17,15",
+    "18,15",
+    "18,16",
+    "19,13",
+    "19,14",
+    "19,15",
+    "20,11",
+    "20,12",
+    "20,13"
+   ]
+  },
+  {
+   "name": "Relentless",
+   "glyph": "Resplendence",
+   "x": 1,
+   "y": -2,
+   "rotate": 270,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,4",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,4",
+    "10,8",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "12,8",
+    "12,9",
+    "12,13",
+    "12,14",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15"
+   ]
+  },
+  {
+   "name": "Beacon",
+   "glyph": "Chip",
+   "x": 0,
+   "y": -2,
+   "rotate": 90,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,8",
+    "4,8",
+    "4,9",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,11",
+    "5,12",
+    "6,8",
+    "6,9",
+    "6,12",
+    "6,14",
+    "7,7",
+    "7,8",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "8,8",
+    "8,9",
+    "8,14",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,6",
+    "10,9",
+    "10,11",
+    "10,16",
+    "10,17",
+    "11,5",
+    "11,6",
+    "11,9",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,11",
+    "12,16",
+    "12,17",
+    "13,11",
+    "14,11",
+    "15,8",
+    "15,11",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "17,8"
+   ]
+  }
+ ]
+}

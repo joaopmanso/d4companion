@@ -26,15 +26,39 @@
    ]
   },
   {
+   "name": "Arcadia",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Pants",
+   "slot": "pants",
+   "tip": "Arcadia\nMythic Unique Pants\nStrength\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nRally converts up to 50% of your Fortify into Barrier and grants x [32.5%] Damage Reduction. Rally's Cooldown is reduced by 50%.\nPaladin\nDropped By:\nBartuc",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/arcadia.png",
+   "classes": [
+    "Paladin"
+   ]
+  },
+  {
    "name": "Argent Veil",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Ring",
    "slot": "ring",
    "tip": "",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/argent_veil.png",
    "classes": [
     "Paladin"
+   ]
+  },
+  {
+   "name": "Arioc's Needle",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Weapon",
+   "slot": "weapon",
+   "tip": "",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/arioc's_needle.png",
+   "classes": [
+    "Barbarian"
    ]
   },
   {
@@ -52,11 +76,23 @@
   {
    "name": "Asheara's Khanjar",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "1h Dagger",
    "slot": "weapon",
    "tip": "Asheara's Khanjar\nMythic Unique 1h Dagger\nWeapon Damage\nMaximum Life\nCritical Strike Damage Multiplier\nDexterity\nCritical Strike Chance\nHits with this weapon increase your Attack Speed by + [6.5%] and damage by x [21.71%] for 4 seconds, up to + [19.5%] and x [65%] respectively.\nRogue\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/asheara's_khanjar.png",
+   "classes": [
+    "Rogue"
+   ]
+  },
+  {
+   "name": "Assassin's Stride",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Boots",
+   "slot": "boots",
+   "tip": "Assassin's Stride\nMythic Unique Boots\nDexterity\nRanks to Shadow Imbue\nMovement Speed\nMaximum Life\nMovement Speed\nShadow Imbuement gains x [78%] increased potency and Mobility Skills are always Shadow Imbued.\n\nLucky Hit: Damaging an Elite or Boss with a Mobility Skill has up to a [78%] chance to instantly trigger a free Shadow Imbuement\nexplosion.\nRogue\nDropped By:\nAndariel",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/assassin's_stride.png",
    "classes": [
     "Rogue"
    ]
@@ -125,7 +161,7 @@
   {
    "name": "Bindings of Attrition",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Pants",
    "slot": "pants",
    "tip": "Bindings of Attrition\nMythic Unique Pants\nWillpower\nArmor\nArmor\nWrath Regeneration\nMaximum Life\nCasting Dark Prison consumes [62.4%] of your Maximum Life to reset its Cooldown. You gain [39%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth",
@@ -136,7 +172,7 @@
   },
   {
    "name": "Blood Moon Breeches",
-   "rarity": "mythic",
+   "rarity": "unique",
    "kind": "unique",
    "type": "Pants",
    "slot": "pants",
@@ -236,7 +272,7 @@
   {
    "name": "Cowl of the Nameless",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
    "tip": "",
@@ -251,10 +287,13 @@
    "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
-   "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nResource Cost Reduction\nCooldown Reduction\nMaximum Resource\nArmor\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth",
+   "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nResource Cost Reduction\nMaximum Life\nArmor\nMaximum Life\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
    "classes": [
-    "Rogue"
+    "Druid",
+    "Paladin",
+    "Rogue",
+    "Sorcerer"
    ]
   },
   {
@@ -271,8 +310,8 @@
   },
   {
    "name": "Dark Howl",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Gloves",
    "slot": "gloves",
    "tip": "Dark Howl\nUnique Gloves\nWillpower\nAll Damage Multiplier\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nDebilitating Roar is now a Werewolf Skill. In addition, Debilitating Roar increases your damage by x [60 - 80%] while in Werewolf form for the duration.\nDruid\nDropped By:\nUrivar",
@@ -344,7 +383,7 @@
   {
    "name": "Drognan's Anguish",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Ring",
    "slot": "ring",
    "tip": "Drognan's Anguish\nMythic Unique Ring\nIntelligence\nRanks to Pyromancy Skills\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nCasting Pyromancy Skills Burns you for 5% of your Maximum Life over 10 seconds. You inflict x [325%] increased Burning damage based on how much of your Life is Burning.\nSorcerer\nDropped By:\nAndariel",
@@ -435,7 +474,7 @@
   {
    "name": "Esu's Heirloom",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Boots",
    "slot": "boots",
    "tip": "Esu's Heirloom\nMythic Unique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [52%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth",
@@ -447,7 +486,7 @@
   {
    "name": "Etna's Lost Dagger",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "1h Dagger",
    "slot": "weapon",
    "tip": "Etna's Lost Dagger\nUnique 1h Dagger\nDexterity\nRanks to Imbuements Skills\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable.\nRogue\nDropped By:\nHarbinger of Hatred",
@@ -482,8 +521,8 @@
   },
   {
    "name": "Fist of the Iron Rose",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Gloves",
    "slot": "gloves",
    "tip": "Fist of the Iron Rose\nUnique Gloves\nDexterity\nAll Damage Multiplier\nVulnerable Damage Multiplier\nDexterity\nImbuement Potency\nDamage a Close enemy with Marksman or Cutthroat Skills each grant a +15% Attack Speed bonus for 8 seconds.\n\nWhile both Attack Speed bonuses are active, you deal x [45 - 60%] increased damage to Close enemies.\nRogue\nDropped By:\nButcher",
@@ -504,13 +543,15 @@
     "Barbarian",
     "Druid",
     "Necromancer",
-    "Paladin"
+    "Paladin",
+    "Sorcerer",
+    "Warlock"
    ]
   },
   {
    "name": "Flamescar",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Wand",
    "slot": "weapon",
    "tip": "Flamescar\nUnique Wand\nWeapon Damage\nRanks to Incinerate\nDamage Over Time Multiplier\nAll Damage Multiplier\nDamage Over Time\nIncinerate gains one final charge, irradiating the area around youj and increasing damage dealt by x [200 - 300%] but costing an additional 50 Mana per second.\nSorcerer\nDropped By:\nUrivar",
@@ -533,8 +574,8 @@
   },
   {
    "name": "Fleshwrit Carapace",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Chest Armor",
    "slot": "chest",
    "tip": "Fleshwrit Carapace\nUnique Chest Armor\nWillpower\nArmor\nMaximum Life\nResistance to All Elements\nMaximum Life\nSigil Skills deal x [70 - 90%] increased damage. Active Sigils gain 1 kill every second and unused kills are saved when they expire.\nWarlock\nDropped By:\nLord Zir",
@@ -557,11 +598,11 @@
   },
   {
    "name": "Footfalls of the Waning World",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Boots",
    "slot": "boots",
-   "tip": "Footfalls of the Waning World\nUnique Boots\nWillpower\nMaximum Life\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nMovement Speed\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [0.6 - 1] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth",
+   "tip": "Footfalls of the Waning World\nMythic Unique Boots\nWillpower\nAttacks Reduce Evade's Cooldown\nMaximum Life\nWrath Regeneration\nMobility Cooldown Reduction\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [1.3] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
    "classes": [
     "Warlock"
@@ -593,8 +634,8 @@
   },
   {
    "name": "Galvanic Azurite",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Ring",
    "slot": "ring",
    "tip": "",
@@ -630,7 +671,7 @@
   {
    "name": "Gladiator's Triumph",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Gloves",
    "slot": "gloves",
    "tip": "Gladiator's Triumph\nUnique Gloves\nDexterity\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower.\nRogue\nDropped By:\nAstaroth",
@@ -682,7 +723,7 @@
   {
    "name": "Griswold's Opus",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "1h Sword",
    "slot": "weapon",
    "tip": "Griswold's Opus\nUnique 1h Sword\nWeapon Damage\nLucky Hit Chance\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus.\nPaladin\nDropped By:\nAstaroth",
@@ -783,11 +824,11 @@
   },
   {
    "name": "Herald of Zakarum",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Shield",
    "slot": "offhand",
-   "tip": "Herald of Zakarum\nUnique Shield\n40% Block Chance\n100% Main Hand Weapon Damage\nIndestructible\nStrength\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nMaximum Resolve Stacks\nGain [40 - 50%] increased Strength, Resistance, Armor and Retribution Chance.\n\nRetribution gains +50% increased Size.\nPaladin\nDropped By:\nAstaroth",
+   "tip": "Herald of Zakarum\nMythic Unique Shield\n40% Block Chance\n100% Main Hand Weapon Damage\nIndestructible\nStrength\nThorns\nDamage Reduction\nCooldown Reduction\nCritical Strike Chance\nGain [65%] increased Strength, Resistance, Armor and Retribution Chance.\n\nRetribution gains +50% increased Size.\nPaladin\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/herald_of_zakarum.png",
    "classes": [
     "Paladin"
@@ -818,6 +859,18 @@
    ]
   },
   {
+   "name": "Hooves of the Mountain God",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Boots",
+   "slot": "boots",
+   "tip": "Hooves of the Mountain God\nMythic Unique Boots\nStrength\nEvade Grants Movement Speed\nFury Regeneration\nMaximum Life\nMovement Speed\nCasting a Basic Skill while at Maximum Fury causes your Fury to increasingly Drain until you run out, during which your Basic skills now cleave dealing x [78%] increased damage.\nBarbarian\nDropped By:\nAstaroth",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/hooves_of_the_mountain_god.png",
+   "classes": [
+    "Barbarian"
+   ]
+  },
+  {
    "name": "Iceheart Brais",
    "rarity": "unique",
    "kind": "unique",
@@ -831,8 +884,8 @@
   },
   {
    "name": "Ifeh's Dire Totem",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Totem",
    "slot": "offhand",
    "tip": "Ifeh's Dire Totem\nUnique Totem\nWeapon Damage\nPoison Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nAttack Speed\nGrizzly Rage is now a Werewolf Skill and Shapeshifts you into a Dire Werewolf. Dire Werewolves gain x [100 - 125%] Critical Strike Damage, x [100 - 125%] bonus Poisoning damage and Spirit Cost Reduction instead of Armor. In addition, kills Heal you for 5% of your Maximum Life.\nDruid\nDropped By:\nHarbinger of Hatred",
@@ -882,6 +935,18 @@
    ]
   },
   {
+   "name": "Insatiable Fury",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Chest Armor",
+   "slot": "chest",
+   "tip": "Insatiable Fury\nMythic Unique Chest Armor\nWillpower\nRanks to Trample\nMaximum Life\nArmor\nMaximum Life\nFor 5 seconds after Casting Trample, you may Cast Trample again without incurring the Cooldown. Trample additionally deals x [260%] bonus damage.\nDruid\nDropped By:\nAndariel",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/insatiable_fury.png",
+   "classes": [
+    "Druid"
+   ]
+  },
+  {
    "name": "Insight",
    "rarity": "unique",
    "kind": "runeword",
@@ -892,6 +957,18 @@
    "classes": [
     "Barbarian",
     "Rogue"
+   ]
+  },
+  {
+   "name": "Jacinth Shell",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Chest Armor",
+   "slot": "chest",
+   "tip": "Jacinth Shell\nMythic Unique Chest Armor\nDexterity\nVigor per Second\nMaximum Life\nArmor\nMaximum Life\nEach of your active Cooldowns grants x [9.1%] Damage Reduction, and each second, they drain 10% of your Maximum Vigor from you to reduce their durations by 1.5 seconds.\nSpiritborn\nDropped By:\nAndariel",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/jacinth_shell.png",
+   "classes": [
+    "Spiritborn"
    ]
   },
   {
@@ -926,7 +1003,7 @@
   },
   {
    "name": "Lidless Wall",
-   "rarity": "mythic",
+   "rarity": "unique",
    "kind": "unique",
    "type": "Shield",
    "slot": "offhand",
@@ -942,7 +1019,7 @@
    "kind": "mythic",
    "type": "Flail",
    "slot": "weapon",
-   "tip": "Light's Rebuke\nMythic Unique Flail\nWeapon Damage\nRanks to Divine Lance\nCritical Strike Damage Multiplier\nStrength\nCritical Strike Chance\nEnemies impaled by the first strike of Divine Lance take x [260%] increased damage from Divine Lance's subsequent hits.\nPaladin\nDropped By:\nBeast in Ice",
+   "tip": "Light's Rebuke\nMythic Unique Flail\nWeapon Damage\nRanks to Divine Lance\nCritical Strike Damage Multiplier\nMaximum Life\nCritical Strike Chance\nEnemies impaled by the first strike of Divine Lance take x [260%] increased damage from Divine Lance's subsequent hits.\nPaladin\nDropped By:\nBeast in Ice",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/light's_rebuke.png",
    "classes": [
     "Paladin"
@@ -950,11 +1027,11 @@
   },
   {
    "name": "Litany of Sable",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "1h Dagger",
    "slot": "weapon",
-   "tip": "Litany of Sable\nUnique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [100 - 120%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth",
+   "tip": "Litany of Sable\nMythic Unique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [156%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/litany_of_sable.png",
    "classes": [
     "Warlock"
@@ -976,11 +1053,11 @@
   },
   {
    "name": "Loyalty's Mantle",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
-   "tip": "Loyalty's Mantle\nUnique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nWhile your Spirit Hall choices match: \n- Their bonuses are 100% more potent.\n- Skills of their Base Spirit gain [50 - 60%] Vigor Cost Reduction.\n- Skills of their Base Spirit gain [50 - 60%] Cooldown Reduction.\nSpiritborn\nDropped By:\nBartuc",
+   "tip": "Loyalty's Mantle\nMythic Unique Helm\nDexterity\nMaximum Life\nCooldown Reduction\nResistance to All Elements\nMaximum Life\nWhile your Spirit Hall choices match:\n- Their bonuses are 100% more potent. \n- Skills of their Base Spirit gain [78%]. \n- Vigor Cost Reduction and Cooldown Reduction. \n- Skills of their Base Spirit deal x [78%] increased damage.\nSpiritborn\nDropped By:\nBartuc",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/loyalty's_mantle.png",
    "classes": [
     "Spiritborn"
@@ -1012,8 +1089,8 @@
   },
   {
    "name": "Malefic Crescent",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Amulet",
    "slot": "amulet",
    "tip": "",
@@ -1030,6 +1107,18 @@
    "slot": "chest",
    "tip": "Mantle of the Grey\nUnique Chest Armor\nStrength\nRanks to Juggernaut Skills\nMaximum Life\nThorns\nMaximum Resolve Stacks\nJuggernaut Oath makes your Juggernaut Skills 25% larger but Consumes up to 16 Resolve, granting x [4 - 6%] increased Juggernaut Skill damage for each point Consumed.\nPaladin\nDropped By:\nHarbinger of Hatred",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/mantle_of_the_grey.png",
+   "classes": [
+    "Paladin"
+   ]
+  },
+  {
+   "name": "March of the Stalwart Soul",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Boots",
+   "slot": "boots",
+   "tip": "March of the Stalwart Soul\nMythic Unique Boots\nStrength\nRanks to Advance\nMaximum Life\nMovement Speed\nMovement Speed\nAdvance deals x [130%] increased damage, cleaves in an area around you, and travels twice as far.\nPaladin\nDropped By:\nButcher",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/march_of_the_stalwart_soul.png",
    "classes": [
     "Paladin"
    ]
@@ -1093,6 +1182,18 @@
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/mutilator_plate.png",
    "classes": [
     "Necromancer"
+   ]
+  },
+  {
+   "name": "Night Terror",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Amulet",
+   "slot": "amulet",
+   "tip": "",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/night_terror.png",
+   "classes": [
+    "Warlock"
    ]
   },
   {
@@ -1256,6 +1357,18 @@
    ]
   },
   {
+   "name": "Rictus of Terror",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "Helm",
+   "slot": "helm",
+   "tip": "Rictus of Terror\nMythic Unique Helm\nWillpower\nCooldown Reduction\nMaximum Life\nAbyss Skills\nMaximum Life\nCommand Laalish is now an Ultimate Skill and deals x [156%] increased damage. \nYou gain the effects of the Unfathomable Fragment for free with 100% increased Potency.\nWarlock\nDropped By:\nDuriel",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/rictus_of_terror.png",
+   "classes": [
+    "Warlock"
+   ]
+  },
+  {
    "name": "Ring of Red Furor",
    "rarity": "mythic",
    "kind": "mythic",
@@ -1359,6 +1472,18 @@
    ]
   },
   {
+   "name": "Scepter of the Three",
+   "rarity": "mythic",
+   "kind": "mythic",
+   "type": "2h Mace",
+   "slot": "weapon",
+   "tip": "Scepter of the Three\nMythic Unique 2h Mace\nWeapon Damage\nMaximum Life\nYou can now equip all Ultimate Skills and gain 15 Ranks in them. Hitting enemies with Non-Ultimate Skills builds up your Ultimate Skill damage by x [3.25%] , up to x [325%]. After starting Ultimate Skills the damage bonus is reset once all have ended.\nWarlock\nDropped By:\nAndariel",
+   "art": "https://sunderarmor.com/DIABLO4/Uniques/2/scepter_of_the_three.png",
+   "classes": [
+    "Warlock"
+   ]
+  },
+  {
    "name": "Scoundrel's Kiss",
    "rarity": "mythic",
    "kind": "unique",
@@ -1396,8 +1521,8 @@
   },
   {
    "name": "Sea Lord's Fine Gloves",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Gloves",
    "slot": "gloves",
    "tip": "Sea Lord's Fine Gloves\nUnique Gloves\nDexterity\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nTraps Arm Faster\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage\nRogue\nDropped By:\nDuriel",
@@ -1444,13 +1569,14 @@
   },
   {
    "name": "Shard of Verathiel",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "1h Sword",
    "slot": "weapon",
-   "tip": "Shard of Verathiel\nUnique 1h Sword\nWeapon Damage\nRanks to Basic Skills\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nBasic Skills deal x [70 - 100%] increased damage but additionally cost 25 Primary Resource.\nDropped By:\nAll Bosses, \nVarshan",
+   "tip": "Shard of Verathiel\nMythic Unique 1h Sword\nWeapon Damage\nRanks to Basic Skills\nDamage Over Time Multiplier\nStrength\nDamage Over Time\nBasic Skills deal x [130%] increased damage but additionally cost 25 Primary Resource.\nDropped By:\nAll Bosses, \nVarshan",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/shard_of_verathiel.png",
    "classes": [
+    "Barbarian",
     "Druid",
     "Paladin",
     "Rogue"
@@ -1471,7 +1597,7 @@
   {
    "name": "Shrouded Gift",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Pants",
    "slot": "pants",
    "tip": "Shrouded Gift\nUnique Pants\nDexterity\nMovement Speed\nMaximum Life\nResistance to All Elements\nMaximum Life\nWhenever you gain Stealth, you also gain Concealment. Gain [25 - 30%] Damage Reduction while Stealthed and for 8 seconds after breaking it.\nRogue\nDropped By:\nHarbinger of Hatred",
@@ -1547,13 +1673,14 @@
   },
   {
    "name": "Squirt's Blouse",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Chest Armor",
    "slot": "chest",
-   "tip": "Squirt's Blouse\nUnique Chest Armor\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nWhile not taking Damage, you take up to 50% and deal up to x [30 - 50%] more damage. This bonus is reset upon losing Life.",
+   "tip": "Squirt's Blouse\nMythic Unique Chest Armor\nPrimary Core Stat\nFury Regeneration\nMaximum Life\nMaximum Resource\nMaximum Life\nMaximum Resource\nWhile not taking Damage, you take up to 50% and deal up to x [65%] more damage. This bonus is reset upon losing Life.",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/squirt's_blouse.png",
    "classes": [
+    "Barbarian",
     "Druid"
    ]
   },
@@ -1571,11 +1698,11 @@
   },
   {
    "name": "Starfall Coronet",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
-   "tip": "Starfall Coronet\nUnique Helm\nMaximum Resource\nIntelligence\nMaximum Life\nMana Regeneration\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [80 - 100%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice",
+   "tip": "Starfall Coronet\nMythic Unique Helm\nIntelligence\nRanks to Meteor\nMaximum Life\nMaximum Resource\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [130%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/starfall_coronet.png",
    "classes": [
     "Sorcerer"
@@ -1633,11 +1760,11 @@
   },
   {
    "name": "Strike of Stormhorn",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Focus",
    "slot": "offhand",
-   "tip": "Strike of Stormhorn\nUnique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCooldown Reduction\nCritical Strike Chance\nBall Lightning deals x [40 - 60%] increased damage and explodes for 40% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire",
+   "tip": "Strike of Stormhorn\nMythic Unique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nDamage\nBall Lightning deals x [130%] increased damage and explodes for 50% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/strike_of_stormhorn.png",
    "classes": [
     "Sorcerer"
@@ -1694,12 +1821,13 @@
   {
    "name": "Temerity",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Pants",
    "slot": "pants",
-   "tip": "Temerity\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nEffects that Heal you beyond 100% Life grant you a Barrier up to [80 - 100%] of your Maximum Life that lasts for 8 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred",
+   "tip": "Temerity\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nEffects that Heal you beyond 100% Life grant you a Barrier up to [130%] of your Maximum Life that lasts for 4 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
    "classes": [
+    "Druid",
     "Spiritborn",
     "Warlock"
    ]
@@ -1895,7 +2023,7 @@
   {
    "name": "Tuskhelm of Joritz the Mighty",
    "rarity": "mythic",
-   "kind": "unique",
+   "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
    "tip": "Tuskhelm of Joritz the Mighty\nUnique Helm\nStrength\nCooldown Reduction\nMaximum Resource\nMaximum Life\nMaximum Life\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction.\nBarbarian\nDropped By:\nBartuc",
@@ -1943,11 +2071,11 @@
   },
   {
    "name": "Vision of the Firestorm",
-   "rarity": "unique",
-   "kind": "unique",
+   "rarity": "mythic",
+   "kind": "mythic",
    "type": "Helm",
    "slot": "helm",
-   "tip": "Vision of the Firestorm\nUnique Helm\nIntelligence\nRanks to Firewall\nMaximum Life\nCooldown Reduction\nMaximum Life\nFirewall has x [80 - 100%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire",
+   "tip": "Vision of the Firestorm\nMythic Unique Helm\nIntelligence\nRanks to Firewall\nMaximum Resource\nCooldown Reduction\nMaximum Life\nFirewall has x [130%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire",
    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/vision_of_the_firestorm.png",
    "classes": [
     "Sorcerer"
@@ -1980,7 +2108,7 @@
   {
    "name": "Wendigo Brand",
    "rarity": "mythic",
-   "kind": "mythic",
+   "kind": "unique",
    "type": "Ring",
    "slot": "ring",
    "tip": "",
@@ -2046,6 +2174,13 @@
    ]
   },
   {
+   "name": "Aspect of Ancient Flame",
+   "tip": "Aspect of Ancient Flame\nSorcerer\nYour Pyromancy Skills with a Cooldown deal x [20 - 30%] increased damage per second of Cooldown they incurred.\nVulnerable Damage Multiplier\nAttack Speed\nDamage Over Time Multiplier\nFire Damage Multiplier\nCooldown Reduction\nOverheating Aspect\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Sorcerer"
+   ]
+  },
+  {
    "name": "Aspect of Angelic Masterwork",
    "tip": "Aspect of Angelic Masterwork\nPaladin\nYour All Resistance is increased by [100 - 140%] while in Arbiter form.\nStrength\nMaximum Life\nFaith per Second\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
    "classes": [
@@ -2077,7 +2212,14 @@
   },
   {
    "name": "Aspect of Armageddon",
-   "tip": "Aspect of Armageddon\nSorcerer\nYour Ultimate Skill grants you [50 - 80%] increased damage of its element type while active for 15 seconds.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Armageddon\nSorcerer\nYour Ultimate Skill grants you [50 - 80%] increased damage of its element type while active for 15 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Sorcerer"
+   ]
+  },
+  {
+   "name": "Aspect of Arrogance",
+   "tip": "Aspect of Arrogance\nCodex • Sorcerer\nShock Skills deal x [30 - 45%] increased damage to Close or Stunned enemies. These bonuses can stack.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nResource Cost Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2146,6 +2288,20 @@
    "tip": "Aspect of Combustion\nCodex • Sorcerer\nYour Pyromancy Skills deal [70 - 100%] increased Critical Strike Damage to Burning enemies.\nWeapon Damage\nIntelligence\nMaximum Life\nCritical Strike Damage Multiplier\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
+   ]
+  },
+  {
+   "name": "Aspect of Contamination",
+   "tip": "Aspect of Contamination\nRogue\nWhen your Poison damage Critically Strikes, you deal x [40 - 60%] increased Non-Physical damage for 9 seconds.\nShadow Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nAspect of Siphoning Strikes\n+1 Set count to \nLegacy of the Sightless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Rogue"
+   ]
+  },
+  {
+   "name": "Aspect of Corruption",
+   "tip": "Aspect of Corruption\nCodex • Rogue\nYour Imbuement Skill effects have x [40 - 60%] increased potency.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nImbuement Potency\n+1 Set count to \nWay of the Blurring Blade\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Rogue"
    ]
   },
   {
@@ -2239,6 +2395,13 @@
    ]
   },
   {
+   "name": "Aspect of Falling Feathers",
+   "tip": "Aspect of Falling Feathers\nSpiritborn\nMoving with a Mobility Skill or Evade spawns Storm Feathers behind you.\n\nStorm Feathers now drop from the sky as they are spawned, each dealing [X - X] Lightning damage on impact.\nDexterity\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nMovement Speed\nMaximum Ferocity\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
+   "classes": [
+    "Spiritborn"
+   ]
+  },
+  {
    "name": "Aspect of Fathomless Dark",
    "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
@@ -2253,8 +2416,15 @@
    ]
   },
   {
+   "name": "Aspect of Firm Decree",
+   "tip": "Aspect of Firm Decree\nPaladin\nJudging an enemy grants you [20 - 30%] Damage Reduction for 8 seconds.\nStrength\nMaximum Life\nFaith Regeneration\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
+   "classes": [
+    "Paladin"
+   ]
+  },
+  {
    "name": "Aspect of Fleet Wings",
-   "tip": "Aspect of Fleet Wings\nSpiritborn\nYour Eagle Skill damage is increased by x [25 - 35%] of your Movement Speed.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Fleet Wings\nSpiritborn\nYour Eagle Skill damage is increased by x [25 - 35%] of your Movement Speed.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Damage\nAspect of Apprehension\n+1 Set count to \nKwatli's Grace\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Spiritborn"
    ]
@@ -2298,6 +2468,7 @@
    "tip": "Aspect of Heavenly Strength\nNecromancer\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nIntelligence\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
    "classes": [
     "Necromancer",
+    "Paladin",
     "Rogue",
     "Warlock"
    ]
@@ -2339,8 +2510,9 @@
   },
   {
    "name": "Aspect of Inner Calm",
-   "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Chance\nMaximum Resolve Stacks\nOvercharged Aspect\nLightning Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nPhysical Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nPhysical Damage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
+    "Barbarian",
     "Druid",
     "Rogue",
     "Sorcerer",
@@ -2360,6 +2532,13 @@
    "tip": "Aspect of Iron Rain\nRogue\nYour Arrow Storms deal x [15 - 25%] increased damage and continuously apply Vulnerable.\nDexterity\nMovement Speed\nMaximum Life\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
    "classes": [
     "Rogue"
+   ]
+  },
+  {
+   "name": "Aspect of Jacques' Fervor",
+   "tip": "Aspect of Jacques' Fervor\nPaladin\nEach stack of Fervor drains 5 Faith per second to increase your damage by x [25 - 30%].\nVulnerable Damage Multiplier\nAll Skills\nCritical Strike Damage Multiplier\nMaximum Resolve Stacks\nAspect of Interdiction\n+1 Set count to \nCathan's Dauntless Faith\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Paladin"
    ]
   },
   {
@@ -2388,6 +2567,13 @@
    "tip": "Aspect of Layered Wards\nPaladin\nYour Blocked Damage Reduction is increased by + [30 - 40%].\nStrength\nMaximum Life\nArmor\nFaith per Second\nArbiter Duration\nHelm, Chest, Pants, Shield, Amulet (+50%)",
    "classes": [
     "Paladin"
+   ]
+  },
+  {
+   "name": "Aspect of Limitless Rage",
+   "tip": "Aspect of Limitless Rage\nBarbarian\nEach point of Fury you generate from Basic Skills increases your damage by x [0.5 - 0.75%], up to 350 Fury. This bonus is lost after 4 seconds.\nStrength\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Barbarian"
    ]
   },
   {
@@ -2479,14 +2665,14 @@
   },
   {
    "name": "Aspect of Searing Impact",
-   "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nVulnerable Damage Multiplier\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
   },
   {
    "name": "Aspect of Shredding Blades",
-   "tip": "Aspect of Shredding Blades\nSorcerer\nConjuration damage makes enemies Vulnerable for 4 seconds. You deal x [15 - 20%] increased damage to Vulnerable enemies.\nIntelligence\nMovement Speed\nBlizzard\nArmor\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
+   "tip": "Aspect of Shredding Blades\nSorcerer\nConjuration damage makes enemies Vulnerable for 4 seconds. You deal x [15 - 20%] increased damage to Vulnerable enemies.\nIntelligence\nMaximum Life\nMovement Speed\nFirewall\nMovement Speed\nHabacalva's Cauldron\n: Fire Damage\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
    "classes": [
     "Sorcerer"
    ]
@@ -2585,8 +2771,9 @@
   },
   {
    "name": "Aspect of the Moonrise",
-   "tip": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [40 - 60%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [60 - 80%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nAll Skills\nDamage Over Time Multiplier\nCooldown Reduction\nAspect of Anger Management\n+1 Set count to \nBerserker's Crucible\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
+    "Barbarian",
     "Druid",
     "Paladin",
     "Spiritborn",
@@ -2630,7 +2817,7 @@
   },
   {
    "name": "Aspect of the Zealot's Covenant",
-   "tip": "Aspect of the Zealot's Covenant\nPaladin\nAdditional hits from Zealot Oath deal x [100 - 120%] increased damage.\n\nYour Maximum Fervor is increased by 1 and its duration is increased by 2 seconds.\nStrength\nCritical Strike Chance\nDamage Reduction\nCooldown Reduction\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Aspect of the Zealot's Covenant\nPaladin\nAdditional hits from Zealot Oath deal x [100 - 120%] increased damage.\n\nYour Maximum Fervor is increased by 1 and its duration is increased by 2 seconds.\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCooldown Reduction\n+1 Set count to \nHeaven's Radiant Fire\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Paladin"
    ]
@@ -2654,6 +2841,13 @@
    "tip": "Aspect of Tyrael's Jurisdiction\nPaladin\nArbiter's Wing Strikes now seek nearby enemies and deal x [160 - 240%] increased damage.\nStrength\nCritical Strike Damage Multiplier\nAll Skills\nVulnerable Damage Multiplier\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Paladin"
+   ]
+  },
+  {
+   "name": "Aspect of Unstable Imbuements",
+   "tip": "Aspect of Unstable Imbuements\nCodex • Rogue\nWhen casting an Imbuement Skill you trigger an explosion around yourself, applying the Imbuement effects at x [40 - 60%] increased Potency and dealing [X] damage of the same type.\nDexterity\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nLegacy of the Sightless\n: Ultimate Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Rogue"
    ]
   },
   {
@@ -2731,7 +2925,11 @@
    "name": "Duelist's Aspect",
    "tip": "Duelist's Aspect\nCodex • Barbarian\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times. This bonus is lost when swapping weapons.\nWeapon Damage\nStrength\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
-    "Barbarian"
+    "Barbarian",
+    "Paladin",
+    "Rogue",
+    "Sorcerer",
+    "Warlock"
    ]
   },
   {
@@ -2755,6 +2953,13 @@
    "tip": "Embattled Aspect\nCodex • Necromancer\nFortify's Drain Rate is increased by + [150 - 200%].\nIntelligence\nMaximum Life\nMaximum Evade Charge\nEssence Regeneration\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
    "classes": [
     "Necromancer"
+   ]
+  },
+  {
+   "name": "Envenomed Aspect",
+   "tip": "Envenomed Aspect\nCodex • Druid\nYou gain x [45 - 60%] bonus Damage against Poisoned enemies. Poisoning an enemy makes them Vulnerable.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nCritical Strike Damage\n+1 Set count to \nSong of the Old Mountain\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Druid"
    ]
   },
   {
@@ -2848,6 +3053,13 @@
    ]
   },
   {
+   "name": "Ominous Aspect",
+   "tip": "Ominous Aspect\nCodex • Warlock\nWhile standing still, gain x [15 - 19%] increased Greater Demon Skill damage for 2 seconds, up to x [75 - 95%].\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nShadow Damage Multiplier\nCooldown Reduction\nBane-Link Aspect\n+1 Set count to \nShadow of Harash\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "classes": [
+    "Warlock"
+   ]
+  },
+  {
    "name": "Opportunist's Aspect",
    "tip": "Opportunist's Aspect\nCodex • Rogue\nWhen you enter or break Stealth, you drop a cluster of exploding Stun Grenades around you that deal [X - X] total Physical damage and Stun enemies for 1 second.\n\nYour Stun Grenades deal x [90 - 120%] increased damage.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
@@ -2892,7 +3104,7 @@
   },
   {
    "name": "Revelator's Aspect",
-   "tip": "Revelator's Aspect\nPaladin\nZealot Skills deal x [12.5 - 32.5%] increased damage, doubled while at 3 or more stacks of Fervor.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+   "tip": "Revelator's Aspect\nPaladin\nHitting enemies with Zealot Skills increases the damage they take from you by x [1.4 - 1.8%] , up to x [70 - 90%].\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nHeaven's Radiant Fire\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
    "classes": [
     "Paladin"
    ]
@@ -3036,56 +3248,56 @@
    "set": "Berserker'S Crucible",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   "tip": "Linta of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
   },
   "Linta of Sescheron's Fury": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
    "set": "Sescheron'S Fury",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+   "tip": "Linta of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
   },
   "Mlor of the Crucible": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
    "set": "Berserker'S Crucible",
    "mythic": false,
    "unique": false,
-   "tip": "Mlor of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   "tip": "Mlor of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
   },
   "Berú of Sescheron's Fury": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
    "set": "Sescheron'S Fury",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+   "tip": "Berú of Sescheron's Fury\nMaximum Resource\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
   },
   "Fer of Sescheron's Fury": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
    "set": "Sescheron'S Fury",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+   "tip": "Fer of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
   },
   "Fer of the Crucible": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
    "set": "Berserker'S Crucible",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   "tip": "Fer of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
   },
   "Berú of the Crucible": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
    "set": "Berserker'S Crucible",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+   "tip": "Berú of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
   },
   "Fists of Fate": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
    "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   "mythic": true,
+   "unique": false,
+   "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [390%] of their normal damage."
   },
   "Phoba of the Crucible": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
@@ -3127,7 +3339,7 @@
    "set": "",
    "mythic": true,
    "unique": false,
-   "tip": "Blood-Mad Idol\nMaximum Resource\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
+   "tip": "Blood-Mad Idol\nMartial Skill\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
   },
   "Crown of Lucion": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -3232,14 +3444,14 @@
    "set": "Bloodletter'S Flow",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+   "tip": "Fer of the Bloodletter\nMartial Skill\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
   },
   "Berú of the Bloodletter": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/bloodletter's_flow.png",
    "set": "Bloodletter'S Flow",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+   "tip": "Berú of the Bloodletter\nMartial Skill\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
   },
   "Berú of the Storm Shepherd": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/storm_shepherd's_call.png",
@@ -3260,28 +3472,28 @@
    "set": "Song of the Old Mountain",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Old Mountain\nStorm Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   "tip": "Berú of the Old Mountain\nShapeshifting Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
   },
   "Mlor of the Old Mountain": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
    "set": "Song of the Old Mountain",
    "mythic": false,
    "unique": false,
-   "tip": "Mlor of the Old Mountain\nStorm Skills\nCold Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   "tip": "Mlor of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
   },
   "Fer of the Old Mountain": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
    "set": "Song of the Old Mountain",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Old Mountain\nStorm Skills\nPoison Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   "tip": "Fer of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
   },
   "Linta of the Old Mountain": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
    "set": "Song of the Old Mountain",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of the Old Mountain\nStorm Skills\nPhysical Resistance\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x15% for 4 seconds. Enemies become Fossilized at 4 stacks, Petrifying them for 3 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 200% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   "tip": "Linta of the Old Mountain\nShapeshifting Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
   },
   "Phoba of the Old Mountain": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
@@ -3624,7 +3836,7 @@
    "set": "Cathan'S Righteous Will",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   "tip": "Fer of Righteous Will\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
   },
   "Razorplate": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -3645,21 +3857,21 @@
    "set": "Cathan'S Dauntless Faith",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Dauntless Faith\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   "tip": "Berú of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
   },
   "Fer of Dauntless Faith": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
    "set": "Cathan'S Dauntless Faith",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Dauntless Faith\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   "tip": "Fer of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
   },
   "Linta of Dauntless Faith": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
    "set": "Cathan'S Dauntless Faith",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Dauntless Faith\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   "tip": "Linta of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x3% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die stores a Zealot Afterimage. Moving periodically spawns your stored Afterimages."
   },
   "Berú of Iron Conviction": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
@@ -3729,7 +3941,7 @@
    "set": "Cathan'S Righteous Will",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
+   "tip": "Berú of Righteous Will\nAura Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
   },
   "Phoba of Righteous Will": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
@@ -3739,11 +3951,11 @@
    "tip": "Phoba of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 15 seconds."
   },
   "Griswold's Opus": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
    "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "Griswold's Opus\nDealing direct damage grants x [0.8 - 1%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [40 - 50%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
+   "mythic": true,
+   "unique": false,
+   "tip": "Griswold's Opus\nDealing direct damage grants x [1.3%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [65%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
   },
   "Berú of Radiant Fire": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
@@ -3764,7 +3976,7 @@
    "set": "Heaven'S Radiant Fire",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Radiant Fire\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
+   "tip": "Linta of Radiant Fire\nAura Skills\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
   },
   "Mlor of Radiant Fire": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
@@ -3799,7 +4011,7 @@
    "set": "Legacy of the Sightless",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Sightless\nLucky Hit: Chance to Deal Fire Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   "tip": "Fer of the Sightless\nMaximum Resource\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
   },
   "Cowl of the Nameless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -3813,21 +4025,21 @@
    "set": "Legacy of the Sightless",
    "mythic": false,
    "unique": false,
-   "tip": "Mlor of the Sightless\nLucky Hit: Chance to Deal Holy Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   "tip": "Mlor of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
   },
   "Linta of the Sightless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
    "set": "Legacy of the Sightless",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of the Sightless\nLucky Hit: Chance to Deal Lightning Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   "tip": "Linta of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
   },
   "Berú of the Sightless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
    "set": "Legacy of the Sightless",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Sightless\nMaximum Resource\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+   "tip": "Berú of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
   },
   "Phoba of the Sightless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
@@ -3869,7 +4081,7 @@
    "set": "Spellbound Steel",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
+   "tip": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
   },
   "Mlor of Spellbound Steel": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
@@ -3883,7 +4095,7 @@
    "set": "Spellbound Steel",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
+   "tip": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
   },
   "Linta of Spellbound Steel": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
@@ -3939,7 +4151,7 @@
    "set": "Nilfur'S Narrow Eye",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Narrow Eye\nLucky Hit: Chance to Deal Shadow Damage\nMarksman Skills\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+   "tip": "Fer of the Narrow Eye\nMarksman Skills\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 8 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
   },
   "Saboteur's Signet": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -3955,6 +4167,20 @@
    "unique": true,
    "tip": "Gladiator's Triumph\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower."
   },
+  "Berú of the Blurring Blade": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/way_of_the_blurring_blade.png",
+   "set": "Way of the Blurring Blade",
+   "mythic": false,
+   "unique": false,
+   "tip": "Berú of the Blurring Blade\nCutthroat Skills\nWay of the Blurring Blade\nPhoba of the Blurring Blade\nFer of the Blurring Blade\nMlor of the Blurring Blade\nLinta of the Blurring Blade\nBerú of the Blurring Blade\nWay of the Blurring Blade\n(2) Set: Cutthroat Skills deal x60% increased damage. Stabbing an enemy in the back with a Cutthroat Skill deals x10% increased Critical Strike Damage.\n(3) Set: Casting an Agility Skill grants you 30% Damage Reduction for 8 seconds and Slows Nearby enemy Small Missiles by 80% for 4 seconds.\n(5) Set: After stabbing an enemy in the back or Critically Striking an enemy, your senses heighten, allowing all your hits to count as backstabs and granting x40% increased Cast Speed and x250% increased damage for 4 seconds. Cutthroat Skill backstabs have a 10% chance to make your next Agility Skill free to Cast, up to a maximum of 3."
+  },
+  "Fer of the Blurring Blade": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/way_of_the_blurring_blade.png",
+   "set": "Way of the Blurring Blade",
+   "mythic": false,
+   "unique": false,
+   "tip": "Fer of the Blurring Blade\nCutthroat Skills\nWay of the Blurring Blade\nPhoba of the Blurring Blade\nFer of the Blurring Blade\nMlor of the Blurring Blade\nLinta of the Blurring Blade\nBerú of the Blurring Blade\nWay of the Blurring Blade\n(2) Set: Cutthroat Skills deal x60% increased damage. Stabbing an enemy in the back with a Cutthroat Skill deals x10% increased Critical Strike Damage.\n(3) Set: Casting an Agility Skill grants you 30% Damage Reduction for 8 seconds and Slows Nearby enemy Small Missiles by 80% for 4 seconds.\n(5) Set: After stabbing an enemy in the back or Critically Striking an enemy, your senses heighten, allowing all your hits to count as backstabs and granting x40% increased Cast Speed and x250% increased damage for 4 seconds. Cutthroat Skill backstabs have a 10% chance to make your next Agility Skill free to Cast, up to a maximum of 3."
+  },
   "Phoba of the Cauldron": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
    "set": "Habacalva'S Cauldron",
@@ -3967,7 +4193,7 @@
    "set": "Habacalva'S Cauldron",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
+   "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
   },
   "Linta of the Cauldron": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
@@ -3988,7 +4214,7 @@
    "set": "Tal Rasha'S Threefold Way",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   "tip": "Berú of the Threefold\nShock Skills\nPoison Resistance\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
   },
   "Linta of the Threefold": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
@@ -4002,7 +4228,7 @@
    "set": "Tal Rasha'S Threefold Way",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   "tip": "Fer of the Threefold\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
   },
   "Phoba of the Threefold": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
@@ -4016,21 +4242,21 @@
    "set": "Cain'S Wild Lightning",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   "tip": "Berú of Wild Lightning\nShock Skills\nCold Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
   },
   "Fer of Wild Lightning": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
    "set": "Cain'S Wild Lightning",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   "tip": "Fer of Wild Lightning\nShock Skills\nFire Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
   },
   "Linta of Wild Lightning": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
    "set": "Cain'S Wild Lightning",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   "tip": "Linta of Wild Lightning\nLightning Resistance\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
   },
   "Mlor of Wild Lightning": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
@@ -4051,7 +4277,7 @@
    "set": "Habacalva'S Cauldron",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
+   "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
   },
   "Mlor of the Cauldron": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
@@ -4061,11 +4287,11 @@
    "tip": "Mlor of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
   },
   "Emberfury": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
    "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "Emberfury\nOverpower increases your Pyromancy Skill damage by x [13 - 17%] and size, Mana cost and Cooldowns by 10%."
+   "mythic": true,
+   "unique": false,
+   "tip": "Emberfury\nPyromancy Skills\nOverpower increases your Pyromancy Skill damage by x [22.1%] and size, Mana cost and Cooldowns by 10%."
   },
   "Fer of the Frozen Sea": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/breath_of_the_frozen_sea.png",
@@ -4136,6 +4362,27 @@
    "mythic": false,
    "unique": false,
    "tip": "Phoba of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
+  },
+  "Banished Lord's Talisman": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+   "set": "",
+   "mythic": true,
+   "unique": false,
+   "tip": "Banished Lord's Talisman\nShock Skills\nFire Resistance\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Consuming Overpower increases your Critical Strike damage by x [87.1%] for 8 seconds."
+  },
+  "Molten Band": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+   "set": "",
+   "mythic": true,
+   "unique": false,
+   "tip": "Molten Band\nMastery Skills\nYour Pyromancy Critical Strike Damage is increased by x [104%] against Healthy enemies and your Pyromancy Critical Strike Chance is increased by x [78%] against Injured enemies.\n\nKilling an enemy with a Critical Strike grants both bonuses against all enemies as well as +50% Attack Speed for 8 seconds."
+  },
+  "Orsivane": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+   "set": "",
+   "mythic": true,
+   "unique": false,
+   "tip": "Orsivane\nFor each Defensive Skill not on your Action Bar, you deal x [32.5%] increased damage and gain its associated Enchantment effect."
   },
   "Fer of Balazan's Bite": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
@@ -4212,7 +4459,7 @@
    "set": "Rezoka'S Rage",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Rezoka's Rage\nEagle Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   "tip": "Berú of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
   },
   "Rod of Kepeleke": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -4240,7 +4487,7 @@
    "set": "Rezoka'S Rage",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Rezoka's Rage\nEagle Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+   "tip": "Linta of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
   },
   "Mlor of Rezoka's Rage": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
@@ -4261,7 +4508,7 @@
    "set": "Kwatli'S Grace",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   "tip": "Fer of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x225% increased damage while moving and for 1.5 seconds after."
   },
   "Wushe Nak Pa": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -4275,7 +4522,7 @@
    "set": "Kwatli'S Grace",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+   "tip": "Linta of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x225% increased damage while moving and for 1.5 seconds after."
   },
   "Phoba of Kwatli's Grace": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
@@ -4297,6 +4544,13 @@
    "mythic": false,
    "unique": true,
    "tip": "Sunstained War-Crozier\nYour base Focus Skills benefit from all their Upgrades, and they increase the damage of your Potency Skills by x [20 - 25%] for 8 seconds, up to [100 - 125%]."
+  },
+  "Sunbird's Gorget": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+   "set": "",
+   "mythic": true,
+   "unique": false,
+   "tip": "Sunbird's Gorget\nPicking up a Storm Feather forms a firestorm around you for 12 seconds dealing [X] Fire damage every 0.5 seconds.\n\nEvery 5 additional Storm Feathers you pick up intensifies the firestorm, increasing its damage by x100% but not refreshing its duration. Storm Feathers are now Jaguar Skills and the firestorm is an Eagle, Jaguar, and Storm Feather Skill."
   },
   "Linta of Abaddon's Flesh": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/flesh_of_abaddon.png",
@@ -4338,14 +4592,14 @@
    "set": "Rite of the Nameless",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   "tip": "Berú of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
   },
   "Fer of the Nameless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
    "set": "Rite of the Nameless",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   "tip": "Fer of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
   },
   "Anathema of the Primes": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -4359,7 +4613,7 @@
    "set": "Rite of the Nameless",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   "tip": "Linta of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
   },
   "Phoba of the Nameless": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
@@ -4376,18 +4630,11 @@
    "tip": "Mlor of the Nameless\nHellfire Skills\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
   },
   "The Hemat Stone": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
    "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "The Hemat Stone\nBonuses from Command Valloch and the Ritualist Shard and its Fragments have 200% increased Potency. Your Occult Skills deal x [25 - 40%] increased damage."
-  },
-  "Banished Lord's Talisman": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
-   "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "Banished Lord's Talisman\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Your Critical Strikes that Overpower deal x [5 - 7%] increased damage per stack of Overpower."
+   "mythic": true,
+   "unique": false,
+   "tip": "The Hemat Stone\nBonuses from Command Valloch and Ritualist Fragments have x [133.9%] increased Potency.\nYour Occult Skills deal x [52%] increased damage."
   },
   "Berú of Horazon's Chains": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/chains_of_horazon.png",
@@ -4429,21 +4676,21 @@
    "set": "Shadow of Harash",
    "mythic": false,
    "unique": false,
-   "tip": "Fer of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   "tip": "Fer of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
   },
   "Linta of Harash's Shadow": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
    "set": "Shadow of Harash",
    "mythic": false,
    "unique": false,
-   "tip": "Linta of Harash's Shadow\nMaximum Resource\nRanks to Demonology Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   "tip": "Linta of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
   },
   "Berú of Harash's Shadow": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
    "set": "Shadow of Harash",
    "mythic": false,
    "unique": false,
-   "tip": "Berú of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   "tip": "Berú of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
   },
   "Mlor of Harash's Shadow": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
@@ -4460,11 +4707,11 @@
    "tip": "Phoba of Harash's Shadow\nMaximum Resource\nRanks to Abyss Skills\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
   },
   "Night Terror": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
    "set": "",
-   "mythic": false,
-   "unique": true,
-   "tip": "Night Terror\nYour Abyss Skills deal x [4 - 6%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
+   "mythic": true,
+   "unique": false,
+   "tip": "Night Terror\nYour Abyss Skills deal x [7.8%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
   },
   "Seed of Horazon": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -4472,20 +4719,27 @@
    "mythic": false,
    "unique": true,
    "tip": "Seed of Horazon\nYour Demonology Skills deal x [0.4 - 0.5%] increased damage per Wrath you have and you take + [0.13 - 0.17%] reduced damage per Dominance you have."
+  },
+  "Berú of Mefis' Fulcrum": {
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/fulcrum_of_mefis.png",
+   "set": "Fulcrum of Mefis",
+   "mythic": false,
+   "unique": false,
+   "tip": "Berú of Mefis' Fulcrum\nFulcrum of Mefis\nPhoba of Mefis' Fulcrum\nFer of Mefis' Fulcrum\nMlor of Mefis' Fulcrum\nLinta of Mefis' Fulcrum\nBerú of Mefis' Fulcrum\nFulcrum of Mefis\n(2) Set: Gain Sadism for 20 seconds as your demons take damage or die, increasing the damage your demons take by 2% per stack. You deal up to 200% more damage to enemies based on how much damage they have done to your demons.\n(3) Set: Sadism sends 2% of the damage you take to each of your demons. Sadism additionally increases enemy aggression towards your demons.\n(5) Set: Sadism increases your Demonology Skill damage by x2% per stack. Killing enemies while at max Sadism has a 25% chance to twist them into one of your equipped Lesser Demon Summons."
   }
  },
  "seals": {
   "Seal of the Diamond Mind": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-   "tip": "Seal of the Diamond Mind of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nCritical Strike Damage\nBerserker's Crucible:\nElite Damage\nBloodletter's Flow:\nVulnerable Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "Legendary Seal": {
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
    "tip": "Legendary Seal\nCritical Strike Damage\nAttack Speed while Berserking\n+1 Unique Charm Slot"
   },
   "Mythic Seal": {
-   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_annihilus.png",
-   "tip": "Annihilus\nAll Stats\nResistance to All Elements\nRanks to All Skills\nBonus Experience"
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
   }
  },
  "runes": {
@@ -4608,6 +4862,10 @@
   "Neo": {
    "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
    "tip": "Neo\nRare Rune of Ritual\nGain: 200 Offering\nDeal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
+  },
+  "Yax": {
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Yax\nMagic Rune of Ritual\nGain: 200 Offering\nDrink a Healing Potion."
   },
   "Tal": {
    "art": "https://sunderarmor.com/DIABLO4/Runes/15-invocation.png",

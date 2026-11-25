@@ -7,8 +7,8 @@
  "url": "https://d4builds.gg/builds/double-swing-barbarian-endgame/?var=1",
  "updated": "October 29, 2026",
  "author": "",
- "checked": "2026-10-30",
- "tier": "B",
+ "checked": "2026-11-25",
+ "tier": "A",
  "short": "Double Swing",
  "slots": {
   "helm": {
@@ -471,7 +471,7 @@
    "name": "Seal of the Diamond Mind",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
    "affix": "",
-   "tip": "Seal of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
   },
   "charms": [
    {
@@ -512,7 +512,7 @@
     "set": "Sescheron'S Fury",
     "mythic": false,
     "affix": "Maximum Resource",
-    "tip": "Berú of Sescheron's Fury\nMaximum Resource\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+    "tip": "Berú of Sescheron's Fury\nMaximum Resource\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    },
    {
     "name": "Linta of Sescheron's Fury",
@@ -520,7 +520,7 @@
     "set": "Sescheron'S Fury",
     "mythic": false,
     "affix": "Martial Skill",
-    "tip": "Linta of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+    "tip": "Linta of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    }
   ]
  },

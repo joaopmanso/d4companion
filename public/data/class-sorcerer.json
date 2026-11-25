@@ -19401,24 +19401,769 @@
      "tip": "Normal Node\n5 Strength"
     }
    ]
+  },
+  "1 Starting Board Str 25 • Dex 59 • Int 105 • Will 64": {
+   "tiles": [
+    {
+     "r": 2,
+     "c": 10,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 2,
+     "c": 11,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 2,
+     "c": 12,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 3,
+     "c": 10,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 3,
+     "c": 12,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 4,
+     "c": 9,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 4,
+     "c": 10,
+     "t": "m",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Non-Physical Damage"
+    },
+    {
+     "r": 4,
+     "c": 12,
+     "t": "m",
+     "alt": "DamageToElite",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7.5% Damage to Elites"
+    },
+    {
+     "r": 4,
+     "c": 13,
+     "t": "m",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Willpower"
+    },
+    {
+     "r": 5,
+     "c": 8,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 9,
+     "t": "m",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 10,
+     "t": "r",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nElemental Balance\n10% Non-Physical Damage\n10 Intelligence\nBonus: Another 10% Non-Physical Damage if requirements are met:\n174 / 210 Dexterity"
+    },
+    {
+     "r": 5,
+     "c": 12,
+     "t": "r",
+     "alt": "DamageToElite",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nStudied\n15% Damage to Elites\n10 Intelligence\nBonus: Another 15% Damage to Elites if requirements are met:\n175 / 230 Willpower"
+    },
+    {
+     "r": 5,
+     "c": 13,
+     "t": "m",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7 Willpower"
+    },
+    {
+     "r": 5,
+     "c": 14,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 6,
+     "c": 7,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 6,
+     "c": 8,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 6,
+     "c": 9,
+     "t": "m",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Non-Physical Damage"
+    },
+    {
+     "r": 6,
+     "c": 10,
+     "t": "m",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Non-Physical Damage"
+    },
+    {
+     "r": 6,
+     "c": 12,
+     "t": "m",
+     "alt": "DamageToElite",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7.5% Damage to Elites"
+    },
+    {
+     "r": 6,
+     "c": 13,
+     "t": "m",
+     "alt": "DamageToElite",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageToElite_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n7.5% Damage to Elites"
+    },
+    {
+     "r": 6,
+     "c": 14,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 6,
+     "c": 15,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 6,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 7,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 8,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 9,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 7,
+     "c": 10,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 7,
+     "c": 11,
+     "t": "G",
+     "alt": "",
+     "icon": "",
+     "iconOn": "",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_glyph.png",
+     "tip": "Glyph Socket"
+    },
+    {
+     "r": 7,
+     "c": 12,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 7,
+     "c": 13,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 7,
+     "c": 14,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 7,
+     "c": 15,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 7,
+     "c": 16,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 8,
+     "c": 7,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 8,
+     "c": 8,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 8,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 8,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 8,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 8,
+     "c": 12,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 8,
+     "c": 13,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 8,
+     "c": 14,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 8,
+     "c": 15,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 9,
+     "c": 8,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 11,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 9,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 9,
+     "c": 13,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 9,
+     "c": 14,
+     "t": "n",
+     "alt": "Str",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Str.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Str_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Strength"
+    },
+    {
+     "r": 10,
+     "c": 9,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 10,
+     "c": 10,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 10,
+     "c": 12,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 10,
+     "c": 13,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 11,
+     "c": 9,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 11,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 11,
+     "c": 12,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 11,
+     "c": 13,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 12,
+     "c": 8,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 12,
+     "c": 9,
+     "t": "r",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nResilience\n3% Resistance to All Elements\n4% Maximum Life\nBonus: Another 3% Resistance to All Elements if requirements are met:\n174 / 210 Dexterity"
+    },
+    {
+     "r": 12,
+     "c": 10,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 12,
+     "c": 12,
+     "t": "m",
+     "alt": "HPPercent",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/HPPercent_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n2% Maximum Life"
+    },
+    {
+     "r": 12,
+     "c": 13,
+     "t": "r",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_rare.png",
+     "tip": "Rare Node\nElementalist\n10% Non-Physical Damage\n4% Maximum Life\nBonus: Another 10% Non-Physical Damage if requirements are met:\n177 / 230 Intelligence"
+    },
+    {
+     "r": 12,
+     "c": 14,
+     "t": "m",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Non-Physical Damage"
+    },
+    {
+     "r": 13,
+     "c": 9,
+     "t": "m",
+     "alt": "ResistanceAll",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/ResistanceAll_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n1.5% Resistance to All Elements"
+    },
+    {
+     "r": 13,
+     "c": 13,
+     "t": "m",
+     "alt": "DamageElemental",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/DamageElemental_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_magic.png",
+     "tip": "Magic Node\n5% Non-Physical Damage"
+    },
+    {
+     "r": 14,
+     "c": 9,
+     "t": "n",
+     "alt": "Dex",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Dex_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Dexterity"
+    },
+    {
+     "r": 14,
+     "c": 10,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    },
+    {
+     "r": 14,
+     "c": 11,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 14,
+     "c": 12,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 14,
+     "c": 13,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 15,
+     "c": 10,
+     "t": "n",
+     "alt": "Int",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Int.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Int_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Intelligence"
+    },
+    {
+     "r": 15,
+     "c": 11,
+     "t": "S",
+     "alt": "Paragon Starting Node",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/sorcerer.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/sorcerer.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_paragon_starting.png",
+     "tip": "Starting Tile"
+    },
+    {
+     "r": 15,
+     "c": 12,
+     "t": "n",
+     "alt": "Will",
+     "icon": "https://sunderarmor.com/DIABLO4/Paragon/3/Will.png",
+     "iconOn": "https://sunderarmor.com/DIABLO4/Paragon/3/Will_active.png",
+     "bg": "https://sunderarmor.com/DIABLO4/Paragon/tile_bg_common.png",
+     "tip": "Normal Node\n5 Willpower"
+    }
+   ]
   }
  },
  "glyphs": {
   "Tactician": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n59 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
-  "Unleash": "Rare Glyph\nAdept (Lvl 150)\nBonus:\nFor every 5 Intelligence within range, Mastery Skills gain + [36.4%] increased damage.\nAdditional Bonus:\nMastery Skills have 30% increased area.\nRequirements (within radius):\n115 / 40 Intelligence\nLegendary Bonus:\nIncrease Mastery skill damage by x [20%].",
-  "Adept": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Unleash": "Rare Glyph\nUnleash (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nAfter spending 50 Mana, you deal x8% increased damage and gain x25% increased Mana Regeneration for 3 seconds.\nRequirements (within radius):\n40 / 40 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Adept": "Rare Glyph\nAdept (Lvl 150)\nBonus:\nFor every 5 Intelligence within range, Mastery Skills gain + [36.4%] increased damage.\nAdditional Bonus:\nMastery Skills have 30% increased area.\nRequirements (within radius):\n115 / 40 Intelligence\nLegendary Bonus:\nIncrease Mastery skill damage by x [20%].",
   "Pyromaniac": "Rare Glyph\nUnleash (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nAfter spending 50 Mana, you deal x8% increased damage and gain x25% increased Mana Regeneration for 3 seconds.\nRequirements (within radius):\n40 / 40 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Eliminator": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n34 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Elementalist": "Rare Glyph\nAdept (Lvl 150)\nBonus:\nFor every 5 Intelligence within range, Mastery Skills gain + [36.4%] increased damage.\nAdditional Bonus:\nMastery Skills have 30% increased area.\nRequirements (within radius):\n115 / 40 Intelligence\nLegendary Bonus:\nIncrease Mastery skill damage by x [20%].",
   "Destruction": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
-  "Flamefeeder": "Rare Glyph\nEliminator (Lvl 150)\nBonus:\nGrants + [140.5%] bonus to all Normal nodes within range.\nAdditional Bonus:\nYou deal x10 increased damage to Elites.\nRequirements (within radius):\n95 / 40 Intelligence\nLegendary Bonus:\nIncrease damage to Elites by x [20%].",
+  "Flamefeeder": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n59 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Charged": "Rare Glyph\nAdept (Lvl 150)\nBonus:\nFor every 5 Intelligence within range, Mastery Skills gain + [36.4%] increased damage.\nAdditional Bonus:\nMastery Skills have 30% increased area.\nRequirements (within radius):\n115 / 40 Intelligence\nLegendary Bonus:\nIncrease Mastery skill damage by x [20%].",
-  "Winter": "Rare Glyph\nAdept (Lvl 150)\nBonus:\nFor every 5 Intelligence within range, Mastery Skills gain + [36.4%] increased damage.\nAdditional Bonus:\nMastery Skills have 30% increased area.\nRequirements (within radius):\n115 / 40 Intelligence\nLegendary Bonus:\nIncrease Mastery skill damage by x [20%].",
+  "Winter": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n59 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Control": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n34 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Conjurer": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n54 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
   "Invocation": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
   "Exploit": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n34 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
-  "Torch": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%]."
+  "Torch": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
+  "": "Glyph Socket"
  },
  "tips": {
   "Vision of the Firestorm": "Vision of the Firestorm\nMythic Unique Helm\nIntelligence\nRanks to Firewall\nMaximum Resource\nCooldown Reduction\nMaximum Life\nFirewall has x [130%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire",
@@ -19560,16 +20305,21 @@
   "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png": "Seal\n+1 Charm Slot",
   "Incinerate": "Incinerate\nRank 15\nCore\nPyromancy\nChanneled\nCost: 25 Mana per second\nLucky Hit: 16%\nChannel a beam of fire, dealing [36%] damage and an additional [179%] Burning damage over 4 seconds.\nIncinerate's damage increases by x50% every second you channel it, up to x100%.\nModifiers\nIncinerate deals x25% increased damage while you are Healthy.\nIncinerate gains 20% chance to deal double damage while you have a stack of Overpower.\nIncinerate gains 2 additional beams and deals its Burning damage 50% faster, but its range is reduced.\nFire Damage",
   "Aspect of Channeling": "Aspect of Channeling\nCodex • Sorcerer\nWhile channeling a Skill, all damage is increased by x [50 - 70%].\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
-  "Cremator's Aspect": "Cremator's Aspect\nCodex • Sorcerer\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nOverheating Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+  "Cremator's Aspect": "Cremator's Aspect\nCodex • Sorcerer\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nOverheating Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Aspect of Arrogance": "Aspect of Arrogance\nCodex • Sorcerer\nShock Skills deal x [30 - 45%] increased damage to Close or Stunned enemies. These bonuses can stack.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nResource Cost Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Strike of Stormhorn": "Strike of Stormhorn\nMythic Unique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nDamage\nBall Lightning deals x [130%] increased damage and explodes for 50% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire",
+  "Banished Lord's Talisman": "Banished Lord's Talisman\nShock Skills\nFire Resistance\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Consuming Overpower increases your Critical Strike damage by x [87.1%] for 8 seconds.",
+  "Orsivane": "Orsivane\nFor each Defensive Skill not on your Action Bar, you deal x [32.5%] increased damage and gain its associated Enchantment effect.",
+  "The Furnace": "The Furnace\nYou deal x [130%] more damage to Elites."
  },
  "catalog": {
   "items": {
    "Vision of the Firestorm": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/vision_of_the_firestorm.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
-    "tip": "Vision of the Firestorm\nUnique Helm\nIntelligence\nRanks to Firewall\nMaximum Life\nCooldown Reduction\nMaximum Life\nFirewall has x [80 - 100%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire"
+    "tip": "Vision of the Firestorm\nMythic Unique Helm\nIntelligence\nRanks to Firewall\nMaximum Resource\nCooldown Reduction\nMaximum Life\nFirewall has x [130%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire"
    },
    "Raiment of the Infinite": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
@@ -19582,13 +20332,13 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Amulet",
+    "slot": "Gloves",
     "tip": "Writhing Aspect\nCodex • Sorcerer\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nAttack Speed\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nDamage Over Time\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Tibault's Will": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Pants",
     "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
    },
@@ -19611,7 +20361,7 @@
     "rarity": "legendary",
     "kind": "legendary",
     "slot": "Amulet",
-    "tip": "Splinter of Hellfire\nSoul Splinter\nJewelry:625 Resistance to All Elements\nYou deal x50% increased damage but lose 100% Critical Strike Chance."
+    "tip": "Aspect of Ancient Flame\nSorcerer\nYour Pyromancy Skills with a Cooldown deal x [20 - 30%] increased damage per second of Cooldown they incurred.\nVulnerable Damage Multiplier\nAttack Speed\nDamage Over Time Multiplier\nFire Damage Multiplier\nCooldown Reduction\nOverheating Aspect\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Elemental Attunement": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
@@ -19622,29 +20372,29 @@
    },
    "Drognan's Anguish": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/drognan's_anguish.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Ring 1",
     "tip": "Drognan's Anguish\nMythic Unique Ring\nIntelligence\nRanks to Pyromancy Skills\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nCasting Pyromancy Skills Burns you for 5% of your Maximum Life over 10 seconds. You inflict x [325%] increased Burning damage based on how much of your Life is Burning.\nSorcerer\nDropped By:\nAndariel"
    },
    "Starfall Coronet": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/starfall_coronet.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
-    "tip": "Starfall Coronet\nUnique Helm\nMaximum Resource\nIntelligence\nMaximum Life\nMana Regeneration\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [80 - 100%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice"
+    "tip": "Starfall Coronet\nMythic Unique Helm\nIntelligence\nRanks to Meteor\nMaximum Life\nMaximum Resource\nMaximum Life\nMeteor Casts consume Overpower when possible, dropping an additional Meteor for every 2 Overpower consumed.\n\nMeteor deals x [130%] increased damage.\nSorcerer\nDropped By:\nBeast in Ice"
    },
    "Aspect of Searing Impact": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
-    "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "slot": "Ring 2",
+    "tip": "Aspect of Searing Impact\nCodex • Sorcerer\nMeteorites deal [100 - 120%] bonus damage as Burning over 4 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nAttack Speed\nVulnerable Damage Multiplier\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Esu's Heirloom": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Boots",
     "tip": "Esu's Heirloom\nMythic Unique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [52%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
    },
@@ -19652,7 +20402,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Gloves",
+    "slot": "Offhand",
     "tip": "Blasting Aspect\nCodex • Sorcerer\nIce Spikes and Meteorites deal x [80 - 100%] increased damage and have +50% increased size.\nIntelligence\nCritical Strike Chance\nCritical Strike Damage Multiplier\nMaximum Resource\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Lingering Aspect": {
@@ -19666,7 +20416,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Amulet",
+    "slot": "Weapon",
     "tip": "Aspect of Combustion\nCodex • Sorcerer\nYour Pyromancy Skills deal [70 - 100%] increased Critical Strike Damage to Burning enemies.\nWeapon Damage\nIntelligence\nMaximum Life\nCritical Strike Damage Multiplier\nCritical Strike Chance\nTal Rasha's Threefold Way\n: Maximum Mana\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Leoric's Crown": {
@@ -19699,10 +20449,10 @@
    },
    "Strike of Stormhorn": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/strike_of_stormhorn.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Offhand",
-    "tip": "Strike of Stormhorn\nUnique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCooldown Reduction\nCritical Strike Chance\nBall Lightning deals x [40 - 60%] increased damage and explodes for 40% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire"
+    "tip": "Strike of Stormhorn\nMythic Unique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nDamage\nBall Lightning deals x [130%] increased damage and explodes for 50% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire"
    },
    "Heir of Perdition": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/heir_of_perdition.png",
@@ -19729,8 +20479,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Weapon",
-    "tip": "Aspect of Armageddon\nSorcerer\nYour Ultimate Skill grants you [50 - 80%] increased damage of its element type while active for 15 seconds.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nWeapon Damage\nIntelligence\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "slot": "Ring 1",
+    "tip": "Aspect of Armageddon\nSorcerer\nYour Ultimate Skill grants you [50 - 80%] increased damage of its element type while active for 15 seconds.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Fractured Winterglass": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fractured_winterglass.png",
@@ -19743,7 +20493,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Weapon",
     "tip": "Aspect of the Untarnished Blaze\nCodex • Sorcerer\nWhile Healthy, your Pyromancy Skills deal x [50 - 70%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Staff of Endless Rage": {
@@ -19778,7 +20528,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "2H Weapon",
+    "slot": "Weapon",
     "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Skills\nResource Cost Reduction\nAspect of Shredding Blades\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Thundergod's Blessing": {
@@ -19793,7 +20543,7 @@
     "rarity": "legendary",
     "kind": "legendary",
     "slot": "Boots",
-    "tip": "Aspect of Shredding Blades\nSorcerer\nConjuration damage makes enemies Vulnerable for 4 seconds. You deal x [15 - 20%] increased damage to Vulnerable enemies.\nIntelligence\nMovement Speed\nBlizzard\nArmor\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+    "tip": "Aspect of Shredding Blades\nSorcerer\nConjuration damage makes enemies Vulnerable for 4 seconds. You deal x [15 - 20%] increased damage to Vulnerable enemies.\nIntelligence\nMaximum Life\nMovement Speed\nFirewall\nMovement Speed\nHabacalva's Cauldron\n: Fire Damage\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    },
    "Esadora's Overflowing Cameo": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esadora's_overflowing_cameo.png",
@@ -19804,9 +20554,9 @@
    },
    "Galvanic Azurite": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/galvanic_azurite.png",
-    "rarity": "unique",
-    "kind": "unique",
-    "slot": "Ring 1",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Ring 2",
     "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "Snowveiled Aspect": {
@@ -19883,21 +20633,21 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Ring 2",
     "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Flamescar": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/flamescar.png",
-    "rarity": "unique",
-    "kind": "unique",
-    "slot": "Weapon",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "2H Weapon",
     "tip": "Flamescar\nUnique Wand\nWeapon Damage\nRanks to Incinerate\nDamage Over Time Multiplier\nAll Damage Multiplier\nDamage Over Time\nIncinerate gains one final charge, irradiating the area around youj and increasing damage dealt by x [200 - 300%] but costing an additional 50 Mana per second.\nSorcerer\nDropped By:\nUrivar"
    },
    "Aspect of Channeling": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Ring 1",
     "tip": "Aspect of Channeling\nCodex • Sorcerer\nWhile channeling a Skill, all damage is increased by x [50 - 70%].\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nDamage Over Time\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Cremator's Aspect": {
@@ -19906,29 +20656,57 @@
     "kind": "aspect",
     "slot": "Amulet",
     "tip": "Cremator's Aspect\nCodex • Sorcerer\nWhile you have 4 or more Overpower, your Fire Skill Casts deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nOverheating Aspect\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Crown of Lucion": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Helm",
+    "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Life\nRanks to Ball Lightning\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth"
+   },
+   "Fists of Fate": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Gloves",
+    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
+   },
+   "Aspect of Arrogance": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Ring 1",
+    "tip": "Aspect of Arrogance\nCodex • Sorcerer\nShock Skills deal x [30 - 45%] increased damage to Close or Stunned enemies. These bonuses can stack.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nResource Cost Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Duelist's Aspect": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "aspect",
+    "slot": "Ring 2",
+    "tip": "Duelist's Aspect\nCodex • Sorcerer\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nAttack Speed\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    }
   },
   "charms": {
    "Blood-Mad Idol": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Blood-Mad Idol\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+    "mythic": true,
+    "unique": false,
+    "tip": "Blood-Mad Idol\nPyromancy Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    "Hellfire Torch": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Habacalva's Cauldron"
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cain's Wild Lightning"
    },
    "Fists of Fate": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+    "mythic": true,
+    "unique": false,
+    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
    },
    "Phoba of the Cauldron": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
@@ -19942,7 +20720,7 @@
     "set": "Habacalva'S Cauldron",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
+    "tip": "Fer of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
    },
    "Linta of the Cauldron": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
@@ -19963,7 +20741,7 @@
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Berú of the Threefold\nShock Skills\nPoison Resistance\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Linta of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
@@ -19977,7 +20755,7 @@
     "set": "Tal Rasha'S Threefold Way",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Threefold\nFrost Skills\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+    "tip": "Fer of the Threefold\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
    },
    "Phoba of the Threefold": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
@@ -19991,21 +20769,21 @@
     "set": "Cain'S Wild Lightning",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+    "tip": "Berú of Wild Lightning\nShock Skills\nCold Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
    },
    "Fer of Wild Lightning": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
     "set": "Cain'S Wild Lightning",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+    "tip": "Fer of Wild Lightning\nShock Skills\nFire Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
    },
    "Linta of Wild Lightning": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
     "set": "Cain'S Wild Lightning",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Wild Lightning\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+    "tip": "Linta of Wild Lightning\nLightning Resistance\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
    },
    "Mlor of Wild Lightning": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
@@ -20033,7 +20811,7 @@
     "set": "Habacalva'S Cauldron",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
+    "tip": "Berú of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, granting you 50 Mana Regeneration and making your Pyromancy Skills deal x200% increased damage as well as having a 20% chance to inflict area damage."
    },
    "Mlor of the Cauldron": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/habacalva's_cauldron.png",
@@ -20043,11 +20821,11 @@
     "tip": "Mlor of the Cauldron\nPyromancy Skills\nHabacalva's Cauldron\nPhoba of the Cauldron\nFer of the Cauldron\nMlor of the Cauldron\nLinta of the Cauldron\nBerú of the Cauldron\nHabacalva's Cauldron\n(2) Set: Casting a Pyromancy Skill generates Heat, increasing your Pyromancy damage by x7%, stacking up to 15 times. Lose 2 Heat every second if you have not gained any in the last 3 seconds.\n(3) Set: Heat now grants 100 Life on Hit and 2% Damage Reduction while Healthy.\n(5) Set: You Overheat at maximum Heat, making your Pyromancy Skills free to cast, deal x200% increased damage, and have a 20% chance to inflict area damage. All Heat is lost when Overheat expires."
    },
    "Emberfury": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Emberfury\nOverpower increases your Pyromancy Skill damage by x [13 - 17%] and size, Mana cost and Cooldowns by 10%."
+    "mythic": true,
+    "unique": false,
+    "tip": "Emberfury\nPyromancy Skills\nOverpower increases your Pyromancy Skill damage by x [22.1%] and size, Mana cost and Cooldowns by 10%."
    },
    "Azurewrath": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -20125,16 +20903,48 @@
     "mythic": false,
     "unique": false,
     "tip": "Phoba of Uncanny Insight\nConjuration Skills\nTiraj's Uncanny Insight\nPhoba of Uncanny Insight\nFer of Uncanny Insight\nMlor of Uncanny Insight\nLinta of Uncanny Insight\nBerú of Uncanny Insight\nTiraj's Uncanny Insight\n(2) Set: Your Conjuration Skills gain all of their side upgrades and now Weaken enemies for 3 seconds. Conjurations deal x60% increased damage.\n(3) Set: Casting Conjurations grants you +5% Damage Reduction for 5 seconds, to a max of +30%. Casts stack but do not refresh duration.\n(5) Set: Gain the Enchantment effect of each equipped Conjuration Skill and they deal x200% increased damage."
+   },
+   "Banished Lord's Talisman": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "Banished Lord's Talisman\nShock Skills\nFire Resistance\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Consuming Overpower increases your Critical Strike damage by x [87.1%] for 8 seconds."
+   },
+   "Molten Band": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "Molten Band\nMastery Skills\nYour Pyromancy Critical Strike Damage is increased by x [104%] against Healthy enemies and your Pyromancy Critical Strike Chance is increased by x [78%] against Injured enemies.\n\nKilling an enemy with a Critical Strike grants both bonuses against all enemies as well as +50% Attack Speed for 8 seconds."
+   },
+   "Orsivane": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "Orsivane\nFor each Defensive Skill not on your Action Bar, you deal x [32.5%] increased damage and gain its associated Enchantment effect."
+   },
+   "The Furnace": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "The Furnace\nYou deal x [130%] more damage to Elites."
    }
   },
   "seals": {
    "Seal of the Diamond Mind": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-    "tip": "Seal of the Diamond Mind of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+    "tip": "Seal of the Diamond Mind of the Diamond Mind\nDamage\nShock Skill Damage\nLightning Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
    },
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-    "tip": "Legendary Seal\n+1 Charm Slot"
+    "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot"
+   },
+   "Mythic Seal": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+    "tip": "Mythic Seal of the Golden Epiphany\nDamage\nHabacalva's Cauldron:\nFire Damage\nYou can equip up to 3 Unique Charms."
    }
   },
   "runes": {
@@ -20197,6 +21007,14 @@
    "Thul": {
     "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
     "tip": "Thul\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Size)\nCooldown: 1 seconds\nInvoke the Sorcerer's Mystical Frost Nova, inflicting Freeze and Vulnerable onto enemies."
+   },
+   "Lac": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+    "tip": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
+   },
+   "Neo": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "tip": "Neo\nRare Rune of Ritual\nGain: 200 Offering\nDeal damage after not taking any within 2 seconds. (Resets if Invulnerable.)"
    }
   },
   "gems": {
@@ -20229,6 +21047,12 @@
    },
    "Sapphire": {
     "art": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   },
+   "Emerald": {
+    "art": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   },
+   "Skull": {
+    "art": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
    }
   }
  }

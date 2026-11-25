@@ -1,0 +1,841 @@
+{
+ "id": "ball-lightning-sorcerer-endgame-endgame-p230",
+ "site": "d4builds",
+ "className": "Sorcerer",
+ "build": "Ball Lightning Sorc",
+ "variant": "Endgame (P230)",
+ "url": "https://d4builds.gg/builds/ball-lightning-sorcerer-endgame/?var=0",
+ "updated": "November 25, 2026",
+ "author": "",
+ "checked": "2026-11-25",
+ "tier": "S",
+ "short": "Ball Lightning",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Crown of Lucion",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
+    "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Life\nRanks to Ball Lightning\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "cdr",
+    "ranks:ball-lightning"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Maximum Resource",
+    "Cooldown Reduction",
+    "Ranks To Ball Lightning"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Gar"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Gar": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Raiment of the Infinite",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/raiment_of_the_infinite.png",
+    "tip": "Raiment of the Infinite\nMythic Unique Chest Armor\nIntelligence\nMaximum Life\nMaximum Resource\nArmor\nMaximum Life\nTeleport pulls Close enemies to you and you gain [65%] Damage Reduction for 8 seconds.\nSorcerer\nDropped By:\nBartuc"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Maximum Life",
+    "Maximum Resource",
+    "Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Poc",
+    "Lac"
+   ],
+   "socketArt": {
+    "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Lac": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nPyromancy Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
+   },
+   "affixes": [
+    "intelligence",
+    "critChance",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Critical Strike Chance",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Tibault's Will",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
+    "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "armor",
+    "intelligence"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Mana Regeneration",
+    "Intelligence",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz",
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Esu's Heirloom",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/esu's_heirloom.png",
+    "tip": "Esu's Heirloom\nMythic Unique Boots\nIntelligence\nMovement Speed\nMaximum Life\nMana Regeneration\nMovement Speed\nYour Critical Strike Chance is increased by [52%] of your Movement Speed bonus.\nSorcerer\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "intelligence",
+    "movementSpeed",
+    "life"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Movement Speed",
+    "Maximum Life",
+    "Ball Lightning",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Aspect of Splintering Energy",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Splintering Energy\nCodex • Sorcerer\nYour Shock Skills deal x [120 - 180%] increased damage, but this bonus is reduced by 10% per subsequent hit.\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Skills\nResource Cost Reduction\nAspect of Shredding Blades\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "intelligence",
+    "life",
+    "lifeOnHit",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Wand",
+    "Intelligence",
+    "Maximum Life",
+    "Life On Hit",
+    "Critical Strike Damage Multiplier",
+    "Tal Rasha's Threefold Way: Mana When A Mastery Skill Is Triggered"
+   ],
+   "tempers": [
+    [
+     "attackSpeed",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Lingering Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Lingering Aspect\nCodex • Sorcerer\nYour Mastery Skills deal x [30 - 40%] increased damage every second they are active.\nMaximum Resource\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nFire Damage Multiplier\nCooldown Reduction\nAspect of Shredding Blades\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critDamage",
+    "vulnDamage",
+    "ranksAll"
+   ],
+   "affixNames": [
+    "Lightning Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "All Skills",
+    "Aspect Of Shredding Blades",
+    "+1 Set Count To Tal Rasha's Threefold Way"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Arrogance",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Arrogance\nCodex • Sorcerer\nShock Skills deal x [30 - 45%] increased damage to Close or Stunned enemies. These bonuses can stack.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nResource Cost Reduction\n+1 Set count to \nTal Rasha's Threefold Way\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "+1 Set Count To Tal Rasha's Threefold Way"
+   ],
+   "tempers": [],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Inner Calm",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nIntelligence\nMaximum Life\nDamage Over Time Multiplier\nFire Damage Multiplier\nAttack Speed\nHabacalva's Cauldron\n: Fire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "attackSpeed",
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Attack Speed",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "+1 Set Count To Tal Rasha's Threefold Way"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Emerald"
+   ],
+   "socketArt": {
+    "Emerald": "https://sunderarmor.com/DIABLO4/Gems/grand-emerald.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Strike of Stormhorn",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/strike_of_stormhorn.png",
+    "tip": "Strike of Stormhorn\nMythic Unique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nDamage\nBall Lightning deals x [130%] increased damage and explodes for 50% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire"
+   },
+   "affixes": [
+    "intelligence",
+    "ranks:ball-lightning",
+    "critDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Intelligence",
+    "Ranks To Ball Lightning",
+    "Critical Strike Damage Multiplier",
+    "Critical Strike Chance",
+    "Damage"
+   ],
+   "tempers": [
+    [
+     "attackSpeed",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Gar",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Gar\nMagic Rune of Invocation\nRequires: 25 Offering (Overflow: Gain Multiple Stacks)\nCooldown: 1 seconds\nGain 2% Critical Strike Chance for 5 seconds, up to 10%."
+  },
+  {
+   "name": "Poc",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
+  },
+  {
+   "name": "Lac",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "Damage",
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nDamage\nShock Skill Damage\nLightning Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Linta of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "affix": "Lightning Resistance",
+    "tip": "Linta of Wild Lightning\nLightning Resistance\nShock Skills\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Fer of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "affix": "Shock Skills",
+    "tip": "Fer of Wild Lightning\nShock Skills\nFire Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Berú of Wild Lightning",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cain's_wild_lightning.png",
+    "set": "Cain'S Wild Lightning",
+    "mythic": false,
+    "affix": "Shock Skills",
+    "tip": "Berú of Wild Lightning\nShock Skills\nCold Resistance\nCain's Wild Lightning\nPhoba of Wild Lightning\nFer of Wild Lightning\nMlor of Wild Lightning\nLinta of Wild Lightning\nBerú of Wild Lightning\nCain's Wild Lightning\n(2) Set: Shock Skills gain Wild Strikes, increasing their damage by a random amount between x1% and x125%.\n(3) Set: When Wild Strikes grants its maximum damage bonus, trigger a Lightning Bolt that repeats the damage and Stuns enemies for 1 second.\n(5) Set: Wild Strike's maximum damage bonus is increased to x750%, and now rolls its bonus an additional time, using the higher result. If one roll is maximum, trigger 2 Lightning Bolts."
+   },
+   {
+    "name": "Berú of the Threefold",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/tal_rasha's_threefold_way.png",
+    "set": "Tal Rasha'S Threefold Way",
+    "mythic": false,
+    "affix": "Shock Skills",
+    "tip": "Berú of the Threefold\nShock Skills\nPoison Resistance\nTal Rasha's Threefold Way\nPhoba of the Threefold\nFer of the Threefold\nMlor of the Threefold\nLinta of the Threefold\nBerú of the Threefold\nTal Rasha's Threefold Way\n(2) Set: Once per Cast, damaging enemies draws on Tal Rasha's power, triggering a Mastery Skill, each element has a 6 second Cooldown: - Frost Skills trigger Blizzard - Pyromancy Skills trigger Meteor - Shock Skills trigger Ball Lightning\n(3) Set: Casts and damage grant 30% All Resistances per element for 12 seconds.\n(5) Set: Tal Rasha's power now unleashes all Mastery Skills and grants a different element x100% increased damage for 12 seconds, stacking up to 2 times."
+   },
+   {
+    "name": "Banished Lord's Talisman",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "Shock Skills",
+    "tip": "Banished Lord's Talisman\nShock Skills\nFire Resistance\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Consuming Overpower increases your Critical Strike damage by x [87.1%] for 8 seconds."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cain's Wild Lightning"
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Unstable Currents",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/unstable_currents.png",
+    "tip": "Unstable Currents\nRank 15\nUltimate\nShock\nCooldown: 120 seconds\nLightning surges within you for [14] seconds. Whenever you Cast, trigger a random Skill:\nBall Lightning\nChain Lightning\nCharged Bolts\nLightning Spear\nModifiers\nUnstable Currents' Cooldown is reduced to 100 seconds.\nUnstable Currents now has a [35%] chance to trigger twice.\nLightning Damage"
+   },
+   {
+    "name": "Flame Shield",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flame_shield.png",
+    "tip": "Flame Shield\nRank 1\nDefensive\nPyromancy\nCooldown: 20 seconds\nLucky Hit: 35%\nEngulf yourself in flames for 1 seconds, becoming Immune and dealing [80%] Burning damage over 4 seconds to surrounding enemies.\nModifiers\nFlame Shield's Cooldown is reduced by 4 seconds.\nFlame Shield increases your minimum Overpower by 1 for 2 seconds.\nFlame Shield rains down 5 Meteorites per second that deal [9%] damage.\nFire Damage"
+   },
+   {
+    "name": "Ice Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ice_armor.png",
+    "tip": "Ice Armor\nRank 1\nDefensive\nFrost\nCooldown: 20 seconds\nA Barrier of ice forms around you for 4 seconds, absorbing [30%] of your Maximum Life in damage.\nModifiers\nIce Armor's Cooldown is reduced to 16 seconds.\nIce Armor's duration is increased to 5 seconds and its Barrier amount is increased by x20%.\nIce Armor grants Unstoppable for 1 second and increases your Armor by [50%] while active."
+   },
+   {
+    "name": "Hydra",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hydra_frigid_hydra.png",
+    "tip": "Hydra\nEnchantment\nAfter spending 200 Mana, a 5-headed Hydra spawns for 10 seconds."
+   },
+   {
+    "name": "Teleport",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/teleport_blaze.png",
+    "tip": "Teleport\nRank 1\nDefensive\nShock\nMobility\nCooldown: 10 seconds\nLucky Hit: 65%\nTransform into lightning and surge to the target location, dealing [35%] damage around you upon arrival.\nModifiers\nTeleport Weakens enemies for 4 seconds.\nTeleport grants 2 stack of Ferocity if it hits an enemy.\nTeleport becomes a Pyromancy Skill that deals [60%] Fire damage.\nTeleport now only dashes you forward a short distance and will consume 1 stack of Overpower to refund its Cooldown.\nLightning Damage"
+   },
+   {
+    "name": "Ball Lightning",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ball_lightning.png",
+    "tip": "Ball Lightning\nRank 15\nMastery\nShock\nCore\nMana Cost: 30\nLucky Hit: 5%\nDischarge a ball of lightning that slowly moves forward and continuously zaps enemies, dealing [306%] damage per second.\nModifiers\nBall Lightning has a 20% chance to form a second Ball Lightning.\nBall Lightning deals x30% increased damage when it hits 3 or fewer enemies.\nBall Lightning orbits you and now deal [367%] damage around you per second.\nLightning Damage"
+   },
+   {
+    "name": "Ball Lightning",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/ball_lightning.png",
+    "tip": "Ball Lightning\nRank 15\nMastery\nShock\nCore\nMana Cost: 30\nLucky Hit: 5%\nDischarge a ball of lightning that slowly moves forward and continuously zaps enemies, dealing [306%] damage per second.\nModifiers\nBall Lightning has a 20% chance to form a second Ball Lightning.\nBall Lightning deals x30% increased damage when it hits 3 or fewer enemies.\nBall Lightning orbits you and now deal [367%] damage around you per second.\nLightning Damage"
+   },
+   {
+    "name": "Hydra",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hydra.png",
+    "tip": "Hydra\nEnchantment\nAfter spending 200 Mana, a 5-headed Hydra spawns for 10 seconds."
+   }
+  ],
+  "prime": [],
+  "soulShard": [],
+  "tree": {
+   "484,1148": 1,
+   "356,1203": 1,
+   "391,1351": 1,
+   "540,1288": 1,
+   "667,1147": 1,
+   "612,1241": 1,
+   "761,1352": 1,
+   "797,1250": 1,
+   "1182,1240": 10,
+   "1238,1058": 1,
+   "1385,1096": 1,
+   "1275,1241": 1,
+   "1386,1350": 1,
+   "1489,1223": 1,
+   "1589,1371": 1,
+   "1478,1407": 1,
+   "1384,1519": 11,
+   "1450,1461": 1,
+   "1589,1499": 1,
+   "1479,1645": 1,
+   "615,1670": 1,
+   "512,1544": 1,
+   "410,1691": 1,
+   "474,1727": 1,
+   "613,2079": 1,
+   "548,2022": 1,
+   "372,2115": 1,
+   "474,2205": 1,
+   "744,2407": 15,
+   "640,2297": 1,
+   "505,2410": 1,
+   "651,2519": 1,
+   "1074,3052": 15,
+   "1177,2923": 1,
+   "1276,2998": 1,
+   "1213,3181": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Tactician",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,13",
+    "10,9",
+    "10,13",
+    "11,9",
+    "11,13",
+    "12,9",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Static Surge",
+   "glyph": "Unleash",
+   "x": 0,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,8",
+    "8,11",
+    "8,12",
+    "9,8",
+    "9,10",
+    "9,11",
+    "9,12",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,13",
+    "12,2",
+    "12,3",
+    "12,4",
+    "12,8",
+    "12,10",
+    "12,11",
+    "12,13",
+    "13,4",
+    "13,5",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "14,5",
+    "14,6",
+    "14,7",
+    "14,8",
+    "14,11",
+    "14,12",
+    "15,5"
+   ]
+  },
+  {
+   "name": "Enchantment Master",
+   "glyph": "Elementalist",
+   "x": -1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "3,7",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,8",
+    "5,9",
+    "6,6",
+    "6,7",
+    "6,8",
+    "7,3",
+    "7,4",
+    "7,6",
+    "8,4",
+    "8,5",
+    "8,6",
+    "8,12",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,12",
+    "10,8",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,10",
+    "11,12",
+    "11,13",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,13",
+    "12,16",
+    "12,20",
+    "13,8",
+    "13,9",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "13,17",
+    "13,18",
+    "13,19",
+    "13,20",
+    "14,9",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,13",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,13",
+    "18,18",
+    "19,11",
+    "19,12",
+    "19,13",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Frigid Fate",
+   "glyph": "Adept",
+   "x": -1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,12",
+    "3,13",
+    "4,13",
+    "4,14",
+    "4,15",
+    "5,13",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "10,15",
+    "11,11",
+    "11,13",
+    "11,14",
+    "11,15",
+    "12,11",
+    "12,13",
+    "12,15",
+    "12,16",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,13",
+    "13,15",
+    "13,16",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,10",
+    "15,11",
+    "15,13",
+    "16,13",
+    "16,14",
+    "16,15",
+    "16,16",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,12",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Searing Heat",
+   "glyph": "Destruction",
+   "x": -1,
+   "y": -3,
+   "rotate": 90,
+   "on": [
+    "2,17",
+    "3,16",
+    "3,17",
+    "4,16",
+    "4,17",
+    "5,16",
+    "5,19",
+    "5,20",
+    "6,13",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,13",
+    "7,16",
+    "7,19",
+    "7,20",
+    "8,13",
+    "8,16",
+    "8,17",
+    "8,20",
+    "9,12",
+    "9,13",
+    "9,16",
+    "9,20",
+    "10,9",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,16",
+    "10,17",
+    "10,20",
+    "11,9",
+    "11,16",
+    "11,20",
+    "12,8",
+    "12,9",
+    "12,16",
+    "13,7",
+    "13,8",
+    "13,15",
+    "13,16",
+    "14,7",
+    "14,15",
+    "15,6",
+    "15,7",
+    "15,14",
+    "15,15",
+    "16,6",
+    "16,14"
+   ]
+  }
+ ]
+}

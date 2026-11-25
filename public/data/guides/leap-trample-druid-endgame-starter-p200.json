@@ -1,0 +1,822 @@
+{
+ "id": "leap-trample-druid-endgame-starter-p200",
+ "site": "d4builds",
+ "className": "Druid",
+ "build": "Trample Leap Druid",
+ "variant": "Starter (P200)",
+ "url": "https://d4builds.gg/builds/leap-trample-druid-endgame/?var=1",
+ "updated": "November 25, 2026",
+ "author": "",
+ "checked": "2026-11-25",
+ "tier": "S",
+ "short": "Leap Trample",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Crown of Lucion",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
+    "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nResource Cost Reduction\nMaximum Life\nArmor\nMaximum Life\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Resource Cost Reduction",
+    "Maximum Life",
+    "Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Insatiable Fury",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/insatiable_fury.png",
+    "tip": "Insatiable Fury\nMythic Unique Chest Armor\nWillpower\nRanks to Trample\nMaximum Life\nArmor\nMaximum Life\nFor 5 seconds after Casting Trample, you may Cast Trample again without incurring the Cooldown. Trample additionally deals x [260%] bonus damage.\nDruid\nDropped By:\nAndariel"
+   },
+   "affixes": [
+    "willpower",
+    "ranks:trample",
+    "life",
+    "armor"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Ranks To Trample",
+    "Maximum Life",
+    "Armor",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Kry"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Kry": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Dark Howl",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/dark_howl.png",
+    "tip": "Dark Howl\nUnique Gloves\nWillpower\nAll Damage Multiplier\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nDebilitating Roar is now a Werewolf Skill. In addition, Debilitating Roar increases your damage by x [60 - 80%] while in Werewolf form for the duration.\nDruid\nDropped By:\nUrivar"
+   },
+   "affixes": [
+    "critChance",
+    "vulnDamage",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Physical Damage Multiplier",
+    "Critical Strike Chance",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Temerity",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
+    "tip": "Temerity\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nEffects that Heal you beyond 100% Life grant you a Barrier up to [130%] of your Maximum Life that lasts for 4 seconds.\n\nYou may now drink your Healing Potion while at full Life.\nDropped By:\nAll Bosses, \nHarbinger of Hatred"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "armor",
+    "resAll"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Maximum Life",
+    "Armor",
+    "Resistance To All Elements",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Moni",
+    "Que"
+   ],
+   "socketArt": {
+    "Moni": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Que": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Aspect of Anger Management",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "tip": "Aspect of Anger Management\nCodex • Druid\nWhile above 50 Primary Resource, deal x [15 - 20%] increased damage and gain Berserking, but lose 3 Primary Resource Regeneration.\nWillpower\nArmor\nMaximum Life\nRanks to Defensive Skills\nMaximum Resolve Stacks\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "movementSpeed"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Movement Speed",
+    "Trample",
+    "Song Of The Old Mountain: Enemies Are Petrified For +3 Seconds."
+   ],
+   "tempers": [
+    [
+     "movementSpeed",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Archdruid's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Archdruid's Aspect\nCodex • Druid\nGain an additional passive bonus for each Druid form:\n\n- Human: x [45 - 60%] increased damage to Distant enemies.\n- Werewolf: x [45 - 60%] increased Critical Strike Damage to Close enemies.\n- Werebear: x [45 - 60%] increased damage while you have Resolve\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "critDamage",
+    "life"
+   ],
+   "affixNames": [
+    "1h Axe",
+    "Willpower",
+    "Critical Strike Damage Multiplier",
+    "Maximum Life",
+    "Physical Damage Multiplier",
+    "Rush Of The Red Wolf Moon: Werewolf Skill Damage"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Malefic Crescent",
+    "kind": "unique",
+    "rarity": "unique",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/malefic_crescent.png",
+    "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
+   },
+   "affixes": [
+    "willpower",
+    "vulnDamage",
+    "critDamage",
+    "physicalRes"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Physical Resistance",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [
+    "Exploiter's Aspect"
+   ],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Envenomed Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Envenomed Aspect\nCodex • Druid\nYou gain x [45 - 60%] bonus Damage against Poisoned enemies. Poisoning an enemy makes them Vulnerable.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nCritical Strike Damage\n+1 Set count to \nSong of the Old Mountain\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Physical Damage Multiplier",
+    "+1 Set Count To Song Of The Old Mountain"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Crushing Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Crushing Aspect\nCodex • Druid\nWhile Fortified, you deal x [45 - 65%] increased damage.\nWeapon Damage\nCritical Strike Damage Multiplier\nMaximum Life\nWillpower\nCritical Strike Chance\nLightning Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage",
+    "physicalRes"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Physical Resistance",
+    "+1 Set Count To Rush Of The Red Wolf Moon"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Diamond"
+   ],
+   "socketArt": {
+    "Diamond": "https://sunderarmor.com/DIABLO4/Gems/grand-diamond.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Ifeh's Dire Totem",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ifeh's_dire_totem.png",
+    "tip": "Ifeh's Dire Totem\nUnique Totem\nWeapon Damage\nPoison Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nAttack Speed\nGrizzly Rage is now a Werewolf Skill and Shapeshifts you into a Dire Werewolf. Dire Werewolves gain x [100 - 125%] Critical Strike Damage, x [100 - 125%] bonus Poisoning damage and Spirit Cost Reduction instead of Armor. In addition, kills Heal you for 5% of your Maximum Life.\nDruid\nDropped By:\nHarbinger of Hatred"
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage"
+   ],
+   "affixNames": [
+    "Willpower",
+    "All Damage Multiplier",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Kry",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies."
+  },
+  {
+   "name": "Moni",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills."
+  },
+  {
+   "name": "Que",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Que\nRare Rune of Invocation\nRequires: 300 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Druid's Earthen Bulwark, granting yourself a Barrier."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Legendary Seal",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
+   "affix": "Critical Strike Damage",
+   "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot"
+  },
+  "charms": [
+   {
+    "name": "Linta of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "affix": "Shapeshifting Skills",
+    "tip": "Linta of the Old Mountain\nShapeshifting Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Fer of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "affix": "Werewolf Skills",
+    "tip": "Fer of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Berú of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "affix": "Shapeshifting Skills",
+    "tip": "Berú of the Old Mountain\nShapeshifting Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Mlor of the Old Mountain",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/song_of_the_old_mountain.png",
+    "set": "Song of the Old Mountain",
+    "mythic": false,
+    "affix": "Werewolf Skills",
+    "tip": "Mlor of the Old Mountain\nWerewolf Skills\nSong of the Old Mountain\nPhoba of the Old Mountain\nFer of the Old Mountain\nMlor of the Old Mountain\nLinta of the Old Mountain\nBerú of the Old Mountain\nSong of the Old Mountain\n(2) Set: Your Skills Fossilize enemies, reducing their movement speed by 15% and increasing the damage they take from your Skills by x20% for 4 seconds. Enemies become Fossilized at 3 stacks, Petrifying them for 5 seconds. Petrified enemies are Stunned and take 100% bonus Critical Strike Damage.\n(3) Set: Fossilizing enemies grants 30% Damage Reduction for 15 seconds.\n(5) Set: Petrified enemies absorb your damage dealt and will explode for 300% of the amount absorbed when Petrify expires or if the absorbed damage exceeds the target's remaining Life."
+   },
+   {
+    "name": "Berú of the Red Wolf Moon",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rush_of_the_red_wolf_moon.png",
+    "set": "Rush of the Red Wolf Moon",
+    "mythic": false,
+    "affix": "Werewolf Skills",
+    "tip": "Berú of the Red Wolf Moon\nWerewolf Skills\nRush of the Red Wolf Moon\nPhoba of the Red Wolf Moon\nFer of the Red Wolf Moon\nMlor of the Red Wolf Moon\nLinta of the Red Wolf Moon\nBerú of the Red Wolf Moon\nRush of the Red Wolf Moon\n(2) Set: While in Werewolf form, you periodically smell dread in enemies, marking them. Your Werewolf Skills deal x60% bonus damage to enemies. Attacking a marked enemy grants you 1 seconds of Blood Hunt, increasing your Movement Speed and Attack Speed by +20%. Killing a marked enemy instead grants 2 seconds.\n(3) Set: Gain x20% Damage Reduction while in Werewolf form. You heal for 70% of any damage taken over 3 seconds.\n(5) Set: When Blood Hunt exceeds 40 seconds, you explode in a Feral Rage for 10 seconds, allowing all of your Werewolf Skills to grant 25% Movement Speed and Cast Speed, and to dash you towards your target and dealing x250% bonus damage. Killing enemies extends the duration of Feral Rage by 1 second."
+   },
+   {
+    "name": "Fists of Fate",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "set": "",
+    "mythic": false,
+    "unique": true,
+    "affix": "Shapeshifting Skills",
+    "tip": "Fists of Fate\nShapeshifting Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Trample",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/trample.png",
+    "tip": "Trample\nRank 15\nWrath\nShapeshifing\nMobility\nWerebear\nGenerate Spirit: 20\nCooldown: 17 seconds\nLucky Hit: 20%\nShapeshift and charge forward, dealing [383%] damage and Knocking Back enemies.\nModifiers\nTrample grants an additional 20 Spirit.\nTrample Stuns enemies for 3 seconds instead of Knocking Back.\nTrample deals 500% bonus damage to the first target. Each subsequent target hit reduces this bonus by 50%.\nPhysical Damage"
+   },
+   {
+    "name": "Cyclone Armor",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cyclone_armor.png",
+    "tip": "Cyclone Armor\nRank 15\nDefensive\nStorm\nNature Magic\nCooldown: 10.2 seconds\nLucky Hit: 25%\nPassive: Powerful winds surround you, granting a [23.6%] bonus to All Resistances.\nActive: The winds rapidly expand, Knocking Back enemies and dealing [146%] damage.\nModifiers\nActive: Cyclone Armor's radius is increased by 50%.\nPassive: Gain an additional +20% bonus to All Resistances.\nThe active winds are reversed pulling enemies towards you instead. In addition, the area of effect is increased by x30%.\nPhysical Damage"
+   },
+   {
+    "name": "Debilitating Roar",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/debilitating_roar.png",
+    "tip": "Debilitating Roar\nRank 2\nDefensive\nWerebear\nShapeshifting\nShout\nCooldown: 18.7 seconds\nShapeshift into a Werebear and bellow a mighty roar reducing Nearby enemies' damage dealt by 25% for [3.8] seconds.\nModifiers\nIncrease the duration of Debilitating Roar by 1 second or 3 seconds if you are Fortified.\nReduce the Cooldown of Debilitating Roar by 8 seconds.\nDebilitating Roar immediately grants 1 stack of Resolve and an additional 1 stack every second for the duration."
+   },
+   {
+    "name": "Grizzly Rage",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/grizzly_rage.png",
+    "tip": "Grizzly Rage\nRank 1\nUltimate\nWerebear\nShapeshifting\nCooldown: 102.01 seconds\nShapeshift into a Dire Werebear for [20] seconds becoming Berserk and gaining +20% bonus Armor.\nModifiers\nReduces the cooldown of Grizzly Rage by 20 seconds.\nGrizzly Rage grants 100% Fortify when cast.\nYour damage is increased by x5% (max. x200%) each time you take or deal damage with a skill while Grizzly Rage is active."
+   },
+   {
+    "name": "Lightning Storm",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/lightning_storm.png",
+    "tip": "Lightning Storm\nRank 15\nCore\nNature Magic\nHuman\nStorm\nChanneled\nSpirit Cost: 15 per period\nLucky Hit: 15%\nConjure a growing lightning storm that deals [166%] damage per strike. The number of strikes increase the longer the storm is channeled up to a maximum of 10 strikes at once. Lighting Storm may grow up to 5 times.\nThe size of your Lightning Storm is preserved for 4 seconds after channeling.\nModifiers\nLightning Storm's gains x10% bonus damage. This bonus is increased to x25% if the target is Vulnerable.\nLightning Storm always grows from a baseline of 2 strikes.\nLightning Storm can be toggled passively and travels with you. Lightning Storm deals [232%] damage and will be maintained as long as you have enough Spirit. Cast Lightning Storm again to cancel this effect.\nLightning Damage"
+   },
+   {
+    "name": "Hurricane",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/hurricane.png",
+    "tip": "Hurricane\nRank 3\nWrath\nStorm\nNature Magic\nVersatile\nCooldown: 17 seconds\nLucky Hit: 17%\nForm a hurricane around you that deals [432%] damage to surrounding enemies over 6 seconds.\nModifiers\nMovement Speed is increased by x10% while Hurricane is active.\nEnemies affected by Hurricane are Weakened.\nHurricane has no cooldown and deals x100% bonus damage. Hurricane costs 15 Spirit per second while active. Cast Hurricane again to toggle the effect off.\nHurricane becomes a Core Skill.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Deer",
+    "options": [
+     3
+    ]
+   },
+   {
+    "shard": "Eagle",
+    "options": [
+     2,
+     4
+    ]
+   },
+   {
+    "shard": "Wolf",
+    "options": [
+     4
+    ]
+   },
+   {
+    "shard": "Snake",
+    "options": [
+     3
+    ]
+   }
+  ],
+  "tree": {
+   "463,908": 1,
+   "370,910": 1,
+   "190,875": 1,
+   "407,728": 1,
+   "1428,1307": 14,
+   "1427,1491": 1,
+   "1534,1438": 1,
+   "1627,1582": 1,
+   "1562,1619": 1,
+   "1426,1691": 1,
+   "1536,1692": 1,
+   "1627,1837": 1,
+   "1517,1874": 1,
+   "1226,1691": 14,
+   "1334,1792": 1,
+   "1172,1892": 1,
+   "1116,1782": 1,
+   "825,2528": 15,
+   "764,2528": 1,
+   "554,2564": 1,
+   "737,2709": 1,
+   "1083,2362": 1,
+   "1182,2254": 1,
+   "1282,2419": 1,
+   "1219,2472": 1,
+   "1082,3165": 15,
+   "955,3304": 1,
+   "1082,3403": 1,
+   "1210,3232": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Fang and Claw",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,12",
+    "3,12",
+    "4,9",
+    "4,10",
+    "4,12",
+    "4,13",
+    "5,9",
+    "5,10",
+    "5,12",
+    "5,13",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,10",
+    "8,13",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,13",
+    "11,10",
+    "11,13",
+    "12,9",
+    "12,10",
+    "12,13",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Howling Thunder",
+   "glyph": "Headhunter",
+   "x": 0,
+   "y": -1,
+   "rotate": 90,
+   "on": [
+    "2,11",
+    "2,12",
+    "2,13",
+    "2,14",
+    "3,14",
+    "3,15",
+    "3,16",
+    "4,16",
+    "5,16",
+    "6,15",
+    "6,16",
+    "6,17",
+    "6,18",
+    "6,19",
+    "7,16",
+    "8,13",
+    "8,16",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,12",
+    "10,13",
+    "10,16",
+    "11,12",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,12",
+    "13,10",
+    "13,11",
+    "13,12",
+    "14,10",
+    "15,6",
+    "15,7",
+    "15,8",
+    "15,9",
+    "15,10",
+    "16,6"
+   ]
+  },
+  {
+   "name": "Lust for Carnage",
+   "glyph": "Dominate",
+   "x": 1,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "8,7",
+    "8,8",
+    "8,14",
+    "8,15",
+    "9,7",
+    "9,8",
+    "9,9",
+    "9,10",
+    "9,11",
+    "9,12",
+    "9,13",
+    "9,14",
+    "9,15",
+    "10,8",
+    "10,14",
+    "10,15",
+    "11,15",
+    "11,16",
+    "11,17",
+    "11,18",
+    "11,19",
+    "11,20",
+    "12,18",
+    "13,17",
+    "13,18",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "14,15",
+    "14,16",
+    "14,17",
+    "15,9",
+    "15,11",
+    "15,17",
+    "15,18",
+    "16,9",
+    "16,11",
+    "17,7",
+    "17,8",
+    "17,9",
+    "18,9",
+    "19,9",
+    "20,9",
+    "20,10",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Inner Beast",
+   "glyph": "Spirit",
+   "x": 1,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,6",
+    "3,7",
+    "3,8",
+    "4,6",
+    "5,6",
+    "6,4",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,9",
+    "6,10",
+    "7,4",
+    "7,10",
+    "7,11",
+    "8,4",
+    "8,5",
+    "8,6",
+    "9,4",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,8",
+    "10,4",
+    "10,8",
+    "10,9",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,8",
+    "12,12",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,14",
+    "13,15",
+    "14,7",
+    "14,8",
+    "14,9",
+    "14,10",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,14",
+    "15,8",
+    "15,13",
+    "16,12",
+    "16,13",
+    "17,12"
+   ]
+  },
+  {
+   "name": "Ancestral Guidance",
+   "glyph": "Outmatch",
+   "x": 2,
+   "y": -2,
+   "rotate": 0,
+   "on": [
+    "3,7",
+    "4,6",
+    "4,7",
+    "4,8",
+    "4,9",
+    "5,6",
+    "6,5",
+    "6,6",
+    "7,5",
+    "8,4",
+    "8,5",
+    "8,12",
+    "9,5",
+    "9,6",
+    "9,7",
+    "9,12",
+    "10,6",
+    "10,10",
+    "10,11",
+    "10,12",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,6",
+    "11,10",
+    "12,4",
+    "12,5",
+    "12,6",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,16",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,11",
+    "13,12",
+    "13,13",
+    "13,14",
+    "13,15",
+    "13,16",
+    "14,13",
+    "15,13",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,15",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,18"
+   ]
+  }
+ ]
+}

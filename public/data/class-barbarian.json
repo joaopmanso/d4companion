@@ -17440,13 +17440,14 @@
   "Disembowel": "Rare Glyph\nImbiber (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [23%] increased damage while Healthy.\nAdditional Bonus:\nYou gain x5% increased damage and +5% increased Potion Healing for each missing Health Potion, up to x20% each.\nRequirements (within radius):\n69 / 25 Willpower\nLegendary Bonus:\nIncrease damage while Healthy by x [18%].",
   "Imbiber": "Rare Glyph\nImbiber (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [23%] increased damage while Healthy.\nAdditional Bonus:\nYou gain x5% increased damage and +5% increased Potion Healing for each missing Health Potion, up to x20% each.\nRequirements (within radius):\n59 / 25 Willpower\nLegendary Bonus:\nIncrease damage while Healthy by x [18%].",
   "Exploit": "Rare Glyph\nChallenger (Lvl 150)\nBonus:\nGrants + [140.5%] bonus to all Normal nodes within range.\nAdditional Bonus:\nYou deal x10 increased damage to Elites.\nRequirements (within radius):\n105 / 40 Strength\nLegendary Bonus:\nIncrease damage to Elites by x [20%].",
-  "Twister": "Rare Glyph\nDisembowel (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [24.1%] increased Bleeding damage.\nAdditional Bonus:\nYou deal x15% increased Damage Over Time.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease damage by x [15.4%].",
-  "Wrath": "Rare Glyph\nMight (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nYou deal x8% increased damage while wielding Two-Handed weapons.\nRequirements (within radius):\n40 / 40 Strength\nLegendary Bonus:\nYou deal x [28.5%] increased damage to Healthy and Injured enemies.",
-  "Might": "Rare Glyph\nBrawl (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nBrawling Skills deal x25% increased damage.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease Brawling skill damage by x [18%].",
+  "Twister": "Rare Glyph\nExecutioner (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [16.1%] increased damage while wielding a Polearm.\nAdditional Bonus:\nWhile wielding a Polearm, you deal x15% increased damage.\nRequirements (within radius):\n115 / 40 Strength\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Wrath": "Rare Glyph\nDisembowel (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [24.1%] increased Bleeding damage.\nAdditional Bonus:\nYou deal x15% increased Damage Over Time.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Might": "Rare Glyph\nMarshal (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nAfter casting a Shout Skill, the active Cooldown of every other non-Shout Skill is reduced by 2 seconds. If Rallying Cry is used, reduce the Fury cost of the next Core Skill by 20% instead.\nRequirements (within radius):\n40 / 40 Strength\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Marshal": "Rare Glyph\nBrawl (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nBrawling Skills deal x25% increased damage.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease Brawling skill damage by x [18%].",
   "Crusher": "Rare Glyph\nChallenger (Lvl 150)\nBonus:\nGrants + [140.5%] bonus to all Normal nodes within range.\nAdditional Bonus:\nYou deal x10 increased damage to Elites.\nRequirements (within radius):\n105 / 40 Strength\nLegendary Bonus:\nIncrease damage to Elites by x [20%].",
   "Dominate": "Rare Glyph\nMight (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nYou deal x8% increased damage while wielding Two-Handed weapons.\nRequirements (within radius):\n45 / 40 Strength\nLegendary Bonus:\nYou deal x [28.5%] increased damage to Healthy and Injured enemies.",
-  "Ambidextrous": "Rare Glyph\nBrawl (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nBrawling Skills deal x25% increased damage.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease Brawling skill damage by x [18%]."
+  "Ambidextrous": "Rare Glyph\nBrawl (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nBrawling Skills deal x25% increased damage.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease Brawling skill damage by x [18%].",
+  "Bloodfeeder": "Rare Glyph\nDisembowel (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [24.1%] increased Bleeding damage.\nAdditional Bonus:\nYou deal x15% increased Damage Over Time.\nRequirements (within radius):\n29 / 25 Willpower\nLegendary Bonus:\nIncrease damage by x [15.4%]."
  },
  "tips": {
   "Leoric's Crown": "Leoric's Crown\nUnique Helm\nPrimary Core Stat\nMaximum Resource\nCooldown Reduction\nMaximum Life\nThis item counts as Jewelery and increases the effect of any gem socketed into the helm by x [75 - 100%].",
@@ -17597,7 +17598,15 @@
   "Kry": "Kry\nMagic Rune of Invocation\nRequires: 300 Offering (Overflow: Increased size)\nCooldown: 3 seconds\nInvoke the Spiritborn's Vortex, dealing damage and Pulling In enemies.",
   "Moni": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills.",
   "Fer of the Bloodletter": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",
-  "Berú of the Bloodletter": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+  "Berú of the Bloodletter": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage.",
+  "Aspect of Inner Calm": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nPhysical Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nPhysical Damage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Hooves of the Mountain God": "Hooves of the Mountain God\nMythic Unique Boots\nStrength\nEvade Grants Movement Speed\nFury Regeneration\nMaximum Life\nMovement Speed\nCasting a Basic Skill while at Maximum Fury causes your Fury to increasingly Drain until you run out, during which your Basic skills now cleave dealing x [78%] increased damage.\nBarbarian\nDropped By:\nAstaroth",
+  "Aspect of Limitless Rage": "Aspect of Limitless Rage\nBarbarian\nEach point of Fury you generate from Basic Skills increases your damage by x [0.5 - 0.75%], up to 350 Fury. This bonus is lost after 4 seconds.\nStrength\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Shard of Verathiel": "Shard of Verathiel\nMythic Unique 1h Sword\nWeapon Damage\nRanks to Basic Skills\nDamage Over Time Multiplier\nStrength\nDamage Over Time\nBasic Skills deal x [130%] increased damage but additionally cost 25 Primary Resource.\nDropped By:\nAll Bosses, \nVarshan",
+  "Aspect of the Moonrise": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [60 - 80%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nAll Skills\nDamage Over Time Multiplier\nCooldown Reduction\nAspect of Anger Management\n+1 Set count to \nBerserker's Crucible\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Flay": "Flay\nRank 15\nBasic\nSlashing\nMartial\nFury Generate: 15\nLucky Hit: 50%\nFlay the enemy, dealing [13%] damage and inflicting [293%] Bleeding damage over 5 seconds.\nModifiers\nFlay's Bleeding duration is increased by 5 seconds.\nEach Nearby enemy Bleeding from Flay Heals you for 1% of your Maximum Life per second, up to 5%.\nIf Flay hits a Bleeding enemy it causes a blood explosion that inflicts [74%] Bleeding damage over 5 seconds.\nPhysical Damage\nRequires a Slashing weapon",
+  "Tam": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill.",
+  "Squirt's Blouse": "Squirt's Blouse\nMythic Unique Chest Armor\nPrimary Core Stat\nFury Regeneration\nMaximum Life\nMaximum Resource\nMaximum Life\nMaximum Resource\nWhile not taking Damage, you take up to 50% and deal up to x [65%] more damage. This bonus is reset upon losing Life."
  },
  "catalog": {
   "items": {
@@ -17647,14 +17656,14 @@
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ramaladni's_magnum_opus.png",
     "rarity": "mythic",
     "kind": "mythic",
-    "slot": "Dual-Wield Weapon 1",
+    "slot": "Dual-Wield Weapon 2",
     "tip": "Ramaladni's Magnum Opus\nMythic Unique 1h Sword\nAll Damage Multiplier\nMaximum Resource\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nSkills deal x [0.65%] increased damage per point of Fury you have, but 10% Maximum Fury Drains per second.\nBarbarian\nDropped By:\nButcher"
    },
    "Aspect of Disobedience": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Amulet",
+    "slot": "Pants",
     "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
    "Wanton Rupture Aspect": {
@@ -17668,7 +17677,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Ring 2",
+    "slot": "Ring 1",
     "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "Shattered Vow": {
@@ -17682,13 +17691,13 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Dual-Wield Weapon 2",
+    "slot": "Ring 1",
     "tip": "Crushing Aspect\nCodex • Barbarian\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nAll Damage Multiplier\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Tuskhelm of Joritz the Mighty": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tuskhelm_of_joritz_the_mighty.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
     "tip": "Tuskhelm of Joritz the Mighty\nUnique Helm\nStrength\nCooldown Reduction\nMaximum Resource\nMaximum Life\nMaximum Life\nWhen you gain Berserking while already Berserk, you become more enraged granting x [40 - 50%] increased damage, 6 Fury per second, and 10% Cooldown Reduction.\nBarbarian\nDropped By:\nBartuc"
    },
@@ -17731,7 +17740,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Dual-Wield Weapon 1",
+    "slot": "Ring 2",
     "tip": "Heavy Hitting Aspect\nCodex • Barbarian\nYour skills that create Iron Shrapnel, Earthquakes, or Dust Devil deal x [40 - 60%] increased damage.\nStrength\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Heavenly Strength": {
@@ -17752,7 +17761,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Ring 2",
+    "slot": "Ring 1",
     "tip": "Splinter of Anguish\nSoul Splinter\nJewelry:4375 Fire Resistance\nYou gain +20% Critical Strike Chance and Attack Speed, but your Primary Resource Costs are increased by 30%."
    },
    "Insight": {
@@ -17808,7 +17817,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/ring_of_starless_skies.png",
     "rarity": "mythic",
     "kind": "mythic",
-    "slot": "Ring 1",
+    "slot": "Ring 2",
     "tip": "Splinter of Pain\nSoul Splinter\nJewelry:4375 Poison Resistance\nYou gain 25% Damage Reduction, but you lose 30% Movement Speed."
    },
    "Earthstriker's Aspect": {
@@ -17829,7 +17838,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Bludgeoning Weapon",
+    "slot": "Dual-Wield Weapon 1",
     "tip": "Aspect of the Expectant\nCodex • Every Class\nBasic Skills grant x [6 - 8%] increased damage for 4 seconds, stacking up to 10 times.\nStrength\nCritical Strike Damage Multiplier\nWeapon Damage\nMaximum Life\nAttack Speed\nPhysical Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Locran's Talisman": {
@@ -17857,7 +17866,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Dual-Wield Weapon 2",
+    "slot": "Dual-Wield Weapon 1",
     "tip": "Aspect of the Warpath\nCodex • Barbarian\nWhile you have Overpower charges, your Bludgeoning weapon attacks deal x [40 - 60%] increased damage.\nAll Damage Multiplier\nStrength\nCritical Strike Damage Multiplier\nMaximum Life\nAttack Speed\nPhysical Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Accursed Touch": {
@@ -17906,14 +17915,14 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Chest Armor",
+    "slot": "Pants",
     "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nStrength\nMaximum Resource\nMaximum Life\nFury per Second\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "Aspect of Walloping": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Bludgeoning Weapon",
+    "slot": "Ring 2",
     "tip": "Aspect of Walloping\nCodex • Barbarian\nYour Skills using Bludgeoning weapons deal x [40 - 60%] increased damage if the enemy is Incapacitated or Vulnerable.\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "The Third Blade": {
@@ -17948,7 +17957,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Dual-Wield Weapon 1",
+    "slot": "Ring 2",
     "tip": "Duelist's Aspect\nCodex • Barbarian\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times. This bonus is lost when swapping weapons.\nWeapon Damage\nStrength\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Skullbreaker's Aspect": {
@@ -17957,6 +17966,55 @@
     "kind": "aspect",
     "slot": "Ring 2",
     "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
+   },
+   "Aspect of Inner Calm": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Gloves",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nPhysical Damage Multiplier\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nPhysical Damage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Hooves of the Mountain God": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/hooves_of_the_mountain_god.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Boots",
+    "tip": "Hooves of the Mountain God\nMythic Unique Boots\nStrength\nEvade Grants Movement Speed\nFury Regeneration\nMaximum Life\nMovement Speed\nCasting a Basic Skill while at Maximum Fury causes your Fury to increasingly Drain until you run out, during which your Basic skills now cleave dealing x [78%] increased damage.\nBarbarian\nDropped By:\nAstaroth"
+   },
+   "Aspect of Limitless Rage": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Bludgeoning Weapon",
+    "tip": "Aspect of Limitless Rage\nBarbarian\nEach point of Fury you generate from Basic Skills increases your damage by x [0.5 - 0.75%], up to 350 Fury. This bonus is lost after 4 seconds.\nStrength\nMaximum Life\nAll Damage Multiplier\nDamage Over Time Multiplier\nDamage Over Time\nBerserker's Crucible\n: Damage Reduction while Berserking\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Shard of Verathiel": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/shard_of_verathiel.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Dual-Wield Weapon 1",
+    "tip": "Shard of Verathiel\nMythic Unique 1h Sword\nWeapon Damage\nRanks to Basic Skills\nDamage Over Time Multiplier\nStrength\nDamage Over Time\nBasic Skills deal x [130%] increased damage but additionally cost 25 Primary Resource.\nDropped By:\nAll Bosses, \nVarshan"
+   },
+   "Aspect of the Moonrise": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Amulet",
+    "tip": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [60 - 80%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nAll Skills\nDamage Over Time Multiplier\nCooldown Reduction\nAspect of Anger Management\n+1 Set count to \nBerserker's Crucible\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Arioc's Needle": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/arioc's_needle.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Slashing Weapon",
+    "tip": "Arioc's Needle\nMartial Skill\nGain x [32.5%] Deadly Strike Chance. Your Deadly Strikes deal x [65%] increased damage."
+   },
+   "Squirt's Blouse": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/squirt's_blouse.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Chest Armor",
+    "tip": "Squirt's Blouse\nMythic Unique Chest Armor\nPrimary Core Stat\nFury Regeneration\nMaximum Life\nMaximum Resource\nMaximum Life\nMaximum Resource\nWhile not taking Damage, you take up to 50% and deal up to x [65%] more damage. This bonus is reset upon losing Life."
    }
   },
   "charms": {
@@ -17972,56 +18030,56 @@
     "set": "Berserker'S Crucible",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+    "tip": "Linta of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    "Linta of Sescheron's Fury": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+    "tip": "Linta of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    },
    "Mlor of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
     "set": "Berserker'S Crucible",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of the Crucible\nBrawling Skills\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+    "tip": "Mlor of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    "Berú of Sescheron's Fury": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+    "tip": "Berú of Sescheron's Fury\nMaximum Resource\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    },
    "Fer of Sescheron's Fury": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/sescheron's_fury.png",
     "set": "Sescheron'S Fury",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Sescheron's Fury\nBrawling Skills\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 50% Cast Speed but gaining 20% Character and Skill Size and x120% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 30% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x600%."
+    "tip": "Fer of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    },
    "Fer of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
     "set": "Berserker'S Crucible",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+    "tip": "Fer of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    "Berú of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
     "set": "Berserker'S Crucible",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Crucible\nMaximum Resource\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
+    "tip": "Berú of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    "Fists of Fate": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+    "mythic": true,
+    "unique": false,
+    "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [390%] of their normal damage."
    },
    "Phoba of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
@@ -18063,7 +18121,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Blood-Mad Idol\nMaximum Resource\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
+    "tip": "Blood-Mad Idol\nMartial Skill\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    "Crown of Lucion": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -18168,28 +18226,28 @@
     "set": "Bloodletter'S Flow",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Bloodletter\nMartial Skill\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+    "tip": "Fer of the Bloodletter\nMartial Skill\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
    },
    "Berú of the Bloodletter": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/bloodletter's_flow.png",
     "set": "Bloodletter'S Flow",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Bloodletter\nCore Skills\nLucky Hit: Chance to Daze\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
+    "tip": "Berú of the Bloodletter\nMartial Skill\nBloodletter's Flow\nPhoba of the Bloodletter\nFer of the Bloodletter\nMlor of the Bloodletter\nLinta of the Bloodletter\nBerú of the Bloodletter\nBloodletter's Flow\n(2) Set: Your Bleeding effects last x80% longer and make enemies Vulnerable.\n(3) Set: Gain 30% Maximum Life and 500 Life on Hit.\n(5) Set: Casting a skill that applies Bleeding to enemies has 10% chance to Rupture them for x200% increased damage. Enemies take x200% increased Bleeding damage."
    }
   },
   "seals": {
    "Seal of the Diamond Mind": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-    "tip": "Seal of the Diamond Mind of the Diamond Mind\nDamage\n+1 Unique Charm Slot\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+    "tip": "Seal of the Diamond Mind of the Diamond Mind\nCritical Strike Damage\nBerserker's Crucible:\nElite Damage\nBloodletter's Flow:\nVulnerable Damage\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
    },
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
     "tip": "Legendary Seal\nCritical Strike Damage\nAttack Speed while Berserking\n+1 Unique Charm Slot"
    },
    "Mythic Seal": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_annihilus.png",
-    "tip": "Annihilus\nAll Stats\nResistance to All Elements\nRanks to All Skills\nBonus Experience"
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+    "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
    }
   },
   "runes": {

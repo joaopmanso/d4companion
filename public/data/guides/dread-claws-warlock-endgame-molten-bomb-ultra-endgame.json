@@ -1,0 +1,907 @@
+{
+ "id": "dread-claws-warlock-endgame-molten-bomb-ultra-endgame",
+ "site": "d4builds",
+ "className": "Warlock",
+ "build": "Dread Claws Warlock",
+ "variant": "Molten Bomb (ultra Endgame)",
+ "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=1",
+ "updated": "November 25, 2026",
+ "author": "",
+ "checked": "2026-11-25",
+ "tier": "S",
+ "short": "Dread Claws",
+ "slots": {
+  "helm": {
+   "name": "Helm",
+   "item": {
+    "name": "Rictus of Terror",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/rictus_of_terror.png",
+    "tip": "Rictus of Terror\nMythic Unique Helm\nWillpower\nCooldown Reduction\nMaximum Life\nAbyss Skills\nMaximum Life\nCommand Laalish is now an Ultimate Skill and deals x [156%] increased damage. \nYou gain the effects of the Unfathomable Fragment for free with 100% increased Potency.\nWarlock\nDropped By:\nDuriel"
+   },
+   "affixes": [
+    "willpower",
+    "cdr",
+    "life",
+    "ranks:abyss-skills"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Cooldown Reduction",
+    "Maximum Life",
+    "Abyss Skills",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Sapphire",
+    "Sapphire"
+   ],
+   "socketArt": {
+    "Sapphire": "https://sunderarmor.com/DIABLO4/Gems/grand-sapphire.png"
+   }
+  },
+  "chest": {
+   "name": "Chest Armor",
+   "item": {
+    "name": "Juggernaut's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nWillpower\nMaximum Life\nWrath Regeneration\nArmor\nMaximum Life\nShadow of Harash\n: Abyss Skill Damage\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen",
+    "armor",
+    "damageReduction"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Armor",
+    "Shadow Of Harash: Damage Reduction While In Shadowform"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cir",
+    "Mot"
+   ],
+   "socketArt": {
+    "Cir": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "gloves": {
+   "name": "Gloves",
+   "item": {
+    "name": "Fists of Fate",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fists_of_fate.png",
+    "tip": "Fists of Fate\nHellfire Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+   },
+   "affixes": [
+    "willpower",
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Primary Core Stat",
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critDamage",
+     "Worldly Finesse (Offensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "pants": {
+   "name": "Pants",
+   "item": {
+    "name": "Bindings of Attrition",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/bindings_of_attrition.png",
+    "tip": "Bindings of Attrition\nMythic Unique Pants\nWillpower\nArmor\nArmor\nWrath Regeneration\nMaximum Life\nCasting Dark Prison consumes [62.4%] of your Maximum Life to reset its Cooldown. You gain [39%] Damage Reduction while Dark Prison is active.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "willpower",
+    "armor",
+    "armor",
+    "wrathRegen"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Armor",
+    "Armor",
+    "Wrath Regeneration",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "life",
+     "Worldly Endurance (Defensive)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Cem",
+    "Prid"
+   ],
+   "socketArt": {
+    "Cem": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "Prid": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+   }
+  },
+  "boots": {
+   "name": "Boots",
+   "item": {
+    "name": "Footfalls of the Waning World",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/footfalls_of_the_waning_world.png",
+    "tip": "Footfalls of the Waning World\nMythic Unique Boots\nWillpower\nAttacks Reduce Evade's Cooldown\nMaximum Life\nWrath Regeneration\nMobility Cooldown Reduction\nYour Evade is now Nether Step and your Evade Cooldown is reduced by [1.3] seconds as you lose or consume Shadowform stacks.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "willpower",
+    "life",
+    "wrathRegen"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Attacks Reduce Evade's Cooldown",
+    "Maximum Life",
+    "Wrath Regeneration",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Natural Motion (Mobility)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [],
+   "socketArt": {}
+  },
+  "weapon": {
+   "name": "Weapon",
+   "item": {
+    "name": "Litany of Sable",
+    "kind": "mythic",
+    "rarity": "mythic",
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/litany_of_sable.png",
+    "tip": "Litany of Sable\nMythic Unique 1h Dagger\nWeapon Damage\nRanks to Dread Claws\nCritical Strike Damage Multiplier\nWillpower\nCritical Strike Chance\nDread Claws deals x [156%] increased damage and additional claws fire out when you gain a stack of Shadowform.\nWarlock\nDropped By:\nAstaroth"
+   },
+   "affixes": [
+    "weaponDamage",
+    "ranks:dread-claws",
+    "critDamage",
+    "willpower"
+   ],
+   "affixNames": [
+    "Weapon Damage",
+    "Ranks To Dread Claws",
+    "Critical Strike Damage Multiplier",
+    "Willpower",
+    "Horadric Affix"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst",
+    "Amethyst"
+   ],
+   "socketArt": {
+    "Amethyst": "https://sunderarmor.com/DIABLO4/Gems/grand-amethyst.png"
+   }
+  },
+  "amulet": {
+   "name": "Amulet",
+   "item": {
+    "name": "Ominous Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Ominous Aspect\nCodex • Warlock\nWhile standing still, gain x [15 - 19%] increased Greater Demon Skill damage for 2 seconds, up to x [75 - 95%].\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nShadow Damage Multiplier\nCooldown Reduction\nBane-Link Aspect\n+1 Set count to \nShadow of Harash\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Shadow Damage Multiplier",
+    "+1 Set Count To Shadow Of Harash"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [
+    "Bane-Link Aspect"
+   ],
+   "sockets": [
+    "Skull"
+   ],
+   "socketArt": {
+    "Skull": "https://sunderarmor.com/DIABLO4/Gems/grand-skull.png"
+   }
+  },
+  "ring1": {
+   "name": "Ring 1",
+   "item": {
+    "name": "Aspect of Inner Calm",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Inner Calm\nCodex • Every Class\nWhile standing still, deal up to x [50 - 75%] increased damage.\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "vulnDamage",
+    "critDamage",
+    "critChance",
+    "cdr"
+   ],
+   "affixNames": [
+    "Vulnerable Damage Multiplier",
+    "Critical Strike Damage Multiplier",
+    "Critical Strike Chance",
+    "Cooldown Reduction",
+    "+1 Set Count To Rite Of The Nameless"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Ruby"
+   ],
+   "socketArt": {
+    "Ruby": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   }
+  },
+  "ring2": {
+   "name": "Ring 2",
+   "item": {
+    "name": "Aspect of Fathomless Dark",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Aspect of Fathomless Dark\nCodex • Warlock\nYour Abyss Skills deal increased damage equal to [65 - 85%] of your Shadow Resistance Damage Reduction.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\n+1 Set count to \nRite of the Nameless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "critChance",
+    "critDamage",
+    "vulnDamage",
+    "cdr"
+   ],
+   "affixNames": [
+    "Critical Strike Chance",
+    "Critical Strike Damage Multiplier",
+    "Vulnerable Damage Multiplier",
+    "Cooldown Reduction",
+    "+1 Set Count To Rite Of The Nameless"
+   ],
+   "tempers": [
+    [
+     "cdr",
+     "Worldly Stability (Resource)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Topaz"
+   ],
+   "socketArt": {
+    "Topaz": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
+   }
+  },
+  "offhand": {
+   "name": "Offhand",
+   "item": {
+    "name": "Duelist's Aspect",
+    "kind": "aspect",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "tip": "Duelist's Aspect\nCodex • Warlock\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "affixes": [
+    "willpower",
+    "cdr",
+    "critDamage",
+    "critChance"
+   ],
+   "affixNames": [
+    "Willpower",
+    "Cooldown Reduction",
+    "Critical Strike Damage Multiplier",
+    "Critical Strike Chance",
+    "Shadow Of Harash: Abyss Skill Damage"
+   ],
+   "tempers": [
+    [
+     "critChance",
+     "Worldly Destruction (Weapons)"
+    ]
+   ],
+   "aspects": [],
+   "sockets": [
+    "Amethyst"
+   ],
+   "socketArt": {
+    "Amethyst": "https://sunderarmor.com/DIABLO4/Gems/grand-amethyst.png"
+   }
+  }
+ },
+ "runes": [
+  {
+   "name": "Cem",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cem\nMagic Rune of Ritual\nGain: 75 Offering\nCast Evade."
+  },
+  {
+   "name": "Prid",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Prid\nMagic Rune of Invocation\nRequires: 500 Offering (Overflow: Increase Dark Prison Duration)\nCooldown: 3 seconds\nInvoke the Warlock's Dark Prison Skill, tethering enemies to the area for 3 seconds."
+  },
+  {
+   "name": "Cir",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+   "tip": "Cir\nMagic Rune of Ritual\nGain: 300 Offering\nCast 5 Skills then become exhausted for 3 seconds."
+  },
+  {
+   "name": "Mot",
+   "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
+  }
+ ],
+ "talisman": {
+  "seal": {
+   "name": "Seal of the Diamond Mind",
+   "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+   "affix": "",
+   "tip": "Seal of the Diamond Mind of the Diamond Mind\nReduces the number of Charms needed for Set bonuses by 1 (to a minimum of 2)"
+  },
+  "charms": [
+   {
+    "name": "Berú of Harash's Shadow",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "affix": "",
+    "tip": "Berú of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Linta of Harash's Shadow",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "affix": "",
+    "tip": "Linta of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Fer of Harash's Shadow",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/shadow_of_harash.png",
+    "set": "Shadow of Harash",
+    "mythic": false,
+    "affix": "",
+    "tip": "Fer of Harash's Shadow\nShadow of Harash\nPhoba of Harash's Shadow\nFer of Harash's Shadow\nMlor of Harash's Shadow\nLinta of Harash's Shadow\nBerú of Harash's Shadow\nShadow of Harash\n(2) Set: Enemies within Shadowform areas are Dominated for up to 5 seconds, preventing them from acting and causing them to move where you target with Recast Skills.\n(3) Set: Shadowform reduces damage taken by 25% and leaves Sigil of Subversion shadow trails behind you while moving.\n(5) Set: Your Abyss Skill damage is increased by x350% while you have Shadowform but each cast consumes 1 stack. Dominated enemies take an additional x100% damage."
+   },
+   {
+    "name": "Night Terror",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "",
+    "tip": "Night Terror\nYour Abyss Skills deal x [7.8%] increased damage for each stack of Shadowform. This bonus is increased by 100% while you have Stealth."
+   },
+   {
+    "name": "Berú of the Nameless",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/rite_of_the_nameless.png",
+    "set": "Rite of the Nameless",
+    "mythic": false,
+    "affix": "",
+    "tip": "Berú of the Nameless\nRite of the Nameless\nPhoba of the Nameless\nFer of the Nameless\nMlor of the Nameless\nLinta of the Nameless\nBerú of the Nameless\nRite of the Nameless\n(2) Set: Casting a Sigil Skill begins a Ritual for 60 seconds that grants x100% damage which intensifies by up to x200% as the Ritual nears its end. Completing Sigils progresses the Ritual by 6 seconds and when the timer ends your next Sigil Skill unleashes the Power Within, making your Occult Skills free to cast for 6 seconds.\n(3) Set: The Ritual grants 20% Damage Reduction that intensifies with the Ritual.\n(5) Set: Casting a Sigil Skill now creates all Base Sigil Skills at once. You deal x200% increased damage to enemies in Base Sigil Skills, doubled while the Power Within is unleashed."
+   },
+   {
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Rite of the Nameless"
+   }
+  ]
+ },
+ "skills": {
+  "bar": [
+   {
+    "name": "Dread Claws",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
+    "tip": "Dread Claws\nRank 15\nCore\nDemonology\nAbyss\nDemon\nWrath Cost: 30\nLucky Hit: 15%\nBurst forth 4 shadowy claws, each dealing [179%] damage.\nModifiers\nEvery second, gain x20% increased damage for your next Dread Claws, up to x100%.\nDread Claws deals x50% increased damage with its first claw strike against each enemy. When attacking from Stealth all claws gain this bonus.\nDread Claws are cast around you, each dealing [209%] damage. You consume 1 stack of Shadowform to also conjure claws around your most recent Greater Demon Summon.\nShadow Damage"
+   },
+   {
+    "name": "Sigil of Subversion",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/sigil_of_subversion.png",
+    "tip": "Sigil of Subversion\nRank 15\nSigil\nOccult\nAbyss\nCooldown: 10 seconds\nLucky Hit: 20%\nCreate a subversive ritual for 10 seconds that Hexes enemies.\nKilling 8 enemies or Demons within fuels the ritual to send forth shadow trails for [11.2] seconds that periodically grant you 1 stack of Shadowform every second while in them.\nYou can have up to 3 trails active at once.\nModifiers\nSigil of Subversion trails grant you x20% increased Movement Speed while on them.\nSigil of Subversion trails Slow enemies by 75%.\nSigil of Subversion becomes a Hellfire Skill and now creates lava trails that periodically deal [893%] damage. Enemies that die within the trails have a 35% chance to be charred into Brimstones which deal [510%] damage when they explode."
+   },
+   {
+    "name": "Summon Laalish",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/summon_laalish.png",
+    "tip": "Summon Laalish\nRank 1\nSoul Shard\nDemonology\nAbyss\nSummon\nGreater Demon\nCooldown: 15 seconds\nLucky Hit: 15%\nPassive: Laalish seeks enemies and applies Vulnerable and a 30% Slow to Close enemies that lingers for 4 seconds. When you attack enemies, it moves through the abyss to bite them, dealing [765%] damage.\nActive: Command Laalish to create a Terror Realm for 9 seconds, applying Vulnerable and a 60% Slow to enemies within. Laalish devours enemies within Terror Realm, dealing [255%] damage every 1 second.\nWhile you are within Terror Realm, gain 1 stacks of Shadowform every 0.25 seconds.\nShadow Damage"
+   },
+   {
+    "name": "Metamorphosis",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/terror_demon.png",
+    "tip": "Metamorphosis\nRank 15\nUltimate\nDemonology\nHellfire\nArchfiend\nCooldown: 15 seconds\nTransform into a demon and gain:\nDemonform\nAll Archfiend Demonform Skill variants\nAn Ultimate Archfiend Basic attack that deals [166%] damage and generates 5 Dominance\nCast again while active to cancel.\nModifiers\nMetamorphosis does not replace any Skills and grants Volatility while active. Each Skill cast increases your Hellfire damage by x [8.4%] but Burns you for 8% Maximum Life over 3 seconds. Each Cast deals 5% increased Burning to you and Metamorphosis ends if you become Injured or cancel early.\nFire Damage"
+   },
+   {
+    "name": "Molten Bomb",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/cluster_bomb.png",
+    "tip": "Molten Bomb\nRank 1\nBasic\nOccult\nHellfire\nWrath Generate: 10\nLucky Hit: 27%\nLob volatile lava at an enemy, dealing [75%] damage in a small area.\nModifiers\nMolten Bomb generates 1 additional Wrath on each impact.\nMolten Bomb has a 15% chance to Knock Down enemies for 2 seconds. When Molten Bomb is empowered by Volatility this chance is increased to 100%. Can occur once every 4 seconds per enemy.\nMolten Bomb creates a turret demon on impact for 5 seconds that spits lava at surrounding enemies, each dealing [24%] damage. You can have up to 6 turrets active at once.\nFire Damage"
+   },
+   {
+    "name": "Rampage-v2",
+    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/abyssal_titan.png",
+    "tip": "Rampage\nRank 1\nArchfiend\nDemonology\nSummon\nGreater Demon\nDominance Cost: 15\nLucky Hit: 30%\nSummon a rampaging brute for 10 seconds that smashes wildly, dealing [64%] damage with a 5% chance per hit to Eviscerate enemies for [1280%] damage.\nModifiers\nCasting Rampage compels your Lesser Demon Skills to generate 1 Wrath per hit for 5 seconds.\nRampage has a 100% chance to trigger its Eviscerate, Volatility, or Knockdown hit effect when striking unaffected Elite enemies.\nRampage becomes a Hellfire Mobility leap attack that transforms you into Demonform, dealing [290%] damage with a 5% chance per hit to grant you Volatility for 10 seconds.\nPhysical Damage"
+   }
+  ],
+  "prime": [],
+  "soulShard": [
+   {
+    "shard": "Mastermind Shard",
+    "options": [
+     2
+    ]
+   }
+  ],
+  "tree": {
+   "822,369": 1,
+   "691,229": 1,
+   "877,255": 1,
+   "728,162": 1,
+   "849,907": 15,
+   "905,721": 1,
+   "1091,813": 1,
+   "941,905": 1,
+   "1406,1538": 6,
+   "1470,1482": 1,
+   "1611,1631": 1,
+   "1546,1665": 1,
+   "1182,1636": 15,
+   "1247,1638": 1,
+   "1387,1787": 1,
+   "1321,1825": 1,
+   "609,1684": 1,
+   "506,1558": 1,
+   "366,1649": 1,
+   "467,1742": 1,
+   "739,2426": 1,
+   "681,2316": 1,
+   "533,2372": 1,
+   "644,2538": 1,
+   "1072,2336": 1,
+   "1129,2203": 1,
+   "1315,2298": 1,
+   "1210,2390": 1,
+   "1071,2522": 1,
+   "1137,2463": 1,
+   "1314,2557": 1,
+   "1211,2651": 1,
+   "1110,3076": 15,
+   "1165,2947": 1,
+   "1314,3132": 1,
+   "1201,3206": 1
+  }
+ },
+ "paragon": [
+  {
+   "name": "Starting Board",
+   "glyph": "Abyssal",
+   "x": 0,
+   "y": 0,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "2,12",
+    "3,12",
+    "4,10",
+    "4,12",
+    "5,10",
+    "5,12",
+    "6,8",
+    "6,9",
+    "6,10",
+    "6,12",
+    "6,13",
+    "6,15",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "7,14",
+    "7,15",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,13",
+    "9,8",
+    "9,10",
+    "9,13",
+    "10,9",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,9",
+    "11,10",
+    "11,13",
+    "12,8",
+    "12,9",
+    "12,10",
+    "12,12",
+    "12,13",
+    "12,14",
+    "13,9",
+    "13,13",
+    "14,11",
+    "14,12",
+    "14,13"
+   ]
+  },
+  {
+   "name": "Dynamism",
+   "glyph": "Unbound",
+   "x": 0,
+   "y": -1,
+   "rotate": 0,
+   "on": [
+    "2,11",
+    "3,11",
+    "3,15",
+    "4,11",
+    "4,15",
+    "4,16",
+    "5,11",
+    "5,12",
+    "5,13",
+    "5,14",
+    "5,15",
+    "6,11",
+    "7,5",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "8,5",
+    "8,8",
+    "8,11",
+    "9,5",
+    "9,8",
+    "9,11",
+    "9,12",
+    "10,2",
+    "10,3",
+    "10,4",
+    "10,5",
+    "10,8",
+    "10,10",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,7",
+    "11,8",
+    "11,12",
+    "11,13",
+    "12,11",
+    "12,12",
+    "13,11",
+    "13,12",
+    "14,11",
+    "14,12",
+    "15,11",
+    "16,11",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,15",
+    "18,11",
+    "18,15",
+    "18,16",
+    "19,11",
+    "19,15",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Dominion",
+   "glyph": "Mastermind",
+   "x": 0,
+   "y": -2,
+   "rotate": 180,
+   "on": [
+    "2,8",
+    "2,9",
+    "2,10",
+    "2,11",
+    "3,8",
+    "3,11",
+    "4,8",
+    "4,10",
+    "4,13",
+    "5,8",
+    "5,9",
+    "5,10",
+    "5,13",
+    "5,14",
+    "6,8",
+    "6,9",
+    "6,12",
+    "6,13",
+    "6,14",
+    "7,6",
+    "7,7",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,14",
+    "7,15",
+    "8,8",
+    "8,10",
+    "8,11",
+    "8,12",
+    "8,13",
+    "8,14",
+    "9,6",
+    "9,7",
+    "9,8",
+    "9,14",
+    "9,15",
+    "9,16",
+    "10,6",
+    "10,13",
+    "10,14",
+    "10,16",
+    "11,5",
+    "11,6",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,16",
+    "11,17",
+    "12,6",
+    "12,11",
+    "12,16",
+    "13,11",
+    "14,11",
+    "15,7",
+    "15,11",
+    "15,14",
+    "15,15",
+    "16,7",
+    "16,8",
+    "16,9",
+    "16,10",
+    "16,11",
+    "16,12",
+    "16,13",
+    "16,14",
+    "16,15",
+    "17,7",
+    "17,14",
+    "17,15"
+   ]
+  },
+  {
+   "name": "Demonic Spicules",
+   "glyph": "Demonologist",
+   "x": -1,
+   "y": -1,
+   "rotate": 270,
+   "on": [
+    "2,11",
+    "3,11",
+    "4,11",
+    "4,12",
+    "4,13",
+    "4,14",
+    "4,15",
+    "4,16",
+    "5,7",
+    "5,13",
+    "5,14",
+    "6,5",
+    "6,6",
+    "6,7",
+    "6,8",
+    "6,13",
+    "7,5",
+    "7,6",
+    "7,8",
+    "7,9",
+    "7,10",
+    "7,11",
+    "7,12",
+    "7,13",
+    "8,9",
+    "8,13",
+    "9,9",
+    "9,10",
+    "9,13",
+    "10,10",
+    "10,12",
+    "10,13",
+    "11,13",
+    "11,14",
+    "12,10",
+    "12,13",
+    "12,16",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,10",
+    "13,11",
+    "13,13",
+    "13,15",
+    "13,16",
+    "14,4",
+    "14,5",
+    "14,11",
+    "14,12",
+    "14,13",
+    "14,15",
+    "14,16",
+    "15,4",
+    "15,10",
+    "15,11",
+    "15,16",
+    "16,4",
+    "16,14",
+    "16,15",
+    "16,16",
+    "16,18",
+    "17,11",
+    "17,12",
+    "17,13",
+    "17,14",
+    "17,16",
+    "17,17",
+    "17,18",
+    "18,11",
+    "18,16",
+    "18,18",
+    "19,11",
+    "20,11"
+   ]
+  },
+  {
+   "name": "Overmind",
+   "glyph": "Eldritch Sight",
+   "x": -2,
+   "y": -1,
+   "rotate": 180,
+   "on": [
+    "4,18",
+    "5,15",
+    "5,16",
+    "5,17",
+    "5,18",
+    "6,14",
+    "6,15",
+    "6,16",
+    "6,17",
+    "7,8",
+    "7,13",
+    "7,14",
+    "7,17",
+    "8,13",
+    "9,13",
+    "10,11",
+    "10,12",
+    "10,13",
+    "11,2",
+    "11,3",
+    "11,4",
+    "11,5",
+    "11,6",
+    "11,10",
+    "11,11",
+    "11,12",
+    "11,13",
+    "11,14",
+    "11,15",
+    "12,5",
+    "12,9",
+    "12,10",
+    "12,11",
+    "12,15",
+    "13,5",
+    "13,6",
+    "13,7",
+    "13,8",
+    "13,9",
+    "13,14",
+    "13,15",
+    "14,4",
+    "14,8",
+    "14,9",
+    "14,14",
+    "14,15",
+    "15,2",
+    "15,3",
+    "15,4",
+    "15,7",
+    "15,8",
+    "16,2",
+    "16,3",
+    "16,6",
+    "16,8",
+    "16,9",
+    "17,2",
+    "17,3",
+    "17,6",
+    "17,7",
+    "17,8",
+    "18,3",
+    "18,4",
+    "18,5",
+    "18,7",
+    "18,8",
+    "19,4",
+    "19,5",
+    "19,6",
+    "19,7",
+    "20,6",
+    "21,6"
+   ]
+  }
+ ]
+}

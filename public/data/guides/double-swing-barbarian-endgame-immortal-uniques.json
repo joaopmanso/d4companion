@@ -7,8 +7,8 @@
  "url": "https://d4builds.gg/builds/double-swing-barbarian-endgame/?var=0",
  "updated": "October 29, 2026",
  "author": "",
- "checked": "2026-10-30",
- "tier": "B",
+ "checked": "2026-11-25",
+ "tier": "A",
  "short": "Double Swing",
  "slots": {
   "helm": {
@@ -462,7 +462,7 @@
    "name": "Mythic Seal",
    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
    "affix": "",
-   "tip": "Mythic Seal\nYou can equip up to 3 Unique Charms."
+   "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
   },
   "charms": [
    {

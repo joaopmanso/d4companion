@@ -17544,11 +17544,11 @@
   }
  },
  "glyphs": {
-  "Versatility": "Rare Glyph\nVersatility (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nNon-Basic and Non-Core Skills deal x25% increased damage.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Versatility": "Rare Glyph\nTracker (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased damage to Poisoned targets.\nAdditional Bonus:\nPoisoning damage effects last x40% longer.\nRequirements (within radius):\n27 / 25 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Tracker": "Rare Glyph\nCanny (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased Non-physical damage.\nAdditional Bonus:\nNon-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x15%, for 15 seconds.\nRequirements (within radius):\n27 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
-  "Canny": "Rare Glyph\nDevious (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nWhen you hit an enemy with an attack that applies a Crowd Control effect, they take x3%, up to x15%, increased damage from you for 20 seconds.\nRequirements (within radius):\n45 / 40 Dexterity\nLegendary Bonus:\nIncrease damage to Crowd Controlled targets by x [20%].",
-  "Efficacy": "Rare Glyph\nChip (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Physical damage.\nAdditional Bonus:\nPhysical damage increases the damage an enemy takes from you by x1%, up to x15%, for 15 seconds.\nRequirements (within radius):\n115 / 40 Dexterity\nLegendary Bonus:\nIncrease Physical damage by x [15.4%].",
-  "Bane": "Rare Glyph\nTracker (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased damage to Poisoned targets.\nAdditional Bonus:\nPoisoning damage effects last x40% longer.\nRequirements (within radius):\n27 / 25 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Canny": "Rare Glyph\nEfficacy (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nImbuement Skill effects have x20% increased potency.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
+  "Efficacy": "Rare Glyph\nVersatility (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nNon-Basic and Non-Core Skills deal x25% increased damage.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
+  "Bane": "Rare Glyph\nBane (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased Poison damage.\nAdditional Bonus:\nPoisoning damage effects have a 15% chance to deal double the amount of damage over their duration.\nRequirements (within radius):\n32 / 25 Strength\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
   "Control": "Rare Glyph\nCanny (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased Non-physical damage.\nAdditional Bonus:\nNon-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x15%, for 15 seconds.\nRequirements (within radius):\n27 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
   "Devious": "Rare Glyph\nEfficacy (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nImbuement Skill effects have x20% increased potency.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
   "Eclipse": "Rare Glyph\nCanny (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased Non-physical damage.\nAdditional Bonus:\nNon-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x15%, for 15 seconds.\nRequirements (within radius):\n27 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
@@ -17730,7 +17730,12 @@
   "Aspect of Crippling Darkness": "Aspect of Crippling Darkness\nCodex • Rogue\nLucky Hit: Shadow damage has up to a 15% chance to deal x [20 - 30%] increased damage, Fear and Immobilize for 1 second.\nDexterity\nArmor\nMaximum Life\nResistance to All Elements\nMovement Speed\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)",
   "Pitfighter's Gull": "Pitfighter's Gull\nUnique Ring\nDexterity\nRanks to Smoke Grenade\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Damage\nSmoke Grenade bounces and detonates a second time. Smoke Grenade's damage is increased by x [15 - 20%] and Duration is increased by x [7.5 - 10%].\nRogue\nDropped By:\nVarshan",
   "Nightstalker's Aspect": "Nightstalker's Aspect\nCodex • Rogue\nShade Skills deal x [40 - 60%] increased damage and gain a 50% chance to spawn an additional Shade.\nAll Damage Multipler\nCritical Strike Chance\nVulnerable Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
-  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png": "Seal\n+1 Charm Slot"
+  "seal:https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png": "Seal\n+1 Charm Slot",
+  "Yax": "Yax\nMagic Rune of Ritual\nGain: 200 Offering\nDrink a Healing Potion.",
+  "Fer of Spellbound Steel": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements.",
+  "Berú of Spellbound Steel": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements.",
+  "Aspect of Unstable Imbuements": "Aspect of Unstable Imbuements\nCodex • Rogue\nWhen casting an Imbuement Skill you trigger an explosion around yourself, applying the Imbuement effects at x [40 - 60%] increased Potency and dealing [X] damage of the same type.\nDexterity\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nLegacy of the Sightless\n: Ultimate Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
+  "Puncture": "Puncture\nRank 1\nBasic\nMarksman\nLucky Hit: 35%\nThrow blades a short distance, dealing [45%] damage.\nModifiers\nPuncture Slows enemies by 20% for 4 seconds. Critical Strikes will Immobilize enemies for 2 seconds.\nPuncture pierces through 1 enemy and has its range increased by 50%.\nPuncture now also applies 25% of its Base damage as Poisoning damage over 6 seconds and also Poisons up to 2 enemies near your target. Enemies Poisoned this way are always pierced by Puncture and your Critical Strike Chance against them is increased by +10%.\nPhysical Damage\nRequires Dual Wielded weapons"
  },
  "catalog": {
   "items": {
@@ -17750,15 +17755,15 @@
    },
    "Fist of the Iron Rose": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/fist_of_the_iron_rose.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Gloves",
     "tip": "Fist of the Iron Rose\nUnique Gloves\nDexterity\nAll Damage Multiplier\nVulnerable Damage Multiplier\nDexterity\nImbuement Potency\nDamage a Close enemy with Marksman or Cutthroat Skills each grant a +15% Attack Speed bonus for 8 seconds.\n\nWhile both Attack Speed bonuses are active, you deal x [45 - 60%] increased damage to Close enemies.\nRogue\nDropped By:\nButcher"
    },
    "Tibault's Will": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Pants",
     "tip": "Tibault's Will\nUnique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nYou deal x [15 - 20%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
    },
@@ -17787,7 +17792,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 1",
+    "slot": "Amulet",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "Scoundrel's Kiss": {
@@ -17799,16 +17804,16 @@
    },
    "Etna's Lost Dagger": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/etna's_lost_dagger.png",
-    "rarity": "unique",
-    "kind": "unique",
-    "slot": "Dual-Wield Weapon 1",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Dual-Wield Weapon 2",
     "tip": "Etna's Lost Dagger\nUnique 1h Dagger\nDexterity\nRanks to Imbuements Skills\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nDeal 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by x [45 - 60%] and Non-Physical damage by x [45 - 60%] for 8 seconds.\n\nBasic Skills are now Imbueable.\nRogue\nDropped By:\nHarbinger of Hatred"
    },
    "Aspect of Imitated Imbuement": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Dual-Wield Weapon 2",
+    "slot": "Ring 2",
     "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Harlequin Crest": {
@@ -17850,7 +17855,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/resource.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 1",
+    "slot": "Ring 2",
     "tip": "Aspect of Apogeic Furor\nEvery Class\nCasting an Ultimate Skill reduces the Cooldowns of your other Skills by [6.5 - 10] seconds.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nCooldown Reduction\nRing, Amulet (+50%)"
    },
    "Ring of Starless Skies": {
@@ -17876,22 +17881,22 @@
    },
    "Cowl of the Nameless": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/cowl_of_the_nameless.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
     "tip": "Cowl of the Nameless\nLucky Hit: Imbued Skills have up to a 40% chance to trigger a large explosion, dealing 75% of the damage dealt and applying the Imbuement effect to each enemy it hits with x [120 - 150%] Potency."
    },
    "Gladiator's Triumph": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/gladiator's_triumph.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Gloves",
     "tip": "Gladiator's Triumph\nUnique Gloves\nDexterity\nCritical Strike Chance\nCritical Strike Damage Multiplier\nCooldown Reduction\nCritical Strike Damage\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower.\nRogue\nDropped By:\nAstaroth"
    },
    "Shrouded Gift": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/shrouded_gift.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Pants",
     "tip": "Shrouded Gift\nUnique Pants\nDexterity\nMovement Speed\nMaximum Life\nResistance to All Elements\nMaximum Life\nWhenever you gain Stealth, you also gain Concealment. Gain [25 - 30%] Damage Reduction while Stealthed and for 8 seconds after breaking it.\nRogue\nDropped By:\nHarbinger of Hatred"
    },
@@ -17927,7 +17932,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Dual-Wield Weapon 1",
+    "slot": "Ranged Weapon",
     "tip": "Aspect of Frozen Memories\nRogue\nCold damage deals x [30 - 45%] increased damage to Chilled enemies, this bonus is tripled against Frozen enemies.\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Spirit": {
@@ -17981,8 +17986,8 @@
    },
    "Sea Lord's Fine Gloves": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/sea_lord's_fine_gloves.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Gloves",
     "tip": "Sea Lord's Fine Gloves\nUnique Gloves\nDexterity\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nTraps Arm Faster\nCasting or Channeling a Cutthroat Skill grants a stack of Momentum, up to 10. Casting a Marksman Skill removes a stack of Momentum.\n\nFor each stack of Momentum, you gain:\n- [2.5 - 3%] Maximum Energy\n- x [2.5 - 3%] Energy Regeneration\n- x [5 - 6%] Increased Damage\nRogue\nDropped By:\nDuriel"
    },
@@ -18046,8 +18051,8 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Gloves",
-    "tip": "Crushing Aspect\nCodex • Rogue\nWhile Fortified, you deal x [45 - 65%] increased damage.\nAll Damage Multiplier\nDexterity\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "slot": "Ring 1",
+    "tip": "Crushing Aspect\nCodex • Rogue\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nImbuement Potency\nAspect of Accursed Touch\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Channeling": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
@@ -18060,7 +18065,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Ring 1",
+    "slot": "Ranged Weapon",
     "tip": "Writhing Aspect\nCodex • Rogue\nEnemies take [6 - 9%] increased Damage Over Time for every second they've been affected by a Damage Over Time, up to 10 seconds.\nDamage Over Time Multiplier\nAll Damage Multiplier\nDexterity\nMaximum Life\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Stone of Jordan": {
@@ -18103,7 +18108,7 @@
     "rarity": "legendary",
     "kind": "legendary",
     "slot": "Chest Armor",
-    "tip": "Aspect of Debilitating Toxins\nCodex • Rogue\nYou gain [20 - 30%] Damage Reduction, and Poisoned enemies deal 15% less damage to you.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
+    "tip": "Aspect of Debilitating Toxins\nCodex • Rogue\nYou gain [20 - 30%] Damage Reduction, and Poisoned enemies deal 15% less damage to you.\nDexterity\nMaximum Life\nArmor\nEnergy Regeneration\nMaximum Life\nCutthroat Skill Damage\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "The Maestro": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/the_maestro.png",
@@ -18116,7 +18121,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Pants",
+    "slot": "Chest Armor",
     "tip": "Aspect of Heavenly Strength\nRogue\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "Cassia's Grace": {
@@ -18191,8 +18196,8 @@
    },
    "Asheara's Khanjar": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/asheara's_khanjar.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Dual-Wield Weapon 1",
     "tip": "Asheara's Khanjar\nMythic Unique 1h Dagger\nWeapon Damage\nMaximum Life\nCritical Strike Damage Multiplier\nDexterity\nCritical Strike Chance\nHits with this weapon increase your Attack Speed by + [6.5%] and damage by x [21.71%] for 4 seconds, up to + [19.5%] and x [65%] respectively.\nRogue\nDropped By:\nAstaroth"
    },
@@ -18286,6 +18291,41 @@
     "kind": "legendary",
     "slot": "Gloves",
     "tip": "Aspect of True Sight\nRogue\nYou deal x [120 - 200%] increased damage to enemies marked by Inner Sight. While Inner Sight is full, you gain x [60 - 100%] increased damage.\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Aspect of Contamination": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Ring 2",
+    "tip": "Aspect of Contamination\nRogue\nWhen your Poison damage Critically Strikes, you deal x [40 - 60%] increased Non-Physical damage for 9 seconds.\nShadow Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nAspect of Siphoning Strikes\n+1 Set count to \nLegacy of the Sightless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Aspect of Unstable Imbuements": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Dual-Wield Weapon 2",
+    "tip": "Aspect of Unstable Imbuements\nCodex • Rogue\nWhen casting an Imbuement Skill you trigger an explosion around yourself, applying the Imbuement effects at x [40 - 60%] increased Potency and dealing [X] damage of the same type.\nDexterity\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nLegacy of the Sightless\n: Ultimate Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Assassin's Stride": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/assassin's_stride.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Boots",
+    "tip": "Assassin's Stride\nMythic Unique Boots\nDexterity\nRanks to Shadow Imbue\nMovement Speed\nMaximum Life\nMovement Speed\nShadow Imbuement gains x [78%] increased potency and Mobility Skills are always Shadow Imbued.\n\nLucky Hit: Damaging an Elite or Boss with a Mobility Skill has up to a [78%] chance to instantly trigger a free Shadow Imbuement\nexplosion.\nRogue\nDropped By:\nAndariel"
+   },
+   "Duelist's Aspect": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "aspect",
+    "slot": "Ranged Weapon",
+    "tip": "Duelist's Aspect\nCodex • Rogue\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nDexterity\nMaximum Life\nAll Damage Multiplier\nCritical Strike Damage Multiplier\nCritical Strike Chance\nCutthroat Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Aspect of Corruption": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Ring 2",
+    "tip": "Aspect of Corruption\nCodex • Rogue\nYour Imbuement Skill effects have x [40 - 60%] increased potency.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nImbuement Potency\n+1 Set count to \nWay of the Blurring Blade\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    }
   },
   "charms": {
@@ -18294,14 +18334,14 @@
     "set": "",
     "mythic": false,
     "unique": true,
-    "tip": "Fists of Fate\nLucky Hit: Chance to Deal Cold Damage\nImbuement Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
+    "tip": "Fists of Fate\nImbuement Skills\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    "Fer of the Sightless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Sightless\nLucky Hit: Chance to Deal Fire Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "tip": "Fer of the Sightless\nMaximum Resource\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    "Cowl of the Nameless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -18315,28 +18355,28 @@
     "set": "Legacy of the Sightless",
     "mythic": false,
     "unique": false,
-    "tip": "Mlor of the Sightless\nLucky Hit: Chance to Deal Holy Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "tip": "Mlor of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    "Hellfire Torch": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Hellfire Torch\nImbuement Skills\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Legacy of the Sightless"
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Legacy of the Sightless"
    },
    "Linta of the Sightless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of the Sightless\nLucky Hit: Chance to Deal Lightning Damage\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "tip": "Linta of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    "Berú of the Sightless": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
     "set": "Legacy of the Sightless",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of the Sightless\nMaximum Resource\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "tip": "Berú of the Sightless\nImbuement Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    "Godslayer Crown": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -18353,11 +18393,11 @@
     "tip": "Phoba of the Sightless\nMaximum Resource\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    "Blood-Mad Idol": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
     "set": "",
-    "mythic": false,
-    "unique": true,
-    "tip": "Blood-Mad Idol\nMaximum Resource\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [80 - 100%] increased damage."
+    "mythic": true,
+    "unique": false,
+    "tip": "Blood-Mad Idol\nImbuement Skills\nYou are always Berserking but take x200% increased damage as Burning over 8 seconds. While Burning, Berserking grants an additional x [130%] increased damage."
    },
    "Scoundrel's Kiss": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
@@ -18399,7 +18439,7 @@
     "set": "Spellbound Steel",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
+    "tip": "Berú of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    "Mlor of Spellbound Steel": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
@@ -18413,7 +18453,7 @@
     "set": "Spellbound Steel",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 30% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
+    "tip": "Fer of Spellbound Steel\nImbuement Skills\nSpellbound Steel\nPhoba of Spellbound Steel\nFer of Spellbound Steel\nMlor of Spellbound Steel\nLinta of Spellbound Steel\nBerú of Spellbound Steel\nSpellbound Steel\n(2) Set: Lucky Hit: Imbued Skills have up to a 50% chance to activate Inner Sight. While Inner Sight is active, Imbueable Skills are Shadow Imbued by default. Imbued Skills deal x60% increased damage.\n(3) Set: Automatically drink a free Healing Potion every 4 seconds. Drinking a Healing Potion increases your Maximum Life by 40% for 8 seconds.\n(5) Set: Your Imbuements gain all of their Side Upgrades, their potency is increased by x200%, and grant +50% Lucky Hit Chance while active. While Inner Sight is active, your Imbueable Skills apply all Imbuements."
    },
    "Linta of Spellbound Steel": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/spellbound_steel.png",
@@ -18476,7 +18516,7 @@
     "set": "Nilfur'S Narrow Eye",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of the Narrow Eye\nLucky Hit: Chance to Deal Shadow Damage\nMarksman Skills\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 4 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
+    "tip": "Fer of the Narrow Eye\nMarksman Skills\nNilfur's Narrow Eye\nPhoba of the Narrow Eye\nFer of the Narrow Eye\nMlor of the Narrow Eye\nLinta of the Narrow Eye\nBerú of the Narrow Eye\nNilfur's Narrow Eye\n(2) Set: When you Cast a Marksman Basic Skill, you gain a stack of Vengeance, which grants +3% increased Movement Speed and x15% increased damage for your Marksman Skills. Vengeance stacks up to 5 times and loses 1 stack every 8 seconds.\n(3) Set: While you have Vengeance, you gain 1 Dark Shroud shadow every 2 seconds. You also gain 30% Damage Reduction whenever you have at least 1 shadow and Knockback Close enemies when you lose a shadow.\n(5) Set: While you have Vengeance, your Marksman Skills deal x200% increased damage and range, and you trigger the last Marksman Basic Skill you used 3 times whenever you Cast a Marksman Skill at a random enemy."
    },
    "Saboteur's Signet": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -18491,6 +18531,20 @@
     "mythic": false,
     "unique": true,
     "tip": "Gladiator's Triumph\nThe first direct damage you deal to an enemy is a guaranteed Critical Strike. When a Marksman Skill first Critically Strikes, it gains x [90 - 120%] increased damage, and you gain 1 Overpower. This can stack up to 4 over your Maximum Overpower."
+   },
+   "Berú of the Blurring Blade": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/way_of_the_blurring_blade.png",
+    "set": "Way of the Blurring Blade",
+    "mythic": false,
+    "unique": false,
+    "tip": "Berú of the Blurring Blade\nCutthroat Skills\nWay of the Blurring Blade\nPhoba of the Blurring Blade\nFer of the Blurring Blade\nMlor of the Blurring Blade\nLinta of the Blurring Blade\nBerú of the Blurring Blade\nWay of the Blurring Blade\n(2) Set: Cutthroat Skills deal x60% increased damage. Stabbing an enemy in the back with a Cutthroat Skill deals x10% increased Critical Strike Damage.\n(3) Set: Casting an Agility Skill grants you 30% Damage Reduction for 8 seconds and Slows Nearby enemy Small Missiles by 80% for 4 seconds.\n(5) Set: After stabbing an enemy in the back or Critically Striking an enemy, your senses heighten, allowing all your hits to count as backstabs and granting x40% increased Cast Speed and x250% increased damage for 4 seconds. Cutthroat Skill backstabs have a 10% chance to make your next Agility Skill free to Cast, up to a maximum of 3."
+   },
+   "Fer of the Blurring Blade": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/way_of_the_blurring_blade.png",
+    "set": "Way of the Blurring Blade",
+    "mythic": false,
+    "unique": false,
+    "tip": "Fer of the Blurring Blade\nCutthroat Skills\nWay of the Blurring Blade\nPhoba of the Blurring Blade\nFer of the Blurring Blade\nMlor of the Blurring Blade\nLinta of the Blurring Blade\nBerú of the Blurring Blade\nWay of the Blurring Blade\n(2) Set: Cutthroat Skills deal x60% increased damage. Stabbing an enemy in the back with a Cutthroat Skill deals x10% increased Critical Strike Damage.\n(3) Set: Casting an Agility Skill grants you 30% Damage Reduction for 8 seconds and Slows Nearby enemy Small Missiles by 80% for 4 seconds.\n(5) Set: After stabbing an enemy in the back or Critically Striking an enemy, your senses heighten, allowing all your hits to count as backstabs and granting x40% increased Cast Speed and x250% increased damage for 4 seconds. Cutthroat Skill backstabs have a 10% chance to make your next Agility Skill free to Cast, up to a maximum of 3."
    }
   },
   "seals": {
@@ -18500,7 +18554,11 @@
    },
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-    "tip": "Legendary Seal\n+1 Charm Slot"
+    "tip": "Legendary Seal\nDamage\n+1 Charm Slot"
+   },
+   "Mythic Seal": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
+    "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
    }
   },
   "runes": {
@@ -18583,6 +18641,14 @@
    "Ceh": {
     "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
     "tip": "Ceh\nMagic Rune of Invocation\nRequires: 100 Offering (Overflow: Summon Multiple Wolves)\nCooldown: 1 seconds\nSummon a Spirit Wolf to attack enemies for 8 seconds."
+   },
+   "Yax": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "tip": "Yax\nMagic Rune of Ritual\nGain: 200 Offering\nDrink a Healing Potion."
+   },
+   "Jah": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+    "tip": "Jah\nLegendary Rune of Invocation\nRequires: 250 Offering (Overflow: Store Excess Offering)\nCooldown: 2 seconds\nReplace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
    }
   },
   "gems": {
@@ -18618,6 +18684,12 @@
    },
    "Amethyst": {
     "art": "https://sunderarmor.com/DIABLO4/Gems/grand-amethyst.png"
+   },
+   "Ruby": {
+    "art": "https://sunderarmor.com/DIABLO4/Gems/grand-ruby.png"
+   },
+   "Topaz": {
+    "art": "https://sunderarmor.com/DIABLO4/Gems/grand-topaz.png"
    }
   }
  }

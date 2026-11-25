@@ -16002,14 +16002,14 @@
  "glyphs": {
   "Menagerist": "Rare Glyph\nMenagerist (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nDealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease Incarnate skill damage by x [15.4%].",
   "Canny": "Rare Glyph\nMenagerist (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nDealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease Incarnate skill damage by x [15.4%].",
-  "Bane": "Rare Glyph\nColossal (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased damage with Gorilla Skills.\nAdditional Bonus:\nYou deal x2% increased damage for each stack of Resolve you have.\nRequirements (within radius):\n25 / 25 Strength\nLegendary Bonus:\nYou deal x [18%] increased damage to Close enemies.",
-  "Colossal": "Rare Glyph\nColossal (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased damage with Gorilla Skills.\nAdditional Bonus:\nYou deal x2% increased damage for each stack of Resolve you have.\nRequirements (within radius):\n25 / 25 Strength\nLegendary Bonus:\nYou deal x [18%] increased damage to Close enemies.",
+  "Bane": "Rare Glyph\nBane (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased Poison damage.\nAdditional Bonus:\nPoisoning damage effects have a 15% chance to deal double the amount of damage over their duration.\nRequirements (within radius):\n29 / 25 Strength\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
+  "Colossal": "Rare Glyph\nCanny (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [24.1%] increased Non-physical damage.\nAdditional Bonus:\nNon-Physical damage increases all the Non-Physical damage an enemy takes from you by x1%, up to x15%, for 15 seconds.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease Non-Physical damage by x [15.4%].",
   "Consumption": "Rare Glyph\nConsumption (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, your Pestilence Swarms deal + [49.2%] increased damage.\nAdditional Bonus:\nYou deal x2% increased damage for each active Pestilent Swarm and Touch of Death swarm.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
   "Fester": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
-  "Spirit": "Rare Glyph\nSpirit (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [32.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase the damage an enemy takes from you by x3% for 20 seconds, up to x12%.\nRequirements (within radius):\n40 / 40 Dexterity\nLegendary Bonus:\nIncrease damage to Elites by x [20%].",
-  "Fulminate": "Rare Glyph\nMenagerist (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nDealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease Incarnate skill damage by x [15.4%].",
-  "Talon": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
-  "Ritual": "Rare Glyph\nBane (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased Poison damage.\nAdditional Bonus:\nPoisoning damage effects have a 15% chance to deal double the amount of damage over their duration.\nRequirements (within radius):\n29 / 25 Strength\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
+  "Spirit": "Rare Glyph\nConsumption (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, your Pestilence Swarms deal + [49.2%] increased damage.\nAdditional Bonus:\nYou deal x2% increased damage for each active Pestilent Swarm and Touch of Death swarm.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
+  "Fulminate": "Rare Glyph\nBane (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased Poison damage.\nAdditional Bonus:\nPoisoning damage effects have a 15% chance to deal double the amount of damage over their duration.\nRequirements (within radius):\n29 / 25 Strength\nLegendary Bonus:\nIncrease Poison damage by x [15.4%].",
+  "Talon": "Rare Glyph\nColossal (Lvl 150)\nBonus:\nFor every 5 Strength purchased within range, you deal + [24.1%] increased damage with Gorilla Skills.\nAdditional Bonus:\nYou deal x2% increased damage for each stack of Resolve you have.\nRequirements (within radius):\n25 / 25 Strength\nLegendary Bonus:\nYou deal x [18%] increased damage to Close enemies.",
+  "Ritual": "Rare Glyph\nSpirit (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [32.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase the damage an enemy takes from you by x3% for 20 seconds, up to x12%.\nRequirements (within radius):\n40 / 40 Dexterity\nLegendary Bonus:\nIncrease damage to Elites by x [20%].",
   "Jagged Plume": "Rare Glyph\nJagged Plume (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you gain [24.1%] Spirit Feather potency.\nAdditional Bonus:\nSpawning a Storm Feather grants you x3% increased damage and 2% increased Movement Speed for 5 seconds, stacking up to 10 times.\nRequirements (within radius):\n122 / 40 Dexterity\nLegendary Bonus:\nIncrease Eagle damage by x [15.4%].",
   "Outmatch": "Rare Glyph\nMenagerist (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Magic nodes within range.\nAdditional Bonus:\nDealing damage with your Gorilla, Jaguar, Eagle, or Centipede Skills increases all damage you deal by x4% for 10 seconds, stacking once per Spirit.\nRequirements (within radius):\n50 / 40 Dexterity\nLegendary Bonus:\nIncrease Incarnate skill damage by x [15.4%].",
   "Headhunter": "Rare Glyph\nFester (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased damage with Centipede Skills.\nAdditional Bonus:\nYour Centipede Skills deal x15% increased damage to Crowd Controlled enemies.\nRequirements (within radius):\n35 / 40 Dexterity\nLegendary Bonus:\nIncrease Poison damage by x [15.4%]."
@@ -16242,7 +16242,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Weapon",
     "tip": "Aspect of Plains Power\nSpiritborn\nLucky Hit: Up to a +25% chance to create a Mystic Circle for 10 seconds.\n\nCasting a Jaguar Skill in Mystic Circles empowers them to refresh Ferocity's duration and increase your damage by x [8 - 12%] per stack while you remain within.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nDexterity\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of Kinetic Suppression": {
@@ -16263,7 +16263,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Amulet",
+    "slot": "Ring 1",
     "tip": "Ferocious Aspect\nCodex • Spiritborn\nYour Maximum Ferocity stacks are increased by [4 - 6].\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nMaximum Resource\nMaximum Resolve Stacks\nAspect of Interdiction\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Aspect of the Moonrise": {
@@ -16282,17 +16282,17 @@
    },
    "Loyalty's Mantle": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/loyalty's_mantle.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Helm",
-    "tip": "Loyalty's Mantle\nUnique Helm\nDexterity\nMaximum Life\nArmor\nResistance to All Elements\nMaximum Resolve Stacks\nWhile your Spirit Hall choices match: \n- Their bonuses are 100% more potent.\n- Skills of their Base Spirit gain [50 - 60%] Vigor Cost Reduction.\n- Skills of their Base Spirit gain [50 - 60%] Cooldown Reduction.\nSpiritborn\nDropped By:\nBartuc"
+    "tip": "Loyalty's Mantle\nMythic Unique Helm\nDexterity\nMaximum Life\nCooldown Reduction\nResistance to All Elements\nMaximum Life\nWhile your Spirit Hall choices match:\n- Their bonuses are 100% more potent. \n- Skills of their Base Spirit gain [78%]. \n- Vigor Cost Reduction and Cooldown Reduction. \n- Skills of their Base Spirit deal x [78%] increased damage.\nSpiritborn\nDropped By:\nBartuc"
    },
    "Aspect of Fleet Wings": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
-    "tip": "Aspect of Fleet Wings\nSpiritborn\nYour Eagle Skill damage is increased by x [25 - 35%] of your Movement Speed.\nAttack Speed\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "slot": "Amulet",
+    "tip": "Aspect of Fleet Wings\nSpiritborn\nYour Eagle Skill damage is increased by x [25 - 35%] of your Movement Speed.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nLightning Damage Multiplier\nCritical Strike Damage\nAspect of Apprehension\n+1 Set count to \nKwatli's Grace\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Temerity": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/temerity.png",
@@ -16356,6 +16356,20 @@
     "kind": "mythic",
     "slot": "Weapon",
     "tip": "Sepazontec\nYour Basic Skills deal x [70 - 90%] increased damage and always use their 3rd attack.\n\nEvery 3rd cast of a Basic Skill strikes three times."
+   },
+   "Jacinth Shell": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/jacinth_shell.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Chest Armor",
+    "tip": "Jacinth Shell\nMythic Unique Chest Armor\nDexterity\nVigor per Second\nMaximum Life\nArmor\nMaximum Life\nEach of your active Cooldowns grants x [9.1%] Damage Reduction, and each second, they drain 10% of your Maximum Vigor from you to reduce their durations by 1.5 seconds.\nSpiritborn\nDropped By:\nAndariel"
+   },
+   "Aspect of Falling Feathers": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/utility.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Boots",
+    "tip": "Aspect of Falling Feathers\nSpiritborn\nMoving with a Mobility Skill or Evade spawns Storm Feathers behind you.\n\nStorm Feathers now drop from the sky as they are spawned, each dealing [X - X] Lightning damage on impact.\nDexterity\nMaximum Life\nMovement Speed\nAttacks Reduce Evade's Cooldown\nMovement Speed\nMaximum Ferocity\nHelm, Chest, Gloves, Boots, Shield, Amulet (+50%)"
    }
   },
   "charms": {
@@ -16392,7 +16406,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Balazan's Bite"
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Kwatli's Grace"
    },
    "Mlor of Balazan's Bite": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/balazan's_bite.png",
@@ -16462,7 +16476,7 @@
     "set": "Rezoka'S Rage",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Rezoka's Rage\nEagle Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "tip": "Berú of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    "Rod of Kepeleke": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -16490,7 +16504,7 @@
     "set": "Rezoka'S Rage",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Rezoka's Rage\nEagle Skills\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
+    "tip": "Linta of Rezoka's Rage\nRezoka's Rage\nPhoba of Rezoka's Rage\nFer of Rezoka's Rage\nMlor of Rezoka's Rage\nLinta of Rezoka's Rage\nBerú of Rezoka's Rage\nRezoka's Rage\n(2) Set: Dealing direct damage to enemies 65 times grants Prowess for 5 seconds, stacking up to 5 times, but does not refresh at 5 stacks. Jaguar Skills gain +5% Cast Speed and x10% Critical Strike Damage per stack.\n(3) Set: Gain 5% Dodge Chance and 5% Damage Reduction per stack of Prowess.\n(5) Set: Prowess now lasts 8 seconds and its bonuses are increased by 25%. While you have 5 stacks of Prowess, your Ferocity is overfilled by 2 and your Jaguar Skills deal x25% increased damage per Ferocity you have. Prowess can no be refreshed."
    },
    "Mlor of Rezoka's Rage": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/rezoka's_rage.png",
@@ -16511,7 +16525,7 @@
     "set": "Kwatli'S Grace",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+    "tip": "Fer of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x225% increased damage while moving and for 1.5 seconds after."
    },
    "Wushe Nak Pa": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -16525,7 +16539,7 @@
     "set": "Kwatli'S Grace",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x200% increased damage while moving and for 1.5 seconds after."
+    "tip": "Linta of Kwatli's Grace\nKwatli's Grace\nPhoba of Kwatli's Grace\nFer of Kwatli's Grace\nMlor of Kwatli's Grace\nLinta of Kwatli's Grace\nBerú of Kwatli's Grace\nKwatli's Grace\n(2) Set: Moving 15 meters increases your Eagle Skill damage by x50% for 8 seconds and reduces your Eagle Skills' active Cooldowns by 2 seconds.\n(3) Set: Gain 30% Damage Reduction while moving and for 1.5 seconds after.\n(5) Set: Gain 35% Movement Speed. Your Eagle Skills deal x225% increased damage while moving and for 1.5 seconds after."
    },
    "Phoba of Kwatli's Grace": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/kwatli's_grace.png",
@@ -16547,6 +16561,13 @@
     "mythic": false,
     "unique": true,
     "tip": "Sunstained War-Crozier\nYour base Focus Skills benefit from all their Upgrades, and they increase the damage of your Potency Skills by x [20 - 25%] for 8 seconds, up to [100 - 125%]."
+   },
+   "Sunbird's Gorget": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "Sunbird's Gorget\nPicking up a Storm Feather forms a firestorm around you for 12 seconds dealing [X] Fire damage every 0.5 seconds.\n\nEvery 5 additional Storm Feathers you pick up intensifies the firestorm, increasing its damage by x100% but not refreshing its duration. Storm Feathers are now Jaguar Skills and the firestorm is an Eagle, Jaguar, and Storm Feather Skill."
    }
   },
   "seals": {
@@ -16603,6 +16624,10 @@
    "Tzic": {
     "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
     "tip": "Tzic\nMagic Rune of Invocation\nRequires: 200 Offering (Overflow: Increase damage by 1% per Offering)\nCooldown: 1 seconds\nInvoke the Spiritborn's Concussive Stomp, dealing damage and Knocking Down enemies."
+   },
+   "Ohm": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
+    "tip": "Ohm\nLegendary Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 2 seconds\nInvoke the Barbarian's War Cry, increasing your damage dealt by x7.5% for 6 seconds."
    }
   },
   "gems": {
