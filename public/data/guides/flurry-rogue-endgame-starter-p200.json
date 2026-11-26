@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/flurry-rogue-endgame/?var=2",
  "updated": "November 25, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "tier": "S",
  "short": "Flurry Dance of Knives",
  "slots": {
@@ -563,7 +563,7 @@
    "glyph": "Tracker",
    "x": 0,
    "y": -1,
-   "rotate": 270,
+   "rotate": 90,
    "on": [
     "2,11",
     "3,11",

@@ -5,9 +5,9 @@
  "build": "Frenzy Barb",
  "variant": "Life Stacker No Runewords",
  "url": "https://d4builds.gg/builds/frenzy-barbarian-endgame/?var=0",
- "updated": "November 7, 2026",
+ "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "tier": "A",
  "short": "Frenzy",
  "slots": {
@@ -59,14 +59,15 @@
    },
    "affixes": [
     "strength",
-    "life"
+    "life",
+    "damageReduction"
    ],
    "affixNames": [
     "Strength",
     "Fury Regeneration",
     "Maximum Life",
     "Maximum Resource",
-    "Horadric Affix"
+    "Berserker's Crucible: Damage Reduction While Berserking"
    ],
    "tempers": [
     [
@@ -128,14 +129,15 @@
    "affixes": [
     "strength",
     "life",
-    "resAll"
+    "resAll",
+    "damageReduction"
    ],
    "affixNames": [
     "Strength",
     "Maximum Life",
     "Flay",
     "Resistance To All Elements",
-    "Horadric Affix"
+    "Berserker's Crucible: Damage Reduction While Berserking"
    ],
    "tempers": [
     [
@@ -240,7 +242,7 @@
     "Weapon Damage",
     "Maximum Life",
     "Critical Strike Damage Multiplier",
-    "Horadric Affix"
+    "Sescheron's Fury: Damage"
    ],
    "tempers": [
     [
@@ -384,7 +386,7 @@
     "Critical Strike Damage Multiplier",
     "Maximum Life",
     "Physical Damage",
-    "Horadric Affix"
+    "Sescheron's Fury: Damage"
    ],
    "tempers": [
     [

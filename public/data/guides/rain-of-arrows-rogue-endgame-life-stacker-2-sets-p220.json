@@ -5,9 +5,9 @@
  "build": "Rain of Arrows RoA Rogue",
  "variant": "Life Stacker 2 Sets (P220)",
  "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/?var=0",
- "updated": "November 25, 2026",
+ "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "tier": "S",
  "short": "Rain of Arrows",
  "slots": {
@@ -300,11 +300,11 @@
   "ring2": {
    "name": "Ring 2",
    "item": {
-    "name": "Aspect of Contamination",
+    "name": "Aspect of the Expectant",
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Contamination\nRogue\nWhen your Poison damage Critically Strikes, you deal x [40 - 60%] increased Non-Physical damage for 9 seconds.\nShadow Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nAspect of Siphoning Strikes\n+1 Set count to \nLegacy of the Sightless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "affixes": [
     "resourceGen",
@@ -372,11 +372,11 @@
   "dual-wield-weapon-2": {
    "name": "Dual-Wield Weapon 2",
    "item": {
-    "name": "Aspect of Unstable Imbuements",
+    "name": "Aspect of Imitated Imbuement",
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Unstable Imbuements\nCodex • Rogue\nWhen casting an Imbuement Skill you trigger an explosion around yourself, applying the Imbuement effects at x [40 - 60%] increased Potency and dealing [X] damage of the same type.\nDexterity\nMaximum Life\nCritical Strike Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nLegacy of the Sightless\n: Ultimate Skill Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "dexterity",

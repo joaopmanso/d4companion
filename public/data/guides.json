@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:12:01.188Z",
+ "updated": "2026-11-26T16:50:52.962Z",
  "classes": [
   {
    "name": "Barbarian",
@@ -341,6 +341,18 @@
    "updated": "November 24, 2026"
   },
   {
+   "id": "flay-barbarian-endgame-mythic-p250",
+   "site": "d4builds",
+   "className": "Barbarian",
+   "build": "Flay Barb",
+   "short": "Flay",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/flay.png",
+   "variant": "Mythic (P250)",
+   "url": "https://d4builds.gg/builds/flay-barbarian-endgame/?var=0",
+   "updated": "November 26, 2026"
+  },
+  {
    "id": "whirlwind-barbarian-endgame-immortal-dps-pit-tower-150",
    "site": "d4builds",
    "className": "Barbarian",
@@ -422,7 +434,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/frenzy.png",
    "variant": "Life Stacker No Runewords",
    "url": "https://d4builds.gg/builds/frenzy-barbarian-endgame/?var=0",
-   "updated": "November 7, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "hota-barbarian-endgame-base",
@@ -494,7 +506,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/whirlwind.png",
    "variant": "Immortal Speed 130",
    "url": "https://d4builds.gg/builds/whirlwind-barbarian-endgame/?var=2",
-   "updated": "November 1, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "whirlwind-barbarian-endgame-life-stacker-p230-ptr-147",
@@ -506,7 +518,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/whirlwind.png",
    "variant": "LIFE Stacker (P230) PTR 147",
    "url": "https://d4builds.gg/builds/whirlwind-barbarian-endgame/?var=1",
-   "updated": "November 1, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "whirlwind-barbarian-endgame-starter-no-mythic-p200",
@@ -518,7 +530,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/whirlwind.png",
    "variant": "Starter No Mythic (P200)",
    "url": "https://d4builds.gg/builds/whirlwind-barbarian-endgame/?var=0",
-   "updated": "November 1, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "ancients-barbarian-endgame-standard-build",
@@ -866,7 +878,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/advance.png",
    "variant": "Base Mythic",
    "url": "https://d4builds.gg/builds/advance-paladin-endgame/?var=0",
-   "updated": "November 20, 2026"
+   "updated": "November 25, 2026"
   },
   {
    "id": "divine-lance-paladin-endgame-standard-build",
@@ -884,13 +896,13 @@
    "id": "divine-lance-paladin-endgame-x2-5-piece",
    "site": "d4builds",
    "className": "Paladin",
-   "build": "Drilladin",
+   "build": "Drilladin Divine Lance Pala",
    "short": "Divine Lance",
    "tier": "A",
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/divine_lance_zealous_joust.png",
    "variant": "x2 5-Piece",
    "url": "https://d4builds.gg/builds/divine-lance-paladin-endgame/?var=0",
-   "updated": "November 6, 2026"
+   "updated": "November 25, 2026"
   },
   {
    "id": "5814d1f6-320d-4963-a3de-3a4e90df40f6-arbiter-evade",
@@ -926,7 +938,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zeal.png",
    "variant": "Unqiue Charms Argent Veil",
    "url": "https://d4builds.gg/builds/zeal-paladin-endgame/?var=0",
-   "updated": "November 24, 2026"
+   "updated": "November 25, 2026"
   },
   {
    "id": "zeal-paladin-endgame-x2-5-piece-set",
@@ -938,7 +950,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/zeal.png",
    "variant": "x2 5-Piece Set",
    "url": "https://d4builds.gg/builds/zeal-paladin-endgame/?var=1",
-   "updated": "November 24, 2026"
+   "updated": "November 25, 2026"
   },
   {
    "id": "arbiter-wing-strike-paladin-endgame-starter-p200",
@@ -1250,7 +1262,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
    "variant": "Immortal Rogue (3 Unique Charms)",
    "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/?var=1",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "rain-of-arrows-rogue-endgame-life-stacker-2-sets-p220",
@@ -1262,7 +1274,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
    "variant": "Life Stacker 2 Sets (P220)",
    "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/?var=0",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "rain-of-arrows-rogue-endgame-speed-farm-perma-step",
@@ -1274,7 +1286,19 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
    "variant": "Speed Farm Perma Step",
    "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/?var=2",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
+  },
+  {
+   "id": "rain-of-arrows-rogue-endgame-starter-p200",
+   "site": "d4builds",
+   "className": "Rogue",
+   "build": "Rain of Arrows RoA Rogue",
+   "short": "Rain of Arrows",
+   "tier": "S",
+   "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/rain_of_arrows.png",
+   "variant": "Starter (P200)",
+   "url": "https://d4builds.gg/builds/rain-of-arrows-rogue-endgame/?var=3",
+   "updated": "November 26, 2026"
   },
   {
    "id": "dance-of-knives-rogue-endgame-standard-build",
@@ -1298,7 +1322,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
    "variant": "Flurry",
    "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=1",
-   "updated": "November 24, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "dance-of-knives-rogue-endgame-lucion-dps",
@@ -1310,7 +1334,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
    "variant": "Lucion DPS",
    "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=2",
-   "updated": "November 24, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "dance-of-knives-rogue-endgame-ultra-speed",
@@ -1322,7 +1346,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dance_of_knives.png",
    "variant": "Ultra Speed",
    "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=0",
-   "updated": "November 24, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "twisting-blades-rogue-endgame-standard-build",
@@ -1586,7 +1610,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/the_seeker_tag_team.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/evade-spiritborn-endgame/?var=0",
-   "updated": "November 5, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "pestilent-swarm-spiritborn-endgame-standard-build",
@@ -1754,7 +1778,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
    "variant": "Molten Bomb (ultra Endgame)",
    "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=1",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "dread-claws-warlock-endgame-starter-p200",
@@ -1766,7 +1790,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
    "variant": "Starter (P200)",
    "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=2",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "dread-claws-warlock-endgame-x2-5-piece-p240",
@@ -1778,7 +1802,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/dread_claws.png",
    "variant": "x2 5-Piece (P240)",
    "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=0",
-   "updated": "November 25, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "75ab2cff-f838-42a1-a294-1543145ea43a-mythic",
@@ -1814,7 +1838,7 @@
    "icon": "https://sunderarmor.com/DIABLO4/Skills/VoH2/apocalypse.png",
    "variant": "Standard Build",
    "url": "https://d4builds.gg/builds/apocalypse-warlock-endgame/?var=0",
-   "updated": "November 3, 2026"
+   "updated": "November 26, 2026"
   },
   {
    "id": "command-fallen-warlock-endgame-standard-build",

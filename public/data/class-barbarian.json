@@ -17710,8 +17710,8 @@
    },
    "Gohr's Devastating Grips": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/gohr's_devastating_grips.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Gloves",
     "tip": "Gohr's Devastating Grips\nUnique Gloves\nCritical Strike Chance\nRanks to Whirlwind\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nWhirlwind deals x [75 - 90%] increased damage and pulls enemies to you every 2 seconds.\nBarbarian\nDropped By:\nGrigoire"
    },
@@ -17733,7 +17733,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Bludgeoning Weapon",
+    "slot": "Dual-Wield Weapon 1",
     "tip": "Aspect of Channeling\nCodex • Barbarian\nWhile channeling a Skill, all damage is increased by x [50 - 70%].\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Heavy Hitting Aspect": {

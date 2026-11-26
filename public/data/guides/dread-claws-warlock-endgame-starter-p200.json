@@ -5,9 +5,9 @@
  "build": "Dread Claws Warlock",
  "variant": "Starter (P200)",
  "url": "https://d4builds.gg/builds/dread-claws-warlock-endgame/?var=2",
- "updated": "November 25, 2026",
+ "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-26",
  "tier": "S",
  "short": "Dread Claws",
  "slots": {
@@ -282,7 +282,7 @@
     "Critical Strike Damage Multiplier",
     "Critical Strike Chance",
     "Cooldown Reduction",
-    "+1 Set Count To Rite Of The Nameless"
+    "+1 Set Count To Shadow Of Harash"
    ],
    "tempers": [
     [
