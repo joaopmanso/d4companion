@@ -4,10 +4,10 @@
  "className": "Rogue",
  "build": "Shadow DoK Spin2Win Rogue",
  "variant": "Lucion DPS",
- "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=2",
+ "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=1",
  "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-26",
+ "checked": "2026-11-27",
  "tier": "A",
  "short": "Shadow Dance of Knives",
  "slots": {
@@ -219,11 +219,11 @@
   "amulet": {
    "name": "Amulet",
    "item": {
-    "name": "Aspect of Contamination",
+    "name": "Aspect of Imitated Imbuement",
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Contamination\nRogue\nWhen your Poison damage Critically Strikes, you deal x [40 - 60%] increased Non-Physical damage for 9 seconds.\nShadow Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nAspect of Siphoning Strikes\n+1 Set count to \nLegacy of the Sightless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critChance",
@@ -250,11 +250,11 @@
   "ring1": {
    "name": "Ring 1",
    "item": {
-    "name": "Aspect of Imitated Imbuement",
-    "kind": "legendary",
+    "name": "Breakneck Bandit's Aspect",
+    "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Breakneck Bandit's Aspect\nCodex • Rogue\nLucky Hit: Cutthroat Skills have up to a 50% chance to Execute enemies.\n\nCutthroat Skills deal x [40 - 55%] increased damage.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nImbuement Potency\n+1 Set count to \nWay of the Blurring Blade\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critChance",
@@ -421,12 +421,12 @@
     "tip": "Fer of the Sightless\nCutthroat Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
-    "name": "Linta of the Sightless",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
-    "set": "Legacy of the Sightless",
-    "mythic": false,
-    "affix": "Cutthroat Skills",
-    "tip": "Linta of the Sightless\nCutthroat Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Legacy of the Sightless"
    },
    {
     "name": "Berú of the Sightless",

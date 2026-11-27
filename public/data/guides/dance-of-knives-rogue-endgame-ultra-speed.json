@@ -7,7 +7,7 @@
  "url": "https://d4builds.gg/builds/dance-of-knives-rogue-endgame/?var=0",
  "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-26",
+ "checked": "2026-11-27",
  "tier": "A",
  "short": "Shadow Dance of Knives",
  "slots": {
@@ -142,11 +142,11 @@
    "aspects": [],
    "sockets": [
     "Bac",
-    "Jah"
+    "Mot"
    ],
    "socketArt": {
     "Bac": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-    "Jah": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "boots": {
@@ -221,11 +221,11 @@
   "amulet": {
    "name": "Amulet",
    "item": {
-    "name": "Aspect of Contamination",
+    "name": "Aspect of Imitated Imbuement",
     "kind": "legendary",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Contamination\nRogue\nWhen your Poison damage Critically Strikes, you deal x [40 - 60%] increased Non-Physical damage for 9 seconds.\nShadow Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nImbuement Potency\nAspect of Siphoning Strikes\n+1 Set count to \nLegacy of the Sightless\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critChance",
@@ -252,11 +252,11 @@
   "ring1": {
    "name": "Ring 1",
    "item": {
-    "name": "Aspect of Imitated Imbuement",
-    "kind": "legendary",
+    "name": "Breakneck Bandit's Aspect",
+    "kind": "aspect",
     "rarity": "legendary",
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
-    "tip": "Aspect of Imitated Imbuement\nRogue\nYour Shadow Clones and Shades also mimic the Imbuements applied to your Skills.\n\nCasting an Imbuement Skill increases your Non-physical damage by x [40 - 60%] for 9 seconds.\nDexterity\nMaximum Life\nDamage Over Time Multiplier\nAll Damage Multiplier\nImbuement Potency\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+    "tip": "Breakneck Bandit's Aspect\nCodex • Rogue\nLucky Hit: Cutthroat Skills have up to a 50% chance to Execute enemies.\n\nCutthroat Skills deal x [40 - 55%] increased damage.\nCritical Strike Chance\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\nImbuement Potency\n+1 Set count to \nWay of the Blurring Blade\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
     "critChance",
@@ -391,9 +391,9 @@
    "tip": "Bac\nLegendary Rune of Ritual\nGain: 50 Offering\nTravel 5 meters."
   },
   {
-   "name": "Jah",
+   "name": "Mot",
    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
-   "tip": "Jah\nLegendary Rune of Invocation\nRequires: 250 Offering (Overflow: Store Excess Offering)\nCooldown: 2 seconds\nReplace your next Evade with the Sorcerer's Teleport, blinking further, dealing damage, and becoming Unstoppable."
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
   },
   {
    "name": "Igni",
@@ -423,12 +423,12 @@
     "tip": "Fer of the Sightless\nCutthroat Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
    },
    {
-    "name": "Linta of the Sightless",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/legacy_of_the_sightless.png",
-    "set": "Legacy of the Sightless",
-    "mythic": false,
-    "affix": "Cutthroat Skills",
-    "tip": "Linta of the Sightless\nCutthroat Skills\nLegacy of the Sightless\nPhoba of the Sightless\nFer of the Sightless\nMlor of the Sightless\nLinta of the Sightless\nBerú of the Sightless\nLegacy of the Sightless\n(2) Set: Entering Stealth reduces any of your Ultimate Skills' active Cooldowns by 6 seconds and breaking Stealth grants x60% increased damage for 6 seconds.\n(3) Set: Using an Ultimate Skill resets Concealment's Cooldown. Concealment gains all of its Side Upgrades and also grants 60% Damage Reduction while active and then 30% for 6 seconds after.\n(5) Set: Gain a permanent Shadow Clone, which can now also Cast Death Trap and Rain of Arrows. Breaking Stealth now grants an additional x250% increased damage."
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Legacy of the Sightless"
    },
    {
     "name": "Berú of the Sightless",
@@ -562,12 +562,10 @@
     "11,9",
     "11,10",
     "11,13",
-    "12,8",
     "12,9",
     "12,10",
     "12,12",
     "12,13",
-    "13,9",
     "13,13",
     "14,11",
     "14,12",
@@ -586,9 +584,7 @@
     "4,11",
     "5,11",
     "5,12",
-    "5,13",
     "6,12",
-    "6,13",
     "7,5",
     "7,6",
     "7,7",
@@ -702,23 +698,15 @@
     "6,18",
     "6,19",
     "6,20",
-    "7,7",
     "7,13",
     "7,17",
     "7,19",
     "7,20",
-    "8,5",
-    "8,6",
-    "8,7",
     "8,13",
     "8,17",
-    "9,6",
-    "9,7",
     "9,12",
     "9,13",
     "9,17",
-    "10,7",
-    "10,8",
     "10,9",
     "10,10",
     "10,11",
@@ -746,16 +734,7 @@
     "15,14",
     "16,6",
     "16,13",
-    "16,14",
-    "17,4",
-    "17,5",
-    "17,6",
-    "18,3",
-    "18,4",
-    "19,2",
-    "19,3",
-    "19,4",
-    "20,3"
+    "16,14"
    ]
   },
   {
@@ -893,7 +872,6 @@
     "15,7",
     "15,8",
     "15,11",
-    "15,14",
     "16,7",
     "16,8",
     "16,9",
@@ -902,7 +880,6 @@
     "16,12",
     "16,13",
     "16,14",
-    "16,15",
     "17,7",
     "17,8"
    ]

@@ -2,12 +2,12 @@
  "id": "auradin-paladin-endgame-mythic-p230",
  "site": "d4builds",
  "className": "Paladin",
- "build": "Auradin",
+ "build": "Auradin Paladin",
  "variant": "Mythic (P230)",
  "url": "https://d4builds.gg/builds/auradin-paladin-endgame/?var=0",
- "updated": "November 24, 2026",
+ "updated": "November 27, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-27",
  "tier": "B",
  "short": "Auradin",
  "slots": {
@@ -50,20 +50,19 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "tip": "Aspect of Glynn's Anvil\nPaladin\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nStrength\nMaximum Life\nFaith Regeneration\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
-   "affixes": [],
+   "affixes": [
+    "strength",
+    "life",
+    "armor"
+   ],
    "affixNames": [
-    "Stat 1",
-    "Stat 2",
-    "Stat 3",
-    "Stat 4",
+    "Strength",
+    "Faith Regeneration",
+    "Maximum Life",
+    "Armor",
     "Horadric Affix"
    ],
-   "tempers": [
-    [
-     "life",
-     "Worldly Endurance (Defensive)"
-    ]
-   ],
+   "tempers": [],
    "aspects": [],
    "sockets": [
     "Cem",
@@ -144,21 +143,16 @@
    "affixes": [
     "strength",
     "life",
-    "evadeCharges"
+    "movementSpeed"
    ],
    "affixNames": [
     "Strength",
     "Maximum Life",
-    "Maximum Evade Charge",
+    "Movement Speed",
     "Faith Regeneration",
     "Horadric Affix"
    ],
-   "tempers": [
-    [
-     "evadeCdr",
-     "Natural Motion (Mobility)"
-    ]
-   ],
+   "tempers": [],
    "aspects": [],
    "sockets": [],
    "socketArt": {}
@@ -174,14 +168,15 @@
    },
    "affixes": [
     "weaponDamage",
-    "luckyHit",
-    "critDamage"
+    "strength",
+    "critDamage",
+    "life"
    ],
    "affixNames": [
     "Weapon Damage",
-    "Lucky Hit Chance",
+    "Strength",
     "Critical Strike Damage Multiplier",
-    "All Damage Multipler",
+    "Maximum Life",
     "Horadric Affix"
    ],
    "tempers": [
@@ -244,15 +239,17 @@
     "tip": "Duelist's Aspect\nCodex • Paladin\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nCathan's Righteous Will\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "affixes": [
+    "strength",
+    "critChance",
     "critDamage",
     "vulnDamage"
    ],
    "affixNames": [
-    "Stat 1",
-    "Stat 2",
+    "Strength",
+    "Critical Strike Chance",
     "Critical Strike Damage Multiplier",
     "Vulnerable Damage Multiplier",
-    "+1 Set Count To Cathan's Righteous Will"
+    "+1 Set Count To Cathan's Iron Conviction"
    ],
    "tempers": [
     [
@@ -278,15 +275,17 @@
     "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
    },
    "affixes": [
+    "critChance",
+    "strength",
     "vulnDamage",
     "critDamage"
    ],
    "affixNames": [
-    "Stat 1",
-    "Stat 2",
+    "Critical Strike Chance",
+    "Strength",
     "Vulnerable Damage Multiplier",
     "Critical Strike Damage Multiplier",
-    "+1 Set Count To Cathan's Righteous Will"
+    "+1 Set Count To Cathan's Iron Conviction"
    ],
    "tempers": [
     [
@@ -379,12 +378,12 @@
     "tip": "Fer of Radiant Fire\nAura Skills\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    {
-    "name": "Linta of Radiant Fire",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
-    "set": "Heaven'S Radiant Fire",
-    "mythic": false,
-    "affix": "Aura Skills",
-    "tip": "Linta of Radiant Fire\nAura Skills\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
+    "name": "Hellfire Torch",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "affix": "20% All Stats",
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Heaven's Radiant Fire"
    },
    {
     "name": "Berú of Radiant Fire",
@@ -403,20 +402,20 @@
     "tip": "Fists of Fate\nAura Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
    },
    {
-    "name": "Berú of Righteous Will",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
-    "set": "Cathan'S Righteous Will",
+    "name": "Berú of Iron Conviction",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
+    "set": "Cathan'S Iron Conviction",
     "mythic": false,
     "affix": "Aura Skills",
-    "tip": "Berú of Righteous Will\nAura Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
+    "tip": "Berú of Iron Conviction\nAura Skills\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 40% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: You deal x80% increased damage and gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    {
-    "name": "Fer of Righteous Will",
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
-    "set": "Cathan'S Righteous Will",
+    "name": "Fer of Iron Conviction",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_iron_conviction.png",
+    "set": "Cathan'S Iron Conviction",
     "mythic": false,
-    "affix": "Cathan's Righteous Will",
-    "tip": "Fer of Righteous Will\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
+    "affix": "Cathan's Iron Conviction",
+    "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 40% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: You deal x80% increased damage and gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    }
   ]
  },
@@ -473,14 +472,14 @@
    "1280,1605": 1,
    "1420,1643": 1,
    "1309,1789": 1,
-   "459,1883": 13,
+   "459,1883": 15,
    "316,1994": 1,
    "253,1825": 1,
    "400,1770": 1,
-   "1070,2418": 1,
-   "1170,2307": 1,
-   "1310,2419": 1,
-   "1160,2529": 1,
+   "735,2419": 4,
+   "679,2308": 1,
+   "530,2364": 1,
+   "642,2530": 1,
    "1068,3234": 1,
    "1199,3348": 1,
    "1124,3439": 1,

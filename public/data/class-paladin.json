@@ -17565,9 +17565,9 @@
  },
  "glyphs": {
   "Spirit": "Rare Glyph\nFeverous (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, your Zealot skills deal + [40.9%] increased damage.\nAdditional Bonus:\nYou deal x5% increased damage for every stack of Fervor you have.\nRequirements (within radius):\n59 / 25 Willpower\nLegendary Bonus:\nIncrease damage by x [15.4%].",
-  "Outmatch": "Rare Glyph\nOutmatch (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x20% increased Physical damage to Non-Elites and Bosses.\nRequirements (within radius):\n45 / 40 Strength\nLegendary Bonus:\nIncrease damage while Healthy by x [18%].",
+  "Outmatch": "Rare Glyph\nSpirit (Lvl 150)\nBonus:\nFor every 5 Willpower purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase the damage an enemy takes from you by x3% for 20 seconds, up to x12%.\nRequirements (within radius):\n25 / 25 Willpower\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
   "Revenge": "Rare Glyph\nRevenge (Lvl 150)\nBonus:\nGrants + [318%] bonus to all Rare nodes within range.\nAdditional Bonus:\nDealing Thorns damage to an enemy increases all damage it takes from you by x1%, up to x15%, for 10 seconds.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
-  "Honed": "Rare Glyph\nOutmatch (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x20% increased Physical damage to Non-Elites and Bosses.\nRequirements (within radius):\n45 / 40 Strength\nLegendary Bonus:\nIncrease damage while Healthy by x [18%].",
+  "Honed": "Rare Glyph\nHoned (Lvl 150)\nBonus:\nFor every 5 Intelligence purchased within range, you deal + [47.2%] increased Critical Strike Damage.\nAdditional Bonus:\nSkills that Critically Strike generate 1 Faith.\nRequirements (within radius):\n32 / 25 Intelligence\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
   "Sentinel": "Rare Glyph\nRevenge (Lvl 150)\nBonus:\nGrants + [318%] bonus to all Rare nodes within range.\nAdditional Bonus:\nDealing Thorns damage to an enemy increases all damage it takes from you by x1%, up to x15%, for 10 seconds.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Challenger": "Rare Glyph\nRevenge (Lvl 150)\nBonus:\nGrants + [318%] bonus to all Rare nodes within range.\nAdditional Bonus:\nDealing Thorns damage to an enemy increases all damage it takes from you by x1%, up to x15%, for 10 seconds.\nRequirements (within radius):\n29 / 25 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Feverous": "Rare Glyph\nOutmatch (Lvl 150)\nBonus:\nGrants + [397.5%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x20% increased Physical damage to Non-Elites and Bosses.\nRequirements (within radius):\n45 / 40 Strength\nLegendary Bonus:\nIncrease damage while Healthy by x [18%].",
@@ -17750,7 +17750,8 @@
   "Advance": "Advance\nRank 15\nBasic\nMobility\nZealot\nLucky Hit: 14%\nAdvance forward with your weapon, dealing [268%] damage.\nModifiers\nAdvance grants +5% Critical Strike Chance for 8 seconds.\nAdvance deals x15% increased damage and grants your Unhindered for 2 seconds.\nAdvance rushes into enemies, granting 1 Fervor on each strike and deals an additional x25% damage per stack of Fervor you have.\nPhysical Damage",
   "Aspect of Heavenly Strength": "Aspect of Heavenly Strength\nPaladin\nWhile wielding a Two Handed Weapon, gain [20 - 30%] Damage Reduction.\nStrength\nMaximum Life\nFaith Regeneration\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)",
   "Duelist's Aspect": "Duelist's Aspect\nCodex • Paladin\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nCathan's Righteous Will\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
-  "Purify": "Purify\nRank 1\nJustice\nDefensive\nJudicator\nCooldown: 12 seconds\nEnshroud your enemies in the Light, Dazing them for [2] seconds.\nModifiers\nPurify reduces its cooldown by 1 second per enemy it hits up to 3 seconds.\nIncrease the size of Purify by 50%.\nInstead of Dazing enemies, Purify now Stuns for [4] seconds."
+  "Purify": "Purify\nRank 1\nJustice\nDefensive\nJudicator\nCooldown: 12 seconds\nEnshroud your enemies in the Light, Dazing them for [2] seconds.\nModifiers\nPurify reduces its cooldown by 1 second per enemy it hits up to 3 seconds.\nIncrease the size of Purify by 50%.\nInstead of Dazing enemies, Purify now Stuns for [4] seconds.",
+  "Penitent Greaves": "Penitent Greaves\nMythic Unique Boots\nPrimary Core Stat\nMovement Speed\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nDefiance Aura Potency\nYou are permanently Unhindered and leave behind a trail of frost that Chills enemies.\n\nYour Chill effects cause enemies to take x [19.5%] increased damage from you.\nDropped By:\nAll Bosses"
  },
  "catalog": {
   "items": {
@@ -17798,8 +17799,8 @@
    },
    "Blood-Mad Idol": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/blood-mad_idol.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Amulet",
     "tip": "Splinter of the Mother\nSoul Splinter\nJewelry:4375 Physical Resistance\nYou are Unhindered. Touching enemies makes them Vulnerable for 10 seconds. After touching 250 enemies, you are Stunned for 4 seconds."
    },
@@ -17807,14 +17808,14 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Ring 1",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "Aspect of Lapa's Scripture": {
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 2",
+    "slot": "Weapon",
     "tip": "Splinter of Sin\nSoul Splinter\nJewelry:4375 Lightning Resistance\nYou gain +50% Maximum Health, but your Maximum Primary Resource is reduced by 30%."
    },
    "Ward of the White Dove": {
@@ -17875,8 +17876,8 @@
    },
    "Herald's Morningstar": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/herald's_morningstar.png",
-    "rarity": "unique",
-    "kind": "unique",
+    "rarity": "mythic",
+    "kind": "mythic",
     "slot": "Weapon",
     "tip": "Herald's Morningstar\nUnique 1h Mace\nWeapon Damage\nRanks to Blessed Hammer\nCritical Strike Damage Multiplier\nAll Damage Multipler\nCritical Strike Chance\nBlessed Hammer deals x [80 - 100%] increased damage.\n\nLucky Hit: Up to a 20% chance to spawn a base Blessed Hammer on the target hit.\nPaladin\nDropped By:\nUrivar"
    },
@@ -17905,7 +17906,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Chest Armor",
+    "slot": "Pants",
     "tip": "Aspect of Glynn's Anvil\nPaladin\nYour maximum Resolve is increased by 2 and you gain [3 - 4%] Damage Reduction per Resolve up to x40%.\nStrength\nMaximum Life\nFaith Regeneration\nResistance to All Elements\nMaximum Life\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "Aspect of the Arbiter's Zephyr": {
@@ -18010,7 +18011,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 1",
+    "slot": "Ring 2",
     "tip": "Splinter of the Black Soulstone\nSoul Splinter\nJewelry:50 All Stats\nYour kills absorbs a soul for 10 seconds. Each soul increases your damage by x2.5%, but increases your damage taken by 1%. This effect can stack up to 200 times, but does not refresh."
    },
    "Aspect of the Moonrise": {
@@ -18066,7 +18067,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Helm",
+    "slot": "Chest Armor",
     "tip": "Juggernaut's Aspect\nCodex • Every Class\nYou gain + [100 - 150%] Total Armor, but your Evade has 100% increased Cooldown.\nStrength\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Resolve Stacks\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "Supplication": {
@@ -18201,6 +18202,20 @@
     "kind": "aspect",
     "slot": "Ring 1",
     "tip": "Duelist's Aspect\nCodex • Paladin\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCooldown Reduction\n+1 Set count to \nCathan's Righteous Will\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Razorplate": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/razorplate.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Chest Armor",
+    "tip": "Razorplate\nThorns has a 30% chance to deal x [200 - 250%] increased damage."
+   },
+   "Penitent Greaves": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/penitent_greaves.png",
+    "rarity": "mythic",
+    "kind": "mythic",
+    "slot": "Boots",
+    "tip": "Penitent Greaves\nMythic Unique Boots\nPrimary Core Stat\nMovement Speed\nAttacks Reduce Evade's Cooldown\nResistance to All Elements\nDefiance Aura Potency\nYou are permanently Unhindered and leave behind a trail of frost that Chills enemies.\n\nYour Chill effects cause enemies to take x [19.5%] increased damage from you.\nDropped By:\nAll Bosses"
    }
   },
   "charms": {
@@ -18216,14 +18231,14 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Heaven's Radiant Fire"
+    "tip": "Hellfire Torch\n20% All Stats\n20% Resistance to All Elements\n4 to All Skills\nCan equip 1 more Unique Charm\n+1 Set count to Cathan's Righteous Will"
    },
    "Fer of Righteous Will": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
     "set": "Cathan'S Righteous Will",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Righteous Will\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
+    "tip": "Fer of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
    },
    "Razorplate": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
@@ -18244,7 +18259,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "The Furnace\nJudicator Skills\nYou deal x [130%] more damage to Elites."
+    "tip": "The Furnace\nYou deal x [130%] more damage to Elites."
    },
    "Berú of Dauntless Faith": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
@@ -18272,7 +18287,7 @@
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
+    "tip": "Berú of Iron Conviction\nAura Skills\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 40% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: You deal x80% increased damage and gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    "Mlor of Dauntless Faith": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
@@ -18286,21 +18301,21 @@
     "set": "Cathan'S Iron Conviction",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 55% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: Gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
+    "tip": "Fer of Iron Conviction\nCathan's Iron Conviction\nPhoba of Iron Conviction\nFer of Iron Conviction\nMlor of Iron Conviction\nLinta of Iron Conviction\nBerú of Iron Conviction\nCathan's Iron Conviction\n(2) Set: Gain 40% Aura Potency.\n(3) Set: You gain 30% Damage Reduction and your Auras Skills gain all of their Upgrades. Your Auras Skills actives no longer take Faith to Cast.\n(5) Set: You deal x80% increased damage and gain Conviction Aura, increasing the damage Nearby enemies take from all sources by x0.5% per Skill Rank you have in all your Aura Skills."
    },
    "Fer of Light's Epiphany": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+    "tip": "Fer of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 45% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    "Berú of Light's Epiphany": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/light's_epiphany.png",
     "set": "Light'S Epiphany",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 30% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
+    "tip": "Berú of Light's Epiphany\nLight's Epiphany\nPhoba of Light's Epiphany\nFer of Light's Epiphany\nMlor of Light's Epiphany\nLinta of Light's Epiphany\nBerú of Light's Epiphany\nLight's Epiphany\n(2) Set: Disciple Skills reduce the Cooldown of Arbiter of Justice by 0.1 seconds when they deal damage, or by 0.5 seconds if they have a Cooldown.\n(3) Set: While in Arbiter, gain 45% increased Maximum Life and x10% increased Movement Speed\n(5) Set: When you Cast Arbiter of Justice, unleash all Ultimates, triggering Heaven's Fury and Fortress and replacing Arbiter of Justice with Zenith for 10 seconds. Gain x500% increased damage with Disciple Skills for the duration of Arbiter of Justice. All Ultimates are also Disciple Skills."
    },
    "Blood-Mad Idol": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
@@ -18342,7 +18357,7 @@
     "set": "Cathan'S Righteous Will",
     "mythic": false,
     "unique": false,
-    "tip": "Berú of Righteous Will\nAura Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
+    "tip": "Berú of Righteous Will\nJuggernaut Skills\nCathan's Righteous Will\nPhoba of Righteous Will\nFer of Righteous Will\nMlor of Righteous Will\nLinta of Righteous Will\nBerú of Righteous Will\nCathan's Righteous Will\n(2) Set: Enemies cower before you, becoming Feared and Immobilized for 0.5 seconds when they first see you or when you Block them.\n(3) Set: You reflect Stun and Knockback effects. Your Minimum Resolve is increased by 2 and Maximum Resolve is increased by 2 and you gain +10% Damage Reduction for each Minimum Resolve you have.\n(5) Set: When you try to Crowd Control a worthy enemy, one that can't be Crowd Controlled, you rise to the occasion gaining x500% increased damage for 20 seconds."
    },
    "Phoba of Righteous Will": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_righteous_will.png",
@@ -18356,7 +18371,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Griswold's Opus\nDealing direct damage grants x [1.3%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [65%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
+    "tip": "Griswold's Opus\nJuggernaut Skills\nDealing direct damage grants x [1.3%] increased Critical Strike Damage for each enemy hit within 10 seconds, up to x [65%].\n\nAt Maximum you gain:\n\nLucky Hit: Critical Strikes have up to a 50% chance to deal double damage, Heal for [X] Life, and refresh the duration of the bonus."
    },
    "Berú of Radiant Fire": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
@@ -18377,7 +18392,7 @@
     "set": "Heaven'S Radiant Fire",
     "mythic": false,
     "unique": false,
-    "tip": "Linta of Radiant Fire\nAura Skills\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
+    "tip": "Linta of Radiant Fire\nJudicator Skills\nHeaven's Radiant Fire\nPhoba of Radiant Fire\nFer of Radiant Fire\nMlor of Radiant Fire\nLinta of Radiant Fire\nBerú of Radiant Fire\nHeaven's Radiant Fire\n(2) Set: Judgement now spreads to targets that don't have it and Judging enemies grants Judgement Day, increasing your damage by x12.5% for 10 seconds, up to 5 times.\n(3) Set: You gain 30% Damage Reduction and Heal for 2.5% of your Maximum Life every second while affected by Judgement Day.\n(5) Set: Judgement Day's damage bonus is increased to x25% and maximum number of stacks is increased to 20. Judging a Boss now grants 5 stacks of Judgement Day."
    },
    "Mlor of Radiant Fire": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/heaven's_radiant_fire.png",
@@ -18405,7 +18420,7 @@
     "set": "",
     "mythic": true,
     "unique": false,
-    "tip": "Fists of Fate\nZealot Skills\nYour attacks randomly deal 1% to [390%] of their normal damage."
+    "tip": "Fists of Fate\nYour attacks randomly deal 1% to [390%] of their normal damage."
    },
    "Phoba of Dauntless Faith": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/cathan's_dauntless_faith.png",
@@ -18413,6 +18428,13 @@
     "mythic": false,
     "unique": false,
     "tip": "Phoba of Dauntless Faith\nZealot Skills\nCathan's Dauntless Faith\nPhoba of Dauntless Faith\nFer of Dauntless Faith\nMlor of Dauntless Faith\nLinta of Dauntless Faith\nBerú of Dauntless Faith\nCathan's Dauntless Faith\n(2) Set: Zealot Skills grant Do or Die on hit, increasing your Critical Strike damage by x2.5% and Cast Speed by +0.4% for 2 seconds, stacking up to 25 times.\n(3) Set: Do or Die automatically triggers Rally every 6 seconds while at maximum stacks. Rally additionally grants 30% increased Damage Reduction.\n(5) Set: Zealot Skills deal x200% increased damage. Every 5 Stacks of Do or Die you gain stores a Zealot Afterimage and moving periodically spawns your stored Afterimages."
+   },
+   "Mantle of the Grey": {
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "set": "",
+    "mythic": true,
+    "unique": false,
+    "tip": "Mantle of the Grey\nJuggernaut Oath makes your Juggernaut Skills 25% larger but Consumes up to 16 Resolve, granting x [7.8%] increased Juggernaut Skill damage for each point Consumed."
    }
   },
   "seals": {
@@ -18426,7 +18448,7 @@
    },
    "Mythic Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
-    "tip": "Mythic Seal of the Golden Epiphany\nYou can equip up to 3 Unique Charms."
+    "tip": "Mythic Seal of the Golden Epiphany\nDamage\nCathan's Righteous Will:\nMaximum Resolve Stacks\nYou can equip up to 3 Unique Charms."
    }
   },
   "runes": {

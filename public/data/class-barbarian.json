@@ -17606,7 +17606,9 @@
   "Aspect of the Moonrise": "Aspect of the Moonrise\nEvery Class\nDamaging an enemy with a Basic Skill grants you +4% Attack Speed for 10 seconds, stacking up to 5 times. Upon reaching maximum stacks, you enter a Vampiric Bloodrage, gaining x [60 - 80%] Basic Skill damage and 15% Movement Speed for 10 seconds.\nVulnerable Damage Multiplier\nPhysical Damage Multiplier\nAll Skills\nDamage Over Time Multiplier\nCooldown Reduction\nAspect of Anger Management\n+1 Set count to \nBerserker's Crucible\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)",
   "Flay": "Flay\nRank 15\nBasic\nSlashing\nMartial\nFury Generate: 15\nLucky Hit: 50%\nFlay the enemy, dealing [13%] damage and inflicting [293%] Bleeding damage over 5 seconds.\nModifiers\nFlay's Bleeding duration is increased by 5 seconds.\nEach Nearby enemy Bleeding from Flay Heals you for 1% of your Maximum Life per second, up to 5%.\nIf Flay hits a Bleeding enemy it causes a blood explosion that inflicts [74%] Bleeding damage over 5 seconds.\nPhysical Damage\nRequires a Slashing weapon",
   "Tam": "Tam\nLegendary Rune of Ritual\nGain: 25 Offering\nCast a non-Channeled Core Skill.",
-  "Squirt's Blouse": "Squirt's Blouse\nMythic Unique Chest Armor\nPrimary Core Stat\nFury Regeneration\nMaximum Life\nMaximum Resource\nMaximum Life\nMaximum Resource\nWhile not taking Damage, you take up to 50% and deal up to x [65%] more damage. This bonus is reset upon losing Life."
+  "Squirt's Blouse": "Squirt's Blouse\nMythic Unique Chest Armor\nPrimary Core Stat\nFury Regeneration\nMaximum Life\nMaximum Resource\nMaximum Life\nMaximum Resource\nWhile not taking Damage, you take up to 50% and deal up to x [65%] more damage. This bonus is reset upon losing Life.",
+  "Yax": "Yax\nMagic Rune of Ritual\nGain: 200 Offering\nDrink a Healing Potion.",
+  "1h Axe": "1h Axe\n+20% increased Critical Strike Chance.\nLucky Hit: Critical Strikes have up to a 55% chance to grant +12% increased Attack Speed for 2 seconds."
  },
  "catalog": {
   "items": {
@@ -17691,7 +17693,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "aspect",
-    "slot": "Ring 1",
+    "slot": "Amulet",
     "tip": "Crushing Aspect\nCodex • Barbarian\nWhile Fortified, you deal x [45 - 65%] increased damage.\nDamage Over Time Multiplier\nAll Damage Multiplier\nStrength\nMaximum Life\nDamage Over Time\nFire Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Tuskhelm of Joritz the Mighty": {
@@ -17710,8 +17712,8 @@
    },
    "Gohr's Devastating Grips": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/gohr's_devastating_grips.png",
-    "rarity": "mythic",
-    "kind": "mythic",
+    "rarity": "unique",
+    "kind": "unique",
     "slot": "Gloves",
     "tip": "Gohr's Devastating Grips\nUnique Gloves\nCritical Strike Chance\nRanks to Whirlwind\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nWhirlwind deals x [75 - 90%] increased damage and pulls enemies to you every 2 seconds.\nBarbarian\nDropped By:\nGrigoire"
    },
@@ -17733,7 +17735,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Dual-Wield Weapon 1",
+    "slot": "Bludgeoning Weapon",
     "tip": "Aspect of Channeling\nCodex • Barbarian\nWhile channeling a Skill, all damage is increased by x [50 - 70%].\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Heavy Hitting Aspect": {
@@ -17922,7 +17924,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Ring 2",
+    "slot": "Slashing Weapon",
     "tip": "Aspect of Walloping\nCodex • Barbarian\nYour Skills using Bludgeoning weapons deal x [40 - 60%] increased damage if the enemy is Incapacitated or Vulnerable.\nStrength\nMaximum Life\nWeapon Damage\nCritical Strike Damage Multiplier\nCritical Strike Chance\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "The Third Blade": {
@@ -17948,8 +17950,8 @@
    },
    "Twin Strikes": {
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/twin_strikes.png",
-    "rarity": "mythic",
-    "kind": "mythic",
+    "rarity": "unique",
+    "kind": "unique",
     "slot": "Gloves",
     "tip": "Twin Strikes\nMythic Unique Gloves\nStrength\nRanks to Double Swing\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nCritical Strike Damage\nDouble Swing's initial sweep deals x [78%] increased damage and applies Vulnerable. Subsequent swings deals x [156%] increased damage and grants Berserking for 3 seconds.\nBarbarian\nDropped By:\nLord Zir"
    },
@@ -18058,7 +18060,7 @@
     "set": "Sescheron'S Fury",
     "mythic": false,
     "unique": false,
-    "tip": "Fer of Sescheron's Fury\nMartial Skill\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
+    "tip": "Fer of Sescheron's Fury\nSescheron's Fury\nPhoba of Sescheron's Fury\nFer of Sescheron's Fury\nMlor of Sescheron's Fury\nLinta of Sescheron's Fury\nBerú of Sescheron's Fury\nSescheron's Fury\n(2) Set: While at or above 100 Fury, you become Colossal, losing 25% Cast Speed but gaining 20% Character and Skill Size and x80% increased damage.\n(3) Set: You gain an additional 10 Fury when hit and 40% Maximum Life.\n(5) Set: Your Maximum Fury is increased by 50. Colossal further increases Skill size to 50%, and damage to x500%."
    },
    "Fer of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
@@ -18075,11 +18077,11 @@
     "tip": "Berú of the Crucible\nMartial Skill\nBerserker's Crucible\nPhoba of the Crucible\nFer of the Crucible\nMlor of the Crucible\nLinta of the Crucible\nBerú of the Crucible\nBerserker's Crucible\n(2) Set: Berserking's damage bonus is increased by x50% and it also grants +20% Cast Speed.\n(3) Set: Gain 30% Damage Reduction while Berserking.\n(5) Set: You gain stacking bonuses the longer you stay Berserking: - 5 seconds - x200% Damage and 30% Fury Cost Reduction. - 10 seconds - 10 Fury Per Second and 10% Cooldown Reduction. - 20 seconds - Every 5 seconds, trigger a random Shout Skill. - 60 seconds - x10% increased damage against Elites."
    },
    "Fists of Fate": {
-    "art": "https://sunderarmor.com/DIABLO4/Charms/1/mythic_charm.png",
+    "art": "https://sunderarmor.com/DIABLO4/Charms/1/unique_charm.png",
     "set": "",
-    "mythic": true,
-    "unique": false,
-    "tip": "Fists of Fate\nMaximum Resource\nYour attacks randomly deal 1% to [390%] of their normal damage."
+    "mythic": false,
+    "unique": true,
+    "tip": "Fists of Fate\nMartial Skill\nYour attacks randomly deal 1% to [250 - 300%] of their normal damage."
    },
    "Phoba of the Crucible": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/berserker's_crucible.png",
@@ -18243,7 +18245,7 @@
    },
    "Legendary Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal_legendary.png",
-    "tip": "Legendary Seal\nCritical Strike Damage\nAttack Speed while Berserking\n+1 Unique Charm Slot"
+    "tip": "Legendary Seal\nCritical Strike Damage\n+1 Charm Slot"
    },
    "Mythic Seal": {
     "art": "https://sunderarmor.com/DIABLO4/Charms/1/seal.png",
@@ -18330,6 +18332,10 @@
    "Moni": {
     "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
     "tip": "Moni\nMagic Rune of Ritual\nGain: 100 Offering\nCast 2 Mobility or Macabre Skills."
+   },
+   "Yax": {
+    "art": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
+    "tip": "Yax\nMagic Rune of Ritual\nGain: 200 Offering\nDrink a Healing Potion."
    }
   },
   "gems": {

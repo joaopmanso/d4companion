@@ -5,33 +5,32 @@
  "build": "Ball Lightning Sorc",
  "variant": "Starter (P200)",
  "url": "https://d4builds.gg/builds/ball-lightning-sorcerer-endgame/?var=1",
- "updated": "November 25, 2026",
+ "updated": "November 26, 2026",
  "author": "",
- "checked": "2026-11-25",
+ "checked": "2026-11-27",
  "tier": "S",
  "short": "Ball Lightning",
  "slots": {
   "helm": {
    "name": "Helm",
    "item": {
-    "name": "Crown of Lucion",
+    "name": "Godslayer Crown",
     "kind": "unique",
     "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/crown_of_lucion.png",
-    "tip": "Crown of Lucion\nMythic Unique Helm\nPrimary Core Stat\nMaximum Life\nArmor\nCooldown Reduction\nMaximum Life\nRanks to Ball Lightning\nEach time you use a Skill with a Primary Resource Cost, gain x [9.75%] increased damage and Resource Cost is increased by +30% for 6 seconds, stacking up to 6 times.\nDropped By:\nAll Bosses, \nAstaroth"
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/godslayer_crown.png",
+    "tip": "Godslayer Crown\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them."
    },
    "affixes": [
     "intelligence",
     "life",
-    "cdr",
-    "ranks:ball-lightning"
+    "cdr"
    ],
    "affixNames": [
     "Primary Core Stat",
+    "Mana Regeneration",
     "Maximum Life",
-    "Maximum Resource",
     "Cooldown Reduction",
-    "Ranks To Ball Lightning"
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -66,7 +65,7 @@
    "affixNames": [
     "Intelligence",
     "Maximum Life",
-    "Maximum Resource",
+    "Mana Regeneration",
     "Armor",
     "Horadric Affix"
    ],
@@ -79,11 +78,11 @@
    "aspects": [],
    "sockets": [
     "Poc",
-    "Lac"
+    "Mot"
    ],
    "socketArt": {
     "Poc": "https://sunderarmor.com/DIABLO4/Runes/ritual.png",
-    "Lac": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
+    "Mot": "https://sunderarmor.com/DIABLO4/Runes/invocation.png"
    }
   },
   "gloves": {
@@ -121,11 +120,11 @@
   "pants": {
    "name": "Pants",
    "item": {
-    "name": "Tibault's Will",
-    "kind": "unique",
-    "rarity": "unique",
-    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/tibault's_will.png",
-    "tip": "Tibault's Will\nMythic Unique Pants\nPrimary Core Stat\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nYou deal x [26%] increased damage and gain 25 Primary Resource Regeneration while Unstoppable and for 5 seconds after.\nDropped By:\nAll Bosses"
+    "name": "Aspect of Arcane Ward",
+    "kind": "legendary",
+    "rarity": "legendary",
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "tip": "Aspect of Arcane Ward\nCodex • Sorcerer\nYour Mastery Skills grant [20 - 30%] Damage Reduction while their effects are active.\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nIntelligence\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    },
    "affixes": [
     "intelligence",
@@ -134,7 +133,7 @@
     "intelligence"
    ],
    "affixNames": [
-    "Primary Core Stat",
+    "Intelligence",
     "Maximum Life",
     "Armor",
     "Mana Regeneration",
@@ -346,7 +345,7 @@
     "Ranks To Ball Lightning",
     "Critical Strike Damage Multiplier",
     "Critical Strike Chance",
-    "Damage"
+    "Horadric Affix"
    ],
    "tempers": [
     [
@@ -380,9 +379,9 @@
    "tip": "Poc\nRare Rune of Ritual\nGain: 5 Offering\nSpend 5% of your Maximum Resource."
   },
   {
-   "name": "Lac",
+   "name": "Mot",
    "art": "https://sunderarmor.com/DIABLO4/Runes/invocation.png",
-   "tip": "Lac\nRare Rune of Invocation\nRequires: 600 Offering (Overflow: Increased Duration)\nCooldown: 1 seconds\nInvoke the Barbarian's Challenging Shout Skill, taunting enemies and reducing your damage taken for 3 seconds."
+   "tip": "Mot\nRare Rune of Invocation\nRequires: 150 Offering (Overflow: Gain Multiple Shadows)\nCooldown: 1 seconds\nGain a shadow from the Rogue's Dark Shroud, reducing damage taken per shadow."
   }
  ],
  "talisman": {

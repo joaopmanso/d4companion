@@ -20163,7 +20163,8 @@
   "Invocation": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
   "Exploit": "Rare Glyph\nTactician (Lvl 150)\nBonus:\nGrants + [397%] bonus to all Rare nodes within range.\nAdditional Bonus:\nYou deal x15% increased damage for 4 seconds after casting a Defensive Skill. This duration increases by 4 seconds for each Defensive Skill not on your Action Bar.\nRequirements (within radius):\n34 / 25 Dexterity\nLegendary Bonus:\nIncrease damage by x [15.4%].",
   "Torch": "Rare Glyph\nDestruction (Lvl 150)\nBonus:\nFor every 5 Dexterity purchased within range, you deal + [24.1%] increased Critical Strike Damage.\nAdditional Bonus:\nCritical Strikes increase all damage the enemy takes from you by x2% for 10 seconds, up to x12%.\nRequirements (within radius):\n27 / 25 Dexterity\nLegendary Bonus:\nIncrease Critical Strike Damage by x [20%].",
-  "": "Glyph Socket"
+  "": "Glyph Socket",
+  "Electrocute": "Rare Glyph\nUnleash (Lvl 150)\nBonus:\nGrants + [477%] bonus to all Magic nodes within range.\nAdditional Bonus:\nAfter spending 50 Mana, you deal x8% increased damage and gain x25% increased Mana Regeneration for 3 seconds.\nRequirements (within radius):\n40 / 40 Intelligence\nLegendary Bonus:\nIncrease damage by x [15.4%]."
  },
  "tips": {
   "Vision of the Firestorm": "Vision of the Firestorm\nMythic Unique Helm\nIntelligence\nRanks to Firewall\nMaximum Resource\nCooldown Reduction\nMaximum Life\nFirewall has x [130%] increased damage and it's size is overcapped by 100%.\nSorcerer\nDropped By:\nGrigoire",
@@ -20310,7 +20311,8 @@
   "Strike of Stormhorn": "Strike of Stormhorn\nMythic Unique Focus\nIntelligence\nRanks to Ball Lightning\nCritical Strike Damage Multiplier\nCritical Strike Chance\nAttack Speed\nDamage\nBall Lightning deals x [130%] increased damage and explodes for 50% of its total damage when dissipating.\nSorcerer\nDropped By:\nGrigoire",
   "Banished Lord's Talisman": "Banished Lord's Talisman\nShock Skills\nFire Resistance\nAfter you spend 275 of your Primary Resource, gain 4 stacks of Overpower. Consuming Overpower increases your Critical Strike damage by x [87.1%] for 8 seconds.",
   "Orsivane": "Orsivane\nFor each Defensive Skill not on your Action Bar, you deal x [32.5%] increased damage and gain its associated Enchantment effect.",
-  "The Furnace": "The Furnace\nYou deal x [130%] more damage to Elites."
+  "The Furnace": "The Furnace\nYou deal x [130%] more damage to Elites.",
+  "Aspect of Arcane Ward": "Aspect of Arcane Ward\nCodex • Sorcerer\nYour Mastery Skills grant [20 - 30%] Damage Reduction while their effects are active.\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nIntelligence\nHelm, Chest, Pants, Shield, Amulet (+50%)"
  },
  "catalog": {
   "items": {
@@ -20437,7 +20439,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Codex/1/offensive.png",
     "rarity": "legendary",
     "kind": "legendary",
-    "slot": "Gloves",
+    "slot": "Offhand",
     "tip": "Aspect of Overwhelming Currents\nSorcerer\nShock Skill Critical Strikes frequently grant x [1.5 - 3%] Shock damage for 4 seconds. Stacks do not refresh the duration.\nCritical Strike Damage Multiplier\nVulnerable Damage Multiplier\nAll Damage Multiplier\nCritical Strike Chance\nCritical Strike Damage\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
    },
    "Ring of Starless Skies": {
@@ -20640,7 +20642,7 @@
     "art": "https://sunderarmor.com/DIABLO4/Uniques/2/flamescar.png",
     "rarity": "mythic",
     "kind": "mythic",
-    "slot": "2H Weapon",
+    "slot": "Weapon",
     "tip": "Flamescar\nUnique Wand\nWeapon Damage\nRanks to Incinerate\nDamage Over Time Multiplier\nAll Damage Multiplier\nDamage Over Time\nIncinerate gains one final charge, irradiating the area around youj and increasing damage dealt by x [200 - 300%] but costing an additional 50 Mana per second.\nSorcerer\nDropped By:\nUrivar"
    },
    "Aspect of Channeling": {
@@ -20684,6 +20686,20 @@
     "kind": "aspect",
     "slot": "Ring 2",
     "tip": "Duelist's Aspect\nCodex • Sorcerer\nWhile using a one-handed weapon, attacks increase your Weapon Damage by x [4.5 - 6.5%] stacking up to 10 times.\nAttack Speed\nVulnerable Damage Multiplier\nDamage Over Time Multiplier\nCooldown Reduction\nLucky Hit: Up to a 15% Chance to Restore X Primary Resource\n+1 Set count to \nHabacalva's Cauldron\nGloves, Offhand, Shield, 1H Weapon, 2H Weapon (+100%), Ring, Amulet (+50%)"
+   },
+   "Godslayer Crown": {
+    "art": "https://sunderarmor.com/DIABLO4/Uniques/2/godslayer_crown.png",
+    "rarity": "unique",
+    "kind": "unique",
+    "slot": "Helm",
+    "tip": "Godslayer Crown\nWhen you attempt to Incapacitate an enemy, you mark them and all surrounding enemies, pulling them in and dealing x [7.5 - 10%] increased damage to them."
+   },
+   "Aspect of Arcane Ward": {
+    "art": "https://sunderarmor.com/DIABLO4/Codex/1/defensive.png",
+    "rarity": "legendary",
+    "kind": "legendary",
+    "slot": "Pants",
+    "tip": "Aspect of Arcane Ward\nCodex • Sorcerer\nYour Mastery Skills grant [20 - 30%] Damage Reduction while their effects are active.\nIntelligence\nMaximum Life\nArmor\nMana Regeneration\nMaximum Life\nIntelligence\nHelm, Chest, Pants, Shield, Amulet (+50%)"
    }
   },
   "charms": {
